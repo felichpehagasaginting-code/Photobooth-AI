@@ -7628,3 +7628,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-01T14:47:53+07:00** - [Activity #1010] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-03-01T15:05:42+07:00** - [Activity #1011] style(typography): refine letter-spacing and line heights for headings
 - **2026-03-01T15:40:45+07:00** - [Activity #1012] perf(render): memoize grid item rendering to prevent redundant cycles
+- **2026-03-01T16:10:09+07:00** - [Activity #1013] fix(canvas): avoid pixelation on high-DPI canvas downsampling
