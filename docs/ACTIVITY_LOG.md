@@ -7635,3 +7635,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-01T19:30:44+07:00** - [Activity #1017] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-03-01T20:00:52+07:00** - [Activity #1018] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-03-01T20:32:23+07:00** - [Activity #1019] feat(watermark): add customizable branding and event date stamp
+- **2026-03-01T21:12:39+07:00** - [Activity #1020] feat(settings): create camera device selection modal with device ID persistence
