@@ -7625,3 +7625,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-01T11:52:00+07:00** - [Activity #1007] fix(canvas): avoid pixelation on high-DPI canvas downsampling
 - **2026-03-01T13:53:54+07:00** - [Activity #1008] chore(git): add ignore rules for local session exports and temp files
 - **2026-03-01T14:14:40+07:00** - [Activity #1009] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-03-01T14:47:53+07:00** - [Activity #1010] perf(fonts): preload display fonts to avoid flash of unstyled text
