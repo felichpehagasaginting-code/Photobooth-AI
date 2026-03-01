@@ -7633,3 +7633,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-01T17:05:52+07:00** - [Activity #1015] test(utils): add unit tests for image aspect ratio calculator
 - **2026-03-01T17:27:46+07:00** - [Activity #1016] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-03-01T19:30:44+07:00** - [Activity #1017] perf(fonts): preload display fonts to avoid flash of unstyled text
+- **2026-03-01T20:00:52+07:00** - [Activity #1018] style(modal): tune cubic-bezier easing curves on dialog open
