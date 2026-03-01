@@ -7621,3 +7621,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-01T09:56:37+07:00** - [Activity #1003] fix(camera): prevent stream freeze during rapid device re-enumeration
 - **2026-03-01T10:28:51+07:00** - [Activity #1004] style(grid): modernize layout overlap for bento-style elements
 - **2026-03-01T11:03:37+07:00** - [Activity #1005] feat(ui): build interactive shutter trigger with pulsating visual feedback
+- **2026-03-01T11:22:23+07:00** - [Activity #1006] docs(api): document endpoint parameters and error codes for seed route
