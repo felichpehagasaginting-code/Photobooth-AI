@@ -7652,3 +7652,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-02T14:01:05+07:00** - [Activity #1034] feat(filter): implement real-time WebGL LUT matrix transformation
 - **2026-03-02T14:27:21+07:00** - [Activity #1035] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-03-02T14:32:08+07:00** - [Activity #1036] refactor(styles): standardize spacing and typography design tokens
+- **2026-03-02T14:50:45+07:00** - [Activity #1037] perf(memory): explicitly clear canvas contexts after strip rendering
