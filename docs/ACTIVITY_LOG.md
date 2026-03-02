@@ -7665,3 +7665,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-02T17:42:22+07:00** - [Activity #1047] fix(qr): optimize QR code foreground-to-background contrast ratio
 - **2026-03-02T19:30:01+07:00** - [Activity #1048] fix(state): sync current photo strip selection across modal re-renders
 - **2026-03-02T19:47:41+07:00** - [Activity #1049] fix(camera): prevent stream freeze during rapid device re-enumeration
+- **2026-03-02T20:24:27+07:00** - [Activity #1050] perf(fonts): preload display fonts to avoid flash of unstyled text
