@@ -7670,3 +7670,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-02T21:02:40+07:00** - [Activity #1052] feat(settings): create camera device selection modal with device ID persistence
 - **2026-03-02T21:29:44+07:00** - [Activity #1053] fix(qr): optimize QR code foreground-to-background contrast ratio
 - **2026-03-02T22:02:42+07:00** - [Activity #1054] feat(camera): add dynamic resolution negotiator and frame rate switcher
+- **2026-03-02T22:25:55+07:00** - [Activity #1055] fix(touch): disable browser pull-to-refresh on interactive canvas
