@@ -7701,3 +7701,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-03T19:54:59+07:00** - [Activity #1083] fix(timer): ensure countdown timer stops when navigating away
 - **2026-03-03T20:11:48+07:00** - [Activity #1084] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-03-03T20:33:07+07:00** - [Activity #1085] feat(theme): configure dynamic dark mode CSS custom properties
+- **2026-03-03T21:03:01+07:00** - [Activity #1086] fix(download): prevent memory leak by revoking object URLs after download
