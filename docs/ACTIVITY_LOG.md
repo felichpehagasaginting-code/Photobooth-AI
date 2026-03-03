@@ -7695,3 +7695,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-03T16:41:08+07:00** - [Activity #1077] feat(filter): implement real-time WebGL LUT matrix transformation
 - **2026-03-03T16:46:24+07:00** - [Activity #1078] fix(download): prevent memory leak by revoking object URLs after download
 - **2026-03-03T17:08:35+07:00** - [Activity #1079] feat(gallery): create instant session photo carousel with swipe gestures
+- **2026-03-03T17:24:29+07:00** - [Activity #1080] style(typography): refine letter-spacing and line heights for headings
