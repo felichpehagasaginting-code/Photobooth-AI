@@ -7683,3 +7683,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-03T12:05:39+07:00** - [Activity #1065] perf(images): compress intermediate preview thumbnails asynchronously
 - **2026-03-03T13:50:41+07:00** - [Activity #1066] refactor(types): unify photobooth capture and export type definitions
 - **2026-03-03T13:59:01+07:00** - [Activity #1067] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-03-03T14:11:22+07:00** - [Activity #1068] refactor(export): optimize canvas blob generation with WebP compression
