@@ -7679,3 +7679,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-03T10:45:33+07:00** - [Activity #1061] refactor(filter): organize color grading matrices into separate configs
 - **2026-03-03T11:06:31+07:00** - [Activity #1062] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-03-03T11:33:11+07:00** - [Activity #1063] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-03-03T11:46:08+07:00** - [Activity #1064] fix(timer): ensure countdown timer stops when navigating away
