@@ -7709,3 +7709,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-04T09:00:18+07:00** - [Activity #1091] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-03-04T09:20:33+07:00** - [Activity #1092] fix(ui): adjust button touch target size for touch kiosks
 - **2026-03-04T09:31:50+07:00** - [Activity #1093] fix(canvas): avoid pixelation on high-DPI canvas downsampling
+- **2026-03-04T09:49:52+07:00** - [Activity #1094] docs(readme): add detailed hardware camera setup and compatibility guide
