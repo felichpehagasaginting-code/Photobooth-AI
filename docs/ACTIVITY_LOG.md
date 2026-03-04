@@ -7739,3 +7739,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-04T16:50:12+07:00** - [Activity #1121] refactor(filter): organize color grading matrices into separate configs
 - **2026-03-04T17:18:59+07:00** - [Activity #1122] fix(ui): adjust button touch target size for touch kiosks
 - **2026-03-04T17:27:40+07:00** - [Activity #1123] refactor(export): optimize canvas blob generation with WebP compression
+- **2026-03-04T17:31:13+07:00** - [Activity #1124] fix(canvas): avoid pixelation on high-DPI canvas downsampling
