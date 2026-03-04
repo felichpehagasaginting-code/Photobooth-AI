@@ -7713,3 +7713,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-04T10:05:29+07:00** - [Activity #1095] refactor(api): modularize backend route handlers and validation helpers
 - **2026-03-04T10:19:24+07:00** - [Activity #1096] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-03-04T10:25:46+07:00** - [Activity #1097] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-03-04T10:39:01+07:00** - [Activity #1098] fix(ui): adjust button touch target size for touch kiosks
