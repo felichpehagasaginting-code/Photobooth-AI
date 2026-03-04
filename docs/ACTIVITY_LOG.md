@@ -7720,3 +7720,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-04T11:46:17+07:00** - [Activity #1102] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-03-04T12:01:37+07:00** - [Activity #1103] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-03-04T12:14:57+07:00** - [Activity #1104] style(modal): tune cubic-bezier easing curves on dialog open
+- **2026-03-04T13:45:35+07:00** - [Activity #1105] refactor(ui): extract reusable glass-card and action-badge components
