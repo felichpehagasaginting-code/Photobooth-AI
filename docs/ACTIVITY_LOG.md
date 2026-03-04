@@ -7737,3 +7737,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-04T16:41:21+07:00** - [Activity #1119] refactor(state): structure session state store with zustand
 - **2026-03-04T16:41:34+07:00** - [Activity #1120] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-03-04T16:50:12+07:00** - [Activity #1121] refactor(filter): organize color grading matrices into separate configs
+- **2026-03-04T17:18:59+07:00** - [Activity #1122] fix(ui): adjust button touch target size for touch kiosks
