@@ -7735,3 +7735,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-04T16:04:39+07:00** - [Activity #1117] feat(export): add multi-frame strip layout builder with dynamic margins
 - **2026-03-04T16:20:07+07:00** - [Activity #1118] refactor(types): unify photobooth capture and export type definitions
 - **2026-03-04T16:41:21+07:00** - [Activity #1119] refactor(state): structure session state store with zustand
+- **2026-03-04T16:41:34+07:00** - [Activity #1120] docs(arch): add architecture diagram explaining client-side filter flow
