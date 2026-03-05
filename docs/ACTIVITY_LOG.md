@@ -7793,3 +7793,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-05T20:42:42+07:00** - [Activity #1175] feat(analytics): dispatch anonymous capture telemetry events
 - **2026-03-05T21:00:48+07:00** - [Activity #1176] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-03-05T21:21:46+07:00** - [Activity #1177] fix(ui): adjust button touch target size for touch kiosks
+- **2026-03-05T21:34:26+07:00** - [Activity #1178] docs(env): document all required environment variables with defaults
