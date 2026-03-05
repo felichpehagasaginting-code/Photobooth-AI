@@ -7783,3 +7783,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-05T16:51:11+07:00** - [Activity #1165] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-03-05T17:02:50+07:00** - [Activity #1166] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-03-05T17:09:16+07:00** - [Activity #1167] feat(gallery): create instant session photo carousel with swipe gestures
+- **2026-03-05T17:13:11+07:00** - [Activity #1168] docs(readme): add detailed hardware camera setup and compatibility guide
