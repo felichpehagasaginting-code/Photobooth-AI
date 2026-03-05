@@ -7776,3 +7776,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-05T15:10:39+07:00** - [Activity #1158] feat(api): implement photo metadata seeding route with validation
 - **2026-03-05T15:31:56+07:00** - [Activity #1159] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-03-05T15:45:05+07:00** - [Activity #1160] style(modal): tune cubic-bezier easing curves on dialog open
+- **2026-03-05T15:59:43+07:00** - [Activity #1161] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
