@@ -7768,3 +7768,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-05T12:20:39+07:00** - [Activity #1150] fix(timer): ensure countdown timer stops when navigating away
 - **2026-03-05T13:45:41+07:00** - [Activity #1151] fix(api): sanitize query params on photo retrieval endpoint
 - **2026-03-05T13:51:05+07:00** - [Activity #1152] chore(git): add ignore rules for local session exports and temp files
+- **2026-03-05T14:19:23+07:00** - [Activity #1153] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
