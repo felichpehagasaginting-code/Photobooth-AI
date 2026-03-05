@@ -7791,3 +7791,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-05T20:01:41+07:00** - [Activity #1173] feat(gallery): create instant session photo carousel with swipe gestures
 - **2026-03-05T20:30:03+07:00** - [Activity #1174] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-03-05T20:42:42+07:00** - [Activity #1175] feat(analytics): dispatch anonymous capture telemetry events
+- **2026-03-05T21:00:48+07:00** - [Activity #1176] perf(fonts): preload display fonts to avoid flash of unstyled text
