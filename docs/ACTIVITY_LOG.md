@@ -7794,3 +7794,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-05T21:00:48+07:00** - [Activity #1176] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-03-05T21:21:46+07:00** - [Activity #1177] fix(ui): adjust button touch target size for touch kiosks
 - **2026-03-05T21:34:26+07:00** - [Activity #1178] docs(env): document all required environment variables with defaults
+- **2026-03-05T21:56:35+07:00** - [Activity #1179] docs(changelog): update version history and release milestones
