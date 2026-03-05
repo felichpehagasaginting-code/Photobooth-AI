@@ -7761,3 +7761,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-05T10:20:20+07:00** - [Activity #1143] feat(photobooth): initialize core camera streaming architecture
 - **2026-03-05T10:29:35+07:00** - [Activity #1144] feat(settings): create camera device selection modal with device ID persistence
 - **2026-03-05T10:48:53+07:00** - [Activity #1145] style(cards): apply subtle border gradient and elevation shadow
+- **2026-03-05T11:06:53+07:00** - [Activity #1146] docs(deploy): add production deployment instructions for Vercel/Docker
