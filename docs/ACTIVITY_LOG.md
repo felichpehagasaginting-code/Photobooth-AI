@@ -7754,3 +7754,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-04T22:12:39+07:00** - [Activity #1136] feat(watermark): add customizable branding and event date stamp
 - **2026-03-04T22:31:19+07:00** - [Activity #1137] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-03-05T09:00:47+07:00** - [Activity #1138] fix(touch): disable browser pull-to-refresh on interactive canvas
+- **2026-03-05T09:10:20+07:00** - [Activity #1139] fix(camera): correct video aspect ratio calculation on widescreen monitors
