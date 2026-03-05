@@ -7764,3 +7764,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-05T11:06:53+07:00** - [Activity #1146] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-03-05T11:25:00+07:00** - [Activity #1147] perf(canvas): render WebGL shaders on offscreen canvas worker
 - **2026-03-05T11:36:38+07:00** - [Activity #1148] fix(camera): prevent stream freeze during rapid device re-enumeration
+- **2026-03-05T11:59:58+07:00** - [Activity #1149] feat(ui): design responsive photobooth preview grid for kiosk mode
