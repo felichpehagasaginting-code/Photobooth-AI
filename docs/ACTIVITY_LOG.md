@@ -7762,3 +7762,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-05T10:29:35+07:00** - [Activity #1144] feat(settings): create camera device selection modal with device ID persistence
 - **2026-03-05T10:48:53+07:00** - [Activity #1145] style(cards): apply subtle border gradient and elevation shadow
 - **2026-03-05T11:06:53+07:00** - [Activity #1146] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-03-05T11:25:00+07:00** - [Activity #1147] perf(canvas): render WebGL shaders on offscreen canvas worker
