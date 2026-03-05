@@ -7766,3 +7766,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-05T11:36:38+07:00** - [Activity #1148] fix(camera): prevent stream freeze during rapid device re-enumeration
 - **2026-03-05T11:59:58+07:00** - [Activity #1149] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-03-05T12:20:39+07:00** - [Activity #1150] fix(timer): ensure countdown timer stops when navigating away
+- **2026-03-05T13:45:41+07:00** - [Activity #1151] fix(api): sanitize query params on photo retrieval endpoint
