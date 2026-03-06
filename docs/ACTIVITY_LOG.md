@@ -7830,3 +7830,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-06T20:16:18+07:00** - [Activity #1212] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-03-06T20:36:09+07:00** - [Activity #1213] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-03-06T20:45:02+07:00** - [Activity #1214] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-03-06T21:02:37+07:00** - [Activity #1215] feat(camera): add dynamic resolution negotiator and frame rate switcher
