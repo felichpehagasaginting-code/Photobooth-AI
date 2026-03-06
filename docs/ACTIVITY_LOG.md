@@ -7807,3 +7807,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-06T11:15:49+07:00** - [Activity #1189] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-03-06T11:32:03+07:00** - [Activity #1190] feat(stickers): support canvas-based sticker overlay and touch positioning
 - **2026-03-06T11:47:35+07:00** - [Activity #1191] fix(storage): add graceful error handling when local quota is exceeded
+- **2026-03-06T12:03:42+07:00** - [Activity #1192] refactor(filter): organize color grading matrices into separate configs
