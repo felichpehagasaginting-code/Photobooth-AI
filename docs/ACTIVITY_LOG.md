@@ -7801,3 +7801,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-06T09:24:08+07:00** - [Activity #1183] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-03-06T09:36:14+07:00** - [Activity #1184] docs(api): document endpoint parameters and error codes for seed route
 - **2026-03-06T09:56:29+07:00** - [Activity #1185] feat(analytics): dispatch anonymous capture telemetry events
+- **2026-03-06T10:18:57+07:00** - [Activity #1186] refactor(export): optimize canvas blob generation with WebP compression
