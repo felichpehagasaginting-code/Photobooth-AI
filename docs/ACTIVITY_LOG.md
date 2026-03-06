@@ -7822,3 +7822,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-06T16:23:15+07:00** - [Activity #1204] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-03-06T16:54:56+07:00** - [Activity #1205] feat(export): add multi-frame strip layout builder with dynamic margins
 - **2026-03-06T17:06:58+07:00** - [Activity #1206] style(theme): update dark mode accent color token with warm hue
+- **2026-03-06T17:18:08+07:00** - [Activity #1207] fix(storage): add graceful error handling when local quota is exceeded
