@@ -7799,3 +7799,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-05T22:21:31+07:00** - [Activity #1181] refactor(camera): decouple media stream manager into custom hook
 - **2026-03-06T09:00:10+07:00** - [Activity #1182] feat(settings): create camera device selection modal with device ID persistence
 - **2026-03-06T09:24:08+07:00** - [Activity #1183] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-03-06T09:36:14+07:00** - [Activity #1184] docs(api): document endpoint parameters and error codes for seed route
