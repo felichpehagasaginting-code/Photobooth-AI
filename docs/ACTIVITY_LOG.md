@@ -7844,3 +7844,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-07T12:01:34+07:00** - [Activity #1226] fix(camera): prevent stream freeze during rapid device re-enumeration
 - **2026-03-07T13:45:07+07:00** - [Activity #1227] refactor(export): optimize canvas blob generation with WebP compression
 - **2026-03-07T14:17:31+07:00** - [Activity #1228] feat(api): implement photo metadata seeding route with validation
+- **2026-03-07T14:40:59+07:00** - [Activity #1229] feat(kiosk): add auto-reset countdown timer on idle session
