@@ -7845,3 +7845,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-07T13:45:07+07:00** - [Activity #1227] refactor(export): optimize canvas blob generation with WebP compression
 - **2026-03-07T14:17:31+07:00** - [Activity #1228] feat(api): implement photo metadata seeding route with validation
 - **2026-03-07T14:40:59+07:00** - [Activity #1229] feat(kiosk): add auto-reset countdown timer on idle session
+- **2026-03-07T15:07:57+07:00** - [Activity #1230] docs(arch): add architecture diagram explaining client-side filter flow
