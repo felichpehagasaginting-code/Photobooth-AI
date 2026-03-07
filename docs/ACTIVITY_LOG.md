@@ -7855,3 +7855,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-07T19:30:25+07:00** - [Activity #1237] test(utils): add unit tests for image aspect ratio calculator
 - **2026-03-07T19:56:21+07:00** - [Activity #1238] feat(camera): add dynamic resolution negotiator and frame rate switcher
 - **2026-03-07T20:38:18+07:00** - [Activity #1239] fix(state): sync current photo strip selection across modal re-renders
+- **2026-03-07T21:14:01+07:00** - [Activity #1240] perf(images): compress intermediate preview thumbnails asynchronously
