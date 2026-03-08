@@ -7874,3 +7874,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-08T16:13:00+07:00** - [Activity #1256] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-03-08T16:49:13+07:00** - [Activity #1257] fix(canvas): avoid pixelation on high-DPI canvas downsampling
 - **2026-03-08T17:02:11+07:00** - [Activity #1258] perf(memory): explicitly clear canvas contexts after strip rendering
+- **2026-03-08T17:29:22+07:00** - [Activity #1259] perf(fonts): preload display fonts to avoid flash of unstyled text
