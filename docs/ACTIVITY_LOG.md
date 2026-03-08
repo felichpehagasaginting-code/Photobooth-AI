@@ -7870,3 +7870,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-08T14:33:17+07:00** - [Activity #1252] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-03-08T14:53:01+07:00** - [Activity #1253] style(typography): refine letter-spacing and line heights for headings
 - **2026-03-08T15:17:39+07:00** - [Activity #1254] feat(settings): create camera device selection modal with device ID persistence
+- **2026-03-08T15:57:15+07:00** - [Activity #1255] refactor(export): optimize canvas blob generation with WebP compression
