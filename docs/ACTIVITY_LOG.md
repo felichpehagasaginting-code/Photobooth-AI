@@ -7871,3 +7871,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-08T14:53:01+07:00** - [Activity #1253] style(typography): refine letter-spacing and line heights for headings
 - **2026-03-08T15:17:39+07:00** - [Activity #1254] feat(settings): create camera device selection modal with device ID persistence
 - **2026-03-08T15:57:15+07:00** - [Activity #1255] refactor(export): optimize canvas blob generation with WebP compression
+- **2026-03-08T16:13:00+07:00** - [Activity #1256] style(modal): tune cubic-bezier easing curves on dialog open
