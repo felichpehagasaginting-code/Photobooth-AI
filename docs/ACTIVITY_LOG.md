@@ -7876,3 +7876,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-08T17:02:11+07:00** - [Activity #1258] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-03-08T17:29:22+07:00** - [Activity #1259] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-03-08T19:30:02+07:00** - [Activity #1260] style(modal): tune cubic-bezier easing curves on dialog open
+- **2026-03-08T20:02:28+07:00** - [Activity #1261] fix(firebase): handle connection dropout during batch sync gracefully
