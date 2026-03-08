@@ -7873,3 +7873,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-08T15:57:15+07:00** - [Activity #1255] refactor(export): optimize canvas blob generation with WebP compression
 - **2026-03-08T16:13:00+07:00** - [Activity #1256] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-03-08T16:49:13+07:00** - [Activity #1257] fix(canvas): avoid pixelation on high-DPI canvas downsampling
+- **2026-03-08T17:02:11+07:00** - [Activity #1258] perf(memory): explicitly clear canvas contexts after strip rendering
