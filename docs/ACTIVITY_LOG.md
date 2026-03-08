@@ -7864,3 +7864,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-08T10:25:09+07:00** - [Activity #1246] feat(share): implement client-side QR code generator for photo download
 - **2026-03-08T10:57:50+07:00** - [Activity #1247] refactor(state): structure session state store with zustand
 - **2026-03-08T11:29:56+07:00** - [Activity #1248] perf(canvas): render WebGL shaders on offscreen canvas worker
+- **2026-03-08T11:56:21+07:00** - [Activity #1249] perf(memory): explicitly clear canvas contexts after strip rendering
