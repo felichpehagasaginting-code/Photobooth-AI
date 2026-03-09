@@ -7906,3 +7906,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-09T16:59:00+07:00** - [Activity #1288] fix(download): prevent memory leak by revoking object URLs after download
 - **2026-03-09T17:14:09+07:00** - [Activity #1289] feat(export): add multi-frame strip layout builder with dynamic margins
 - **2026-03-09T17:35:56+07:00** - [Activity #1290] fix(ui): adjust button touch target size for touch kiosks
+- **2026-03-09T17:53:03+07:00** - [Activity #1291] test(canvas): add snapshot tests for multi-frame collage layouts
