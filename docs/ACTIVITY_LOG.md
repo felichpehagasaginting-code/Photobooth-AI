@@ -7914,3 +7914,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-09T21:00:33+07:00** - [Activity #1296] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-03-09T21:25:52+07:00** - [Activity #1297] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-03-09T22:03:23+07:00** - [Activity #1298] fix(state): sync current photo strip selection across modal re-renders
+- **2026-03-09T22:24:51+07:00** - [Activity #1299] docs(api): document endpoint parameters and error codes for seed route
