@@ -7908,3 +7908,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-09T17:35:56+07:00** - [Activity #1290] fix(ui): adjust button touch target size for touch kiosks
 - **2026-03-09T17:53:03+07:00** - [Activity #1291] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-03-09T19:30:26+07:00** - [Activity #1292] feat(theme): configure dynamic dark mode CSS custom properties
+- **2026-03-09T20:00:20+07:00** - [Activity #1293] fix(firebase): handle connection dropout during batch sync gracefully
