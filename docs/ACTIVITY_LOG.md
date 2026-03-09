@@ -7895,3 +7895,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-09T13:57:21+07:00** - [Activity #1277] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-03-09T14:17:01+07:00** - [Activity #1278] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-03-09T14:24:25+07:00** - [Activity #1279] chore(deps): update core dependencies to latest stable versions
+- **2026-03-09T14:47:49+07:00** - [Activity #1280] fix(ui): adjust button touch target size for touch kiosks
