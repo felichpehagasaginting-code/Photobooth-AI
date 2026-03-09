@@ -7911,3 +7911,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-09T20:00:20+07:00** - [Activity #1293] fix(firebase): handle connection dropout during batch sync gracefully
 - **2026-03-09T20:15:41+07:00** - [Activity #1294] style(button): add subtle hover transition and outline focus style
 - **2026-03-09T20:43:55+07:00** - [Activity #1295] perf(images): compress intermediate preview thumbnails asynchronously
+- **2026-03-09T21:00:33+07:00** - [Activity #1296] fix(camera): correct video aspect ratio calculation on widescreen monitors
