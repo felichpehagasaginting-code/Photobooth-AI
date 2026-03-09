@@ -7904,3 +7904,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-09T16:25:45+07:00** - [Activity #1286] fix(accessibility): add missing aria attributes to camera controls
 - **2026-03-09T16:37:44+07:00** - [Activity #1287] refactor(camera): decouple media stream manager into custom hook
 - **2026-03-09T16:59:00+07:00** - [Activity #1288] fix(download): prevent memory leak by revoking object URLs after download
+- **2026-03-09T17:14:09+07:00** - [Activity #1289] feat(export): add multi-frame strip layout builder with dynamic margins
