@@ -7921,3 +7921,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-10T09:47:04+07:00** - [Activity #1303] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-03-10T10:02:47+07:00** - [Activity #1304] fix(state): sync current photo strip selection across modal re-renders
 - **2026-03-10T10:26:59+07:00** - [Activity #1305] style(grid): modernize layout overlap for bento-style elements
+- **2026-03-10T10:36:40+07:00** - [Activity #1306] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
