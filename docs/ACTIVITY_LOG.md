@@ -7946,3 +7946,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-10T17:15:37+07:00** - [Activity #1328] refactor(state): structure session state store with zustand
 - **2026-03-10T17:24:54+07:00** - [Activity #1329] feat(analytics): dispatch anonymous capture telemetry events
 - **2026-03-10T17:24:57+07:00** - [Activity #1330] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-03-10T17:45:31+07:00** - [Activity #1331] fix(camera): correct video aspect ratio calculation on widescreen monitors
