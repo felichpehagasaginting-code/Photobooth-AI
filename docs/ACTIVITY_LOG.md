@@ -7928,3 +7928,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-10T11:39:41+07:00** - [Activity #1310] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-03-10T11:55:02+07:00** - [Activity #1311] feat(storage): integrate indexedDB caching for local photo session recovery
 - **2026-03-10T12:14:06+07:00** - [Activity #1312] perf(images): compress intermediate preview thumbnails asynchronously
+- **2026-03-10T13:54:33+07:00** - [Activity #1313] fix(canvas): avoid pixelation on high-DPI canvas downsampling
