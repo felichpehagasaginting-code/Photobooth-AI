@@ -7925,3 +7925,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-10T10:49:43+07:00** - [Activity #1307] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-03-10T11:13:06+07:00** - [Activity #1308] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-03-10T11:25:04+07:00** - [Activity #1309] refactor(export): optimize canvas blob generation with WebP compression
+- **2026-03-10T11:39:41+07:00** - [Activity #1310] docs(readme): add detailed hardware camera setup and compatibility guide
