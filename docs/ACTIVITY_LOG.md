@@ -7943,3 +7943,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-10T16:30:31+07:00** - [Activity #1325] feat(audio): integrate synthesized camera shutter click and countdown beeps
 - **2026-03-10T16:42:56+07:00** - [Activity #1326] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-03-10T16:57:30+07:00** - [Activity #1327] fix(state): sync current photo strip selection across modal re-renders
+- **2026-03-10T17:15:37+07:00** - [Activity #1328] refactor(state): structure session state store with zustand
