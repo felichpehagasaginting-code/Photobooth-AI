@@ -7929,3 +7929,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-10T11:55:02+07:00** - [Activity #1311] feat(storage): integrate indexedDB caching for local photo session recovery
 - **2026-03-10T12:14:06+07:00** - [Activity #1312] perf(images): compress intermediate preview thumbnails asynchronously
 - **2026-03-10T13:54:33+07:00** - [Activity #1313] fix(canvas): avoid pixelation on high-DPI canvas downsampling
+- **2026-03-10T13:55:39+07:00** - [Activity #1314] docs(api): document endpoint parameters and error codes for seed route
