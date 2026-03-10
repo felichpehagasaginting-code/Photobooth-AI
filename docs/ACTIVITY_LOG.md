@@ -7942,3 +7942,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-10T16:07:46+07:00** - [Activity #1324] feat(stickers): support canvas-based sticker overlay and touch positioning
 - **2026-03-10T16:30:31+07:00** - [Activity #1325] feat(audio): integrate synthesized camera shutter click and countdown beeps
 - **2026-03-10T16:42:56+07:00** - [Activity #1326] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
+- **2026-03-10T16:57:30+07:00** - [Activity #1327] fix(state): sync current photo strip selection across modal re-renders
