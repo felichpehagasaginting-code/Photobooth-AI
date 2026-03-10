@@ -7953,3 +7953,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-10T20:32:20+07:00** - [Activity #1335] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-03-10T20:49:44+07:00** - [Activity #1336] style(theme): update dark mode accent color token with warm hue
 - **2026-03-10T21:06:40+07:00** - [Activity #1337] feat(kiosk): add auto-reset countdown timer on idle session
+- **2026-03-10T21:20:32+07:00** - [Activity #1338] perf(canvas): render WebGL shaders on offscreen canvas worker
