@@ -7936,3 +7936,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-10T15:00:56+07:00** - [Activity #1318] perf(canvas): render WebGL shaders on offscreen canvas worker
 - **2026-03-10T15:08:29+07:00** - [Activity #1319] perf(images): compress intermediate preview thumbnails asynchronously
 - **2026-03-10T15:14:11+07:00** - [Activity #1320] refactor(utils): optimize hex-to-rgb and color transform utilities
+- **2026-03-10T15:29:00+07:00** - [Activity #1321] fix(accessibility): add missing aria attributes to camera controls
