@@ -7976,3 +7976,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-11T14:06:07+07:00** - [Activity #1358] feat(photobooth): initialize core camera streaming architecture
 - **2026-03-11T14:24:55+07:00** - [Activity #1359] feat(share): implement client-side QR code generator for photo download
 - **2026-03-11T14:26:34+07:00** - [Activity #1360] chore(deps): update core dependencies to latest stable versions
+- **2026-03-11T14:48:12+07:00** - [Activity #1361] docs(readme): add detailed hardware camera setup and compatibility guide
