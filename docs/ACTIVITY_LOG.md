@@ -7970,3 +7970,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-11T11:32:40+07:00** - [Activity #1352] chore(git): add ignore rules for local session exports and temp files
 - **2026-03-11T11:49:05+07:00** - [Activity #1353] docs(changelog): update version history and release milestones
 - **2026-03-11T12:01:28+07:00** - [Activity #1354] fix(storage): add graceful error handling when local quota is exceeded
+- **2026-03-11T12:21:22+07:00** - [Activity #1355] docs(arch): add architecture diagram explaining client-side filter flow
