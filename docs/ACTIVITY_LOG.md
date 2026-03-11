@@ -7979,3 +7979,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-11T14:48:12+07:00** - [Activity #1361] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-03-11T15:00:33+07:00** - [Activity #1362] feat(filter): add warm monochrome and film grain retro effects
 - **2026-03-11T15:12:11+07:00** - [Activity #1363] fix(api): sanitize query params on photo retrieval endpoint
+- **2026-03-11T15:14:33+07:00** - [Activity #1364] perf(canvas): render WebGL shaders on offscreen canvas worker
