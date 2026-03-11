@@ -7983,3 +7983,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-11T15:24:52+07:00** - [Activity #1365] feat(settings): create camera device selection modal with device ID persistence
 - **2026-03-11T15:43:26+07:00** - [Activity #1366] feat(share): implement client-side QR code generator for photo download
 - **2026-03-11T16:01:42+07:00** - [Activity #1367] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-03-11T16:03:34+07:00** - [Activity #1368] fix(accessibility): add missing aria attributes to camera controls
