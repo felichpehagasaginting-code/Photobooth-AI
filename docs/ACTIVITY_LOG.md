@@ -7972,3 +7972,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-11T12:01:28+07:00** - [Activity #1354] fix(storage): add graceful error handling when local quota is exceeded
 - **2026-03-11T12:21:22+07:00** - [Activity #1355] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-03-11T13:45:46+07:00** - [Activity #1356] feat(settings): create camera device selection modal with device ID persistence
+- **2026-03-11T13:57:17+07:00** - [Activity #1357] fix(camera): prevent stream freeze during rapid device re-enumeration
