@@ -7989,3 +7989,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-11T16:41:51+07:00** - [Activity #1371] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-03-11T16:53:59+07:00** - [Activity #1372] feat(theme): configure dynamic dark mode CSS custom properties
 - **2026-03-11T17:07:43+07:00** - [Activity #1373] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-03-11T17:11:44+07:00** - [Activity #1374] feat(settings): create camera device selection modal with device ID persistence
