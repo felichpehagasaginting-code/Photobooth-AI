@@ -7995,3 +7995,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-11T17:44:10+07:00** - [Activity #1377] refactor(utils): optimize hex-to-rgb and color transform utilities
 - **2026-03-11T19:36:37+07:00** - [Activity #1378] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-03-11T19:42:07+07:00** - [Activity #1379] style(typography): refine letter-spacing and line heights for headings
+- **2026-03-11T19:56:51+07:00** - [Activity #1380] fix(accessibility): add missing aria attributes to camera controls
