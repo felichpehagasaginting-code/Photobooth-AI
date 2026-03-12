@@ -8038,3 +8038,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-12T17:02:21+07:00** - [Activity #1420] docs(api): document endpoint parameters and error codes for seed route
 - **2026-03-12T17:06:39+07:00** - [Activity #1421] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-03-12T17:23:08+07:00** - [Activity #1422] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-03-12T17:41:50+07:00** - [Activity #1423] fix(camera): correct video aspect ratio calculation on widescreen monitors
