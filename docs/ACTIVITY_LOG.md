@@ -8009,3 +8009,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-12T09:13:22+07:00** - [Activity #1391] refactor(api): modularize backend route handlers and validation helpers
 - **2026-03-12T09:24:57+07:00** - [Activity #1392] fix(firebase): handle connection dropout during batch sync gracefully
 - **2026-03-12T09:42:10+07:00** - [Activity #1393] refactor(filter): organize color grading matrices into separate configs
+- **2026-03-12T10:03:32+07:00** - [Activity #1394] fix(canvas): avoid pixelation on high-DPI canvas downsampling
