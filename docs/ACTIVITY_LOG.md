@@ -8044,3 +8044,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-12T19:53:37+07:00** - [Activity #1426] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-03-12T20:08:19+07:00** - [Activity #1427] refactor(types): unify photobooth capture and export type definitions
 - **2026-03-12T20:13:08+07:00** - [Activity #1428] feat(stickers): support canvas-based sticker overlay and touch positioning
+- **2026-03-12T20:40:07+07:00** - [Activity #1429] perf(canvas): render WebGL shaders on offscreen canvas worker
