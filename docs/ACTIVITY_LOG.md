@@ -8023,3 +8023,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-12T13:56:18+07:00** - [Activity #1405] feat(analytics): dispatch anonymous capture telemetry events
 - **2026-03-12T14:18:33+07:00** - [Activity #1406] refactor(types): unify photobooth capture and export type definitions
 - **2026-03-12T14:28:12+07:00** - [Activity #1407] fix(qr): optimize QR code foreground-to-background contrast ratio
+- **2026-03-12T14:37:35+07:00** - [Activity #1408] style(theme): update dark mode accent color token with warm hue
