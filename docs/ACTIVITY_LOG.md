@@ -8032,3 +8032,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-12T15:43:03+07:00** - [Activity #1414] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-03-12T16:01:38+07:00** - [Activity #1415] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-03-12T16:05:35+07:00** - [Activity #1416] feat(ui): design responsive photobooth preview grid for kiosk mode
+- **2026-03-12T16:27:55+07:00** - [Activity #1417] docs(env): document all required environment variables with defaults
