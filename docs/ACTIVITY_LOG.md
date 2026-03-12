@@ -8049,3 +8049,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-12T21:14:32+07:00** - [Activity #1431] feat(stickers): support canvas-based sticker overlay and touch positioning
 - **2026-03-12T21:21:57+07:00** - [Activity #1432] fix(api): sanitize query params on photo retrieval endpoint
 - **2026-03-12T21:41:20+07:00** - [Activity #1433] style(grid): modernize layout overlap for bento-style elements
+- **2026-03-12T21:48:08+07:00** - [Activity #1434] docs(readme): add detailed hardware camera setup and compatibility guide
