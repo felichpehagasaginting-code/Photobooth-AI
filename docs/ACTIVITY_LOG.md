@@ -8041,3 +8041,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-12T17:41:50+07:00** - [Activity #1423] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-03-12T17:49:20+07:00** - [Activity #1424] fix(touch): disable browser pull-to-refresh on interactive canvas
 - **2026-03-12T19:34:49+07:00** - [Activity #1425] refactor(styles): standardize spacing and typography design tokens
+- **2026-03-12T19:53:37+07:00** - [Activity #1426] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
