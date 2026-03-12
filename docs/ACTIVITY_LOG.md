@@ -8029,3 +8029,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-12T15:14:06+07:00** - [Activity #1411] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-03-12T15:19:23+07:00** - [Activity #1412] fix(download): prevent memory leak by revoking object URLs after download
 - **2026-03-12T15:34:54+07:00** - [Activity #1413] fix(camera): prevent stream freeze during rapid device re-enumeration
+- **2026-03-12T15:43:03+07:00** - [Activity #1414] fix(camera): correct video aspect ratio calculation on widescreen monitors
