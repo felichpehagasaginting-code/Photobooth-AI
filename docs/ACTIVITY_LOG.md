@@ -8039,3 +8039,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-12T17:06:39+07:00** - [Activity #1421] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-03-12T17:23:08+07:00** - [Activity #1422] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-03-12T17:41:50+07:00** - [Activity #1423] fix(camera): correct video aspect ratio calculation on widescreen monitors
+- **2026-03-12T17:49:20+07:00** - [Activity #1424] fix(touch): disable browser pull-to-refresh on interactive canvas
