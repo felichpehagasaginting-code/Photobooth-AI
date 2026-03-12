@@ -8031,3 +8031,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-12T15:34:54+07:00** - [Activity #1413] fix(camera): prevent stream freeze during rapid device re-enumeration
 - **2026-03-12T15:43:03+07:00** - [Activity #1414] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-03-12T16:01:38+07:00** - [Activity #1415] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-03-12T16:05:35+07:00** - [Activity #1416] feat(ui): design responsive photobooth preview grid for kiosk mode
