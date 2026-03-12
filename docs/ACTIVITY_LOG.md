@@ -8036,3 +8036,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-12T16:30:47+07:00** - [Activity #1418] perf(anim): accelerate countdown transitions with CSS transforms
 - **2026-03-12T16:50:42+07:00** - [Activity #1419] fix(canvas): avoid pixelation on high-DPI canvas downsampling
 - **2026-03-12T17:02:21+07:00** - [Activity #1420] docs(api): document endpoint parameters and error codes for seed route
+- **2026-03-12T17:06:39+07:00** - [Activity #1421] docs(readme): add detailed hardware camera setup and compatibility guide
