@@ -8034,3 +8034,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-12T16:05:35+07:00** - [Activity #1416] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-03-12T16:27:55+07:00** - [Activity #1417] docs(env): document all required environment variables with defaults
 - **2026-03-12T16:30:47+07:00** - [Activity #1418] perf(anim): accelerate countdown transitions with CSS transforms
+- **2026-03-12T16:50:42+07:00** - [Activity #1419] fix(canvas): avoid pixelation on high-DPI canvas downsampling
