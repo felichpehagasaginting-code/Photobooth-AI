@@ -8064,3 +8064,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-13T12:06:39+07:00** - [Activity #1446] style(button): add subtle hover transition and outline focus style
 - **2026-03-13T13:45:22+07:00** - [Activity #1447] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-03-13T13:52:23+07:00** - [Activity #1448] style(typography): refine letter-spacing and line heights for headings
+- **2026-03-13T14:21:56+07:00** - [Activity #1449] refactor(ui): extract reusable glass-card and action-badge components
