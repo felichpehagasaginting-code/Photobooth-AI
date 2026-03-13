@@ -8066,3 +8066,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-13T13:52:23+07:00** - [Activity #1448] style(typography): refine letter-spacing and line heights for headings
 - **2026-03-13T14:21:56+07:00** - [Activity #1449] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-03-13T14:41:08+07:00** - [Activity #1450] feat(gallery): create instant session photo carousel with swipe gestures
+- **2026-03-13T14:47:33+07:00** - [Activity #1451] style(photobooth): refine backdrop blur and color contrast for dark mode
