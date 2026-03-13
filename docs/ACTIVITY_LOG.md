@@ -8069,3 +8069,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-13T14:47:33+07:00** - [Activity #1451] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-03-13T15:05:24+07:00** - [Activity #1452] feat(share): implement client-side QR code generator for photo download
 - **2026-03-13T15:34:01+07:00** - [Activity #1453] fix(timer): ensure countdown timer stops when navigating away
+- **2026-03-13T15:52:44+07:00** - [Activity #1454] perf(memory): explicitly clear canvas contexts after strip rendering
