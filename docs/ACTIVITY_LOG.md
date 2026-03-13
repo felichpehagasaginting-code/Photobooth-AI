@@ -8074,3 +8074,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-13T16:26:43+07:00** - [Activity #1456] fix(touch): disable browser pull-to-refresh on interactive canvas
 - **2026-03-13T16:26:46+07:00** - [Activity #1457] style(cards): apply subtle border gradient and elevation shadow
 - **2026-03-13T16:46:49+07:00** - [Activity #1458] test(utils): add unit tests for image aspect ratio calculator
+- **2026-03-13T17:04:57+07:00** - [Activity #1459] fix(download): prevent memory leak by revoking object URLs after download
