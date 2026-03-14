@@ -8096,3 +8096,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-14T17:02:53+07:00** - [Activity #1478] fix(state): sync current photo strip selection across modal re-renders
 - **2026-03-14T19:35:56+07:00** - [Activity #1479] refactor(export): optimize canvas blob generation with WebP compression
 - **2026-03-14T20:35:55+07:00** - [Activity #1480] feat(gallery): create instant session photo carousel with swipe gestures
+- **2026-03-14T21:37:11+07:00** - [Activity #1481] test(canvas): add snapshot tests for multi-frame collage layouts
