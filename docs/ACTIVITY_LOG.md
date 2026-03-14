@@ -8092,3 +8092,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-14T13:48:38+07:00** - [Activity #1474] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-03-14T14:32:32+07:00** - [Activity #1475] docs(env): document all required environment variables with defaults
 - **2026-03-14T15:36:51+07:00** - [Activity #1476] test(hooks): add test suite for camera stream lifecycle events
+- **2026-03-14T16:14:46+07:00** - [Activity #1477] refactor(types): unify photobooth capture and export type definitions
