@@ -8094,3 +8094,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-14T15:36:51+07:00** - [Activity #1476] test(hooks): add test suite for camera stream lifecycle events
 - **2026-03-14T16:14:46+07:00** - [Activity #1477] refactor(types): unify photobooth capture and export type definitions
 - **2026-03-14T17:02:53+07:00** - [Activity #1478] fix(state): sync current photo strip selection across modal re-renders
+- **2026-03-14T19:35:56+07:00** - [Activity #1479] refactor(export): optimize canvas blob generation with WebP compression
