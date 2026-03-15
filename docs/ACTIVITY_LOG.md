@@ -8101,3 +8101,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-15T09:48:11+07:00** - [Activity #1483] feat(watermark): add customizable branding and event date stamp
 - **2026-03-15T10:37:26+07:00** - [Activity #1484] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-03-15T11:30:37+07:00** - [Activity #1485] refactor(utils): optimize hex-to-rgb and color transform utilities
+- **2026-03-15T13:47:31+07:00** - [Activity #1486] docs(readme): add detailed hardware camera setup and compatibility guide
