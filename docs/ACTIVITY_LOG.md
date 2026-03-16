@@ -8113,3 +8113,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-16T09:00:20+07:00** - [Activity #1495] style(cards): apply subtle border gradient and elevation shadow
 - **2026-03-16T09:18:10+07:00** - [Activity #1496] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-03-16T09:48:09+07:00** - [Activity #1497] fix(state): sync current photo strip selection across modal re-renders
+- **2026-03-16T10:21:45+07:00** - [Activity #1498] fix(camera): prevent stream freeze during rapid device re-enumeration
