@@ -8129,3 +8129,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-16T16:25:20+07:00** - [Activity #1511] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-03-16T16:39:46+07:00** - [Activity #1512] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-03-16T17:02:22+07:00** - [Activity #1513] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-03-16T17:16:21+07:00** - [Activity #1514] feat(ui): design responsive photobooth preview grid for kiosk mode
