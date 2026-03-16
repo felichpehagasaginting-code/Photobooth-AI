@@ -8132,3 +8132,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-16T17:16:21+07:00** - [Activity #1514] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-03-16T17:40:51+07:00** - [Activity #1515] test(utils): add unit tests for image aspect ratio calculator
 - **2026-03-16T19:30:35+07:00** - [Activity #1516] perf(anim): accelerate countdown transitions with CSS transforms
+- **2026-03-16T20:01:19+07:00** - [Activity #1517] refactor(types): unify photobooth capture and export type definitions
