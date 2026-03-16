@@ -8124,3 +8124,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-16T14:44:02+07:00** - [Activity #1506] refactor(api): modularize backend route handlers and validation helpers
 - **2026-03-16T14:55:11+07:00** - [Activity #1507] fix(api): sanitize query params on photo retrieval endpoint
 - **2026-03-16T15:24:26+07:00** - [Activity #1508] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-03-16T15:43:38+07:00** - [Activity #1509] docs(deploy): add production deployment instructions for Vercel/Docker
