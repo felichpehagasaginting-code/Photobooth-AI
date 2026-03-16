@@ -8126,3 +8126,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-16T15:24:26+07:00** - [Activity #1508] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-03-16T15:43:38+07:00** - [Activity #1509] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-03-16T16:10:48+07:00** - [Activity #1510] feat(kiosk): add auto-reset countdown timer on idle session
+- **2026-03-16T16:25:20+07:00** - [Activity #1511] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
