@@ -8112,3 +8112,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-15T21:47:32+07:00** - [Activity #1494] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-03-16T09:00:20+07:00** - [Activity #1495] style(cards): apply subtle border gradient and elevation shadow
 - **2026-03-16T09:18:10+07:00** - [Activity #1496] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-03-16T09:48:09+07:00** - [Activity #1497] fix(state): sync current photo strip selection across modal re-renders
