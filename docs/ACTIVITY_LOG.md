@@ -8153,3 +8153,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-17T12:11:37+07:00** - [Activity #1535] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-03-17T13:53:01+07:00** - [Activity #1536] fix(storage): add graceful error handling when local quota is exceeded
 - **2026-03-17T14:03:00+07:00** - [Activity #1537] refactor(styles): standardize spacing and typography design tokens
+- **2026-03-17T14:17:13+07:00** - [Activity #1538] fix(api): sanitize query params on photo retrieval endpoint
