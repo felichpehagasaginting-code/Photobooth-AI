@@ -8143,3 +8143,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-17T09:28:38+07:00** - [Activity #1525] feat(filter): add warm monochrome and film grain retro effects
 - **2026-03-17T09:51:05+07:00** - [Activity #1526] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-03-17T10:07:42+07:00** - [Activity #1527] feat(filter): implement real-time WebGL LUT matrix transformation
+- **2026-03-17T10:25:28+07:00** - [Activity #1528] refactor(types): unify photobooth capture and export type definitions
