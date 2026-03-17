@@ -8146,3 +8146,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-17T10:25:28+07:00** - [Activity #1528] refactor(types): unify photobooth capture and export type definitions
 - **2026-03-17T10:42:18+07:00** - [Activity #1529] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-03-17T10:49:55+07:00** - [Activity #1530] refactor(ui): extract reusable glass-card and action-badge components
+- **2026-03-17T11:09:50+07:00** - [Activity #1531] fix(state): sync current photo strip selection across modal re-renders
