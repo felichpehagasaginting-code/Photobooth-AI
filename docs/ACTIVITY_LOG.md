@@ -8181,3 +8181,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-17T21:40:01+07:00** - [Activity #1563] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-03-17T21:49:05+07:00** - [Activity #1564] feat(filter): implement real-time WebGL LUT matrix transformation
 - **2026-03-17T22:06:53+07:00** - [Activity #1565] fix(qr): optimize QR code foreground-to-background contrast ratio
+- **2026-03-17T22:27:09+07:00** - [Activity #1566] fix(storage): add graceful error handling when local quota is exceeded
