@@ -8158,3 +8158,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-17T14:41:35+07:00** - [Activity #1540] perf(bundle): implement code-splitting for heavy filter modules
 - **2026-03-17T14:45:25+07:00** - [Activity #1541] feat(theme): configure dynamic dark mode CSS custom properties
 - **2026-03-17T15:01:58+07:00** - [Activity #1542] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-03-17T15:19:36+07:00** - [Activity #1543] docs(arch): add architecture diagram explaining client-side filter flow
