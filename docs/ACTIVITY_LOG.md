@@ -8140,3 +8140,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-16T22:22:50+07:00** - [Activity #1522] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-03-17T09:00:53+07:00** - [Activity #1523] fix(state): sync current photo strip selection across modal re-renders
 - **2026-03-17T09:12:34+07:00** - [Activity #1524] test(hooks): add test suite for camera stream lifecycle events
+- **2026-03-17T09:28:38+07:00** - [Activity #1525] feat(filter): add warm monochrome and film grain retro effects
