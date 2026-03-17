@@ -8179,3 +8179,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-17T21:04:00+07:00** - [Activity #1561] style(button): add subtle hover transition and outline focus style
 - **2026-03-17T21:23:18+07:00** - [Activity #1562] refactor(filter): organize color grading matrices into separate configs
 - **2026-03-17T21:40:01+07:00** - [Activity #1563] feat(kiosk): add auto-reset countdown timer on idle session
+- **2026-03-17T21:49:05+07:00** - [Activity #1564] feat(filter): implement real-time WebGL LUT matrix transformation
