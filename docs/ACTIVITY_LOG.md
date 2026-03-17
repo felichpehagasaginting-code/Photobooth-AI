@@ -8150,3 +8150,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-17T11:24:39+07:00** - [Activity #1532] feat(camera): add dynamic resolution negotiator and frame rate switcher
 - **2026-03-17T11:34:57+07:00** - [Activity #1533] style(button): add subtle hover transition and outline focus style
 - **2026-03-17T12:05:10+07:00** - [Activity #1534] feat(kiosk): add auto-reset countdown timer on idle session
+- **2026-03-17T12:11:37+07:00** - [Activity #1535] chore(lint): configure ESLint rules for react hooks and accessibility
