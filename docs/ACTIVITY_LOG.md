@@ -8141,3 +8141,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-17T09:00:53+07:00** - [Activity #1523] fix(state): sync current photo strip selection across modal re-renders
 - **2026-03-17T09:12:34+07:00** - [Activity #1524] test(hooks): add test suite for camera stream lifecycle events
 - **2026-03-17T09:28:38+07:00** - [Activity #1525] feat(filter): add warm monochrome and film grain retro effects
+- **2026-03-17T09:51:05+07:00** - [Activity #1526] feat(kiosk): add auto-reset countdown timer on idle session
