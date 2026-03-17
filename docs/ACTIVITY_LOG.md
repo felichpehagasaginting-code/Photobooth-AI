@@ -8157,3 +8157,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-17T14:32:19+07:00** - [Activity #1539] fix(qr): optimize QR code foreground-to-background contrast ratio
 - **2026-03-17T14:41:35+07:00** - [Activity #1540] perf(bundle): implement code-splitting for heavy filter modules
 - **2026-03-17T14:45:25+07:00** - [Activity #1541] feat(theme): configure dynamic dark mode CSS custom properties
+- **2026-03-17T15:01:58+07:00** - [Activity #1542] chore(config): adjust tsconfig path aliases for cleaner imports
