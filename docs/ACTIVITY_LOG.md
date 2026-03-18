@@ -8195,3 +8195,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-18T11:45:20+07:00** - [Activity #1577] feat(stickers): support canvas-based sticker overlay and touch positioning
 - **2026-03-18T11:54:17+07:00** - [Activity #1578] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-03-18T12:19:44+07:00** - [Activity #1579] perf(images): compress intermediate preview thumbnails asynchronously
+- **2026-03-18T13:48:42+07:00** - [Activity #1580] fix(download): prevent memory leak by revoking object URLs after download
