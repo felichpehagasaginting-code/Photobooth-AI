@@ -8205,3 +8205,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-18T15:10:27+07:00** - [Activity #1587] test(utils): add unit tests for image aspect ratio calculator
 - **2026-03-18T15:32:43+07:00** - [Activity #1588] test(hooks): add test suite for camera stream lifecycle events
 - **2026-03-18T15:36:11+07:00** - [Activity #1589] feat(ui): design responsive photobooth preview grid for kiosk mode
+- **2026-03-18T15:47:13+07:00** - [Activity #1590] chore(config): adjust tsconfig path aliases for cleaner imports
