@@ -8224,3 +8224,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-18T21:09:51+07:00** - [Activity #1606] feat(analytics): dispatch anonymous capture telemetry events
 - **2026-03-18T21:33:29+07:00** - [Activity #1607] refactor(state): structure session state store with zustand
 - **2026-03-18T21:58:30+07:00** - [Activity #1608] feat(theme): configure dynamic dark mode CSS custom properties
+- **2026-03-18T22:03:02+07:00** - [Activity #1609] docs(env): document all required environment variables with defaults
