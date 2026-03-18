@@ -8199,3 +8199,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-18T13:52:46+07:00** - [Activity #1581] fix(camera): prevent stream freeze during rapid device re-enumeration
 - **2026-03-18T14:03:22+07:00** - [Activity #1582] fix(firebase): handle connection dropout during batch sync gracefully
 - **2026-03-18T14:26:44+07:00** - [Activity #1583] fix(canvas): avoid pixelation on high-DPI canvas downsampling
+- **2026-03-18T14:42:18+07:00** - [Activity #1584] style(cards): apply subtle border gradient and elevation shadow
