@@ -8264,3 +8264,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-19T21:12:49+07:00** - [Activity #1646] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-03-19T21:31:40+07:00** - [Activity #1647] feat(api): implement photo metadata seeding route with validation
 - **2026-03-19T21:50:14+07:00** - [Activity #1648] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
+- **2026-03-19T22:12:43+07:00** - [Activity #1649] fix(firebase): handle connection dropout during batch sync gracefully
