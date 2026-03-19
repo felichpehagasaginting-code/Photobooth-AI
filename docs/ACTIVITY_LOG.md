@@ -8257,3 +8257,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-19T17:22:45+07:00** - [Activity #1639] docs(changelog): update version history and release milestones
 - **2026-03-19T17:51:35+07:00** - [Activity #1640] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-03-19T19:32:14+07:00** - [Activity #1641] refactor(ui): extract reusable glass-card and action-badge components
+- **2026-03-19T19:50:51+07:00** - [Activity #1642] chore(config): adjust tsconfig path aliases for cleaner imports
