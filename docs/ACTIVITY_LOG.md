@@ -8228,3 +8228,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-18T22:23:54+07:00** - [Activity #1610] refactor(export): optimize canvas blob generation with WebP compression
 - **2026-03-19T09:00:15+07:00** - [Activity #1611] feat(storage): integrate indexedDB caching for local photo session recovery
 - **2026-03-19T09:16:13+07:00** - [Activity #1612] fix(download): prevent memory leak by revoking object URLs after download
+- **2026-03-19T09:36:47+07:00** - [Activity #1613] fix(camera): prevent stream freeze during rapid device re-enumeration
