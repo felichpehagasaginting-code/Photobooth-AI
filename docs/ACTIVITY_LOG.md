@@ -8259,3 +8259,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-19T19:32:14+07:00** - [Activity #1641] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-03-19T19:50:51+07:00** - [Activity #1642] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-03-19T20:06:38+07:00** - [Activity #1643] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-03-19T20:36:22+07:00** - [Activity #1644] fix(state): sync current photo strip selection across modal re-renders
