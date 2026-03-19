@@ -8236,3 +8236,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-19T10:58:09+07:00** - [Activity #1618] fix(touch): disable browser pull-to-refresh on interactive canvas
 - **2026-03-19T11:26:59+07:00** - [Activity #1619] fix(canvas): avoid pixelation on high-DPI canvas downsampling
 - **2026-03-19T11:44:25+07:00** - [Activity #1620] fix(qr): optimize QR code foreground-to-background contrast ratio
+- **2026-03-19T12:00:08+07:00** - [Activity #1621] refactor(canvas): simplify image compositing pipeline architecture
