@@ -8249,3 +8249,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-19T15:28:02+07:00** - [Activity #1631] refactor(filter): organize color grading matrices into separate configs
 - **2026-03-19T15:49:31+07:00** - [Activity #1632] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-03-19T16:05:25+07:00** - [Activity #1633] chore(git): add ignore rules for local session exports and temp files
+- **2026-03-19T16:11:31+07:00** - [Activity #1634] chore(lint): configure ESLint rules for react hooks and accessibility
