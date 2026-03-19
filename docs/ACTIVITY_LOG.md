@@ -8251,3 +8251,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-19T16:05:25+07:00** - [Activity #1633] chore(git): add ignore rules for local session exports and temp files
 - **2026-03-19T16:11:31+07:00** - [Activity #1634] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-03-19T16:44:47+07:00** - [Activity #1635] refactor(api): modularize backend route handlers and validation helpers
+- **2026-03-19T16:57:20+07:00** - [Activity #1636] feat(settings): create camera device selection modal with device ID persistence
