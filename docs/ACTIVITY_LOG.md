@@ -8230,3 +8230,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-19T09:16:13+07:00** - [Activity #1612] fix(download): prevent memory leak by revoking object URLs after download
 - **2026-03-19T09:36:47+07:00** - [Activity #1613] fix(camera): prevent stream freeze during rapid device re-enumeration
 - **2026-03-19T09:46:35+07:00** - [Activity #1614] fix(storage): add graceful error handling when local quota is exceeded
+- **2026-03-19T10:11:28+07:00** - [Activity #1615] feat(camera): add dynamic resolution negotiator and frame rate switcher
