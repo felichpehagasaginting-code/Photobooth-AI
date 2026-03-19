@@ -8233,3 +8233,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-19T10:11:28+07:00** - [Activity #1615] feat(camera): add dynamic resolution negotiator and frame rate switcher
 - **2026-03-19T10:30:51+07:00** - [Activity #1616] feat(theme): configure dynamic dark mode CSS custom properties
 - **2026-03-19T10:52:33+07:00** - [Activity #1617] fix(state): sync current photo strip selection across modal re-renders
+- **2026-03-19T10:58:09+07:00** - [Activity #1618] fix(touch): disable browser pull-to-refresh on interactive canvas
