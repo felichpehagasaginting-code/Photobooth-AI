@@ -8294,3 +8294,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-20T19:33:20+07:00** - [Activity #1676] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-03-20T19:58:49+07:00** - [Activity #1677] feat(export): add multi-frame strip layout builder with dynamic margins
 - **2026-03-20T20:12:12+07:00** - [Activity #1678] style(modal): tune cubic-bezier easing curves on dialog open
+- **2026-03-20T20:35:35+07:00** - [Activity #1679] docs(arch): add architecture diagram explaining client-side filter flow
