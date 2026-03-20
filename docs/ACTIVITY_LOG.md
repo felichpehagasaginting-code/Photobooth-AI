@@ -8273,3 +8273,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-20T10:29:42+07:00** - [Activity #1655] docs(env): document all required environment variables with defaults
 - **2026-03-20T10:51:15+07:00** - [Activity #1656] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-03-20T11:01:11+07:00** - [Activity #1657] test(hooks): add test suite for camera stream lifecycle events
+- **2026-03-20T11:27:56+07:00** - [Activity #1658] test(canvas): add snapshot tests for multi-frame collage layouts
