@@ -8288,3 +8288,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-20T16:09:36+07:00** - [Activity #1670] style(cards): apply subtle border gradient and elevation shadow
 - **2026-03-20T16:31:18+07:00** - [Activity #1671] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-03-20T16:50:45+07:00** - [Activity #1672] feat(stickers): support canvas-based sticker overlay and touch positioning
+- **2026-03-20T17:05:30+07:00** - [Activity #1673] refactor(ui): extract reusable glass-card and action-badge components
