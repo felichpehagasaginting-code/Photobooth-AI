@@ -8266,3 +8266,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-19T21:50:14+07:00** - [Activity #1648] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-03-19T22:12:43+07:00** - [Activity #1649] fix(firebase): handle connection dropout during batch sync gracefully
 - **2026-03-19T22:28:33+07:00** - [Activity #1650] fix(state): sync current photo strip selection across modal re-renders
+- **2026-03-20T09:00:07+07:00** - [Activity #1651] feat(storage): integrate indexedDB caching for local photo session recovery
