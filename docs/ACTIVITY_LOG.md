@@ -8306,3 +8306,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-21T11:41:52+07:00** - [Activity #1688] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-03-21T13:52:39+07:00** - [Activity #1689] feat(watermark): add customizable branding and event date stamp
 - **2026-03-21T14:12:40+07:00** - [Activity #1690] perf(fonts): preload display fonts to avoid flash of unstyled text
+- **2026-03-21T15:02:59+07:00** - [Activity #1691] refactor(export): optimize canvas blob generation with WebP compression
