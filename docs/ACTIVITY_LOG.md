@@ -8314,3 +8314,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-21T19:30:06+07:00** - [Activity #1696] test(utils): add unit tests for image aspect ratio calculator
 - **2026-03-21T20:22:11+07:00** - [Activity #1697] test(utils): add unit tests for image aspect ratio calculator
 - **2026-03-21T21:00:44+07:00** - [Activity #1698] feat(ui): build interactive shutter trigger with pulsating visual feedback
+- **2026-03-21T22:03:13+07:00** - [Activity #1699] docs(arch): add architecture diagram explaining client-side filter flow
