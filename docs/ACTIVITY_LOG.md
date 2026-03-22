@@ -8316,3 +8316,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-21T21:00:44+07:00** - [Activity #1698] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-03-21T22:03:13+07:00** - [Activity #1699] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-03-22T09:00:44+07:00** - [Activity #1700] refactor(camera): decouple media stream manager into custom hook
+- **2026-03-22T09:54:11+07:00** - [Activity #1701] perf(memory): explicitly clear canvas contexts after strip rendering
