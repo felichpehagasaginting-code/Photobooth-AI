@@ -8359,3 +8359,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-23T17:20:00+07:00** - [Activity #1741] refactor(state): structure session state store with zustand
 - **2026-03-23T17:54:47+07:00** - [Activity #1742] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-03-23T19:30:02+07:00** - [Activity #1743] fix(api): sanitize query params on photo retrieval endpoint
+- **2026-03-23T19:50:34+07:00** - [Activity #1744] docs(deploy): add production deployment instructions for Vercel/Docker
