@@ -8336,3 +8336,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-23T10:00:33+07:00** - [Activity #1718] docs(env): document all required environment variables with defaults
 - **2026-03-23T10:15:00+07:00** - [Activity #1719] perf(bundle): implement code-splitting for heavy filter modules
 - **2026-03-23T10:37:20+07:00** - [Activity #1720] perf(bundle): implement code-splitting for heavy filter modules
+- **2026-03-23T10:47:56+07:00** - [Activity #1721] docs(api): document endpoint parameters and error codes for seed route
