@@ -8338,3 +8338,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-23T10:37:20+07:00** - [Activity #1720] perf(bundle): implement code-splitting for heavy filter modules
 - **2026-03-23T10:47:56+07:00** - [Activity #1721] docs(api): document endpoint parameters and error codes for seed route
 - **2026-03-23T11:13:54+07:00** - [Activity #1722] fix(accessibility): add missing aria attributes to camera controls
+- **2026-03-23T11:31:22+07:00** - [Activity #1723] feat(stickers): support canvas-based sticker overlay and touch positioning
