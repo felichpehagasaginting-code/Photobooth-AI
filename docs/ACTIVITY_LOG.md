@@ -8362,3 +8362,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-23T19:50:34+07:00** - [Activity #1744] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-03-23T20:13:16+07:00** - [Activity #1745] refactor(camera): decouple media stream manager into custom hook
 - **2026-03-23T20:28:14+07:00** - [Activity #1746] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-03-23T20:40:43+07:00** - [Activity #1747] chore(git): add ignore rules for local session exports and temp files
