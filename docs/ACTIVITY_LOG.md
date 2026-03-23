@@ -8348,3 +8348,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-23T14:39:17+07:00** - [Activity #1730] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-03-23T15:05:36+07:00** - [Activity #1731] docs(env): document all required environment variables with defaults
 - **2026-03-23T15:24:09+07:00** - [Activity #1732] refactor(styles): standardize spacing and typography design tokens
+- **2026-03-23T15:26:42+07:00** - [Activity #1733] fix(touch): disable browser pull-to-refresh on interactive canvas
