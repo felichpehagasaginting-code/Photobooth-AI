@@ -8346,3 +8346,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-23T14:08:23+07:00** - [Activity #1728] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-03-23T14:38:04+07:00** - [Activity #1729] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-03-23T14:39:17+07:00** - [Activity #1730] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-03-23T15:05:36+07:00** - [Activity #1731] docs(env): document all required environment variables with defaults
