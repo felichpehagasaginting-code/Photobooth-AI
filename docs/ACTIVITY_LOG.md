@@ -8332,3 +8332,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-22T21:48:14+07:00** - [Activity #1714] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-03-23T09:05:56+07:00** - [Activity #1715] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-03-23T09:11:33+07:00** - [Activity #1716] feat(photobooth): initialize core camera streaming architecture
+- **2026-03-23T09:41:58+07:00** - [Activity #1717] fix(api): sanitize query params on photo retrieval endpoint
