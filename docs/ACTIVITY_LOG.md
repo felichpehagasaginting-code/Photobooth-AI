@@ -8369,3 +8369,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-23T22:11:40+07:00** - [Activity #1751] feat(watermark): add customizable branding and event date stamp
 - **2026-03-23T22:22:59+07:00** - [Activity #1752] fix(canvas): avoid pixelation on high-DPI canvas downsampling
 - **2026-03-24T09:00:27+07:00** - [Activity #1753] style(modal): tune cubic-bezier easing curves on dialog open
+- **2026-03-24T09:20:48+07:00** - [Activity #1754] docs(changelog): update version history and release milestones
