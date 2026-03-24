@@ -8402,3 +8402,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-24T19:54:20+07:00** - [Activity #1784] feat(analytics): dispatch anonymous capture telemetry events
 - **2026-03-24T20:05:11+07:00** - [Activity #1785] feat(photobooth): initialize core camera streaming architecture
 - **2026-03-24T20:26:16+07:00** - [Activity #1786] refactor(state): structure session state store with zustand
+- **2026-03-24T20:49:49+07:00** - [Activity #1787] fix(storage): add graceful error handling when local quota is exceeded
