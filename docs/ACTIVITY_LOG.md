@@ -8397,3 +8397,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-24T16:54:41+07:00** - [Activity #1779] perf(bundle): implement code-splitting for heavy filter modules
 - **2026-03-24T17:09:58+07:00** - [Activity #1780] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-03-24T17:34:58+07:00** - [Activity #1781] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
+- **2026-03-24T17:51:51+07:00** - [Activity #1782] refactor(types): unify photobooth capture and export type definitions
