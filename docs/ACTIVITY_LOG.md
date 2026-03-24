@@ -8405,3 +8405,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-24T20:49:49+07:00** - [Activity #1787] fix(storage): add graceful error handling when local quota is exceeded
 - **2026-03-24T21:12:39+07:00** - [Activity #1788] chore(git): add ignore rules for local session exports and temp files
 - **2026-03-24T21:23:28+07:00** - [Activity #1789] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-03-24T21:48:42+07:00** - [Activity #1790] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
