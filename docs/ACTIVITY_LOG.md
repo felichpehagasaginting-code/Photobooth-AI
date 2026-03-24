@@ -8395,3 +8395,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-24T16:30:16+07:00** - [Activity #1777] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-03-24T16:49:05+07:00** - [Activity #1778] refactor(styles): standardize spacing and typography design tokens
 - **2026-03-24T16:54:41+07:00** - [Activity #1779] perf(bundle): implement code-splitting for heavy filter modules
+- **2026-03-24T17:09:58+07:00** - [Activity #1780] style(photobooth): refine backdrop blur and color contrast for dark mode
