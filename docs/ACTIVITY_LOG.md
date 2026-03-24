@@ -8406,3 +8406,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-24T21:12:39+07:00** - [Activity #1788] chore(git): add ignore rules for local session exports and temp files
 - **2026-03-24T21:23:28+07:00** - [Activity #1789] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-03-24T21:48:42+07:00** - [Activity #1790] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
+- **2026-03-24T22:12:13+07:00** - [Activity #1791] perf(canvas): render WebGL shaders on offscreen canvas worker
