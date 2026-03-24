@@ -8387,3 +8387,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-24T14:42:38+07:00** - [Activity #1769] fix(accessibility): add missing aria attributes to camera controls
 - **2026-03-24T14:55:07+07:00** - [Activity #1770] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-03-24T15:05:33+07:00** - [Activity #1771] fix(accessibility): add missing aria attributes to camera controls
+- **2026-03-24T15:15:14+07:00** - [Activity #1772] refactor(camera): decouple media stream manager into custom hook
