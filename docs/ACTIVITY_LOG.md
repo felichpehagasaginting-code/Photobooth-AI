@@ -8378,3 +8378,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-24T11:00:30+07:00** - [Activity #1760] style(cards): apply subtle border gradient and elevation shadow
 - **2026-03-24T11:27:35+07:00** - [Activity #1761] style(cards): apply subtle border gradient and elevation shadow
 - **2026-03-24T11:34:44+07:00** - [Activity #1762] feat(audio): integrate synthesized camera shutter click and countdown beeps
+- **2026-03-24T12:00:21+07:00** - [Activity #1763] feat(kiosk): add auto-reset countdown timer on idle session
