@@ -2755,3 +2755,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T10:17:44+07:00** - [Activity #2006] docs(env): document all required environment variables with defaults
 - **2026-03-25T10:41:01+07:00** - [Activity #2007] test(utils): add unit tests for image aspect ratio calculator
 - **2026-03-25T10:52:59+07:00** - [Activity #2008] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-03-25T11:10:45+07:00** - [Activity #2009] perf(fonts): preload display typography to eliminate FOIT delay
