@@ -2764,3 +2764,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T13:55:20+07:00** - [Activity #2015] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-03-25T14:12:08+07:00** - [Activity #2016] refactor(camera): extract media stream hook into standalone module
 - **2026-03-25T14:20:34+07:00** - [Activity #2017] perf(state): optimize selector subscriptions to minimize re-renders
+- **2026-03-25T14:35:31+07:00** - [Activity #2018] feat(settings): add camera device selector with resolution fallbacks
