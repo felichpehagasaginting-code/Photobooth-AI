@@ -8422,3 +8422,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T13:54:20+07:00** - [Activity #1804] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-03-25T14:18:51+07:00** - [Activity #1805] docs(changelog): update version history and release milestones
 - **2026-03-25T14:28:26+07:00** - [Activity #1806] style(modal): tune cubic-bezier easing curves on dialog open
+- **2026-03-25T14:49:26+07:00** - [Activity #1807] test(hooks): add test suite for camera stream lifecycle events
