@@ -2783,3 +2783,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T19:50:05+07:00** - [Activity #2034] feat(ai): integrate edge background removal model
 - **2026-03-25T20:10:42+07:00** - [Activity #2035] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-03-25T20:20:07+07:00** - [Activity #2036] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-03-25T20:47:21+07:00** - [Activity #2037] fix(download): resolve blob URL memory leak on repeated downloads
