@@ -8410,3 +8410,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-24T22:26:20+07:00** - [Activity #1792] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-03-25T09:07:26+07:00** - [Activity #1793] feat(camera): add dynamic resolution negotiator and frame rate switcher
 - **2026-03-25T09:26:41+07:00** - [Activity #1794] fix(canvas): avoid pixelation on high-DPI canvas downsampling
+- **2026-03-25T09:45:48+07:00** - [Activity #1795] fix(camera): prevent stream freeze during rapid device re-enumeration
