@@ -2786,3 +2786,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T20:47:21+07:00** - [Activity #2037] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-03-25T21:14:43+07:00** - [Activity #2038] style(badge): update status indicator badge colors and glow effects
 - **2026-03-25T21:27:19+07:00** - [Activity #2039] feat(settings): add camera device selector with resolution fallbacks
+- **2026-03-25T21:40:41+07:00** - [Activity #2040] feat(audio): add shutter click and countdown sound effects
