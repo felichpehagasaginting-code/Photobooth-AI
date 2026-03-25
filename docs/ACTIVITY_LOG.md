@@ -2747,3 +2747,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-14T20:54:57+07:00** - [Backdate #1339] perf(ui): reduce opacity calculation overhead during animation
 - **2026-08-14T21:10:25+07:00** - [Backdate #1340] fix: add focus-visible styles to filter selector keyboard navigation
 - **2026-08-14T21:28:54+07:00** - [Backdate #1341] refactor: structure theme variables inside global css variables
+- **2026-03-25T09:05:15+07:00** - [Activity #2001] fix(print): fix page margin clipping on 4x6 photo paper print preview
