@@ -8438,3 +8438,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T19:57:46+07:00** - [Activity #1820] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-03-25T20:15:21+07:00** - [Activity #1821] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-03-25T20:36:16+07:00** - [Activity #1822] refactor(api): modularize backend route handlers and validation helpers
+- **2026-03-25T21:03:16+07:00** - [Activity #1823] fix(firebase): handle connection dropout during batch sync gracefully
