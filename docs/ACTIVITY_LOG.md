@@ -2758,3 +2758,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T11:10:45+07:00** - [Activity #2009] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-03-25T11:22:07+07:00** - [Activity #2010] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-03-25T11:45:10+07:00** - [Activity #2011] chore(deps): update core dependencies to latest stable versions
+- **2026-03-25T11:53:19+07:00** - [Activity #2012] feat(audio): add shutter click and countdown sound effects
