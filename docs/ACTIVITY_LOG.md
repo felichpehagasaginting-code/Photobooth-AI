@@ -8440,3 +8440,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T20:36:16+07:00** - [Activity #1822] refactor(api): modularize backend route handlers and validation helpers
 - **2026-03-25T21:03:16+07:00** - [Activity #1823] fix(firebase): handle connection dropout during batch sync gracefully
 - **2026-03-25T21:22:04+07:00** - [Activity #1824] style(modal): tune cubic-bezier easing curves on dialog open
+- **2026-03-25T21:33:28+07:00** - [Activity #1825] refactor(export): optimize canvas blob generation with WebP compression
