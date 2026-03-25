@@ -2768,3 +2768,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T14:56:37+07:00** - [Activity #2019] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-03-25T15:00:44+07:00** - [Activity #2020] feat(ai): integrate edge background removal model
 - **2026-03-25T15:23:08+07:00** - [Activity #2021] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-03-25T15:24:00+07:00** - [Activity #2022] fix(qr): adjust QR code contrast ratio for low-light scanning
