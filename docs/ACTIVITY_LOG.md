@@ -2788,3 +2788,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T21:27:19+07:00** - [Activity #2039] feat(settings): add camera device selector with resolution fallbacks
 - **2026-03-25T21:40:41+07:00** - [Activity #2040] feat(audio): add shutter click and countdown sound effects
 - **2026-03-25T22:10:37+07:00** - [Activity #2041] refactor(services): separate cloud storage adapter from UI layer
+- **2026-03-25T22:32:50+07:00** - [Activity #2042] fix(ui): correct modal z-index layering on small mobile viewports
