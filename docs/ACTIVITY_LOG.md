@@ -2781,3 +2781,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T17:46:41+07:00** - [Activity #2032] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-03-25T19:30:28+07:00** - [Activity #2033] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-03-25T19:50:05+07:00** - [Activity #2034] feat(ai): integrate edge background removal model
+- **2026-03-25T20:10:42+07:00** - [Activity #2035] feat(camera): add dynamic exposure and focus adjustment controls
