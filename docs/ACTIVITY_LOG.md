@@ -8408,3 +8408,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-24T21:48:42+07:00** - [Activity #1790] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-03-24T22:12:13+07:00** - [Activity #1791] perf(canvas): render WebGL shaders on offscreen canvas worker
 - **2026-03-24T22:26:20+07:00** - [Activity #1792] style(modal): tune cubic-bezier easing curves on dialog open
+- **2026-03-25T09:07:26+07:00** - [Activity #1793] feat(camera): add dynamic resolution negotiator and frame rate switcher
