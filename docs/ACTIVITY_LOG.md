@@ -8442,3 +8442,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T21:22:04+07:00** - [Activity #1824] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-03-25T21:33:28+07:00** - [Activity #1825] refactor(export): optimize canvas blob generation with WebP compression
 - **2026-03-25T21:54:42+07:00** - [Activity #1826] feat(export): add multi-frame strip layout builder with dynamic margins
+- **2026-03-25T22:27:20+07:00** - [Activity #1827] feat(filter): implement real-time WebGL LUT matrix transformation
