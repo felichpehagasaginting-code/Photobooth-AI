@@ -8433,3 +8433,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T17:02:13+07:00** - [Activity #1815] feat(photobooth): initialize core camera streaming architecture
 - **2026-03-25T17:09:39+07:00** - [Activity #1816] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-03-25T17:34:04+07:00** - [Activity #1817] style(typography): refine letter-spacing and line heights for headings
+- **2026-03-25T17:41:55+07:00** - [Activity #1818] chore(git): add ignore rules for local session exports and temp files
