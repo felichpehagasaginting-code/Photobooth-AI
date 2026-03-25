@@ -8420,3 +8420,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T12:04:21+07:00** - [Activity #1802] feat(camera): add dynamic resolution negotiator and frame rate switcher
 - **2026-03-25T13:45:41+07:00** - [Activity #1803] fix(ui): adjust button touch target size for touch kiosks
 - **2026-03-25T13:54:20+07:00** - [Activity #1804] perf(fonts): preload display fonts to avoid flash of unstyled text
+- **2026-03-25T14:18:51+07:00** - [Activity #1805] docs(changelog): update version history and release milestones
