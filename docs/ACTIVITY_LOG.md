@@ -8423,3 +8423,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T14:18:51+07:00** - [Activity #1805] docs(changelog): update version history and release milestones
 - **2026-03-25T14:28:26+07:00** - [Activity #1806] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-03-25T14:49:26+07:00** - [Activity #1807] test(hooks): add test suite for camera stream lifecycle events
+- **2026-03-25T14:57:03+07:00** - [Activity #1808] feat(photobooth): initialize core camera streaming architecture
