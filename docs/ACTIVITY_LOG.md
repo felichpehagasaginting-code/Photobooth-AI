@@ -2750,3 +2750,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T09:05:15+07:00** - [Activity #2001] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-03-25T09:14:52+07:00** - [Activity #2002] perf(anim): offload countdown animations to GPU composited layers
 - **2026-03-25T09:27:56+07:00** - [Activity #2003] docs(env): document all required environment variables with defaults
+- **2026-03-25T09:41:36+07:00** - [Activity #2004] refactor(services): separate cloud storage adapter from UI layer
