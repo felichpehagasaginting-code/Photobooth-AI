@@ -2770,3 +2770,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T15:23:08+07:00** - [Activity #2021] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-03-25T15:24:00+07:00** - [Activity #2022] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-03-25T15:43:24+07:00** - [Activity #2023] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-03-25T15:51:59+07:00** - [Activity #2024] docs(changelog): update version history and release milestones
