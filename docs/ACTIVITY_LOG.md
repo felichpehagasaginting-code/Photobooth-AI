@@ -2821,3 +2821,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T19:30:23+07:00** - [Activity #2072] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-03-26T19:52:52+07:00** - [Activity #2073] refactor(camera): extract media stream hook into standalone module
 - **2026-03-26T20:04:01+07:00** - [Activity #2074] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-03-26T20:22:37+07:00** - [Activity #2075] fix(ui): correct modal z-index layering on small mobile viewports
