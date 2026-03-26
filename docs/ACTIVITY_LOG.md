@@ -8444,3 +8444,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T21:54:42+07:00** - [Activity #1826] feat(export): add multi-frame strip layout builder with dynamic margins
 - **2026-03-25T22:27:20+07:00** - [Activity #1827] feat(filter): implement real-time WebGL LUT matrix transformation
 - **2026-03-26T09:07:04+07:00** - [Activity #1828] perf(canvas): render WebGL shaders on offscreen canvas worker
+- **2026-03-26T09:21:40+07:00** - [Activity #1829] fix(storage): add graceful error handling when local quota is exceeded
