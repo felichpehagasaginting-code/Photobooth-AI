@@ -2805,3 +2805,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T13:56:30+07:00** - [Activity #2056] fix(state): sync active photo index when reopening gallery drawer
 - **2026-03-26T14:24:48+07:00** - [Activity #2057] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-03-26T14:39:52+07:00** - [Activity #2058] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-03-26T14:49:18+07:00** - [Activity #2059] fix(download): resolve blob URL memory leak on repeated downloads
