@@ -2826,3 +2826,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T21:12:14+07:00** - [Activity #2077] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-03-26T21:20:07+07:00** - [Activity #2078] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-03-26T21:40:07+07:00** - [Activity #2079] docs(changelog): update version history and release milestones
+- **2026-03-26T22:11:39+07:00** - [Activity #2080] feat(settings): add camera device selector with resolution fallbacks
