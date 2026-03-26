@@ -2796,3 +2796,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T10:07:09+07:00** - [Activity #2047] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-03-26T10:28:53+07:00** - [Activity #2048] style(badge): update status indicator badge colors and glow effects
 - **2026-03-26T10:37:07+07:00** - [Activity #2049] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-03-26T10:56:35+07:00** - [Activity #2050] style(typography): refine letter-spacing and hierarchy for hero heading
