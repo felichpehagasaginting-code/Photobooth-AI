@@ -2794,3 +2794,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T09:30:46+07:00** - [Activity #2045] refactor(api): modularize backend route handlers and validation utils
 - **2026-03-26T09:56:55+07:00** - [Activity #2046] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-03-26T10:07:09+07:00** - [Activity #2047] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-03-26T10:28:53+07:00** - [Activity #2048] style(badge): update status indicator badge colors and glow effects
