@@ -8473,3 +8473,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T16:20:07+07:00** - [Activity #1855] feat(share): implement client-side QR code generator for photo download
 - **2026-03-26T16:21:01+07:00** - [Activity #1856] style(button): add subtle hover transition and outline focus style
 - **2026-03-26T16:44:41+07:00** - [Activity #1857] chore(git): add ignore rules for local session exports and temp files
+- **2026-03-26T16:47:38+07:00** - [Activity #1858] docs(readme): add detailed hardware camera setup and compatibility guide
