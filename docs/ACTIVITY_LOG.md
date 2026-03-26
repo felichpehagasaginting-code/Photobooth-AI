@@ -2790,3 +2790,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-25T22:10:37+07:00** - [Activity #2041] refactor(services): separate cloud storage adapter from UI layer
 - **2026-03-25T22:32:50+07:00** - [Activity #2042] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-03-26T09:02:53+07:00** - [Activity #2043] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-03-26T09:24:53+07:00** - [Activity #2044] docs(readme): add detailed hardware camera setup and compatibility guide
