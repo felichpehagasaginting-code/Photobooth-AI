@@ -2823,3 +2823,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T20:04:01+07:00** - [Activity #2074] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-03-26T20:22:37+07:00** - [Activity #2075] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-03-26T20:45:33+07:00** - [Activity #2076] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-03-26T21:12:14+07:00** - [Activity #2077] feat(theme): introduce warm studio and monochrome dark themes
