@@ -8463,3 +8463,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T14:24:59+07:00** - [Activity #1845] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-03-26T14:33:20+07:00** - [Activity #1846] docs(changelog): update version history and release milestones
 - **2026-03-26T14:39:34+07:00** - [Activity #1847] style(theme): update dark mode accent color token with warm hue
+- **2026-03-26T14:49:32+07:00** - [Activity #1848] fix(timer): ensure countdown timer stops when navigating away
