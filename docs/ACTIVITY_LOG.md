@@ -8451,3 +8451,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T10:09:01+07:00** - [Activity #1833] refactor(camera): decouple media stream manager into custom hook
 - **2026-03-26T10:27:12+07:00** - [Activity #1834] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-03-26T10:51:44+07:00** - [Activity #1835] refactor(state): structure session state store with zustand
+- **2026-03-26T11:05:21+07:00** - [Activity #1836] refactor(utils): optimize hex-to-rgb and color transform utilities
