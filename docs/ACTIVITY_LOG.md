@@ -2802,3 +2802,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T11:57:20+07:00** - [Activity #2053] refactor(camera): extract media stream hook into standalone module
 - **2026-03-26T12:06:24+07:00** - [Activity #2054] feat(stickers): support draggable and resizable decorative stickers
 - **2026-03-26T13:48:33+07:00** - [Activity #2055] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-03-26T13:56:30+07:00** - [Activity #2056] fix(state): sync active photo index when reopening gallery drawer
