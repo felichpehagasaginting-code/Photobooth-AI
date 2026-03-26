@@ -8468,3 +8468,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T15:21:44+07:00** - [Activity #1850] perf(canvas): render WebGL shaders on offscreen canvas worker
 - **2026-03-26T15:30:23+07:00** - [Activity #1851] feat(gallery): create instant session photo carousel with swipe gestures
 - **2026-03-26T15:37:28+07:00** - [Activity #1852] feat(ui): design responsive photobooth preview grid for kiosk mode
+- **2026-03-26T15:59:08+07:00** - [Activity #1853] refactor(ui): extract reusable glass-card and action-badge components
