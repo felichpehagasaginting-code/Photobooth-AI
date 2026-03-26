@@ -8478,3 +8478,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T17:08:32+07:00** - [Activity #1860] test(hooks): add test suite for camera stream lifecycle events
 - **2026-03-26T17:16:40+07:00** - [Activity #1861] feat(theme): configure dynamic dark mode CSS custom properties
 - **2026-03-26T17:40:59+07:00** - [Activity #1862] feat(api): implement photo metadata seeding route with validation
+- **2026-03-26T17:44:03+07:00** - [Activity #1863] fix(touch): disable browser pull-to-refresh on interactive canvas
