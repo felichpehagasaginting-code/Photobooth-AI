@@ -8479,3 +8479,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T17:16:40+07:00** - [Activity #1861] feat(theme): configure dynamic dark mode CSS custom properties
 - **2026-03-26T17:40:59+07:00** - [Activity #1862] feat(api): implement photo metadata seeding route with validation
 - **2026-03-26T17:44:03+07:00** - [Activity #1863] fix(touch): disable browser pull-to-refresh on interactive canvas
+- **2026-03-26T19:30:44+07:00** - [Activity #1864] feat(kiosk): add auto-reset countdown timer on idle session
