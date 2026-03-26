@@ -2810,3 +2810,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T15:08:03+07:00** - [Activity #2061] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-03-26T15:36:49+07:00** - [Activity #2062] refactor(filter): organize color grading matrices into separate configs
 - **2026-03-26T15:39:31+07:00** - [Activity #2063] chore(git): add ignore rules for local session exports and temp files
+- **2026-03-26T15:54:59+07:00** - [Activity #2064] refactor(styles): migrate hardcoded color values to CSS design tokens
