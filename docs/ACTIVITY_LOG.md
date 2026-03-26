@@ -2798,3 +2798,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T10:37:07+07:00** - [Activity #2049] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-03-26T10:56:35+07:00** - [Activity #2050] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-03-26T11:13:24+07:00** - [Activity #2051] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-03-26T11:40:57+07:00** - [Activity #2052] refactor(camera): extract media stream hook into standalone module
