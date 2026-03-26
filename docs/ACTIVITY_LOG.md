@@ -8456,3 +8456,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T11:32:05+07:00** - [Activity #1838] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-03-26T11:48:26+07:00** - [Activity #1839] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-03-26T11:57:20+07:00** - [Activity #1840] refactor(export): optimize canvas blob generation with WebP compression
+- **2026-03-26T12:13:31+07:00** - [Activity #1841] docs(api): document endpoint parameters and error codes for seed route
