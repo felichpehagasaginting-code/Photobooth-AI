@@ -2812,3 +2812,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T15:39:31+07:00** - [Activity #2063] chore(git): add ignore rules for local session exports and temp files
 - **2026-03-26T15:54:59+07:00** - [Activity #2064] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-03-26T16:20:37+07:00** - [Activity #2065] feat(stickers): support draggable and resizable decorative stickers
+- **2026-03-26T16:22:38+07:00** - [Activity #2066] fix(camera): prevent stream freeze on rapid device re-plug
