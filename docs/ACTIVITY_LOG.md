@@ -8492,3 +8492,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T22:18:33+07:00** - [Activity #1874] feat(storage): integrate indexedDB caching for local photo session recovery
 - **2026-03-26T22:32:16+07:00** - [Activity #1875] perf(images): compress intermediate preview thumbnails asynchronously
 - **2026-03-27T09:00:25+07:00** - [Activity #1876] feat(export): add multi-frame strip layout builder with dynamic margins
+- **2026-03-27T09:17:33+07:00** - [Activity #1877] feat(kiosk): add auto-reset countdown timer on idle session
