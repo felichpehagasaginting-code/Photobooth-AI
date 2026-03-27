@@ -8505,3 +8505,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-27T14:31:23+07:00** - [Activity #1887] feat(settings): create camera device selection modal with device ID persistence
 - **2026-03-27T14:43:18+07:00** - [Activity #1888] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-03-27T15:12:47+07:00** - [Activity #1889] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-03-27T15:29:00+07:00** - [Activity #1890] feat(share): implement client-side QR code generator for photo download
