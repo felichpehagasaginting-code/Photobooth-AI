@@ -8511,3 +8511,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-27T16:25:18+07:00** - [Activity #1893] style(typography): refine letter-spacing and line heights for headings
 - **2026-03-27T16:32:11+07:00** - [Activity #1894] refactor(camera): decouple media stream manager into custom hook
 - **2026-03-27T17:01:33+07:00** - [Activity #1895] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-03-27T17:28:19+07:00** - [Activity #1896] test(canvas): add snapshot tests for multi-frame collage layouts
