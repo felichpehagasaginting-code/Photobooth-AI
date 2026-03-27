@@ -2830,3 +2830,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-26T22:18:43+07:00** - [Activity #2081] refactor(types): consolidate photobooth session type definitions
 - **2026-03-27T09:00:33+07:00** - [Activity #2082] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-03-27T09:23:32+07:00** - [Activity #2083] refactor(types): consolidate photobooth session type definitions
+- **2026-03-27T09:41:27+07:00** - [Activity #2084] style(photobooth): refine backdrop blur and color contrast for dark mode
