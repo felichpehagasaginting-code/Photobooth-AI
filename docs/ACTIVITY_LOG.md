@@ -8519,3 +8519,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-27T20:55:08+07:00** - [Activity #1901] refactor(utils): optimize hex-to-rgb and color transform utilities
 - **2026-03-27T21:17:26+07:00** - [Activity #1902] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-03-27T21:47:43+07:00** - [Activity #1903] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-03-27T22:12:25+07:00** - [Activity #1904] docs(readme): add detailed hardware camera setup and compatibility guide
