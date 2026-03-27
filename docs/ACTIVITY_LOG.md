@@ -2843,3 +2843,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-27T14:05:59+07:00** - [Activity #2094] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-03-27T14:13:47+07:00** - [Activity #2095] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-03-27T14:29:06+07:00** - [Activity #2096] style(grid): modernize layout overlap for bento-style elements
+- **2026-03-27T14:58:03+07:00** - [Activity #2097] fix(camera): resolve aspect ratio distortion on ultrawide webcams
