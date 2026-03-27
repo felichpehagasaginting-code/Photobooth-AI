@@ -2837,3 +2837,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-27T10:49:52+07:00** - [Activity #2088] refactor(events): use custom event bus for decoupled component messaging
 - **2026-03-27T11:14:31+07:00** - [Activity #2089] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-03-27T11:30:42+07:00** - [Activity #2090] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-03-27T11:57:55+07:00** - [Activity #2091] fix(print): fix page margin clipping on 4x6 photo paper print preview
