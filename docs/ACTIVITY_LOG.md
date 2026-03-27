@@ -2848,3 +2848,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-27T15:20:40+07:00** - [Activity #2099] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-03-27T15:46:02+07:00** - [Activity #2100] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-03-27T15:53:47+07:00** - [Activity #2101] refactor(filter): organize color grading matrices into separate configs
+- **2026-03-27T16:10:20+07:00** - [Activity #2102] style(photobooth): refine backdrop blur and color contrast for dark mode
