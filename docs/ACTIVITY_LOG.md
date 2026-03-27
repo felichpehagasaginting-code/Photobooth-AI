@@ -8503,3 +8503,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-27T13:50:02+07:00** - [Activity #1885] fix(firebase): handle connection dropout during batch sync gracefully
 - **2026-03-27T13:57:16+07:00** - [Activity #1886] fix(ui): adjust button touch target size for touch kiosks
 - **2026-03-27T14:31:23+07:00** - [Activity #1887] feat(settings): create camera device selection modal with device ID persistence
+- **2026-03-27T14:43:18+07:00** - [Activity #1888] style(photobooth): refine backdrop blur and color contrast for dark mode
