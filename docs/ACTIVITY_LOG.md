@@ -2841,3 +2841,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-27T12:12:40+07:00** - [Activity #2092] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-03-27T13:45:55+07:00** - [Activity #2093] docs(env): document all required environment variables with defaults
 - **2026-03-27T14:05:59+07:00** - [Activity #2094] perf(dom): virtualize gallery list items for smooth 60fps scrolling
+- **2026-03-27T14:13:47+07:00** - [Activity #2095] feat(kiosk): add full-screen lock and inactivity reset timer
