@@ -2834,3 +2834,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-27T09:57:25+07:00** - [Activity #2085] perf(memory): dispose cached image objects after strip generation
 - **2026-03-27T10:16:05+07:00** - [Activity #2086] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-03-27T10:41:04+07:00** - [Activity #2087] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-03-27T10:49:52+07:00** - [Activity #2088] refactor(events): use custom event bus for decoupled component messaging
