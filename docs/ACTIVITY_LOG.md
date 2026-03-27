@@ -8502,3 +8502,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-27T12:10:25+07:00** - [Activity #1884] feat(watermark): add customizable branding and event date stamp
 - **2026-03-27T13:50:02+07:00** - [Activity #1885] fix(firebase): handle connection dropout during batch sync gracefully
 - **2026-03-27T13:57:16+07:00** - [Activity #1886] fix(ui): adjust button touch target size for touch kiosks
+- **2026-03-27T14:31:23+07:00** - [Activity #1887] feat(settings): create camera device selection modal with device ID persistence
