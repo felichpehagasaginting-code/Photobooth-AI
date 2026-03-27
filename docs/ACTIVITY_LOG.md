@@ -8509,3 +8509,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-27T15:48:12+07:00** - [Activity #1891] fix(ui): adjust button touch target size for touch kiosks
 - **2026-03-27T16:06:55+07:00** - [Activity #1892] fix(storage): add graceful error handling when local quota is exceeded
 - **2026-03-27T16:25:18+07:00** - [Activity #1893] style(typography): refine letter-spacing and line heights for headings
+- **2026-03-27T16:32:11+07:00** - [Activity #1894] refactor(camera): decouple media stream manager into custom hook
