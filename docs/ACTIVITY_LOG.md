@@ -2844,3 +2844,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-27T14:13:47+07:00** - [Activity #2095] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-03-27T14:29:06+07:00** - [Activity #2096] style(grid): modernize layout overlap for bento-style elements
 - **2026-03-27T14:58:03+07:00** - [Activity #2097] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-03-27T15:00:31+07:00** - [Activity #2098] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
