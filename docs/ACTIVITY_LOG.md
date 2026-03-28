@@ -8530,3 +8530,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-28T14:07:45+07:00** - [Activity #1912] style(typography): refine letter-spacing and line heights for headings
 - **2026-03-28T14:44:35+07:00** - [Activity #1913] style(theme): update dark mode accent color token with warm hue
 - **2026-03-28T14:53:05+07:00** - [Activity #1914] test(utils): add unit tests for image aspect ratio calculator
+- **2026-03-28T15:23:38+07:00** - [Activity #1915] style(photobooth): refine backdrop blur and color contrast for dark mode
