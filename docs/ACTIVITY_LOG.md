@@ -2878,3 +2878,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-28T16:00:36+07:00** - [Activity #2129] refactor(ui): extract reusable glass-panel and badge components
 - **2026-03-28T16:34:39+07:00** - [Activity #2130] refactor(types): consolidate photobooth session type definitions
 - **2026-03-28T17:02:23+07:00** - [Activity #2131] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-03-28T17:26:42+07:00** - [Activity #2132] refactor(hooks): create custom useDebounce and useThrottle utilities
