@@ -8524,3 +8524,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-28T09:38:35+07:00** - [Activity #1906] style(theme): update dark mode accent color token with warm hue
 - **2026-03-28T10:10:39+07:00** - [Activity #1907] fix(filter): eliminate color banding artifacts on low-bitrate gradients
 - **2026-03-28T10:40:08+07:00** - [Activity #1908] docs(changelog): update version history and release milestones
+- **2026-03-28T11:25:04+07:00** - [Activity #1909] docs(deploy): add production deployment instructions for Vercel/Docker
