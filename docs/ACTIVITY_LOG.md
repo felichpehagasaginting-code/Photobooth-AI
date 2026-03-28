@@ -2868,3 +2868,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-28T09:36:02+07:00** - [Activity #2119] refactor(api): modularize backend route handlers and validation utils
 - **2026-03-28T10:02:59+07:00** - [Activity #2120] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-03-28T10:45:33+07:00** - [Activity #2121] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-03-28T11:22:10+07:00** - [Activity #2122] feat(preview): render live filter preview using WebGL shader canvas
