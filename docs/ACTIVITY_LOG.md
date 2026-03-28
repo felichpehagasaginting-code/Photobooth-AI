@@ -2880,3 +2880,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-28T17:02:23+07:00** - [Activity #2131] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-03-28T17:26:42+07:00** - [Activity #2132] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-03-28T19:30:19+07:00** - [Activity #2133] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-03-28T20:07:56+07:00** - [Activity #2134] perf(images): compress intermediate preview thumbnails with WebP format
