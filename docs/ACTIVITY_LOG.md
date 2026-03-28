@@ -8526,3 +8526,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-28T10:40:08+07:00** - [Activity #1908] docs(changelog): update version history and release milestones
 - **2026-03-28T11:25:04+07:00** - [Activity #1909] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-03-28T11:47:04+07:00** - [Activity #1910] feat(kiosk): add auto-reset countdown timer on idle session
+- **2026-03-28T13:45:08+07:00** - [Activity #1911] refactor(camera): decouple media stream manager into custom hook
