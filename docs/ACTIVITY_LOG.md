@@ -8540,3 +8540,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-28T20:11:46+07:00** - [Activity #1922] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-03-28T20:49:54+07:00** - [Activity #1923] feat(audio): integrate synthesized camera shutter click and countdown beeps
 - **2026-03-28T21:27:42+07:00** - [Activity #1924] feat(api): implement photo metadata seeding route with validation
+- **2026-03-28T22:07:50+07:00** - [Activity #1925] refactor(filter): organize color grading matrices into separate configs
