@@ -2871,3 +2871,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-28T11:22:10+07:00** - [Activity #2122] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-03-28T11:51:46+07:00** - [Activity #2123] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-03-28T13:51:32+07:00** - [Activity #2124] perf(api): cache static filter presets with aggressive HTTP headers
+- **2026-03-28T14:15:52+07:00** - [Activity #2125] style(controls): refine slider track and thumb sizing for touch screens
