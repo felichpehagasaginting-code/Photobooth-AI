@@ -2898,3 +2898,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-29T16:31:04+07:00** - [Activity #2149] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-03-29T16:51:28+07:00** - [Activity #2150] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-03-29T17:21:07+07:00** - [Activity #2151] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-03-29T19:33:42+07:00** - [Activity #2152] fix(canvas): prevent blur artifacts during canvas downsampling
