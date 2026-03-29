@@ -8555,3 +8555,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-29T16:53:15+07:00** - [Activity #1937] fix(api): sanitize query params on photo retrieval endpoint
 - **2026-03-29T17:27:00+07:00** - [Activity #1938] refactor(state): structure session state store with zustand
 - **2026-03-29T19:30:00+07:00** - [Activity #1939] chore(git): add ignore rules for local session exports and temp files
+- **2026-03-29T20:26:00+07:00** - [Activity #1940] refactor(filter): organize color grading matrices into separate configs
