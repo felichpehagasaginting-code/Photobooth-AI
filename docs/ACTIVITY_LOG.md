@@ -2888,3 +2888,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-29T09:27:08+07:00** - [Activity #2139] fix(export): handle canvas taint error when loading external assets
 - **2026-03-29T10:03:49+07:00** - [Activity #2140] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-03-29T10:39:13+07:00** - [Activity #2141] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-03-29T11:24:02+07:00** - [Activity #2142] refactor(i18n): restructure localization strings dictionary
