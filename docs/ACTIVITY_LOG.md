@@ -2886,3 +2886,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-28T22:03:07+07:00** - [Activity #2137] feat(share): generate instant QR code for mobile photo download
 - **2026-03-29T09:00:11+07:00** - [Activity #2138] refactor(services): separate cloud storage adapter from UI layer
 - **2026-03-29T09:27:08+07:00** - [Activity #2139] fix(export): handle canvas taint error when loading external assets
+- **2026-03-29T10:03:49+07:00** - [Activity #2140] perf(api): cache static filter presets with aggressive HTTP headers
