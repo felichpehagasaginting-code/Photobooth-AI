@@ -8552,3 +8552,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-29T15:24:45+07:00** - [Activity #1934] test(hooks): add test suite for camera stream lifecycle events
 - **2026-03-29T15:45:48+07:00** - [Activity #1935] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-03-29T16:17:37+07:00** - [Activity #1936] feat(filter): implement real-time WebGL LUT matrix transformation
+- **2026-03-29T16:53:15+07:00** - [Activity #1937] fix(api): sanitize query params on photo retrieval endpoint
