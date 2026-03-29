@@ -2891,3 +2891,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-29T11:24:02+07:00** - [Activity #2142] refactor(i18n): restructure localization strings dictionary
 - **2026-03-29T11:53:05+07:00** - [Activity #2143] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-03-29T13:45:53+07:00** - [Activity #2144] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-03-29T14:16:04+07:00** - [Activity #2145] refactor(hooks): create custom useDebounce and useThrottle utilities
