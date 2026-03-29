@@ -8542,3 +8542,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-28T21:27:42+07:00** - [Activity #1924] feat(api): implement photo metadata seeding route with validation
 - **2026-03-28T22:07:50+07:00** - [Activity #1925] refactor(filter): organize color grading matrices into separate configs
 - **2026-03-29T09:05:10+07:00** - [Activity #1926] feat(photobooth): initialize core camera streaming architecture
+- **2026-03-29T09:48:54+07:00** - [Activity #1927] fix(storage): add graceful error handling when local quota is exceeded
