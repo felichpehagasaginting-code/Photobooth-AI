@@ -2894,3 +2894,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-29T14:16:04+07:00** - [Activity #2145] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-03-29T14:44:45+07:00** - [Activity #2146] feat(watermark): customizable event logo watermark overlay
 - **2026-03-29T15:25:42+07:00** - [Activity #2147] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-03-29T15:49:47+07:00** - [Activity #2148] feat(camera): add dynamic exposure and focus adjustment controls
