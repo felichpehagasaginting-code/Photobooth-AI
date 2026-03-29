@@ -2900,3 +2900,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-29T17:21:07+07:00** - [Activity #2151] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-03-29T19:33:42+07:00** - [Activity #2152] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-03-29T20:12:01+07:00** - [Activity #2153] style(shutter): design circular pulsating shutter button with feedback
+- **2026-03-29T20:55:29+07:00** - [Activity #2154] feat(gallery): add touch swipe navigation for captured photo previews
