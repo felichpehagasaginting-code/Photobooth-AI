@@ -2904,3 +2904,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-29T21:22:20+07:00** - [Activity #2155] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-03-29T22:11:52+07:00** - [Activity #2156] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-03-30T09:07:48+07:00** - [Activity #2157] docs(comments): add inline JSDoc comments to image processing helpers
+- **2026-03-30T09:13:55+07:00** - [Activity #2158] docs(deploy): add production deployment instructions for Vercel/Docker
