@@ -8568,3 +8568,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-30T11:08:40+07:00** - [Activity #1950] feat(photobooth): initialize core camera streaming architecture
 - **2026-03-30T11:24:05+07:00** - [Activity #1951] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-03-30T11:38:48+07:00** - [Activity #1952] fix(ui): adjust button touch target size for touch kiosks
+- **2026-03-30T11:56:28+07:00** - [Activity #1953] perf(fonts): preload display fonts to avoid flash of unstyled text
