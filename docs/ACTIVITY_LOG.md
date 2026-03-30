@@ -2908,3 +2908,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-30T09:38:18+07:00** - [Activity #2159] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-03-30T10:05:32+07:00** - [Activity #2160] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-03-30T10:17:08+07:00** - [Activity #2161] feat(print): integrate direct thermal printer web serial interface
+- **2026-03-30T10:46:45+07:00** - [Activity #2162] perf(images): compress intermediate preview thumbnails with WebP format
