@@ -2936,3 +2936,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-30T20:52:56+07:00** - [Activity #2187] docs(changelog): update version history and release milestones
 - **2026-03-30T21:20:18+07:00** - [Activity #2188] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-03-30T21:47:28+07:00** - [Activity #2189] fix(export): handle canvas taint error when loading external assets
+- **2026-03-30T21:59:16+07:00** - [Activity #2190] perf(images): compress intermediate preview thumbnails with WebP format
