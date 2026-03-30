@@ -8571,3 +8571,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-30T11:56:28+07:00** - [Activity #1953] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-03-30T12:10:00+07:00** - [Activity #1954] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-03-30T13:45:56+07:00** - [Activity #1955] fix(storage): add graceful error handling when local quota is exceeded
+- **2026-03-30T14:07:52+07:00** - [Activity #1956] perf(images): compress intermediate preview thumbnails asynchronously
