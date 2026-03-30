@@ -2929,3 +2929,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-30T17:17:01+07:00** - [Activity #2180] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-03-30T17:29:17+07:00** - [Activity #2181] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-03-30T17:34:16+07:00** - [Activity #2182] fix(export): handle canvas taint error when loading external assets
+- **2026-03-30T19:30:35+07:00** - [Activity #2183] perf(images): compress intermediate preview thumbnails with WebP format
