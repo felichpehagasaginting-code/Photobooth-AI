@@ -2916,3 +2916,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-30T13:45:31+07:00** - [Activity #2167] feat(preset): allow custom framing border selection per session
 - **2026-03-30T14:03:24+07:00** - [Activity #2168] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-03-30T14:13:25+07:00** - [Activity #2169] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-03-30T14:37:25+07:00** - [Activity #2170] feat(preset): allow custom framing border selection per session
