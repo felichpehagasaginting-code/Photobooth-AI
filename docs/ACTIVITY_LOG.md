@@ -2925,3 +2925,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-30T16:06:19+07:00** - [Activity #2176] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-03-30T16:14:38+07:00** - [Activity #2177] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-03-30T16:32:26+07:00** - [Activity #2178] perf(memory): dispose cached image objects after strip generation
+- **2026-03-30T16:57:03+07:00** - [Activity #2179] chore(lint): configure ESLint rules for react hooks and accessibility
