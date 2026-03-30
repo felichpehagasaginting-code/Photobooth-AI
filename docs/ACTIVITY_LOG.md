@@ -2937,3 +2937,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-30T21:20:18+07:00** - [Activity #2188] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-03-30T21:47:28+07:00** - [Activity #2189] fix(export): handle canvas taint error when loading external assets
 - **2026-03-30T21:59:16+07:00** - [Activity #2190] perf(images): compress intermediate preview thumbnails with WebP format
+- **2026-03-30T22:26:23+07:00** - [Activity #2191] fix(api): validate payload schema before processing seed request
