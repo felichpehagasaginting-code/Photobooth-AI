@@ -8564,3 +8564,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-30T09:56:30+07:00** - [Activity #1946] fix(qr): optimize QR code foreground-to-background contrast ratio
 - **2026-03-30T10:12:50+07:00** - [Activity #1947] feat(filter): add warm monochrome and film grain retro effects
 - **2026-03-30T10:28:54+07:00** - [Activity #1948] feat(settings): create camera device selection modal with device ID persistence
+- **2026-03-30T10:40:17+07:00** - [Activity #1949] refactor(types): unify photobooth capture and export type definitions
