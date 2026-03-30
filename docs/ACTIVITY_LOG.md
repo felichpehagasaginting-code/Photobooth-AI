@@ -8558,3 +8558,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-29T20:26:00+07:00** - [Activity #1940] refactor(filter): organize color grading matrices into separate configs
 - **2026-03-29T21:08:46+07:00** - [Activity #1941] fix(qr): optimize QR code foreground-to-background contrast ratio
 - **2026-03-29T22:00:03+07:00** - [Activity #1942] refactor(state): structure session state store with zustand
+- **2026-03-30T09:03:17+07:00** - [Activity #1943] fix(state): sync current photo strip selection across modal re-renders
