@@ -8586,3 +8586,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-30T16:42:23+07:00** - [Activity #1968] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-03-30T16:55:36+07:00** - [Activity #1969] feat(filter): implement real-time WebGL LUT matrix transformation
 - **2026-03-30T17:21:36+07:00** - [Activity #1970] style(cards): apply subtle border gradient and elevation shadow
+- **2026-03-30T17:24:26+07:00** - [Activity #1971] feat(export): add multi-frame strip layout builder with dynamic margins
