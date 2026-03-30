@@ -2921,3 +2921,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-30T14:56:01+07:00** - [Activity #2172] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-03-30T15:11:12+07:00** - [Activity #2173] style(button): add subtle hover transition and outline focus style
 - **2026-03-30T15:37:54+07:00** - [Activity #2174] fix(state): sync active photo index when reopening gallery drawer
+- **2026-03-30T16:01:41+07:00** - [Activity #2175] perf(images): compress intermediate preview thumbnails with WebP format
