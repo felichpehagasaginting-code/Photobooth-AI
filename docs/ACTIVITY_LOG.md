@@ -8604,3 +8604,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T09:55:15+07:00** - [Activity #1986] refactor(styles): standardize spacing and typography design tokens
 - **2026-03-31T10:01:33+07:00** - [Activity #1987] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-03-31T10:17:28+07:00** - [Activity #1988] fix(canvas): avoid pixelation on high-DPI canvas downsampling
+- **2026-03-31T10:33:26+07:00** - [Activity #1989] docs(readme): add detailed hardware camera setup and compatibility guide
