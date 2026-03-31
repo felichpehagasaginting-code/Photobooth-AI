@@ -2975,3 +2975,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T19:34:02+07:00** - [Activity #2226] feat(watermark): customizable event logo watermark overlay
 - **2026-03-31T19:45:20+07:00** - [Activity #2227] feat(cloud): async upload queue for batch photo backup
 - **2026-03-31T19:56:14+07:00** - [Activity #2228] feat(audio): add shutter click and countdown sound effects
+- **2026-03-31T20:23:57+07:00** - [Activity #2229] style(typography): refine letter-spacing and hierarchy for hero heading
