@@ -8612,3 +8612,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T12:02:06+07:00** - [Activity #1994] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-03-31T12:10:06+07:00** - [Activity #1995] feat(export): add multi-frame strip layout builder with dynamic margins
 - **2026-03-31T13:47:00+07:00** - [Activity #1996] fix(qr): optimize QR code foreground-to-background contrast ratio
+- **2026-03-31T14:06:58+07:00** - [Activity #1997] fix(camera): correct video aspect ratio calculation on widescreen monitors
