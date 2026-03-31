@@ -2980,3 +2980,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T20:49:51+07:00** - [Activity #2231] feat(settings): add camera device selector with resolution fallbacks
 - **2026-03-31T21:10:40+07:00** - [Activity #2232] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-03-31T21:24:11+07:00** - [Activity #2233] feat(cloud): async upload queue for batch photo backup
+- **2026-03-31T21:41:54+07:00** - [Activity #2234] fix(storage): add fallback for local storage quota exceeded errors
