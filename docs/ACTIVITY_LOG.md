@@ -2955,3 +2955,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T13:52:53+07:00** - [Activity #2206] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-03-31T14:03:54+07:00** - [Activity #2207] perf(memory): dispose cached image objects after strip generation
 - **2026-03-31T14:19:02+07:00** - [Activity #2208] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-03-31T14:31:21+07:00** - [Activity #2209] feat(filter): add cyber-neon and grain texture post-processing overlay
