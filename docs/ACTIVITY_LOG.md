@@ -8609,3 +8609,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T11:06:06+07:00** - [Activity #1991] chore(git): add ignore rules for local session exports and temp files
 - **2026-03-31T11:23:15+07:00** - [Activity #1992] feat(share): implement client-side QR code generator for photo download
 - **2026-03-31T11:45:04+07:00** - [Activity #1993] perf(fonts): preload display fonts to avoid flash of unstyled text
+- **2026-03-31T12:02:06+07:00** - [Activity #1994] feat(kiosk): add auto-reset countdown timer on idle session
