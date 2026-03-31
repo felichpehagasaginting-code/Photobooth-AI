@@ -8638,3 +8638,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T21:05:21+07:00** - [Activity #2020] style(button): add subtle hover transition and outline focus style
 - **2026-03-31T21:12:33+07:00** - [Activity #2021] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-03-31T21:33:28+07:00** - [Activity #2022] chore(git): add ignore rules for local session exports and temp files
+- **2026-03-31T21:50:05+07:00** - [Activity #2023] fix(firebase): handle connection dropout during batch sync gracefully
