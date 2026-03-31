@@ -2973,3 +2973,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T17:27:51+07:00** - [Activity #2224] feat(audio): add shutter click and countdown sound effects
 - **2026-03-31T17:46:55+07:00** - [Activity #2225] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-03-31T19:34:02+07:00** - [Activity #2226] feat(watermark): customizable event logo watermark overlay
+- **2026-03-31T19:45:20+07:00** - [Activity #2227] feat(cloud): async upload queue for batch photo backup
