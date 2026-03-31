@@ -2957,3 +2957,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T14:19:02+07:00** - [Activity #2208] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-03-31T14:31:21+07:00** - [Activity #2209] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-03-31T14:35:18+07:00** - [Activity #2210] feat(share): generate instant QR code for mobile photo download
+- **2026-03-31T14:53:41+07:00** - [Activity #2211] docs(testing): describe manual verification steps for photobooth kiosk
