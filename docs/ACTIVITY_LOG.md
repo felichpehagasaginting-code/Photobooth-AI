@@ -2953,3 +2953,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T11:54:20+07:00** - [Activity #2204] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-03-31T12:19:41+07:00** - [Activity #2205] style(button): add subtle hover transition and outline focus style
 - **2026-03-31T13:52:53+07:00** - [Activity #2206] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-03-31T14:03:54+07:00** - [Activity #2207] perf(memory): dispose cached image objects after strip generation
