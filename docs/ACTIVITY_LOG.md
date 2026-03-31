@@ -8606,3 +8606,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T10:17:28+07:00** - [Activity #1988] fix(canvas): avoid pixelation on high-DPI canvas downsampling
 - **2026-03-31T10:33:26+07:00** - [Activity #1989] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-03-31T11:00:25+07:00** - [Activity #1990] fix(state): sync current photo strip selection across modal re-renders
+- **2026-03-31T11:06:06+07:00** - [Activity #1991] chore(git): add ignore rules for local session exports and temp files
