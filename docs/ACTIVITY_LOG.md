@@ -2946,3 +2946,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T10:22:18+07:00** - [Activity #2197] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-03-31T10:28:45+07:00** - [Activity #2198] style(theme): update dark mode accent color tokens with warm tone
 - **2026-03-31T10:37:05+07:00** - [Activity #2199] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-03-31T10:57:07+07:00** - [Activity #2200] refactor(camera): extract media stream hook into standalone module
