@@ -2948,3 +2948,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T10:37:05+07:00** - [Activity #2199] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-03-31T10:57:07+07:00** - [Activity #2200] refactor(camera): extract media stream hook into standalone module
 - **2026-03-31T11:11:01+07:00** - [Activity #2201] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-03-31T11:22:35+07:00** - [Activity #2202] feat(preview): render live filter preview using WebGL shader canvas
