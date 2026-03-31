@@ -8625,3 +8625,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T16:19:35+07:00** - [Activity #2007] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-03-31T16:29:15+07:00** - [Activity #2008] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-03-31T16:35:37+07:00** - [Activity #2009] chore(git): add ignore rules for local session exports and temp files
+- **2026-03-31T16:47:48+07:00** - [Activity #2010] style(photobooth): refine backdrop blur and color contrast for dark mode
