@@ -2978,3 +2978,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T20:23:57+07:00** - [Activity #2229] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-03-31T20:39:38+07:00** - [Activity #2230] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-03-31T20:49:51+07:00** - [Activity #2231] feat(settings): add camera device selector with resolution fallbacks
+- **2026-03-31T21:10:40+07:00** - [Activity #2232] docs(testing): describe manual verification steps for photobooth kiosk
