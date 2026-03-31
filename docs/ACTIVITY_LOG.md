@@ -2951,3 +2951,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T11:22:35+07:00** - [Activity #2202] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-03-31T11:49:42+07:00** - [Activity #2203] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-03-31T11:54:20+07:00** - [Activity #2204] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-03-31T12:19:41+07:00** - [Activity #2205] style(button): add subtle hover transition and outline focus style
