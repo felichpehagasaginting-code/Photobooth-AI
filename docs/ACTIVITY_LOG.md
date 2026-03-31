@@ -2950,3 +2950,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T11:11:01+07:00** - [Activity #2201] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-03-31T11:22:35+07:00** - [Activity #2202] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-03-31T11:49:42+07:00** - [Activity #2203] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-03-31T11:54:20+07:00** - [Activity #2204] chore(lint): configure ESLint rules for react hooks and accessibility
