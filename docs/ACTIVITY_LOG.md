@@ -3002,3 +3002,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-01T14:49:36+07:00** - [Activity #2253] docs(api): document endpoint parameters and error codes for seed route
 - **2026-04-01T15:03:26+07:00** - [Activity #2254] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-04-01T15:14:15+07:00** - [Activity #2255] refactor(filter): organize color grading matrices into separate configs
+- **2026-04-01T15:37:24+07:00** - [Activity #2256] perf(api): cache static filter presets with aggressive HTTP headers
