@@ -3003,3 +3003,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-01T15:03:26+07:00** - [Activity #2254] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-04-01T15:14:15+07:00** - [Activity #2255] refactor(filter): organize color grading matrices into separate configs
 - **2026-04-01T15:37:24+07:00** - [Activity #2256] perf(api): cache static filter presets with aggressive HTTP headers
+- **2026-04-01T15:39:57+07:00** - [Activity #2257] fix(print): fix page margin clipping on 4x6 photo paper print preview
