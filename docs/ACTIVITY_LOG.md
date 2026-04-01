@@ -3021,3 +3021,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-01T21:25:24+07:00** - [Activity #2272] style(button): add subtle hover transition and outline focus style
 - **2026-04-01T21:46:28+07:00** - [Activity #2273] feat(ai): integrate edge background removal model
 - **2026-04-01T22:08:11+07:00** - [Activity #2274] chore(git): add ignore rules for local session exports and temp files
+- **2026-04-01T22:18:30+07:00** - [Activity #2275] fix(timer): clear interval on component unmount to prevent memory leak
