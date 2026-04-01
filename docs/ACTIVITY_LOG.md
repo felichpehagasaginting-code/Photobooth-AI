@@ -8671,3 +8671,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-01T16:38:02+07:00** - [Activity #2053] feat(export): add multi-frame strip layout builder with dynamic margins
 - **2026-04-01T17:03:07+07:00** - [Activity #2054] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-04-01T17:05:16+07:00** - [Activity #2055] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-04-01T17:23:26+07:00** - [Activity #2056] feat(ui): design responsive photobooth preview grid for kiosk mode
