@@ -8665,3 +8665,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-01T15:17:18+07:00** - [Activity #2047] perf(images): compress intermediate preview thumbnails asynchronously
 - **2026-04-01T15:43:15+07:00** - [Activity #2048] style(grid): modernize layout overlap for bento-style elements
 - **2026-04-01T15:44:36+07:00** - [Activity #2049] feat(filter): implement real-time WebGL LUT matrix transformation
+- **2026-04-01T16:00:51+07:00** - [Activity #2050] docs(arch): add architecture diagram explaining client-side filter flow
