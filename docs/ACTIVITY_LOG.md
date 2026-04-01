@@ -2989,3 +2989,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-01T09:37:57+07:00** - [Activity #2240] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-04-01T09:54:37+07:00** - [Activity #2241] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-04-01T10:08:19+07:00** - [Activity #2242] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-04-01T10:34:38+07:00** - [Activity #2243] feat(watermark): customizable event logo watermark overlay
