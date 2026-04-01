@@ -3015,3 +3015,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-01T19:30:46+07:00** - [Activity #2266] feat(settings): add camera device selector with resolution fallbacks
 - **2026-04-01T19:48:13+07:00** - [Activity #2267] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-04-01T20:15:14+07:00** - [Activity #2268] refactor(services): separate cloud storage adapter from UI layer
+- **2026-04-01T20:28:38+07:00** - [Activity #2269] feat(preview): render live filter preview using WebGL shader canvas
