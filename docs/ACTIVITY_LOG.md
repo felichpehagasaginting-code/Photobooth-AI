@@ -2997,3 +2997,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-01T12:09:22+07:00** - [Activity #2248] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-04-01T13:49:16+07:00** - [Activity #2249] chore(deps): update core dependencies to latest stable versions
 - **2026-04-01T14:04:53+07:00** - [Activity #2250] feat(ai): integrate edge background removal model
+- **2026-04-01T14:18:53+07:00** - [Activity #2251] perf(anim): offload countdown animations to GPU composited layers
