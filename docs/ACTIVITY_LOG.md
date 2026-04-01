@@ -8642,3 +8642,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T22:15:57+07:00** - [Activity #2024] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-03-31T22:25:29+07:00** - [Activity #2025] style(typography): refine letter-spacing and line heights for headings
 - **2026-04-01T09:00:52+07:00** - [Activity #2026] refactor(styles): standardize spacing and typography design tokens
+- **2026-04-01T09:08:16+07:00** - [Activity #2027] docs(deploy): add production deployment instructions for Vercel/Docker
