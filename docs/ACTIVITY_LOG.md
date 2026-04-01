@@ -2998,3 +2998,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-01T13:49:16+07:00** - [Activity #2249] chore(deps): update core dependencies to latest stable versions
 - **2026-04-01T14:04:53+07:00** - [Activity #2250] feat(ai): integrate edge background removal model
 - **2026-04-01T14:18:53+07:00** - [Activity #2251] perf(anim): offload countdown animations to GPU composited layers
+- **2026-04-01T14:34:16+07:00** - [Activity #2252] style(typography): refine letter-spacing and hierarchy for hero heading
