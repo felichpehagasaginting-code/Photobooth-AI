@@ -8661,3 +8661,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-01T14:41:08+07:00** - [Activity #2043] style(button): add subtle hover transition and outline focus style
 - **2026-04-01T14:47:20+07:00** - [Activity #2044] fix(canvas): avoid pixelation on high-DPI canvas downsampling
 - **2026-04-01T15:05:05+07:00** - [Activity #2045] feat(filter): implement real-time WebGL LUT matrix transformation
+- **2026-04-01T15:14:47+07:00** - [Activity #2046] docs(deploy): add production deployment instructions for Vercel/Docker
