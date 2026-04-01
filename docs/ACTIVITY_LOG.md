@@ -2994,3 +2994,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-01T11:14:28+07:00** - [Activity #2245] refactor(services): separate cloud storage adapter from UI layer
 - **2026-04-01T11:35:20+07:00** - [Activity #2246] refactor(types): consolidate photobooth session type definitions
 - **2026-04-01T11:59:20+07:00** - [Activity #2247] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-04-01T12:09:22+07:00** - [Activity #2248] feat(kiosk): add full-screen lock and inactivity reset timer
