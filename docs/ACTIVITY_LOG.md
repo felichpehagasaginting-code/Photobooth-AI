@@ -3010,3 +3010,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-01T16:53:37+07:00** - [Activity #2261] refactor(export): optimize collage rendering algorithm for speed
 - **2026-04-01T16:53:48+07:00** - [Activity #2262] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-01T17:09:17+07:00** - [Activity #2263] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-04-01T17:21:36+07:00** - [Activity #2264] chore(git): add ignore rules for local session exports and temp files
