@@ -2985,3 +2985,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-03-31T22:08:47+07:00** - [Activity #2236] fix(auth): prevent race condition when initializing anonymous session
 - **2026-03-31T22:25:32+07:00** - [Activity #2237] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-04-01T09:06:51+07:00** - [Activity #2238] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-04-01T09:11:32+07:00** - [Activity #2239] feat(camera): add dynamic exposure and focus adjustment controls
