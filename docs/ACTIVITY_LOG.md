@@ -8717,3 +8717,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T20:28:46+07:00** - [Activity #2099] fix(qr): optimize QR code foreground-to-background contrast ratio
 - **2026-04-02T20:52:26+07:00** - [Activity #2100] perf(canvas): render WebGL shaders on offscreen canvas worker
 - **2026-04-02T21:17:55+07:00** - [Activity #2101] refactor(styles): standardize spacing and typography design tokens
+- **2026-04-02T21:37:15+07:00** - [Activity #2102] style(button): add subtle hover transition and outline focus style
