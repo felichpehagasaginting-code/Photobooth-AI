@@ -8701,3 +8701,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T14:37:52+07:00** - [Activity #2083] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-04-02T14:39:25+07:00** - [Activity #2084] refactor(utils): optimize hex-to-rgb and color transform utilities
 - **2026-04-02T14:58:07+07:00** - [Activity #2085] style(button): add subtle hover transition and outline focus style
+- **2026-04-02T15:17:40+07:00** - [Activity #2086] feat(ui): design responsive photobooth preview grid for kiosk mode
