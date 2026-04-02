@@ -8688,3 +8688,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T09:00:35+07:00** - [Activity #2070] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-04-02T09:24:26+07:00** - [Activity #2071] style(cards): apply subtle border gradient and elevation shadow
 - **2026-04-02T09:48:37+07:00** - [Activity #2072] feat(watermark): add customizable branding and event date stamp
+- **2026-04-02T09:58:11+07:00** - [Activity #2073] refactor(camera): decouple media stream manager into custom hook
