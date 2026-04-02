@@ -3052,3 +3052,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T17:40:48+07:00** - [Activity #2303] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-04-02T19:33:48+07:00** - [Activity #2304] style(theme): update dark mode accent color tokens with warm tone
 - **2026-04-02T19:56:20+07:00** - [Activity #2305] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-04-02T20:15:35+07:00** - [Activity #2306] fix(camera): prevent stream freeze on rapid device re-plug
