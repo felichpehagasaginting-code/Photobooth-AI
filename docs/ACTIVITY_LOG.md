@@ -8697,3 +8697,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T12:13:27+07:00** - [Activity #2079] refactor(utils): optimize hex-to-rgb and color transform utilities
 - **2026-04-02T13:47:01+07:00** - [Activity #2080] fix(qr): optimize QR code foreground-to-background contrast ratio
 - **2026-04-02T14:09:01+07:00** - [Activity #2081] perf(render): memoize grid item rendering to prevent redundant cycles
+- **2026-04-02T14:09:14+07:00** - [Activity #2082] style(photobooth): refine backdrop blur and color contrast for dark mode
