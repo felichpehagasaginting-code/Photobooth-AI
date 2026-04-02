@@ -3051,3 +3051,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T17:24:11+07:00** - [Activity #2302] feat(preset): allow custom framing border selection per session
 - **2026-04-02T17:40:48+07:00** - [Activity #2303] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-04-02T19:33:48+07:00** - [Activity #2304] style(theme): update dark mode accent color tokens with warm tone
+- **2026-04-02T19:56:20+07:00** - [Activity #2305] refactor(cleanup): remove deprecated legacy camera capture methods
