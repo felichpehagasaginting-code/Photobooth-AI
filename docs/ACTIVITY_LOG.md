@@ -3054,3 +3054,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T19:56:20+07:00** - [Activity #2305] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-04-02T20:15:35+07:00** - [Activity #2306] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-04-02T20:32:17+07:00** - [Activity #2307] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-04-02T20:46:18+07:00** - [Activity #2308] chore(deps): update core dependencies to latest stable versions
