@@ -3048,3 +3048,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T16:43:58+07:00** - [Activity #2299] refactor(filter): organize color grading matrices into separate configs
 - **2026-04-02T16:59:16+07:00** - [Activity #2300] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-04-02T17:12:26+07:00** - [Activity #2301] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
+- **2026-04-02T17:24:11+07:00** - [Activity #2302] feat(preset): allow custom framing border selection per session
