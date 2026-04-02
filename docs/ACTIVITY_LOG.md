@@ -3031,3 +3031,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T10:52:19+07:00** - [Activity #2282] feat(audio): add shutter click and countdown sound effects
 - **2026-04-02T11:11:30+07:00** - [Activity #2283] feat(ai): integrate edge background removal model
 - **2026-04-02T11:35:35+07:00** - [Activity #2284] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-04-02T11:48:39+07:00** - [Activity #2285] style(modal): fine-tune cubic-bezier easing curves on open transition
