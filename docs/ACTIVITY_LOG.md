@@ -3041,3 +3041,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T14:51:10+07:00** - [Activity #2292] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-04-02T15:18:34+07:00** - [Activity #2293] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-04-02T15:32:35+07:00** - [Activity #2294] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-04-02T15:35:43+07:00** - [Activity #2295] chore(config): adjust tsconfig path aliases for cleaner imports
