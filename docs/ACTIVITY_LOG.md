@@ -3030,3 +3030,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T10:28:43+07:00** - [Activity #2281] feat(watermark): customizable event logo watermark overlay
 - **2026-04-02T10:52:19+07:00** - [Activity #2282] feat(audio): add shutter click and countdown sound effects
 - **2026-04-02T11:11:30+07:00** - [Activity #2283] feat(ai): integrate edge background removal model
+- **2026-04-02T11:35:35+07:00** - [Activity #2284] feat(export): support high-resolution PNG and PDF print strip layout
