@@ -3027,3 +3027,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T09:38:05+07:00** - [Activity #2278] docs(env): document all required environment variables with defaults
 - **2026-04-02T09:55:09+07:00** - [Activity #2279] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-04-02T10:14:31+07:00** - [Activity #2280] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-04-02T10:28:43+07:00** - [Activity #2281] feat(watermark): customizable event logo watermark overlay
