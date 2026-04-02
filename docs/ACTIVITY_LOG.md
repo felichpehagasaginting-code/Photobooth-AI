@@ -3043,3 +3043,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T15:32:35+07:00** - [Activity #2294] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-04-02T15:35:43+07:00** - [Activity #2295] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-04-02T16:00:24+07:00** - [Activity #2296] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-04-02T16:16:53+07:00** - [Activity #2297] refactor(utils): streamline color conversion and hex parsing helpers
