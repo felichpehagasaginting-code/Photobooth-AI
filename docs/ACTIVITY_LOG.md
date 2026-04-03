@@ -8741,3 +8741,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-03T15:06:37+07:00** - [Activity #2123] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-04-03T15:24:38+07:00** - [Activity #2124] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-04-03T15:30:00+07:00** - [Activity #2125] fix(api): sanitize query params on photo retrieval endpoint
+- **2026-04-03T15:46:56+07:00** - [Activity #2126] test(canvas): add snapshot tests for multi-frame collage layouts
