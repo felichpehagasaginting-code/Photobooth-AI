@@ -3082,3 +3082,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-03T17:25:08+07:00** - [Activity #2333] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-04-03T17:47:39+07:00** - [Activity #2334] perf(memory): dispose cached image objects after strip generation
 - **2026-04-03T19:30:16+07:00** - [Activity #2335] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-04-03T19:52:46+07:00** - [Activity #2336] refactor(hooks): create custom useDebounce and useThrottle utilities
