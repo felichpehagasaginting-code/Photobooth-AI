@@ -8759,3 +8759,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-03T21:02:12+07:00** - [Activity #2141] style(button): add subtle hover transition and outline focus style
 - **2026-04-03T21:33:14+07:00** - [Activity #2142] refactor(styles): standardize spacing and typography design tokens
 - **2026-04-03T21:40:02+07:00** - [Activity #2143] perf(fonts): preload display fonts to avoid flash of unstyled text
+- **2026-04-03T22:07:03+07:00** - [Activity #2144] fix(accessibility): add missing aria attributes to camera controls
