@@ -3086,3 +3086,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-03T20:27:30+07:00** - [Activity #2337] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-04-03T20:50:30+07:00** - [Activity #2338] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-03T21:17:43+07:00** - [Activity #2339] fix(firebase): handle network timeout retry in transaction hook
+- **2026-04-03T21:53:14+07:00** - [Activity #2340] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
