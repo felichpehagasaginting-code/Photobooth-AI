@@ -3080,3 +3080,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-03T16:43:19+07:00** - [Activity #2331] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-04-03T16:54:22+07:00** - [Activity #2332] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-04-03T17:25:08+07:00** - [Activity #2333] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-04-03T17:47:39+07:00** - [Activity #2334] perf(memory): dispose cached image objects after strip generation
