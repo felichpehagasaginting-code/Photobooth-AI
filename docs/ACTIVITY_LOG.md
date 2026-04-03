@@ -3074,3 +3074,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-03T14:42:00+07:00** - [Activity #2325] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-04-03T14:58:32+07:00** - [Activity #2326] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-04-03T15:18:02+07:00** - [Activity #2327] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-04-03T15:52:28+07:00** - [Activity #2328] refactor(hooks): create custom useDebounce and useThrottle utilities
