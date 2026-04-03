@@ -8740,3 +8740,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-03T14:50:33+07:00** - [Activity #2122] test(utils): add unit tests for image aspect ratio calculator
 - **2026-04-03T15:06:37+07:00** - [Activity #2123] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-04-03T15:24:38+07:00** - [Activity #2124] fix(camera): correct video aspect ratio calculation on widescreen monitors
+- **2026-04-03T15:30:00+07:00** - [Activity #2125] fix(api): sanitize query params on photo retrieval endpoint
