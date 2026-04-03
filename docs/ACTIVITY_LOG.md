@@ -3064,3 +3064,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-03T09:25:07+07:00** - [Activity #2315] fix(firebase): handle network timeout retry in transaction hook
 - **2026-04-03T09:56:21+07:00** - [Activity #2316] test(api): add integration test coverage for photo seed endpoint
 - **2026-04-03T10:12:54+07:00** - [Activity #2317] test(api): add integration test coverage for photo seed endpoint
+- **2026-04-03T10:49:31+07:00** - [Activity #2318] fix(storage): add fallback for local storage quota exceeded errors
