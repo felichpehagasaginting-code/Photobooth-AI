@@ -8732,3 +8732,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-03T11:44:39+07:00** - [Activity #2114] refactor(state): structure session state store with zustand
 - **2026-04-03T12:02:24+07:00** - [Activity #2115] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-04-03T12:12:54+07:00** - [Activity #2116] feat(settings): create camera device selection modal with device ID persistence
+- **2026-04-03T13:46:08+07:00** - [Activity #2117] feat(camera): add dynamic resolution negotiator and frame rate switcher
