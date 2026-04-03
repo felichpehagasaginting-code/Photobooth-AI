@@ -8721,3 +8721,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-02T21:55:47+07:00** - [Activity #2103] refactor(export): optimize canvas blob generation with WebP compression
 - **2026-04-02T22:18:12+07:00** - [Activity #2104] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-04-03T09:04:52+07:00** - [Activity #2105] chore(git): add ignore rules for local session exports and temp files
+- **2026-04-03T09:20:47+07:00** - [Activity #2106] feat(ui): design responsive photobooth preview grid for kiosk mode
