@@ -3084,3 +3084,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-03T19:30:16+07:00** - [Activity #2335] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-04-03T19:52:46+07:00** - [Activity #2336] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-04-03T20:27:30+07:00** - [Activity #2337] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-04-03T20:50:30+07:00** - [Activity #2338] docs(arch): add architecture diagram explaining client-side filter flow
