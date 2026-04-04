@@ -3100,3 +3100,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-04T17:19:35+07:00** - [Activity #2351] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-04-04T19:33:19+07:00** - [Activity #2352] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-04-04T20:21:08+07:00** - [Activity #2353] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-04-04T21:04:52+07:00** - [Activity #2354] feat(watermark): customizable event logo watermark overlay
