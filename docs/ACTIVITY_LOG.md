@@ -3094,3 +3094,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-04T11:40:46+07:00** - [Activity #2345] style(cards): apply subtle border gradient and elevation shadows
 - **2026-04-04T13:45:20+07:00** - [Activity #2346] fix(firebase): handle network timeout retry in transaction hook
 - **2026-04-04T14:33:06+07:00** - [Activity #2347] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-04-04T15:04:10+07:00** - [Activity #2348] docs(api): document endpoint parameters and error codes for seed route
