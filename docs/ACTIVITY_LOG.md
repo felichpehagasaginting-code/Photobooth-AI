@@ -3091,3 +3091,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-04T09:00:44+07:00** - [Activity #2342] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-04-04T09:54:38+07:00** - [Activity #2343] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-04-04T10:38:55+07:00** - [Activity #2344] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-04-04T11:40:46+07:00** - [Activity #2345] style(cards): apply subtle border gradient and elevation shadows
