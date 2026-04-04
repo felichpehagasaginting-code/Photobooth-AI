@@ -8767,3 +8767,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-04T11:32:48+07:00** - [Activity #2149] refactor(styles): standardize spacing and typography design tokens
 - **2026-04-04T13:45:28+07:00** - [Activity #2150] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-04-04T14:43:26+07:00** - [Activity #2151] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-04-04T15:18:47+07:00** - [Activity #2152] docs(arch): add architecture diagram explaining client-side filter flow
