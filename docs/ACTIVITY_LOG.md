@@ -8769,3 +8769,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-04T14:43:26+07:00** - [Activity #2151] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-04-04T15:18:47+07:00** - [Activity #2152] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-04T16:26:26+07:00** - [Activity #2153] style(modal): tune cubic-bezier easing curves on dialog open
+- **2026-04-04T17:07:59+07:00** - [Activity #2154] test(canvas): add snapshot tests for multi-frame collage layouts
