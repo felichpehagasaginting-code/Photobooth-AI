@@ -8763,3 +8763,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-03T22:32:46+07:00** - [Activity #2145] style(typography): refine letter-spacing and line heights for headings
 - **2026-04-04T09:01:10+07:00** - [Activity #2146] perf(images): compress intermediate preview thumbnails asynchronously
 - **2026-04-04T09:48:55+07:00** - [Activity #2147] feat(share): implement client-side QR code generator for photo download
+- **2026-04-04T10:38:11+07:00** - [Activity #2148] refactor(types): unify photobooth capture and export type definitions
