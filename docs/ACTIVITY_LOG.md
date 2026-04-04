@@ -3088,3 +3088,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-03T21:17:43+07:00** - [Activity #2339] fix(firebase): handle network timeout retry in transaction hook
 - **2026-04-03T21:53:14+07:00** - [Activity #2340] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-04-03T22:14:48+07:00** - [Activity #2341] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-04-04T09:00:44+07:00** - [Activity #2342] docs(deploy): add production deployment instructions for Vercel/Docker
