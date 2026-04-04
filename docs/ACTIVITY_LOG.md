@@ -8761,3 +8761,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-03T21:40:02+07:00** - [Activity #2143] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-04-03T22:07:03+07:00** - [Activity #2144] fix(accessibility): add missing aria attributes to camera controls
 - **2026-04-03T22:32:46+07:00** - [Activity #2145] style(typography): refine letter-spacing and line heights for headings
+- **2026-04-04T09:01:10+07:00** - [Activity #2146] perf(images): compress intermediate preview thumbnails asynchronously
