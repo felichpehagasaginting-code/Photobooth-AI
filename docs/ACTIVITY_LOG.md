@@ -3115,3 +3115,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-05T14:47:41+07:00** - [Activity #2366] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-04-05T15:08:29+07:00** - [Activity #2367] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-04-05T15:46:23+07:00** - [Activity #2368] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-04-05T15:54:33+07:00** - [Activity #2369] feat(filter): add cyber-neon and grain texture post-processing overlay
