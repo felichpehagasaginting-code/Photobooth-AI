@@ -3122,3 +3122,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-05T17:28:48+07:00** - [Activity #2373] chore(deps): update core dependencies to latest stable versions
 - **2026-04-05T19:37:54+07:00** - [Activity #2374] feat(watermark): customizable event logo watermark overlay
 - **2026-04-05T19:56:08+07:00** - [Activity #2375] refactor(services): separate cloud storage adapter from UI layer
+- **2026-04-05T20:37:25+07:00** - [Activity #2376] feat(preset): allow custom framing border selection per session
