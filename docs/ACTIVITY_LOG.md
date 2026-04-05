@@ -3113,3 +3113,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-05T14:15:40+07:00** - [Activity #2364] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-04-05T14:25:12+07:00** - [Activity #2365] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-04-05T14:47:41+07:00** - [Activity #2366] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-04-05T15:08:29+07:00** - [Activity #2367] refactor(utils): streamline color conversion and hex parsing helpers
