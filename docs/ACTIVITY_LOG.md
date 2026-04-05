@@ -8774,3 +8774,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-04T20:32:59+07:00** - [Activity #2156] perf(canvas): render WebGL shaders on offscreen canvas worker
 - **2026-04-04T21:34:17+07:00** - [Activity #2157] perf(images): compress intermediate preview thumbnails asynchronously
 - **2026-04-05T09:04:14+07:00** - [Activity #2158] feat(export): add multi-frame strip layout builder with dynamic margins
+- **2026-04-05T09:44:48+07:00** - [Activity #2159] docs(changelog): update version history and release milestones
