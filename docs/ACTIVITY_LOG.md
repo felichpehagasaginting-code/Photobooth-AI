@@ -3118,3 +3118,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-05T15:54:33+07:00** - [Activity #2369] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-04-05T16:28:04+07:00** - [Activity #2370] refactor(types): consolidate photobooth session type definitions
 - **2026-04-05T16:40:38+07:00** - [Activity #2371] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-04-05T17:22:18+07:00** - [Activity #2372] feat(preset): allow custom framing border selection per session
