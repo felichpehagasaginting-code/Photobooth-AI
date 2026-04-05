@@ -3109,3 +3109,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-05T11:07:42+07:00** - [Activity #2360] docs(api): document endpoint parameters and error codes for seed route
 - **2026-04-05T11:24:24+07:00** - [Activity #2361] fix(auth): prevent race condition when initializing anonymous session
 - **2026-04-05T12:03:45+07:00** - [Activity #2362] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-04-05T13:45:52+07:00** - [Activity #2363] docs(changelog): update version history and release milestones
