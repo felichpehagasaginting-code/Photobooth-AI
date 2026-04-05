@@ -8785,3 +8785,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-05T17:25:00+07:00** - [Activity #2167] style(grid): modernize layout overlap for bento-style elements
 - **2026-04-05T19:30:45+07:00** - [Activity #2168] feat(photobooth): initialize core camera streaming architecture
 - **2026-04-05T20:29:08+07:00** - [Activity #2169] perf(images): compress intermediate preview thumbnails asynchronously
+- **2026-04-05T21:44:12+07:00** - [Activity #2170] perf(fonts): preload display fonts to avoid flash of unstyled text
