@@ -3111,3 +3111,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-05T12:03:45+07:00** - [Activity #2362] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-04-05T13:45:52+07:00** - [Activity #2363] docs(changelog): update version history and release milestones
 - **2026-04-05T14:15:40+07:00** - [Activity #2364] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-04-05T14:25:12+07:00** - [Activity #2365] refactor(canvas): simplify image compositing pipeline architecture
