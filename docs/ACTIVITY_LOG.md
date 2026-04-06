@@ -3158,3 +3158,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T19:30:34+07:00** - [Activity #2409] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-04-06T19:50:23+07:00** - [Activity #2410] feat(ai): integrate edge background removal model
 - **2026-04-06T20:07:25+07:00** - [Activity #2411] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-04-06T20:24:52+07:00** - [Activity #2412] feat(kiosk): add full-screen lock and inactivity reset timer
