@@ -3133,3 +3133,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T10:03:27+07:00** - [Activity #2384] refactor(state): migrate photo session state management to zustand store
 - **2026-04-06T10:34:48+07:00** - [Activity #2385] fix(audio): unlock audio context on initial user gesture
 - **2026-04-06T10:46:43+07:00** - [Activity #2386] docs(changelog): update version history and release milestones
+- **2026-04-06T11:06:06+07:00** - [Activity #2387] refactor(cleanup): remove deprecated legacy camera capture methods
