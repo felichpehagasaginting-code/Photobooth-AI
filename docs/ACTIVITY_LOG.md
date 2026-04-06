@@ -3128,3 +3128,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-05T22:06:53+07:00** - [Activity #2379] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-04-06T09:00:22+07:00** - [Activity #2380] feat(watermark): customizable event logo watermark overlay
 - **2026-04-06T09:12:14+07:00** - [Activity #2381] refactor(state): migrate photo session state management to zustand store
+- **2026-04-06T09:31:46+07:00** - [Activity #2382] refactor(i18n): restructure localization strings dictionary
