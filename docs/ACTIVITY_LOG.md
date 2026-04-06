@@ -3152,3 +3152,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T16:37:07+07:00** - [Activity #2403] feat(print): integrate direct thermal printer web serial interface
 - **2026-04-06T16:38:44+07:00** - [Activity #2404] refactor(state): migrate photo session state management to zustand store
 - **2026-04-06T17:07:17+07:00** - [Activity #2405] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-04-06T17:18:14+07:00** - [Activity #2406] style(modal): fine-tune cubic-bezier easing curves on open transition
