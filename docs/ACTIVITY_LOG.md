@@ -8802,3 +8802,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T14:46:33+07:00** - [Activity #2184] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-04-06T14:48:51+07:00** - [Activity #2185] refactor(api): modularize backend route handlers and validation helpers
 - **2026-04-06T15:08:08+07:00** - [Activity #2186] refactor(export): optimize canvas blob generation with WebP compression
+- **2026-04-06T15:36:09+07:00** - [Activity #2187] feat(settings): create camera device selection modal with device ID persistence
