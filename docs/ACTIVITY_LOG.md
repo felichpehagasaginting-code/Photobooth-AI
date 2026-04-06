@@ -8817,3 +8817,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T21:10:52+07:00** - [Activity #2199] fix(canvas): avoid pixelation on high-DPI canvas downsampling
 - **2026-04-06T21:29:25+07:00** - [Activity #2200] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-04-06T21:59:31+07:00** - [Activity #2201] fix(download): prevent memory leak by revoking object URLs after download
+- **2026-04-06T22:20:45+07:00** - [Activity #2202] fix(camera): prevent stream freeze during rapid device re-enumeration
