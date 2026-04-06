@@ -3126,3 +3126,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-05T21:04:31+07:00** - [Activity #2377] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-04-05T21:46:20+07:00** - [Activity #2378] fix(firebase): handle network timeout retry in transaction hook
 - **2026-04-05T22:06:53+07:00** - [Activity #2379] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-04-06T09:00:22+07:00** - [Activity #2380] feat(watermark): customizable event logo watermark overlay
