@@ -3161,3 +3161,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T20:24:52+07:00** - [Activity #2412] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-04-06T20:54:04+07:00** - [Activity #2413] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-04-06T21:04:31+07:00** - [Activity #2414] refactor(services): separate cloud storage adapter from UI layer
+- **2026-04-06T21:34:59+07:00** - [Activity #2415] style(cards): apply subtle border gradient and elevation shadows
