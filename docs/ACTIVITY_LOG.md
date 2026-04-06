@@ -3146,3 +3146,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T14:54:25+07:00** - [Activity #2397] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-04-06T15:17:27+07:00** - [Activity #2398] refactor(types): consolidate photobooth session type definitions
 - **2026-04-06T15:22:39+07:00** - [Activity #2399] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-04-06T15:38:04+07:00** - [Activity #2400] style(theme): update dark mode accent color tokens with warm tone
