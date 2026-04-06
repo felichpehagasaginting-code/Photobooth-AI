@@ -3131,3 +3131,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T09:31:46+07:00** - [Activity #2382] refactor(i18n): restructure localization strings dictionary
 - **2026-04-06T09:58:42+07:00** - [Activity #2383] style(cards): apply subtle border gradient and elevation shadows
 - **2026-04-06T10:03:27+07:00** - [Activity #2384] refactor(state): migrate photo session state management to zustand store
+- **2026-04-06T10:34:48+07:00** - [Activity #2385] fix(audio): unlock audio context on initial user gesture
