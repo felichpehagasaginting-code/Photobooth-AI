@@ -8789,3 +8789,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T09:00:36+07:00** - [Activity #2171] test(hooks): add test suite for camera stream lifecycle events
 - **2026-04-06T09:24:17+07:00** - [Activity #2172] fix(state): sync current photo strip selection across modal re-renders
 - **2026-04-06T09:41:01+07:00** - [Activity #2173] fix(touch): disable browser pull-to-refresh on interactive canvas
+- **2026-04-06T10:09:58+07:00** - [Activity #2174] refactor(export): optimize canvas blob generation with WebP compression
