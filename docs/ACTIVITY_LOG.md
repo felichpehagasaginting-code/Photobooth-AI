@@ -8801,3 +8801,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T14:14:11+07:00** - [Activity #2183] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-04-06T14:46:33+07:00** - [Activity #2184] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-04-06T14:48:51+07:00** - [Activity #2185] refactor(api): modularize backend route handlers and validation helpers
+- **2026-04-06T15:08:08+07:00** - [Activity #2186] refactor(export): optimize canvas blob generation with WebP compression
