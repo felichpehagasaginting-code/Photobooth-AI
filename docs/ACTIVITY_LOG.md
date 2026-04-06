@@ -8805,3 +8805,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T15:36:09+07:00** - [Activity #2187] feat(settings): create camera device selection modal with device ID persistence
 - **2026-04-06T15:57:46+07:00** - [Activity #2188] style(theme): update dark mode accent color token with warm hue
 - **2026-04-06T16:11:52+07:00** - [Activity #2189] chore(deps): update core dependencies to latest stable versions
+- **2026-04-06T16:37:31+07:00** - [Activity #2190] fix(camera): correct video aspect ratio calculation on widescreen monitors
