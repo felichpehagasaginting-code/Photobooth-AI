@@ -3149,3 +3149,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T15:38:04+07:00** - [Activity #2400] style(theme): update dark mode accent color tokens with warm tone
 - **2026-04-06T15:55:20+07:00** - [Activity #2401] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-04-06T16:06:31+07:00** - [Activity #2402] feat(ai): integrate edge background removal model
+- **2026-04-06T16:37:07+07:00** - [Activity #2403] feat(print): integrate direct thermal printer web serial interface
