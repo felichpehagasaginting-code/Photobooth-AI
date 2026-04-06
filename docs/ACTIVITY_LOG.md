@@ -8796,3 +8796,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T11:21:05+07:00** - [Activity #2178] docs(api): document endpoint parameters and error codes for seed route
 - **2026-04-06T11:48:40+07:00** - [Activity #2179] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-04-06T12:07:37+07:00** - [Activity #2180] style(typography): refine letter-spacing and line heights for headings
+- **2026-04-06T13:45:37+07:00** - [Activity #2181] style(cards): apply subtle border gradient and elevation shadow
