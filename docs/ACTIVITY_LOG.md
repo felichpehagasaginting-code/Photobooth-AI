@@ -8794,3 +8794,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T10:51:54+07:00** - [Activity #2176] feat(filter): implement real-time WebGL LUT matrix transformation
 - **2026-04-06T11:09:11+07:00** - [Activity #2177] fix(ui): adjust button touch target size for touch kiosks
 - **2026-04-06T11:21:05+07:00** - [Activity #2178] docs(api): document endpoint parameters and error codes for seed route
+- **2026-04-06T11:48:40+07:00** - [Activity #2179] feat(kiosk): add auto-reset countdown timer on idle session
