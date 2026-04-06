@@ -8814,3 +8814,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T19:59:58+07:00** - [Activity #2196] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-04-06T20:11:21+07:00** - [Activity #2197] fix(state): sync current photo strip selection across modal re-renders
 - **2026-04-06T20:47:40+07:00** - [Activity #2198] perf(bundle): implement code-splitting for heavy filter modules
+- **2026-04-06T21:10:52+07:00** - [Activity #2199] fix(canvas): avoid pixelation on high-DPI canvas downsampling
