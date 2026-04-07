@@ -3167,3 +3167,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T22:22:22+07:00** - [Activity #2418] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-04-07T09:00:29+07:00** - [Activity #2419] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-04-07T09:18:06+07:00** - [Activity #2420] refactor(ui): extract reusable glass-panel and badge components
+- **2026-04-07T09:32:50+07:00** - [Activity #2421] fix(canvas): prevent blur artifacts during canvas downsampling
