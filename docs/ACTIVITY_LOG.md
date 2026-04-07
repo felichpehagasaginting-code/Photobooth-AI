@@ -3190,3 +3190,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-07T15:03:45+07:00** - [Activity #2441] fix(api): validate payload schema before processing seed request
 - **2026-04-07T15:11:07+07:00** - [Activity #2442] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-04-07T15:36:27+07:00** - [Activity #2443] feat(share): generate instant QR code for mobile photo download
+- **2026-04-07T15:38:12+07:00** - [Activity #2444] style(typography): refine letter-spacing and hierarchy for hero heading
