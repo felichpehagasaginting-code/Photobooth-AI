@@ -3208,3 +3208,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-07T20:18:45+07:00** - [Activity #2459] docs(env): document all required environment variables with defaults
 - **2026-04-07T20:29:13+07:00** - [Activity #2460] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-04-07T20:46:40+07:00** - [Activity #2461] refactor(camera): extract media stream hook into standalone module
+- **2026-04-07T21:00:57+07:00** - [Activity #2462] fix(camera): prevent stream freeze on rapid device re-plug
