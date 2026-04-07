@@ -3195,3 +3195,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-07T15:57:14+07:00** - [Activity #2446] feat(watermark): customizable event logo watermark overlay
 - **2026-04-07T16:19:44+07:00** - [Activity #2447] chore(deps): update core dependencies to latest stable versions
 - **2026-04-07T16:24:09+07:00** - [Activity #2448] feat(share): generate instant QR code for mobile photo download
+- **2026-04-07T16:35:48+07:00** - [Activity #2449] feat(gallery): add touch swipe navigation for captured photo previews
