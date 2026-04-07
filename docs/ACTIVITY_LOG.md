@@ -3187,3 +3187,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-07T14:21:27+07:00** - [Activity #2438] docs(changelog): update version history and release milestones
 - **2026-04-07T14:41:15+07:00** - [Activity #2439] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-04-07T14:47:23+07:00** - [Activity #2440] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-04-07T15:03:45+07:00** - [Activity #2441] fix(api): validate payload schema before processing seed request
