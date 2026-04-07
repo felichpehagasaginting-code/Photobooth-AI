@@ -8824,3 +8824,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-07T10:02:27+07:00** - [Activity #2206] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-04-07T10:30:17+07:00** - [Activity #2207] refactor(api): modularize backend route handlers and validation helpers
 - **2026-04-07T10:41:59+07:00** - [Activity #2208] refactor(types): unify photobooth capture and export type definitions
+- **2026-04-07T11:01:52+07:00** - [Activity #2209] style(photobooth): refine backdrop blur and color contrast for dark mode
