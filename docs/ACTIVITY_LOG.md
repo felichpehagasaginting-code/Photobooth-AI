@@ -8838,3 +8838,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-07T15:31:14+07:00** - [Activity #2220] feat(api): implement photo metadata seeding route with validation
 - **2026-04-07T15:49:10+07:00** - [Activity #2221] perf(canvas): render WebGL shaders on offscreen canvas worker
 - **2026-04-07T16:05:01+07:00** - [Activity #2222] style(cards): apply subtle border gradient and elevation shadow
+- **2026-04-07T16:21:28+07:00** - [Activity #2223] fix(api): sanitize query params on photo retrieval endpoint
