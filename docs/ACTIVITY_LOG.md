@@ -8820,3 +8820,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-06T22:20:45+07:00** - [Activity #2202] fix(camera): prevent stream freeze during rapid device re-enumeration
 - **2026-04-07T09:00:20+07:00** - [Activity #2203] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-04-07T09:21:33+07:00** - [Activity #2204] feat(kiosk): add auto-reset countdown timer on idle session
+- **2026-04-07T09:37:31+07:00** - [Activity #2205] style(typography): refine letter-spacing and line heights for headings
