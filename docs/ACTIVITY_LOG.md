@@ -3176,3 +3176,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-07T10:45:49+07:00** - [Activity #2427] fix(state): sync active photo index when reopening gallery drawer
 - **2026-04-07T11:12:09+07:00** - [Activity #2428] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-04-07T11:13:47+07:00** - [Activity #2429] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-04-07T11:38:25+07:00** - [Activity #2430] fix(storage): add fallback for local storage quota exceeded errors
