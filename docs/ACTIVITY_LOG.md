@@ -8826,3 +8826,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-07T10:41:59+07:00** - [Activity #2208] refactor(types): unify photobooth capture and export type definitions
 - **2026-04-07T11:01:52+07:00** - [Activity #2209] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-04-07T11:32:16+07:00** - [Activity #2210] docs(env): document all required environment variables with defaults
+- **2026-04-07T11:46:48+07:00** - [Activity #2211] refactor(utils): optimize hex-to-rgb and color transform utilities
