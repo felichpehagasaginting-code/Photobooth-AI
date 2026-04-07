@@ -8823,3 +8823,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-07T09:37:31+07:00** - [Activity #2205] style(typography): refine letter-spacing and line heights for headings
 - **2026-04-07T10:02:27+07:00** - [Activity #2206] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-04-07T10:30:17+07:00** - [Activity #2207] refactor(api): modularize backend route handlers and validation helpers
+- **2026-04-07T10:41:59+07:00** - [Activity #2208] refactor(types): unify photobooth capture and export type definitions
