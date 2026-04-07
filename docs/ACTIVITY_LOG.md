@@ -8836,3 +8836,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-07T14:56:05+07:00** - [Activity #2218] feat(filter): implement real-time WebGL LUT matrix transformation
 - **2026-04-07T15:24:13+07:00** - [Activity #2219] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-04-07T15:31:14+07:00** - [Activity #2220] feat(api): implement photo metadata seeding route with validation
+- **2026-04-07T15:49:10+07:00** - [Activity #2221] perf(canvas): render WebGL shaders on offscreen canvas worker
