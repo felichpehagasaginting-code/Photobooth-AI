@@ -3200,3 +3200,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-07T16:59:08+07:00** - [Activity #2451] test(api): add integration test coverage for photo seed endpoint
 - **2026-04-07T17:06:21+07:00** - [Activity #2452] fix(firebase): handle network timeout retry in transaction hook
 - **2026-04-07T17:30:58+07:00** - [Activity #2453] docs(api): document endpoint parameters and error codes for seed route
+- **2026-04-07T17:36:59+07:00** - [Activity #2454] fix(qr): adjust QR code contrast ratio for low-light scanning
