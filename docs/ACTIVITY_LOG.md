@@ -3204,3 +3204,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-07T17:41:57+07:00** - [Activity #2455] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-04-07T19:30:04+07:00** - [Activity #2456] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-04-07T19:46:22+07:00** - [Activity #2457] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-04-07T20:02:03+07:00** - [Activity #2458] style(typography): refine letter-spacing and hierarchy for hero heading
