@@ -8876,3 +8876,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T14:52:11+07:00** - [Activity #2258] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-04-08T15:16:40+07:00** - [Activity #2259] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-04-08T15:31:41+07:00** - [Activity #2260] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
+- **2026-04-08T15:35:26+07:00** - [Activity #2261] chore(git): add ignore rules for local session exports and temp files
