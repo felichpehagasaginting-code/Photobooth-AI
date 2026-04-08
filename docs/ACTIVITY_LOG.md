@@ -3237,3 +3237,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T15:53:04+07:00** - [Activity #2488] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-04-08T16:20:46+07:00** - [Activity #2489] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-04-08T16:21:39+07:00** - [Activity #2490] fix(audio): unlock audio context on initial user gesture
+- **2026-04-08T16:38:25+07:00** - [Activity #2491] chore(ci): adjust GitHub Actions caching for faster test execution
