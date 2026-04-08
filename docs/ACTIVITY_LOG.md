@@ -8885,3 +8885,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T16:39:53+07:00** - [Activity #2267] feat(filter): implement real-time WebGL LUT matrix transformation
 - **2026-04-08T17:05:54+07:00** - [Activity #2268] fix(firebase): handle connection dropout during batch sync gracefully
 - **2026-04-08T17:17:31+07:00** - [Activity #2269] feat(theme): configure dynamic dark mode CSS custom properties
+- **2026-04-08T17:26:58+07:00** - [Activity #2270] style(photobooth): refine backdrop blur and color contrast for dark mode
