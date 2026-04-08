@@ -3229,3 +3229,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T14:05:45+07:00** - [Activity #2480] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-04-08T14:23:35+07:00** - [Activity #2481] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-04-08T14:36:18+07:00** - [Activity #2482] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-04-08T14:37:56+07:00** - [Activity #2483] feat(watermark): customizable event logo watermark overlay
