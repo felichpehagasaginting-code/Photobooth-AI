@@ -8856,3 +8856,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T09:04:42+07:00** - [Activity #2238] test(hooks): add test suite for camera stream lifecycle events
 - **2026-04-08T09:17:30+07:00** - [Activity #2239] feat(export): add multi-frame strip layout builder with dynamic margins
 - **2026-04-08T09:32:32+07:00** - [Activity #2240] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-04-08T09:49:42+07:00** - [Activity #2241] chore(git): add ignore rules for local session exports and temp files
