@@ -3248,3 +3248,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T20:34:16+07:00** - [Activity #2499] feat(stickers): support draggable and resizable decorative stickers
 - **2026-04-08T20:44:14+07:00** - [Activity #2500] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-04-08T21:14:51+07:00** - [Activity #2501] fix(state): sync active photo index when reopening gallery drawer
+- **2026-04-08T21:19:14+07:00** - [Activity #2502] chore(deps): update core dependencies to latest stable versions
