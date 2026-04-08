@@ -8864,3 +8864,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T11:03:22+07:00** - [Activity #2246] refactor(camera): decouple media stream manager into custom hook
 - **2026-04-08T11:08:52+07:00** - [Activity #2247] feat(camera): add dynamic resolution negotiator and frame rate switcher
 - **2026-04-08T11:37:41+07:00** - [Activity #2248] style(modal): tune cubic-bezier easing curves on dialog open
+- **2026-04-08T11:41:16+07:00** - [Activity #2249] fix(canvas): avoid pixelation on high-DPI canvas downsampling
