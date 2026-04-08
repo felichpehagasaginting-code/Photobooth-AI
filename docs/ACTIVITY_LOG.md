@@ -3232,3 +3232,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T14:37:56+07:00** - [Activity #2483] feat(watermark): customizable event logo watermark overlay
 - **2026-04-08T15:07:50+07:00** - [Activity #2484] perf(anim): offload countdown animations to GPU composited layers
 - **2026-04-08T15:16:58+07:00** - [Activity #2485] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-04-08T15:29:12+07:00** - [Activity #2486] refactor(api): modularize backend route handlers and validation utils
