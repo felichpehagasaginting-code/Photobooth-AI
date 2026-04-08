@@ -3243,3 +3243,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T17:30:46+07:00** - [Activity #2494] test(hooks): add test suite for camera stream lifecycle events
 - **2026-04-08T17:51:07+07:00** - [Activity #2495] fix(api): validate payload schema before processing seed request
 - **2026-04-08T19:37:24+07:00** - [Activity #2496] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-04-08T19:42:01+07:00** - [Activity #2497] style(cards): apply subtle border gradient and elevation shadows
