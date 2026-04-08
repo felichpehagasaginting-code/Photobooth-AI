@@ -8890,3 +8890,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T17:57:06+07:00** - [Activity #2272] fix(storage): add graceful error handling when local quota is exceeded
 - **2026-04-08T19:31:01+07:00** - [Activity #2273] refactor(types): unify photobooth capture and export type definitions
 - **2026-04-08T19:47:15+07:00** - [Activity #2274] style(button): add subtle hover transition and outline focus style
+- **2026-04-08T20:08:58+07:00** - [Activity #2275] feat(settings): create camera device selection modal with device ID persistence
