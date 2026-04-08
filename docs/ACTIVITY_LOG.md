@@ -8880,3 +8880,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T15:47:11+07:00** - [Activity #2262] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-04-08T16:04:42+07:00** - [Activity #2263] fix(touch): disable browser pull-to-refresh on interactive canvas
 - **2026-04-08T16:20:45+07:00** - [Activity #2264] fix(camera): prevent stream freeze during rapid device re-enumeration
+- **2026-04-08T16:31:41+07:00** - [Activity #2265] perf(memory): explicitly clear canvas contexts after strip rendering
