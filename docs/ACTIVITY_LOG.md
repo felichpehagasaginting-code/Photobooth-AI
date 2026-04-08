@@ -3214,3 +3214,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-07T21:50:12+07:00** - [Activity #2465] feat(ai): integrate edge background removal model
 - **2026-04-07T22:06:21+07:00** - [Activity #2466] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-04-07T22:35:39+07:00** - [Activity #2467] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-04-08T09:05:12+07:00** - [Activity #2468] feat(audio): add shutter click and countdown sound effects
