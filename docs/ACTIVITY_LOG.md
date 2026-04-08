@@ -8873,3 +8873,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T14:18:45+07:00** - [Activity #2255] style(theme): update dark mode accent color token with warm hue
 - **2026-04-08T14:34:47+07:00** - [Activity #2256] feat(filter): add warm monochrome and film grain retro effects
 - **2026-04-08T14:47:54+07:00** - [Activity #2257] fix(filter): eliminate color banding artifacts on low-bitrate gradients
+- **2026-04-08T14:52:11+07:00** - [Activity #2258] perf(fonts): preload display fonts to avoid flash of unstyled text
