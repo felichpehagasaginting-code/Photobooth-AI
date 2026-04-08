@@ -8888,3 +8888,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T17:26:58+07:00** - [Activity #2270] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-04-08T17:30:00+07:00** - [Activity #2271] feat(theme): configure dynamic dark mode CSS custom properties
 - **2026-04-08T17:57:06+07:00** - [Activity #2272] fix(storage): add graceful error handling when local quota is exceeded
+- **2026-04-08T19:31:01+07:00** - [Activity #2273] refactor(types): unify photobooth capture and export type definitions
