@@ -3219,3 +3219,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T09:31:45+07:00** - [Activity #2470] refactor(export): optimize collage rendering algorithm for speed
 - **2026-04-08T09:50:11+07:00** - [Activity #2471] style(cards): apply subtle border gradient and elevation shadows
 - **2026-04-08T10:09:32+07:00** - [Activity #2472] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-04-08T10:42:59+07:00** - [Activity #2473] feat(gallery): add touch swipe navigation for captured photo previews
