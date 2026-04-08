@@ -8867,3 +8867,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T11:41:16+07:00** - [Activity #2249] fix(canvas): avoid pixelation on high-DPI canvas downsampling
 - **2026-04-08T12:07:04+07:00** - [Activity #2250] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-04-08T12:10:02+07:00** - [Activity #2251] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
+- **2026-04-08T13:49:32+07:00** - [Activity #2252] fix(touch): disable browser pull-to-refresh on interactive canvas
