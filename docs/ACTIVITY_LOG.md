@@ -3263,3 +3263,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T11:08:08+07:00** - [Activity #2514] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-04-09T11:31:40+07:00** - [Activity #2515] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-04-09T11:39:29+07:00** - [Activity #2516] chore(build): optimize Vite build chunks and asset minification settings
+- **2026-04-09T11:50:06+07:00** - [Activity #2517] feat(export): support high-resolution PNG and PDF print strip layout
