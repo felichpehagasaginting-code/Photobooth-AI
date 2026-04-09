@@ -3276,3 +3276,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T15:23:42+07:00** - [Activity #2527] refactor(export): optimize collage rendering algorithm for speed
 - **2026-04-09T15:44:41+07:00** - [Activity #2528] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-04-09T15:59:04+07:00** - [Activity #2529] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-04-09T16:10:03+07:00** - [Activity #2530] chore(git): add ignore rules for local session exports and temp files
