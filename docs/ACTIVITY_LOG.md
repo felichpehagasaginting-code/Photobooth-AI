@@ -8916,3 +8916,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T12:20:35+07:00** - [Activity #2298] feat(watermark): add customizable branding and event date stamp
 - **2026-04-09T13:50:47+07:00** - [Activity #2299] refactor(camera): decouple media stream manager into custom hook
 - **2026-04-09T14:07:24+07:00** - [Activity #2300] feat(ui): design responsive photobooth preview grid for kiosk mode
+- **2026-04-09T14:15:30+07:00** - [Activity #2301] refactor(ui): extract reusable glass-card and action-badge components
