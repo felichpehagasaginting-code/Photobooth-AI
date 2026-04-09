@@ -8920,3 +8920,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T14:31:59+07:00** - [Activity #2302] feat(share): implement client-side QR code generator for photo download
 - **2026-04-09T14:43:21+07:00** - [Activity #2303] refactor(state): structure session state store with zustand
 - **2026-04-09T14:44:22+07:00** - [Activity #2304] fix(ui): adjust button touch target size for touch kiosks
+- **2026-04-09T15:05:52+07:00** - [Activity #2305] chore(git): add ignore rules for local session exports and temp files
