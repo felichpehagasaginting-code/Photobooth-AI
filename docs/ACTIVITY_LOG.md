@@ -3283,3 +3283,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T16:57:37+07:00** - [Activity #2534] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-04-09T17:11:59+07:00** - [Activity #2535] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-04-09T17:16:58+07:00** - [Activity #2536] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-04-09T17:35:58+07:00** - [Activity #2537] fix(print): fix page margin clipping on 4x6 photo paper print preview
