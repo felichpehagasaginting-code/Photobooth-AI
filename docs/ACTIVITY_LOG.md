@@ -3260,3 +3260,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T10:24:27+07:00** - [Activity #2511] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-04-09T10:31:03+07:00** - [Activity #2512] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-04-09T10:47:44+07:00** - [Activity #2513] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-04-09T11:08:08+07:00** - [Activity #2514] style(modal): fine-tune cubic-bezier easing curves on open transition
