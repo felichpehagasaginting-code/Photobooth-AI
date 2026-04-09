@@ -8941,3 +8941,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T20:38:52+07:00** - [Activity #2323] feat(camera): add dynamic resolution negotiator and frame rate switcher
 - **2026-04-09T20:43:28+07:00** - [Activity #2324] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-04-09T21:02:44+07:00** - [Activity #2325] fix(qr): optimize QR code foreground-to-background contrast ratio
+- **2026-04-09T21:23:06+07:00** - [Activity #2326] refactor(camera): decouple media stream manager into custom hook
