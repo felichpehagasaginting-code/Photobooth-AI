@@ -3280,3 +3280,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T16:10:51+07:00** - [Activity #2531] test(hooks): add test suite for camera stream lifecycle events
 - **2026-04-09T16:33:11+07:00** - [Activity #2532] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-04-09T16:37:35+07:00** - [Activity #2533] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-04-09T16:57:37+07:00** - [Activity #2534] chore(config): adjust tsconfig path aliases for cleaner imports
