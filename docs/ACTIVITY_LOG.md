@@ -3292,3 +3292,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T20:43:59+07:00** - [Activity #2543] style(badge): update status indicator badge colors and glow effects
 - **2026-04-09T20:51:46+07:00** - [Activity #2544] feat(audio): add shutter click and countdown sound effects
 - **2026-04-09T21:13:23+07:00** - [Activity #2545] refactor(export): optimize collage rendering algorithm for speed
+- **2026-04-09T21:35:38+07:00** - [Activity #2546] style(modal): fine-tune cubic-bezier easing curves on open transition
