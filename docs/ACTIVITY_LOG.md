@@ -8928,3 +8928,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T16:03:27+07:00** - [Activity #2310] refactor(api): modularize backend route handlers and validation helpers
 - **2026-04-09T16:27:54+07:00** - [Activity #2311] fix(firebase): handle connection dropout during batch sync gracefully
 - **2026-04-09T16:32:52+07:00** - [Activity #2312] feat(ui): build interactive shutter trigger with pulsating visual feedback
+- **2026-04-09T16:46:22+07:00** - [Activity #2313] feat(kiosk): add auto-reset countdown timer on idle session
