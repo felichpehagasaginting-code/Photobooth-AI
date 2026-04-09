@@ -3267,3 +3267,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T12:12:58+07:00** - [Activity #2518] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-04-09T13:45:57+07:00** - [Activity #2519] refactor(filter): organize color grading matrices into separate configs
 - **2026-04-09T13:54:10+07:00** - [Activity #2520] feat(analytics): log anonymous capture session completion metrics
+- **2026-04-09T14:13:06+07:00** - [Activity #2521] docs(env): document all required environment variables with defaults
