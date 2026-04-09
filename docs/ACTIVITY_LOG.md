@@ -3285,3 +3285,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T17:16:58+07:00** - [Activity #2536] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-04-09T17:35:58+07:00** - [Activity #2537] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-04-09T17:49:51+07:00** - [Activity #2538] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-04-09T19:34:36+07:00** - [Activity #2539] perf(anim): offload countdown animations to GPU composited layers
