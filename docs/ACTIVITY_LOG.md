@@ -3281,3 +3281,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T16:33:11+07:00** - [Activity #2532] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-04-09T16:37:35+07:00** - [Activity #2533] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-04-09T16:57:37+07:00** - [Activity #2534] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-04-09T17:11:59+07:00** - [Activity #2535] feat(filter): add cyber-neon and grain texture post-processing overlay
