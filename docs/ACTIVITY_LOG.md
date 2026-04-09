@@ -3252,3 +3252,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-08T21:44:02+07:00** - [Activity #2503] style(shutter): design circular pulsating shutter button with feedback
 - **2026-04-08T22:12:33+07:00** - [Activity #2504] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-04-08T22:24:53+07:00** - [Activity #2505] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-04-09T09:00:19+07:00** - [Activity #2506] chore(lint): configure ESLint rules for react hooks and accessibility
