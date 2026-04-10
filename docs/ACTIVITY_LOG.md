@@ -3323,3 +3323,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T19:52:52+07:00** - [Activity #2574] feat(cloud): async upload queue for batch photo backup
 - **2026-04-10T20:20:45+07:00** - [Activity #2575] docs(env): document all required environment variables with defaults
 - **2026-04-10T20:47:30+07:00** - [Activity #2576] refactor(state): migrate photo session state management to zustand store
+- **2026-04-10T21:08:19+07:00** - [Activity #2577] feat(gallery): add touch swipe navigation for captured photo previews
