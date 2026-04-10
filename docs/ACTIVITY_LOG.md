@@ -8971,3 +8971,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T17:10:00+07:00** - [Activity #2353] fix(filter): eliminate color banding artifacts on low-bitrate gradients
 - **2026-04-10T17:18:43+07:00** - [Activity #2354] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-04-10T17:33:20+07:00** - [Activity #2355] refactor(types): unify photobooth capture and export type definitions
+- **2026-04-10T19:35:00+07:00** - [Activity #2356] docs(arch): add architecture diagram explaining client-side filter flow
