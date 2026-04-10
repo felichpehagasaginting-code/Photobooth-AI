@@ -3325,3 +3325,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T20:47:30+07:00** - [Activity #2576] refactor(state): migrate photo session state management to zustand store
 - **2026-04-10T21:08:19+07:00** - [Activity #2577] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-04-10T21:39:33+07:00** - [Activity #2578] fix(api): validate payload schema before processing seed request
+- **2026-04-10T21:53:18+07:00** - [Activity #2579] docs(api): document endpoint parameters and error codes for seed route
