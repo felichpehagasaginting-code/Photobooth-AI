@@ -3309,3 +3309,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T13:57:16+07:00** - [Activity #2560] feat(settings): add camera device selector with resolution fallbacks
 - **2026-04-10T14:13:51+07:00** - [Activity #2561] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-04-10T14:48:36+07:00** - [Activity #2562] refactor(state): migrate photo session state management to zustand store
+- **2026-04-10T14:54:42+07:00** - [Activity #2563] refactor(ui): extract reusable glass-panel and badge components
