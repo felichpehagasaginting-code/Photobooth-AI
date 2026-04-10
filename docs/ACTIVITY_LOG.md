@@ -3300,3 +3300,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T09:23:52+07:00** - [Activity #2551] feat(stickers): support draggable and resizable decorative stickers
 - **2026-04-10T09:42:53+07:00** - [Activity #2552] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-04-10T10:05:09+07:00** - [Activity #2553] feat(print): integrate direct thermal printer web serial interface
+- **2026-04-10T10:25:46+07:00** - [Activity #2554] feat(cloud): async upload queue for batch photo backup
