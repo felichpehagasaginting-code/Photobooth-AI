@@ -3296,3 +3296,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-09T21:57:37+07:00** - [Activity #2547] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-04-09T22:14:47+07:00** - [Activity #2548] style(shutter): design circular pulsating shutter button with feedback
 - **2026-04-09T22:28:31+07:00** - [Activity #2549] perf(memory): dispose cached image objects after strip generation
+- **2026-04-10T09:00:41+07:00** - [Activity #2550] feat(gallery): add touch swipe navigation for captured photo previews
