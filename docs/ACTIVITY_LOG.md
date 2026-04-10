@@ -8974,3 +8974,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T19:35:00+07:00** - [Activity #2356] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-10T19:47:14+07:00** - [Activity #2357] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-04-10T20:18:30+07:00** - [Activity #2358] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-04-10T20:41:09+07:00** - [Activity #2359] style(button): add subtle hover transition and outline focus style
