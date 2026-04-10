@@ -3310,3 +3310,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T14:13:51+07:00** - [Activity #2561] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-04-10T14:48:36+07:00** - [Activity #2562] refactor(state): migrate photo session state management to zustand store
 - **2026-04-10T14:54:42+07:00** - [Activity #2563] refactor(ui): extract reusable glass-panel and badge components
+- **2026-04-10T15:21:59+07:00** - [Activity #2564] perf(render): memoize grid item rendering to prevent redundant cycles
