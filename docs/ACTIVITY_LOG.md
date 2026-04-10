@@ -3321,3 +3321,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T17:51:18+07:00** - [Activity #2572] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-04-10T19:30:56+07:00** - [Activity #2573] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-04-10T19:52:52+07:00** - [Activity #2574] feat(cloud): async upload queue for batch photo backup
+- **2026-04-10T20:20:45+07:00** - [Activity #2575] docs(env): document all required environment variables with defaults
