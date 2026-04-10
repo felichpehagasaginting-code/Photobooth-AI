@@ -8976,3 +8976,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T20:18:30+07:00** - [Activity #2358] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-10T20:41:09+07:00** - [Activity #2359] style(button): add subtle hover transition and outline focus style
 - **2026-04-10T21:12:22+07:00** - [Activity #2360] fix(download): prevent memory leak by revoking object URLs after download
+- **2026-04-10T21:36:03+07:00** - [Activity #2361] docs(changelog): update version history and release milestones
