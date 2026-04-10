@@ -8967,3 +8967,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T16:03:41+07:00** - [Activity #2349] refactor(camera): decouple media stream manager into custom hook
 - **2026-04-10T16:18:37+07:00** - [Activity #2350] feat(api): implement photo metadata seeding route with validation
 - **2026-04-10T16:31:54+07:00** - [Activity #2351] fix(firebase): handle connection dropout during batch sync gracefully
+- **2026-04-10T16:50:24+07:00** - [Activity #2352] feat(storage): integrate indexedDB caching for local photo session recovery
