@@ -8964,3 +8964,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T15:02:10+07:00** - [Activity #2346] feat(watermark): add customizable branding and event date stamp
 - **2026-04-10T15:34:22+07:00** - [Activity #2347] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-04-10T15:47:09+07:00** - [Activity #2348] chore(deps): update core dependencies to latest stable versions
+- **2026-04-10T16:03:41+07:00** - [Activity #2349] refactor(camera): decouple media stream manager into custom hook
