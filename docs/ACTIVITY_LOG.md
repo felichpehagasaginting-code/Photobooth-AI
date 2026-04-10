@@ -8977,3 +8977,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T20:41:09+07:00** - [Activity #2359] style(button): add subtle hover transition and outline focus style
 - **2026-04-10T21:12:22+07:00** - [Activity #2360] fix(download): prevent memory leak by revoking object URLs after download
 - **2026-04-10T21:36:03+07:00** - [Activity #2361] docs(changelog): update version history and release milestones
+- **2026-04-10T22:02:50+07:00** - [Activity #2362] perf(memory): explicitly clear canvas contexts after strip rendering
