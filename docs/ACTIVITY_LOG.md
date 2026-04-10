@@ -3326,3 +3326,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T21:08:19+07:00** - [Activity #2577] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-04-10T21:39:33+07:00** - [Activity #2578] fix(api): validate payload schema before processing seed request
 - **2026-04-10T21:53:18+07:00** - [Activity #2579] docs(api): document endpoint parameters and error codes for seed route
+- **2026-04-10T22:22:45+07:00** - [Activity #2580] chore(lint): configure ESLint rules for react hooks and accessibility
