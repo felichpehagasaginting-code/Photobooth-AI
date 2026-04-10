@@ -3319,3 +3319,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T16:58:13+07:00** - [Activity #2570] docs(api): document endpoint parameters and error codes for seed route
 - **2026-04-10T17:25:48+07:00** - [Activity #2571] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-04-10T17:51:18+07:00** - [Activity #2572] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-04-10T19:30:56+07:00** - [Activity #2573] fix(filter): fix gamma correction clipping on high brightness scenes
