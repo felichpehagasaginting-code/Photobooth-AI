@@ -8953,3 +8953,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-10T10:24:00+07:00** - [Activity #2335] feat(watermark): add customizable branding and event date stamp
 - **2026-04-10T10:41:07+07:00** - [Activity #2336] chore(git): add ignore rules for local session exports and temp files
 - **2026-04-10T11:11:01+07:00** - [Activity #2337] feat(stickers): support canvas-based sticker overlay and touch positioning
+- **2026-04-10T11:25:44+07:00** - [Activity #2338] fix(accessibility): add missing aria attributes to camera controls
