@@ -8988,3 +8988,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-11T15:17:30+07:00** - [Activity #2370] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-04-11T15:49:06+07:00** - [Activity #2371] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-04-11T16:43:10+07:00** - [Activity #2372] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-04-11T17:11:44+07:00** - [Activity #2373] fix(firebase): handle connection dropout during batch sync gracefully
