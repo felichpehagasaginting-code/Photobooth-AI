@@ -8986,3 +8986,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-11T13:49:54+07:00** - [Activity #2368] style(cards): apply subtle border gradient and elevation shadow
 - **2026-04-11T14:31:51+07:00** - [Activity #2369] feat(audio): integrate synthesized camera shutter click and countdown beeps
 - **2026-04-11T15:17:30+07:00** - [Activity #2370] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
+- **2026-04-11T15:49:06+07:00** - [Activity #2371] feat(ui): design responsive photobooth preview grid for kiosk mode
