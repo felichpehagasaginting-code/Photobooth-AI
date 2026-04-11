@@ -8985,3 +8985,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-11T11:40:08+07:00** - [Activity #2367] test(utils): add unit tests for image aspect ratio calculator
 - **2026-04-11T13:49:54+07:00** - [Activity #2368] style(cards): apply subtle border gradient and elevation shadow
 - **2026-04-11T14:31:51+07:00** - [Activity #2369] feat(audio): integrate synthesized camera shutter click and countdown beeps
+- **2026-04-11T15:17:30+07:00** - [Activity #2370] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
