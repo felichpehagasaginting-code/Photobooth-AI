@@ -3334,3 +3334,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-11T14:28:58+07:00** - [Activity #2585] docs(env): document all required environment variables with defaults
 - **2026-04-11T15:26:52+07:00** - [Activity #2586] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-04-11T16:12:30+07:00** - [Activity #2587] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-04-11T17:07:49+07:00** - [Activity #2588] style(cards): apply subtle border gradient and elevation shadows
