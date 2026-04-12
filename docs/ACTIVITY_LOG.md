@@ -3347,3 +3347,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-12T11:52:09+07:00** - [Activity #2598] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-04-12T13:45:18+07:00** - [Activity #2599] feat(analytics): log anonymous capture session completion metrics
 - **2026-04-12T14:03:38+07:00** - [Activity #2600] fix(auth): prevent race condition when initializing anonymous session
+- **2026-04-12T14:34:38+07:00** - [Activity #2601] docs(deploy): add production deployment instructions for Vercel/Docker
