@@ -8994,3 +8994,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-11T21:45:56+07:00** - [Activity #2376] feat(photobooth): initialize core camera streaming architecture
 - **2026-04-12T09:00:56+07:00** - [Activity #2377] fix(download): prevent memory leak by revoking object URLs after download
 - **2026-04-12T09:44:20+07:00** - [Activity #2378] test(utils): add unit tests for image aspect ratio calculator
+- **2026-04-12T10:39:29+07:00** - [Activity #2379] docs(api): document endpoint parameters and error codes for seed route
