@@ -3343,3 +3343,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-12T10:00:34+07:00** - [Activity #2594] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-04-12T10:30:57+07:00** - [Activity #2595] style(controls): refine slider track and thumb sizing for touch screens
 - **2026-04-12T11:01:08+07:00** - [Activity #2596] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-04-12T11:29:09+07:00** - [Activity #2597] refactor(hooks): create custom useDebounce and useThrottle utilities
