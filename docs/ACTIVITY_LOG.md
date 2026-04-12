@@ -3351,3 +3351,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-12T15:07:21+07:00** - [Activity #2602] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-04-12T15:36:56+07:00** - [Activity #2603] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-04-12T15:49:02+07:00** - [Activity #2604] style(grid): modernize layout overlap for bento-style elements
+- **2026-04-12T16:11:55+07:00** - [Activity #2605] feat(settings): add camera device selector with resolution fallbacks
