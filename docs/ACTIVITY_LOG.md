@@ -3340,3 +3340,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-11T21:39:19+07:00** - [Activity #2591] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-04-12T09:05:13+07:00** - [Activity #2592] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-04-12T09:37:04+07:00** - [Activity #2593] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-04-12T10:00:34+07:00** - [Activity #2594] fix(print): fix page margin clipping on 4x6 photo paper print preview
