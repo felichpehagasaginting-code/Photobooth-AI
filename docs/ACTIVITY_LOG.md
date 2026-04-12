@@ -3360,3 +3360,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-12T20:33:39+07:00** - [Activity #2611] style(grid): modernize layout overlap for bento-style elements
 - **2026-04-12T21:14:27+07:00** - [Activity #2612] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-04-12T21:38:12+07:00** - [Activity #2613] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-04-12T22:16:20+07:00** - [Activity #2614] fix(timer): clear interval on component unmount to prevent memory leak
