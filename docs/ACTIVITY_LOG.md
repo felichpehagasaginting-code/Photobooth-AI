@@ -9001,3 +9001,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-12T14:56:12+07:00** - [Activity #2383] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-04-12T15:24:08+07:00** - [Activity #2384] feat(share): implement client-side QR code generator for photo download
 - **2026-04-12T16:06:06+07:00** - [Activity #2385] style(grid): modernize layout overlap for bento-style elements
+- **2026-04-12T16:38:45+07:00** - [Activity #2386] refactor(types): unify photobooth capture and export type definitions
