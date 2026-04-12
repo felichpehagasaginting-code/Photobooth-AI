@@ -9004,3 +9004,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-12T16:38:45+07:00** - [Activity #2386] refactor(types): unify photobooth capture and export type definitions
 - **2026-04-12T17:30:51+07:00** - [Activity #2387] docs(api): document endpoint parameters and error codes for seed route
 - **2026-04-12T19:30:03+07:00** - [Activity #2388] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-04-12T20:18:27+07:00** - [Activity #2389] feat(camera): add dynamic resolution negotiator and frame rate switcher
