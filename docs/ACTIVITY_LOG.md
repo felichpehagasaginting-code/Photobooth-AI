@@ -3356,3 +3356,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-12T17:15:21+07:00** - [Activity #2607] fix(export): handle canvas taint error when loading external assets
 - **2026-04-12T17:41:12+07:00** - [Activity #2608] refactor(camera): extract media stream hook into standalone module
 - **2026-04-12T19:30:55+07:00** - [Activity #2609] refactor(events): use custom event bus for decoupled component messaging
+- **2026-04-12T20:02:07+07:00** - [Activity #2610] refactor(camera): extract media stream hook into standalone module
