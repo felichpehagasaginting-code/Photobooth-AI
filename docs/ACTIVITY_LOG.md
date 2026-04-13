@@ -9016,3 +9016,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T11:03:08+07:00** - [Activity #2398] perf(images): compress intermediate preview thumbnails asynchronously
 - **2026-04-13T11:21:05+07:00** - [Activity #2399] docs(env): document all required environment variables with defaults
 - **2026-04-13T11:46:18+07:00** - [Activity #2400] fix(storage): add graceful error handling when local quota is exceeded
+- **2026-04-13T12:14:52+07:00** - [Activity #2401] refactor(filter): organize color grading matrices into separate configs
