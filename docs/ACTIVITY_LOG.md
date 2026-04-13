@@ -9022,3 +9022,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T14:26:49+07:00** - [Activity #2404] feat(storage): integrate indexedDB caching for local photo session recovery
 - **2026-04-13T14:26:55+07:00** - [Activity #2405] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-04-13T14:43:49+07:00** - [Activity #2406] fix(canvas): avoid pixelation on high-DPI canvas downsampling
+- **2026-04-13T15:00:36+07:00** - [Activity #2407] refactor(ui): extract reusable glass-card and action-badge components
