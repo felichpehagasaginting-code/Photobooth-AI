@@ -3379,3 +3379,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T14:25:14+07:00** - [Activity #2630] refactor(filter): organize color grading matrices into separate configs
 - **2026-04-13T14:33:07+07:00** - [Activity #2631] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-04-13T14:58:01+07:00** - [Activity #2632] fix(audio): unlock audio context on initial user gesture
+- **2026-04-13T15:00:40+07:00** - [Activity #2633] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
