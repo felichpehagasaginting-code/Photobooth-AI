@@ -3391,3 +3391,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T17:27:18+07:00** - [Activity #2642] style(button): add subtle hover transition and outline focus style
 - **2026-04-13T17:37:29+07:00** - [Activity #2643] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-04-13T17:47:17+07:00** - [Activity #2644] feat(watermark): customizable event logo watermark overlay
+- **2026-04-13T19:30:01+07:00** - [Activity #2645] refactor(camera): extract media stream hook into standalone module
