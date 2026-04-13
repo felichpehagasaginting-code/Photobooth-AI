@@ -9014,3 +9014,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T10:28:09+07:00** - [Activity #2396] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-04-13T10:49:02+07:00** - [Activity #2397] chore(git): add ignore rules for local session exports and temp files
 - **2026-04-13T11:03:08+07:00** - [Activity #2398] perf(images): compress intermediate preview thumbnails asynchronously
+- **2026-04-13T11:21:05+07:00** - [Activity #2399] docs(env): document all required environment variables with defaults
