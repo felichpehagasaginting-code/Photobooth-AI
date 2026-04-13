@@ -9010,3 +9010,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T09:00:49+07:00** - [Activity #2392] style(typography): refine letter-spacing and line heights for headings
 - **2026-04-13T09:27:43+07:00** - [Activity #2393] fix(camera): prevent stream freeze during rapid device re-enumeration
 - **2026-04-13T09:37:54+07:00** - [Activity #2394] feat(export): add multi-frame strip layout builder with dynamic margins
+- **2026-04-13T09:56:47+07:00** - [Activity #2395] docs(deploy): add production deployment instructions for Vercel/Docker
