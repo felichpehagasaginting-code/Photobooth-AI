@@ -3398,3 +3398,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T20:53:55+07:00** - [Activity #2649] fix(api): validate payload schema before processing seed request
 - **2026-04-13T21:02:56+07:00** - [Activity #2650] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-04-13T21:33:25+07:00** - [Activity #2651] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-04-13T21:52:18+07:00** - [Activity #2652] chore(config): adjust tsconfig path aliases for cleaner imports
