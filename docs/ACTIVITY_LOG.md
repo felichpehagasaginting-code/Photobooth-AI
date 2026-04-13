@@ -9013,3 +9013,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T09:56:47+07:00** - [Activity #2395] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-04-13T10:28:09+07:00** - [Activity #2396] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-04-13T10:49:02+07:00** - [Activity #2397] chore(git): add ignore rules for local session exports and temp files
+- **2026-04-13T11:03:08+07:00** - [Activity #2398] perf(images): compress intermediate preview thumbnails asynchronously
