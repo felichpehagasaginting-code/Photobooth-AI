@@ -9024,3 +9024,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T14:43:49+07:00** - [Activity #2406] fix(canvas): avoid pixelation on high-DPI canvas downsampling
 - **2026-04-13T15:00:36+07:00** - [Activity #2407] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-04-13T15:25:46+07:00** - [Activity #2408] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-04-13T15:41:01+07:00** - [Activity #2409] feat(storage): integrate indexedDB caching for local photo session recovery
