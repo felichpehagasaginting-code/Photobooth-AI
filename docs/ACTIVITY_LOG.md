@@ -9040,3 +9040,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T20:53:51+07:00** - [Activity #2422] feat(export): add multi-frame strip layout builder with dynamic margins
 - **2026-04-13T21:18:02+07:00** - [Activity #2423] fix(canvas): avoid pixelation on high-DPI canvas downsampling
 - **2026-04-13T21:37:00+07:00** - [Activity #2424] feat(gallery): create instant session photo carousel with swipe gestures
+- **2026-04-13T22:08:07+07:00** - [Activity #2425] perf(fonts): preload display fonts to avoid flash of unstyled text
