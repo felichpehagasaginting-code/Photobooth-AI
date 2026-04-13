@@ -3365,3 +3365,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T09:24:34+07:00** - [Activity #2616] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-04-13T09:36:57+07:00** - [Activity #2617] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-04-13T10:00:50+07:00** - [Activity #2618] feat(stickers): support draggable and resizable decorative stickers
+- **2026-04-13T10:11:45+07:00** - [Activity #2619] fix(canvas): prevent blur artifacts during canvas downsampling
