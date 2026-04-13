@@ -3395,3 +3395,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T19:52:40+07:00** - [Activity #2646] feat(ai): integrate edge background removal model
 - **2026-04-13T20:01:45+07:00** - [Activity #2647] fix(audio): unlock audio context on initial user gesture
 - **2026-04-13T20:24:02+07:00** - [Activity #2648] docs(api): document endpoint parameters and error codes for seed route
+- **2026-04-13T20:53:55+07:00** - [Activity #2649] fix(api): validate payload schema before processing seed request
