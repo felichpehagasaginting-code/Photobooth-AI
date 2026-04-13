@@ -3389,3 +3389,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T16:46:40+07:00** - [Activity #2640] feat(share): generate instant QR code for mobile photo download
 - **2026-04-13T16:54:33+07:00** - [Activity #2641] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-04-13T17:27:18+07:00** - [Activity #2642] style(button): add subtle hover transition and outline focus style
+- **2026-04-13T17:37:29+07:00** - [Activity #2643] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
