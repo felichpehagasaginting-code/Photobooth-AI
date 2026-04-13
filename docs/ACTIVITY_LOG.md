@@ -9020,3 +9020,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T13:53:07+07:00** - [Activity #2402] feat(camera): add dynamic resolution negotiator and frame rate switcher
 - **2026-04-13T14:05:36+07:00** - [Activity #2403] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-04-13T14:26:49+07:00** - [Activity #2404] feat(storage): integrate indexedDB caching for local photo session recovery
+- **2026-04-13T14:26:55+07:00** - [Activity #2405] docs(readme): add detailed hardware camera setup and compatibility guide
