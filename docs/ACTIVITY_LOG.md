@@ -9071,3 +9071,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T17:24:20+07:00** - [Activity #2453] feat(settings): create camera device selection modal with device ID persistence
 - **2026-04-14T17:51:08+07:00** - [Activity #2454] docs(api): document endpoint parameters and error codes for seed route
 - **2026-04-14T19:30:13+07:00** - [Activity #2455] feat(watermark): add customizable branding and event date stamp
+- **2026-04-14T19:44:01+07:00** - [Activity #2456] fix(firebase): handle connection dropout during batch sync gracefully
