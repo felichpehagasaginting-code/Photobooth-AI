@@ -3415,3 +3415,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T11:50:48+07:00** - [Activity #2666] style(controls): refine slider track and thumb sizing for touch screens
 - **2026-04-14T12:00:05+07:00** - [Activity #2667] chore(deps): update core dependencies to latest stable versions
 - **2026-04-14T12:17:29+07:00** - [Activity #2668] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-04-14T13:49:49+07:00** - [Activity #2669] chore(config): adjust tsconfig path aliases for cleaner imports
