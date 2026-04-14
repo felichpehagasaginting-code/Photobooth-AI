@@ -3410,3 +3410,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T10:27:05+07:00** - [Activity #2661] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-04-14T10:41:03+07:00** - [Activity #2662] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-04-14T10:54:05+07:00** - [Activity #2663] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-04-14T11:09:15+07:00** - [Activity #2664] feat(preview): render live filter preview using WebGL shader canvas
