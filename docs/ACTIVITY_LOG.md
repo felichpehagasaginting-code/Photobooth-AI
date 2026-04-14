@@ -3421,3 +3421,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T14:16:12+07:00** - [Activity #2672] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-04-14T14:32:09+07:00** - [Activity #2673] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-04-14T14:41:01+07:00** - [Activity #2674] refactor(state): migrate photo session state management to zustand store
+- **2026-04-14T14:59:41+07:00** - [Activity #2675] refactor(hooks): create custom useDebounce and useThrottle utilities
