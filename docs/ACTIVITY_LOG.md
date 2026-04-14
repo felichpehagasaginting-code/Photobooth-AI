@@ -9053,3 +9053,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T11:38:27+07:00** - [Activity #2435] refactor(types): unify photobooth capture and export type definitions
 - **2026-04-14T11:58:23+07:00** - [Activity #2436] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-14T12:15:01+07:00** - [Activity #2437] fix(filter): eliminate color banding artifacts on low-bitrate gradients
+- **2026-04-14T13:48:20+07:00** - [Activity #2438] fix(timer): ensure countdown timer stops when navigating away
