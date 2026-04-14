@@ -9062,3 +9062,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T15:17:44+07:00** - [Activity #2444] feat(gallery): create instant session photo carousel with swipe gestures
 - **2026-04-14T15:28:02+07:00** - [Activity #2445] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-04-14T15:53:39+07:00** - [Activity #2446] feat(camera): add dynamic resolution negotiator and frame rate switcher
+- **2026-04-14T16:05:50+07:00** - [Activity #2447] fix(firebase): handle connection dropout during batch sync gracefully
