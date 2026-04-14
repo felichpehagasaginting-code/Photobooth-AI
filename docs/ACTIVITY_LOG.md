@@ -3437,3 +3437,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T17:49:45+07:00** - [Activity #2688] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-04-14T19:36:45+07:00** - [Activity #2689] feat(audio): add shutter click and countdown sound effects
 - **2026-04-14T19:51:44+07:00** - [Activity #2690] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-04-14T19:58:41+07:00** - [Activity #2691] fix(audio): unlock audio context on initial user gesture
