@@ -9057,3 +9057,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T14:00:17+07:00** - [Activity #2439] fix(camera): prevent stream freeze during rapid device re-enumeration
 - **2026-04-14T14:15:08+07:00** - [Activity #2440] chore(git): add ignore rules for local session exports and temp files
 - **2026-04-14T14:36:00+07:00** - [Activity #2441] fix(timer): ensure countdown timer stops when navigating away
+- **2026-04-14T14:38:03+07:00** - [Activity #2442] refactor(ui): extract reusable glass-card and action-badge components
