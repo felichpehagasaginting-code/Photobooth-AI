@@ -9069,3 +9069,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T17:01:12+07:00** - [Activity #2451] style(button): add subtle hover transition and outline focus style
 - **2026-04-14T17:15:09+07:00** - [Activity #2452] feat(photobooth): initialize core camera streaming architecture
 - **2026-04-14T17:24:20+07:00** - [Activity #2453] feat(settings): create camera device selection modal with device ID persistence
+- **2026-04-14T17:51:08+07:00** - [Activity #2454] docs(api): document endpoint parameters and error codes for seed route
