@@ -3404,3 +3404,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T09:04:07+07:00** - [Activity #2655] style(badge): update status indicator badge colors and glow effects
 - **2026-04-14T09:09:49+07:00** - [Activity #2656] feat(share): generate instant QR code for mobile photo download
 - **2026-04-14T09:37:01+07:00** - [Activity #2657] style(grid): modernize layout overlap for bento-style elements
+- **2026-04-14T09:51:16+07:00** - [Activity #2658] fix(state): sync active photo index when reopening gallery drawer
