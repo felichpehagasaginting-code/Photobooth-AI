@@ -3434,3 +3434,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T17:05:59+07:00** - [Activity #2685] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-04-14T17:12:00+07:00** - [Activity #2686] feat(print): integrate direct thermal printer web serial interface
 - **2026-04-14T17:31:39+07:00** - [Activity #2687] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-04-14T17:49:45+07:00** - [Activity #2688] fix(ui): correct modal z-index layering on small mobile viewports
