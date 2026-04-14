@@ -9075,3 +9075,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T20:16:30+07:00** - [Activity #2457] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-04-14T20:39:39+07:00** - [Activity #2458] feat(share): implement client-side QR code generator for photo download
 - **2026-04-14T20:58:31+07:00** - [Activity #2459] fix(download): prevent memory leak by revoking object URLs after download
+- **2026-04-14T21:15:30+07:00** - [Activity #2460] fix(download): prevent memory leak by revoking object URLs after download
