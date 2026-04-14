@@ -3405,3 +3405,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T09:09:49+07:00** - [Activity #2656] feat(share): generate instant QR code for mobile photo download
 - **2026-04-14T09:37:01+07:00** - [Activity #2657] style(grid): modernize layout overlap for bento-style elements
 - **2026-04-14T09:51:16+07:00** - [Activity #2658] fix(state): sync active photo index when reopening gallery drawer
+- **2026-04-14T10:01:18+07:00** - [Activity #2659] fix(accessibility): add missing aria-labels to icon action buttons
