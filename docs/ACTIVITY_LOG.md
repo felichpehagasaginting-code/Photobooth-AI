@@ -3401,3 +3401,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-13T21:52:18+07:00** - [Activity #2652] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-04-13T22:03:05+07:00** - [Activity #2653] test(utils): add unit tests for image aspect ratio calculator
 - **2026-04-13T22:26:00+07:00** - [Activity #2654] test(utils): add unit tests for image aspect ratio calculator
+- **2026-04-14T09:04:07+07:00** - [Activity #2655] style(badge): update status indicator badge colors and glow effects
