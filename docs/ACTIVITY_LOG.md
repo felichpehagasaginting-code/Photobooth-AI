@@ -9052,3 +9052,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T11:19:32+07:00** - [Activity #2434] perf(canvas): render WebGL shaders on offscreen canvas worker
 - **2026-04-14T11:38:27+07:00** - [Activity #2435] refactor(types): unify photobooth capture and export type definitions
 - **2026-04-14T11:58:23+07:00** - [Activity #2436] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-04-14T12:15:01+07:00** - [Activity #2437] fix(filter): eliminate color banding artifacts on low-bitrate gradients
