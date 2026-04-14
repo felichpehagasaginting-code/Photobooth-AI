@@ -3426,3 +3426,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T15:34:39+07:00** - [Activity #2677] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-14T15:39:05+07:00** - [Activity #2678] style(cards): apply subtle border gradient and elevation shadows
 - **2026-04-14T15:49:21+07:00** - [Activity #2679] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-04-14T15:56:57+07:00** - [Activity #2680] chore(ci): adjust GitHub Actions caching for faster test execution
