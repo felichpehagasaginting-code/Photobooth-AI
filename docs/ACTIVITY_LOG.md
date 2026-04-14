@@ -3433,3 +3433,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-14T17:02:15+07:00** - [Activity #2684] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-04-14T17:05:59+07:00** - [Activity #2685] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-04-14T17:12:00+07:00** - [Activity #2686] feat(print): integrate direct thermal printer web serial interface
+- **2026-04-14T17:31:39+07:00** - [Activity #2687] refactor(hooks): create custom useDebounce and useThrottle utilities
