@@ -3473,3 +3473,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T15:28:58+07:00** - [Activity #2724] refactor(filter): organize color grading matrices into separate configs
 - **2026-04-15T15:33:06+07:00** - [Activity #2725] feat(settings): add camera device selector with resolution fallbacks
 - **2026-04-15T15:57:28+07:00** - [Activity #2726] perf(api): cache static filter presets with aggressive HTTP headers
+- **2026-04-15T16:06:28+07:00** - [Activity #2727] fix(audio): unlock audio context on initial user gesture
