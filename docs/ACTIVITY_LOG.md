@@ -3461,3 +3461,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T11:37:25+07:00** - [Activity #2712] style(cards): apply subtle border gradient and elevation shadows
 - **2026-04-15T11:54:52+07:00** - [Activity #2713] style(button): add subtle hover transition and outline focus style
 - **2026-04-15T12:08:25+07:00** - [Activity #2714] style(cards): apply subtle border gradient and elevation shadows
+- **2026-04-15T13:45:00+07:00** - [Activity #2715] refactor(utils): streamline color conversion and hex parsing helpers
