@@ -3480,3 +3480,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T16:48:29+07:00** - [Activity #2731] fix(audio): unlock audio context on initial user gesture
 - **2026-04-15T17:05:36+07:00** - [Activity #2732] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-04-15T17:15:30+07:00** - [Activity #2733] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-04-15T17:26:11+07:00** - [Activity #2734] feat(kiosk): add full-screen lock and inactivity reset timer
