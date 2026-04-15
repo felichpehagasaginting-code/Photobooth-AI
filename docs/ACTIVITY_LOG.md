@@ -3469,3 +3469,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T14:50:18+07:00** - [Activity #2720] fix(state): sync active photo index when reopening gallery drawer
 - **2026-04-15T14:51:14+07:00** - [Activity #2721] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-04-15T14:59:48+07:00** - [Activity #2722] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-04-15T15:23:46+07:00** - [Activity #2723] feat(ui): implement smooth countdown overlay animation before shutter
