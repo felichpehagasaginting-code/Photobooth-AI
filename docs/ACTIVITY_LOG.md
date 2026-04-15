@@ -3471,3 +3471,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T14:59:48+07:00** - [Activity #2722] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-04-15T15:23:46+07:00** - [Activity #2723] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-04-15T15:28:58+07:00** - [Activity #2724] refactor(filter): organize color grading matrices into separate configs
+- **2026-04-15T15:33:06+07:00** - [Activity #2725] feat(settings): add camera device selector with resolution fallbacks
