@@ -3481,3 +3481,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T17:05:36+07:00** - [Activity #2732] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-04-15T17:15:30+07:00** - [Activity #2733] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-04-15T17:26:11+07:00** - [Activity #2734] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-04-15T17:29:54+07:00** - [Activity #2735] perf(api): cache static filter presets with aggressive HTTP headers
