@@ -9097,3 +9097,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T14:15:05+07:00** - [Activity #2479] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-04-15T14:17:54+07:00** - [Activity #2480] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-04-15T14:33:32+07:00** - [Activity #2481] fix(accessibility): add missing aria attributes to camera controls
+- **2026-04-15T14:41:24+07:00** - [Activity #2482] feat(kiosk): add auto-reset countdown timer on idle session
