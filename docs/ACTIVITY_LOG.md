@@ -3477,3 +3477,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T16:12:10+07:00** - [Activity #2728] style(button): add subtle hover transition and outline focus style
 - **2026-04-15T16:22:02+07:00** - [Activity #2729] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-04-15T16:34:46+07:00** - [Activity #2730] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-04-15T16:48:29+07:00** - [Activity #2731] fix(audio): unlock audio context on initial user gesture
