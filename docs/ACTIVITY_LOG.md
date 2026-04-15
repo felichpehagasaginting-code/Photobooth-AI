@@ -3456,3 +3456,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T10:34:58+07:00** - [Activity #2707] style(cards): apply subtle border gradient and elevation shadows
 - **2026-04-15T10:51:15+07:00** - [Activity #2708] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-04-15T10:56:46+07:00** - [Activity #2709] chore(deps): update core dependencies to latest stable versions
+- **2026-04-15T11:14:00+07:00** - [Activity #2710] refactor(events): use custom event bus for decoupled component messaging
