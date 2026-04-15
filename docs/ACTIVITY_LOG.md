@@ -9086,3 +9086,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T10:01:19+07:00** - [Activity #2468] feat(export): add multi-frame strip layout builder with dynamic margins
 - **2026-04-15T10:19:30+07:00** - [Activity #2469] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-04-15T10:42:27+07:00** - [Activity #2470] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-04-15T10:57:37+07:00** - [Activity #2471] fix(timer): ensure countdown timer stops when navigating away
