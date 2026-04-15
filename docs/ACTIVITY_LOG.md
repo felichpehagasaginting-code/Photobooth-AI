@@ -9085,3 +9085,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T09:43:59+07:00** - [Activity #2467] fix(camera): prevent stream freeze during rapid device re-enumeration
 - **2026-04-15T10:01:19+07:00** - [Activity #2468] feat(export): add multi-frame strip layout builder with dynamic margins
 - **2026-04-15T10:19:30+07:00** - [Activity #2469] feat(ui): build interactive shutter trigger with pulsating visual feedback
+- **2026-04-15T10:42:27+07:00** - [Activity #2470] docs(deploy): add production deployment instructions for Vercel/Docker
