@@ -3492,3 +3492,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T21:10:02+07:00** - [Activity #2743] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-04-15T21:27:45+07:00** - [Activity #2744] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-04-15T21:40:52+07:00** - [Activity #2745] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-04-15T21:57:50+07:00** - [Activity #2746] refactor(camera): extract media stream hook into standalone module
