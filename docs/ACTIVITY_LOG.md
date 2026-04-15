@@ -3452,3 +3452,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T09:25:21+07:00** - [Activity #2703] refactor(api): modularize backend route handlers and validation utils
 - **2026-04-15T09:38:59+07:00** - [Activity #2704] style(badge): update status indicator badge colors and glow effects
 - **2026-04-15T09:55:22+07:00** - [Activity #2705] chore(deps): update core dependencies to latest stable versions
+- **2026-04-15T10:12:58+07:00** - [Activity #2706] feat(camera): add dynamic exposure and focus adjustment controls
