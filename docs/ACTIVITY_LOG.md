@@ -3458,3 +3458,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T10:56:46+07:00** - [Activity #2709] chore(deps): update core dependencies to latest stable versions
 - **2026-04-15T11:14:00+07:00** - [Activity #2710] refactor(events): use custom event bus for decoupled component messaging
 - **2026-04-15T11:28:44+07:00** - [Activity #2711] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-04-15T11:37:25+07:00** - [Activity #2712] style(cards): apply subtle border gradient and elevation shadows
