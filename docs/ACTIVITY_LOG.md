@@ -3484,3 +3484,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T17:29:54+07:00** - [Activity #2735] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-04-15T17:56:35+07:00** - [Activity #2736] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-04-15T19:33:14+07:00** - [Activity #2737] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-04-15T19:41:23+07:00** - [Activity #2738] refactor(filter): organize color grading matrices into separate configs
