@@ -9110,3 +9110,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T17:05:48+07:00** - [Activity #2492] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-04-15T17:15:49+07:00** - [Activity #2493] refactor(styles): standardize spacing and typography design tokens
 - **2026-04-15T17:16:00+07:00** - [Activity #2494] refactor(export): optimize canvas blob generation with WebP compression
+- **2026-04-15T17:39:33+07:00** - [Activity #2495] fix(firebase): handle connection dropout during batch sync gracefully
