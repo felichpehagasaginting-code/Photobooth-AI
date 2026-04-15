@@ -3494,3 +3494,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T21:40:52+07:00** - [Activity #2745] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-04-15T21:57:50+07:00** - [Activity #2746] refactor(camera): extract media stream hook into standalone module
 - **2026-04-15T22:06:37+07:00** - [Activity #2747] fix(audio): unlock audio context on initial user gesture
+- **2026-04-15T22:24:28+07:00** - [Activity #2748] style(typography): refine letter-spacing and hierarchy for hero heading
