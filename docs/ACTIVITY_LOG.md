@@ -3466,3 +3466,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T14:00:48+07:00** - [Activity #2717] feat(share): generate instant QR code for mobile photo download
 - **2026-04-15T14:21:44+07:00** - [Activity #2718] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-04-15T14:38:31+07:00** - [Activity #2719] fix(auth): prevent race condition when initializing anonymous session
+- **2026-04-15T14:50:18+07:00** - [Activity #2720] fix(state): sync active photo index when reopening gallery drawer
