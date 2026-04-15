@@ -9099,3 +9099,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T14:33:32+07:00** - [Activity #2481] fix(accessibility): add missing aria attributes to camera controls
 - **2026-04-15T14:41:24+07:00** - [Activity #2482] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-04-15T14:53:48+07:00** - [Activity #2483] feat(audio): integrate synthesized camera shutter click and countdown beeps
+- **2026-04-15T15:05:44+07:00** - [Activity #2484] refactor(state): structure session state store with zustand
