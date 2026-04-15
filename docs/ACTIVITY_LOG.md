@@ -9089,3 +9089,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T10:57:37+07:00** - [Activity #2471] fix(timer): ensure countdown timer stops when navigating away
 - **2026-04-15T11:06:16+07:00** - [Activity #2472] refactor(state): structure session state store with zustand
 - **2026-04-15T11:28:10+07:00** - [Activity #2473] fix(download): prevent memory leak by revoking object URLs after download
+- **2026-04-15T11:40:05+07:00** - [Activity #2474] fix(accessibility): add missing aria attributes to camera controls
