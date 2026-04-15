@@ -9095,3 +9095,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T13:47:51+07:00** - [Activity #2477] docs(env): document all required environment variables with defaults
 - **2026-04-15T13:50:48+07:00** - [Activity #2478] style(grid): modernize layout overlap for bento-style elements
 - **2026-04-15T14:15:05+07:00** - [Activity #2479] perf(memory): explicitly clear canvas contexts after strip rendering
+- **2026-04-15T14:17:54+07:00** - [Activity #2480] chore(config): adjust tsconfig path aliases for cleaner imports
