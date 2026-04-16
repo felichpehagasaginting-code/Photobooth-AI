@@ -3506,3 +3506,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-16T11:26:35+07:00** - [Activity #2757] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-04-16T11:56:36+07:00** - [Activity #2758] feat(analytics): log anonymous capture session completion metrics
 - **2026-04-16T12:03:55+07:00** - [Activity #2759] feat(ai): integrate edge background removal model
+- **2026-04-16T13:51:31+07:00** - [Activity #2760] refactor(styles): migrate hardcoded color values to CSS design tokens
