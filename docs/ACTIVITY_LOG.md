@@ -9156,3 +9156,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-16T20:50:15+07:00** - [Activity #2538] feat(share): implement client-side QR code generator for photo download
 - **2026-04-16T21:20:50+07:00** - [Activity #2539] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-04-16T21:38:37+07:00** - [Activity #2540] style(button): add subtle hover transition and outline focus style
+- **2026-04-16T21:57:06+07:00** - [Activity #2541] chore(lint): configure ESLint rules for react hooks and accessibility
