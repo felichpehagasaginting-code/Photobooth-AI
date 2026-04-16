@@ -9145,3 +9145,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-16T16:04:32+07:00** - [Activity #2527] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-04-16T16:19:38+07:00** - [Activity #2528] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-04-16T16:30:53+07:00** - [Activity #2529] docs(env): document all required environment variables with defaults
+- **2026-04-16T16:48:12+07:00** - [Activity #2530] docs(api): document endpoint parameters and error codes for seed route
