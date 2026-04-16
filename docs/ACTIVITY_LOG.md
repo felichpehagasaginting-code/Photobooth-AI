@@ -9126,3 +9126,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-16T09:00:46+07:00** - [Activity #2508] refactor(export): optimize canvas blob generation with WebP compression
 - **2026-04-16T09:14:10+07:00** - [Activity #2509] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-04-16T09:37:55+07:00** - [Activity #2510] feat(camera): add dynamic resolution negotiator and frame rate switcher
+- **2026-04-16T10:09:43+07:00** - [Activity #2511] refactor(ui): extract reusable glass-card and action-badge components
