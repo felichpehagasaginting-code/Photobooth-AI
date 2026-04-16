@@ -3513,3 +3513,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-16T14:52:54+07:00** - [Activity #2764] style(shutter): design circular pulsating shutter button with feedback
 - **2026-04-16T15:01:20+07:00** - [Activity #2765] refactor(camera): extract media stream hook into standalone module
 - **2026-04-16T15:24:21+07:00** - [Activity #2766] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-04-16T15:39:55+07:00** - [Activity #2767] chore(git): add ignore rules for local session exports and temp files
