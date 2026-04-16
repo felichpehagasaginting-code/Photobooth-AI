@@ -9124,3 +9124,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T22:15:47+07:00** - [Activity #2506] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-04-15T22:25:50+07:00** - [Activity #2507] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-04-16T09:00:46+07:00** - [Activity #2508] refactor(export): optimize canvas blob generation with WebP compression
+- **2026-04-16T09:14:10+07:00** - [Activity #2509] style(modal): tune cubic-bezier easing curves on dialog open
