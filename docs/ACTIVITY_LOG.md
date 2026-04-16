@@ -9131,3 +9131,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-16T10:37:08+07:00** - [Activity #2513] style(typography): refine letter-spacing and line heights for headings
 - **2026-04-16T11:06:40+07:00** - [Activity #2514] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-04-16T11:27:13+07:00** - [Activity #2515] fix(api): sanitize query params on photo retrieval endpoint
+- **2026-04-16T11:53:41+07:00** - [Activity #2516] docs(deploy): add production deployment instructions for Vercel/Docker
