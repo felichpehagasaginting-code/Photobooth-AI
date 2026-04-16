@@ -3520,3 +3520,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-16T16:34:53+07:00** - [Activity #2771] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-04-16T16:35:37+07:00** - [Activity #2772] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-04-16T17:05:55+07:00** - [Activity #2773] refactor(camera): extract media stream hook into standalone module
+- **2026-04-16T17:20:31+07:00** - [Activity #2774] docs(testing): describe manual verification steps for photobooth kiosk
