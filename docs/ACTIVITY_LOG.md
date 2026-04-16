@@ -3531,3 +3531,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-16T21:22:03+07:00** - [Activity #2782] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-04-16T21:46:07+07:00** - [Activity #2783] fix(state): sync active photo index when reopening gallery drawer
 - **2026-04-16T22:03:16+07:00** - [Activity #2784] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
+- **2026-04-16T22:18:46+07:00** - [Activity #2785] refactor(i18n): restructure localization strings dictionary
