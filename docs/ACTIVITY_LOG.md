@@ -3496,3 +3496,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-15T22:06:37+07:00** - [Activity #2747] fix(audio): unlock audio context on initial user gesture
 - **2026-04-15T22:24:28+07:00** - [Activity #2748] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-04-16T09:04:49+07:00** - [Activity #2749] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-04-16T09:14:59+07:00** - [Activity #2750] fix(download): resolve blob URL memory leak on repeated downloads
