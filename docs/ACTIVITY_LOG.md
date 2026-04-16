@@ -9140,3 +9140,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-16T14:49:06+07:00** - [Activity #2522] feat(filter): implement real-time WebGL LUT matrix transformation
 - **2026-04-16T14:57:09+07:00** - [Activity #2523] refactor(filter): organize color grading matrices into separate configs
 - **2026-04-16T15:17:32+07:00** - [Activity #2524] feat(filter): implement real-time WebGL LUT matrix transformation
+- **2026-04-16T15:27:33+07:00** - [Activity #2525] chore(config): adjust tsconfig path aliases for cleaner imports
