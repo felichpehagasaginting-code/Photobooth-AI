@@ -3527,3 +3527,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-16T19:55:05+07:00** - [Activity #2778] refactor(events): use custom event bus for decoupled component messaging
 - **2026-04-16T20:06:16+07:00** - [Activity #2779] feat(audio): add shutter click and countdown sound effects
 - **2026-04-16T20:40:31+07:00** - [Activity #2780] style(badge): update status indicator badge colors and glow effects
+- **2026-04-16T21:00:12+07:00** - [Activity #2781] style(grid): modernize layout overlap for bento-style elements
