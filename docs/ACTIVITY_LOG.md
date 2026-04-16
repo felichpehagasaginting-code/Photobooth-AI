@@ -3499,3 +3499,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-16T09:14:59+07:00** - [Activity #2750] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-04-16T09:31:13+07:00** - [Activity #2751] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-04-16T09:52:31+07:00** - [Activity #2752] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-04-16T10:20:22+07:00** - [Activity #2753] refactor(camera): extract media stream hook into standalone module
