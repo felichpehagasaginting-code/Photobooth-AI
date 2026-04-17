@@ -3564,3 +3564,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-17T19:36:40+07:00** - [Activity #2815] style(cards): apply subtle border gradient and elevation shadows
 - **2026-04-17T19:46:24+07:00** - [Activity #2816] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-04-17T20:13:32+07:00** - [Activity #2817] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-04-17T20:28:32+07:00** - [Activity #2818] feat(preset): allow custom framing border selection per session
