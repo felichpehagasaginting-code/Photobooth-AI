@@ -3541,3 +3541,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-17T10:40:07+07:00** - [Activity #2792] feat(share): generate instant QR code for mobile photo download
 - **2026-04-17T11:00:21+07:00** - [Activity #2793] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-04-17T11:15:40+07:00** - [Activity #2794] fix(firebase): handle network timeout retry in transaction hook
+- **2026-04-17T11:36:04+07:00** - [Activity #2795] feat(preview): render live filter preview using WebGL shader canvas
