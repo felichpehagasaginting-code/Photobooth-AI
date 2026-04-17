@@ -3547,3 +3547,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-17T13:45:17+07:00** - [Activity #2798] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-04-17T14:03:41+07:00** - [Activity #2799] docs(api): document endpoint parameters and error codes for seed route
 - **2026-04-17T14:22:53+07:00** - [Activity #2800] feat(watermark): customizable event logo watermark overlay
+- **2026-04-17T14:35:36+07:00** - [Activity #2801] perf(memory): dispose cached image objects after strip generation
