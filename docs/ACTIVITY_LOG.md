@@ -3570,3 +3570,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-17T21:19:02+07:00** - [Activity #2821] chore(deps): update core dependencies to latest stable versions
 - **2026-04-17T21:40:19+07:00** - [Activity #2822] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-04-17T22:03:29+07:00** - [Activity #2823] refactor(ui): extract reusable glass-panel and badge components
+- **2026-04-17T22:28:12+07:00** - [Activity #2824] feat(preview): render live filter preview using WebGL shader canvas
