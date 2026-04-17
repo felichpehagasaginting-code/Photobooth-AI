@@ -9193,3 +9193,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-17T20:42:05+07:00** - [Activity #2575] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-04-17T21:14:07+07:00** - [Activity #2576] perf(canvas): render WebGL shaders on offscreen canvas worker
 - **2026-04-17T21:32:19+07:00** - [Activity #2577] feat(camera): add dynamic resolution negotiator and frame rate switcher
+- **2026-04-17T21:48:56+07:00** - [Activity #2578] docs(api): document endpoint parameters and error codes for seed route
