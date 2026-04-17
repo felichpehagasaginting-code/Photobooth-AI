@@ -9178,3 +9178,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-17T15:19:47+07:00** - [Activity #2560] perf(anim): accelerate countdown transitions with CSS transforms
 - **2026-04-17T15:25:29+07:00** - [Activity #2561] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-04-17T15:50:10+07:00** - [Activity #2562] feat(export): add multi-frame strip layout builder with dynamic margins
+- **2026-04-17T15:50:52+07:00** - [Activity #2563] docs(deploy): add production deployment instructions for Vercel/Docker
