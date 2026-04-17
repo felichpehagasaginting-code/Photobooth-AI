@@ -3549,3 +3549,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-17T14:22:53+07:00** - [Activity #2800] feat(watermark): customizable event logo watermark overlay
 - **2026-04-17T14:35:36+07:00** - [Activity #2801] perf(memory): dispose cached image objects after strip generation
 - **2026-04-17T14:52:44+07:00** - [Activity #2802] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-04-17T14:53:04+07:00** - [Activity #2803] style(photobooth): refine backdrop blur and color contrast for dark mode
