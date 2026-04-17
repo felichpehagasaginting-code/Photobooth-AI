@@ -3567,3 +3567,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-17T20:28:32+07:00** - [Activity #2818] feat(preset): allow custom framing border selection per session
 - **2026-04-17T20:51:11+07:00** - [Activity #2819] test(api): add integration test coverage for photo seed endpoint
 - **2026-04-17T21:10:27+07:00** - [Activity #2820] feat(settings): add camera device selector with resolution fallbacks
+- **2026-04-17T21:19:02+07:00** - [Activity #2821] chore(deps): update core dependencies to latest stable versions
