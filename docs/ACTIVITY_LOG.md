@@ -9176,3 +9176,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-17T14:49:53+07:00** - [Activity #2558] fix(accessibility): add missing aria attributes to camera controls
 - **2026-04-17T14:59:18+07:00** - [Activity #2559] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-04-17T15:19:47+07:00** - [Activity #2560] perf(anim): accelerate countdown transitions with CSS transforms
+- **2026-04-17T15:25:29+07:00** - [Activity #2561] fix(camera): correct video aspect ratio calculation on widescreen monitors
