@@ -3557,3 +3557,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-17T16:07:11+07:00** - [Activity #2808] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-04-17T16:29:16+07:00** - [Activity #2809] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-04-17T16:44:57+07:00** - [Activity #2810] refactor(filter): organize color grading matrices into separate configs
+- **2026-04-17T17:09:52+07:00** - [Activity #2811] chore(lint): configure ESLint rules for react hooks and accessibility
