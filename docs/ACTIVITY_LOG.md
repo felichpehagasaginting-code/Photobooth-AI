@@ -9173,3 +9173,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-17T14:01:07+07:00** - [Activity #2555] refactor(styles): standardize spacing and typography design tokens
 - **2026-04-17T14:11:38+07:00** - [Activity #2556] refactor(api): modularize backend route handlers and validation helpers
 - **2026-04-17T14:27:38+07:00** - [Activity #2557] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-04-17T14:49:53+07:00** - [Activity #2558] fix(accessibility): add missing aria attributes to camera controls
