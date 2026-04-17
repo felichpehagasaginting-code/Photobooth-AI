@@ -9166,3 +9166,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-17T10:34:22+07:00** - [Activity #2548] chore(deps): update core dependencies to latest stable versions
 - **2026-04-17T10:59:15+07:00** - [Activity #2549] feat(stickers): support canvas-based sticker overlay and touch positioning
 - **2026-04-17T11:11:06+07:00** - [Activity #2550] feat(storage): integrate indexedDB caching for local photo session recovery
+- **2026-04-17T11:34:19+07:00** - [Activity #2551] fix(canvas): avoid pixelation on high-DPI canvas downsampling
