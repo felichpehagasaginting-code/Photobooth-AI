@@ -3585,3 +3585,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-18T16:07:29+07:00** - [Activity #2836] style(cards): apply subtle border gradient and elevation shadows
 - **2026-04-18T16:25:35+07:00** - [Activity #2837] feat(watermark): customizable event logo watermark overlay
 - **2026-04-18T16:53:36+07:00** - [Activity #2838] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-04-18T17:30:35+07:00** - [Activity #2839] style(cards): apply subtle border gradient and elevation shadows
