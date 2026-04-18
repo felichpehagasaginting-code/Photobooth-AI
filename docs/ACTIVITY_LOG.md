@@ -9211,3 +9211,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-18T17:29:37+07:00** - [Activity #2593] fix(api): sanitize query params on photo retrieval endpoint
 - **2026-04-18T19:30:53+07:00** - [Activity #2594] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-04-18T20:24:35+07:00** - [Activity #2595] style(grid): modernize layout overlap for bento-style elements
+- **2026-04-18T21:06:31+07:00** - [Activity #2596] test(canvas): add snapshot tests for multi-frame collage layouts
