@@ -3572,3 +3572,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-17T22:03:29+07:00** - [Activity #2823] refactor(ui): extract reusable glass-panel and badge components
 - **2026-04-17T22:28:12+07:00** - [Activity #2824] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-04-18T09:00:59+07:00** - [Activity #2825] feat(audio): add shutter click and countdown sound effects
+- **2026-04-18T09:32:15+07:00** - [Activity #2826] refactor(types): consolidate photobooth session type definitions
