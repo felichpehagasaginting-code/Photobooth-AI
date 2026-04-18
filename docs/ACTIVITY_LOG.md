@@ -9212,3 +9212,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-18T19:30:53+07:00** - [Activity #2594] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-04-18T20:24:35+07:00** - [Activity #2595] style(grid): modernize layout overlap for bento-style elements
 - **2026-04-18T21:06:31+07:00** - [Activity #2596] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-04-18T22:00:22+07:00** - [Activity #2597] docs(changelog): update version history and release milestones
