@@ -3574,3 +3574,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-18T09:00:59+07:00** - [Activity #2825] feat(audio): add shutter click and countdown sound effects
 - **2026-04-18T09:32:15+07:00** - [Activity #2826] refactor(types): consolidate photobooth session type definitions
 - **2026-04-18T10:09:10+07:00** - [Activity #2827] refactor(types): consolidate photobooth session type definitions
+- **2026-04-18T10:49:07+07:00** - [Activity #2828] feat(ai): integrate edge background removal model
