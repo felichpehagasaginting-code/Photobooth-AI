@@ -9208,3 +9208,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-18T15:57:01+07:00** - [Activity #2590] feat(share): implement client-side QR code generator for photo download
 - **2026-04-18T16:16:42+07:00** - [Activity #2591] feat(gallery): create instant session photo carousel with swipe gestures
 - **2026-04-18T16:53:31+07:00** - [Activity #2592] feat(filter): add warm monochrome and film grain retro effects
+- **2026-04-18T17:29:37+07:00** - [Activity #2593] fix(api): sanitize query params on photo retrieval endpoint
