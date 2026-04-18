@@ -3582,3 +3582,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-18T14:45:19+07:00** - [Activity #2833] refactor(i18n): restructure localization strings dictionary
 - **2026-04-18T15:05:25+07:00** - [Activity #2834] refactor(events): use custom event bus for decoupled component messaging
 - **2026-04-18T15:45:03+07:00** - [Activity #2835] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-04-18T16:07:29+07:00** - [Activity #2836] style(cards): apply subtle border gradient and elevation shadows
