@@ -9203,3 +9203,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-18T11:46:24+07:00** - [Activity #2585] perf(images): compress intermediate preview thumbnails asynchronously
 - **2026-04-18T13:45:19+07:00** - [Activity #2586] perf(images): compress intermediate preview thumbnails asynchronously
 - **2026-04-18T14:15:11+07:00** - [Activity #2587] docs(api): document endpoint parameters and error codes for seed route
+- **2026-04-18T14:39:20+07:00** - [Activity #2588] fix(ui): adjust button touch target size for touch kiosks
