@@ -3580,3 +3580,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-18T13:53:25+07:00** - [Activity #2831] fix(export): handle canvas taint error when loading external assets
 - **2026-04-18T14:15:28+07:00** - [Activity #2832] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-04-18T14:45:19+07:00** - [Activity #2833] refactor(i18n): restructure localization strings dictionary
+- **2026-04-18T15:05:25+07:00** - [Activity #2834] refactor(events): use custom event bus for decoupled component messaging
