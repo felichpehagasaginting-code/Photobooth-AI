@@ -9221,3 +9221,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-19T14:27:26+07:00** - [Activity #2603] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-04-19T15:15:29+07:00** - [Activity #2604] test(hooks): add test suite for camera stream lifecycle events
 - **2026-04-19T16:01:40+07:00** - [Activity #2605] style(button): add subtle hover transition and outline focus style
+- **2026-04-19T16:39:57+07:00** - [Activity #2606] feat(settings): create camera device selection modal with device ID persistence
