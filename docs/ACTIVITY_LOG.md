@@ -9214,3 +9214,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-18T21:06:31+07:00** - [Activity #2596] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-04-18T22:00:22+07:00** - [Activity #2597] docs(changelog): update version history and release milestones
 - **2026-04-19T09:07:40+07:00** - [Activity #2598] refactor(filter): organize color grading matrices into separate configs
+- **2026-04-19T09:52:59+07:00** - [Activity #2599] chore(git): add ignore rules for local session exports and temp files
