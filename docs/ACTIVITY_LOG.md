@@ -3594,3 +3594,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-19T09:00:09+07:00** - [Activity #2845] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-04-19T09:56:41+07:00** - [Activity #2846] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-04-19T10:51:40+07:00** - [Activity #2847] perf(dom): virtualize gallery list items for smooth 60fps scrolling
+- **2026-04-19T11:34:44+07:00** - [Activity #2848] style(modal): fine-tune cubic-bezier easing curves on open transition
