@@ -9223,3 +9223,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-19T16:01:40+07:00** - [Activity #2605] style(button): add subtle hover transition and outline focus style
 - **2026-04-19T16:39:57+07:00** - [Activity #2606] feat(settings): create camera device selection modal with device ID persistence
 - **2026-04-19T17:23:06+07:00** - [Activity #2607] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-04-19T19:34:47+07:00** - [Activity #2608] fix(accessibility): add missing aria attributes to camera controls
