@@ -3591,3 +3591,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-18T20:52:36+07:00** - [Activity #2842] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-04-18T21:28:41+07:00** - [Activity #2843] fix(state): sync active photo index when reopening gallery drawer
 - **2026-04-18T22:04:36+07:00** - [Activity #2844] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-04-19T09:00:09+07:00** - [Activity #2845] feat(ui): implement smooth countdown overlay animation before shutter
