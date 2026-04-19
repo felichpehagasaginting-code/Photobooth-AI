@@ -3599,3 +3599,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-19T14:27:54+07:00** - [Activity #2850] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-04-19T15:01:41+07:00** - [Activity #2851] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-04-19T15:51:04+07:00** - [Activity #2852] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-04-19T16:44:27+07:00** - [Activity #2853] refactor(hooks): create custom useDebounce and useThrottle utilities
