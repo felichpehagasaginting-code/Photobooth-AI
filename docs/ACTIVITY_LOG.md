@@ -9234,3 +9234,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T11:07:02+07:00** - [Activity #2616] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-04-20T11:34:13+07:00** - [Activity #2617] fix(firebase): handle connection dropout during batch sync gracefully
 - **2026-04-20T12:11:19+07:00** - [Activity #2618] fix(touch): disable browser pull-to-refresh on interactive canvas
+- **2026-04-20T13:45:59+07:00** - [Activity #2619] fix(api): sanitize query params on photo retrieval endpoint
