@@ -3636,3 +3636,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T19:58:08+07:00** - [Activity #2887] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-04-20T20:07:42+07:00** - [Activity #2888] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-04-20T20:29:40+07:00** - [Activity #2889] feat(settings): add camera device selector with resolution fallbacks
+- **2026-04-20T20:57:35+07:00** - [Activity #2890] refactor(api): modularize backend route handlers and validation utils
