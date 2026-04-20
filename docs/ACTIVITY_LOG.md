@@ -3610,3 +3610,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T09:53:51+07:00** - [Activity #2861] feat(ai): integrate edge background removal model
 - **2026-04-20T10:17:39+07:00** - [Activity #2862] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-04-20T10:31:57+07:00** - [Activity #2863] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-04-20T11:00:50+07:00** - [Activity #2864] test(hooks): add test suite for camera stream lifecycle events
