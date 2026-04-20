@@ -3626,3 +3626,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T15:42:45+07:00** - [Activity #2877] feat(print): integrate direct thermal printer web serial interface
 - **2026-04-20T16:05:10+07:00** - [Activity #2878] style(shutter): design circular pulsating shutter button with feedback
 - **2026-04-20T16:22:00+07:00** - [Activity #2879] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-04-20T16:28:29+07:00** - [Activity #2880] chore(config): adjust tsconfig path aliases for cleaner imports
