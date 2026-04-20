@@ -3633,3 +3633,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T17:39:29+07:00** - [Activity #2884] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-04-20T17:40:51+07:00** - [Activity #2885] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-04-20T19:35:19+07:00** - [Activity #2886] refactor(types): consolidate photobooth session type definitions
+- **2026-04-20T19:58:08+07:00** - [Activity #2887] fix(ui): correct modal z-index layering on small mobile viewports
