@@ -9226,3 +9226,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-19T19:34:47+07:00** - [Activity #2608] fix(accessibility): add missing aria attributes to camera controls
 - **2026-04-19T20:32:33+07:00** - [Activity #2609] style(button): add subtle hover transition and outline focus style
 - **2026-04-19T21:35:59+07:00** - [Activity #2610] perf(images): compress intermediate preview thumbnails asynchronously
+- **2026-04-20T09:07:51+07:00** - [Activity #2611] fix(camera): correct video aspect ratio calculation on widescreen monitors
