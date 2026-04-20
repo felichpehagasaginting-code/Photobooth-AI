@@ -3630,3 +3630,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T16:47:41+07:00** - [Activity #2881] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-04-20T17:06:43+07:00** - [Activity #2882] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-04-20T17:14:19+07:00** - [Activity #2883] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-04-20T17:39:29+07:00** - [Activity #2884] chore(lint): configure ESLint rules for react hooks and accessibility
