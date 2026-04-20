@@ -3608,3 +3608,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T09:25:02+07:00** - [Activity #2859] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-04-20T09:31:03+07:00** - [Activity #2860] feat(cloud): async upload queue for batch photo backup
 - **2026-04-20T09:53:51+07:00** - [Activity #2861] feat(ai): integrate edge background removal model
+- **2026-04-20T10:17:39+07:00** - [Activity #2862] perf(images): compress intermediate preview thumbnails with WebP format
