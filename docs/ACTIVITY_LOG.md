@@ -9232,3 +9232,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T10:17:25+07:00** - [Activity #2614] perf(anim): accelerate countdown transitions with CSS transforms
 - **2026-04-20T10:46:56+07:00** - [Activity #2615] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-04-20T11:07:02+07:00** - [Activity #2616] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
+- **2026-04-20T11:34:13+07:00** - [Activity #2617] fix(firebase): handle connection dropout during batch sync gracefully
