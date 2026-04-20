@@ -9241,3 +9241,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T15:01:01+07:00** - [Activity #2623] fix(touch): disable browser pull-to-refresh on interactive canvas
 - **2026-04-20T15:13:07+07:00** - [Activity #2624] test(hooks): add test suite for camera stream lifecycle events
 - **2026-04-20T15:35:00+07:00** - [Activity #2625] feat(kiosk): add auto-reset countdown timer on idle session
+- **2026-04-20T15:55:06+07:00** - [Activity #2626] fix(ui): adjust button touch target size for touch kiosks
