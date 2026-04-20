@@ -3613,3 +3613,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T11:00:50+07:00** - [Activity #2864] test(hooks): add test suite for camera stream lifecycle events
 - **2026-04-20T11:19:59+07:00** - [Activity #2865] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-04-20T11:28:56+07:00** - [Activity #2866] chore(build): optimize Vite build chunks and asset minification settings
+- **2026-04-20T11:46:07+07:00** - [Activity #2867] style(theme): update dark mode accent color tokens with warm tone
