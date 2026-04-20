@@ -3604,3 +3604,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-19T19:30:01+07:00** - [Activity #2855] fix(export): handle canvas taint error when loading external assets
 - **2026-04-19T20:40:31+07:00** - [Activity #2856] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-04-19T21:46:29+07:00** - [Activity #2857] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-04-20T09:00:16+07:00** - [Activity #2858] refactor(services): separate cloud storage adapter from UI layer
