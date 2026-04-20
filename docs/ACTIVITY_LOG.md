@@ -3622,3 +3622,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T14:45:02+07:00** - [Activity #2873] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-04-20T15:01:40+07:00** - [Activity #2874] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-04-20T15:19:25+07:00** - [Activity #2875] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-04-20T15:35:54+07:00** - [Activity #2876] fix(canvas): prevent blur artifacts during canvas downsampling
