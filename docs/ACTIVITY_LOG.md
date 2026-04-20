@@ -9236,3 +9236,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T12:11:19+07:00** - [Activity #2618] fix(touch): disable browser pull-to-refresh on interactive canvas
 - **2026-04-20T13:45:59+07:00** - [Activity #2619] fix(api): sanitize query params on photo retrieval endpoint
 - **2026-04-20T13:58:34+07:00** - [Activity #2620] refactor(styles): standardize spacing and typography design tokens
+- **2026-04-20T14:26:45+07:00** - [Activity #2621] refactor(ui): extract reusable glass-card and action-badge components
