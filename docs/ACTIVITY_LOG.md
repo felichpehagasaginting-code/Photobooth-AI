@@ -9237,3 +9237,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T13:45:59+07:00** - [Activity #2619] fix(api): sanitize query params on photo retrieval endpoint
 - **2026-04-20T13:58:34+07:00** - [Activity #2620] refactor(styles): standardize spacing and typography design tokens
 - **2026-04-20T14:26:45+07:00** - [Activity #2621] refactor(ui): extract reusable glass-card and action-badge components
+- **2026-04-20T14:45:32+07:00** - [Activity #2622] refactor(filter): organize color grading matrices into separate configs
