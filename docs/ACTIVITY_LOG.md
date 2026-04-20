@@ -3620,3 +3620,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T14:12:52+07:00** - [Activity #2871] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-04-20T14:29:20+07:00** - [Activity #2872] refactor(export): optimize collage rendering algorithm for speed
 - **2026-04-20T14:45:02+07:00** - [Activity #2873] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-04-20T15:01:40+07:00** - [Activity #2874] feat(gallery): add touch swipe navigation for captured photo previews
