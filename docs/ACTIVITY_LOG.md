@@ -9252,3 +9252,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T20:30:03+07:00** - [Activity #2634] style(cards): apply subtle border gradient and elevation shadow
 - **2026-04-20T20:54:12+07:00** - [Activity #2635] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-04-20T21:23:23+07:00** - [Activity #2636] fix(accessibility): add missing aria attributes to camera controls
+- **2026-04-20T21:42:44+07:00** - [Activity #2637] docs(api): document endpoint parameters and error codes for seed route
