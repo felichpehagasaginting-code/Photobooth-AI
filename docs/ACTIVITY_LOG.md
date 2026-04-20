@@ -3616,3 +3616,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T11:46:07+07:00** - [Activity #2867] style(theme): update dark mode accent color tokens with warm tone
 - **2026-04-20T12:14:57+07:00** - [Activity #2868] style(theme): update dark mode accent color tokens with warm tone
 - **2026-04-20T13:46:20+07:00** - [Activity #2869] style(button): add subtle hover transition and outline focus style
+- **2026-04-20T14:07:17+07:00** - [Activity #2870] perf(state): optimize selector subscriptions to minimize re-renders
