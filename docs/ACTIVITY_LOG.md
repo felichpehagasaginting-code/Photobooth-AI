@@ -3651,3 +3651,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T10:47:32+07:00** - [Activity #2902] perf(anim): offload countdown animations to GPU composited layers
 - **2026-04-21T11:00:39+07:00** - [Activity #2903] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-04-21T11:11:31+07:00** - [Activity #2904] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-04-21T11:33:57+07:00** - [Activity #2905] test(canvas): add snapshot tests for multi-frame collage layouts
