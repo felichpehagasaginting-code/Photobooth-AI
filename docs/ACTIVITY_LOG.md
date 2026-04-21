@@ -3658,3 +3658,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T13:48:34+07:00** - [Activity #2909] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-04-21T13:49:44+07:00** - [Activity #2910] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-04-21T14:15:34+07:00** - [Activity #2911] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-04-21T14:20:34+07:00** - [Activity #2912] feat(preview): render live filter preview using WebGL shader canvas
