@@ -9265,3 +9265,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T11:19:21+07:00** - [Activity #2647] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-04-21T11:44:16+07:00** - [Activity #2648] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-04-21T11:57:19+07:00** - [Activity #2649] test(hooks): add test suite for camera stream lifecycle events
+- **2026-04-21T12:08:45+07:00** - [Activity #2650] fix(ui): adjust button touch target size for touch kiosks
