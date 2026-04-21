@@ -9287,3 +9287,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T19:30:45+07:00** - [Activity #2669] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-21T19:48:56+07:00** - [Activity #2670] fix(ui): adjust button touch target size for touch kiosks
 - **2026-04-21T20:10:55+07:00** - [Activity #2671] refactor(api): modularize backend route handlers and validation helpers
+- **2026-04-21T20:30:21+07:00** - [Activity #2672] fix(download): prevent memory leak by revoking object URLs after download
