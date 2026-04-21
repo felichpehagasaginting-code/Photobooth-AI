@@ -3642,3 +3642,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T21:55:18+07:00** - [Activity #2893] feat(share): generate instant QR code for mobile photo download
 - **2026-04-20T22:21:28+07:00** - [Activity #2894] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-04-21T09:00:11+07:00** - [Activity #2895] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-04-21T09:17:30+07:00** - [Activity #2896] docs(arch): add architecture diagram explaining client-side filter flow
