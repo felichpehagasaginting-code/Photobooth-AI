@@ -3684,3 +3684,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T21:17:41+07:00** - [Activity #2935] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-04-21T21:28:49+07:00** - [Activity #2936] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-04-21T21:55:29+07:00** - [Activity #2937] docs(changelog): update version history and release milestones
+- **2026-04-21T22:02:07+07:00** - [Activity #2938] fix(state): sync active photo index when reopening gallery drawer
