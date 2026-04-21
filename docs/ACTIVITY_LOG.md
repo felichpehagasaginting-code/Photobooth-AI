@@ -9292,3 +9292,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T21:12:52+07:00** - [Activity #2674] chore(deps): update core dependencies to latest stable versions
 - **2026-04-21T21:20:00+07:00** - [Activity #2675] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-04-21T21:40:06+07:00** - [Activity #2676] refactor(ui): extract reusable glass-card and action-badge components
+- **2026-04-21T22:03:54+07:00** - [Activity #2677] fix(state): sync current photo strip selection across modal re-renders
