@@ -3655,3 +3655,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T11:44:27+07:00** - [Activity #2906] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-04-21T11:57:58+07:00** - [Activity #2907] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-04-21T12:18:46+07:00** - [Activity #2908] test(hooks): add test suite for camera stream lifecycle events
+- **2026-04-21T13:48:34+07:00** - [Activity #2909] refactor(utils): streamline color conversion and hex parsing helpers
