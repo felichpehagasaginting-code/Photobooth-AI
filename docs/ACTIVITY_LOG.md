@@ -3670,3 +3670,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T16:13:28+07:00** - [Activity #2921] chore(deps): update core dependencies to latest stable versions
 - **2026-04-21T16:25:16+07:00** - [Activity #2922] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-04-21T16:48:26+07:00** - [Activity #2923] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-04-21T16:49:13+07:00** - [Activity #2924] feat(gallery): add touch swipe navigation for captured photo previews
