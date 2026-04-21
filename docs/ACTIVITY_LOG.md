@@ -9272,3 +9272,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T14:17:41+07:00** - [Activity #2654] feat(api): implement photo metadata seeding route with validation
 - **2026-04-21T14:46:15+07:00** - [Activity #2655] docs(changelog): update version history and release milestones
 - **2026-04-21T14:56:31+07:00** - [Activity #2656] style(grid): modernize layout overlap for bento-style elements
+- **2026-04-21T15:17:16+07:00** - [Activity #2657] docs(api): document endpoint parameters and error codes for seed route
