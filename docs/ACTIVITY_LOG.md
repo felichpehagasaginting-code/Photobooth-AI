@@ -9256,3 +9256,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-20T22:13:30+07:00** - [Activity #2638] feat(settings): create camera device selection modal with device ID persistence
 - **2026-04-21T09:06:04+07:00** - [Activity #2639] fix(filter): eliminate color banding artifacts on low-bitrate gradients
 - **2026-04-21T09:20:24+07:00** - [Activity #2640] perf(anim): accelerate countdown transitions with CSS transforms
+- **2026-04-21T09:34:43+07:00** - [Activity #2641] fix(download): prevent memory leak by revoking object URLs after download
