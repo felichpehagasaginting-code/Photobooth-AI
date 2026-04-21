@@ -9260,3 +9260,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T09:46:21+07:00** - [Activity #2642] fix(download): prevent memory leak by revoking object URLs after download
 - **2026-04-21T10:03:48+07:00** - [Activity #2643] fix(filter): eliminate color banding artifacts on low-bitrate gradients
 - **2026-04-21T10:24:24+07:00** - [Activity #2644] refactor(filter): organize color grading matrices into separate configs
+- **2026-04-21T10:42:15+07:00** - [Activity #2645] docs(env): document all required environment variables with defaults
