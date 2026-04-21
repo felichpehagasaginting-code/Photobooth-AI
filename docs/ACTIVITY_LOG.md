@@ -3647,3 +3647,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T09:43:06+07:00** - [Activity #2898] feat(settings): add camera device selector with resolution fallbacks
 - **2026-04-21T09:54:30+07:00** - [Activity #2899] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-04-21T10:16:24+07:00** - [Activity #2900] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-04-21T10:23:30+07:00** - [Activity #2901] refactor(i18n): restructure localization strings dictionary
