@@ -3675,3 +3675,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T17:24:08+07:00** - [Activity #2926] fix(firebase): handle network timeout retry in transaction hook
 - **2026-04-21T17:41:50+07:00** - [Activity #2927] refactor(ui): extract reusable glass-panel and badge components
 - **2026-04-21T17:53:13+07:00** - [Activity #2928] refactor(export): optimize collage rendering algorithm for speed
+- **2026-04-21T19:37:52+07:00** - [Activity #2929] test(canvas): add snapshot tests for multi-frame collage layouts
