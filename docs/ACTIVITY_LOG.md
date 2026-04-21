@@ -3664,3 +3664,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T14:59:41+07:00** - [Activity #2915] refactor(state): migrate photo session state management to zustand store
 - **2026-04-21T15:20:16+07:00** - [Activity #2916] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-04-21T15:23:52+07:00** - [Activity #2917] feat(preset): allow custom framing border selection per session
+- **2026-04-21T15:30:12+07:00** - [Activity #2918] test(api): add integration test coverage for photo seed endpoint
