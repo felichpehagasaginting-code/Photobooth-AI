@@ -9283,3 +9283,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T17:04:54+07:00** - [Activity #2665] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-04-21T17:21:57+07:00** - [Activity #2666] test(hooks): add test suite for camera stream lifecycle events
 - **2026-04-21T17:40:34+07:00** - [Activity #2667] refactor(styles): standardize spacing and typography design tokens
+- **2026-04-21T17:47:08+07:00** - [Activity #2668] docs(api): document endpoint parameters and error codes for seed route
