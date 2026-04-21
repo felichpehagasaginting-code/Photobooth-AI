@@ -3644,3 +3644,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T09:00:11+07:00** - [Activity #2895] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-04-21T09:17:30+07:00** - [Activity #2896] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-21T09:23:35+07:00** - [Activity #2897] fix(api): validate payload schema before processing seed request
+- **2026-04-21T09:43:06+07:00** - [Activity #2898] feat(settings): add camera device selector with resolution fallbacks
