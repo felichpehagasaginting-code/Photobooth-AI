@@ -3712,3 +3712,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-22T17:07:31+07:00** - [Activity #2963] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-04-22T17:20:31+07:00** - [Activity #2964] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-04-22T17:51:44+07:00** - [Activity #2965] style(shutter): design circular pulsating shutter button with feedback
+- **2026-04-22T19:31:12+07:00** - [Activity #2966] perf(dom): virtualize gallery list items for smooth 60fps scrolling
