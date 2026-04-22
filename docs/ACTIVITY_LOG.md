@@ -3687,3 +3687,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T22:02:07+07:00** - [Activity #2938] fix(state): sync active photo index when reopening gallery drawer
 - **2026-04-21T22:25:02+07:00** - [Activity #2939] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-04-22T09:00:56+07:00** - [Activity #2940] test(hooks): add test suite for camera stream lifecycle events
+- **2026-04-22T09:15:38+07:00** - [Activity #2941] fix(filter): fix gamma correction clipping on high brightness scenes
