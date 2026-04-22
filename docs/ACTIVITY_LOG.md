@@ -3717,3 +3717,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-22T20:05:58+07:00** - [Activity #2968] refactor(i18n): restructure localization strings dictionary
 - **2026-04-22T20:31:33+07:00** - [Activity #2969] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-04-22T20:57:43+07:00** - [Activity #2970] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-04-22T21:12:23+07:00** - [Activity #2971] refactor(types): consolidate photobooth session type definitions
