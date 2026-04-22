@@ -3702,3 +3702,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-22T14:35:12+07:00** - [Activity #2953] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-04-22T14:44:11+07:00** - [Activity #2954] feat(preset): allow custom framing border selection per session
 - **2026-04-22T15:14:04+07:00** - [Activity #2955] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-04-22T15:21:34+07:00** - [Activity #2956] fix(auth): prevent race condition when initializing anonymous session
