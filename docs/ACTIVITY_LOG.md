@@ -3697,3 +3697,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-22T11:53:38+07:00** - [Activity #2948] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-04-22T12:14:54+07:00** - [Activity #2949] refactor(api): modularize backend route handlers and validation utils
 - **2026-04-22T13:54:28+07:00** - [Activity #2950] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-04-22T13:54:36+07:00** - [Activity #2951] refactor(export): optimize collage rendering algorithm for speed
