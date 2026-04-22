@@ -3693,3 +3693,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-22T10:31:08+07:00** - [Activity #2944] perf(anim): offload countdown animations to GPU composited layers
 - **2026-04-22T10:51:25+07:00** - [Activity #2945] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-04-22T11:05:01+07:00** - [Activity #2946] chore(git): add ignore rules for local session exports and temp files
+- **2026-04-22T11:26:26+07:00** - [Activity #2947] refactor(ui): extract reusable glass-panel and badge components
