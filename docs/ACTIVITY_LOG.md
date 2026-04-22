@@ -9320,3 +9320,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-22T16:22:24+07:00** - [Activity #2702] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-04-22T16:40:01+07:00** - [Activity #2703] docs(env): document all required environment variables with defaults
 - **2026-04-22T16:54:04+07:00** - [Activity #2704] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-04-22T17:06:34+07:00** - [Activity #2705] perf(canvas): render WebGL shaders on offscreen canvas worker
