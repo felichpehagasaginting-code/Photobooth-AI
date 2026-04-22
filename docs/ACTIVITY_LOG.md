@@ -9313,3 +9313,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-22T14:49:44+07:00** - [Activity #2695] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-22T15:08:51+07:00** - [Activity #2696] feat(storage): integrate indexedDB caching for local photo session recovery
 - **2026-04-22T15:18:00+07:00** - [Activity #2697] docs(env): document all required environment variables with defaults
+- **2026-04-22T15:23:51+07:00** - [Activity #2698] feat(camera): add dynamic resolution negotiator and frame rate switcher
