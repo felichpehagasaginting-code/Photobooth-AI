@@ -3700,3 +3700,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-22T13:54:36+07:00** - [Activity #2951] refactor(export): optimize collage rendering algorithm for speed
 - **2026-04-22T14:18:06+07:00** - [Activity #2952] feat(cloud): async upload queue for batch photo backup
 - **2026-04-22T14:35:12+07:00** - [Activity #2953] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-04-22T14:44:11+07:00** - [Activity #2954] feat(preset): allow custom framing border selection per session
