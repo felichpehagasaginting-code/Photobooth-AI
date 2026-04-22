@@ -9295,3 +9295,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-21T22:03:54+07:00** - [Activity #2677] fix(state): sync current photo strip selection across modal re-renders
 - **2026-04-21T22:26:52+07:00** - [Activity #2678] perf(canvas): render WebGL shaders on offscreen canvas worker
 - **2026-04-22T09:03:54+07:00** - [Activity #2679] docs(api): document endpoint parameters and error codes for seed route
+- **2026-04-22T09:10:32+07:00** - [Activity #2680] chore(ci): adjust GitHub Actions caching for faster test execution
