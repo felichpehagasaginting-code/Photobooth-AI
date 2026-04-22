@@ -9310,3 +9310,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-22T14:05:57+07:00** - [Activity #2692] fix(filter): eliminate color banding artifacts on low-bitrate gradients
 - **2026-04-22T14:15:15+07:00** - [Activity #2693] refactor(utils): optimize hex-to-rgb and color transform utilities
 - **2026-04-22T14:29:10+07:00** - [Activity #2694] fix(storage): add graceful error handling when local quota is exceeded
+- **2026-04-22T14:49:44+07:00** - [Activity #2695] docs(arch): add architecture diagram explaining client-side filter flow
