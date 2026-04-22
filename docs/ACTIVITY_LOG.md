@@ -3695,3 +3695,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-22T11:05:01+07:00** - [Activity #2946] chore(git): add ignore rules for local session exports and temp files
 - **2026-04-22T11:26:26+07:00** - [Activity #2947] refactor(ui): extract reusable glass-panel and badge components
 - **2026-04-22T11:53:38+07:00** - [Activity #2948] fix(download): resolve blob URL memory leak on repeated downloads
+- **2026-04-22T12:14:54+07:00** - [Activity #2949] refactor(api): modularize backend route handlers and validation utils
