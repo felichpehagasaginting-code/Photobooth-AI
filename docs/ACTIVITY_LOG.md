@@ -9330,3 +9330,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-22T20:45:31+07:00** - [Activity #2712] feat(watermark): add customizable branding and event date stamp
 - **2026-04-22T21:02:08+07:00** - [Activity #2713] feat(camera): add dynamic resolution negotiator and frame rate switcher
 - **2026-04-22T21:21:14+07:00** - [Activity #2714] fix(camera): prevent stream freeze during rapid device re-enumeration
+- **2026-04-22T21:40:02+07:00** - [Activity #2715] fix(api): sanitize query params on photo retrieval endpoint
