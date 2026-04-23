@@ -9335,3 +9335,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-22T22:24:24+07:00** - [Activity #2717] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-04-23T09:00:37+07:00** - [Activity #2718] feat(photobooth): initialize core camera streaming architecture
 - **2026-04-23T09:20:26+07:00** - [Activity #2719] feat(ui): design responsive photobooth preview grid for kiosk mode
+- **2026-04-23T09:40:06+07:00** - [Activity #2720] chore(deps): update core dependencies to latest stable versions
