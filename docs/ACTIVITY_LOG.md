@@ -3738,3 +3738,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T12:20:26+07:00** - [Activity #2989] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-04-23T13:45:58+07:00** - [Activity #2990] docs(env): document all required environment variables with defaults
 - **2026-04-23T14:04:34+07:00** - [Activity #2991] perf(anim): offload countdown animations to GPU composited layers
+- **2026-04-23T14:08:01+07:00** - [Activity #2992] fix(timer): clear interval on component unmount to prevent memory leak
