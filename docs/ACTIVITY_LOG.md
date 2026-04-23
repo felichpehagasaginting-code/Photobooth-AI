@@ -9346,3 +9346,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T11:57:59+07:00** - [Activity #2728] refactor(camera): decouple media stream manager into custom hook
 - **2026-04-23T12:14:46+07:00** - [Activity #2729] refactor(camera): decouple media stream manager into custom hook
 - **2026-04-23T13:50:25+07:00** - [Activity #2730] fix(camera): prevent stream freeze during rapid device re-enumeration
+- **2026-04-23T13:52:07+07:00** - [Activity #2731] feat(camera): add dynamic resolution negotiator and frame rate switcher
