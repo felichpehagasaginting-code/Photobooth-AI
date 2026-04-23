@@ -9360,3 +9360,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T16:33:44+07:00** - [Activity #2742] chore(deps): update core dependencies to latest stable versions
 - **2026-04-23T16:34:14+07:00** - [Activity #2743] chore(deps): update core dependencies to latest stable versions
 - **2026-04-23T16:58:30+07:00** - [Activity #2744] fix(state): sync current photo strip selection across modal re-renders
+- **2026-04-23T17:13:55+07:00** - [Activity #2745] perf(images): compress intermediate preview thumbnails asynchronously
