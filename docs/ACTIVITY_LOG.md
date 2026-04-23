@@ -3740,3 +3740,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T14:04:34+07:00** - [Activity #2991] perf(anim): offload countdown animations to GPU composited layers
 - **2026-04-23T14:08:01+07:00** - [Activity #2992] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-04-23T14:16:00+07:00** - [Activity #2993] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-04-23T14:28:33+07:00** - [Activity #2994] docs(testing): describe manual verification steps for photobooth kiosk
