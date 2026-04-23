@@ -9351,3 +9351,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T14:22:33+07:00** - [Activity #2733] fix(filter): eliminate color banding artifacts on low-bitrate gradients
 - **2026-04-23T14:38:17+07:00** - [Activity #2734] perf(canvas): render WebGL shaders on offscreen canvas worker
 - **2026-04-23T14:49:27+07:00** - [Activity #2735] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-04-23T15:07:10+07:00** - [Activity #2736] refactor(filter): organize color grading matrices into separate configs
