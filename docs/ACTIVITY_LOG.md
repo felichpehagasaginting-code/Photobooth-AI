@@ -3770,3 +3770,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T21:41:54+07:00** - [Activity #3021] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-23T21:52:00+07:00** - [Activity #3022] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-04-23T22:20:43+07:00** - [Activity #3023] style(badge): update status indicator badge colors and glow effects
+- **2026-04-23T22:24:39+07:00** - [Activity #3024] fix(ui): correct modal z-index layering on small mobile viewports
