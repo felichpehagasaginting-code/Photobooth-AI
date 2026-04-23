@@ -9345,3 +9345,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T11:34:44+07:00** - [Activity #2727] docs(api): document endpoint parameters and error codes for seed route
 - **2026-04-23T11:57:59+07:00** - [Activity #2728] refactor(camera): decouple media stream manager into custom hook
 - **2026-04-23T12:14:46+07:00** - [Activity #2729] refactor(camera): decouple media stream manager into custom hook
+- **2026-04-23T13:50:25+07:00** - [Activity #2730] fix(camera): prevent stream freeze during rapid device re-enumeration
