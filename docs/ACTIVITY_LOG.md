@@ -3734,3 +3734,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T11:14:31+07:00** - [Activity #2985] style(button): add subtle hover transition and outline focus style
 - **2026-04-23T11:30:40+07:00** - [Activity #2986] style(shutter): design circular pulsating shutter button with feedback
 - **2026-04-23T11:48:46+07:00** - [Activity #2987] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-04-23T11:54:07+07:00** - [Activity #2988] feat(kiosk): add full-screen lock and inactivity reset timer
