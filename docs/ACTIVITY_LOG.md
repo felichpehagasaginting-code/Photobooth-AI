@@ -9343,3 +9343,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T10:56:02+07:00** - [Activity #2725] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-04-23T11:13:05+07:00** - [Activity #2726] feat(api): implement photo metadata seeding route with validation
 - **2026-04-23T11:34:44+07:00** - [Activity #2727] docs(api): document endpoint parameters and error codes for seed route
+- **2026-04-23T11:57:59+07:00** - [Activity #2728] refactor(camera): decouple media stream manager into custom hook
