@@ -3727,3 +3727,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T09:49:53+07:00** - [Activity #2978] refactor(export): optimize collage rendering algorithm for speed
 - **2026-04-23T09:59:13+07:00** - [Activity #2979] fix(firebase): handle network timeout retry in transaction hook
 - **2026-04-23T10:15:12+07:00** - [Activity #2980] perf(memory): dispose cached image objects after strip generation
+- **2026-04-23T10:31:23+07:00** - [Activity #2981] feat(preset): allow custom framing border selection per session
