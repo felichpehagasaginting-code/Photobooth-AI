@@ -9367,3 +9367,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T19:30:57+07:00** - [Activity #2749] refactor(utils): optimize hex-to-rgb and color transform utilities
 - **2026-04-23T19:46:00+07:00** - [Activity #2750] feat(analytics): dispatch anonymous capture telemetry events
 - **2026-04-23T20:02:06+07:00** - [Activity #2751] fix(api): sanitize query params on photo retrieval endpoint
+- **2026-04-23T20:36:56+07:00** - [Activity #2752] feat(kiosk): add auto-reset countdown timer on idle session
