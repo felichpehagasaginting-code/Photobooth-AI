@@ -9338,3 +9338,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T09:40:06+07:00** - [Activity #2720] chore(deps): update core dependencies to latest stable versions
 - **2026-04-23T09:50:16+07:00** - [Activity #2721] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-04-23T10:13:24+07:00** - [Activity #2722] style(typography): refine letter-spacing and line heights for headings
+- **2026-04-23T10:20:38+07:00** - [Activity #2723] chore(config): adjust tsconfig path aliases for cleaner imports
