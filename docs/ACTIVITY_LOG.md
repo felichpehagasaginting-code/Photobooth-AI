@@ -3744,3 +3744,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T14:47:20+07:00** - [Activity #2995] fix(state): sync active photo index when reopening gallery drawer
 - **2026-04-23T14:59:40+07:00** - [Activity #2996] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-04-23T15:02:51+07:00** - [Activity #2997] refactor(services): separate cloud storage adapter from UI layer
+- **2026-04-23T15:16:03+07:00** - [Activity #2998] docs(arch): add architecture diagram explaining client-side filter flow
