@@ -3723,3 +3723,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-22T22:19:34+07:00** - [Activity #2974] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-04-23T09:00:03+07:00** - [Activity #2975] style(grid): modernize layout overlap for bento-style elements
 - **2026-04-23T09:08:47+07:00** - [Activity #2976] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-04-23T09:25:44+07:00** - [Activity #2977] docs(env): document all required environment variables with defaults
