@@ -9369,3 +9369,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T20:02:06+07:00** - [Activity #2751] fix(api): sanitize query params on photo retrieval endpoint
 - **2026-04-23T20:36:56+07:00** - [Activity #2752] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-04-23T20:46:00+07:00** - [Activity #2753] perf(anim): accelerate countdown transitions with CSS transforms
+- **2026-04-23T21:02:06+07:00** - [Activity #2754] docs(arch): add architecture diagram explaining client-side filter flow
