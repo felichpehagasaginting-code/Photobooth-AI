@@ -3747,3 +3747,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T15:16:03+07:00** - [Activity #2998] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-23T15:22:03+07:00** - [Activity #2999] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-04-23T15:40:46+07:00** - [Activity #3000] refactor(services): separate cloud storage adapter from UI layer
+- **2026-04-23T15:41:10+07:00** - [Activity #3001] feat(print): integrate direct thermal printer web serial interface
