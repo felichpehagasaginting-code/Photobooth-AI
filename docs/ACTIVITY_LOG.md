@@ -3742,3 +3742,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T14:16:00+07:00** - [Activity #2993] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-04-23T14:28:33+07:00** - [Activity #2994] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-04-23T14:47:20+07:00** - [Activity #2995] fix(state): sync active photo index when reopening gallery drawer
+- **2026-04-23T14:59:40+07:00** - [Activity #2996] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
