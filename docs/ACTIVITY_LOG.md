@@ -3767,3 +3767,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T20:58:22+07:00** - [Activity #3018] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-04-23T21:02:46+07:00** - [Activity #3019] refactor(export): optimize collage rendering algorithm for speed
 - **2026-04-23T21:21:04+07:00** - [Activity #3020] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-04-23T21:41:54+07:00** - [Activity #3021] docs(arch): add architecture diagram explaining client-side filter flow
