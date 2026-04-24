@@ -9383,3 +9383,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-24T10:54:12+07:00** - [Activity #2765] feat(filter): add warm monochrome and film grain retro effects
 - **2026-04-24T11:07:23+07:00** - [Activity #2766] fix(ui): adjust button touch target size for touch kiosks
 - **2026-04-24T11:33:50+07:00** - [Activity #2767] fix(state): sync current photo strip selection across modal re-renders
+- **2026-04-24T11:54:40+07:00** - [Activity #2768] feat(filter): implement real-time WebGL LUT matrix transformation
