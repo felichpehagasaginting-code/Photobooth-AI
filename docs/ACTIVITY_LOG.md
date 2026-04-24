@@ -3783,3 +3783,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-24T13:45:53+07:00** - [Activity #3034] test(hooks): add test suite for camera stream lifecycle events
 - **2026-04-24T14:00:18+07:00** - [Activity #3035] feat(audio): add shutter click and countdown sound effects
 - **2026-04-24T14:31:22+07:00** - [Activity #3036] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-04-24T14:53:17+07:00** - [Activity #3037] style(shutter): design circular pulsating shutter button with feedback
