@@ -9374,3 +9374,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-23T21:46:46+07:00** - [Activity #2756] feat(storage): integrate indexedDB caching for local photo session recovery
 - **2026-04-23T21:59:11+07:00** - [Activity #2757] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-04-23T22:22:14+07:00** - [Activity #2758] style(cards): apply subtle border gradient and elevation shadow
+- **2026-04-24T09:07:27+07:00** - [Activity #2759] feat(ui): design responsive photobooth preview grid for kiosk mode
