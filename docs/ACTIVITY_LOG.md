@@ -3787,3 +3787,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-24T15:09:03+07:00** - [Activity #3038] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-04-24T15:30:54+07:00** - [Activity #3039] chore(deps): update core dependencies to latest stable versions
 - **2026-04-24T15:35:25+07:00** - [Activity #3040] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-04-24T16:02:48+07:00** - [Activity #3041] refactor(events): use custom event bus for decoupled component messaging
