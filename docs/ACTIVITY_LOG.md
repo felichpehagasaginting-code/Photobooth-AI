@@ -9396,3 +9396,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-24T15:49:35+07:00** - [Activity #2778] feat(theme): configure dynamic dark mode CSS custom properties
 - **2026-04-24T15:50:49+07:00** - [Activity #2779] feat(export): add multi-frame strip layout builder with dynamic margins
 - **2026-04-24T16:08:48+07:00** - [Activity #2780] refactor(export): optimize canvas blob generation with WebP compression
+- **2026-04-24T16:37:45+07:00** - [Activity #2781] docs(changelog): update version history and release milestones
