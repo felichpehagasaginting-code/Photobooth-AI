@@ -9381,3 +9381,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-24T10:09:07+07:00** - [Activity #2763] style(typography): refine letter-spacing and line heights for headings
 - **2026-04-24T10:29:42+07:00** - [Activity #2764] fix(camera): correct video aspect ratio calculation on widescreen monitors
 - **2026-04-24T10:54:12+07:00** - [Activity #2765] feat(filter): add warm monochrome and film grain retro effects
+- **2026-04-24T11:07:23+07:00** - [Activity #2766] fix(ui): adjust button touch target size for touch kiosks
