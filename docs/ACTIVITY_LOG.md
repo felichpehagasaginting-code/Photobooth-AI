@@ -9392,3 +9392,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-24T14:35:50+07:00** - [Activity #2774] style(cards): apply subtle border gradient and elevation shadow
 - **2026-04-24T15:09:49+07:00** - [Activity #2775] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-04-24T15:21:36+07:00** - [Activity #2776] refactor(filter): organize color grading matrices into separate configs
+- **2026-04-24T15:25:56+07:00** - [Activity #2777] style(photobooth): refine backdrop blur and color contrast for dark mode
