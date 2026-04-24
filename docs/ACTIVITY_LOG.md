@@ -3798,3 +3798,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-24T20:28:35+07:00** - [Activity #3049] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-04-24T20:51:38+07:00** - [Activity #3050] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-04-24T21:26:55+07:00** - [Activity #3051] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-04-24T21:43:00+07:00** - [Activity #3052] feat(ai): integrate edge background removal model
