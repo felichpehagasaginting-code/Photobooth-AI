@@ -3777,3 +3777,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-24T10:02:42+07:00** - [Activity #3028] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-04-24T10:31:41+07:00** - [Activity #3029] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-04-24T10:59:00+07:00** - [Activity #3030] refactor(ui): extract reusable glass-panel and badge components
+- **2026-04-24T11:24:55+07:00** - [Activity #3031] docs(env): document all required environment variables with defaults
