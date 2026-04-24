@@ -9407,3 +9407,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-24T20:13:33+07:00** - [Activity #2789] fix(canvas): avoid pixelation on high-DPI canvas downsampling
 - **2026-04-24T20:32:47+07:00** - [Activity #2790] feat(filter): implement real-time WebGL LUT matrix transformation
 - **2026-04-24T20:53:28+07:00** - [Activity #2791] style(cards): apply subtle border gradient and elevation shadow
+- **2026-04-24T21:10:29+07:00** - [Activity #2792] feat(ui): design responsive photobooth preview grid for kiosk mode
