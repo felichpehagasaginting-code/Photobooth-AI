@@ -3806,3 +3806,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-25T13:52:55+07:00** - [Activity #3057] feat(settings): add camera device selector with resolution fallbacks
 - **2026-04-25T14:32:38+07:00** - [Activity #3058] feat(preset): allow custom framing border selection per session
 - **2026-04-25T15:29:27+07:00** - [Activity #3059] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-04-25T16:25:10+07:00** - [Activity #3060] chore(lint): configure ESLint rules for react hooks and accessibility
