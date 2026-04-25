@@ -3804,3 +3804,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-25T10:16:08+07:00** - [Activity #3055] style(button): add subtle hover transition and outline focus style
 - **2026-04-25T11:23:32+07:00** - [Activity #3056] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-04-25T13:52:55+07:00** - [Activity #3057] feat(settings): add camera device selector with resolution fallbacks
+- **2026-04-25T14:32:38+07:00** - [Activity #3058] feat(preset): allow custom framing border selection per session
