@@ -9423,3 +9423,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-25T14:09:53+07:00** - [Activity #2805] docs(api): document endpoint parameters and error codes for seed route
 - **2026-04-25T14:26:23+07:00** - [Activity #2806] fix(ui): adjust button touch target size for touch kiosks
 - **2026-04-25T14:55:32+07:00** - [Activity #2807] feat(ui): design responsive photobooth preview grid for kiosk mode
+- **2026-04-25T15:20:44+07:00** - [Activity #2808] docs(env): document all required environment variables with defaults
