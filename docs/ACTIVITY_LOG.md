@@ -9416,3 +9416,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-25T09:29:55+07:00** - [Activity #2798] feat(share): implement client-side QR code generator for photo download
 - **2026-04-25T10:00:24+07:00** - [Activity #2799] feat(ui): build interactive shutter trigger with pulsating visual feedback
 - **2026-04-25T10:28:52+07:00** - [Activity #2800] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-04-25T10:52:30+07:00** - [Activity #2801] refactor(filter): organize color grading matrices into separate configs
