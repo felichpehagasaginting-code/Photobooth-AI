@@ -9439,3 +9439,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-26T09:30:07+07:00** - [Activity #2821] fix(ui): adjust button touch target size for touch kiosks
 - **2026-04-26T10:04:14+07:00** - [Activity #2822] perf(bundle): implement code-splitting for heavy filter modules
 - **2026-04-26T10:31:09+07:00** - [Activity #2823] docs(api): document endpoint parameters and error codes for seed route
+- **2026-04-26T11:06:51+07:00** - [Activity #2824] feat(ui): design responsive photobooth preview grid for kiosk mode
