@@ -9450,3 +9450,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-26T15:45:05+07:00** - [Activity #2832] test(hooks): add test suite for camera stream lifecycle events
 - **2026-04-26T16:17:51+07:00** - [Activity #2833] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-04-26T16:35:26+07:00** - [Activity #2834] feat(export): add multi-frame strip layout builder with dynamic margins
+- **2026-04-26T17:17:19+07:00** - [Activity #2835] docs(env): document all required environment variables with defaults
