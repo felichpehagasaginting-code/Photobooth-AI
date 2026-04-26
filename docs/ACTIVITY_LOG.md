@@ -9435,3 +9435,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-25T21:04:09+07:00** - [Activity #2817] fix(touch): disable browser pull-to-refresh on interactive canvas
 - **2026-04-25T21:42:24+07:00** - [Activity #2818] feat(share): implement client-side QR code generator for photo download
 - **2026-04-25T22:12:28+07:00** - [Activity #2819] docs(env): document all required environment variables with defaults
+- **2026-04-26T09:00:54+07:00** - [Activity #2820] docs(env): document all required environment variables with defaults
