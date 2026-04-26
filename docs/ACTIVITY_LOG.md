@@ -9443,3 +9443,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-26T11:32:18+07:00** - [Activity #2825] style(typography): refine letter-spacing and line heights for headings
 - **2026-04-26T11:53:23+07:00** - [Activity #2826] style(button): add subtle hover transition and outline focus style
 - **2026-04-26T13:54:13+07:00** - [Activity #2827] perf(fonts): preload display fonts to avoid flash of unstyled text
+- **2026-04-26T14:11:33+07:00** - [Activity #2828] perf(fonts): preload display fonts to avoid flash of unstyled text
