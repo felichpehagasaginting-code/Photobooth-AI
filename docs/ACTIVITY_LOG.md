@@ -9453,3 +9453,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-26T17:17:19+07:00** - [Activity #2835] docs(env): document all required environment variables with defaults
 - **2026-04-26T17:37:47+07:00** - [Activity #2836] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-04-26T19:30:40+07:00** - [Activity #2837] feat(analytics): dispatch anonymous capture telemetry events
+- **2026-04-26T20:04:38+07:00** - [Activity #2838] perf(images): compress intermediate preview thumbnails asynchronously
