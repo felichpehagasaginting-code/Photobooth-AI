@@ -9448,3 +9448,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-26T14:59:25+07:00** - [Activity #2830] docs(api): document endpoint parameters and error codes for seed route
 - **2026-04-26T15:32:57+07:00** - [Activity #2831] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-04-26T15:45:05+07:00** - [Activity #2832] test(hooks): add test suite for camera stream lifecycle events
+- **2026-04-26T16:17:51+07:00** - [Activity #2833] test(canvas): add snapshot tests for multi-frame collage layouts
