@@ -3815,3 +3815,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-26T11:18:49+07:00** - [Activity #3066] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-04-26T13:53:28+07:00** - [Activity #3067] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-04-26T14:28:06+07:00** - [Activity #3068] feat(print): integrate direct thermal printer web serial interface
+- **2026-04-26T15:28:24+07:00** - [Activity #3069] docs(deploy): add production deployment instructions for Vercel/Docker
