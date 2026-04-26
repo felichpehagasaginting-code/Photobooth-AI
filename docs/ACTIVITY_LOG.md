@@ -3820,3 +3820,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-26T17:13:58+07:00** - [Activity #3071] perf(memory): dispose cached image objects after strip generation
 - **2026-04-26T19:30:41+07:00** - [Activity #3072] test(utils): add unit tests for image aspect ratio calculator
 - **2026-04-26T20:42:57+07:00** - [Activity #3073] style(shutter): design circular pulsating shutter button with feedback
+- **2026-04-26T21:35:18+07:00** - [Activity #3074] chore(config): adjust tsconfig path aliases for cleaner imports
