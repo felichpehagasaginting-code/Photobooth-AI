@@ -3812,3 +3812,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-25T21:14:06+07:00** - [Activity #3063] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-26T09:06:49+07:00** - [Activity #3064] fix(audio): unlock audio context on initial user gesture
 - **2026-04-26T10:14:46+07:00** - [Activity #3065] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-04-26T11:18:49+07:00** - [Activity #3066] fix(filter): fix gamma correction clipping on high brightness scenes
