@@ -3827,3 +3827,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T09:57:47+07:00** - [Activity #3078] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-04-27T10:27:11+07:00** - [Activity #3079] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-04-27T10:51:58+07:00** - [Activity #3080] docs(env): document all required environment variables with defaults
+- **2026-04-27T11:09:02+07:00** - [Activity #3081] refactor(api): modularize backend route handlers and validation utils
