@@ -3822,3 +3822,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-26T20:42:57+07:00** - [Activity #3073] style(shutter): design circular pulsating shutter button with feedback
 - **2026-04-26T21:35:18+07:00** - [Activity #3074] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-04-27T09:05:29+07:00** - [Activity #3075] refactor(events): use custom event bus for decoupled component messaging
+- **2026-04-27T09:16:55+07:00** - [Activity #3076] feat(gallery): add touch swipe navigation for captured photo previews
