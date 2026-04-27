@@ -9462,3 +9462,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T09:16:27+07:00** - [Activity #2844] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-27T09:34:52+07:00** - [Activity #2845] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-27T09:44:14+07:00** - [Activity #2846] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-04-27T10:12:25+07:00** - [Activity #2847] fix(state): sync current photo strip selection across modal re-renders
