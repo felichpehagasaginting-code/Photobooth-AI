@@ -9478,3 +9478,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T14:55:43+07:00** - [Activity #2860] feat(watermark): add customizable branding and event date stamp
 - **2026-04-27T15:16:18+07:00** - [Activity #2861] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-04-27T15:27:15+07:00** - [Activity #2862] feat(export): add multi-frame strip layout builder with dynamic margins
+- **2026-04-27T15:28:01+07:00** - [Activity #2863] perf(canvas): render WebGL shaders on offscreen canvas worker
