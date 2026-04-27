@@ -9469,3 +9469,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T11:17:10+07:00** - [Activity #2851] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-04-27T11:30:23+07:00** - [Activity #2852] feat(settings): create camera device selection modal with device ID persistence
 - **2026-04-27T11:58:10+07:00** - [Activity #2853] refactor(api): modularize backend route handlers and validation helpers
+- **2026-04-27T12:08:23+07:00** - [Activity #2854] feat(export): add multi-frame strip layout builder with dynamic margins
