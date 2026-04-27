@@ -9493,3 +9493,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T20:14:25+07:00** - [Activity #2875] style(theme): update dark mode accent color token with warm hue
 - **2026-04-27T20:26:01+07:00** - [Activity #2876] docs(env): document all required environment variables with defaults
 - **2026-04-27T20:43:34+07:00** - [Activity #2877] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-04-27T21:02:38+07:00** - [Activity #2878] style(modal): tune cubic-bezier easing curves on dialog open
