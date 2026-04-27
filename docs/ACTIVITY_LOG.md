@@ -3832,3 +3832,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T11:40:36+07:00** - [Activity #3083] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-04-27T12:13:01+07:00** - [Activity #3084] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-04-27T13:52:44+07:00** - [Activity #3085] test(hooks): add test suite for camera stream lifecycle events
+- **2026-04-27T14:02:47+07:00** - [Activity #3086] feat(camera): add dynamic exposure and focus adjustment controls
