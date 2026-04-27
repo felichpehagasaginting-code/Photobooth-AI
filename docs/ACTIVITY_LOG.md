@@ -9491,3 +9491,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T19:34:39+07:00** - [Activity #2873] feat(api): implement photo metadata seeding route with validation
 - **2026-04-27T19:52:20+07:00** - [Activity #2874] fix(storage): add graceful error handling when local quota is exceeded
 - **2026-04-27T20:14:25+07:00** - [Activity #2875] style(theme): update dark mode accent color token with warm hue
+- **2026-04-27T20:26:01+07:00** - [Activity #2876] docs(env): document all required environment variables with defaults
