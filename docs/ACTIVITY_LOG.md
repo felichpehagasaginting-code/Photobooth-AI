@@ -3844,3 +3844,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T16:29:33+07:00** - [Activity #3095] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-04-27T16:58:07+07:00** - [Activity #3096] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-04-27T17:07:41+07:00** - [Activity #3097] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-04-27T17:34:15+07:00** - [Activity #3098] refactor(ui): extract reusable glass-panel and badge components
