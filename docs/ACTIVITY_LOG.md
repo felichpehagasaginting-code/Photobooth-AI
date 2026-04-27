@@ -9489,3 +9489,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T17:25:46+07:00** - [Activity #2871] feat(theme): configure dynamic dark mode CSS custom properties
 - **2026-04-27T17:50:19+07:00** - [Activity #2872] feat(analytics): dispatch anonymous capture telemetry events
 - **2026-04-27T19:34:39+07:00** - [Activity #2873] feat(api): implement photo metadata seeding route with validation
+- **2026-04-27T19:52:20+07:00** - [Activity #2874] fix(storage): add graceful error handling when local quota is exceeded
