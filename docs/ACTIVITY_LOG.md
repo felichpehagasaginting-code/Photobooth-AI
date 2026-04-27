@@ -3836,3 +3836,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T14:16:43+07:00** - [Activity #3087] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-04-27T14:42:56+07:00** - [Activity #3088] style(grid): modernize layout overlap for bento-style elements
 - **2026-04-27T14:56:04+07:00** - [Activity #3089] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-04-27T15:17:45+07:00** - [Activity #3090] style(cards): apply subtle border gradient and elevation shadows
