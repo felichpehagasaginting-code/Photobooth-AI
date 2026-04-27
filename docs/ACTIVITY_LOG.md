@@ -9464,3 +9464,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T09:44:14+07:00** - [Activity #2846] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-04-27T10:12:25+07:00** - [Activity #2847] fix(state): sync current photo strip selection across modal re-renders
 - **2026-04-27T10:26:21+07:00** - [Activity #2848] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-04-27T10:40:04+07:00** - [Activity #2849] refactor(types): unify photobooth capture and export type definitions
