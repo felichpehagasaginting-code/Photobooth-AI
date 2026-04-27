@@ -9460,3 +9460,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-26T22:10:24+07:00** - [Activity #2842] fix(filter): eliminate color banding artifacts on low-bitrate gradients
 - **2026-04-27T09:01:16+07:00** - [Activity #2843] fix(timer): ensure countdown timer stops when navigating away
 - **2026-04-27T09:16:27+07:00** - [Activity #2844] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-04-27T09:34:52+07:00** - [Activity #2845] docs(arch): add architecture diagram explaining client-side filter flow
