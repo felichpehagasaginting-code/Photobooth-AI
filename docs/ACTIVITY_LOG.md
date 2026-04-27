@@ -9496,3 +9496,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T21:02:38+07:00** - [Activity #2878] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-04-27T21:25:40+07:00** - [Activity #2879] fix(filter): eliminate color banding artifacts on low-bitrate gradients
 - **2026-04-27T21:40:06+07:00** - [Activity #2880] fix(download): prevent memory leak by revoking object URLs after download
+- **2026-04-27T21:58:51+07:00** - [Activity #2881] fix(filter): eliminate color banding artifacts on low-bitrate gradients
