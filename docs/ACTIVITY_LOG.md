@@ -3842,3 +3842,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T16:07:48+07:00** - [Activity #3093] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-04-27T16:24:37+07:00** - [Activity #3094] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-04-27T16:29:33+07:00** - [Activity #3095] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-04-27T16:58:07+07:00** - [Activity #3096] perf(images): compress intermediate preview thumbnails with WebP format
