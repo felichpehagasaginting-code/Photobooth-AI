@@ -9467,3 +9467,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T10:40:04+07:00** - [Activity #2849] refactor(types): unify photobooth capture and export type definitions
 - **2026-04-27T11:08:30+07:00** - [Activity #2850] test(utils): add unit tests for image aspect ratio calculator
 - **2026-04-27T11:17:10+07:00** - [Activity #2851] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-04-27T11:30:23+07:00** - [Activity #2852] feat(settings): create camera device selection modal with device ID persistence
