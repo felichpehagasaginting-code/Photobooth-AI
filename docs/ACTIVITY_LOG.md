@@ -3847,3 +3847,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T17:34:15+07:00** - [Activity #3098] refactor(ui): extract reusable glass-panel and badge components
 - **2026-04-27T17:49:37+07:00** - [Activity #3099] test(api): add integration test coverage for photo seed endpoint
 - **2026-04-27T19:30:16+07:00** - [Activity #3100] feat(print): integrate direct thermal printer web serial interface
+- **2026-04-27T19:47:40+07:00** - [Activity #3101] style(typography): refine letter-spacing and hierarchy for hero heading
