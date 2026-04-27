@@ -3850,3 +3850,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T19:47:40+07:00** - [Activity #3101] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-04-27T20:16:12+07:00** - [Activity #3102] test(utils): add unit tests for image aspect ratio calculator
 - **2026-04-27T20:39:16+07:00** - [Activity #3103] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-04-27T21:12:50+07:00** - [Activity #3104] feat(settings): add camera device selector with resolution fallbacks
