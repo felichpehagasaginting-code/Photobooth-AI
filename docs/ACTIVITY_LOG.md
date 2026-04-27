@@ -9480,3 +9480,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T15:27:15+07:00** - [Activity #2862] feat(export): add multi-frame strip layout builder with dynamic margins
 - **2026-04-27T15:28:01+07:00** - [Activity #2863] perf(canvas): render WebGL shaders on offscreen canvas worker
 - **2026-04-27T15:43:09+07:00** - [Activity #2864] feat(photobooth): initialize core camera streaming architecture
+- **2026-04-27T16:00:11+07:00** - [Activity #2865] style(typography): refine letter-spacing and line heights for headings
