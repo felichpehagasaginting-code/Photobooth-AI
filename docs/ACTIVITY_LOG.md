@@ -9485,3 +9485,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T16:26:44+07:00** - [Activity #2867] perf(anim): accelerate countdown transitions with CSS transforms
 - **2026-04-27T16:57:46+07:00** - [Activity #2868] feat(audio): integrate synthesized camera shutter click and countdown beeps
 - **2026-04-27T17:10:21+07:00** - [Activity #2869] docs(api): document endpoint parameters and error codes for seed route
+- **2026-04-27T17:24:48+07:00** - [Activity #2870] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
