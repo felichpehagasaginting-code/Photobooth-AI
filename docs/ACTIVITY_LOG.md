@@ -3863,3 +3863,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-28T10:33:40+07:00** - [Activity #3114] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-04-28T10:47:54+07:00** - [Activity #3115] chore(git): add ignore rules for local session exports and temp files
 - **2026-04-28T11:04:38+07:00** - [Activity #3116] docs(changelog): update version history and release milestones
+- **2026-04-28T11:17:59+07:00** - [Activity #3117] style(badge): update status indicator badge colors and glow effects
