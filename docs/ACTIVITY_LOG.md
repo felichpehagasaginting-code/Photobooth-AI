@@ -3894,3 +3894,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-28T19:43:47+07:00** - [Activity #3145] test(api): add integration test coverage for photo seed endpoint
 - **2026-04-28T20:06:50+07:00** - [Activity #3146] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-04-28T20:14:43+07:00** - [Activity #3147] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-04-28T20:30:37+07:00** - [Activity #3148] perf(dom): virtualize gallery list items for smooth 60fps scrolling
