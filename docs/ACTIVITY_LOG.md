@@ -9506,3 +9506,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-28T10:27:16+07:00** - [Activity #2888] fix(qr): optimize QR code foreground-to-background contrast ratio
 - **2026-04-28T10:55:12+07:00** - [Activity #2889] feat(filter): add warm monochrome and film grain retro effects
 - **2026-04-28T11:06:00+07:00** - [Activity #2890] fix(timer): ensure countdown timer stops when navigating away
+- **2026-04-28T11:29:21+07:00** - [Activity #2891] style(photobooth): refine backdrop blur and color contrast for dark mode
