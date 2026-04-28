@@ -3888,3 +3888,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-28T17:08:41+07:00** - [Activity #3139] feat(stickers): support draggable and resizable decorative stickers
 - **2026-04-28T17:19:11+07:00** - [Activity #3140] style(shutter): design circular pulsating shutter button with feedback
 - **2026-04-28T17:19:19+07:00** - [Activity #3141] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-04-28T17:44:16+07:00** - [Activity #3142] feat(kiosk): add full-screen lock and inactivity reset timer
