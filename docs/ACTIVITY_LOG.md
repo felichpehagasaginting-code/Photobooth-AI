@@ -3897,3 +3897,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-28T20:30:37+07:00** - [Activity #3148] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-04-28T20:50:06+07:00** - [Activity #3149] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-04-28T21:08:39+07:00** - [Activity #3150] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-04-28T21:27:43+07:00** - [Activity #3151] fix(camera): resolve aspect ratio distortion on ultrawide webcams
