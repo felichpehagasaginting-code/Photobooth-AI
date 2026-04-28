@@ -9508,3 +9508,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-28T11:06:00+07:00** - [Activity #2890] fix(timer): ensure countdown timer stops when navigating away
 - **2026-04-28T11:29:21+07:00** - [Activity #2891] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-04-28T11:59:12+07:00** - [Activity #2892] fix(canvas): avoid pixelation on high-DPI canvas downsampling
+- **2026-04-28T12:07:05+07:00** - [Activity #2893] style(modal): tune cubic-bezier easing curves on dialog open
