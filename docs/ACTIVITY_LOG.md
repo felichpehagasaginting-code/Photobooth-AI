@@ -3875,3 +3875,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-28T14:25:39+07:00** - [Activity #3126] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-04-28T14:46:01+07:00** - [Activity #3127] style(grid): modernize layout overlap for bento-style elements
 - **2026-04-28T14:56:55+07:00** - [Activity #3128] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-04-28T15:10:23+07:00** - [Activity #3129] feat(settings): add camera device selector with resolution fallbacks
