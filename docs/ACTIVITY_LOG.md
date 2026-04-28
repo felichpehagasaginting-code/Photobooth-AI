@@ -3892,3 +3892,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-28T17:45:46+07:00** - [Activity #3143] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-04-28T19:30:53+07:00** - [Activity #3144] refactor(i18n): restructure localization strings dictionary
 - **2026-04-28T19:43:47+07:00** - [Activity #3145] test(api): add integration test coverage for photo seed endpoint
+- **2026-04-28T20:06:50+07:00** - [Activity #3146] feat(filter): add cyber-neon and grain texture post-processing overlay
