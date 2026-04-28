@@ -3890,3 +3890,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-28T17:19:19+07:00** - [Activity #3141] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-04-28T17:44:16+07:00** - [Activity #3142] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-04-28T17:45:46+07:00** - [Activity #3143] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-04-28T19:30:53+07:00** - [Activity #3144] refactor(i18n): restructure localization strings dictionary
