@@ -3881,3 +3881,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-28T15:39:09+07:00** - [Activity #3132] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-04-28T15:47:44+07:00** - [Activity #3133] fix(audio): unlock audio context on initial user gesture
 - **2026-04-28T16:00:09+07:00** - [Activity #3134] chore(git): add ignore rules for local session exports and temp files
+- **2026-04-28T16:15:51+07:00** - [Activity #3135] feat(filter): add cyber-neon and grain texture post-processing overlay
