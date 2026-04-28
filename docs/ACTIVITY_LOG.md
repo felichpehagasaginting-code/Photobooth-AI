@@ -3854,3 +3854,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-27T21:32:14+07:00** - [Activity #3105] perf(memory): dispose cached image objects after strip generation
 - **2026-04-27T21:53:47+07:00** - [Activity #3106] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-04-27T22:19:41+07:00** - [Activity #3107] style(shutter): design circular pulsating shutter button with feedback
+- **2026-04-28T09:04:19+07:00** - [Activity #3108] perf(fonts): preload display typography to eliminate FOIT delay
