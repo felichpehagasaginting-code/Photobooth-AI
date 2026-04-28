@@ -3869,3 +3869,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-28T12:05:12+07:00** - [Activity #3120] fix(firebase): handle network timeout retry in transaction hook
 - **2026-04-28T12:19:59+07:00** - [Activity #3121] feat(audio): add shutter click and countdown sound effects
 - **2026-04-28T13:45:44+07:00** - [Activity #3122] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-04-28T13:49:32+07:00** - [Activity #3123] fix(canvas): prevent blur artifacts during canvas downsampling
