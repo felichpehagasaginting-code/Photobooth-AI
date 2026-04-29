@@ -3923,3 +3923,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T15:11:38+07:00** - [Activity #3174] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-04-29T15:25:43+07:00** - [Activity #3175] refactor(filter): organize color grading matrices into separate configs
 - **2026-04-29T15:33:52+07:00** - [Activity #3176] refactor(export): optimize collage rendering algorithm for speed
+- **2026-04-29T15:53:36+07:00** - [Activity #3177] style(photobooth): refine backdrop blur and color contrast for dark mode
