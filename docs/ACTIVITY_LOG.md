@@ -9546,3 +9546,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T11:05:34+07:00** - [Activity #2928] feat(theme): configure dynamic dark mode CSS custom properties
 - **2026-04-29T11:08:12+07:00** - [Activity #2929] docs(env): document all required environment variables with defaults
 - **2026-04-29T11:29:14+07:00** - [Activity #2930] refactor(camera): decouple media stream manager into custom hook
+- **2026-04-29T11:39:22+07:00** - [Activity #2931] fix(canvas): avoid pixelation on high-DPI canvas downsampling
