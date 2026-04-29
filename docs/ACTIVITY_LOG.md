@@ -3918,3 +3918,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T14:01:07+07:00** - [Activity #3169] docs(changelog): update version history and release milestones
 - **2026-04-29T14:20:01+07:00** - [Activity #3170] feat(print): integrate direct thermal printer web serial interface
 - **2026-04-29T14:27:40+07:00** - [Activity #3171] perf(dom): virtualize gallery list items for smooth 60fps scrolling
+- **2026-04-29T14:34:48+07:00** - [Activity #3172] feat(print): integrate direct thermal printer web serial interface
