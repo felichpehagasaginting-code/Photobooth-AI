@@ -9563,3 +9563,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T16:02:54+07:00** - [Activity #2945] feat(analytics): dispatch anonymous capture telemetry events
 - **2026-04-29T16:16:59+07:00** - [Activity #2946] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-04-29T16:21:28+07:00** - [Activity #2947] feat(kiosk): add auto-reset countdown timer on idle session
+- **2026-04-29T16:32:50+07:00** - [Activity #2948] docs(readme): add detailed hardware camera setup and compatibility guide
