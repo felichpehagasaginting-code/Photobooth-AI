@@ -9580,3 +9580,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T21:28:58+07:00** - [Activity #2962] fix(touch): disable browser pull-to-refresh on interactive canvas
 - **2026-04-29T21:43:30+07:00** - [Activity #2963] fix(filter): eliminate color banding artifacts on low-bitrate gradients
 - **2026-04-29T21:57:16+07:00** - [Activity #2964] fix(timer): ensure countdown timer stops when navigating away
+- **2026-04-29T22:08:24+07:00** - [Activity #2965] refactor(ui): extract reusable glass-card and action-badge components
