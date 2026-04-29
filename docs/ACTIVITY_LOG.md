@@ -9561,3 +9561,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T15:41:45+07:00** - [Activity #2943] fix(layout): resolve flexbox wrapping issue on 1080p kiosk screens
 - **2026-04-29T15:45:02+07:00** - [Activity #2944] style(modal): tune cubic-bezier easing curves on dialog open
 - **2026-04-29T16:02:54+07:00** - [Activity #2945] feat(analytics): dispatch anonymous capture telemetry events
+- **2026-04-29T16:16:59+07:00** - [Activity #2946] refactor(ui): extract reusable glass-card and action-badge components
