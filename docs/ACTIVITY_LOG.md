@@ -3921,3 +3921,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T14:34:48+07:00** - [Activity #3172] feat(print): integrate direct thermal printer web serial interface
 - **2026-04-29T15:04:35+07:00** - [Activity #3173] style(shutter): design circular pulsating shutter button with feedback
 - **2026-04-29T15:11:38+07:00** - [Activity #3174] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-04-29T15:25:43+07:00** - [Activity #3175] refactor(filter): organize color grading matrices into separate configs
