@@ -3920,3 +3920,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T14:27:40+07:00** - [Activity #3171] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-04-29T14:34:48+07:00** - [Activity #3172] feat(print): integrate direct thermal printer web serial interface
 - **2026-04-29T15:04:35+07:00** - [Activity #3173] style(shutter): design circular pulsating shutter button with feedback
+- **2026-04-29T15:11:38+07:00** - [Activity #3174] fix(accessibility): add missing aria-labels to icon action buttons
