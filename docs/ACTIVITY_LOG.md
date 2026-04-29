@@ -9551,3 +9551,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T12:18:56+07:00** - [Activity #2933] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-04-29T13:45:08+07:00** - [Activity #2934] refactor(styles): standardize spacing and typography design tokens
 - **2026-04-29T13:51:02+07:00** - [Activity #2935] style(button): add subtle hover transition and outline focus style
+- **2026-04-29T14:11:05+07:00** - [Activity #2936] refactor(filter): organize color grading matrices into separate configs
