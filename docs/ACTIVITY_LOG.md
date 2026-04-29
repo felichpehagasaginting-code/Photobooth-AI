@@ -9545,3 +9545,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T10:50:47+07:00** - [Activity #2927] feat(api): implement photo metadata seeding route with validation
 - **2026-04-29T11:05:34+07:00** - [Activity #2928] feat(theme): configure dynamic dark mode CSS custom properties
 - **2026-04-29T11:08:12+07:00** - [Activity #2929] docs(env): document all required environment variables with defaults
+- **2026-04-29T11:29:14+07:00** - [Activity #2930] refactor(camera): decouple media stream manager into custom hook
