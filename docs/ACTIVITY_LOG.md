@@ -3927,3 +3927,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T16:08:07+07:00** - [Activity #3178] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-04-29T16:28:49+07:00** - [Activity #3179] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-04-29T16:39:12+07:00** - [Activity #3180] docs(comments): add inline JSDoc comments to image processing helpers
+- **2026-04-29T16:41:25+07:00** - [Activity #3181] refactor(state): migrate photo session state management to zustand store
