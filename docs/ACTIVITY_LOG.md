@@ -3924,3 +3924,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T15:25:43+07:00** - [Activity #3175] refactor(filter): organize color grading matrices into separate configs
 - **2026-04-29T15:33:52+07:00** - [Activity #3176] refactor(export): optimize collage rendering algorithm for speed
 - **2026-04-29T15:53:36+07:00** - [Activity #3177] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-04-29T16:08:07+07:00** - [Activity #3178] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
