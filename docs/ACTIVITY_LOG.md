@@ -3926,3 +3926,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T15:53:36+07:00** - [Activity #3177] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-04-29T16:08:07+07:00** - [Activity #3178] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-04-29T16:28:49+07:00** - [Activity #3179] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-04-29T16:39:12+07:00** - [Activity #3180] docs(comments): add inline JSDoc comments to image processing helpers
