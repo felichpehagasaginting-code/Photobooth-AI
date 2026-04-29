@@ -3916,3 +3916,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T12:14:32+07:00** - [Activity #3167] feat(preset): allow custom framing border selection per session
 - **2026-04-29T13:45:33+07:00** - [Activity #3168] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-04-29T14:01:07+07:00** - [Activity #3169] docs(changelog): update version history and release milestones
+- **2026-04-29T14:20:01+07:00** - [Activity #3170] feat(print): integrate direct thermal printer web serial interface
