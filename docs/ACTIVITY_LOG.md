@@ -9571,3 +9571,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T17:37:21+07:00** - [Activity #2953] test(utils): add unit tests for image aspect ratio calculator
 - **2026-04-29T17:46:15+07:00** - [Activity #2954] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-04-29T19:30:06+07:00** - [Activity #2955] feat(watermark): add customizable branding and event date stamp
+- **2026-04-29T19:53:51+07:00** - [Activity #2956] docs(changelog): update version history and release milestones
