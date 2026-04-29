@@ -9565,3 +9565,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T16:21:28+07:00** - [Activity #2947] feat(kiosk): add auto-reset countdown timer on idle session
 - **2026-04-29T16:32:50+07:00** - [Activity #2948] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-04-29T16:44:18+07:00** - [Activity #2949] refactor(styles): standardize spacing and typography design tokens
+- **2026-04-29T17:04:11+07:00** - [Activity #2950] refactor(state): structure session state store with zustand
