@@ -3914,3 +3914,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T11:42:54+07:00** - [Activity #3165] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-04-29T11:48:02+07:00** - [Activity #3166] style(grid): modernize layout overlap for bento-style elements
 - **2026-04-29T12:14:32+07:00** - [Activity #3167] feat(preset): allow custom framing border selection per session
+- **2026-04-29T13:45:33+07:00** - [Activity #3168] fix(download): resolve blob URL memory leak on repeated downloads
