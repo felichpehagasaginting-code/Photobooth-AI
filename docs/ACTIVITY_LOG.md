@@ -3939,3 +3939,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T20:55:03+07:00** - [Activity #3190] fix(auth): prevent race condition when initializing anonymous session
 - **2026-04-29T21:10:47+07:00** - [Activity #3191] feat(cloud): async upload queue for batch photo backup
 - **2026-04-29T21:25:37+07:00** - [Activity #3192] chore(deps): update core dependencies to latest stable versions
+- **2026-04-29T21:44:38+07:00** - [Activity #3193] perf(images): compress intermediate preview thumbnails with WebP format
