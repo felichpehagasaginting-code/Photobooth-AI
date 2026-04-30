@@ -9605,3 +9605,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-30T15:19:28+07:00** - [Activity #2987] chore(deps): update core dependencies to latest stable versions
 - **2026-04-30T15:38:56+07:00** - [Activity #2988] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-04-30T15:40:57+07:00** - [Activity #2989] test(hooks): add test suite for camera stream lifecycle events
+- **2026-04-30T16:08:21+07:00** - [Activity #2990] refactor(api): modularize backend route handlers and validation helpers
