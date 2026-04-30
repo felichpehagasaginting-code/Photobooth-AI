@@ -9613,3 +9613,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-30T17:05:18+07:00** - [Activity #2995] feat(settings): create camera device selection modal with device ID persistence
 - **2026-04-30T17:15:42+07:00** - [Activity #2996] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-04-30T17:23:28+07:00** - [Activity #2997] feat(ui): build interactive shutter trigger with pulsating visual feedback
+- **2026-04-30T17:52:00+07:00** - [Activity #2998] fix(filter): eliminate color banding artifacts on low-bitrate gradients
