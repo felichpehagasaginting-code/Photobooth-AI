@@ -9610,3 +9610,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-30T16:27:28+07:00** - [Activity #2992] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-04-30T16:34:22+07:00** - [Activity #2993] perf(fonts): preload display fonts to avoid flash of unstyled text
 - **2026-04-30T16:44:52+07:00** - [Activity #2994] refactor(utils): optimize hex-to-rgb and color transform utilities
+- **2026-04-30T17:05:18+07:00** - [Activity #2995] feat(settings): create camera device selection modal with device ID persistence
