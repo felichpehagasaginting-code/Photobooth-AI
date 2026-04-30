@@ -9594,3 +9594,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-30T11:21:30+07:00** - [Activity #2976] refactor(filter): organize color grading matrices into separate configs
 - **2026-04-30T11:40:12+07:00** - [Activity #2977] perf(images): compress intermediate preview thumbnails asynchronously
 - **2026-04-30T11:52:42+07:00** - [Activity #2978] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-04-30T12:06:39+07:00** - [Activity #2979] style(photobooth): refine backdrop blur and color contrast for dark mode
