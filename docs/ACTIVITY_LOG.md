@@ -3950,3 +3950,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-30T10:47:45+07:00** - [Activity #3201] refactor(services): separate cloud storage adapter from UI layer
 - **2026-04-30T11:13:26+07:00** - [Activity #3202] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-04-30T11:26:54+07:00** - [Activity #3203] docs(changelog): update version history and release milestones
+- **2026-04-30T11:48:18+07:00** - [Activity #3204] feat(stickers): support draggable and resizable decorative stickers
