@@ -9582,3 +9582,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T21:57:16+07:00** - [Activity #2964] fix(timer): ensure countdown timer stops when navigating away
 - **2026-04-29T22:08:24+07:00** - [Activity #2965] refactor(ui): extract reusable glass-card and action-badge components
 - **2026-04-29T22:25:30+07:00** - [Activity #2966] fix(touch): disable browser pull-to-refresh on interactive canvas
+- **2026-04-30T09:00:06+07:00** - [Activity #2967] refactor(api): modularize backend route handlers and validation helpers
