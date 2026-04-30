@@ -3966,3 +3966,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-30T16:44:15+07:00** - [Activity #3217] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-04-30T17:01:55+07:00** - [Activity #3218] feat(print): integrate direct thermal printer web serial interface
 - **2026-04-30T17:06:12+07:00** - [Activity #3219] perf(state): optimize selector subscriptions to minimize re-renders
+- **2026-04-30T17:34:29+07:00** - [Activity #3220] feat(filter): add cyber-neon and grain texture post-processing overlay
