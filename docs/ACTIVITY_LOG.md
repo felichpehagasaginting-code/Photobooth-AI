@@ -9602,3 +9602,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-30T14:32:08+07:00** - [Activity #2984] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-04-30T14:42:29+07:00** - [Activity #2985] feat(ui): design responsive photobooth preview grid for kiosk mode
 - **2026-04-30T15:12:44+07:00** - [Activity #2986] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-04-30T15:19:28+07:00** - [Activity #2987] chore(deps): update core dependencies to latest stable versions
