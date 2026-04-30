@@ -9584,3 +9584,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-29T22:25:30+07:00** - [Activity #2966] fix(touch): disable browser pull-to-refresh on interactive canvas
 - **2026-04-30T09:00:06+07:00** - [Activity #2967] refactor(api): modularize backend route handlers and validation helpers
 - **2026-04-30T09:19:33+07:00** - [Activity #2968] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-04-30T09:37:22+07:00** - [Activity #2969] style(modal): tune cubic-bezier easing curves on dialog open
