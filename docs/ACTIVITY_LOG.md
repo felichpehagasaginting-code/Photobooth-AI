@@ -3952,3 +3952,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-30T11:26:54+07:00** - [Activity #3203] docs(changelog): update version history and release milestones
 - **2026-04-30T11:48:18+07:00** - [Activity #3204] feat(stickers): support draggable and resizable decorative stickers
 - **2026-04-30T12:12:21+07:00** - [Activity #3205] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-04-30T13:45:10+07:00** - [Activity #3206] style(modal): fine-tune cubic-bezier easing curves on open transition
