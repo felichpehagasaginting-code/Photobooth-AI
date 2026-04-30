@@ -9608,3 +9608,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-30T16:08:21+07:00** - [Activity #2990] refactor(api): modularize backend route handlers and validation helpers
 - **2026-04-30T16:11:42+07:00** - [Activity #2991] perf(memory): explicitly clear canvas contexts after strip rendering
 - **2026-04-30T16:27:28+07:00** - [Activity #2992] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-04-30T16:34:22+07:00** - [Activity #2993] perf(fonts): preload display fonts to avoid flash of unstyled text
