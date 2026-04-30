@@ -9596,3 +9596,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-30T11:52:42+07:00** - [Activity #2978] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-04-30T12:06:39+07:00** - [Activity #2979] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-04-30T13:45:15+07:00** - [Activity #2980] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-04-30T13:51:05+07:00** - [Activity #2981] feat(ui): build interactive shutter trigger with pulsating visual feedback
