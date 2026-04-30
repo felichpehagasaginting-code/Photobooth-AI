@@ -3969,3 +3969,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-30T17:34:29+07:00** - [Activity #3220] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-04-30T17:40:33+07:00** - [Activity #3221] docs(env): document all required environment variables with defaults
 - **2026-04-30T19:32:44+07:00** - [Activity #3222] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-04-30T19:52:54+07:00** - [Activity #3223] chore(config): adjust tsconfig path aliases for cleaner imports
