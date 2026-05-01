@@ -9652,3 +9652,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T16:35:20+07:00** - [Activity #5025] fix(auth): prevent race condition when initializing anonymous session
 - **2026-05-01T17:05:51+07:00** - [Activity #5026] docs(changelog): update version history and release milestones
 - **2026-05-01T17:11:55+07:00** - [Activity #5027] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-05-01T17:24:33+07:00** - [Activity #5028] feat(preview): render live filter preview using WebGL shader canvas
