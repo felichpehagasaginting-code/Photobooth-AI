@@ -9639,3 +9639,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T12:14:43+07:00** - [Activity #5012] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-05-01T13:45:22+07:00** - [Activity #5013] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-01T14:01:16+07:00** - [Activity #5014] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-05-01T14:11:36+07:00** - [Activity #5015] fix(accessibility): add missing aria-labels to icon action buttons
