@@ -4000,3 +4000,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T16:34:22+07:00** - [Activity #3251] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-05-01T16:53:32+07:00** - [Activity #3252] style(cards): apply subtle border gradient and elevation shadows
 - **2026-05-01T17:00:04+07:00** - [Activity #3253] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-05-01T17:18:11+07:00** - [Activity #3254] refactor(cleanup): remove deprecated legacy camera capture methods
