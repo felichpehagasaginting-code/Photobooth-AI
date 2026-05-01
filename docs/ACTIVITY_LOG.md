@@ -9634,3 +9634,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T10:39:33+07:00** - [Activity #5007] feat(watermark): customizable event logo watermark overlay
 - **2026-05-01T11:06:08+07:00** - [Activity #5008] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-01T11:14:28+07:00** - [Activity #5009] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-05-01T11:30:47+07:00** - [Activity #5010] refactor(styles): migrate hardcoded color values to CSS design tokens
