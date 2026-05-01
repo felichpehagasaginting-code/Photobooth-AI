@@ -3977,3 +3977,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-30T21:41:21+07:00** - [Activity #3228] feat(stickers): support draggable and resizable decorative stickers
 - **2026-04-30T21:57:12+07:00** - [Activity #3229] test(api): add integration test coverage for photo seed endpoint
 - **2026-04-30T22:30:11+07:00** - [Activity #3230] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-05-01T09:00:38+07:00** - [Activity #3231] docs(api): document endpoint parameters and error codes for seed route
