@@ -3981,3 +3981,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T09:23:45+07:00** - [Activity #3232] test(api): add integration test coverage for photo seed endpoint
 - **2026-05-01T09:43:46+07:00** - [Activity #3233] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-05-01T10:04:59+07:00** - [Activity #3234] refactor(ui): extract reusable glass-panel and badge components
+- **2026-05-01T10:30:44+07:00** - [Activity #3235] feat(preset): allow custom framing border selection per session
