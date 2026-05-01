@@ -9626,3 +9626,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-04-30T22:10:18+07:00** - [Activity #3008] feat(storage): integrate indexedDB caching for local photo session recovery
 - **2026-04-30T22:25:04+07:00** - [Activity #3009] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-05-01T09:05:12+07:00** - [Activity #5001] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-05-01T09:16:07+07:00** - [Activity #5002] fix(download): resolve blob URL memory leak on repeated downloads
