@@ -3987,3 +3987,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T11:20:16+07:00** - [Activity #3238] feat(audio): add shutter click and countdown sound effects
 - **2026-05-01T11:41:48+07:00** - [Activity #3239] chore(build): optimize Vite build chunks and asset minification settings
 - **2026-05-01T12:05:01+07:00** - [Activity #3240] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-05-01T13:47:27+07:00** - [Activity #3241] feat(camera): add dynamic exposure and focus adjustment controls
