@@ -3997,3 +3997,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T15:42:55+07:00** - [Activity #3248] refactor(camera): extract media stream hook into standalone module
 - **2026-05-01T16:01:37+07:00** - [Activity #3249] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-01T16:22:44+07:00** - [Activity #3250] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-05-01T16:34:22+07:00** - [Activity #3251] perf(images): compress intermediate preview thumbnails with WebP format
