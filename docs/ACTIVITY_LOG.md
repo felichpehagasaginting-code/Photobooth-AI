@@ -3995,3 +3995,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T15:11:20+07:00** - [Activity #3246] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-01T15:30:21+07:00** - [Activity #3247] feat(watermark): customizable event logo watermark overlay
 - **2026-05-01T15:42:55+07:00** - [Activity #3248] refactor(camera): extract media stream hook into standalone module
+- **2026-05-01T16:01:37+07:00** - [Activity #3249] feat(kiosk): add full-screen lock and inactivity reset timer
