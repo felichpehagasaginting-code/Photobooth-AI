@@ -9628,3 +9628,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T09:05:12+07:00** - [Activity #5001] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-05-01T09:16:07+07:00** - [Activity #5002] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-05-01T09:42:54+07:00** - [Activity #5003] perf(anim): offload countdown animations to GPU composited layers
+- **2026-05-01T09:56:43+07:00** - [Activity #5004] fix(timer): clear interval on component unmount to prevent memory leak
