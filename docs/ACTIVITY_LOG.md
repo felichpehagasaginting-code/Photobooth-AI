@@ -9654,3 +9654,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T17:11:55+07:00** - [Activity #5027] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-05-01T17:24:33+07:00** - [Activity #5028] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-05-01T17:38:50+07:00** - [Activity #5029] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-05-01T19:30:08+07:00** - [Activity #5030] feat(watermark): customizable event logo watermark overlay
