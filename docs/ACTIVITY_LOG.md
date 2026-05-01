@@ -9632,3 +9632,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T10:05:30+07:00** - [Activity #5005] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-05-01T10:28:06+07:00** - [Activity #5006] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-01T10:39:33+07:00** - [Activity #5007] feat(watermark): customizable event logo watermark overlay
+- **2026-05-01T11:06:08+07:00** - [Activity #5008] perf(fonts): preload display typography to eliminate FOIT delay
