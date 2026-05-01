@@ -9660,3 +9660,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T20:28:22+07:00** - [Activity #5033] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-05-01T20:41:54+07:00** - [Activity #5034] refactor(state): migrate photo session state management to zustand store
 - **2026-05-01T21:02:02+07:00** - [Activity #5035] perf(images): compress intermediate preview thumbnails with WebP format
+- **2026-05-01T21:21:28+07:00** - [Activity #5036] feat(audio): add shutter click and countdown sound effects
