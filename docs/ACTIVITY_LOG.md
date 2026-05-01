@@ -9645,3 +9645,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T15:02:15+07:00** - [Activity #5018] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-05-01T15:22:30+07:00** - [Activity #5019] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-01T15:37:38+07:00** - [Activity #5020] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-05-01T15:47:23+07:00** - [Activity #5021] fix(download): resolve blob URL memory leak on repeated downloads
