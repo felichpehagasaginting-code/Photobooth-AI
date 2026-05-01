@@ -4003,3 +4003,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T17:18:11+07:00** - [Activity #3254] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-05-01T17:47:01+07:00** - [Activity #3255] feat(stickers): support draggable and resizable decorative stickers
 - **2026-05-01T19:34:11+07:00** - [Activity #3256] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-05-01T19:49:43+07:00** - [Activity #3257] fix(camera): prevent stream freeze on rapid device re-plug
