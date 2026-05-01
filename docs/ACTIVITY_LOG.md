@@ -9641,3 +9641,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T14:01:16+07:00** - [Activity #5014] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-05-01T14:11:36+07:00** - [Activity #5015] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-05-01T14:30:48+07:00** - [Activity #5016] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-05-01T14:49:03+07:00** - [Activity #5017] fix(camera): resolve aspect ratio distortion on ultrawide webcams
