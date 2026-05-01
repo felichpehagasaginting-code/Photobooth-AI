@@ -9663,3 +9663,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T21:21:28+07:00** - [Activity #5036] feat(audio): add shutter click and countdown sound effects
 - **2026-05-01T21:40:06+07:00** - [Activity #5037] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-05-01T22:09:45+07:00** - [Activity #5038] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-01T22:20:32+07:00** - [Activity #5039] perf(anim): offload countdown animations to GPU composited layers
