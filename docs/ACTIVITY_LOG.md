@@ -9644,3 +9644,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T14:49:03+07:00** - [Activity #5017] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-05-01T15:02:15+07:00** - [Activity #5018] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-05-01T15:22:30+07:00** - [Activity #5019] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-05-01T15:37:38+07:00** - [Activity #5020] feat(export): support high-resolution PNG and PDF print strip layout
