@@ -9662,3 +9662,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T21:02:02+07:00** - [Activity #5035] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-05-01T21:21:28+07:00** - [Activity #5036] feat(audio): add shutter click and countdown sound effects
 - **2026-05-01T21:40:06+07:00** - [Activity #5037] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-05-01T22:09:45+07:00** - [Activity #5038] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
