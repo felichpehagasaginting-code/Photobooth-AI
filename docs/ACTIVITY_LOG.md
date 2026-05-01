@@ -9647,3 +9647,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-01T15:37:38+07:00** - [Activity #5020] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-05-01T15:47:23+07:00** - [Activity #5021] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-05-01T15:59:56+07:00** - [Activity #5022] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-05-01T16:20:42+07:00** - [Activity #5023] docs(deploy): add production deployment instructions for Vercel/Docker
