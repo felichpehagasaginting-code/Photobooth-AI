@@ -9669,3 +9669,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-02T10:51:22+07:00** - [Activity #5042] feat(preset): allow custom framing border selection per session
 - **2026-05-02T11:44:31+07:00** - [Activity #5043] feat(audio): add shutter click and countdown sound effects
 - **2026-05-02T13:48:08+07:00** - [Activity #5044] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-05-02T14:22:16+07:00** - [Activity #5045] chore(config): adjust tsconfig path aliases for cleaner imports
