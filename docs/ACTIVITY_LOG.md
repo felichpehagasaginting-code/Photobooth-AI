@@ -9667,3 +9667,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-02T09:00:27+07:00** - [Activity #5040] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-05-02T09:56:13+07:00** - [Activity #5041] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-05-02T10:51:22+07:00** - [Activity #5042] feat(preset): allow custom framing border selection per session
+- **2026-05-02T11:44:31+07:00** - [Activity #5043] feat(audio): add shutter click and countdown sound effects
