@@ -4022,3 +4022,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-02T17:07:01+07:00** - [Activity #3273] feat(watermark): customizable event logo watermark overlay
 - **2026-05-02T19:33:02+07:00** - [Activity #3274] feat(share): generate instant QR code for mobile photo download
 - **2026-05-02T20:15:42+07:00** - [Activity #3275] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-05-02T21:00:15+07:00** - [Activity #3276] style(shutter): design circular pulsating shutter button with feedback
