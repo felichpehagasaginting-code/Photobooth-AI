@@ -4014,3 +4014,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-02T09:58:59+07:00** - [Activity #3265] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-05-02T10:51:03+07:00** - [Activity #3266] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-02T11:30:17+07:00** - [Activity #3267] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-05-02T13:45:52+07:00** - [Activity #3268] feat(preview): render live filter preview using WebGL shader canvas
