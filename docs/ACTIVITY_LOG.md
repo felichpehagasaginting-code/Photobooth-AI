@@ -4039,3 +4039,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-03T16:42:14+07:00** - [Activity #3290] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-05-03T16:56:12+07:00** - [Activity #3291] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-03T17:25:52+07:00** - [Activity #3292] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-05-03T19:30:18+07:00** - [Activity #3293] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
