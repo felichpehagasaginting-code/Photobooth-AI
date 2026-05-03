@@ -9695,3 +9695,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-03T17:20:15+07:00** - [Activity #5068] chore(deps): update core dependencies to latest stable versions
 - **2026-05-03T19:30:57+07:00** - [Activity #5069] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-05-03T20:15:35+07:00** - [Activity #5070] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-05-03T20:47:34+07:00** - [Activity #5071] docs(readme): add detailed hardware camera setup and compatibility guide
