@@ -4041,3 +4041,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-03T17:25:52+07:00** - [Activity #3292] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-05-03T19:30:18+07:00** - [Activity #3293] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-03T20:04:19+07:00** - [Activity #3294] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-05-03T20:44:31+07:00** - [Activity #3295] feat(gallery): add touch swipe navigation for captured photo previews
