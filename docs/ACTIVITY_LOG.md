@@ -9689,3 +9689,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-03T14:18:47+07:00** - [Activity #5062] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-03T14:56:14+07:00** - [Activity #5063] style(cards): apply subtle border gradient and elevation shadows
 - **2026-05-03T15:12:06+07:00** - [Activity #5064] feat(preset): allow custom framing border selection per session
+- **2026-05-03T15:57:49+07:00** - [Activity #5065] test(hooks): add test suite for camera stream lifecycle events
