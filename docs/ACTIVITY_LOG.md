@@ -4027,3 +4027,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-03T09:00:05+07:00** - [Activity #3278] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-05-03T09:42:52+07:00** - [Activity #3279] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-05-03T10:11:16+07:00** - [Activity #3280] refactor(ui): extract reusable glass-panel and badge components
+- **2026-05-03T10:44:34+07:00** - [Activity #3281] refactor(api): modularize backend route handlers and validation utils
