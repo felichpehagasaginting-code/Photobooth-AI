@@ -9685,3 +9685,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-03T10:41:42+07:00** - [Activity #5058] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-03T11:13:56+07:00** - [Activity #5059] perf(memory): dispose cached image objects after strip generation
 - **2026-05-03T12:00:19+07:00** - [Activity #5060] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-05-03T13:48:45+07:00** - [Activity #5061] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
