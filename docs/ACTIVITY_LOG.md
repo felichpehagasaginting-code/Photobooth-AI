@@ -9681,3 +9681,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-02T21:57:45+07:00** - [Activity #5054] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-05-03T09:00:02+07:00** - [Activity #5055] style(button): add subtle hover transition and outline focus style
 - **2026-05-03T09:28:52+07:00** - [Activity #5056] perf(memory): dispose cached image objects after strip generation
+- **2026-05-03T10:15:58+07:00** - [Activity #5057] chore(config): adjust tsconfig path aliases for cleaner imports
