@@ -4031,3 +4031,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-03T11:20:50+07:00** - [Activity #3282] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-05-03T12:02:49+07:00** - [Activity #3283] feat(cloud): async upload queue for batch photo backup
 - **2026-05-03T13:45:55+07:00** - [Activity #3284] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-05-03T14:10:22+07:00** - [Activity #3285] refactor(cleanup): remove deprecated legacy camera capture methods
