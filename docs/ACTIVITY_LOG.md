@@ -4037,3 +4037,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-03T15:37:30+07:00** - [Activity #3288] refactor(api): modularize backend route handlers and validation utils
 - **2026-05-03T16:12:03+07:00** - [Activity #3289] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-05-03T16:42:14+07:00** - [Activity #3290] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-05-03T16:56:12+07:00** - [Activity #3291] docs(readme): add detailed hardware camera setup and compatibility guide
