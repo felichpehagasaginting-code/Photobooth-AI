@@ -4057,3 +4057,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T13:52:15+07:00** - [Activity #3308] perf(memory): dispose cached image objects after strip generation
 - **2026-05-04T14:08:26+07:00** - [Activity #3309] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-05-04T14:15:18+07:00** - [Activity #3310] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-05-04T14:27:27+07:00** - [Activity #3311] refactor(filter): organize color grading matrices into separate configs
