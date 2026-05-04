@@ -4063,3 +4063,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T15:27:54+07:00** - [Activity #3314] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-05-04T15:43:51+07:00** - [Activity #3315] feat(cloud): async upload queue for batch photo backup
 - **2026-05-04T15:57:41+07:00** - [Activity #3316] perf(state): optimize selector subscriptions to minimize re-renders
+- **2026-05-04T16:07:36+07:00** - [Activity #3317] test(canvas): add snapshot tests for multi-frame collage layouts
