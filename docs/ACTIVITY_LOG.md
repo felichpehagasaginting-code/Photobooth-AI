@@ -4053,3 +4053,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T11:10:23+07:00** - [Activity #3304] refactor(export): optimize collage rendering algorithm for speed
 - **2026-05-04T11:28:06+07:00** - [Activity #3305] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-05-04T11:40:12+07:00** - [Activity #3306] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-05-04T12:13:31+07:00** - [Activity #3307] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
