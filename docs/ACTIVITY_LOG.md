@@ -9714,3 +9714,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T14:14:54+07:00** - [Activity #5087] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-04T14:20:47+07:00** - [Activity #5088] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-05-04T14:47:00+07:00** - [Activity #5089] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-05-04T14:58:01+07:00** - [Activity #5090] docs(env): document all required environment variables with defaults
