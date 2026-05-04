@@ -4075,3 +4075,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T20:14:50+07:00** - [Activity #3326] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-04T20:35:02+07:00** - [Activity #3327] fix(api): validate payload schema before processing seed request
 - **2026-05-04T21:10:04+07:00** - [Activity #3328] feat(cloud): async upload queue for batch photo backup
+- **2026-05-04T21:31:39+07:00** - [Activity #3329] chore(lint): configure ESLint rules for react hooks and accessibility
