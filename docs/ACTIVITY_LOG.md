@@ -9709,3 +9709,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T11:32:01+07:00** - [Activity #5082] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-05-04T11:47:17+07:00** - [Activity #5083] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-05-04T12:14:13+07:00** - [Activity #5084] refactor(filter): organize color grading matrices into separate configs
+- **2026-05-04T13:47:30+07:00** - [Activity #5085] perf(anim): offload countdown animations to GPU composited layers
