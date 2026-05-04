@@ -9712,3 +9712,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T13:47:30+07:00** - [Activity #5085] perf(anim): offload countdown animations to GPU composited layers
 - **2026-05-04T14:03:30+07:00** - [Activity #5086] docs(changelog): update version history and release milestones
 - **2026-05-04T14:14:54+07:00** - [Activity #5087] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-04T14:20:47+07:00** - [Activity #5088] fix(hydration): resolve client-server timestamp mismatch in activity log
