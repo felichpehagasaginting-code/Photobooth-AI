@@ -9711,3 +9711,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T12:14:13+07:00** - [Activity #5084] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-04T13:47:30+07:00** - [Activity #5085] perf(anim): offload countdown animations to GPU composited layers
 - **2026-05-04T14:03:30+07:00** - [Activity #5086] docs(changelog): update version history and release milestones
+- **2026-05-04T14:14:54+07:00** - [Activity #5087] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
