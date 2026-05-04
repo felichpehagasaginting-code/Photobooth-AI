@@ -9732,3 +9732,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T20:34:00+07:00** - [Activity #5105] fix(api): validate payload schema before processing seed request
 - **2026-05-04T20:51:39+07:00** - [Activity #5106] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-05-04T21:08:49+07:00** - [Activity #5107] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-05-04T21:20:50+07:00** - [Activity #5108] feat(export): support high-resolution PNG and PDF print strip layout
