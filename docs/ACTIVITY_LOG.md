@@ -4046,3 +4046,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-03T22:04:46+07:00** - [Activity #3297] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-05-04T09:00:09+07:00** - [Activity #3298] refactor(camera): extract media stream hook into standalone module
 - **2026-05-04T09:21:48+07:00** - [Activity #3299] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-05-04T09:37:26+07:00** - [Activity #3300] fix(export): handle canvas taint error when loading external assets
