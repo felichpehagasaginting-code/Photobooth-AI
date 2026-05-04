@@ -9719,3 +9719,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T15:22:17+07:00** - [Activity #5092] refactor(camera): extract media stream hook into standalone module
 - **2026-05-04T15:43:03+07:00** - [Activity #5093] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-04T15:51:25+07:00** - [Activity #5094] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-05-04T16:10:32+07:00** - [Activity #5095] feat(kiosk): add full-screen lock and inactivity reset timer
