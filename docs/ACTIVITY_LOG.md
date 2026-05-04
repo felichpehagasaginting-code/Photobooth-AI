@@ -9707,3 +9707,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T11:02:52+07:00** - [Activity #5080] fix(audio): unlock audio context on initial user gesture
 - **2026-05-04T11:20:01+07:00** - [Activity #5081] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-04T11:32:01+07:00** - [Activity #5082] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-05-04T11:47:17+07:00** - [Activity #5083] feat(preview): render live filter preview using WebGL shader canvas
