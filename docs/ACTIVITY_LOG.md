@@ -4071,3 +4071,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T17:18:33+07:00** - [Activity #3322] feat(audio): add shutter click and countdown sound effects
 - **2026-05-04T17:42:14+07:00** - [Activity #3323] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-05-04T19:32:49+07:00** - [Activity #3324] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-05-04T19:49:59+07:00** - [Activity #3325] chore(lint): configure ESLint rules for react hooks and accessibility
