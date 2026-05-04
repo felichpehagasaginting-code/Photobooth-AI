@@ -9721,3 +9721,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T15:51:25+07:00** - [Activity #5094] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-05-04T16:10:32+07:00** - [Activity #5095] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-04T16:20:48+07:00** - [Activity #5096] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-04T16:45:31+07:00** - [Activity #5097] feat(camera): add dynamic exposure and focus adjustment controls
