@@ -9723,3 +9723,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T16:20:48+07:00** - [Activity #5096] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-04T16:45:31+07:00** - [Activity #5097] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-05-04T17:01:49+07:00** - [Activity #5098] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-05-04T17:15:21+07:00** - [Activity #5099] feat(preset): allow custom framing border selection per session
