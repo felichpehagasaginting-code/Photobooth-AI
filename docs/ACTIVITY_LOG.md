@@ -9735,3 +9735,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T21:20:50+07:00** - [Activity #5108] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-05-04T21:40:00+07:00** - [Activity #5109] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-04T22:09:54+07:00** - [Activity #5110] feat(preset): allow custom framing border selection per session
+- **2026-05-04T22:26:01+07:00** - [Activity #5111] fix(storage): add fallback for local storage quota exceeded errors
