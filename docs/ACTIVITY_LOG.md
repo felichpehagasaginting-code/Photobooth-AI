@@ -4102,3 +4102,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T15:12:22+07:00** - [Activity #3353] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-05T15:25:59+07:00** - [Activity #3354] docs(env): document all required environment variables with defaults
 - **2026-05-05T15:35:09+07:00** - [Activity #3355] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-05-05T15:47:01+07:00** - [Activity #3356] perf(images): compress intermediate preview thumbnails with WebP format
