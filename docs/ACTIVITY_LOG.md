@@ -4078,3 +4078,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-04T21:31:39+07:00** - [Activity #3329] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-05-04T21:57:07+07:00** - [Activity #3330] fix(export): handle canvas taint error when loading external assets
 - **2026-05-04T22:13:29+07:00** - [Activity #3331] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-05-05T09:00:09+07:00** - [Activity #3332] feat(print): integrate direct thermal printer web serial interface
