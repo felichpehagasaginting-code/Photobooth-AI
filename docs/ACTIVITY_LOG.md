@@ -4097,3 +4097,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T14:07:50+07:00** - [Activity #3348] feat(ai): integrate edge background removal model
 - **2026-05-05T14:25:02+07:00** - [Activity #3349] perf(memory): dispose cached image objects after strip generation
 - **2026-05-05T14:38:47+07:00** - [Activity #3350] perf(anim): offload countdown animations to GPU composited layers
+- **2026-05-05T14:53:43+07:00** - [Activity #3351] refactor(camera): extract media stream hook into standalone module
