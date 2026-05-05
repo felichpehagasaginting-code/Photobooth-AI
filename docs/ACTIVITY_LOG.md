@@ -4095,3 +4095,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T13:45:50+07:00** - [Activity #3346] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-05-05T14:03:26+07:00** - [Activity #3347] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-05T14:07:50+07:00** - [Activity #3348] feat(ai): integrate edge background removal model
+- **2026-05-05T14:25:02+07:00** - [Activity #3349] perf(memory): dispose cached image objects after strip generation
