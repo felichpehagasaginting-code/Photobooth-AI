@@ -4108,3 +4108,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T16:37:16+07:00** - [Activity #3359] fix(api): validate payload schema before processing seed request
 - **2026-05-05T16:41:52+07:00** - [Activity #3360] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-05T16:51:19+07:00** - [Activity #3361] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-05-05T17:12:11+07:00** - [Activity #3362] refactor(camera): extract media stream hook into standalone module
