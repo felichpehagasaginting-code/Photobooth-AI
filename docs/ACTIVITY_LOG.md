@@ -4117,3 +4117,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T20:06:57+07:00** - [Activity #3368] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-05T20:22:29+07:00** - [Activity #3369] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-05-05T20:34:42+07:00** - [Activity #3370] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-05-05T20:43:35+07:00** - [Activity #3371] chore(lint): configure ESLint rules for react hooks and accessibility
