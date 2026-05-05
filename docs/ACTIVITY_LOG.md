@@ -4110,3 +4110,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T16:51:19+07:00** - [Activity #3361] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-05-05T17:12:11+07:00** - [Activity #3362] refactor(camera): extract media stream hook into standalone module
 - **2026-05-05T17:13:49+07:00** - [Activity #3363] refactor(camera): extract media stream hook into standalone module
+- **2026-05-05T17:35:29+07:00** - [Activity #3364] refactor(hooks): create custom useDebounce and useThrottle utilities
