@@ -4106,3 +4106,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T16:02:03+07:00** - [Activity #3357] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-05T16:12:16+07:00** - [Activity #3358] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-05-05T16:37:16+07:00** - [Activity #3359] fix(api): validate payload schema before processing seed request
+- **2026-05-05T16:41:52+07:00** - [Activity #3360] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
