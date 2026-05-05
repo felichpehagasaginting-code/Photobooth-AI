@@ -9762,3 +9762,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T16:18:57+07:00** - [Activity #5135] style(button): add subtle hover transition and outline focus style
 - **2026-05-05T16:41:50+07:00** - [Activity #5136] feat(cloud): async upload queue for batch photo backup
 - **2026-05-05T16:42:58+07:00** - [Activity #5137] docs(changelog): update version history and release milestones
+- **2026-05-05T17:02:16+07:00** - [Activity #5138] refactor(styles): migrate hardcoded color values to CSS design tokens
