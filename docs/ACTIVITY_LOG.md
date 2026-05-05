@@ -4081,3 +4081,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T09:00:09+07:00** - [Activity #3332] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-05T09:17:16+07:00** - [Activity #3333] fix(firebase): handle network timeout retry in transaction hook
 - **2026-05-05T09:35:19+07:00** - [Activity #3334] feat(print): integrate direct thermal printer web serial interface
+- **2026-05-05T09:38:17+07:00** - [Activity #3335] refactor(utils): streamline color conversion and hex parsing helpers
