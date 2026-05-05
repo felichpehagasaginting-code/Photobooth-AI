@@ -9747,3 +9747,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T11:17:21+07:00** - [Activity #5120] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-05-05T11:44:24+07:00** - [Activity #5121] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-05-05T11:52:05+07:00** - [Activity #5122] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-05-05T12:20:18+07:00** - [Activity #5123] feat(preset): allow custom framing border selection per session
