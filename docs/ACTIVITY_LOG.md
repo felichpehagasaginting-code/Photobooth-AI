@@ -4084,3 +4084,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T09:38:17+07:00** - [Activity #3335] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-05-05T10:03:45+07:00** - [Activity #3336] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-05T10:09:44+07:00** - [Activity #3337] style(cards): apply subtle border gradient and elevation shadows
+- **2026-05-05T10:29:43+07:00** - [Activity #3338] refactor(export): optimize collage rendering algorithm for speed
