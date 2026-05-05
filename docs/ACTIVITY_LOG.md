@@ -4100,3 +4100,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T14:53:43+07:00** - [Activity #3351] refactor(camera): extract media stream hook into standalone module
 - **2026-05-05T14:59:50+07:00** - [Activity #3352] perf(anim): offload countdown animations to GPU composited layers
 - **2026-05-05T15:12:22+07:00** - [Activity #3353] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-05-05T15:25:59+07:00** - [Activity #3354] docs(env): document all required environment variables with defaults
