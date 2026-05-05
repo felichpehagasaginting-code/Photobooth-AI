@@ -4103,3 +4103,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T15:25:59+07:00** - [Activity #3354] docs(env): document all required environment variables with defaults
 - **2026-05-05T15:35:09+07:00** - [Activity #3355] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-05-05T15:47:01+07:00** - [Activity #3356] perf(images): compress intermediate preview thumbnails with WebP format
+- **2026-05-05T16:02:03+07:00** - [Activity #3357] perf(fonts): preload display typography to eliminate FOIT delay
