@@ -9745,3 +9745,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T10:51:20+07:00** - [Activity #5118] fix(audio): unlock audio context on initial user gesture
 - **2026-05-05T11:08:02+07:00** - [Activity #5119] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-05-05T11:17:21+07:00** - [Activity #5120] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-05-05T11:44:24+07:00** - [Activity #5121] chore(config): adjust tsconfig path aliases for cleaner imports
