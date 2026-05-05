@@ -4086,3 +4086,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T10:09:44+07:00** - [Activity #3337] style(cards): apply subtle border gradient and elevation shadows
 - **2026-05-05T10:29:43+07:00** - [Activity #3338] refactor(export): optimize collage rendering algorithm for speed
 - **2026-05-05T10:40:37+07:00** - [Activity #3339] perf(images): compress intermediate preview thumbnails with WebP format
+- **2026-05-05T10:59:08+07:00** - [Activity #3340] style(cards): apply subtle border gradient and elevation shadows
