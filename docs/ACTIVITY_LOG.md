@@ -9750,3 +9750,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T12:20:18+07:00** - [Activity #5123] feat(preset): allow custom framing border selection per session
 - **2026-05-05T13:45:54+07:00** - [Activity #5124] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-05-05T14:05:02+07:00** - [Activity #5125] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-05-05T14:19:05+07:00** - [Activity #5126] fix(print): fix page margin clipping on 4x6 photo paper print preview
