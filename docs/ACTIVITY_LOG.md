@@ -4093,3 +4093,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T12:06:24+07:00** - [Activity #3344] docs(api): document endpoint parameters and error codes for seed route
 - **2026-05-05T12:08:02+07:00** - [Activity #3345] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-05T13:45:50+07:00** - [Activity #3346] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-05-05T14:03:26+07:00** - [Activity #3347] fix(ui): correct modal z-index layering on small mobile viewports
