@@ -9755,3 +9755,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T14:47:32+07:00** - [Activity #5128] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-05T14:52:39+07:00** - [Activity #5129] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-05T15:04:11+07:00** - [Activity #5130] feat(analytics): log anonymous capture session completion metrics
+- **2026-05-05T15:16:02+07:00** - [Activity #5131] docs(deploy): add production deployment instructions for Vercel/Docker
