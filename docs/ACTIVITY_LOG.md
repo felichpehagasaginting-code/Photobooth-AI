@@ -4134,3 +4134,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T11:00:31+07:00** - [Activity #3385] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-06T11:22:38+07:00** - [Activity #3386] style(shutter): design circular pulsating shutter button with feedback
 - **2026-05-06T11:36:59+07:00** - [Activity #3387] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-05-06T11:49:35+07:00** - [Activity #3388] fix(hydration): resolve client-server timestamp mismatch in activity log
