@@ -9805,3 +9805,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T15:37:29+07:00** - [Activity #5178] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-06T16:04:24+07:00** - [Activity #5179] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-06T16:13:39+07:00** - [Activity #5180] refactor(filter): organize color grading matrices into separate configs
+- **2026-05-06T16:19:05+07:00** - [Activity #5181] fix(api): validate payload schema before processing seed request
