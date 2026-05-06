@@ -9815,3 +9815,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T17:45:52+07:00** - [Activity #5188] test(hooks): add test suite for camera stream lifecycle events
 - **2026-05-06T17:49:07+07:00** - [Activity #5189] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-05-06T19:30:08+07:00** - [Activity #5190] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-05-06T19:49:28+07:00** - [Activity #5191] fix(api): validate payload schema before processing seed request
