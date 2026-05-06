@@ -4162,3 +4162,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T21:02:26+07:00** - [Activity #3413] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-05-06T21:22:34+07:00** - [Activity #3414] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-05-06T21:40:24+07:00** - [Activity #3415] feat(settings): add camera device selector with resolution fallbacks
+- **2026-05-06T22:08:02+07:00** - [Activity #3416] chore(deps): update core dependencies to latest stable versions
