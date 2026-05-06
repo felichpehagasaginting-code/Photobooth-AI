@@ -9785,3 +9785,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T10:30:12+07:00** - [Activity #5158] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-05-06T10:39:14+07:00** - [Activity #5159] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-06T10:56:20+07:00** - [Activity #5160] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-05-06T10:59:41+07:00** - [Activity #5161] feat(preset): allow custom framing border selection per session
