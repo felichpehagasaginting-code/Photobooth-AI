@@ -4146,3 +4146,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T15:22:30+07:00** - [Activity #3397] chore(build): optimize Vite build chunks and asset minification settings
 - **2026-05-06T15:30:38+07:00** - [Activity #3398] fix(export): handle canvas taint error when loading external assets
 - **2026-05-06T15:57:20+07:00** - [Activity #3399] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-05-06T16:02:59+07:00** - [Activity #3400] test(canvas): add snapshot tests for multi-frame collage layouts
