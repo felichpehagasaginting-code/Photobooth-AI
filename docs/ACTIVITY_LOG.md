@@ -9780,3 +9780,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T09:17:48+07:00** - [Activity #5153] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-05-06T09:22:52+07:00** - [Activity #5154] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-06T09:47:13+07:00** - [Activity #5155] docs(api): document endpoint parameters and error codes for seed route
+- **2026-05-06T10:02:07+07:00** - [Activity #5156] feat(export): support high-resolution PNG and PDF print strip layout
