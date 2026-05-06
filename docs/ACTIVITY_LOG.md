@@ -4127,3 +4127,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T09:05:56+07:00** - [Activity #3378] feat(share): generate instant QR code for mobile photo download
 - **2026-05-06T09:24:55+07:00** - [Activity #3379] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-06T09:39:21+07:00** - [Activity #3380] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-05-06T09:58:25+07:00** - [Activity #3381] fix(print): fix page margin clipping on 4x6 photo paper print preview
