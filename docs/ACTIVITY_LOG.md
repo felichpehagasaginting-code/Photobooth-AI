@@ -9826,3 +9826,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T21:43:43+07:00** - [Activity #5199] fix(audio): unlock audio context on initial user gesture
 - **2026-05-06T22:01:41+07:00** - [Activity #5200] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-05-06T22:09:22+07:00** - [Activity #5201] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-05-06T22:31:33+07:00** - [Activity #5202] feat(settings): add camera device selector with resolution fallbacks
