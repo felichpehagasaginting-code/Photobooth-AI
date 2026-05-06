@@ -4132,3 +4132,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T10:24:06+07:00** - [Activity #3383] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-05-06T10:37:09+07:00** - [Activity #3384] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-06T11:00:31+07:00** - [Activity #3385] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-05-06T11:22:38+07:00** - [Activity #3386] style(shutter): design circular pulsating shutter button with feedback
