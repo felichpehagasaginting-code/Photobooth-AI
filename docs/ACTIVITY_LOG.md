@@ -4142,3 +4142,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T14:27:00+07:00** - [Activity #3393] refactor(i18n): restructure localization strings dictionary
 - **2026-05-06T14:49:17+07:00** - [Activity #3394] fix(api): validate payload schema before processing seed request
 - **2026-05-06T14:51:21+07:00** - [Activity #3395] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-05-06T15:00:21+07:00** - [Activity #3396] fix(state): sync active photo index when reopening gallery drawer
