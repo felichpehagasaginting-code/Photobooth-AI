@@ -9797,3 +9797,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T14:14:51+07:00** - [Activity #5170] docs(api): document endpoint parameters and error codes for seed route
 - **2026-05-06T14:25:02+07:00** - [Activity #5171] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-05-06T14:47:01+07:00** - [Activity #5172] chore(deps): update core dependencies to latest stable versions
+- **2026-05-06T14:59:48+07:00** - [Activity #5173] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
