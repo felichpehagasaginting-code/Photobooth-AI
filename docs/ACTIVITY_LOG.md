@@ -9794,3 +9794,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T13:45:20+07:00** - [Activity #5167] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-05-06T13:58:59+07:00** - [Activity #5168] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-05-06T14:08:52+07:00** - [Activity #5169] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-05-06T14:14:51+07:00** - [Activity #5170] docs(api): document endpoint parameters and error codes for seed route
