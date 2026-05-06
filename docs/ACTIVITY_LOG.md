@@ -9776,3 +9776,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-05T21:48:09+07:00** - [Activity #5149] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-05T22:06:53+07:00** - [Activity #5150] perf(memory): dispose cached image objects after strip generation
 - **2026-05-05T22:32:17+07:00** - [Activity #5151] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-05-06T09:00:17+07:00** - [Activity #5152] refactor(utils): streamline color conversion and hex parsing helpers
