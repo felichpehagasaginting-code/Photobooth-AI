@@ -4144,3 +4144,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T14:51:21+07:00** - [Activity #3395] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-05-06T15:00:21+07:00** - [Activity #3396] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-06T15:22:30+07:00** - [Activity #3397] chore(build): optimize Vite build chunks and asset minification settings
+- **2026-05-06T15:30:38+07:00** - [Activity #3398] fix(export): handle canvas taint error when loading external assets
