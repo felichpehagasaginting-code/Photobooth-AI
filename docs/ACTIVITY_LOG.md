@@ -4129,3 +4129,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T09:39:21+07:00** - [Activity #3380] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-05-06T09:58:25+07:00** - [Activity #3381] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-06T10:14:42+07:00** - [Activity #3382] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-05-06T10:24:06+07:00** - [Activity #3383] perf(images): compress intermediate preview thumbnails with WebP format
