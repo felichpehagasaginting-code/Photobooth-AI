@@ -9821,3 +9821,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T20:36:14+07:00** - [Activity #5194] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-05-06T20:45:15+07:00** - [Activity #5195] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-05-06T21:07:35+07:00** - [Activity #5196] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-05-06T21:18:16+07:00** - [Activity #5197] docs(arch): add architecture diagram explaining client-side filter flow
