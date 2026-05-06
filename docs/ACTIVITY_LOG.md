@@ -9824,3 +9824,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T21:18:16+07:00** - [Activity #5197] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-05-06T21:36:36+07:00** - [Activity #5198] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-06T21:43:43+07:00** - [Activity #5199] fix(audio): unlock audio context on initial user gesture
+- **2026-05-06T22:01:41+07:00** - [Activity #5200] style(typography): refine letter-spacing and hierarchy for hero heading
