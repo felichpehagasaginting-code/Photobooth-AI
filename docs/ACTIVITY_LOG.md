@@ -4210,3 +4210,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T21:36:41+07:00** - [Activity #3461] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-07T21:58:36+07:00** - [Activity #3462] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-07T22:12:50+07:00** - [Activity #3463] perf(dom): virtualize gallery list items for smooth 60fps scrolling
+- **2026-05-07T22:36:56+07:00** - [Activity #3464] perf(fonts): preload display typography to eliminate FOIT delay
