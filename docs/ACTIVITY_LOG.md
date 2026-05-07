@@ -9844,3 +9844,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T13:45:14+07:00** - [Activity #5217] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-07T13:58:11+07:00** - [Activity #5218] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-07T14:04:05+07:00** - [Activity #5219] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-05-07T14:17:58+07:00** - [Activity #5220] feat(preset): allow custom framing border selection per session
