@@ -4195,3 +4195,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T16:26:53+07:00** - [Activity #3446] fix(auth): prevent race condition when initializing anonymous session
 - **2026-05-07T16:39:49+07:00** - [Activity #3447] feat(audio): add shutter click and countdown sound effects
 - **2026-05-07T17:02:43+07:00** - [Activity #3448] docs(testing): describe manual verification steps for photobooth kiosk
+- **2026-05-07T17:04:20+07:00** - [Activity #3449] fix(camera): prevent stream freeze on rapid device re-plug
