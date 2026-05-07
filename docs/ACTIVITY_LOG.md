@@ -4177,3 +4177,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T11:25:41+07:00** - [Activity #3428] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-05-07T11:47:09+07:00** - [Activity #3429] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-05-07T11:54:07+07:00** - [Activity #3430] perf(api): cache static filter presets with aggressive HTTP headers
+- **2026-05-07T12:11:27+07:00** - [Activity #3431] style(typography): refine letter-spacing and hierarchy for hero heading
