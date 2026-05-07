@@ -9859,3 +9859,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T16:37:52+07:00** - [Activity #5232] refactor(types): consolidate photobooth session type definitions
 - **2026-05-07T17:01:49+07:00** - [Activity #5233] fix(export): handle canvas taint error when loading external assets
 - **2026-05-07T17:10:36+07:00** - [Activity #5234] feat(share): generate instant QR code for mobile photo download
+- **2026-05-07T17:33:17+07:00** - [Activity #5235] perf(memory): dispose cached image objects after strip generation
