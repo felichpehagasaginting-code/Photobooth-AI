@@ -4197,3 +4197,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T17:02:43+07:00** - [Activity #3448] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-05-07T17:04:20+07:00** - [Activity #3449] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-05-07T17:14:38+07:00** - [Activity #3450] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-05-07T17:43:15+07:00** - [Activity #3451] style(typography): refine letter-spacing and hierarchy for hero heading
