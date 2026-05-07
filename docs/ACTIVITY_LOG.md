@@ -9846,3 +9846,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T14:04:05+07:00** - [Activity #5219] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-07T14:17:58+07:00** - [Activity #5220] feat(preset): allow custom framing border selection per session
 - **2026-05-07T14:35:06+07:00** - [Activity #5221] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-05-07T14:51:10+07:00** - [Activity #5222] feat(export): support high-resolution PNG and PDF print strip layout
