@@ -9872,3 +9872,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T21:23:17+07:00** - [Activity #5245] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-07T21:39:16+07:00** - [Activity #5246] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-05-07T21:56:49+07:00** - [Activity #5247] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-05-07T22:08:40+07:00** - [Activity #5248] style(modal): fine-tune cubic-bezier easing curves on open transition
