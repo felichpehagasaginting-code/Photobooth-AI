@@ -4181,3 +4181,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T13:45:15+07:00** - [Activity #3432] docs(changelog): update version history and release milestones
 - **2026-05-07T13:55:52+07:00** - [Activity #3433] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-07T14:04:42+07:00** - [Activity #3434] style(theme): update dark mode accent color tokens with warm tone
+- **2026-05-07T14:18:35+07:00** - [Activity #3435] feat(print): integrate direct thermal printer web serial interface
