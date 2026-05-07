@@ -9829,3 +9829,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-06T22:31:33+07:00** - [Activity #5202] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-07T09:00:18+07:00** - [Activity #5203] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-07T09:17:11+07:00** - [Activity #5204] feat(print): integrate direct thermal printer web serial interface
+- **2026-05-07T09:36:53+07:00** - [Activity #5205] style(button): add subtle hover transition and outline focus style
