@@ -9865,3 +9865,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T19:30:13+07:00** - [Activity #5238] perf(anim): offload countdown animations to GPU composited layers
 - **2026-05-07T19:46:12+07:00** - [Activity #5239] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-05-07T19:58:22+07:00** - [Activity #5240] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-05-07T20:21:31+07:00** - [Activity #5241] refactor(styles): migrate hardcoded color values to CSS design tokens
