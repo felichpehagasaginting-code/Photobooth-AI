@@ -4187,3 +4187,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T15:05:42+07:00** - [Activity #3438] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-05-07T15:16:21+07:00** - [Activity #3439] feat(cloud): async upload queue for batch photo backup
 - **2026-05-07T15:22:14+07:00** - [Activity #3440] docs(changelog): update version history and release milestones
+- **2026-05-07T15:35:12+07:00** - [Activity #3441] fix(filter): fix gamma correction clipping on high brightness scenes
