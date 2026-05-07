@@ -4179,3 +4179,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T11:54:07+07:00** - [Activity #3430] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-05-07T12:11:27+07:00** - [Activity #3431] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-05-07T13:45:15+07:00** - [Activity #3432] docs(changelog): update version history and release milestones
+- **2026-05-07T13:55:52+07:00** - [Activity #3433] fix(print): fix page margin clipping on 4x6 photo paper print preview
