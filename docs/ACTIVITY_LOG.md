@@ -9863,3 +9863,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T17:44:11+07:00** - [Activity #5236] perf(memory): dispose cached image objects after strip generation
 - **2026-05-07T17:51:10+07:00** - [Activity #5237] style(cards): apply subtle border gradient and elevation shadows
 - **2026-05-07T19:30:13+07:00** - [Activity #5238] perf(anim): offload countdown animations to GPU composited layers
+- **2026-05-07T19:46:12+07:00** - [Activity #5239] perf(images): compress intermediate preview thumbnails with WebP format
