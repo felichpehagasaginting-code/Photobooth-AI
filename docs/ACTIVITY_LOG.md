@@ -9855,3 +9855,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T15:51:45+07:00** - [Activity #5228] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-07T16:19:23+07:00** - [Activity #5229] feat(preset): allow custom framing border selection per session
 - **2026-05-07T16:24:54+07:00** - [Activity #5230] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-05-07T16:26:01+07:00** - [Activity #5231] fix(audio): unlock audio context on initial user gesture
