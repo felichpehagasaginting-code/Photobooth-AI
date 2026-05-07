@@ -4208,3 +4208,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T21:00:09+07:00** - [Activity #3459] test(hooks): add test suite for camera stream lifecycle events
 - **2026-05-07T21:25:56+07:00** - [Activity #3460] chore(git): add ignore rules for local session exports and temp files
 - **2026-05-07T21:36:41+07:00** - [Activity #3461] feat(settings): add camera device selector with resolution fallbacks
+- **2026-05-07T21:58:36+07:00** - [Activity #3462] docs(readme): add detailed hardware camera setup and compatibility guide
