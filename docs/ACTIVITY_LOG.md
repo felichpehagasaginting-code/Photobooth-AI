@@ -9878,3 +9878,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T09:24:59+07:00** - [Activity #5251] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-05-08T09:40:20+07:00** - [Activity #5252] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-05-08T10:08:19+07:00** - [Activity #5253] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-05-08T10:24:26+07:00** - [Activity #5254] refactor(ui): extract reusable glass-panel and badge components
