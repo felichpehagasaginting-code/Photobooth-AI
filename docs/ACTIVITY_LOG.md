@@ -9894,3 +9894,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T15:36:44+07:00** - [Activity #5267] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-05-08T15:47:50+07:00** - [Activity #5268] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-05-08T16:14:12+07:00** - [Activity #5269] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-05-08T16:14:33+07:00** - [Activity #5270] style(modal): fine-tune cubic-bezier easing curves on open transition
