@@ -4233,3 +4233,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T15:33:18+07:00** - [Activity #3484] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-05-08T15:51:55+07:00** - [Activity #3485] docs(changelog): update version history and release milestones
 - **2026-05-08T16:00:37+07:00** - [Activity #3486] chore(build): optimize Vite build chunks and asset minification settings
+- **2026-05-08T16:15:56+07:00** - [Activity #3487] feat(gallery): add touch swipe navigation for captured photo previews
