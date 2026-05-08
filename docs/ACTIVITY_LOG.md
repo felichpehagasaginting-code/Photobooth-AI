@@ -4245,3 +4245,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T20:15:16+07:00** - [Activity #3496] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-05-08T20:26:38+07:00** - [Activity #3497] docs(changelog): update version history and release milestones
 - **2026-05-08T20:40:41+07:00** - [Activity #3498] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-05-08T21:00:37+07:00** - [Activity #3499] feat(theme): introduce warm studio and monochrome dark themes
