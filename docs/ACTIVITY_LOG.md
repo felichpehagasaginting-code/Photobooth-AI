@@ -4212,3 +4212,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T22:12:50+07:00** - [Activity #3463] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-05-07T22:36:56+07:00** - [Activity #3464] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-08T09:01:31+07:00** - [Activity #3465] feat(ai): integrate edge background removal model
+- **2026-05-08T09:10:32+07:00** - [Activity #3466] feat(settings): add camera device selector with resolution fallbacks
