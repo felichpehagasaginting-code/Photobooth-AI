@@ -4236,3 +4236,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T16:15:56+07:00** - [Activity #3487] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-08T16:26:49+07:00** - [Activity #3488] refactor(api): modularize backend route handlers and validation utils
 - **2026-05-08T16:41:05+07:00** - [Activity #3489] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-05-08T17:01:58+07:00** - [Activity #3490] fix(accessibility): add missing aria-labels to icon action buttons
