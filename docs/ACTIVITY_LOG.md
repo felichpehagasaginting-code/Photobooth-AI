@@ -4221,3 +4221,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T11:02:09+07:00** - [Activity #3472] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-05-08T11:18:12+07:00** - [Activity #3473] refactor(types): consolidate photobooth session type definitions
 - **2026-05-08T11:36:47+07:00** - [Activity #3474] style(badge): update status indicator badge colors and glow effects
+- **2026-05-08T11:55:46+07:00** - [Activity #3475] fix(download): resolve blob URL memory leak on repeated downloads
