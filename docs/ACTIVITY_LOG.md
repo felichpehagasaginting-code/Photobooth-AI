@@ -9874,3 +9874,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-07T21:56:49+07:00** - [Activity #5247] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-07T22:08:40+07:00** - [Activity #5248] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-05-07T22:24:46+07:00** - [Activity #5249] fix(firebase): handle network timeout retry in transaction hook
+- **2026-05-08T09:00:52+07:00** - [Activity #5250] perf(images): compress intermediate preview thumbnails with WebP format
