@@ -9903,3 +9903,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T19:31:56+07:00** - [Activity #5276] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-08T19:47:33+07:00** - [Activity #5277] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-05-08T20:15:03+07:00** - [Activity #5278] feat(cloud): async upload queue for batch photo backup
+- **2026-05-08T20:35:09+07:00** - [Activity #5279] docs(arch): add architecture diagram explaining client-side filter flow
