@@ -4241,3 +4241,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T17:20:54+07:00** - [Activity #3492] test(hooks): add test suite for camera stream lifecycle events
 - **2026-05-08T17:48:26+07:00** - [Activity #3493] test(hooks): add test suite for camera stream lifecycle events
 - **2026-05-08T19:37:07+07:00** - [Activity #3494] feat(share): generate instant QR code for mobile photo download
+- **2026-05-08T19:46:52+07:00** - [Activity #3495] docs(readme): add detailed hardware camera setup and compatibility guide
