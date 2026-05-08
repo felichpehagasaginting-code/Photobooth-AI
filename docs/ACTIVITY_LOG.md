@@ -4214,3 +4214,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T09:01:31+07:00** - [Activity #3465] feat(ai): integrate edge background removal model
 - **2026-05-08T09:10:32+07:00** - [Activity #3466] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-08T09:34:06+07:00** - [Activity #3467] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-05-08T09:50:11+07:00** - [Activity #3468] feat(preset): allow custom framing border selection per session
