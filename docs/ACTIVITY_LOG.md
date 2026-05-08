@@ -9884,3 +9884,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T11:22:53+07:00** - [Activity #5257] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-08T11:53:38+07:00** - [Activity #5258] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-08T12:14:37+07:00** - [Activity #5259] style(grid): modernize layout overlap for bento-style elements
+- **2026-05-08T13:51:05+07:00** - [Activity #5260] feat(print): integrate direct thermal printer web serial interface
