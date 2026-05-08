@@ -9905,3 +9905,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T20:15:03+07:00** - [Activity #5278] feat(cloud): async upload queue for batch photo backup
 - **2026-05-08T20:35:09+07:00** - [Activity #5279] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-05-08T21:12:24+07:00** - [Activity #5280] chore(deps): update core dependencies to latest stable versions
+- **2026-05-08T21:29:58+07:00** - [Activity #5281] style(theme): update dark mode accent color tokens with warm tone
