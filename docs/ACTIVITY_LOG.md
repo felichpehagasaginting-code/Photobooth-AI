@@ -9880,3 +9880,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T10:08:19+07:00** - [Activity #5253] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-08T10:24:26+07:00** - [Activity #5254] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-08T10:42:07+07:00** - [Activity #5255] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-05-08T10:59:08+07:00** - [Activity #5256] docs(arch): add architecture diagram explaining client-side filter flow
