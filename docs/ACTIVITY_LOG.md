@@ -4249,3 +4249,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T21:24:58+07:00** - [Activity #3500] refactor(api): modularize backend route handlers and validation utils
 - **2026-05-08T21:48:42+07:00** - [Activity #3501] test(hooks): add test suite for camera stream lifecycle events
 - **2026-05-08T22:07:30+07:00** - [Activity #3502] refactor(state): migrate photo session state management to zustand store
+- **2026-05-08T22:18:27+07:00** - [Activity #3503] perf(memory): dispose cached image objects after strip generation
