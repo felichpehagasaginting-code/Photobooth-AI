@@ -4229,3 +4229,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T14:36:43+07:00** - [Activity #3480] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-05-08T14:50:01+07:00** - [Activity #3481] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-08T15:00:58+07:00** - [Activity #3482] feat(settings): add camera device selector with resolution fallbacks
+- **2026-05-08T15:22:22+07:00** - [Activity #3483] refactor(styles): migrate hardcoded color values to CSS design tokens
