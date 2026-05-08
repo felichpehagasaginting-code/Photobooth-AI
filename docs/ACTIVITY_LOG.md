@@ -4216,3 +4216,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T09:34:06+07:00** - [Activity #3467] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-05-08T09:50:11+07:00** - [Activity #3468] feat(preset): allow custom framing border selection per session
 - **2026-05-08T10:05:26+07:00** - [Activity #3469] chore(git): add ignore rules for local session exports and temp files
+- **2026-05-08T10:28:54+07:00** - [Activity #3470] refactor(hooks): create custom useDebounce and useThrottle utilities
