@@ -9918,3 +9918,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-09T14:58:25+07:00** - [Activity #5291] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-09T15:32:05+07:00** - [Activity #5292] style(grid): modernize layout overlap for bento-style elements
 - **2026-05-09T16:11:32+07:00** - [Activity #5293] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-05-09T16:49:51+07:00** - [Activity #5294] fix(print): fix page margin clipping on 4x6 photo paper print preview
