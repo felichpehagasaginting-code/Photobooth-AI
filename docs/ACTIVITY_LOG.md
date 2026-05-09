@@ -4251,3 +4251,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-08T22:07:30+07:00** - [Activity #3502] refactor(state): migrate photo session state management to zustand store
 - **2026-05-08T22:18:27+07:00** - [Activity #3503] perf(memory): dispose cached image objects after strip generation
 - **2026-05-09T09:00:47+07:00** - [Activity #3504] feat(stickers): support draggable and resizable decorative stickers
+- **2026-05-09T09:41:51+07:00** - [Activity #3505] feat(watermark): customizable event logo watermark overlay
