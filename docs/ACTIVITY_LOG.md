@@ -9919,3 +9919,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-09T15:32:05+07:00** - [Activity #5292] style(grid): modernize layout overlap for bento-style elements
 - **2026-05-09T16:11:32+07:00** - [Activity #5293] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-05-09T16:49:51+07:00** - [Activity #5294] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-05-09T17:15:32+07:00** - [Activity #5295] docs(arch): add architecture diagram explaining client-side filter flow
