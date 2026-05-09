@@ -4268,3 +4268,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-09T17:29:32+07:00** - [Activity #3519] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-05-09T19:34:24+07:00** - [Activity #3520] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-09T20:10:49+07:00** - [Activity #3521] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-05-09T20:45:56+07:00** - [Activity #3522] feat(camera): add dynamic exposure and focus adjustment controls
