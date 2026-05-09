@@ -9922,3 +9922,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-09T17:15:32+07:00** - [Activity #5295] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-05-09T19:30:33+07:00** - [Activity #5296] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-05-09T20:26:31+07:00** - [Activity #5297] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-05-09T21:00:51+07:00** - [Activity #5298] perf(images): compress intermediate preview thumbnails with WebP format
