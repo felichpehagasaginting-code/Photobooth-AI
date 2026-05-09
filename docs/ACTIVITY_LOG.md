@@ -4260,3 +4260,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-09T14:17:54+07:00** - [Activity #3511] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-09T14:36:41+07:00** - [Activity #3512] style(button): add subtle hover transition and outline focus style
 - **2026-05-09T15:03:13+07:00** - [Activity #3513] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-09T15:23:09+07:00** - [Activity #3514] docs(deploy): add production deployment instructions for Vercel/Docker
