@@ -4258,3 +4258,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-09T11:57:28+07:00** - [Activity #3509] fix(audio): unlock audio context on initial user gesture
 - **2026-05-09T13:52:11+07:00** - [Activity #3510] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-05-09T14:17:54+07:00** - [Activity #3511] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-05-09T14:36:41+07:00** - [Activity #3512] style(button): add subtle hover transition and outline focus style
