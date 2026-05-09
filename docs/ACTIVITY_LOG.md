@@ -4254,3 +4254,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-09T09:41:51+07:00** - [Activity #3505] feat(watermark): customizable event logo watermark overlay
 - **2026-05-09T10:03:39+07:00** - [Activity #3506] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-09T10:49:09+07:00** - [Activity #3507] fix(state): sync active photo index when reopening gallery drawer
+- **2026-05-09T11:18:12+07:00** - [Activity #3508] perf(memory): dispose cached image objects after strip generation
