@@ -9915,3 +9915,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-09T11:50:18+07:00** - [Activity #5288] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-09T13:52:50+07:00** - [Activity #5289] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-05-09T14:29:06+07:00** - [Activity #5290] feat(settings): add camera device selector with resolution fallbacks
+- **2026-05-09T14:58:25+07:00** - [Activity #5291] feat(kiosk): add full-screen lock and inactivity reset timer
