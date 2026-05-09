@@ -4262,3 +4262,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-09T15:03:13+07:00** - [Activity #3513] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-09T15:23:09+07:00** - [Activity #3514] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-05-09T15:57:23+07:00** - [Activity #3515] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-05-09T16:18:54+07:00** - [Activity #3516] style(photobooth): refine backdrop blur and color contrast for dark mode
