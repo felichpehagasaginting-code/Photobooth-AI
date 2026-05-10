@@ -4281,3 +4281,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-10T13:45:37+07:00** - [Activity #3532] docs(env): document all required environment variables with defaults
 - **2026-05-10T14:01:56+07:00** - [Activity #3533] chore(git): add ignore rules for local session exports and temp files
 - **2026-05-10T14:31:51+07:00** - [Activity #3534] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-05-10T15:05:59+07:00** - [Activity #3535] style(theme): update dark mode accent color tokens with warm tone
