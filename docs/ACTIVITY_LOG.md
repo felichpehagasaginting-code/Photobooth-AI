@@ -4290,3 +4290,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-10T17:25:36+07:00** - [Activity #3541] refactor(events): use custom event bus for decoupled component messaging
 - **2026-05-10T19:34:54+07:00** - [Activity #3542] feat(watermark): customizable event logo watermark overlay
 - **2026-05-10T19:54:13+07:00** - [Activity #3543] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-05-10T20:38:52+07:00** - [Activity #3544] chore(config): adjust tsconfig path aliases for cleaner imports
