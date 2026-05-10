@@ -9945,3 +9945,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-10T20:36:37+07:00** - [Activity #5318] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-05-10T21:00:13+07:00** - [Activity #5319] feat(audio): add shutter click and countdown sound effects
 - **2026-05-10T21:36:08+07:00** - [Activity #5320] fix(auth): prevent race condition when initializing anonymous session
+- **2026-05-10T22:12:54+07:00** - [Activity #5321] feat(settings): add camera device selector with resolution fallbacks
