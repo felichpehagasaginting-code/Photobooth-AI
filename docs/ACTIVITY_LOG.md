@@ -4287,3 +4287,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-10T16:10:30+07:00** - [Activity #3538] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-10T16:35:07+07:00** - [Activity #3539] chore(build): optimize Vite build chunks and asset minification settings
 - **2026-05-10T17:04:02+07:00** - [Activity #3540] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-05-10T17:25:36+07:00** - [Activity #3541] refactor(events): use custom event bus for decoupled component messaging
