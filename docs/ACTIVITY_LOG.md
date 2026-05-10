@@ -9941,3 +9941,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-10T16:58:17+07:00** - [Activity #5314] docs(api): document endpoint parameters and error codes for seed route
 - **2026-05-10T17:39:02+07:00** - [Activity #5315] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-10T19:30:16+07:00** - [Activity #5316] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-05-10T19:56:12+07:00** - [Activity #5317] fix(export): handle canvas taint error when loading external assets
