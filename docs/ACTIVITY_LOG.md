@@ -4283,3 +4283,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-10T14:31:51+07:00** - [Activity #3534] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-05-10T15:05:59+07:00** - [Activity #3535] style(theme): update dark mode accent color tokens with warm tone
 - **2026-05-10T15:17:33+07:00** - [Activity #3536] feat(cloud): async upload queue for batch photo backup
+- **2026-05-10T15:49:56+07:00** - [Activity #3537] feat(preset): allow custom framing border selection per session
