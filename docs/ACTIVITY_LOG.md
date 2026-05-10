@@ -4284,3 +4284,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-10T15:05:59+07:00** - [Activity #3535] style(theme): update dark mode accent color tokens with warm tone
 - **2026-05-10T15:17:33+07:00** - [Activity #3536] feat(cloud): async upload queue for batch photo backup
 - **2026-05-10T15:49:56+07:00** - [Activity #3537] feat(preset): allow custom framing border selection per session
+- **2026-05-10T16:10:30+07:00** - [Activity #3538] feat(settings): add camera device selector with resolution fallbacks
