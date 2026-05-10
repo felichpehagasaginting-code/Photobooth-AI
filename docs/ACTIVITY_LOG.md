@@ -9927,3 +9927,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-10T09:00:44+07:00** - [Activity #5300] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-05-10T09:34:59+07:00** - [Activity #5301] style(cards): apply subtle border gradient and elevation shadows
 - **2026-05-10T10:05:31+07:00** - [Activity #5302] chore(git): add ignore rules for local session exports and temp files
+- **2026-05-10T10:34:38+07:00** - [Activity #5303] chore(config): adjust tsconfig path aliases for cleaner imports
