@@ -4275,3 +4275,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-10T09:30:09+07:00** - [Activity #3526] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-05-10T10:05:55+07:00** - [Activity #3527] feat(ai): integrate edge background removal model
 - **2026-05-10T10:28:15+07:00** - [Activity #3528] style(shutter): design circular pulsating shutter button with feedback
+- **2026-05-10T11:06:54+07:00** - [Activity #3529] style(badge): update status indicator badge colors and glow effects
