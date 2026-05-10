@@ -9935,3 +9935,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-10T14:08:04+07:00** - [Activity #5308] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-05-10T14:37:04+07:00** - [Activity #5309] test(hooks): add test suite for camera stream lifecycle events
 - **2026-05-10T15:05:01+07:00** - [Activity #5310] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-05-10T15:34:08+07:00** - [Activity #5311] docs(env): document all required environment variables with defaults
