@@ -9925,3 +9925,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-09T21:00:51+07:00** - [Activity #5298] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-05-09T22:00:27+07:00** - [Activity #5299] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-05-10T09:00:44+07:00** - [Activity #5300] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-05-10T09:34:59+07:00** - [Activity #5301] style(cards): apply subtle border gradient and elevation shadows
