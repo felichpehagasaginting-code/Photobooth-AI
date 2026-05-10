@@ -9938,3 +9938,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-10T15:34:08+07:00** - [Activity #5311] docs(env): document all required environment variables with defaults
 - **2026-05-10T16:04:03+07:00** - [Activity #5312] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-10T16:37:54+07:00** - [Activity #5313] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-05-10T16:58:17+07:00** - [Activity #5314] docs(api): document endpoint parameters and error codes for seed route
