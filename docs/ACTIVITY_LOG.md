@@ -9924,3 +9924,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-09T20:26:31+07:00** - [Activity #5297] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-09T21:00:51+07:00** - [Activity #5298] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-05-09T22:00:27+07:00** - [Activity #5299] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-05-10T09:00:44+07:00** - [Activity #5300] perf(bundle): implement dynamic lazy loading for heavy filter shaders
