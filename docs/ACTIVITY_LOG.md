@@ -9949,3 +9949,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T09:00:49+07:00** - [Activity #5322] style(grid): modernize layout overlap for bento-style elements
 - **2026-05-11T09:17:41+07:00** - [Activity #5323] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-11T09:39:06+07:00** - [Activity #5324] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-05-11T10:07:45+07:00** - [Activity #5325] fix(ui): correct modal z-index layering on small mobile viewports
