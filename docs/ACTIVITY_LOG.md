@@ -4299,3 +4299,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T09:45:43+07:00** - [Activity #3550] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-05-11T10:02:23+07:00** - [Activity #3551] feat(watermark): customizable event logo watermark overlay
 - **2026-05-11T10:19:56+07:00** - [Activity #3552] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-05-11T10:41:43+07:00** - [Activity #3553] docs(api): document endpoint parameters and error codes for seed route
