@@ -9947,3 +9947,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-10T21:36:08+07:00** - [Activity #5320] fix(auth): prevent race condition when initializing anonymous session
 - **2026-05-10T22:12:54+07:00** - [Activity #5321] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-11T09:00:49+07:00** - [Activity #5322] style(grid): modernize layout overlap for bento-style elements
+- **2026-05-11T09:17:41+07:00** - [Activity #5323] docs(readme): add detailed hardware camera setup and compatibility guide
