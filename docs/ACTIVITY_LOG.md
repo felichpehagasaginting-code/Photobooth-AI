@@ -4306,3 +4306,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T12:02:26+07:00** - [Activity #3557] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-05-11T13:47:52+07:00** - [Activity #3558] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-05-11T14:10:12+07:00** - [Activity #3559] fix(export): handle canvas taint error when loading external assets
+- **2026-05-11T14:20:20+07:00** - [Activity #3560] refactor(cleanup): remove deprecated legacy camera capture methods
