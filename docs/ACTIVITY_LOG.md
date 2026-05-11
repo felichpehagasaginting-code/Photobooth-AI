@@ -4323,3 +4323,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T19:30:35+07:00** - [Activity #3574] style(button): add subtle hover transition and outline focus style
 - **2026-05-11T19:53:58+07:00** - [Activity #3575] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-11T20:15:14+07:00** - [Activity #3576] fix(auth): prevent race condition when initializing anonymous session
+- **2026-05-11T20:40:11+07:00** - [Activity #3577] perf(api): cache static filter presets with aggressive HTTP headers
