@@ -4302,3 +4302,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T10:41:43+07:00** - [Activity #3553] docs(api): document endpoint parameters and error codes for seed route
 - **2026-05-11T11:08:37+07:00** - [Activity #3554] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-11T11:19:49+07:00** - [Activity #3555] refactor(filter): organize color grading matrices into separate configs
+- **2026-05-11T11:45:41+07:00** - [Activity #3556] docs(readme): add detailed hardware camera setup and compatibility guide
