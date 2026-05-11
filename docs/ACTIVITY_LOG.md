@@ -9979,3 +9979,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T21:10:44+07:00** - [Activity #5352] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-05-11T21:32:56+07:00** - [Activity #5353] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-05-11T21:57:35+07:00** - [Activity #5354] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-11T22:25:40+07:00** - [Activity #5355] fix(audio): unlock audio context on initial user gesture
