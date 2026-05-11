@@ -9977,3 +9977,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T20:14:02+07:00** - [Activity #5350] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-11T20:35:55+07:00** - [Activity #5351] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-11T21:10:44+07:00** - [Activity #5352] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-05-11T21:32:56+07:00** - [Activity #5353] style(typography): refine letter-spacing and hierarchy for hero heading
