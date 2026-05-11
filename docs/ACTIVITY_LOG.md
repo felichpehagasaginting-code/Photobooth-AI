@@ -4309,3 +4309,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T14:20:20+07:00** - [Activity #3560] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-05-11T14:26:02+07:00** - [Activity #3561] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-11T14:56:53+07:00** - [Activity #3562] fix(export): handle canvas taint error when loading external assets
+- **2026-05-11T15:13:12+07:00** - [Activity #3563] refactor(cleanup): remove deprecated legacy camera capture methods
