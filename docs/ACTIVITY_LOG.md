@@ -9958,3 +9958,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T12:06:18+07:00** - [Activity #5331] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-05-11T13:46:01+07:00** - [Activity #5332] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-05-11T14:06:03+07:00** - [Activity #5333] refactor(ui): extract reusable glass-panel and badge components
+- **2026-05-11T14:08:25+07:00** - [Activity #5334] style(typography): refine letter-spacing and hierarchy for hero heading
