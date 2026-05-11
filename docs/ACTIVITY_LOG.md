@@ -4304,3 +4304,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T11:19:49+07:00** - [Activity #3555] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-11T11:45:41+07:00** - [Activity #3556] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-11T12:02:26+07:00** - [Activity #3557] docs(comments): add inline JSDoc comments to image processing helpers
+- **2026-05-11T13:47:52+07:00** - [Activity #3558] feat(ui): implement smooth countdown overlay animation before shutter
