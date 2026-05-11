@@ -1,0 +1,92 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Admin {
+  id           String   @id @default(cuid())
+  username     String   @unique
+  passwordHash String
+  pin          String   @default("123456")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Package {
+  id          String   @id @default(cuid())
+  name        String
+  description String
+  price       Int      // in IDR
+  filterCount Int      @default(1) // number of filters allowed
+  active      Boolean  @default(true)
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  transactions Transaction[]
+}
+
+model Filter {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  category    String   @default("artistic") // artistic, beauty, background, morphing
+  style       String   @default("anime") // anime, watercolor, cyberpunk, vintage, beauty, virtual_bg, morphing, comic
+  thumbnail   String?  // URL or base64
+  prompt      String?  // AI prompt for image generation
+  active      Boolean  @default(true)
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Transaction {
+  id             String   @id @default(cuid())
+  orderId        String   @unique // Midtrans order ID
+  packageId      String
+  package        Package  @relation(fields: [packageId], references: [id])
+  amount         Int      // in IDR
+  status         String   @default("pending") // pending, paid, failed, expired, cancelled
+  paymentMethod  String?  // qris, gopay, etc
+  paymentTime    DateTime?
+  downloadToken  String?  @unique // UUID for download access
+  tokenExpiresAt DateTime?
+  customerEmail  String?
+  filterNames    String?  // comma-separated filter names applied
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  photos         Photo[]
+}
+
+model Photo {
+  id            String      @id @default(cuid())
+  transactionId String
+  transaction   Transaction @relation(fields: [transactionId], references: [id], onDelete: Cascade)
+  originalUrl   String?     // stored photo path
+  filteredUrl   String?     // filtered photo path
+  filterName    String?
+  fileName      String?
+  fileSize      Int?
+  createdAt     DateTime    @default(now())
+}
+
+model SystemLog {
+  id        String   @id @default(cuid())
+  level     String   @default("info") // info, warn, error
+  message   String
+  metadata  String?  // JSON string
+  createdAt DateTime @default(now())
+}
+
+model SystemConfig {
+  id    String @id @default(cuid())
+  key   String @unique
+  value String
+  updatedAt DateTime @updatedAt
+}
