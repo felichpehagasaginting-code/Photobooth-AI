@@ -9975,3 +9975,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T19:30:43+07:00** - [Activity #5348] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-11T19:53:54+07:00** - [Activity #5349] style(button): add subtle hover transition and outline focus style
 - **2026-05-11T20:14:02+07:00** - [Activity #5350] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-05-11T20:35:55+07:00** - [Activity #5351] refactor(ui): extract reusable glass-panel and badge components
