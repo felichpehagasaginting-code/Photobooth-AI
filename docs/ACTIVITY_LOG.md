@@ -9969,3 +9969,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T16:20:59+07:00** - [Activity #5342] refactor(types): consolidate photobooth session type definitions
 - **2026-05-11T16:43:30+07:00** - [Activity #5343] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-05-11T16:53:02+07:00** - [Activity #5344] feat(preset): allow custom framing border selection per session
+- **2026-05-11T17:04:46+07:00** - [Activity #5345] refactor(styles): migrate hardcoded color values to CSS design tokens
