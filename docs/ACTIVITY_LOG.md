@@ -4314,3 +4314,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T15:42:09+07:00** - [Activity #3565] fix(auth): prevent race condition when initializing anonymous session
 - **2026-05-11T15:53:58+07:00** - [Activity #3566] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-05-11T16:07:32+07:00** - [Activity #3567] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-05-11T16:16:00+07:00** - [Activity #3568] docs(arch): add architecture diagram explaining client-side filter flow
