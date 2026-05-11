@@ -9962,3 +9962,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T14:42:43+07:00** - [Activity #5335] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-11T14:49:12+07:00** - [Activity #5336] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-05-11T15:00:02+07:00** - [Activity #5337] style(cards): apply subtle border gradient and elevation shadows
+- **2026-05-11T15:27:15+07:00** - [Activity #5338] style(typography): refine letter-spacing and hierarchy for hero heading
