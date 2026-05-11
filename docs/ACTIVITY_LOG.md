@@ -4327,3 +4327,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T21:12:01+07:00** - [Activity #3578] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-11T21:24:54+07:00** - [Activity #3579] refactor(camera): extract media stream hook into standalone module
 - **2026-05-11T21:52:33+07:00** - [Activity #3580] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-05-11T22:27:07+07:00** - [Activity #3581] fix(qr): adjust QR code contrast ratio for low-light scanning
