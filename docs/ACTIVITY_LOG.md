@@ -4312,3 +4312,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-11T15:13:12+07:00** - [Activity #3563] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-05-11T15:30:53+07:00** - [Activity #3564] feat(ai): integrate edge background removal model
 - **2026-05-11T15:42:09+07:00** - [Activity #3565] fix(auth): prevent race condition when initializing anonymous session
+- **2026-05-11T15:53:58+07:00** - [Activity #3566] fix(accessibility): add missing aria-labels to icon action buttons
