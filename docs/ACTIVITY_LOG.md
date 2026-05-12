@@ -4362,3 +4362,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T17:07:58+07:00** - [Activity #3613] fix(audio): unlock audio context on initial user gesture
 - **2026-05-12T17:31:53+07:00** - [Activity #3614] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-12T17:39:20+07:00** - [Activity #3615] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-05-12T17:39:25+07:00** - [Activity #3616] chore(config): adjust tsconfig path aliases for cleaner imports
