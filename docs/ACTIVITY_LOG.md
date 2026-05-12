@@ -9994,3 +9994,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T11:45:24+07:00** - [Activity #5367] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-12T11:58:27+07:00** - [Activity #5368] docs(api): document endpoint parameters and error codes for seed route
 - **2026-05-12T12:17:36+07:00** - [Activity #5369] refactor(types): consolidate photobooth session type definitions
+- **2026-05-12T13:45:07+07:00** - [Activity #5370] fix(export): handle canvas taint error when loading external assets
