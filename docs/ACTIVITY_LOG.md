@@ -4357,3 +4357,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T16:16:34+07:00** - [Activity #3608] chore(deps): update core dependencies to latest stable versions
 - **2026-05-12T16:19:29+07:00** - [Activity #3609] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-12T16:33:51+07:00** - [Activity #3610] fix(download): resolve blob URL memory leak on repeated downloads
+- **2026-05-12T16:38:13+07:00** - [Activity #3611] refactor(state): migrate photo session state management to zustand store
