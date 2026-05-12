@@ -4351,3 +4351,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T15:06:35+07:00** - [Activity #3602] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-12T15:11:59+07:00** - [Activity #3603] style(shutter): design circular pulsating shutter button with feedback
 - **2026-05-12T15:13:26+07:00** - [Activity #3604] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-05-12T15:24:54+07:00** - [Activity #3605] fix(download): resolve blob URL memory leak on repeated downloads
