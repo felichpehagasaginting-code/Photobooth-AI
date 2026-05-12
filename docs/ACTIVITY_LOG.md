@@ -4336,3 +4336,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T10:21:30+07:00** - [Activity #3587] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-05-12T10:29:33+07:00** - [Activity #3588] refactor(types): consolidate photobooth session type definitions
 - **2026-05-12T10:50:27+07:00** - [Activity #3589] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-05-12T10:53:05+07:00** - [Activity #3590] fix(print): fix page margin clipping on 4x6 photo paper print preview
