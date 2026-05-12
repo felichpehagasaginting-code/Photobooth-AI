@@ -10001,3 +10001,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T14:37:03+07:00** - [Activity #5374] docs(changelog): update version history and release milestones
 - **2026-05-12T14:49:37+07:00** - [Activity #5375] fix(auth): prevent race condition when initializing anonymous session
 - **2026-05-12T14:57:44+07:00** - [Activity #5376] fix(auth): prevent race condition when initializing anonymous session
+- **2026-05-12T15:11:39+07:00** - [Activity #5377] fix(state): sync active photo index when reopening gallery drawer
