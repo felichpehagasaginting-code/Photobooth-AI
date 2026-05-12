@@ -4365,3 +4365,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T17:39:25+07:00** - [Activity #3616] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-05-12T19:33:09+07:00** - [Activity #3617] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-05-12T19:46:50+07:00** - [Activity #3618] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-05-12T20:04:33+07:00** - [Activity #3619] feat(filter): add cyber-neon and grain texture post-processing overlay
