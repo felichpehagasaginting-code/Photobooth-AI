@@ -10021,3 +10021,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T20:06:20+07:00** - [Activity #5394] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-12T20:26:20+07:00** - [Activity #5395] feat(stickers): support draggable and resizable decorative stickers
 - **2026-05-12T20:34:46+07:00** - [Activity #5396] feat(preset): allow custom framing border selection per session
+- **2026-05-12T20:58:26+07:00** - [Activity #5397] perf(bundle): implement dynamic lazy loading for heavy filter shaders
