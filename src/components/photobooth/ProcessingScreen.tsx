@@ -256,7 +256,7 @@ export default function ProcessingScreen() {
           >
             {filteredPhotos.map((photo) => (
               <motion.div
-                key={photo.filterId}
+                key={photo.id}
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 className="shrink-0 w-14 h-14 rounded-xl overflow-hidden border border-white/5 shadow-ios"

@@ -6,11 +6,12 @@ interface CapturedPhoto {
   timestamp: number;
 }
 
-interface FilteredPhoto {
+export interface FilteredPhoto {
   original: string; // base64 data URL
   filtered: string; // base64 data URL
   filterName: string;
   filterId: string;
+  id: string; // unique id for React key
 }
 
 interface PhotoboothState {
@@ -39,7 +40,7 @@ interface PhotoboothState {
 
   // Processing
   filteredPhotos: FilteredPhoto[];
-  addFilteredPhoto: (photo: FilteredPhoto) => void;
+  addFilteredPhoto: (photo: Omit<FilteredPhoto, 'id'>) => void;
   clearFilteredPhotos: () => void;
   processingProgress: number;
   setProcessingProgress: (progress: number) => void;
@@ -62,7 +63,7 @@ interface PhotoboothState {
   resetAll: () => void;
 }
 
-export const usePhotoboothStore = create<PhotoboothState>((set, get) => ({
+export const usePhotoboothStore = create<PhotoboothState>((set) => ({
   // Navigation
   currentStep: 'idle',
   previousStep: null,
@@ -102,7 +103,7 @@ export const usePhotoboothStore = create<PhotoboothState>((set, get) => ({
   // Processing
   filteredPhotos: [],
   addFilteredPhoto: (photo) => set((state) => ({
-    filteredPhotos: [...state.filteredPhotos, photo],
+    filteredPhotos: [...state.filteredPhotos, { ...photo, id: `${photo.filterId}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}` }],
   })),
   clearFilteredPhotos: () => set({ filteredPhotos: [] }),
   processingProgress: 0,

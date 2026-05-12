@@ -133,7 +133,7 @@ export default function DownloadScreen() {
             <div className="grid grid-cols-2 gap-3 max-h-64 overflow-y-auto scrollbar-thin">
               {filteredPhotos.map((photo, i) => (
                 <motion.div
-                  key={photo.filterId}
+                  key={photo.id}
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: 0.6 + i * 0.1 }}
