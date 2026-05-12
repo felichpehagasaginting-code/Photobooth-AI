@@ -4333,3 +4333,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T09:35:48+07:00** - [Activity #3584] refactor(events): use custom event bus for decoupled component messaging
 - **2026-05-12T09:42:00+07:00** - [Activity #3585] fix(api): validate payload schema before processing seed request
 - **2026-05-12T10:06:26+07:00** - [Activity #3586] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-05-12T10:21:30+07:00** - [Activity #3587] refactor(hooks): create custom useDebounce and useThrottle utilities
