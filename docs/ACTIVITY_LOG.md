@@ -10017,3 +10017,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T17:38:40+07:00** - [Activity #5390] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-05-12T17:43:39+07:00** - [Activity #5391] style(button): add subtle hover transition and outline focus style
 - **2026-05-12T19:30:37+07:00** - [Activity #5392] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-05-12T19:43:53+07:00** - [Activity #5393] refactor(utils): streamline color conversion and hex parsing helpers
