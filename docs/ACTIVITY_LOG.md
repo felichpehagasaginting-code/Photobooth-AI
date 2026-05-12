@@ -10023,3 +10023,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T20:34:46+07:00** - [Activity #5396] feat(preset): allow custom framing border selection per session
 - **2026-05-12T20:58:26+07:00** - [Activity #5397] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-05-12T21:12:05+07:00** - [Activity #5398] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-05-12T21:25:17+07:00** - [Activity #5399] style(typography): refine letter-spacing and hierarchy for hero heading
