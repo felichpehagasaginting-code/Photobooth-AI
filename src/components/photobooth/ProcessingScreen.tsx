@@ -1,8 +1,8 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
-import { motion } from 'framer-motion';
-import { Wand2, Sparkles } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Wand2, Cpu } from 'lucide-react';
 import { usePhotoboothStore } from '@/store/photobooth';
 import { Progress } from '@/components/ui/progress';
 
@@ -37,10 +37,16 @@ export default function ProcessingScreen() {
     currentProcessingFilter,
     setCurrentProcessingFilter,
     setStep,
+    takeCount,
+    currentTake,
+    incrementTake,
+    clearFilters,
     language,
   } = usePhotoboothStore();
 
   const isProcessingRef = useRef(false);
+  const [providerLog, setProviderLog] = useState<string[]>([]);
+
   const t = (id: string, en: string) => (language === 'id' ? id : en);
   const loadingMessages = language === 'id' ? LOADING_MESSAGES_ID : LOADING_MESSAGES_EN;
 
@@ -50,9 +56,8 @@ export default function ProcessingScreen() {
 
     const processAll = async () => {
       const totalFilters = selectedFilters.length;
-      const alreadyProcessed = filteredPhotos.length;
 
-      for (let i = alreadyProcessed; i < totalFilters; i++) {
+      for (let i = 0; i < totalFilters; i++) {
         const filter = selectedFilters[i];
         setCurrentProcessingFilter(filter.name);
         setProcessingProgress(Math.round((i / totalFilters) * 100));
@@ -78,6 +83,7 @@ export default function ProcessingScreen() {
               filterName: filter.name,
               filterId: filter.id,
             });
+            setProviderLog((prev) => [...prev, `${filter.name}: ${data.provider || 'unknown'}`]);
           } else {
             addFilteredPhoto({
               original: capturedPhoto.original,
@@ -85,6 +91,7 @@ export default function ProcessingScreen() {
               filterName: filter.name,
               filterId: filter.id,
             });
+            setProviderLog((prev) => [...prev, `${filter.name}: fallback`]);
           }
         } catch {
           addFilteredPhoto({
@@ -93,17 +100,34 @@ export default function ProcessingScreen() {
             filterName: filter.name,
             filterId: filter.id,
           });
+          setProviderLog((prev) => [...prev, `${filter.name}: error`]);
         }
       }
 
       setProcessingProgress(100);
+
+      // Decide next step based on remaining takes
       setTimeout(() => {
-        setStep('payment');
-      }, 800);
+        if (currentTake < takeCount) {
+          // More takes remaining - go back to camera
+          incrementTake();
+          clearFilters();
+          setStep('camera');
+        } else {
+          // All takes done - go to download
+          setStep('download');
+        }
+      }, 1000);
     };
 
     processAll();
-  }, [capturedPhoto, selectedFilters, filteredPhotos.length, addFilteredPhoto, setCurrentProcessingFilter, setProcessingProgress, setStep]);
+
+    return () => {
+      // Reset processing flag when leaving this screen
+      // so next take's processing can fire
+      isProcessingRef.current = false;
+    };
+  }, [capturedPhoto, selectedFilters, filteredPhotos.length, addFilteredPhoto, setCurrentProcessingFilter, setProcessingProgress, setStep, takeCount, currentTake, incrementTake, clearFilters]);
 
   const currentFilterIndex = selectedFilters.findIndex(
     (f) => f.name === currentProcessingFilter
@@ -112,73 +136,130 @@ export default function ProcessingScreen() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#0A0A0F] p-6">
-      <div className="w-full max-w-md flex flex-col items-center gap-8">
+      <div className="w-full max-w-sm flex flex-col items-center gap-8">
         {/* Animated icon */}
-        <motion.div
-          animate={{
-            rotate: [0, 10, -10, 0],
-            scale: [1, 1.1, 1],
-          }}
-          transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-          className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[#FF6B9D] to-[#FF8A65] flex items-center justify-center"
-        >
-          <Wand2 className="w-10 h-10 text-white" />
+        <motion.div className="relative">
+          <motion.div
+            animate={{ rotate: 360 }}
+            transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
+            className="w-28 h-28 rounded-full border border-[#FF6B9D]/10"
+          />
+          <motion.div
+            animate={{ rotate: -360 }}
+            transition={{ duration: 6, repeat: Infinity, ease: 'linear' }}
+            className="absolute inset-2 rounded-full border border-[#06D6A0]/10"
+          />
+          <motion.div
+            animate={{
+              scale: [1, 1.08, 1],
+              boxShadow: [
+                '0 0 20px rgba(255,107,157,0.2)',
+                '0 0 40px rgba(255,107,157,0.4)',
+                '0 0 20px rgba(255,107,157,0.2)',
+              ],
+            }}
+            transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+            className="absolute inset-4 rounded-2xl bg-gradient-to-br from-[#FF6B9D] to-[#FF8A65] flex items-center justify-center"
+          >
+            <Wand2 className="w-8 h-8 text-white" />
+          </motion.div>
         </motion.div>
 
         {/* Title */}
-        <div className="text-center">
-          <h2 className="text-2xl font-bold text-white mb-2">
+        <div className="text-center space-y-1.5">
+          <h2 className="text-xl font-bold text-white tracking-tight">
             {t('Memproses Foto', 'Processing Photo')}
           </h2>
-          <motion.p
-            key={messageIndex}
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-muted-foreground"
-          >
-            {loadingMessages[messageIndex]}
-          </motion.p>
+          <AnimatePresence mode="wait">
+            <motion.p
+              key={messageIndex}
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              className="text-sm text-muted-foreground"
+            >
+              {loadingMessages[messageIndex]}
+            </motion.p>
+          </AnimatePresence>
+          {/* Take progress indicator */}
+          <p className="text-xs text-white/20 mt-1 font-mono">
+            Take {currentTake}/{takeCount}
+          </p>
         </div>
 
         {/* Current filter */}
-        {currentProcessingFilter && (
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            className="flex items-center gap-2 px-4 py-2 rounded-xl bg-[#15151F] border border-[#2A2A3A]"
-          >
-            <Sparkles className="w-4 h-4 text-[#FF6B9D]" />
-            <span className="text-sm font-medium text-white">
-              {currentProcessingFilter}
-            </span>
-          </motion.div>
-        )}
+        <AnimatePresence mode="wait">
+          {currentProcessingFilter && (
+            <motion.div
+              key={currentProcessingFilter}
+              initial={{ opacity: 0, y: 10, scale: 0.95 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: -10, scale: 0.95 }}
+              className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl glass"
+            >
+              <Cpu className="w-4 h-4 text-[#FF6B9D]" />
+              <span className="text-sm font-semibold text-white">
+                {currentProcessingFilter}
+              </span>
+            </motion.div>
+          )}
+        </AnimatePresence>
 
         {/* Progress bar */}
         <div className="w-full space-y-2">
-          <Progress
-            value={processingProgress}
-            className="h-3 bg-[#15151F] rounded-full"
-          />
-          <div className="flex justify-between text-sm text-muted-foreground">
-            <span>
-              {Math.min(filteredPhotos.length + 1, selectedFilters.length)}/
-              {selectedFilters.length} {t('filter', 'filters')}
+          <div className="relative">
+            <Progress
+              value={processingProgress}
+              className="h-2 bg-[#15151F] rounded-full overflow-hidden"
+            />
+            <motion.div
+              className="absolute top-0 left-0 h-2 rounded-full bg-gradient-to-r from-[#FF6B9D] to-[#FF8A65] opacity-50 blur"
+              animate={{ width: `${processingProgress}%` }}
+              transition={{ duration: 0.3 }}
+            />
+          </div>
+          <div className="flex justify-between text-xs">
+            <span className="text-white/40 font-medium">
+              {selectedFilters.length > 0
+                ? `${Math.min(filteredPhotos.length % selectedFilters.length + 1, selectedFilters.length)}/${selectedFilters.length}`
+                : '0/0'}{' '}
+              {t('filter', 'filters')}
             </span>
-            <span className="font-mono">{processingProgress}%</span>
+            <span className="text-[#FF6B9D] font-mono font-bold tabular-nums">
+              {processingProgress}%
+            </span>
           </div>
         </div>
 
-        {/* Preview thumbnails of completed filters */}
+        {/* Provider log */}
+        {providerLog.length > 0 && (
+          <div className="w-full space-y-1">
+            {providerLog.map((log, i) => (
+              <motion.p
+                key={i}
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                className="text-[10px] text-white/20 font-mono"
+              >
+                ✓ {log}
+              </motion.p>
+            ))}
+          </div>
+        )}
+
+        {/* Completed thumbnails */}
         {filteredPhotos.length > 0 && (
-          <div className="flex gap-2 overflow-x-auto w-full pb-2 scrollbar-thin">
-            {filteredPhotos.map((photo, i) => (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            className="flex gap-2 overflow-x-auto w-full pb-2 scrollbar-thin"
+          >
+            {filteredPhotos.map((photo) => (
               <motion.div
                 key={photo.filterId}
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: i * 0.1 }}
-                className="shrink-0 w-16 h-16 rounded-lg overflow-hidden border border-[#2A2A3A]"
+                className="shrink-0 w-14 h-14 rounded-xl overflow-hidden border border-white/5 shadow-ios"
               >
                 <img
                   src={photo.filtered}
@@ -187,7 +268,7 @@ export default function ProcessingScreen() {
                 />
               </motion.div>
             ))}
-          </div>
+          </motion.div>
         )}
       </div>
     </div>

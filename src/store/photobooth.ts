@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import type { AppStep, PackageInfo, FilterInfo, TransactionInfo } from '@/types';
+import type { AppStep, TakeCount, FilterInfo, TransactionInfo } from '@/types';
 
 interface CapturedPhoto {
   original: string; // base64 data URL
@@ -20,9 +20,12 @@ interface PhotoboothState {
   setStep: (step: AppStep) => void;
   goBack: () => void;
 
-  // Package selection
-  selectedPackage: PackageInfo | null;
-  setSelectedPackage: (pkg: PackageInfo | null) => void;
+  // Take configuration (replaces package)
+  takeCount: TakeCount;
+  filtersPerTake: number;
+  currentTake: number;
+  setTakeConfig: (count: TakeCount, filters: number) => void;
+  incrementTake: () => void;
 
   // Camera
   capturedPhoto: CapturedPhoto | null;
@@ -71,9 +74,12 @@ export const usePhotoboothStore = create<PhotoboothState>((set, get) => ({
     return { currentStep: 'idle', previousStep: null };
   }),
 
-  // Package selection
-  selectedPackage: null,
-  setSelectedPackage: (pkg) => set({ selectedPackage: pkg }),
+  // Take configuration
+  takeCount: 2,
+  filtersPerTake: 2,
+  currentTake: 1,
+  setTakeConfig: (count, filters) => set({ takeCount: count, filtersPerTake: filters, currentTake: 1 }),
+  incrementTake: () => set((state) => ({ currentTake: state.currentTake + 1 })),
 
   // Camera
   capturedPhoto: null,
@@ -82,7 +88,7 @@ export const usePhotoboothStore = create<PhotoboothState>((set, get) => ({
   // Filters
   selectedFilters: [],
   addFilter: (filter) => set((state) => {
-    const maxFilters = state.selectedPackage?.filterCount ?? 1;
+    const maxFilters = state.filtersPerTake;
     if (state.selectedFilters.length < maxFilters) {
       return { selectedFilters: [...state.selectedFilters, filter] };
     }
@@ -120,7 +126,9 @@ export const usePhotoboothStore = create<PhotoboothState>((set, get) => ({
   resetAll: () => set({
     currentStep: 'idle',
     previousStep: null,
-    selectedPackage: null,
+    takeCount: 2,
+    filtersPerTake: 2,
+    currentTake: 1,
     capturedPhoto: null,
     selectedFilters: [],
     filteredPhotos: [],

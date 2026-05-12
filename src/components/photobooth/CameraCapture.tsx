@@ -91,7 +91,7 @@ export default function CameraCapture() {
   }, [facingMode, t]);
 
   useEffect(() => {
-    if (currentStep === 'camera') {
+    if (currentStep === 'camera' || currentStep === 'countdown') {
       // Camera initialization - setState in async callback from getUserMedia
       startCamera(); // eslint-disable-line react-hooks/set-state-in-effect
     }
@@ -138,7 +138,7 @@ export default function CameraCapture() {
       streamRef.current.getTracks().forEach((track) => track.stop());
       streamRef.current = null;
     }
-    setStep('package-select');
+    setStep('take-select');
   };
 
   return (

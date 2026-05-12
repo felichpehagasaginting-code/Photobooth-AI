@@ -5,26 +5,31 @@ import { usePhotoboothStore } from '@/store/photobooth';
 import { AnimatePresence, motion } from 'framer-motion';
 
 import IdleScreen from '@/components/photobooth/IdleScreen';
-import PackageSelect from '@/components/photobooth/PackageSelect';
+import TakeSelect from '@/components/photobooth/TakeSelect';
 import CameraCapture from '@/components/photobooth/CameraCapture';
 import CapturedPreview from '@/components/photobooth/CapturedPreview';
 import FilterSelect from '@/components/photobooth/FilterSelect';
 import ProcessingScreen from '@/components/photobooth/ProcessingScreen';
-import PaymentScreen from '@/components/photobooth/PaymentScreen';
 import DownloadScreen from '@/components/photobooth/DownloadScreen';
 import AdminLogin from '@/components/photobooth/AdminLogin';
 import AdminDashboard from '@/components/photobooth/AdminDashboard';
 
-const pageVariants = {
-  initial: { opacity: 0, y: 20 },
-  animate: { opacity: 1, y: 0 },
-  exit: { opacity: 0, y: -20 },
+const slideUpVariants = {
+  initial: { opacity: 0, y: 20, filter: 'blur(4px)' },
+  animate: { opacity: 1, y: 0, filter: 'blur(0px)' },
+  exit: { opacity: 0, y: -20, filter: 'blur(4px)' },
+};
+
+const fadeVariants = {
+  initial: { opacity: 0 },
+  animate: { opacity: 1 },
+  exit: { opacity: 0 },
 };
 
 const pageTransition = {
-  type: 'tween',
-  ease: 'easeInOut',
-  duration: 0.3,
+  type: 'tween' as const,
+  ease: 'easeInOut' as const,
+  duration: 0.35,
 };
 
 export default function Home() {
@@ -43,8 +48,8 @@ export default function Home() {
     switch (currentStep) {
       case 'idle':
         return <IdleScreen />;
-      case 'package-select':
-        return <PackageSelect />;
+      case 'take-select':
+        return <TakeSelect />;
       case 'camera':
         return <CameraCapture />;
       case 'countdown':
@@ -55,10 +60,6 @@ export default function Home() {
         return <FilterSelect />;
       case 'processing':
         return <ProcessingScreen />;
-      case 'payment':
-        return <PaymentScreen />;
-      case 'success':
-        return <DownloadScreen />;
       case 'download':
         return <DownloadScreen />;
       case 'admin-login':
@@ -70,12 +71,24 @@ export default function Home() {
     }
   };
 
+  // Determine which animation to use based on step
+  const getVariants = (step: string) => {
+    switch (step) {
+      case 'camera':
+      case 'countdown':
+      case 'processing':
+        return fadeVariants;
+      default:
+        return slideUpVariants;
+    }
+  };
+
   return (
     <main className="min-h-screen bg-[#0A0A0F] text-white overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={currentStep}
-          variants={pageVariants}
+          variants={getVariants(currentStep)}
           initial="initial"
           animate="animate"
           exit="exit"

@@ -3,39 +3,9 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle2, Download, RotateCcw, QrCode } from 'lucide-react';
+import QRCode from 'qrcode';
 import { usePhotoboothStore } from '@/store/photobooth';
 import { Button } from '@/components/ui/button';
-
-// Simple QR code placeholder for download
-function DownloadQR() {
-  return (
-    <div className="w-40 h-40 bg-white rounded-xl p-2 mx-auto">
-      <svg viewBox="0 0 100 100" className="w-full h-full">
-        {Array.from({ length: 25 }).map((_, row) =>
-          Array.from({ length: 25 }).map((_, col) => {
-            const isBorder = row < 2 || row > 22 || col < 2 || col > 22;
-            const isCornerBlock =
-              (row < 7 && col < 7) ||
-              (row < 7 && col > 17) ||
-              (row > 17 && col < 7);
-            const isRandom = Math.random() > 0.5;
-            const shouldFill = isBorder || isCornerBlock || isRandom;
-            return shouldFill ? (
-              <rect
-                key={`${row}-${col}`}
-                x={col * 4}
-                y={row * 4}
-                width={4}
-                height={4}
-                fill="#000"
-              />
-            ) : null;
-          })
-        )}
-      </svg>
-    </div>
-  );
-}
 
 export default function DownloadScreen() {
   const {
@@ -46,6 +16,7 @@ export default function DownloadScreen() {
   } = usePhotoboothStore();
 
   const [showCheck, setShowCheck] = useState(false);
+  const [downloadQr, setDownloadQr] = useState<string | null>(null);
 
   const t = (id: string, en: string) => (language === 'id' ? id : en);
 
@@ -53,6 +24,33 @@ export default function DownloadScreen() {
     const timer = setTimeout(() => setShowCheck(true), 300);
     return () => clearTimeout(timer);
   }, []);
+
+  // Generate real QR code as SVG (no canvas dependency)
+  useEffect(() => {
+    const generateDownloadQR = () => {
+      if (!currentTransaction) return;
+
+      const downloadUrl = `${window.location.origin}/?txn=${currentTransaction.id}&token=${currentTransaction.downloadToken || ''}`;
+
+      QRCode.toString(downloadUrl, {
+        type: 'svg',
+        margin: 2,
+        color: {
+          dark: '#000000',
+          light: '#FFFFFF',
+        },
+      })
+        .then((svgString: string) => {
+          const dataUri = `data:image/svg+xml;base64,${btoa(svgString)}`;
+          setDownloadQr(dataUri);
+        })
+        .catch((err: unknown) => {
+          console.error('Download QR generation error:', err);
+        });
+    };
+
+    generateDownloadQR();
+  }, [currentTransaction]);
 
   const handleDone = () => {
     resetAll();
@@ -167,19 +165,23 @@ export default function DownloadScreen() {
           </motion.div>
         )}
 
-        {/* Download QR */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.7 }}
-          className="flex flex-col items-center gap-2"
-        >
-          <DownloadQR />
-          <p className="text-xs text-muted-foreground flex items-center gap-1">
-            <QrCode className="w-3 h-3" />
-            {t('Scan untuk mengunduh di perangkat lain', 'Scan to download on another device')}
-          </p>
-        </motion.div>
+        {/* Real Download QR */}
+        {downloadQr && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.7 }}
+            className="flex flex-col items-center gap-2"
+          >
+            <div className="w-40 h-40 bg-white rounded-xl p-2 mx-auto">
+              <img src={downloadQr} alt="Download QR Code" className="w-full h-full" />
+            </div>
+            <p className="text-xs text-muted-foreground flex items-center gap-1">
+              <QrCode className="w-3 h-3" />
+              {t('Scan untuk mengunduh di perangkat lain', 'Scan to download on another device')}
+            </p>
+          </motion.div>
+        )}
 
         {/* Done button */}
         <motion.div

@@ -2,17 +2,25 @@
 
 export type AppStep =
   | 'idle'
-  | 'package-select'
+  | 'take-select'
   | 'camera'
   | 'countdown'
   | 'captured'
   | 'filter-select'
   | 'processing'
-  | 'payment'
-  | 'success'
   | 'download'
   | 'admin-login'
   | 'admin-dashboard';
+
+export type TakeCount = 2 | 4 | 6;
+
+export interface TakeOption {
+  count: TakeCount;
+  label: string;
+  totalPrice: number;
+  pricePerTake: number;
+  filtersPerTake: number;
+}
 
 export interface PackageInfo {
   id: string;
@@ -87,6 +95,30 @@ export const FILTER_STYLES = {
   comic: { label: 'Comic', color: '#60A5FA' },
 } as const;
 
+export const TAKE_OPTIONS: TakeOption[] = [
+  {
+    count: 2,
+    label: '2x Take',
+    totalPrice: 5000,
+    pricePerTake: 2500,
+    filtersPerTake: 2,
+  },
+  {
+    count: 4,
+    label: '4x Take',
+    totalPrice: 8000,
+    pricePerTake: 2000,
+    filtersPerTake: 3,
+  },
+  {
+    count: 6,
+    label: '6x Take',
+    totalPrice: 10000,
+    pricePerTake: 1667,
+    filtersPerTake: 3,
+  },
+];
+
 export const DEFAULT_PACKAGES: Omit<PackageInfo, 'id'>[] = [
   {
     name: 'Basic',
@@ -120,7 +152,7 @@ export const DEFAULT_FILTERS: Omit<FilterInfo, 'id'>[] = [
     description: 'Ubah foto jadi gaya Studio Ghibli yang indah dan lembut',
     category: 'artistic',
     style: 'anime',
-    prompt: 'Convert this photo into Studio Ghibli anime art style, soft watercolor-like coloring, dreamy atmosphere, detailed backgrounds, warm lighting, Miyazaki style',
+    prompt: 'Transform this portrait into Studio Ghibli anime style. Soft watercolor-like coloring, dreamy atmosphere, detailed whimsical backgrounds, warm golden lighting, Miyazaki\'s gentle artistic touch. Keep the person\'s likeness and pose. Beautiful hand-painted aesthetic with soft edges and magical feeling.',
     active: true,
     sortOrder: 0,
   },
@@ -129,7 +161,7 @@ export const DEFAULT_FILTERS: Omit<FilterInfo, 'id'>[] = [
     description: 'Gaya anime action dengan garis tegas dan warna bold',
     category: 'artistic',
     style: 'anime',
-    prompt: 'Convert this photo into Shonen anime art style, bold outlines, vibrant colors, dynamic action manga style, dramatic lighting, sharp edges',
+    prompt: 'Transform this portrait into Shonen manga anime style. Bold clean outlines, vibrant saturated colors, dynamic energy, dramatic lighting with speed lines, sharp angular features, action-ready pose. High contrast, comic book intensity, youthful heroic look.',
     active: true,
     sortOrder: 1,
   },
@@ -138,7 +170,7 @@ export const DEFAULT_FILTERS: Omit<FilterInfo, 'id'>[] = [
     description: 'Lukisan cat air yang lembut dan artistik',
     category: 'artistic',
     style: 'watercolor',
-    prompt: 'Convert this photo into a beautiful watercolor painting, soft blended colors, paper texture visible, artistic brush strokes, gentle color bleeding',
+    prompt: 'Transform this portrait into a fine art watercolor painting. Soft blended pigments bleeding on textured cold-press paper, visible brush strokes, delicate color transitions, translucent layers, artistic hand-painted feel. Gentle luminosity, painterly aesthetic, museum quality artwork.',
     active: true,
     sortOrder: 2,
   },
@@ -147,7 +179,7 @@ export const DEFAULT_FILTERS: Omit<FilterInfo, 'id'>[] = [
     description: 'Masa depan neon dengan efek cahaya dramatis',
     category: 'artistic',
     style: 'cyberpunk',
-    prompt: 'Convert this photo into cyberpunk neon art style, glowing neon lights, dark futuristic atmosphere, holographic effects, purple and cyan color scheme, rain',
+    prompt: 'Transform this portrait into cyberpunk futuristic style. Glowing neon lights in purple and cyan, dark rain-soaked city background, holographic UI elements, high-tech implants aesthetic, dramatic rim lighting, dystopian sci-fi atmosphere. Cinematic, moody, futuristic.',
     active: true,
     sortOrder: 3,
   },
@@ -156,7 +188,7 @@ export const DEFAULT_FILTERS: Omit<FilterInfo, 'id'>[] = [
     description: 'Efek film retro dengan grain dan warna klasik',
     category: 'artistic',
     style: 'vintage',
-    prompt: 'Convert this photo into vintage film photography style, film grain, warm color shift, light leaks, slightly faded, retro 1970s aesthetic, analog camera look',
+    prompt: 'Transform this portrait into vintage 1970s film photography. Warm sepia-brown color shift, visible film grain texture, subtle light leaks, slightly faded and washed tones, analog camera lens softness, nostalgic retro aesthetic. Classic Hollywood portrait mood.',
     active: true,
     sortOrder: 4,
   },
@@ -165,7 +197,7 @@ export const DEFAULT_FILTERS: Omit<FilterInfo, 'id'>[] = [
     description: 'Enhance wajah dengan AI beauty filter',
     category: 'beauty',
     style: 'beauty',
-    prompt: 'Apply beauty enhancement to this photo, smooth skin, enhance features naturally, professional portrait lighting, soft focus background, magazine cover quality',
+    prompt: 'Transform this portrait with professional beauty retouching. Smooth flawless skin, enhanced natural features, professional portrait studio lighting, soft focus dreamy background, magazine cover quality, subtle makeup enhancement, radiant glowing skin, high fashion editorial look.',
     active: true,
     sortOrder: 5,
   },
@@ -174,7 +206,7 @@ export const DEFAULT_FILTERS: Omit<FilterInfo, 'id'>[] = [
     description: 'Ganti background dengan dunia fantasi',
     category: 'background',
     style: 'virtual_bg',
-    prompt: 'Replace the background with a magical fantasy landscape, enchanted forest with glowing particles, mystical atmosphere, keep the person unchanged, dreamy lighting',
+    prompt: 'Transform this portrait by replacing the background with a magical fantasy realm. Enchanted forest with glowing fireflies and mystical particles, ethereal soft lighting, dreamlike atmosphere. Keep the person exactly as is, only change surroundings to fantasy world. Cinematic fantasy art.',
     active: true,
     sortOrder: 6,
   },
@@ -183,7 +215,7 @@ export const DEFAULT_FILTERS: Omit<FilterInfo, 'id'>[] = [
     description: 'Gaya komik pop art yang seru dan colorful',
     category: 'morphing',
     style: 'comic',
-    prompt: 'Convert this photo into comic book pop art style, halftone dots, bold black outlines, bright saturated colors, action comic panel look, Ben-Day dots effect',
+    prompt: 'Transform this portrait into pop art comic book style. Bold black ink outlines, bright saturated flat colors, Ben-Day halftone dot patterns, dynamic comic panel framing, action hero aesthetic, Roy Lichtenstein inspired, graphic novel illustration style.',
     active: true,
     sortOrder: 7,
   },
