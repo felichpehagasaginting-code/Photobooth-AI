@@ -9998,3 +9998,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T14:00:46+07:00** - [Activity #5371] style(cards): apply subtle border gradient and elevation shadows
 - **2026-05-12T14:05:42+07:00** - [Activity #5372] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-05-12T14:26:47+07:00** - [Activity #5373] feat(share): generate instant QR code for mobile photo download
+- **2026-05-12T14:37:03+07:00** - [Activity #5374] docs(changelog): update version history and release milestones
