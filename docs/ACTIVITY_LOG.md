@@ -10004,3 +10004,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T15:11:39+07:00** - [Activity #5377] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-12T15:12:08+07:00** - [Activity #5378] feat(stickers): support draggable and resizable decorative stickers
 - **2026-05-12T15:32:25+07:00** - [Activity #5379] chore(deps): update core dependencies to latest stable versions
+- **2026-05-12T15:36:05+07:00** - [Activity #5380] chore(git): add ignore rules for local session exports and temp files
