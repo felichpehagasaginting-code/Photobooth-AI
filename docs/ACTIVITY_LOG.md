@@ -4347,3 +4347,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T14:18:23+07:00** - [Activity #3598] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-05-12T14:23:36+07:00** - [Activity #3599] refactor(export): optimize collage rendering algorithm for speed
 - **2026-05-12T14:38:44+07:00** - [Activity #3600] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-05-12T14:40:26+07:00** - [Activity #3601] refactor(cleanup): remove deprecated legacy camera capture methods
