@@ -10006,3 +10006,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T15:32:25+07:00** - [Activity #5379] chore(deps): update core dependencies to latest stable versions
 - **2026-05-12T15:36:05+07:00** - [Activity #5380] chore(git): add ignore rules for local session exports and temp files
 - **2026-05-12T15:46:28+07:00** - [Activity #5381] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-05-12T15:58:38+07:00** - [Activity #5382] fix(state): sync active photo index when reopening gallery drawer
