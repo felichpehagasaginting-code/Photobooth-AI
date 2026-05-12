@@ -10024,3 +10024,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T20:58:26+07:00** - [Activity #5397] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-05-12T21:12:05+07:00** - [Activity #5398] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-05-12T21:25:17+07:00** - [Activity #5399] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-05-12T21:34:33+07:00** - [Activity #5400] refactor(ui): extract reusable glass-panel and badge components
