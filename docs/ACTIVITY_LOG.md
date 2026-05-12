@@ -4339,3 +4339,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T10:53:05+07:00** - [Activity #3590] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-12T11:16:31+07:00** - [Activity #3591] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-12T11:31:02+07:00** - [Activity #3592] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-05-12T11:52:47+07:00** - [Activity #3593] feat(share): generate instant QR code for mobile photo download
