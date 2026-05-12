@@ -4335,3 +4335,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T10:06:26+07:00** - [Activity #3586] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-05-12T10:21:30+07:00** - [Activity #3587] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-05-12T10:29:33+07:00** - [Activity #3588] refactor(types): consolidate photobooth session type definitions
+- **2026-05-12T10:50:27+07:00** - [Activity #3589] style(photobooth): refine backdrop blur and color contrast for dark mode
