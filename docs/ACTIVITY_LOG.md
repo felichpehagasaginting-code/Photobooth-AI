@@ -10018,3 +10018,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T17:43:39+07:00** - [Activity #5391] style(button): add subtle hover transition and outline focus style
 - **2026-05-12T19:30:37+07:00** - [Activity #5392] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-12T19:43:53+07:00** - [Activity #5393] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-05-12T20:06:20+07:00** - [Activity #5394] fix(ui): correct modal z-index layering on small mobile viewports
