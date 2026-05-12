@@ -4359,3 +4359,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T16:33:51+07:00** - [Activity #3610] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-05-12T16:38:13+07:00** - [Activity #3611] refactor(state): migrate photo session state management to zustand store
 - **2026-05-12T16:51:56+07:00** - [Activity #3612] feat(settings): add camera device selector with resolution fallbacks
+- **2026-05-12T17:07:58+07:00** - [Activity #3613] fix(audio): unlock audio context on initial user gesture
