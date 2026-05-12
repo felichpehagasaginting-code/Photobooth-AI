@@ -25,7 +25,8 @@ export const metadata: Metadata = {
     "AI Photo",
   ],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    icon: "/logo-icon.svg",
+    apple: "/logo-icon.svg",
   },
 };
 
