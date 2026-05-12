@@ -9985,3 +9985,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T09:23:51+07:00** - [Activity #5358] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-12T09:47:51+07:00** - [Activity #5359] perf(memory): dispose cached image objects after strip generation
 - **2026-05-12T10:03:59+07:00** - [Activity #5360] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-05-12T10:07:00+07:00** - [Activity #5361] docs(deploy): add production deployment instructions for Vercel/Docker
