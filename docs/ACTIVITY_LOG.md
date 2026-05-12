@@ -10011,3 +10011,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T16:32:43+07:00** - [Activity #5384] perf(memory): dispose cached image objects after strip generation
 - **2026-05-12T16:32:56+07:00** - [Activity #5385] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-12T16:53:36+07:00** - [Activity #5386] refactor(state): migrate photo session state management to zustand store
+- **2026-05-12T17:09:19+07:00** - [Activity #5387] fix(filter): fix gamma correction clipping on high brightness scenes
