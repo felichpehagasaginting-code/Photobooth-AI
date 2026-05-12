@@ -10025,3 +10025,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T21:12:05+07:00** - [Activity #5398] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-05-12T21:25:17+07:00** - [Activity #5399] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-05-12T21:34:33+07:00** - [Activity #5400] refactor(ui): extract reusable glass-panel and badge components
+- **2026-05-12T22:00:52+07:00** - [Activity #5401] feat(print): integrate direct thermal printer web serial interface
