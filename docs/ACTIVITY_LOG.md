@@ -10010,3 +10010,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T16:07:39+07:00** - [Activity #5383] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-05-12T16:32:43+07:00** - [Activity #5384] perf(memory): dispose cached image objects after strip generation
 - **2026-05-12T16:32:56+07:00** - [Activity #5385] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-05-12T16:53:36+07:00** - [Activity #5386] refactor(state): migrate photo session state management to zustand store
