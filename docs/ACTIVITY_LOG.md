@@ -4341,3 +4341,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T11:31:02+07:00** - [Activity #3592] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-05-12T11:52:47+07:00** - [Activity #3593] feat(share): generate instant QR code for mobile photo download
 - **2026-05-12T12:00:10+07:00** - [Activity #3594] fix(auth): prevent race condition when initializing anonymous session
+- **2026-05-12T12:11:24+07:00** - [Activity #3595] chore(config): adjust tsconfig path aliases for cleaner imports
