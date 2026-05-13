@@ -4386,3 +4386,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T11:02:20+07:00** - [Activity #3637] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-05-13T11:09:34+07:00** - [Activity #3638] refactor(api): modularize backend route handlers and validation utils
 - **2026-05-13T11:33:51+07:00** - [Activity #3639] style(cards): apply subtle border gradient and elevation shadows
+- **2026-05-13T11:45:40+07:00** - [Activity #3640] chore(config): adjust tsconfig path aliases for cleaner imports
