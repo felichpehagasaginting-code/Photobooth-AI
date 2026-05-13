@@ -10030,3 +10030,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T22:34:24+07:00** - [Activity #5403] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-13T09:00:26+07:00** - [Activity #5404] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-05-13T09:23:06+07:00** - [Activity #5405] feat(audio): add shutter click and countdown sound effects
+- **2026-05-13T09:29:36+07:00** - [Activity #5406] fix(audio): unlock audio context on initial user gesture
