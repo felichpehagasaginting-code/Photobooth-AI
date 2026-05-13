@@ -4398,3 +4398,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T14:59:52+07:00** - [Activity #3649] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-13T15:05:37+07:00** - [Activity #3650] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-13T15:21:27+07:00** - [Activity #3651] refactor(export): optimize collage rendering algorithm for speed
+- **2026-05-13T15:38:24+07:00** - [Activity #3652] fix(export): handle canvas taint error when loading external assets
