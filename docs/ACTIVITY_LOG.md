@@ -10070,3 +10070,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T21:26:05+07:00** - [Activity #5443] docs(env): document all required environment variables with defaults
 - **2026-05-13T21:59:07+07:00** - [Activity #5444] style(theme): update dark mode accent color tokens with warm tone
 - **2026-05-13T22:08:01+07:00** - [Activity #5445] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-05-13T22:21:24+07:00** - [Activity #5446] style(cards): apply subtle border gradient and elevation shadows
