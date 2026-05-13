@@ -10028,3 +10028,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T22:00:52+07:00** - [Activity #5401] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-12T22:16:29+07:00** - [Activity #5402] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-05-12T22:34:24+07:00** - [Activity #5403] feat(print): integrate direct thermal printer web serial interface
+- **2026-05-13T09:00:26+07:00** - [Activity #5404] fix(filter): fix gamma correction clipping on high brightness scenes
