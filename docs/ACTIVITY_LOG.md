@@ -4417,3 +4417,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T20:54:21+07:00** - [Activity #3668] fix(auth): prevent race condition when initializing anonymous session
 - **2026-05-13T21:23:12+07:00** - [Activity #3669] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-05-13T21:33:08+07:00** - [Activity #3670] fix(state): sync active photo index when reopening gallery drawer
+- **2026-05-13T21:48:13+07:00** - [Activity #3671] feat(kiosk): add full-screen lock and inactivity reset timer
