@@ -4376,3 +4376,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-12T22:06:09+07:00** - [Activity #3627] fix(api): validate payload schema before processing seed request
 - **2026-05-12T22:21:47+07:00** - [Activity #3628] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-05-13T09:04:48+07:00** - [Activity #3629] feat(analytics): log anonymous capture session completion metrics
+- **2026-05-13T09:18:19+07:00** - [Activity #3630] docs(api): document endpoint parameters and error codes for seed route
