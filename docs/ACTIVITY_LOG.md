@@ -4383,3 +4383,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T10:07:53+07:00** - [Activity #3634] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-13T10:23:31+07:00** - [Activity #3635] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-05-13T10:43:58+07:00** - [Activity #3636] chore(git): add ignore rules for local session exports and temp files
+- **2026-05-13T11:02:20+07:00** - [Activity #3637] fix(download): resolve blob URL memory leak on repeated downloads
