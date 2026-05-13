@@ -4404,3 +4404,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T16:26:45+07:00** - [Activity #3655] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-05-13T16:32:26+07:00** - [Activity #3656] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-05-13T16:51:53+07:00** - [Activity #3657] refactor(api): modularize backend route handlers and validation utils
+- **2026-05-13T16:55:31+07:00** - [Activity #3658] docs(readme): add detailed hardware camera setup and compatibility guide
