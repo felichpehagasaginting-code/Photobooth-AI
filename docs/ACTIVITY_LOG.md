@@ -4406,3 +4406,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T16:51:53+07:00** - [Activity #3657] refactor(api): modularize backend route handlers and validation utils
 - **2026-05-13T16:55:31+07:00** - [Activity #3658] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-13T17:06:28+07:00** - [Activity #3659] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-05-13T17:23:54+07:00** - [Activity #3660] style(typography): refine letter-spacing and hierarchy for hero heading
