@@ -10042,3 +10042,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T11:56:25+07:00** - [Activity #5415] fix(auth): prevent race condition when initializing anonymous session
 - **2026-05-13T12:16:28+07:00** - [Activity #5416] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-13T13:46:34+07:00** - [Activity #5417] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-05-13T14:01:44+07:00** - [Activity #5418] fix(camera): prevent stream freeze on rapid device re-plug
