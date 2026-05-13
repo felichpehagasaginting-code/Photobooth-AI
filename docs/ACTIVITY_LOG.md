@@ -4413,3 +4413,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T19:47:00+07:00** - [Activity #3664] fix(firebase): handle network timeout retry in transaction hook
 - **2026-05-13T20:10:43+07:00** - [Activity #3665] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-05-13T20:26:38+07:00** - [Activity #3666] style(theme): update dark mode accent color tokens with warm tone
+- **2026-05-13T20:44:18+07:00** - [Activity #3667] feat(preview): render live filter preview using WebGL shader canvas
