@@ -4415,3 +4415,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T20:26:38+07:00** - [Activity #3666] style(theme): update dark mode accent color tokens with warm tone
 - **2026-05-13T20:44:18+07:00** - [Activity #3667] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-05-13T20:54:21+07:00** - [Activity #3668] fix(auth): prevent race condition when initializing anonymous session
+- **2026-05-13T21:23:12+07:00** - [Activity #3669] perf(dom): virtualize gallery list items for smooth 60fps scrolling
