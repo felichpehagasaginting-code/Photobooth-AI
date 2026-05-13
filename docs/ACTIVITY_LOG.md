@@ -10041,3 +10041,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T11:48:20+07:00** - [Activity #5414] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-05-13T11:56:25+07:00** - [Activity #5415] fix(auth): prevent race condition when initializing anonymous session
 - **2026-05-13T12:16:28+07:00** - [Activity #5416] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-05-13T13:46:34+07:00** - [Activity #5417] feat(filter): add cyber-neon and grain texture post-processing overlay
