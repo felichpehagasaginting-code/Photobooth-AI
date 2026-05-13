@@ -4382,3 +4382,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T09:52:13+07:00** - [Activity #3633] chore(deps): update core dependencies to latest stable versions
 - **2026-05-13T10:07:53+07:00** - [Activity #3634] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-13T10:23:31+07:00** - [Activity #3635] perf(render): memoize grid item rendering to prevent redundant cycles
+- **2026-05-13T10:43:58+07:00** - [Activity #3636] chore(git): add ignore rules for local session exports and temp files
