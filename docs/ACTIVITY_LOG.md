@@ -10057,3 +10057,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T16:40:16+07:00** - [Activity #5430] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-05-13T16:59:29+07:00** - [Activity #5431] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-13T17:00:12+07:00** - [Activity #5432] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-05-13T17:18:52+07:00** - [Activity #5433] perf(fonts): preload display typography to eliminate FOIT delay
