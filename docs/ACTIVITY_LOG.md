@@ -4429,3 +4429,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T11:05:08+07:00** - [Activity #3680] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-14T11:24:13+07:00** - [Activity #3681] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-05-14T11:43:58+07:00** - [Activity #3682] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-05-14T12:15:25+07:00** - [Activity #3683] chore(ci): adjust GitHub Actions caching for faster test execution
