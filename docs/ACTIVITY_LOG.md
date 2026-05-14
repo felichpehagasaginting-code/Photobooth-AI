@@ -10085,3 +10085,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T11:40:38+07:00** - [Activity #5458] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-14T11:54:04+07:00** - [Activity #5459] feat(ai): integrate edge background removal model
 - **2026-05-14T12:11:53+07:00** - [Activity #5460] chore(git): add ignore rules for local session exports and temp files
+- **2026-05-14T13:47:34+07:00** - [Activity #5461] refactor(styles): migrate hardcoded color values to CSS design tokens
