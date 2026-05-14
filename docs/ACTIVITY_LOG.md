@@ -4420,3 +4420,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-13T21:48:13+07:00** - [Activity #3671] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-13T22:14:46+07:00** - [Activity #3672] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-13T22:30:36+07:00** - [Activity #3673] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-05-14T09:00:50+07:00** - [Activity #3674] style(modal): fine-tune cubic-bezier easing curves on open transition
