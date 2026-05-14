@@ -4432,3 +4432,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T12:15:25+07:00** - [Activity #3683] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-05-14T13:50:50+07:00** - [Activity #3684] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-05-14T13:57:56+07:00** - [Activity #3685] style(shutter): design circular pulsating shutter button with feedback
+- **2026-05-14T14:14:05+07:00** - [Activity #3686] feat(preview): render live filter preview using WebGL shader canvas
