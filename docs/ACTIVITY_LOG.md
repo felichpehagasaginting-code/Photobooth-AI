@@ -10090,3 +10090,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T14:05:25+07:00** - [Activity #5463] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-14T14:19:08+07:00** - [Activity #5464] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-05-14T14:36:38+07:00** - [Activity #5465] docs(env): document all required environment variables with defaults
+- **2026-05-14T14:38:27+07:00** - [Activity #5466] docs(arch): add architecture diagram explaining client-side filter flow
