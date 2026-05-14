@@ -4426,3 +4426,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T09:55:07+07:00** - [Activity #3677] feat(stickers): support draggable and resizable decorative stickers
 - **2026-05-14T10:28:08+07:00** - [Activity #3678] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-05-14T10:44:40+07:00** - [Activity #3679] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-05-14T11:05:08+07:00** - [Activity #3680] refactor(filter): organize color grading matrices into separate configs
