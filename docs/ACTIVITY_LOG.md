@@ -4452,3 +4452,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T20:31:18+07:00** - [Activity #3703] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-05-14T20:54:13+07:00** - [Activity #3704] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-05-14T21:11:37+07:00** - [Activity #3705] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-05-14T21:41:57+07:00** - [Activity #3706] feat(watermark): customizable event logo watermark overlay
