@@ -10102,3 +10102,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T16:32:25+07:00** - [Activity #5475] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-14T16:37:40+07:00** - [Activity #5476] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-05-14T16:58:49+07:00** - [Activity #5477] refactor(state): migrate photo session state management to zustand store
+- **2026-05-14T17:10:13+07:00** - [Activity #5478] fix(state): sync active photo index when reopening gallery drawer
