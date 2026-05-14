@@ -4438,3 +4438,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T15:04:23+07:00** - [Activity #3689] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-05-14T15:30:41+07:00** - [Activity #3690] style(grid): modernize layout overlap for bento-style elements
 - **2026-05-14T15:45:58+07:00** - [Activity #3691] feat(stickers): support draggable and resizable decorative stickers
+- **2026-05-14T15:46:51+07:00** - [Activity #3692] fix(export): handle canvas taint error when loading external assets
