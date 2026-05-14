@@ -4443,3 +4443,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T16:15:53+07:00** - [Activity #3694] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-05-14T16:48:43+07:00** - [Activity #3695] refactor(camera): extract media stream hook into standalone module
 - **2026-05-14T16:54:13+07:00** - [Activity #3696] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-05-14T17:17:00+07:00** - [Activity #3697] chore(deps): update core dependencies to latest stable versions
