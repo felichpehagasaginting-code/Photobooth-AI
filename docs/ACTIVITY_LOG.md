@@ -10110,3 +10110,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T19:52:24+07:00** - [Activity #5483] feat(cloud): async upload queue for batch photo backup
 - **2026-05-14T19:56:32+07:00** - [Activity #5484] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-05-14T20:21:49+07:00** - [Activity #5485] feat(watermark): customizable event logo watermark overlay
+- **2026-05-14T20:29:40+07:00** - [Activity #5486] refactor(hooks): create custom useDebounce and useThrottle utilities
