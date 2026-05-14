@@ -4441,3 +4441,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T15:46:51+07:00** - [Activity #3692] fix(export): handle canvas taint error when loading external assets
 - **2026-05-14T16:10:44+07:00** - [Activity #3693] perf(anim): offload countdown animations to GPU composited layers
 - **2026-05-14T16:15:53+07:00** - [Activity #3694] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-05-14T16:48:43+07:00** - [Activity #3695] refactor(camera): extract media stream hook into standalone module
