@@ -4449,3 +4449,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T19:30:59+07:00** - [Activity #3700] style(shutter): design circular pulsating shutter button with feedback
 - **2026-05-14T19:46:29+07:00** - [Activity #3701] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-05-14T20:15:17+07:00** - [Activity #3702] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-05-14T20:31:18+07:00** - [Activity #3703] style(photobooth): refine backdrop blur and color contrast for dark mode
