@@ -4440,3 +4440,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T15:45:58+07:00** - [Activity #3691] feat(stickers): support draggable and resizable decorative stickers
 - **2026-05-14T15:46:51+07:00** - [Activity #3692] fix(export): handle canvas taint error when loading external assets
 - **2026-05-14T16:10:44+07:00** - [Activity #3693] perf(anim): offload countdown animations to GPU composited layers
+- **2026-05-14T16:15:53+07:00** - [Activity #3694] feat(preview): render live filter preview using WebGL shader canvas
