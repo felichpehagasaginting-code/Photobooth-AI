@@ -10088,3 +10088,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T13:47:34+07:00** - [Activity #5461] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-05-14T13:56:05+07:00** - [Activity #5462] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-14T14:05:25+07:00** - [Activity #5463] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-05-14T14:19:08+07:00** - [Activity #5464] refactor(hooks): create custom useDebounce and useThrottle utilities
