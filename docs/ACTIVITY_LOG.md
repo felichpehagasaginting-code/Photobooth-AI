@@ -4454,3 +4454,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T21:11:37+07:00** - [Activity #3705] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-05-14T21:41:57+07:00** - [Activity #3706] feat(watermark): customizable event logo watermark overlay
 - **2026-05-14T21:56:15+07:00** - [Activity #3707] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-05-14T22:23:02+07:00** - [Activity #3708] fix(print): fix page margin clipping on 4x6 photo paper print preview
