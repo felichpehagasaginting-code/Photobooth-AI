@@ -10098,3 +10098,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T15:42:16+07:00** - [Activity #5471] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-14T16:06:48+07:00** - [Activity #5472] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-05-14T16:16:51+07:00** - [Activity #5473] fix(state): sync active photo index when reopening gallery drawer
+- **2026-05-14T16:19:15+07:00** - [Activity #5474] feat(ui): implement smooth countdown overlay animation before shutter
