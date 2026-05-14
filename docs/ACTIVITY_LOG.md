@@ -10113,3 +10113,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T20:29:40+07:00** - [Activity #5486] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-05-14T20:47:55+07:00** - [Activity #5487] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-05-14T21:00:11+07:00** - [Activity #5488] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-14T21:31:04+07:00** - [Activity #5489] refactor(hooks): create custom useDebounce and useThrottle utilities
