@@ -4424,3 +4424,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T09:28:38+07:00** - [Activity #3675] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-05-14T09:36:11+07:00** - [Activity #3676] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-05-14T09:55:07+07:00** - [Activity #3677] feat(stickers): support draggable and resizable decorative stickers
+- **2026-05-14T10:28:08+07:00** - [Activity #3678] docs(deploy): add production deployment instructions for Vercel/Docker
