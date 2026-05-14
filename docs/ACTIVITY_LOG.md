@@ -10103,3 +10103,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T16:37:40+07:00** - [Activity #5476] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-05-14T16:58:49+07:00** - [Activity #5477] refactor(state): migrate photo session state management to zustand store
 - **2026-05-14T17:10:13+07:00** - [Activity #5478] fix(state): sync active photo index when reopening gallery drawer
+- **2026-05-14T17:30:10+07:00** - [Activity #5479] test(hooks): add test suite for camera stream lifecycle events
