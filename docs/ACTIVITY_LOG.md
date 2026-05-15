@@ -4474,3 +4474,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T14:29:46+07:00** - [Activity #3725] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-15T14:53:44+07:00** - [Activity #3726] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-05-15T15:02:29+07:00** - [Activity #3727] docs(env): document all required environment variables with defaults
+- **2026-05-15T15:21:33+07:00** - [Activity #3728] feat(audio): add shutter click and countdown sound effects
