@@ -4466,3 +4466,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T11:17:08+07:00** - [Activity #3717] style(shutter): design circular pulsating shutter button with feedback
 - **2026-05-15T11:32:29+07:00** - [Activity #3718] chore(deps): update core dependencies to latest stable versions
 - **2026-05-15T11:56:51+07:00** - [Activity #3719] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-05-15T12:12:29+07:00** - [Activity #3720] feat(camera): add dynamic exposure and focus adjustment controls
