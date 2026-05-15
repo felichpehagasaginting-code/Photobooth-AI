@@ -10149,3 +10149,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T17:47:04+07:00** - [Activity #5522] fix(audio): unlock audio context on initial user gesture
 - **2026-05-15T19:30:56+07:00** - [Activity #5523] feat(stickers): support draggable and resizable decorative stickers
 - **2026-05-15T19:52:57+07:00** - [Activity #5524] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-05-15T20:15:17+07:00** - [Activity #5525] style(photobooth): refine backdrop blur and color contrast for dark mode
