@@ -4482,3 +4482,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T16:32:02+07:00** - [Activity #3733] style(badge): update status indicator badge colors and glow effects
 - **2026-05-15T16:35:31+07:00** - [Activity #3734] refactor(api): modularize backend route handlers and validation utils
 - **2026-05-15T16:44:03+07:00** - [Activity #3735] refactor(services): separate cloud storage adapter from UI layer
+- **2026-05-15T16:58:14+07:00** - [Activity #3736] refactor(hooks): create custom useDebounce and useThrottle utilities
