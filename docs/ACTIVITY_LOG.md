@@ -10128,3 +10128,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T11:00:04+07:00** - [Activity #5501] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-15T11:19:52+07:00** - [Activity #5502] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-05-15T11:30:49+07:00** - [Activity #5503] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-05-15T11:49:16+07:00** - [Activity #5504] feat(kiosk): add full-screen lock and inactivity reset timer
