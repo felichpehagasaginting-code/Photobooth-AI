@@ -10154,3 +10154,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T20:47:36+07:00** - [Activity #5527] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-15T21:12:56+07:00** - [Activity #5528] refactor(types): consolidate photobooth session type definitions
 - **2026-05-15T21:30:22+07:00** - [Activity #5529] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-05-15T21:42:29+07:00** - [Activity #5530] fix(qr): adjust QR code contrast ratio for low-light scanning
