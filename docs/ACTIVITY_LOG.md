@@ -4458,3 +4458,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T09:01:08+07:00** - [Activity #3709] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-15T09:22:21+07:00** - [Activity #3710] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-05-15T09:34:37+07:00** - [Activity #3711] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-05-15T09:52:02+07:00** - [Activity #3712] refactor(camera): extract media stream hook into standalone module
