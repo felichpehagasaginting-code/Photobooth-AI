@@ -4470,3 +4470,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T13:50:56+07:00** - [Activity #3721] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-05-15T13:53:33+07:00** - [Activity #3722] feat(share): generate instant QR code for mobile photo download
 - **2026-05-15T14:16:34+07:00** - [Activity #3723] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-05-15T14:28:08+07:00** - [Activity #3724] style(cards): apply subtle border gradient and elevation shadows
