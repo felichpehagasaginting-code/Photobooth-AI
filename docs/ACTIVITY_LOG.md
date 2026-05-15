@@ -4479,3 +4479,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T15:36:17+07:00** - [Activity #3730] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-05-15T15:56:58+07:00** - [Activity #3731] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-15T16:21:45+07:00** - [Activity #3732] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-05-15T16:32:02+07:00** - [Activity #3733] style(badge): update status indicator badge colors and glow effects
