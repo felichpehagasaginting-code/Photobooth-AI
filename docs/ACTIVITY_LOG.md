@@ -4486,3 +4486,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T17:17:33+07:00** - [Activity #3737] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-15T17:40:31+07:00** - [Activity #3738] style(badge): update status indicator badge colors and glow effects
 - **2026-05-15T17:56:17+07:00** - [Activity #3739] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-05-15T19:35:30+07:00** - [Activity #3740] refactor(events): use custom event bus for decoupled component messaging
