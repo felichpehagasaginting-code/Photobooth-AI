@@ -4455,3 +4455,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-14T21:41:57+07:00** - [Activity #3706] feat(watermark): customizable event logo watermark overlay
 - **2026-05-14T21:56:15+07:00** - [Activity #3707] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-05-14T22:23:02+07:00** - [Activity #3708] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-05-15T09:01:08+07:00** - [Activity #3709] fix(state): sync active photo index when reopening gallery drawer
