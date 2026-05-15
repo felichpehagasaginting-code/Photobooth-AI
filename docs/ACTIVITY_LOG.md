@@ -10139,3 +10139,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T15:08:22+07:00** - [Activity #5512] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-15T15:37:12+07:00** - [Activity #5513] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-15T15:40:37+07:00** - [Activity #5514] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-05-15T15:50:08+07:00** - [Activity #5515] refactor(utils): streamline color conversion and hex parsing helpers
