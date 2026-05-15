@@ -4476,3 +4476,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T15:02:29+07:00** - [Activity #3727] docs(env): document all required environment variables with defaults
 - **2026-05-15T15:21:33+07:00** - [Activity #3728] feat(audio): add shutter click and countdown sound effects
 - **2026-05-15T15:36:08+07:00** - [Activity #3729] feat(preset): allow custom framing border selection per session
+- **2026-05-15T15:36:17+07:00** - [Activity #3730] chore(lint): configure ESLint rules for react hooks and accessibility
