@@ -10151,3 +10151,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T19:52:57+07:00** - [Activity #5524] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-05-15T20:15:17+07:00** - [Activity #5525] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-05-15T20:28:51+07:00** - [Activity #5526] style(button): add subtle hover transition and outline focus style
+- **2026-05-15T20:47:36+07:00** - [Activity #5527] feat(settings): add camera device selector with resolution fallbacks
