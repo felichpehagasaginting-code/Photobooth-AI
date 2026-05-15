@@ -4494,3 +4494,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T21:12:15+07:00** - [Activity #3745] refactor(api): modularize backend route handlers and validation utils
 - **2026-05-15T21:29:04+07:00** - [Activity #3746] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-15T21:38:20+07:00** - [Activity #3747] feat(analytics): log anonymous capture session completion metrics
+- **2026-05-15T22:08:26+07:00** - [Activity #3748] perf(dom): virtualize gallery list items for smooth 60fps scrolling
