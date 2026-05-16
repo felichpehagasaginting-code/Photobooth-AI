@@ -10162,3 +10162,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-16T10:24:17+07:00** - [Activity #5535] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-05-16T11:07:56+07:00** - [Activity #5536] style(cards): apply subtle border gradient and elevation shadows
 - **2026-05-16T11:50:22+07:00** - [Activity #5537] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-05-16T13:45:12+07:00** - [Activity #5538] docs(env): document all required environment variables with defaults
