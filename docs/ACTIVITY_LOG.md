@@ -4506,3 +4506,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-16T14:40:41+07:00** - [Activity #3757] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-16T15:16:16+07:00** - [Activity #3758] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-05-16T15:55:46+07:00** - [Activity #3759] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-05-16T16:15:10+07:00** - [Activity #3760] refactor(services): separate cloud storage adapter from UI layer
