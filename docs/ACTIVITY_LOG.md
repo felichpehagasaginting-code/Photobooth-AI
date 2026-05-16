@@ -4512,3 +4512,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-16T19:30:02+07:00** - [Activity #3763] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-05-16T20:17:42+07:00** - [Activity #3764] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-05-16T21:00:41+07:00** - [Activity #3765] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-05-16T22:03:40+07:00** - [Activity #3766] fix(qr): adjust QR code contrast ratio for low-light scanning
