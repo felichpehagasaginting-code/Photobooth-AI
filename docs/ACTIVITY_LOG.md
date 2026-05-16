@@ -4497,3 +4497,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-15T22:08:26+07:00** - [Activity #3748] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-05-15T22:18:14+07:00** - [Activity #3749] style(badge): update status indicator badge colors and glow effects
 - **2026-05-16T09:05:05+07:00** - [Activity #3750] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-05-16T09:38:02+07:00** - [Activity #3751] refactor(export): optimize collage rendering algorithm for speed
