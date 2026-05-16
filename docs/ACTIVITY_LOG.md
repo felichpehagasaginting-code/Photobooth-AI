@@ -10170,3 +10170,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-16T16:41:43+07:00** - [Activity #5543] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-05-16T17:31:12+07:00** - [Activity #5544] feat(preset): allow custom framing border selection per session
 - **2026-05-16T19:31:38+07:00** - [Activity #5545] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-05-16T20:15:04+07:00** - [Activity #5546] fix(print): fix page margin clipping on 4x6 photo paper print preview
