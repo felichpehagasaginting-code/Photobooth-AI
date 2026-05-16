@@ -4508,3 +4508,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-16T15:55:46+07:00** - [Activity #3759] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-05-16T16:15:10+07:00** - [Activity #3760] refactor(services): separate cloud storage adapter from UI layer
 - **2026-05-16T17:03:01+07:00** - [Activity #3761] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-05-16T17:27:34+07:00** - [Activity #3762] fix(accessibility): add missing aria-labels to icon action buttons
