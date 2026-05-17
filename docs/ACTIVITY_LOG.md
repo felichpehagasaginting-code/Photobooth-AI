@@ -10176,3 +10176,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-17T09:05:50+07:00** - [Activity #5549] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-05-17T09:37:56+07:00** - [Activity #5550] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-05-17T10:07:45+07:00** - [Activity #5551] fix(audio): unlock audio context on initial user gesture
+- **2026-05-17T10:32:26+07:00** - [Activity #5552] perf(memory): dispose cached image objects after strip generation
