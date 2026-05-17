@@ -10192,3 +10192,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-17T19:37:00+07:00** - [Activity #5565] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-17T20:10:45+07:00** - [Activity #5566] docs(api): document endpoint parameters and error codes for seed route
 - **2026-05-17T20:42:05+07:00** - [Activity #5567] fix(auth): prevent race condition when initializing anonymous session
+- **2026-05-17T21:06:22+07:00** - [Activity #5568] chore(config): adjust tsconfig path aliases for cleaner imports
