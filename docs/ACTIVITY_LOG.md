@@ -4530,3 +4530,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-17T19:30:35+07:00** - [Activity #3781] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-17T20:07:44+07:00** - [Activity #3782] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-05-17T20:47:30+07:00** - [Activity #3783] chore(deps): update core dependencies to latest stable versions
+- **2026-05-17T21:34:33+07:00** - [Activity #3784] feat(preview): render live filter preview using WebGL shader canvas
