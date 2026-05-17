@@ -4522,3 +4522,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-17T13:45:29+07:00** - [Activity #3773] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-05-17T14:25:52+07:00** - [Activity #3774] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-05-17T14:43:53+07:00** - [Activity #3775] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-05-17T15:23:02+07:00** - [Activity #3776] perf(memory): dispose cached image objects after strip generation
