@@ -10183,3 +10183,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-17T13:45:11+07:00** - [Activity #5556] feat(share): generate instant QR code for mobile photo download
 - **2026-05-17T14:22:39+07:00** - [Activity #5557] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-05-17T14:49:42+07:00** - [Activity #5558] test(utils): add unit tests for image aspect ratio calculator
+- **2026-05-17T15:12:12+07:00** - [Activity #5559] feat(camera): add dynamic exposure and focus adjustment controls
