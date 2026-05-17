@@ -6,20 +6,35 @@ import { usePhotoboothStore } from '@/store/photobooth';
 import { Button } from '@/components/ui/button';
 
 export default function CapturedPreview() {
-  const { capturedPhoto, setStep, goBack, clearFilters, language } = usePhotoboothStore();
+  const { 
+    capturedPhotos, 
+    setStep, 
+    language,
+    currentTake,
+    takeCount,
+    incrementTake,
+    removeLastCapturedPhoto
+  } = usePhotoboothStore();
+
+  const currentPhoto = capturedPhotos[capturedPhotos.length - 1];
 
   const t = (id: string, en: string) => (language === 'id' ? id : en);
 
   const handleRetake = () => {
-    clearFilters();
-    goBack();
+    removeLastCapturedPhoto();
+    setStep('camera');
   };
 
-  const handleChooseFilter = () => {
-    setStep('filter-select');
+  const handleNext = () => {
+    if (currentTake < takeCount) {
+      incrementTake();
+      setStep('camera');
+    } else {
+      setStep('filter-select');
+    }
   };
 
-  if (!capturedPhoto) {
+  if (!currentPhoto) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[#0A0A0F]">
         <p className="text-muted-foreground">{t('Tidak ada foto', 'No photo captured')}</p>
@@ -40,7 +55,7 @@ export default function CapturedPreview() {
           </button>
           <div>
             <h2 className="text-lg font-bold text-white tracking-tight">
-              {t('Pratinjau Foto', 'Photo Preview')}
+              {t(`Pratinjau Foto ${currentTake} / ${takeCount}`, `Photo Preview ${currentTake} / ${takeCount}`)}
             </h2>
             <p className="text-xs text-muted-foreground">
               {t('Puaskah dengan hasilnya?', 'Happy with the result?')}
@@ -75,7 +90,7 @@ export default function CapturedPreview() {
 
             {/* Image */}
             <img
-              src={capturedPhoto.original}
+              src={currentPhoto.original}
               alt="Captured photo"
               className="w-full h-auto object-contain pt-10"
             />
@@ -85,7 +100,7 @@ export default function CapturedPreview() {
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-[#06D6A0]" />
                 <span className="text-white/60 text-xs font-medium">
-                  {new Date(capturedPhoto.timestamp).toLocaleTimeString(language === 'id' ? 'id-ID' : 'en-US', { hour: '2-digit', minute: '2-digit' })}
+                  {new Date(currentPhoto.timestamp).toLocaleTimeString(language === 'id' ? 'id-ID' : 'en-US', { hour: '2-digit', minute: '2-digit' })}
                 </span>
                 <span className="text-white/20 text-xs ml-auto">
                   AI Photobooth
@@ -105,12 +120,16 @@ export default function CapturedPreview() {
       {/* Action buttons */}
       <div className="sticky bottom-0 z-10 p-4 bg-gradient-to-t from-[#0A0A0F] via-[#0A0A0F]/95 to-transparent space-y-3">
         <Button
-          onClick={handleChooseFilter}
+          onClick={handleNext}
           className="relative w-full h-14 text-base font-bold rounded-2xl bg-gradient-to-r from-[#FF6B9D] to-[#FF8A65] hover:from-[#FF7BAE] hover:to-[#FF9B75] text-white shadow-glow-pink transition-all duration-300 scale-press overflow-hidden group"
         >
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
           <Sparkles className="w-5 h-5 mr-2 relative z-10" />
-          <span className="relative z-10">{t('Pilih Filter AI', 'Choose AI Filter')}</span>
+          <span className="relative z-10">
+            {currentTake < takeCount 
+              ? t(`Lanjut ke Foto ${currentTake + 1} →`, `Continue to Photo ${currentTake + 1} →`)
+              : t('Pilih Filter AI', 'Choose AI Filter')}
+          </span>
         </Button>
 
         <button

@@ -2,223 +2,282 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Settings, Languages, Zap, Sparkles } from 'lucide-react';
+import { Settings } from 'lucide-react';
 import { usePhotoboothStore } from '@/store/photobooth';
-import { Button } from '@/components/ui/button';
 
-const showcaseImages = [
-  { src: '/filters/anime-ghibli.png', name: 'Anime Ghibli', color: '#FF6B9D', style: 'label-en' as const },
-  { src: '/filters/cyberpunk.png', name: 'Cyberpunk Neon', color: '#A855F7', style: 'label-en' as const },
-  { src: '/filters/watercolor.png', name: 'Watercolor', color: '#4ECDC4', style: 'label-en' as const },
-  { src: '/filters/comic.png', name: 'Comic Book', color: '#60A5FA', style: 'label-en' as const },
-];
-
-// Floating orbs for hero
-function FloatingOrbs() {
+/* ── Repeating watermark ─────────────────────────────────────────────── */
+function WatermarkRow() {
+  const text = 'BOOTH CANVMIN ';
   return (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none">
-      {[
-        { size: 300, color: '#FF6B9D', top: '-10%', left: '-15%', delay: 0 },
-        { size: 200, color: '#A855F7', top: '60%', left: '80%', delay: 2 },
-        { size: 250, color: '#06D6A0', top: '40%', left: '-5%', delay: 4 },
-        { size: 150, color: '#FF8A65', top: '10%', left: '70%', delay: 1 },
-      ].map((orb, i) => (
-        <motion.div
-          key={i}
-          className="absolute rounded-full"
-          style={{
-            width: orb.size,
-            height: orb.size,
-            top: orb.top,
-            left: orb.left,
-            background: `radial-gradient(circle at 30% 30%, ${orb.color}15, transparent 70%)`,
-            filter: 'blur(40px)',
-          }}
-          animate={{
-            scale: [1, 1.1, 1],
-            opacity: [0.3, 0.6, 0.3],
-          }}
-          transition={{
-            duration: 6 + orb.delay,
-            repeat: Infinity,
-            ease: 'easeInOut',
-            delay: orb.delay,
-          }}
-        />
-      ))}
+    <div
+      className="whitespace-nowrap text-white/[0.07] font-black tracking-widest"
+      style={{ fontSize: '2.8rem', lineHeight: '1' }}
+    >
+      {text.repeat(8)}
     </div>
   );
 }
 
+/* ── Floating polaroid ───────────────────────────────────────────────── */
+interface PolaroidProps {
+  src: string;
+  rotation: number;
+  top: string;
+  left?: string;
+  right?: string;
+  width?: number;
+}
+
+function Polaroid({ src, rotation, top, left, right, width = 110 }: PolaroidProps) {
+  return (
+    <div
+      className="absolute shadow-2xl pointer-events-none"
+      style={{ top, left, right, width, transform: `rotate(${rotation}deg)` }}
+    >
+      <div className="rounded-sm overflow-hidden relative" style={{ height: width * 0.85 }}>
+        <div
+          className="absolute inset-0"
+          style={{
+            background: 'linear-gradient(135deg, #FFB3D1 0%, #E879A8 50%, #C2185B 100%)',
+          }}
+        />
+        <img src={src} alt="" className="absolute inset-0 w-full h-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+      </div>
+      <div className="bg-white pt-1 pb-2 px-1" />
+    </div>
+  );
+}
+
+const POLAROIDS: PolaroidProps[] = [
+  { src: '/filters/anime-ghibli.png', rotation: -18, top: '8%',  left: '0%',   width: 120 },
+  { src: '/filters/cyberpunk.png',    rotation: 12,  top: '2%',  left: '20%',  width: 100 },
+  { src: '/filters/watercolor.png',   rotation: -8,  top: '62%', left: '-2%',  width: 115 },
+  { src: '/filters/comic.png',        rotation: 15,  top: '72%', left: '12%',  width: 100 },
+  { src: '/filters/anime-ghibli.png', rotation: -12, top: '5%',  right: '0%',  width: 120 },
+  { src: '/filters/cyberpunk.png',    rotation: 10,  top: '38%', right: '-1%', width: 110 },
+  { src: '/filters/watercolor.png',   rotation: -15, top: '68%', right: '5%',  width: 105 },
+];
+
+const showcaseFilters = [
+  { name: 'Anime Ghibli', src: '/filters/anime-ghibli.png', color: '#FF6B9D' },
+  { name: 'Cyberpunk Neon', src: '/filters/cyberpunk.png', color: '#A855F7' },
+  { name: 'Watercolor', src: '/filters/watercolor.png', color: '#4ECDC4' },
+  { name: 'Comic Book', src: '/filters/comic.png', color: '#60A5FA' },
+];
+
+/* ── Main Component ──────────────────────────────────────────────────── */
 export default function IdleScreen() {
   const { setStep, language, setLanguage } = usePhotoboothStore();
   const [showcaseIndex, setShowcaseIndex] = useState(0);
+  const [isPressed, setIsPressed] = useState(false);
 
-  const handleAdminClick = useCallback(() => {
-    setStep('admin-login');
-  }, [setStep]);
-
+  const handleAdminClick = useCallback(() => setStep('admin-login'), [setStep]);
   const t = (id: string, en: string) => (language === 'id' ? id : en);
 
-  // Auto-rotate showcase
   useEffect(() => {
     const interval = setInterval(() => {
-      setShowcaseIndex((prev) => (prev + 1) % showcaseImages.length);
-    }, 4500);
+      setShowcaseIndex((prev) => (prev + 1) % showcaseFilters.length);
+    }, 4000);
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-[#06060A]">
-      {/* Premium gradient background */}
-      <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0A0A0F] via-[#0C0718] to-[#0A0A0F]" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,107,157,0.03)_0%,transparent_70%)]" />
+    <div
+      className="relative min-h-screen overflow-hidden select-none flex flex-col"
+      style={{ background: 'linear-gradient(135deg, #E8629A 0%, #C9479D 25%, #A83BA8 50%, #8B35B0 75%, #7B2FBE 100%)' }}
+    >
+      {/* ── Watermark background ── */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none flex flex-col justify-around py-4 gap-2">
+        {[0, -80, -40, -120, -20, -100, -60, -30].map((_, i) => (
+          <motion.div
+            key={i}
+            animate={{ x: [0, -60, 0] }}
+            transition={{ duration: 22 + i * 2.5, repeat: Infinity, ease: 'linear', delay: i * 1.2 }}
+          >
+            <WatermarkRow />
+          </motion.div>
+        ))}
       </div>
 
-      <FloatingOrbs />
-
-      {/* Subtle grid pattern for texture */}
-      <div
-        className="absolute inset-0 opacity-[0.015]"
-        style={{
-          backgroundImage: 'radial-gradient(circle, #FFFFFF 1px, transparent 1px)',
-          backgroundSize: '40px 40px',
-        }}
-      />
-
-      {/* Content */}
-      <div className="relative z-10 flex flex-col items-center gap-10 px-6 text-center">
-        {/* Logo & Brand */}
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
-          className="flex flex-col items-center gap-5"
-        >
-          {/* Logo ring */}
+      {/* ── Polaroid decorations ── */}
+      <div className="absolute inset-0 pointer-events-none">
+        {POLAROIDS.map((p, i) => (
           <motion.div
-            animate={{
-              boxShadow: [
-                '0 0 20px rgba(255,107,157,0.2), 0 0 40px rgba(255,107,157,0.05)',
-                '0 0 30px rgba(255,107,157,0.3), 0 0 60px rgba(255,107,157,0.1)',
-                '0 0 20px rgba(255,107,157,0.2), 0 0 40px rgba(255,107,157,0.05)',
-              ],
-            }}
-            transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
-            className="relative w-32 h-32 md:w-40 md:h-40 rounded-full"
+            key={i}
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: i * 0.1, duration: 0.6, ease: [0.34, 1.56, 0.64, 1] }}
           >
-            {/* Outer ring */}
-            <div className="absolute inset-0 rounded-full border border-[#FF6B9D]/20" />
-            <div className="absolute inset-1 rounded-full border border-[#FF6B9D]/10" />
-            {/* Logo image */}
-            <div className="absolute inset-2 rounded-full overflow-hidden bg-[#0A0A0F] shadow-ios-lg">
-              <img
-                src="/photobooth-logo.png"
-                alt="AI Photobooth"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            {/* Shimmer effect */}
-            <motion.div
-              className="absolute inset-0 rounded-full"
-              style={{
-                background: 'linear-gradient(135deg, transparent 30%, rgba(255,107,157,0.1) 50%, transparent 70%)',
-              }}
-              animate={{
-                rotate: [0, 360],
-              }}
-              transition={{ duration: 8, repeat: Infinity, ease: 'linear' }}
-            />
+            <Polaroid {...p} />
           </motion.div>
+        ))}
+      </div>
 
-          {/* Title */}
-          <div className="space-y-2">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-              <span className="text-white">AI </span>
-              <span className="text-gradient-pink">Photo</span>
-              <span className="text-white">booth</span>
-            </h1>
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.4 }}
-              className="text-base md:text-lg text-muted-foreground max-w-sm leading-relaxed"
-            >
-              {t(
-                'Abadikan momen dengan sentuhan magis AI, langsung cetak digital',
-                'Capture moments with AI magic, instant digital prints'
-              )}
-            </motion.p>
+      {/* ── Top navbar ── */}
+      <div
+        className="relative z-20 flex items-center justify-between px-5 py-3"
+        style={{ background: 'rgba(0,0,0,0.55)', backdropFilter: 'blur(12px)' }}
+      >
+        <span className="text-white font-bold text-base tracking-wide">Gemini</span>
+        {/* Gemini + brand logo cluster */}
+        <div className="flex items-center gap-2">
+          <div className="w-6 h-6 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
+            <span className="text-white text-[9px] font-black">G</span>
+          </div>
+          <span className="text-white/40 text-xs">×</span>
+          <div className="w-6 h-6 rounded-full bg-gradient-to-br from-pink-400 to-red-500 flex items-center justify-center">
+            <span className="text-white text-[9px] font-black">C</span>
+          </div>
+        </div>
+        <div className="flex items-center gap-2">
+          {/* Language toggle */}
+          <button
+            onClick={() => setLanguage(language === 'id' ? 'en' : 'id')}
+            className="px-3 py-1 rounded-full text-xs font-bold text-white/80 hover:text-white transition-colors"
+            style={{ background: 'rgba(255,255,255,0.12)' }}
+          >
+            {language.toUpperCase()}
+          </button>
+          {/* Admin */}
+          <button
+            onClick={handleAdminClick}
+            className="w-8 h-8 rounded-full flex items-center justify-center text-white/50 hover:text-white transition-colors"
+            style={{ background: 'rgba(255,255,255,0.08)' }}
+          >
+            <Settings className="w-4 h-4" />
+          </button>
+        </div>
+      </div>
+
+      {/* ── Center content ── */}
+      <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 text-center py-8">
+
+        {/* Power of */}
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+          className="flex items-center gap-2 mb-6"
+        >
+          <span className="text-white/60 text-xs font-semibold tracking-widest uppercase">POWER OF :</span>
+          <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center shadow-lg">
+            <span className="text-white text-xs font-black">G</span>
+          </div>
+          <span className="text-white/40 font-bold">×</span>
+          <div className="w-8 h-8 rounded-full bg-gradient-to-br from-pink-400 to-red-500 flex items-center justify-center shadow-lg">
+            <span className="text-white text-xs font-black">C</span>
           </div>
         </motion.div>
 
-        {/* Showcase carousel */}
+        {/* Logo circle */}
         <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.15, duration: 0.7, ease: [0.34, 1.56, 0.64, 1] }}
+          className="relative mb-6"
+        >
+          <div
+            className="w-28 h-28 md:w-36 md:h-36 rounded-full overflow-hidden border-4 shadow-2xl"
+            style={{
+              borderColor: 'rgba(255,255,255,0.4)',
+              background: 'linear-gradient(135deg, #FFB3D1, #E879A8)',
+            }}
+          >
+            <img
+              src="/photobooth-logo.png"
+              alt="AI Photobooth"
+              className="w-full h-full object-cover"
+              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+            />
+            {/* Rotating shimmer */}
+            <motion.div
+              className="absolute inset-0 rounded-full"
+              style={{ background: 'linear-gradient(135deg, transparent 40%, rgba(255,255,255,0.25) 50%, transparent 60%)' }}
+              animate={{ rotate: [0, 360] }}
+              transition={{ duration: 6, repeat: Infinity, ease: 'linear' }}
+            />
+          </div>
+          {/* Pulse ring */}
+          <motion.div
+            className="absolute inset-0 rounded-full border-2"
+            style={{ borderColor: 'rgba(255,255,255,0.3)' }}
+            animate={{ scale: [1, 1.15, 1], opacity: [0.5, 0, 0.5] }}
+            transition={{ duration: 2.5, repeat: Infinity, ease: 'easeInOut' }}
+          />
+        </motion.div>
+
+        {/* Title */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.25 }}
+          className="mb-3"
+        >
+          <h1 className="text-3xl md:text-5xl font-black text-white drop-shadow-lg leading-tight">
+            AI{' '}
+            <span style={{ fontStyle: 'italic' }}>Photo</span>booth
+          </h1>
+        </motion.div>
+
+        <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.3, duration: 0.8 }}
-          className="relative w-80 md:w-[420px]"
+          transition={{ delay: 0.35 }}
+          className="text-white/70 text-sm max-w-xs mb-8 leading-relaxed"
         >
-          {/* Main image */}
-          <div className="relative aspect-[4/3] rounded-3xl overflow-hidden bg-[#15151F] shadow-ios-lg border border-[#FFFFFF08]">
+          {t(
+            'Abadikan momen dengan sentuhan magis AI, langsung cetak digital',
+            'Capture moments with AI magic, instant digital prints'
+          )}
+        </motion.p>
+
+        {/* Showcase image */}
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4 }}
+          className="relative w-64 md:w-80 mb-8"
+        >
+          <div
+            className="relative rounded-2xl overflow-hidden shadow-2xl border"
+            style={{ aspectRatio: '4/3', borderColor: 'rgba(255,255,255,0.2)', background: 'rgba(0,0,0,0.3)' }}
+          >
             <AnimatePresence mode="wait">
               <motion.div
                 key={showcaseIndex}
-                initial={{ opacity: 0, scale: 1.05 }}
+                initial={{ opacity: 0, scale: 1.06 }}
                 animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.95 }}
-                transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
+                exit={{ opacity: 0, scale: 0.96 }}
+                transition={{ duration: 0.55 }}
                 className="absolute inset-0"
               >
                 <img
-                  src={showcaseImages[showcaseIndex]?.src}
-                  alt={showcaseImages[showcaseIndex]?.name}
+                  src={showcaseFilters[showcaseIndex]?.src}
+                  alt={showcaseFilters[showcaseIndex]?.name}
                   className="w-full h-full object-cover"
                 />
-                {/* Gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                <div className="absolute bottom-3 left-4 flex items-center gap-2">
+                  <div className="w-2 h-2 rounded-full" style={{ background: showcaseFilters[showcaseIndex]?.color }} />
+                  <span className="text-white text-sm font-semibold">{showcaseFilters[showcaseIndex]?.name}</span>
+                  <span className="text-white/40 text-xs ml-auto">AI Filter</span>
+                </div>
               </motion.div>
             </AnimatePresence>
-
-            {/* Bottom info bar */}
-            <div className="absolute bottom-0 left-0 right-0 p-4 flex items-center gap-3">
-              <div
-                className="w-2.5 h-2.5 rounded-full"
-                style={{ background: showcaseImages[showcaseIndex]?.color }}
-              />
-              <span className="text-white text-sm font-semibold tracking-wide">
-                {showcaseImages[showcaseIndex]?.name}
-              </span>
-              <span className="text-white/30 text-xs ml-auto tracking-widest uppercase">
-                AI Filter
-              </span>
-            </div>
-
-            {/* Top glass bar */}
-            <div className="absolute top-0 left-0 right-0 h-12 glass flex items-center px-4">
-              <div className="flex items-center gap-1.5">
-                <div className="w-2 h-2 rounded-full bg-red-400/80" />
-                <div className="w-2 h-2 rounded-full bg-yellow-400/80" />
-                <div className="w-2 h-2 rounded-full bg-green-400/80" />
-              </div>
-              <div className="flex-1 text-center text-[10px] text-white/40 font-medium tracking-wider uppercase">
-                AI Preview
-              </div>
-            </div>
           </div>
 
           {/* Dot indicators */}
-          <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 flex gap-2.5">
-            {showcaseImages.map((_, i) => (
+          <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 flex gap-2">
+            {showcaseFilters.map((_, i) => (
               <button
                 key={i}
                 onClick={() => setShowcaseIndex(i)}
-                className={`rounded-full transition-all duration-500 ease-out ${
-                  i === showcaseIndex
-                    ? 'bg-[#FF6B9D] w-8 h-2'
-                    : 'bg-white/10 w-2 h-2 hover:bg-white/25'
-                }`}
+                className="rounded-full transition-all duration-400"
+                style={{
+                  width: i === showcaseIndex ? 24 : 7,
+                  height: 7,
+                  background: i === showcaseIndex ? 'white' : 'rgba(255,255,255,0.3)',
+                }}
               />
             ))}
           </div>
@@ -229,83 +288,68 @@ export default function IdleScreen() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
-          className="flex flex-wrap justify-center gap-2.5 max-w-sm"
+          className="flex flex-wrap justify-center gap-2 max-w-xs mb-8"
         >
           {[
-            { label: t('8 AI Filter', '8 AI Filters'), color: '#FF6B9D' },
-            { label: t('Proses AI Real', 'Real AI Process'), color: '#06D6A0' },
-            { label: t('QRIS Payment', 'QRIS Payment'), color: '#A855F7' },
-            { label: t('Unduh Digital', 'Digital Download'), color: '#FF8A65' },
-          ].map((pill) => (
+            t('8 AI Filter', '8 AI Filters'),
+            t('Proses Real-time', 'Real-time AI'),
+            t('QRIS Payment', 'QRIS Payment'),
+            t('Download Digital', 'Digital Download'),
+          ].map((label) => (
             <span
-              key={pill.label}
-              className="px-3.5 py-2 rounded-full text-xs font-semibold border tracking-wide"
-              style={{
-                background: pill.color + '12',
-                color: pill.color,
-                borderColor: pill.color + '25',
-              }}
+              key={label}
+              className="px-3.5 py-1.5 rounded-full text-xs font-semibold text-white border"
+              style={{ background: 'rgba(255,255,255,0.12)', borderColor: 'rgba(255,255,255,0.25)' }}
             >
-              {pill.label}
+              {label}
             </span>
           ))}
         </motion.div>
 
         {/* CTA Button */}
-        <motion.div
+        <motion.button
+          id="start-button"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.7, duration: 0.6 }}
+          transition={{ delay: 0.6, duration: 0.5, ease: [0.34, 1.56, 0.64, 1] }}
+          onTapStart={() => setIsPressed(true)}
+          onTap={() => { setIsPressed(false); setStep('take-select'); }}
+          onTapCancel={() => setIsPressed(false)}
+          onClick={() => setStep('take-select')}
+          whileTap={{ scale: 0.95 }}
+          whileHover={{ scale: 1.03 }}
+          className="relative h-16 px-14 text-lg font-black text-white rounded-2xl overflow-hidden shadow-2xl"
+          style={{
+            background: 'linear-gradient(135deg, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.1) 100%)',
+            border: '2px solid rgba(255,255,255,0.4)',
+            backdropFilter: 'blur(12px)',
+          }}
         >
-          <Button
-            onClick={() => setStep('take-select')}
-            className="relative h-16 px-16 text-lg font-bold rounded-2xl bg-gradient-to-r from-[#FF6B9D] to-[#FF8A65] hover:from-[#FF7BAE] hover:to-[#FF9B75] text-white shadow-glow-pink transition-all duration-300 scale-press overflow-hidden group"
-          >
-            {/* Shimmer on hover */}
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
-            <Sparkles className="w-5 h-5 mr-2.5 relative z-10" />
-            <span className="relative z-10 tracking-wider">
-              {t('MULAI', 'START')}
-            </span>
-          </Button>
-        </motion.div>
+          {/* Shimmer */}
+          <motion.div
+            className="absolute inset-0"
+            style={{ background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent)' }}
+            animate={{ x: ['-100%', '200%'] }}
+            transition={{ duration: 2.5, repeat: Infinity, ease: 'linear', repeatDelay: 1 }}
+          />
+          <span className="relative z-10 tracking-widest uppercase">
+            ✨ {t('Mulai Sesi', 'Start Session')}
+          </span>
+        </motion.button>
 
-        {/* Subtitle hint */}
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 1 }}
-          className="text-xs text-white/25 tracking-widest uppercase"
+          transition={{ delay: 0.9 }}
+          className="mt-4 text-white/30 text-[10px] tracking-[0.3em] uppercase"
         >
           {t('Sentuh untuk memulai', 'Tap to begin')}
         </motion.p>
       </div>
 
-      {/* Top controls */}
-      <div className="absolute top-0 left-0 right-0 z-20 p-4 flex justify-between items-center">
-        {/* Language toggle */}
-        <button
-          onClick={() => setLanguage(language === 'id' ? 'en' : 'id')}
-          className="glass rounded-full px-4 py-2.5 flex items-center gap-2 text-white/70 hover:text-white transition-colors tap-none"
-        >
-          <Languages className="w-4 h-4" />
-          <span className="text-xs font-bold uppercase tracking-wider">{language}</span>
-        </button>
-
-        {/* Admin */}
-        <button
-          onClick={handleAdminClick}
-          className="w-10 h-10 rounded-full glass flex items-center justify-center text-white/40 hover:text-white transition-colors tap-none"
-        >
-          <Settings className="w-4 h-4" />
-        </button>
-      </div>
-
-      {/* Bottom branding */}
-      <div className="absolute bottom-6 left-0 right-0 text-center z-10">
-        <p className="text-[10px] text-white/15 tracking-[0.3em] uppercase">
-          Powered by Gemini AI
-        </p>
+      {/* ── Bottom branding ── */}
+      <div className="relative z-10 pb-4 text-center">
+        <p className="text-white/25 text-[10px] tracking-[0.3em] uppercase">Powered by Gemini AI</p>
       </div>
     </div>
   );

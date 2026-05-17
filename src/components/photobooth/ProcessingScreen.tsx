@@ -28,7 +28,7 @@ const LOADING_MESSAGES_EN = [
 
 export default function ProcessingScreen() {
   const {
-    capturedPhoto,
+    capturedPhotos,
     selectedFilters,
     filteredPhotos,
     addFilteredPhoto,
@@ -37,9 +37,6 @@ export default function ProcessingScreen() {
     currentProcessingFilter,
     setCurrentProcessingFilter,
     setStep,
-    takeCount,
-    currentTake,
-    incrementTake,
     clearFilters,
     language,
   } = usePhotoboothStore();
@@ -51,83 +48,76 @@ export default function ProcessingScreen() {
   const loadingMessages = language === 'id' ? LOADING_MESSAGES_ID : LOADING_MESSAGES_EN;
 
   useEffect(() => {
-    if (isProcessingRef.current || !capturedPhoto) return;
+    if (isProcessingRef.current || capturedPhotos.length === 0) return;
     isProcessingRef.current = true;
 
     const processAll = async () => {
+      const totalPhotos = capturedPhotos.length;
       const totalFilters = selectedFilters.length;
+      const totalTasks = totalPhotos * totalFilters;
+      let completedTasks = 0;
 
-      for (let i = 0; i < totalFilters; i++) {
-        const filter = selectedFilters[i];
-        setCurrentProcessingFilter(filter.name);
-        setProcessingProgress(Math.round((i / totalFilters) * 100));
+      for (let p = 0; p < totalPhotos; p++) {
+        const photo = capturedPhotos[p];
+        for (let i = 0; i < totalFilters; i++) {
+          const filter = selectedFilters[i];
+          setCurrentProcessingFilter(`${filter.name} (Take ${p + 1})`);
+          setProcessingProgress(Math.round((completedTasks / totalTasks) * 100));
 
-        try {
-          const res = await fetch('/api/generate-filter', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              image: capturedPhoto.original,
-              filterPrompt: filter.prompt || filter.name,
-              style: filter.style,
-              filterId: filter.id,
-              filterName: filter.name,
-            }),
-          });
+          try {
+            const res = await fetch('/api/generate-filter', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                image: photo.original,
+                filterPrompt: filter.prompt || filter.name,
+                style: filter.style,
+                filterId: filter.id,
+                filterName: filter.name,
+              }),
+            });
 
-          if (res.ok) {
-            const data = await res.json();
+            if (res.ok) {
+              const data = await res.json();
+              addFilteredPhoto({
+                original: photo.original,
+                filtered: data.filteredImage || photo.original,
+                filterName: filter.name,
+                filterId: filter.id,
+              });
+              setProviderLog((prev) => [...prev, `${filter.name} (T${p + 1}): ${data.provider || 'unknown'}`]);
+            } else {
+              addFilteredPhoto({
+                original: photo.original,
+                filtered: photo.original,
+                filterName: filter.name,
+                filterId: filter.id,
+              });
+              setProviderLog((prev) => [...prev, `${filter.name} (T${p + 1}): fallback`]);
+            }
+          } catch {
             addFilteredPhoto({
-              original: capturedPhoto.original,
-              filtered: data.filteredImage || capturedPhoto.original,
+              original: photo.original,
+              filtered: photo.original,
               filterName: filter.name,
               filterId: filter.id,
             });
-            setProviderLog((prev) => [...prev, `${filter.name}: ${data.provider || 'unknown'}`]);
-          } else {
-            addFilteredPhoto({
-              original: capturedPhoto.original,
-              filtered: capturedPhoto.original,
-              filterName: filter.name,
-              filterId: filter.id,
-            });
-            setProviderLog((prev) => [...prev, `${filter.name}: fallback`]);
+            setProviderLog((prev) => [...prev, `${filter.name} (T${p + 1}): error`]);
           }
-        } catch {
-          addFilteredPhoto({
-            original: capturedPhoto.original,
-            filtered: capturedPhoto.original,
-            filterName: filter.name,
-            filterId: filter.id,
-          });
-          setProviderLog((prev) => [...prev, `${filter.name}: error`]);
+          completedTasks++;
         }
       }
 
       setProcessingProgress(100);
 
-      // Decide next step based on remaining takes
+      // All takes and filters processed, go to download
       setTimeout(() => {
-        if (currentTake < takeCount) {
-          // More takes remaining - go back to camera
-          incrementTake();
-          clearFilters();
-          setStep('camera');
-        } else {
-          // All takes done - go to download
-          setStep('download');
-        }
+        setStep('download');
       }, 1000);
     };
 
     processAll();
-
-    return () => {
-      // Reset processing flag when leaving this screen
-      // so next take's processing can fire
-      isProcessingRef.current = false;
-    };
-  }, [capturedPhoto, selectedFilters, filteredPhotos.length, addFilteredPhoto, setCurrentProcessingFilter, setProcessingProgress, setStep, takeCount, currentTake, incrementTake, clearFilters]);
+  }, [capturedPhotos, selectedFilters, filteredPhotos.length, addFilteredPhoto, setCurrentProcessingFilter, setProcessingProgress, setStep, clearFilters]);
 
   const currentFilterIndex = selectedFilters.findIndex(
     (f) => f.name === currentProcessingFilter
@@ -181,10 +171,6 @@ export default function ProcessingScreen() {
               {loadingMessages[messageIndex]}
             </motion.p>
           </AnimatePresence>
-          {/* Take progress indicator */}
-          <p className="text-xs text-white/20 mt-1 font-mono">
-            Take {currentTake}/{takeCount}
-          </p>
         </div>
 
         {/* Current filter */}
@@ -221,9 +207,9 @@ export default function ProcessingScreen() {
           <div className="flex justify-between text-xs">
             <span className="text-white/40 font-medium">
               {selectedFilters.length > 0
-                ? `${Math.min(filteredPhotos.length % selectedFilters.length + 1, selectedFilters.length)}/${selectedFilters.length}`
+                ? `${Math.min(filteredPhotos.length, capturedPhotos.length * selectedFilters.length)}/${capturedPhotos.length * selectedFilters.length}`
                 : '0/0'}{' '}
-              {t('filter', 'filters')}
+              {t('proses', 'processes')}
             </span>
             <span className="text-[#FF6B9D] font-mono font-bold tabular-nums">
               {processingProgress}%

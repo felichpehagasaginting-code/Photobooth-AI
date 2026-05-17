@@ -29,8 +29,10 @@ interface PhotoboothState {
   incrementTake: () => void;
 
   // Camera
-  capturedPhoto: CapturedPhoto | null;
-  setCapturedPhoto: (photo: CapturedPhoto | null) => void;
+  capturedPhotos: CapturedPhoto[];
+  addCapturedPhoto: (photo: CapturedPhoto) => void;
+  removeLastCapturedPhoto: () => void;
+  clearCapturedPhotos: () => void;
 
   // Filters
   selectedFilters: FilterInfo[];
@@ -83,8 +85,10 @@ export const usePhotoboothStore = create<PhotoboothState>((set) => ({
   incrementTake: () => set((state) => ({ currentTake: state.currentTake + 1 })),
 
   // Camera
-  capturedPhoto: null,
-  setCapturedPhoto: (photo) => set({ capturedPhoto: photo }),
+  capturedPhotos: [],
+  addCapturedPhoto: (photo) => set((state) => ({ capturedPhotos: [...state.capturedPhotos, photo] })),
+  removeLastCapturedPhoto: () => set((state) => ({ capturedPhotos: state.capturedPhotos.slice(0, -1) })),
+  clearCapturedPhotos: () => set({ capturedPhotos: [] }),
 
   // Filters
   selectedFilters: [],
@@ -130,7 +134,7 @@ export const usePhotoboothStore = create<PhotoboothState>((set) => ({
     takeCount: 2,
     filtersPerTake: 2,
     currentTake: 1,
-    capturedPhoto: null,
+    capturedPhotos: [],
     selectedFilters: [],
     filteredPhotos: [],
     processingProgress: 0,
