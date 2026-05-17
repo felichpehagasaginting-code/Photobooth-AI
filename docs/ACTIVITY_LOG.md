@@ -10188,3 +10188,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-17T16:02:10+07:00** - [Activity #5561] feat(watermark): customizable event logo watermark overlay
 - **2026-05-17T16:43:32+07:00** - [Activity #5562] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-05-17T16:53:49+07:00** - [Activity #5563] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-05-17T17:35:19+07:00** - [Activity #5564] fix(camera): resolve aspect ratio distortion on ultrawide webcams
