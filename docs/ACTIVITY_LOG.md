@@ -4514,3 +4514,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-16T21:00:41+07:00** - [Activity #3765] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-05-16T22:03:40+07:00** - [Activity #3766] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-05-17T09:03:43+07:00** - [Activity #3767] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-05-17T09:31:48+07:00** - [Activity #3768] style(badge): update status indicator badge colors and glow effects
