@@ -4527,3 +4527,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-17T16:22:07+07:00** - [Activity #3778] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-17T17:00:11+07:00** - [Activity #3779] chore(git): add ignore rules for local session exports and temp files
 - **2026-05-17T17:31:25+07:00** - [Activity #3780] style(button): add subtle hover transition and outline focus style
+- **2026-05-17T19:30:35+07:00** - [Activity #3781] feat(settings): add camera device selector with resolution fallbacks
