@@ -10193,3 +10193,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-17T20:10:45+07:00** - [Activity #5566] docs(api): document endpoint parameters and error codes for seed route
 - **2026-05-17T20:42:05+07:00** - [Activity #5567] fix(auth): prevent race condition when initializing anonymous session
 - **2026-05-17T21:06:22+07:00** - [Activity #5568] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-05-17T21:41:46+07:00** - [Activity #5569] feat(gallery): add touch swipe navigation for captured photo previews
