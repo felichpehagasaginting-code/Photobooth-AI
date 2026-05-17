@@ -10178,3 +10178,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-17T10:07:45+07:00** - [Activity #5551] fix(audio): unlock audio context on initial user gesture
 - **2026-05-17T10:32:26+07:00** - [Activity #5552] perf(memory): dispose cached image objects after strip generation
 - **2026-05-17T10:59:43+07:00** - [Activity #5553] fix(auth): prevent race condition when initializing anonymous session
+- **2026-05-17T11:34:09+07:00** - [Activity #5554] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
