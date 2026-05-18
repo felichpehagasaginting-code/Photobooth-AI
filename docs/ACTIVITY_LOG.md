@@ -10198,3 +10198,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T09:01:06+07:00** - [Activity #5571] feat(watermark): customizable event logo watermark overlay
 - **2026-05-18T09:21:22+07:00** - [Activity #5572] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-05-18T09:35:11+07:00** - [Activity #5573] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-05-18T10:04:24+07:00** - [Activity #5574] refactor(ui): extract reusable glass-panel and badge components
