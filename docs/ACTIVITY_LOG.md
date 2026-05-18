@@ -4536,3 +4536,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T09:23:48+07:00** - [Activity #3787] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-18T09:42:24+07:00** - [Activity #3788] style(button): add subtle hover transition and outline focus style
 - **2026-05-18T10:13:59+07:00** - [Activity #3789] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-05-18T10:30:41+07:00** - [Activity #3790] docs(deploy): add production deployment instructions for Vercel/Docker
