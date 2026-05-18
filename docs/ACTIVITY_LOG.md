@@ -10210,3 +10210,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T14:08:44+07:00** - [Activity #5583] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-05-18T14:09:30+07:00** - [Activity #5584] fix(export): handle canvas taint error when loading external assets
 - **2026-05-18T14:25:08+07:00** - [Activity #5585] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-05-18T14:53:58+07:00** - [Activity #5586] fix(print): fix page margin clipping on 4x6 photo paper print preview
