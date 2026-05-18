@@ -10211,3 +10211,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T14:09:30+07:00** - [Activity #5584] fix(export): handle canvas taint error when loading external assets
 - **2026-05-18T14:25:08+07:00** - [Activity #5585] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-05-18T14:53:58+07:00** - [Activity #5586] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-05-18T15:03:07+07:00** - [Activity #5587] fix(filter): fix gamma correction clipping on high brightness scenes
