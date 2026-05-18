@@ -4550,3 +4550,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T15:36:30+07:00** - [Activity #3801] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-05-18T15:47:45+07:00** - [Activity #3802] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-05-18T16:09:34+07:00** - [Activity #3803] fix(state): sync active photo index when reopening gallery drawer
+- **2026-05-18T16:25:54+07:00** - [Activity #3804] feat(audio): add shutter click and countdown sound effects
