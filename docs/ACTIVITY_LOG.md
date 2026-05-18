@@ -4537,3 +4537,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T09:42:24+07:00** - [Activity #3788] style(button): add subtle hover transition and outline focus style
 - **2026-05-18T10:13:59+07:00** - [Activity #3789] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-05-18T10:30:41+07:00** - [Activity #3790] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-05-18T10:57:20+07:00** - [Activity #3791] fix(camera): resolve aspect ratio distortion on ultrawide webcams
