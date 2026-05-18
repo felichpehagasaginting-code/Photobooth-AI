@@ -4539,3 +4539,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T10:30:41+07:00** - [Activity #3790] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-05-18T10:57:20+07:00** - [Activity #3791] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-05-18T11:14:10+07:00** - [Activity #3792] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-05-18T11:42:11+07:00** - [Activity #3793] refactor(cleanup): remove deprecated legacy camera capture methods
