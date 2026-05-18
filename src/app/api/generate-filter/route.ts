@@ -19,9 +19,51 @@ async function tryGemini(image: string, filterPrompt: string): Promise<string | 
     return null;
   }
 
-  const genAI = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
   const { mimeType, data } = stripBase64Prefix(image);
 
+  // If using OpenRouter
+  if (GEMINI_API_KEY.startsWith('sk-or-')) {
+    console.log('[generate-filter] Trying Gemini via OpenRouter (google/gemini-2.5-flash)…');
+    const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${GEMINI_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'google/gemini-2.5-flash',
+        messages: [
+          {
+            role: 'user',
+            content: [
+              { type: 'text', text: filterPrompt },
+              { type: 'image_url', image_url: { url: `data:${mimeType};base64,${data}` } },
+            ],
+          },
+        ],
+      }),
+    });
+
+    if (!res.ok) {
+      console.warn('[generate-filter] OpenRouter error:', await res.text());
+      return null;
+    }
+
+    const result = await res.json();
+    const content = result.choices?.[0]?.message?.content;
+    if (content) {
+      // If the model returns base64 or an image URL in content, handle it here.
+      // Often, base64 images might be raw or wrapped. If it's a URL, we'd need to fetch it.
+      // Assuming it tries to return base64 text:
+      console.log('[generate-filter] OpenRouter: success');
+      if (content.startsWith('data:image')) return content;
+      return `data:image/jpeg;base64,${content}`;
+    }
+    return null;
+  }
+
+  // Fallback to official Google API
+  const genAI = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
   const contents = [
     { text: filterPrompt },
     { inlineData: { mimeType, data } },

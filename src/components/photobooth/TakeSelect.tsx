@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { ArrowLeft, Check } from 'lucide-react';
 import { usePhotoboothStore } from '@/store/photobooth';
 import { TAKE_OPTIONS, type TakeCount } from '@/types';
 
@@ -9,48 +10,39 @@ import { TAKE_OPTIONS, type TakeCount } from '@/types';
 function GridPreview({ count }: { count: TakeCount }) {
   if (count === 2) {
     return (
-      <div className="w-full h-full grid grid-cols-1 gap-1.5 p-2">
-        <div className="rounded-lg bg-white/30 backdrop-blur-sm" />
-        <div className="rounded-lg bg-white/30 backdrop-blur-sm" />
+      <div className="w-full h-full grid grid-cols-1 gap-2 p-3">
+        <div className="rounded-xl bg-gradient-to-br from-white/40 to-white/20 backdrop-blur-sm" />
+        <div className="rounded-xl bg-gradient-to-br from-white/40 to-white/20 backdrop-blur-sm" />
       </div>
     );
   }
   if (count === 4) {
     return (
-      <div className="w-full h-full grid grid-cols-2 gap-1.5 p-2">
-        <div className="rounded-lg bg-white/30 backdrop-blur-sm" />
-        <div className="rounded-lg bg-white/30 backdrop-blur-sm" />
-        <div className="rounded-lg bg-white/30 backdrop-blur-sm" />
-        <div className="rounded-lg bg-white/30 backdrop-blur-sm" />
+      <div className="w-full h-full grid grid-cols-2 gap-2 p-3">
+        {[0, 1, 2, 3].map((i) => (
+          <div key={i} className="rounded-xl bg-gradient-to-br from-white/40 to-white/20 backdrop-blur-sm" />
+        ))}
       </div>
     );
   }
   return (
-    <div className="w-full h-full grid grid-cols-2 gap-1.5 p-2">
-      <div className="rounded-lg bg-white/30 backdrop-blur-sm" />
-      <div className="rounded-lg bg-white/30 backdrop-blur-sm" />
-      <div className="rounded-lg bg-white/30 backdrop-blur-sm" />
-      <div className="rounded-lg bg-white/30 backdrop-blur-sm" />
-      <div className="rounded-lg bg-white/30 backdrop-blur-sm" />
-      <div className="rounded-lg bg-white/30 backdrop-blur-sm" />
+    <div className="w-full h-full grid grid-cols-2 gap-1.5 p-2.5">
+      {[0, 1, 2, 3, 4, 5].map((i) => (
+        <div key={i} className="rounded-lg bg-gradient-to-br from-white/40 to-white/20 backdrop-blur-sm" />
+      ))}
     </div>
   );
 }
 
 /* ── Repeating watermark text ────────────────────────────────────────── */
-function WatermarkRow({ offset = 0 }: { offset?: number }) {
-  const text = 'BOOTH CANVMIN ';
-  const repeated = text.repeat(8);
+function WatermarkRow() {
+  const text = 'BOOTH CANVMIN ✦ ';
   return (
     <div
-      className="whitespace-nowrap text-white/[0.07] font-black tracking-widest"
-      style={{
-        fontSize: '2.8rem',
-        lineHeight: '1',
-        transform: `translateX(${offset}px)`,
-      }}
+      className="whitespace-nowrap text-white/[0.06] font-black tracking-widest select-none"
+      style={{ fontSize: '2.6rem', lineHeight: '1' }}
     >
-      {repeated}
+      {text.repeat(10)}
     </div>
   );
 }
@@ -63,63 +55,51 @@ interface PolaroidProps {
   left?: string;
   right?: string;
   width?: number;
-  zIndex?: number;
 }
 
-function Polaroid({ src, rotation, top, left, right, width = 110, zIndex = 1 }: PolaroidProps) {
+function Polaroid({ src, rotation, top, left, right, width = 110 }: PolaroidProps) {
   return (
     <div
       className="absolute shadow-2xl"
-      style={{
-        top,
-        left,
-        right,
-        width,
-        transform: `rotate(${rotation}deg)`,
-        zIndex,
-      }}
+      style={{ top, left, right, width, transform: `rotate(${rotation}deg)` }}
     >
-      {/* Photo area */}
-      <div
-        className="rounded-sm overflow-hidden"
-        style={{ height: width * 0.85, background: '#ddd' }}
-      >
+      <div className="rounded-sm overflow-hidden relative" style={{ height: width * 0.85 }}>
+        <div
+          className="absolute inset-0"
+          style={{ background: 'linear-gradient(135deg, #FFB3D1 0%, #E879A8 50%, #C2185B 100%)' }}
+        />
         <img
           src={src}
           alt=""
-          className="w-full h-full object-cover"
-          onError={(e) => {
-            (e.target as HTMLImageElement).style.display = 'none';
-          }}
+          className="absolute inset-0 w-full h-full object-cover"
+          onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
         />
-        {/* fallback gradient */}
-        <div
-          className="absolute inset-0"
-          style={{
-            background: 'linear-gradient(135deg, #FFB3D1 0%, #E879A8 50%, #C2185B 100%)',
-          }}
-        />
+        <div className="absolute inset-0 bg-gradient-to-br from-white/15 via-transparent to-transparent" />
       </div>
-      {/* White bottom strip */}
-      <div className="bg-white pt-1 pb-2 px-1" style={{ borderRadius: '0 0 3px 3px' }} />
+      <div className="bg-white pt-1.5 pb-3 px-1.5">
+        <div className="h-1.5 w-8 rounded-full bg-gray-100 mx-auto" />
+      </div>
     </div>
   );
 }
 
 const POLAROIDS: PolaroidProps[] = [
-  { src: '/filters/anime-ghibli.png', rotation: -18, top: '8%', left: '-2%', width: 120, zIndex: 2 },
-  { src: '/filters/cyberpunk.png',    rotation: 12,  top: '2%',  left: '18%', width: 105, zIndex: 1 },
-  { src: '/filters/watercolor.png',   rotation: -8,  top: '55%', left: '-3%', width: 115, zIndex: 2 },
-  { src: '/filters/comic.png',        rotation: 15,  top: '70%', left: '10%', width: 100, zIndex: 1 },
-  { src: '/filters/anime-ghibli.png', rotation: -12, top: '5%',  right: '0%', width: 120, zIndex: 2 },
-  { src: '/filters/cyberpunk.png',    rotation: 10,  top: '35%', right: '-2%',width: 110, zIndex: 1 },
-  { src: '/filters/watercolor.png',   rotation: -15, top: '65%', right: '5%', width: 105, zIndex: 2 },
+  { src: '/filters/anime-ghibli.png', rotation: -15, top: '12%', left: '8%',   width: 140 },
+  { src: '/filters/cyberpunk.png',    rotation: 12,  top: '8%',  left: '25%',  width: 120 },
+  { src: '/filters/watercolor.png',   rotation: -8,  top: '55%', left: '6%',  width: 135 },
+  { src: '/filters/comic.png',        rotation: 18,  top: '75%', left: '22%',  width: 125 },
+  { src: '/filters/anime-ghibli.png', rotation: 10,  top: '15%', right: '8%',  width: 145 },
+  { src: '/filters/cyberpunk.png',    rotation: -12, top: '45%', right: '5%', width: 130 },
+  { src: '/filters/watercolor.png',   rotation: 15,  top: '72%', right: '20%',  width: 120 },
+  // Tambahan biar lebih rame
+  { src: '/filters/comic.png',        rotation: -20, top: '30%', left: '15%', width: 110 },
+  { src: '/filters/anime-ghibli.png', rotation: 25,  top: '25%', right: '25%', width: 100 },
 ];
 
-const FRAME_SUBTITLES: Record<TakeCount, string> = {
-  2: 'Photostrip / Bookmark',
-  4: 'Classic Grid',
-  6: 'Story Teller',
+const FRAME_META: Record<TakeCount, { subtitle: string; tag: string; color: string; emoji: string }> = {
+  2: { subtitle: 'Photostrip', tag: 'POPULER', color: '#FF6B9D', emoji: '🎞️' },
+  4: { subtitle: 'Classic Grid', tag: 'TERBAIK', color: '#A855F7', emoji: '📸' },
+  6: { subtitle: 'Story Teller', tag: 'LENGKAP', color: '#06D6A0', emoji: '✨' },
 };
 
 /* ── Main Component ──────────────────────────────────────────────────── */
@@ -133,23 +113,34 @@ export default function TakeSelect() {
     const option = TAKE_OPTIONS.find((o) => o.count === count);
     if (option) {
       setTakeConfig(option.count, option.filtersPerTake);
-      // Short delay for visual feedback then navigate
-      setTimeout(() => setStep('camera'), 300);
+      setTimeout(() => setStep('camera'), 320);
     }
   };
 
   return (
-    <div className="relative min-h-screen overflow-hidden select-none" style={{ background: 'linear-gradient(135deg, #E8629A 0%, #C9479D 25%, #A83BA8 50%, #8B35B0 75%, #7B2FBE 100%)' }}>
+    <div
+      className="relative min-h-screen overflow-hidden select-none flex flex-col"
+      style={{ background: 'linear-gradient(160deg, #D94F8A 0%, #B03EA0 28%, #8B35B0 58%, #6B28C8 80%, #5A21DA 100%)' }}
+    >
+      {/* ── Ambient glow ── */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        <motion.div
+          className="absolute -top-20 right-1/3 w-80 h-80 rounded-full opacity-25"
+          style={{ background: 'radial-gradient(circle, #FFD6E8 0%, transparent 70%)' }}
+          animate={{ scale: [1, 1.15, 1] }}
+          transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut' }}
+        />
+      </div>
 
-      {/* ── Animated watermark background ── */}
+      {/* ── Watermark background ── */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none flex flex-col justify-around py-4 gap-2">
-        {[0, -80, -40, -120, -20, -100, -60].map((offset, i) => (
+        {[0, -80, -40, -120, -20, -100, -60].map((_, i) => (
           <motion.div
             key={i}
-            animate={{ x: [offset, offset - 60, offset] }}
-            transition={{ duration: 20 + i * 3, repeat: Infinity, ease: 'linear' }}
+            animate={{ x: [0, -80, 0] }}
+            transition={{ duration: 22 + i * 3, repeat: Infinity, ease: 'linear', delay: i * 1.2 }}
           >
-            <WatermarkRow offset={0} />
+            <WatermarkRow />
           </motion.div>
         ))}
       </div>
@@ -159,9 +150,9 @@ export default function TakeSelect() {
         {POLAROIDS.map((p, i) => (
           <motion.div
             key={i}
-            initial={{ opacity: 0, scale: 0.8, rotate: p.rotation - 5 }}
+            initial={{ opacity: 0, scale: 0.75, rotate: p.rotation - 8 }}
             animate={{ opacity: 1, scale: 1, rotate: p.rotation }}
-            transition={{ delay: i * 0.08, duration: 0.6, ease: [0.34, 1.56, 0.64, 1] }}
+            transition={{ delay: i * 0.1, duration: 0.65, ease: [0.34, 1.56, 0.64, 1] }}
           >
             <Polaroid {...p} />
           </motion.div>
@@ -169,63 +160,55 @@ export default function TakeSelect() {
       </div>
 
       {/* ── Top navbar ── */}
-      <div className="relative z-20 flex items-center justify-between px-5 py-3" style={{ background: 'rgba(0,0,0,0.55)', backdropFilter: 'blur(12px)' }}>
-        <span className="text-white font-bold text-base tracking-wide">Gemini</span>
-        <div className="flex items-center gap-2">
-          {/* Gemini logo placeholder */}
-          <div className="w-6 h-6 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
-            <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" fill="rgba(255,255,255,0.9)" />
-              <path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6z" fill="rgba(255,255,255,0.4)" />
-            </svg>
-          </div>
+      <div
+        className="relative z-20 flex items-center justify-between px-5 py-3"
+        style={{ background: 'rgba(0,0,0,0.45)', backdropFilter: 'blur(16px)' }}
+      >
+        <button
+          onClick={() => setStep('idle')}
+          className="w-9 h-9 rounded-full flex items-center justify-center text-white/70 hover:text-white hover:bg-white/10 transition-all duration-200 tap-none"
+        >
+          <ArrowLeft className="w-5 h-5" />
+        </button>
+
+        <span className="text-white font-black text-base tracking-wider" style={{ fontFamily: 'var(--font-outfit)' }}>
+          AI Photobooth
+        </span>
+
+        <div
+          className="px-3 py-1 rounded-full text-xs font-black text-white tracking-wider"
+          style={{ background: 'rgba(255,255,255,0.15)' }}
+        >
+          PRO
         </div>
-        <div className="px-3 py-1 rounded-full text-xs font-bold text-white" style={{ background: 'rgba(255,255,255,0.15)' }}>PRO</div>
       </div>
 
       {/* ── Center content ── */}
-      <div className="relative z-10 flex flex-col items-center pt-6 pb-10 px-4">
-
-        {/* Power of badge */}
-        <motion.div
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.1 }}
-          className="flex items-center gap-2 mb-5"
-        >
-          <span className="text-white/70 text-xs font-semibold tracking-widest uppercase">POWER OF :</span>
-          {/* Gemini icon */}
-          <div className="w-7 h-7 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center shadow-lg">
-            <span className="text-white text-[10px] font-black">G</span>
-          </div>
-          <span className="text-white/50 text-sm font-bold">×</span>
-          {/* Canvas icon */}
-          <div className="w-7 h-7 rounded-full bg-gradient-to-br from-pink-400 to-red-500 flex items-center justify-center shadow-lg">
-            <span className="text-white text-[10px] font-black">C</span>
-          </div>
-        </motion.div>
+      <div className="relative z-10 flex flex-col items-center pt-5 pb-10 px-4 flex-1">
 
         {/* Heading */}
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
+          initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.15 }}
+          transition={{ delay: 0.1 }}
           className="text-center mb-2"
         >
-          <h1 className="text-2xl md:text-3xl font-black text-white leading-tight drop-shadow-lg">
-            <span className="italic">Pilih Format Grid</span>{' '}
-            <br />
-            Photobooth
+          <h1
+            className="text-2xl md:text-3xl font-black text-white leading-tight drop-shadow-lg text-balance"
+            style={{ fontFamily: 'var(--font-outfit)' }}
+          >
+            <span className="italic">Pilih Format</span>{' '}
+            Grid Photobooth
           </h1>
         </motion.div>
 
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.2 }}
-          className="text-white/70 text-xs text-center max-w-xs mb-8 leading-relaxed"
+          transition={{ delay: 0.18 }}
+          className="text-white/65 text-xs text-center max-w-[260px] mb-8 leading-relaxed"
         >
-          Berapa momen yang ingin kamu abadikan hari ini? Pilih salah satu grid-mu untuk memulai keajaiban AI
+          Berapa momen yang ingin kamu abadikan hari ini?
         </motion.p>
 
         {/* Frame cards */}
@@ -235,38 +218,57 @@ export default function TakeSelect() {
             const isSelected = selected === count;
             const isHovered = hovered === count;
             const isCenter = index === 1;
+            const meta = FRAME_META[count];
 
             return (
               <motion.button
                 key={count}
                 id={`frame-card-${count}`}
-                initial={{ opacity: 0, y: 30, scale: 0.85 }}
+                initial={{ opacity: 0, y: 32, scale: 0.82 }}
                 animate={{
                   opacity: 1,
-                  y: isCenter ? -12 : 0,
-                  scale: isSelected || isHovered ? (isCenter ? 1.05 : 1.03) : (isCenter ? 1.0 : 0.95),
+                  y: isCenter ? -14 : 0,
+                  scale: isSelected || isHovered
+                    ? (isCenter ? 1.06 : 1.04)
+                    : (isCenter ? 1.01 : 0.94),
                 }}
                 transition={{ delay: index * 0.1 + 0.2, duration: 0.5, ease: [0.34, 1.56, 0.64, 1] }}
                 onHoverStart={() => setHovered(count)}
                 onHoverEnd={() => setHovered(null)}
                 onClick={() => handleSelect(count)}
                 className="relative flex flex-col items-center cursor-pointer tap-none"
-                style={{ width: isCenter ? 130 : 110 }}
+                style={{ width: isCenter ? 132 : 112 }}
               >
+                {/* Badge tag */}
+                {isCenter && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -6 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.5 }}
+                    className="mb-2 px-2.5 py-0.5 rounded-full text-[9px] font-black tracking-widest"
+                    style={{ background: meta.color, color: '#000' }}
+                  >
+                    {meta.tag}
+                  </motion.div>
+                )}
+
                 {/* Card */}
                 <motion.div
                   animate={{
                     boxShadow: isSelected
-                      ? '0 8px 32px rgba(255,107,200,0.5), 0 2px 8px rgba(0,0,0,0.3)'
-                      : '0 4px 20px rgba(0,0,0,0.3)',
+                      ? `0 8px 40px ${meta.color}55, 0 2px 8px rgba(0,0,0,0.4)`
+                      : '0 4px 24px rgba(0,0,0,0.35)',
                   }}
+                  transition={{ duration: 0.3 }}
                   className="w-full rounded-2xl overflow-hidden"
                   style={{
                     background: isSelected
-                      ? 'linear-gradient(135deg, rgba(255,200,230,0.95), rgba(255,170,220,0.9))'
-                      : 'rgba(255,255,255,0.85)',
-                    border: isSelected ? '2.5px solid rgba(255,100,180,0.8)' : '2px solid rgba(255,255,255,0.6)',
-                    height: isCenter ? 190 : 165,
+                      ? 'linear-gradient(135deg, rgba(255,210,240,0.96), rgba(255,180,230,0.92))'
+                      : 'rgba(255,255,255,0.88)',
+                    border: isSelected
+                      ? `2.5px solid ${meta.color}CC`
+                      : '2px solid rgba(255,255,255,0.6)',
+                    height: isCenter ? 195 : 170,
                     backdropFilter: 'blur(8px)',
                   }}
                 >
@@ -274,12 +276,13 @@ export default function TakeSelect() {
                 </motion.div>
 
                 {/* Label */}
-                <div className="mt-2 text-center">
-                  <p className="text-white font-bold text-sm drop-shadow-md">
-                    {count} Frame
+                <div className="mt-2.5 text-center">
+                  <p className="text-white font-black text-sm drop-shadow-md flex items-center justify-center gap-1.5">
+                    <span>{meta.emoji}</span>
+                    <span>{count} Frame</span>
                   </p>
-                  <p className="text-white/60 text-[10px] font-medium">
-                    {FRAME_SUBTITLES[count]}
+                  <p className="text-white/55 text-[10px] font-medium mt-0.5">
+                    {meta.subtitle}
                   </p>
                 </div>
 
@@ -290,12 +293,10 @@ export default function TakeSelect() {
                       initial={{ scale: 0, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
                       exit={{ scale: 0, opacity: 0 }}
-                      className="absolute -top-2 -right-2 w-6 h-6 rounded-full flex items-center justify-center"
-                      style={{ background: 'linear-gradient(135deg, #FF6B9D, #FF8A65)' }}
+                      className="absolute -top-2.5 -right-2.5 w-7 h-7 rounded-full flex items-center justify-center shadow-lg"
+                      style={{ background: `linear-gradient(135deg, ${meta.color}, #FF8A65)` }}
                     >
-                      <svg viewBox="0 0 24 24" fill="none" className="w-3.5 h-3.5">
-                        <path d="M5 13l4 4L19 7" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
+                      <Check className="w-3.5 h-3.5 text-white" strokeWidth={3} />
                     </motion.div>
                   )}
                 </AnimatePresence>
@@ -308,17 +309,17 @@ export default function TakeSelect() {
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.6 }}
-          className="mt-8 text-white/40 text-[11px] text-center tracking-wide"
+          transition={{ delay: 0.7 }}
+          className="mt-8 text-white/35 text-[11px] text-center tracking-wider"
         >
-          Ketuk format untuk memulai sesi foto
+          Ketuk format untuk memulai sesi foto ✨
         </motion.p>
       </div>
 
-      {/* Bottom decorative gradient */}
+      {/* Bottom gradient */}
       <div
-        className="absolute bottom-0 left-0 right-0 h-20 pointer-events-none"
-        style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.2), transparent)' }}
+        className="absolute bottom-0 left-0 right-0 h-24 pointer-events-none"
+        style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.25), transparent)' }}
       />
     </div>
   );
