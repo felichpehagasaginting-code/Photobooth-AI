@@ -4532,3 +4532,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-17T20:47:30+07:00** - [Activity #3783] chore(deps): update core dependencies to latest stable versions
 - **2026-05-17T21:34:33+07:00** - [Activity #3784] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-05-17T22:02:19+07:00** - [Activity #3785] style(controls): refine slider track and thumb sizing for touch screens
+- **2026-05-18T09:01:04+07:00** - [Activity #3786] perf(api): cache static filter presets with aggressive HTTP headers
