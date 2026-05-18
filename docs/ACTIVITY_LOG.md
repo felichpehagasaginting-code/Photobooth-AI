@@ -4562,3 +4562,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T21:14:29+07:00** - [Activity #3813] fix(export): handle canvas taint error when loading external assets
 - **2026-05-18T21:28:54+07:00** - [Activity #3814] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-05-18T21:56:22+07:00** - [Activity #3815] docs(changelog): update version history and release milestones
+- **2026-05-18T22:20:03+07:00** - [Activity #3816] fix(print): fix page margin clipping on 4x6 photo paper print preview
