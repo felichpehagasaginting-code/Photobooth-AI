@@ -4556,3 +4556,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T17:22:55+07:00** - [Activity #3807] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-05-18T17:37:19+07:00** - [Activity #3808] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-18T19:30:16+07:00** - [Activity #3809] refactor(api): modularize backend route handlers and validation utils
+- **2026-05-18T20:00:20+07:00** - [Activity #3810] feat(watermark): customizable event logo watermark overlay
