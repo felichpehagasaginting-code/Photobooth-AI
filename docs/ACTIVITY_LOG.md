@@ -4547,3 +4547,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T14:41:22+07:00** - [Activity #3798] feat(preset): allow custom framing border selection per session
 - **2026-05-18T14:56:09+07:00** - [Activity #3799] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-18T15:09:30+07:00** - [Activity #3800] docs(env): document all required environment variables with defaults
+- **2026-05-18T15:36:30+07:00** - [Activity #3801] fix(camera): prevent stream freeze on rapid device re-plug
