@@ -10213,3 +10213,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T14:53:58+07:00** - [Activity #5586] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-18T15:03:07+07:00** - [Activity #5587] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-05-18T15:20:44+07:00** - [Activity #5588] feat(settings): add camera device selector with resolution fallbacks
+- **2026-05-18T15:45:13+07:00** - [Activity #5589] docs(env): document all required environment variables with defaults
