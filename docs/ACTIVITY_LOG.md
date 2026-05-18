@@ -10222,3 +10222,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T17:16:21+07:00** - [Activity #5595] feat(share): generate instant QR code for mobile photo download
 - **2026-05-18T17:35:33+07:00** - [Activity #5596] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-05-18T17:50:00+07:00** - [Activity #5597] feat(settings): add camera device selector with resolution fallbacks
+- **2026-05-18T19:36:23+07:00** - [Activity #5598] fix(qr): adjust QR code contrast ratio for low-light scanning
