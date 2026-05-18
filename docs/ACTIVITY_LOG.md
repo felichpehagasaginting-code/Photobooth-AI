@@ -10218,3 +10218,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T16:00:40+07:00** - [Activity #5591] feat(share): generate instant QR code for mobile photo download
 - **2026-05-18T16:22:08+07:00** - [Activity #5592] docs(changelog): update version history and release milestones
 - **2026-05-18T16:45:26+07:00** - [Activity #5593] refactor(ui): extract reusable glass-panel and badge components
+- **2026-05-18T16:59:36+07:00** - [Activity #5594] style(theme): update dark mode accent color tokens with warm tone
