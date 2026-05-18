@@ -10196,3 +10196,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-17T21:41:46+07:00** - [Activity #5569] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-17T22:16:49+07:00** - [Activity #5570] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-05-18T09:01:06+07:00** - [Activity #5571] feat(watermark): customizable event logo watermark overlay
+- **2026-05-18T09:21:22+07:00** - [Activity #5572] perf(images): compress intermediate preview thumbnails with WebP format
