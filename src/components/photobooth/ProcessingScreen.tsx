@@ -24,6 +24,83 @@ const MSGS_EN = [
   'Almost done!',
 ];
 
+async function generateGrid(images: string[], count: number, filterName: string): Promise<string> {
+  return new Promise((resolve) => {
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return resolve(images[0] || '');
+
+    const loadImg = (src: string): Promise<HTMLImageElement> => new Promise((res) => {
+      const img = new Image();
+      img.crossOrigin = 'anonymous';
+      img.onload = () => res(img);
+      img.onerror = () => { const errImg = new Image(); res(errImg); };
+      img.src = src;
+    });
+
+    Promise.all(images.map(loadImg)).then((loadedImages) => {
+      const imgW = loadedImages[0]?.width || 1280;
+      const imgH = loadedImages[0]?.height || 720;
+      
+      const padding = 40;
+      const headerH = 160;
+      const footerH = 200;
+      
+      let cols = 1;
+      let rows = 2;
+      
+      if (count === 4) { cols = 2; rows = 2; }
+      else if (count === 6) { cols = 2; rows = 3; }
+      else { cols = 1; rows = 2; } 
+      
+      const contentW = cols * imgW + (cols - 1) * padding;
+      const contentH = rows * imgH + (rows - 1) * padding;
+      
+      canvas.width = contentW + padding * 2;
+      canvas.height = contentH + padding * 2 + headerH + footerH;
+      
+      // Draw background (dark editorial)
+      ctx.fillStyle = '#0c0a09';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      
+      // Draw subtle noise or grain if possible, but keeping it simple for performance
+      
+      // Draw images
+      loadedImages.forEach((img, idx) => {
+        if (!img.width) return; // skip errored images
+        const col = idx % cols;
+        const row = Math.floor(idx / cols);
+        const x = padding + col * (imgW + padding);
+        const y = padding + headerH + row * (imgH + padding);
+        
+        ctx.drawImage(img, x, y, imgW, imgH);
+        
+        // Copper border
+        ctx.strokeStyle = 'rgba(200,121,65,0.4)';
+        ctx.lineWidth = 6;
+        ctx.strokeRect(x, y, imgW, imgH);
+      });
+      
+      // Header Text
+      ctx.fillStyle = '#c87941';
+      ctx.font = 'bold 54px "DM Sans", sans-serif';
+      ctx.textAlign = 'center';
+      ctx.letterSpacing = '12px';
+      ctx.fillText('AI.PHOTOBOOTH', canvas.width / 2, padding + 70);
+      
+      ctx.fillStyle = 'rgba(200,121,65,0.5)';
+      ctx.fillRect(canvas.width / 2 - 100, padding + 110, 200, 2);
+      
+      // Footer Text (Filter Name)
+      ctx.fillStyle = '#f0ebe3';
+      ctx.font = 'italic 72px "Playfair Display", serif';
+      ctx.fillText(filterName, canvas.width / 2, canvas.height - padding - 60);
+      
+      resolve(canvas.toDataURL('image/jpeg', 0.95));
+    });
+  });
+}
+
 export default function ProcessingScreen() {
   const {
     capturedPhotos, selectedFilters, filteredPhotos,
@@ -52,10 +129,12 @@ export default function ProcessingScreen() {
       const total = capturedPhotos.length * selectedFilters.length;
       let done = 0;
 
-      for (let p = 0; p < capturedPhotos.length; p++) {
-        const photo = capturedPhotos[p]!;
-        for (let i = 0; i < selectedFilters.length; i++) {
-          const filter = selectedFilters[i]!;
+      for (let i = 0; i < selectedFilters.length; i++) {
+        const filter = selectedFilters[i]!;
+        const processedImages: string[] = [];
+
+        for (let p = 0; p < capturedPhotos.length; p++) {
+          const photo = capturedPhotos[p]!;
           setCurrentProcessingFilter(`${filter.name} (Take ${p + 1})`);
           setProcessingProgress(Math.round((done / total) * 100));
 
@@ -73,18 +152,22 @@ export default function ProcessingScreen() {
             });
             if (res.ok) {
               const data = await res.json();
-              addFilteredPhoto({ original: photo.original, filtered: data.filteredImage || photo.original, filterName: filter.name, filterId: filter.id });
+              processedImages.push(data.filteredImage || photo.original);
               setProviderLog(prev => [...prev, `${filter.name} T${p + 1}: ✓ ${data.provider || 'ok'}`]);
             } else {
-              addFilteredPhoto({ original: photo.original, filtered: photo.original, filterName: filter.name, filterId: filter.id });
+              processedImages.push(photo.original);
               setProviderLog(prev => [...prev, `${filter.name} T${p + 1}: fallback`]);
             }
           } catch {
-            addFilteredPhoto({ original: photo.original, filtered: photo.original, filterName: filter.name, filterId: filter.id });
+            processedImages.push(photo.original);
             setProviderLog(prev => [...prev, `${filter.name} T${p + 1}: error`]);
           }
           done++;
         }
+
+        setCurrentProcessingFilter(`Menyusun Photogrid...`);
+        const gridDataUrl = await generateGrid(processedImages, capturedPhotos.length, filter.name);
+        addFilteredPhoto({ original: gridDataUrl, filtered: gridDataUrl, filterName: filter.name, filterId: filter.id });
       }
 
       setProcessingProgress(100);
@@ -217,7 +300,7 @@ export default function ProcessingScreen() {
           </div>
           <div className="flex justify-between items-center">
             <span className="text-[10px] tracking-[0.15em] text-[#7a7168] font-body uppercase">
-              {filteredPhotos.length}/{total} {t('selesai', 'done')}
+              {t('proses', 'processing')}
             </span>
             <span className="font-display font-black tabular-nums" style={{ fontSize: '1.1rem', color: '#c87941' }}>
               {processingProgress}%
