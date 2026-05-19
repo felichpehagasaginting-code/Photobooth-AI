@@ -4604,3 +4604,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T21:33:08+07:00** - [Activity #3855] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-05-19T21:38:38+07:00** - [Activity #3856] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-19T22:11:47+07:00** - [Activity #3857] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-05-19T22:26:42+07:00** - [Activity #3858] feat(preset): allow custom framing border selection per session
