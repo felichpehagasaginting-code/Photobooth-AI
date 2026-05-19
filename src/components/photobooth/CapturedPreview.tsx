@@ -3,189 +3,144 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, RotateCcw, Sparkles, ChevronRight } from 'lucide-react';
 import { usePhotoboothStore } from '@/store/photobooth';
-import { Button } from '@/components/ui/button';
 
 export default function CapturedPreview() {
   const {
-    capturedPhotos,
-    setStep,
-    language,
-    currentTake,
-    takeCount,
-    incrementTake,
-    removeLastCapturedPhoto,
+    capturedPhotos, setStep, language,
+    currentTake, takeCount, incrementTake, removeLastCapturedPhoto,
   } = usePhotoboothStore();
 
   const currentPhoto = capturedPhotos[capturedPhotos.length - 1];
   const t = (id: string, en: string) => (language === 'id' ? id : en);
 
-  const handleRetake = () => {
-    removeLastCapturedPhoto();
-    setStep('camera');
-  };
-
+  const handleRetake = () => { removeLastCapturedPhoto(); setStep('camera'); };
   const handleNext = () => {
-    if (currentTake < takeCount) {
-      incrementTake();
-      setStep('camera');
-    } else {
-      setStep('filter-select');
-    }
+    if (currentTake < takeCount) { incrementTake(); setStep('camera'); }
+    else setStep('filter-select');
   };
-
   const isLastTake = currentTake >= takeCount;
 
-  if (!currentPhoto) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-[#0A0A0F]">
-        <p className="text-muted-foreground">{t('Tidak ada foto', 'No photo captured')}</p>
-      </div>
-    );
-  }
+  if (!currentPhoto) return (
+    <div className="min-h-screen flex items-center justify-center" style={{ background: '#0c0a09' }}>
+      <p className="text-[#7a7168] font-body">{t('Tidak ada foto', 'No photo captured')}</p>
+    </div>
+  );
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#0A0A0F] relative overflow-hidden">
-      {/* Ambient background glow */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-80 h-80 rounded-full opacity-[0.07]" style={{ background: 'radial-gradient(circle, #FF6B9D 0%, transparent 70%)' }} />
-        <div className="absolute -bottom-20 left-1/2 -translate-x-1/2 w-64 h-64 rounded-full opacity-[0.06]" style={{ background: 'radial-gradient(circle, #06D6A0 0%, transparent 70%)' }} />
-      </div>
+    <div className="min-h-screen flex flex-col relative overflow-hidden" style={{ background: '#0c0a09' }}>
 
-      {/* Header */}
-      <div className="relative z-10 sticky top-0 bg-[#0A0A0F]/85 backdrop-blur-xl border-b border-white/5">
+      {/* Film grain */}
+      <div className="absolute inset-0 pointer-events-none z-0"
+        style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E\")", opacity: 0.4 }}
+      />
+
+      {/* Warm accent blob */}
+      <div className="absolute pointer-events-none z-0" style={{ top: '-80px', left: '50%', transform: 'translateX(-50%)', width: '60%', height: 300, background: 'radial-gradient(circle, rgba(200,121,65,0.06) 0%, transparent 70%)' }} />
+
+      {/* ── Header ── */}
+      <div className="relative z-10 sticky top-0" style={{ background: 'rgba(12,10,9,0.82)', backdropFilter: 'blur(14px)', borderBottom: '1px solid rgba(200,121,65,0.1)' }}>
         <div className="flex items-center gap-4 p-4">
-          <button
-            onClick={handleRetake}
-            className="w-11 h-11 rounded-full glass flex items-center justify-center text-white hover:text-[#FF6B9D] transition-colors tap-none"
+          <button onClick={handleRetake}
+            className="w-10 h-10 flex items-center justify-center text-[#7a7168] hover:text-[#c87941] tap-none"
+            style={{ border: '1px solid rgba(44,40,34,0.8)', transition: 'color 200ms cubic-bezier(0.33, 1, 0.68, 1)' }}
           >
             <ArrowLeft className="w-5 h-5" />
           </button>
+
           <div className="flex-1">
-            <h2 className="text-lg font-black text-white tracking-tight" style={{ fontFamily: 'var(--font-outfit)' }}>
+            <h2 className="font-display font-black text-[#f0ebe3] tracking-tight" style={{ fontSize: '1.05rem' }}>
               {t(`Foto ${currentTake} dari ${takeCount}`, `Photo ${currentTake} of ${takeCount}`)}
             </h2>
-            <p className="text-xs text-muted-foreground">
-              {t('Puaskah dengan hasilnya?', 'Happy with the result?')}
-            </p>
+            <p className="text-[11px] text-[#7a7168] font-body">{t('Puaskah dengan hasilnya?', 'Happy with the result?')}</p>
           </div>
-          {/* Take progress dots */}
+
+          {/* Take progress — line segments, not dots */}
           <div className="flex items-center gap-1.5">
             {Array.from({ length: takeCount }).map((_, i) => (
-              <div
-                key={i}
-                className="rounded-full transition-all duration-300"
-                style={{
-                  width: i === currentTake - 1 ? 20 : 7,
-                  height: 7,
-                  background: i < currentTake - 1
-                    ? '#06D6A0'
-                    : i === currentTake - 1
-                      ? '#FF6B9D'
-                      : 'rgba(255,255,255,0.2)',
-                }}
-              />
+              <div key={i} style={{
+                width: i === currentTake - 1 ? 20 : 7,
+                height: 2,
+                background: i < currentTake - 1 ? '#4ecb9e' : i === currentTake - 1 ? '#c87941' : 'rgba(44,40,34,0.8)',
+                transition: 'width 280ms cubic-bezier(0.33, 1, 0.68, 1), background 280ms',
+              }} />
             ))}
           </div>
         </div>
       </div>
 
-      {/* Photo preview */}
+      {/* ── Photo ── */}
       <div className="relative z-10 flex-1 flex items-center justify-center p-6">
         <motion.div
-          initial={{ opacity: 0, scale: 0.9, y: 16 }}
+          initial={{ opacity: 0, scale: 0.92, y: 14 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{ duration: 0.55, ease: [0.25, 0.1, 0.25, 1] }}
+          transition={{ duration: 0.55, ease: [0.25, 0.46, 0.45, 0.94] }}
           className="relative w-full max-w-md"
         >
-          {/* Photo frame */}
-          <div className="relative rounded-3xl overflow-hidden bg-[#111118] shadow-ios-xl border border-white/6">
-            {/* Top bar */}
-            <div className="absolute top-0 left-0 right-0 h-10 glass flex items-center px-3 z-10">
+          {/* Decorative corner brackets — copper */}
+          {[[-1,-1,'r','b'],[-1,1,'l','b'],[1,-1,'r','t'],[1,1,'l','t']].map(([vy,vx,bx,by],i)=>(
+            <div key={i} className="absolute" style={{ top: vy === -1 ? -8 : undefined, bottom: vy === 1 ? -8 : undefined, left: vx === -1 ? -8 : undefined, right: vx === 1 ? -8 : undefined, width: 20, height: 20 }}>
+              <div style={{ position:'absolute', [by === 't' ? 'top' : 'bottom']: 0, [bx === 'r' ? 'right' : 'left']: 0, width:'100%', height: 2, background:'#c87941' }} />
+              <div style={{ position:'absolute', [by === 't' ? 'top' : 'bottom']: 0, [bx === 'r' ? 'right' : 'left']: 0, width: 2, height:'100%', background:'#c87941' }} />
+            </div>
+          ))}
+
+          {/* Photo frame — dark, geometric cut corner */}
+          <div style={{
+            background: '#151210',
+            border: '1px solid rgba(200,121,65,0.18)',
+            overflow: 'hidden',
+            clipPath: 'polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%)',
+          }}>
+            {/* Header bar */}
+            <div className="flex items-center px-3 py-2" style={{ background: 'rgba(200,121,65,0.06)', borderBottom: '1px solid rgba(200,121,65,0.1)' }}>
               <div className="flex items-center gap-1.5">
-                <div className="w-2.5 h-2.5 rounded-full bg-red-400/80" />
-                <div className="w-2.5 h-2.5 rounded-full bg-yellow-400/80" />
-                <div className="w-2.5 h-2.5 rounded-full bg-green-400/80" />
+                <div className="w-2 h-2 rounded-full" style={{ background: 'rgba(200,121,65,0.4)' }} />
+                <div className="w-2 h-2 rounded-full" style={{ background: 'rgba(232,160,42,0.3)' }} />
+                <div className="w-2 h-2 rounded-full" style={{ background: 'rgba(78,203,158,0.3)' }} />
               </div>
               <div className="flex-1 text-center">
-                <span className="text-[10px] text-white/30 font-semibold tracking-widest uppercase">
+                <span className="text-[9px] text-[#7a7168] tracking-[0.3em] uppercase font-body">
                   {t('Foto Asli', 'Original')} · AI Photobooth
                 </span>
               </div>
             </div>
 
-            {/* Image */}
-            <img
-              src={currentPhoto.original}
-              alt="Captured photo"
-              className="w-full h-auto object-contain pt-10"
-            />
+            <img src={currentPhoto.original} alt="Captured" className="w-full h-auto object-contain" />
 
-            {/* Bottom info bar */}
-            <div className="absolute bottom-0 left-0 right-0 p-3 glass">
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 rounded-full bg-[#06D6A0]" />
-                <span className="text-white/60 text-xs font-medium">
-                  {new Date(currentPhoto.timestamp).toLocaleTimeString(
-                    language === 'id' ? 'id-ID' : 'en-US',
-                    { hour: '2-digit', minute: '2-digit', second: '2-digit' }
-                  )}
+            {/* Bottom info */}
+            <div className="flex items-center gap-2 px-3 py-2" style={{ background: 'rgba(200,121,65,0.04)', borderTop: '1px solid rgba(200,121,65,0.08)' }}>
+              <div className="w-1.5 h-1.5 rounded-full pulse-dot" style={{ background: '#4ecb9e' }} />
+              <span className="text-[11px] text-[#7a7168] font-body">
+                {new Date(currentPhoto.timestamp).toLocaleTimeString(language === 'id' ? 'id-ID' : 'en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit' })}
+              </span>
+              {isLastTake && (
+                <span className="ml-auto text-[9px] tracking-[0.2em] font-bold text-[#c87941] uppercase border border-[#c87941]/30 px-2 py-0.5">
+                  {t('Foto Terakhir', 'Last Photo')}
                 </span>
-                {isLastTake && (
-                  <span className="ml-auto text-[10px] px-2 py-0.5 rounded-full font-bold text-[#FF6B9D] bg-[#FF6B9D]/10">
-                    {t('Foto Terakhir', 'Last Photo')}
-                  </span>
-                )}
-              </div>
+              )}
             </div>
-          </div>
-
-          {/* Corner accent brackets */}
-          <div className="absolute -top-2 -left-2 w-6 h-6">
-            <div className="absolute top-0 left-0 w-full h-[2.5px] bg-gradient-to-r from-[#FF6B9D] to-transparent rounded-full" />
-            <div className="absolute top-0 left-0 h-full w-[2.5px] bg-gradient-to-b from-[#FF6B9D] to-transparent rounded-full" />
-          </div>
-          <div className="absolute -top-2 -right-2 w-6 h-6">
-            <div className="absolute top-0 right-0 w-full h-[2.5px] bg-gradient-to-l from-[#FF6B9D] to-transparent rounded-full" />
-            <div className="absolute top-0 right-0 h-full w-[2.5px] bg-gradient-to-b from-[#FF6B9D] to-transparent rounded-full" />
-          </div>
-          <div className="absolute -bottom-2 -left-2 w-6 h-6">
-            <div className="absolute bottom-0 left-0 w-full h-[2.5px] bg-gradient-to-r from-[#06D6A0] to-transparent rounded-full" />
-            <div className="absolute bottom-0 left-0 h-full w-[2.5px] bg-gradient-to-t from-[#06D6A0] to-transparent rounded-full" />
-          </div>
-          <div className="absolute -bottom-2 -right-2 w-6 h-6">
-            <div className="absolute bottom-0 right-0 w-full h-[2.5px] bg-gradient-to-l from-[#06D6A0] to-transparent rounded-full" />
-            <div className="absolute bottom-0 right-0 h-full w-[2.5px] bg-gradient-to-t from-[#06D6A0] to-transparent rounded-full" />
           </div>
         </motion.div>
       </div>
 
-      {/* Action buttons */}
-      <div className="relative z-10 sticky bottom-0 p-4 bg-gradient-to-t from-[#0A0A0F] via-[#0A0A0F]/95 to-transparent space-y-3">
-        <Button
+      {/* ── Actions ── */}
+      <div className="relative z-10 sticky bottom-0 p-4 space-y-3" style={{ background: 'linear-gradient(to top, #0c0a09 60%, rgba(12,10,9,0.9) 80%, transparent)' }}>
+        <button
           onClick={handleNext}
-          className="relative w-full h-14 text-base font-black rounded-2xl bg-gradient-to-r from-[#FF6B9D] to-[#FF8A65] hover:from-[#FF7BAE] hover:to-[#FF9B75] text-white shadow-glow-pink transition-all duration-300 scale-press overflow-hidden"
-          style={{ fontFamily: 'var(--font-outfit)' }}
+          className="btn-solid w-full h-14 text-sm font-body press tap-none flex items-center justify-center gap-2"
         >
-          {/* Shimmer */}
-          <motion.div
-            className="absolute inset-0"
-            style={{ background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent)' }}
-            animate={{ x: ['-100%', '200%'] }}
-            transition={{ duration: 2, repeat: Infinity, ease: 'linear', repeatDelay: 1.5 }}
-          />
-          <span className="relative z-10 flex items-center justify-center gap-2">
-            {isLastTake
-              ? <><Sparkles className="w-5 h-5" />{t('Pilih Filter AI', 'Choose AI Filters')}</>
-              : <>{t(`Lanjut ke Foto ${currentTake + 1}`, `Continue to Photo ${currentTake + 1}`)}<ChevronRight className="w-5 h-5" /></>
-            }
-          </span>
-        </Button>
+          {isLastTake
+            ? <><Sparkles className="w-4 h-4" />{t('Pilih Filter AI', 'Choose AI Filters')}</>
+            : <>{t(`Lanjut ke Foto ${currentTake + 1}`, `Continue to Photo ${currentTake + 1}`)}<ChevronRight className="w-4 h-4" /></>
+          }
+        </button>
 
         <button
           onClick={handleRetake}
-          className="w-full h-12 text-sm font-semibold rounded-2xl glass-light text-white/65 hover:text-white hover:bg-white/5 transition-all scale-press tap-none flex items-center justify-center gap-2"
+          className="w-full h-11 text-sm font-body text-[#7a7168] hover:text-[#f0ebe3] tap-none flex items-center justify-center gap-2 press"
+          style={{ border: '1px solid rgba(44,40,34,0.8)', transition: 'color 200ms cubic-bezier(0.33, 1, 0.68, 1), border-color 200ms' }}
         >
-          <RotateCcw className="w-4 h-4" />
+          <RotateCcw className="w-3.5 h-3.5" />
           {t('Ulangi Foto Ini', 'Retake This Photo')}
         </button>
       </div>

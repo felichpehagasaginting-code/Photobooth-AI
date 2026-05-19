@@ -2,97 +2,62 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Wand2, Cpu, Sparkles, Zap } from 'lucide-react';
+import { Cpu, Zap } from 'lucide-react';
 import { usePhotoboothStore } from '@/store/photobooth';
-import { Progress } from '@/components/ui/progress';
 
-const LOADING_MESSAGES_ID = [
-  'AI sedang bekerja...',
-  'Menambahkan sentuhan magis...',
-  'Mengolah piksel dengan cinta...',
-  'Sedikit lagi, sabar ya...',
-  'AI sedang melukis fotomu...',
-  'Membuat karya seni digital...',
+const MSGS_ID = [
+  'AI sedang bekerja…',
+  'Menambahkan sentuhan artistik…',
+  'Mengolah piksel dengan presisi…',
+  'Sebentar lagi…',
+  'AI sedang melukis fotomu…',
+  'Membuat karya seni digital…',
   'Hampir selesai!',
 ];
-
-const LOADING_MESSAGES_EN = [
-  'AI is working its magic...',
-  'Adding artistic touches...',
-  'Processing pixels with care...',
-  'Just a moment more...',
-  'AI is painting your photo...',
-  'Creating digital masterpiece...',
+const MSGS_EN = [
+  'AI is working its magic…',
+  'Adding artistic touches…',
+  'Processing pixels with care…',
+  'Just a moment more…',
+  'AI is painting your photo…',
+  'Creating digital masterpiece…',
   'Almost done!',
 ];
 
-/* ── Orbiting dot ────────────────────────────────────────────────────── */
-function OrbitDot({ angle, radius, color, duration }: {
-  angle: number; radius: number; color: string; duration: number;
-}) {
-  return (
-    <motion.div
-      className="absolute w-2 h-2 rounded-full"
-      style={{ background: color, width: 8, height: 8 }}
-      animate={{
-        x: [
-          Math.cos((angle * Math.PI) / 180) * radius,
-          Math.cos(((angle + 360) * Math.PI) / 180) * radius,
-        ],
-        y: [
-          Math.sin((angle * Math.PI) / 180) * radius,
-          Math.sin(((angle + 360) * Math.PI) / 180) * radius,
-        ],
-      }}
-      transition={{ duration, repeat: Infinity, ease: 'linear' }}
-    />
-  );
-}
-
 export default function ProcessingScreen() {
   const {
-    capturedPhotos,
-    selectedFilters,
-    filteredPhotos,
-    addFilteredPhoto,
-    processingProgress,
-    setProcessingProgress,
-    currentProcessingFilter,
-    setCurrentProcessingFilter,
-    setStep,
-    clearFilters,
-    language,
+    capturedPhotos, selectedFilters, filteredPhotos,
+    addFilteredPhoto, processingProgress, setProcessingProgress,
+    currentProcessingFilter, setCurrentProcessingFilter,
+    setStep, language,
   } = usePhotoboothStore();
 
   const isProcessingRef = useRef(false);
   const [providerLog, setProviderLog] = useState<string[]>([]);
-  const [msgIndex, setMsgIndex] = useState(0);
+  const [msgIndex, setMsgIndex]       = useState(0);
 
   const t = (id: string, en: string) => (language === 'id' ? id : en);
-  const loadingMessages = language === 'id' ? LOADING_MESSAGES_ID : LOADING_MESSAGES_EN;
+  const msgs = language === 'id' ? MSGS_ID : MSGS_EN;
 
-  // Cycle messages on timer
   useEffect(() => {
-    const timer = setInterval(() => {
-      setMsgIndex((prev) => (prev + 1) % loadingMessages.length);
-    }, 2800);
-    return () => clearInterval(timer);
-  }, [loadingMessages.length]);
+    const iv = setInterval(() => setMsgIndex(p => (p + 1) % msgs.length), 2800);
+    return () => clearInterval(iv);
+  }, [msgs.length]);
 
   useEffect(() => {
     if (isProcessingRef.current || capturedPhotos.length === 0) return;
     isProcessingRef.current = true;
 
     const processAll = async () => {
-      const totalTasks = capturedPhotos.length * selectedFilters.length;
-      let completedTasks = 0;
+      const total = capturedPhotos.length * selectedFilters.length;
+      let done = 0;
 
       for (let p = 0; p < capturedPhotos.length; p++) {
-        const photo = capturedPhotos[p];
+        const photo = capturedPhotos[p]!;
         for (let i = 0; i < selectedFilters.length; i++) {
-          const filter = selectedFilters[i];
+          const filter = selectedFilters[i]!;
           setCurrentProcessingFilter(`${filter.name} (Take ${p + 1})`);
-          setProcessingProgress(Math.round((completedTasks / totalTasks) * 100));
+          setProcessingProgress(Math.round((done / total) * 100));
 
           try {
             const res = await fetch('/api/generate-filter', {
@@ -106,25 +71,19 @@ export default function ProcessingScreen() {
                 filterName: filter.name,
               }),
             });
-
             if (res.ok) {
               const data = await res.json();
-              addFilteredPhoto({
-                original: photo.original,
-                filtered: data.filteredImage || photo.original,
-                filterName: filter.name,
-                filterId: filter.id,
-              });
-              setProviderLog((prev) => [...prev, `${filter.name} (T${p + 1}): ✓ ${data.provider || 'ok'}`]);
+              addFilteredPhoto({ original: photo.original, filtered: data.filteredImage || photo.original, filterName: filter.name, filterId: filter.id });
+              setProviderLog(prev => [...prev, `${filter.name} T${p + 1}: ✓ ${data.provider || 'ok'}`]);
             } else {
               addFilteredPhoto({ original: photo.original, filtered: photo.original, filterName: filter.name, filterId: filter.id });
-              setProviderLog((prev) => [...prev, `${filter.name} (T${p + 1}): fallback`]);
+              setProviderLog(prev => [...prev, `${filter.name} T${p + 1}: fallback`]);
             }
           } catch {
             addFilteredPhoto({ original: photo.original, filtered: photo.original, filterName: filter.name, filterId: filter.id });
-            setProviderLog((prev) => [...prev, `${filter.name} (T${p + 1}): error`]);
+            setProviderLog(prev => [...prev, `${filter.name} T${p + 1}: error`]);
           }
-          completedTasks++;
+          done++;
         }
       }
 
@@ -133,180 +92,162 @@ export default function ProcessingScreen() {
     };
 
     processAll();
-  }, [capturedPhotos, selectedFilters, filteredPhotos.length, addFilteredPhoto, setCurrentProcessingFilter, setProcessingProgress, setStep, clearFilters]);
+  }, [capturedPhotos, selectedFilters, filteredPhotos.length, addFilteredPhoto, setCurrentProcessingFilter, setProcessingProgress, setStep]);
 
-  const totalTasks = capturedPhotos.length * selectedFilters.length;
+  const total = capturedPhotos.length * selectedFilters.length;
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[#0A0A0F] p-6 overflow-hidden relative">
-      {/* Background ambient */}
-      <div className="absolute inset-0 pointer-events-none">
-        <motion.div
-          className="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 rounded-full"
-          style={{ background: 'radial-gradient(circle, rgba(255,107,157,0.08) 0%, transparent 70%)' }}
-          animate={{ scale: [1, 1.3, 1] }}
-          transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-        />
-        <motion.div
-          className="absolute bottom-1/4 left-1/2 -translate-x-1/2 w-64 h-64 rounded-full"
-          style={{ background: 'radial-gradient(circle, rgba(168,85,247,0.06) 0%, transparent 70%)' }}
-          animate={{ scale: [1, 1.4, 1] }}
-          transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
-        />
-      </div>
+    <div className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden p-6"
+      style={{ background: '#0c0a09' }}
+    >
+      {/* Film grain */}
+      <div className="absolute inset-0 pointer-events-none"
+        style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E\")", opacity: 0.4 }}
+      />
+      {/* Warm accent */}
+      <div className="absolute inset-0 pointer-events-none" style={{ background: 'radial-gradient(ellipse 60% 50% at 50% 50%, rgba(200,121,65,0.07) 0%, transparent 70%)' }} />
 
-      <div className="w-full max-w-sm flex flex-col items-center gap-8 relative z-10">
+      <div className="relative z-10 w-full max-w-sm flex flex-col items-center gap-7">
 
-        {/* Animated icon cluster */}
-        <div className="relative flex items-center justify-center" style={{ width: 140, height: 140 }}>
-          {/* Orbit rings */}
-          <motion.div
-            animate={{ rotate: 360 }}
-            transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
-            className="absolute inset-0 rounded-full border border-[#FF6B9D]/15"
-          />
-          <motion.div
-            animate={{ rotate: -360 }}
-            transition={{ duration: 7, repeat: Infinity, ease: 'linear' }}
-            className="absolute rounded-full border border-[#A855F7]/15"
-            style={{ inset: 8 }}
-          />
-          <motion.div
-            animate={{ rotate: 360 }}
-            transition={{ duration: 9, repeat: Infinity, ease: 'linear' }}
-            className="absolute rounded-full border border-[#06D6A0]/10"
-            style={{ inset: 18 }}
-          />
+        {/* ── Processing visual — orbital rings, editorial style ── */}
+        <div className="relative flex items-center justify-center" style={{ width: 148, height: 148 }}>
+          {/* Square orbit ring — not circles */}
+          {[0, 1, 2].map(i => (
+            <motion.div key={i}
+              className="absolute"
+              animate={{ rotate: i % 2 === 0 ? [0, 360] : [0, -360] }}
+              transition={{ duration: 5 + i * 2, repeat: Infinity, ease: 'linear' }}
+              style={{
+                inset: i * 12,
+                border: `1px solid rgba(200,121,65,${0.18 - i * 0.04})`,
+                clipPath: 'polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%)',
+              }}
+            />
+          ))}
 
-          {/* Orbiting dots */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <OrbitDot angle={0}   radius={62} color="#FF6B9D" duration={5} />
-            <OrbitDot angle={120} radius={62} color="#A855F7" duration={5} />
-            <OrbitDot angle={240} radius={62} color="#06D6A0" duration={5} />
-          </div>
+          {/* Orbiting copper dots */}
+          {[0, 120, 240].map((deg, i) => (
+            <motion.div key={deg}
+              className="absolute"
+              style={{ width: 6, height: 6, background: i === 0 ? '#c87941' : i === 1 ? '#e8a02a' : '#4ecb9e', left: '50%', top: '50%' }}
+              animate={{
+                x: [Math.cos(deg * Math.PI / 180) * 62, Math.cos((deg + 360) * Math.PI / 180) * 62],
+                y: [Math.sin(deg * Math.PI / 180) * 62, Math.sin((deg + 360) * Math.PI / 180) * 62],
+              }}
+              transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
+            />
+          ))}
 
-          {/* Center icon */}
+          {/* Center icon — clipped square */}
           <motion.div
-            animate={{
-              scale: [1, 1.1, 1],
-              boxShadow: [
-                '0 0 30px rgba(255,107,157,0.25)',
-                '0 0 55px rgba(255,107,157,0.5)',
-                '0 0 30px rgba(255,107,157,0.25)',
-              ],
+            animate={{ scale: [1, 1.08, 1] }}
+            transition={{ duration: 2.2, repeat: Infinity, ease: 'easeInOut' }}
+            className="relative z-10 flex items-center justify-center"
+            style={{
+              width: 72, height: 72,
+              background: '#c87941',
+              clipPath: 'polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%)',
+              boxShadow: '0 0 36px rgba(200,121,65,0.35)',
             }}
-            transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-            className="relative w-20 h-20 rounded-2xl bg-gradient-to-br from-[#FF6B9D] to-[#FF8A65] flex items-center justify-center z-10"
           >
-            <Wand2 className="w-9 h-9 text-white" />
-            {/* Corner sparkle */}
-            <motion.div
-              animate={{ opacity: [0, 1, 0], scale: [0.5, 1, 0.5] }}
-              transition={{ duration: 1.5, repeat: Infinity, delay: 0.3 }}
-              className="absolute -top-1 -right-1"
-            >
-              <Sparkles className="w-4 h-4 text-yellow-300" />
-            </motion.div>
+            {/* Custom wand SVG — square style */}
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0c0a09" strokeWidth="2" strokeLinecap="square">
+              <path d="M15 4l5 5-10 10-5-5z" />
+              <path d="M2 22l4-4" />
+              <path d="M18 2l2 2-2-2z" strokeWidth="3" />
+            </svg>
           </motion.div>
         </div>
 
-        {/* Title + cycling message */}
-        <div className="text-center space-y-2">
-          <h2 className="text-xl font-black text-white tracking-tight" style={{ fontFamily: 'var(--font-outfit)' }}>
-            {t('Memproses Foto', 'Processing Photo')}
+        {/* ── Title + cycling message ── */}
+        <div className="text-center">
+          <div className="flex items-center justify-center gap-2 mb-2">
+            <div className="h-px w-6 bg-[#c87941]" />
+            <span className="text-[9px] font-bold tracking-[0.35em] text-[#c87941] uppercase font-body">AI Processing</span>
+            <div className="h-px w-6 bg-[#c87941]" />
+          </div>
+          <h2 className="font-display font-black text-[#f0ebe3] leading-tight" style={{ fontSize: 'clamp(1.4rem, 4vw, 1.9rem)' }}>
+            {t('Memproses', 'Processing')}<br />
+            <span className="italic text-[#c87941]">{t('Foto', 'Photo')}</span>
           </h2>
           <AnimatePresence mode="wait">
             <motion.p
               key={msgIndex}
-              initial={{ opacity: 0, y: 8 }}
+              initial={{ opacity: 0, y: 6 }}
               animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -8 }}
-              transition={{ duration: 0.35 }}
-              className="text-sm text-muted-foreground min-h-[20px]"
+              exit={{ opacity: 0, y: -6 }}
+              transition={{ duration: 0.3 }}
+              className="mt-2 text-[12px] text-[#7a7168] font-body min-h-[18px]"
             >
-              {loadingMessages[msgIndex]}
+              {msgs[msgIndex]}
             </motion.p>
           </AnimatePresence>
         </div>
 
-        {/* Current filter indicator */}
+        {/* ── Current filter ── */}
         <AnimatePresence mode="wait">
           {currentProcessingFilter && (
             <motion.div
               key={currentProcessingFilter}
-              initial={{ opacity: 0, y: 10, scale: 0.95 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: -10, scale: 0.95 }}
-              className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl glass border border-[#FF6B9D]/15"
+              initial={{ opacity: 0, x: -10 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 10 }}
+              className="flex items-center gap-2.5 w-full px-3 py-2.5"
+              style={{ background: '#151210', border: '1px solid rgba(200,121,65,0.2)', borderLeft: '3px solid #c87941' }}
             >
-              <Cpu className="w-4 h-4 text-[#FF6B9D] shrink-0" />
-              <span className="text-sm font-semibold text-white truncate">
-                {currentProcessingFilter}
-              </span>
-              <motion.div
-                animate={{ opacity: [0.4, 1, 0.4] }}
-                transition={{ duration: 1.2, repeat: Infinity }}
-                className="ml-auto shrink-0"
-              >
-                <Zap className="w-3.5 h-3.5 text-[#FBBF24]" />
+              <Cpu className="w-3.5 h-3.5 text-[#c87941] shrink-0" />
+              <span className="text-[12px] font-bold text-[#f0ebe3] font-body truncate">{currentProcessingFilter}</span>
+              <motion.div animate={{ opacity: [0.4, 1, 0.4] }} transition={{ duration: 1.1, repeat: Infinity }} className="ml-auto shrink-0">
+                <Zap className="w-3 h-3 text-[#e8a02a]" />
               </motion.div>
             </motion.div>
           )}
         </AnimatePresence>
 
-        {/* Progress bar */}
-        <div className="w-full space-y-2.5">
-          <div className="relative h-2.5 rounded-full bg-[#15151F] overflow-hidden">
+        {/* ── Progress ── */}
+        <div className="w-full space-y-2">
+          {/* Progress track — flat line, not pill */}
+          <div className="w-full h-1" style={{ background: '#1d1a17' }}>
             <motion.div
-              className="absolute top-0 left-0 h-full rounded-full bg-gradient-to-r from-[#FF6B9D] via-[#A855F7] to-[#FF8A65]"
+              className="h-full"
+              style={{ background: `linear-gradient(to right, #c87941, #e8a02a)` }}
               animate={{ width: `${processingProgress}%` }}
-              transition={{ duration: 0.4, ease: 'easeOut' }}
-            />
-            {/* Animated shimmer on progress bar */}
-            <motion.div
-              className="absolute top-0 h-full w-16 rounded-full"
-              style={{ background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent)' }}
-              animate={{ x: ['-100%', '600%'] }}
-              transition={{ duration: 1.5, repeat: Infinity, ease: 'linear', repeatDelay: 0.5 }}
+              transition={{ duration: 0.4, ease: [0.33, 1, 0.68, 1] }}
             />
           </div>
-          <div className="flex justify-between items-center text-xs">
-            <span className="text-white/40 font-medium">
-              {filteredPhotos.length}/{totalTasks} {t('proses', 'processes')}
+          <div className="flex justify-between items-center">
+            <span className="text-[10px] tracking-[0.15em] text-[#7a7168] font-body uppercase">
+              {filteredPhotos.length}/{total} {t('selesai', 'done')}
             </span>
-            <span className="text-[#FF6B9D] font-black font-mono-nums tabular-nums text-sm">
+            <span className="font-display font-black tabular-nums" style={{ fontSize: '1.1rem', color: '#c87941' }}>
               {processingProgress}%
             </span>
           </div>
         </div>
 
-        {/* Completed thumbnails */}
+        {/* ── Completed thumbnails ── */}
         {filteredPhotos.length > 0 && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            className="w-full"
-          >
-            <p className="text-xs text-white/30 font-medium mb-2 text-center">
-              {t('Selesai diproses', 'Completed')}
-            </p>
-            <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-thin justify-center flex-wrap">
-              {filteredPhotos.map((photo) => (
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="w-full">
+            <div className="flex items-center gap-2 mb-2">
+              <div className="h-px w-3 bg-[#4ecb9e]" />
+              <span className="text-[9px] tracking-[0.25em] text-[#4ecb9e] uppercase font-body">{t('Selesai', 'Completed')}</span>
+            </div>
+            <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
+              {filteredPhotos.map(photo => (
                 <motion.div
                   key={photo.id}
                   initial={{ opacity: 0, scale: 0.7 }}
                   animate={{ opacity: 1, scale: 1 }}
-                  transition={{ type: 'spring', stiffness: 400, damping: 20 }}
-                  className="shrink-0 w-14 h-14 rounded-xl overflow-hidden border border-white/10 shadow-ios relative"
+                  transition={{ type: 'spring', stiffness: 400, damping: 22 }}
+                  className="shrink-0 relative overflow-hidden"
+                  style={{ width: 52, height: 52, border: '1px solid rgba(78,203,158,0.3)' }}
                 >
-                  <img
-                    src={photo.filtered}
-                    alt={photo.filterName}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute bottom-0.5 right-0.5 w-4 h-4 rounded-full bg-[#06D6A0] flex items-center justify-center">
-                    <svg viewBox="0 0 24 24" fill="none" className="w-2.5 h-2.5">
-                      <path d="M5 13l4 4L19 7" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                  <img src={photo.filtered} alt={photo.filterName} className="w-full h-full object-cover" />
+                  <div className="absolute bottom-0.5 right-0.5 w-3.5 h-3.5 flex items-center justify-center"
+                    style={{ background: '#4ecb9e' }}
+                  >
+                    <svg viewBox="0 0 24 24" fill="none" className="w-2 h-2">
+                      <path d="M5 13l4 4L19 7" stroke="#0c0a09" strokeWidth="3.5" strokeLinecap="square" strokeLinejoin="miter" />
                     </svg>
                   </div>
                 </motion.div>
@@ -315,18 +256,12 @@ export default function ProcessingScreen() {
           </motion.div>
         )}
 
-        {/* Provider debug log */}
+        {/* Provider log — minimal */}
         {providerLog.length > 0 && (
-          <div className="w-full space-y-1 max-h-20 overflow-y-auto scrollbar-thin">
+          <div className="w-full max-h-16 overflow-y-auto scrollbar-thin space-y-0.5">
             {providerLog.map((log, i) => (
-              <motion.p
-                key={i}
-                initial={{ opacity: 0, x: -8 }}
-                animate={{ opacity: 1, x: 0 }}
-                className="text-[10px] text-white/20 font-mono"
-              >
-                {log}
-              </motion.p>
+              <motion.p key={i} initial={{ opacity: 0 }} animate={{ opacity: 1 }}
+                className="text-[9px] font-mono text-[#2c2822]">{log}</motion.p>
             ))}
           </div>
         )}

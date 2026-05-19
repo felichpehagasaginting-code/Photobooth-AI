@@ -1,18 +1,21 @@
 import type { Metadata, Viewport } from "next";
-import { Outfit, Inter } from "next/font/google";
+import { Playfair_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 
-const outfit = Outfit({
+/* Editorial display — weight + italics for headline drama */
+const playfair = Playfair_Display({
   subsets: ["latin"],
-  variable: "--font-outfit",
-  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-display",
+  weight: ["400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
   display: "swap",
 });
 
-const inter = Inter({
+/* Clean, high-legibility body — not a default AI choice */
+const dmSans = DM_Sans({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-body",
   weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
@@ -22,7 +25,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  themeColor: "#0A0A0F",
+  themeColor: "#0c0a09",
 };
 
 export const metadata: Metadata = {
@@ -56,8 +59,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id" suppressHydrationWarning className={`${outfit.variable} ${inter.variable}`}>
-      <body className="antialiased bg-[#0A0A0F] text-white font-outfit">
+    <html lang="id" suppressHydrationWarning className={`${playfair.variable} ${dmSans.variable}`}>
+      <body className="antialiased bg-[#0c0a09] text-[#f0ebe3] font-body">
         {children}
         <Toaster />
       </body>

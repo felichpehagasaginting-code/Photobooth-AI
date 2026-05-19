@@ -52,12 +52,20 @@ const config: Config = {
   				'4': 'var(--chart-4)',
   				'5': 'var(--chart-5)'
   			},
+  			/* Semantic brand tokens */
+  			copper: '#c87941',
+  			amber: '#e8a02a',
+  			mint: '#4ecb9e',
+  			edge: '#2c2822',
+  			surface: '#151210',
+  			'surface-raised': '#1d1a17',
+  			/* Legacy kept for gradual migration */
   			premium: {
-  				pink: '#FF6B9D',
-  				cyan: '#06D6A0',
-  				gold: '#FBBF24',
-  				purple: '#A855F7',
-  				orange: '#FF8A65',
+  				pink: '#c87941',
+  				cyan: '#4ecb9e',
+  				gold: '#e8a02a',
+  				purple: '#8a6ff0',
+  				orange: '#c87941',
   			}
   		},
   		borderRadius: {
@@ -71,9 +79,11 @@ const config: Config = {
   			'safe': 'max(env(safe-area-inset-top), 1rem)',
   		},
   		fontFamily: {
-  			'sf-pro': ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'system-ui', 'sans-serif'],
-  			'outfit': ['var(--font-outfit)', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif'],
-  			'inter': ['var(--font-inter)', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif'],
+  			'display': ['var(--font-display)', 'Georgia', 'serif'],
+  			'body': ['var(--font-body)', 'system-ui', 'sans-serif'],
+  			/* Legacy aliases — kept for gradual migration */
+  			'outfit': ['var(--font-display)', 'Georgia', 'serif'],
+  			'inter': ['var(--font-body)', 'system-ui', 'sans-serif'],
   		},
   		fontSize: {
   			'xs': ['12px', { lineHeight: '16px', letterSpacing: '0em' }],
