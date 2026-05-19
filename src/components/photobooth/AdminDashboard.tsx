@@ -14,6 +14,7 @@ import {
 } from '@/types';
 import { Switch } from '@/components/ui/switch';
 import { Badge } from '@/components/ui/badge';
+import { AreaChart, Area, XAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 /* ── Stat tile — editorial data card ─────────────────────────────────── */
 function StatTile({ label, value, accent, index }: { label: string; value: string; accent: string; index: number }) {
@@ -241,6 +242,38 @@ export default function AdminDashboard() {
                     {[40,65,50,80,55,70,45].map((h, i) => (
                       <div key={i} style={{ width: 4, height: `${h}%`, background: i === 5 ? '#4ecb9e' : 'rgba(78,203,158,0.2)' }} />
                     ))}
+                  </div>
+                </div>
+
+                {/* Revenue Chart */}
+                <div className="mt-5 mb-5 p-5" style={{ background: '#151210', border: '1px solid #2c2822' }}>
+                  <p className="text-[10px] tracking-[0.25em] uppercase font-body font-bold mb-4" style={{ color: '#7a7168' }}>Tren Pendapatan (7 Hari Terakhir)</p>
+                  <div className="h-48 w-full">
+                    <ResponsiveContainer width="100%" height="100%">
+                      <AreaChart data={[
+                        { name: 'Sen', revenue: 450000 },
+                        { name: 'Sel', revenue: 320000 },
+                        { name: 'Rab', revenue: 500000 },
+                        { name: 'Kam', revenue: 410000 },
+                        { name: 'Jum', revenue: 650000 },
+                        { name: 'Sab', revenue: 1200000 },
+                        { name: 'Min', revenue: 950000 }
+                      ]}>
+                        <defs>
+                          <linearGradient id="colorRev" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="5%" stopColor="#c87941" stopOpacity={0.3}/>
+                            <stop offset="95%" stopColor="#c87941" stopOpacity={0}/>
+                          </linearGradient>
+                        </defs>
+                        <XAxis dataKey="name" stroke="#7a7168" fontSize={10} tickLine={false} axisLine={false} />
+                        <Tooltip 
+                          contentStyle={{ backgroundColor: '#0c0a09', border: '1px solid #2c2822', borderRadius: 0 }}
+                          itemStyle={{ color: '#c87941', fontWeight: 'bold' }}
+                          formatter={(value: number) => formatPrice(value)}
+                        />
+                        <Area type="monotone" dataKey="revenue" stroke="#c87941" strokeWidth={2} fillOpacity={1} fill="url(#colorRev)" />
+                      </AreaChart>
+                    </ResponsiveContainer>
                   </div>
                 </div>
 
