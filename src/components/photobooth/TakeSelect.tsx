@@ -50,12 +50,14 @@ function ScatteredPolaroid({ src, rotation, top, left, right, width = 100 }: { s
 }
 
 const BG_POLAROIDS = [
-  { src: POLAROID_SRCS[0]!, rotation: -13, top: '6%',  left: '2%',   width: 120 },
-  { src: POLAROID_SRCS[1]!, rotation: 10,  top: '5%',  right: '4%',  width: 108 },
-  { src: POLAROID_SRCS[2]!, rotation: -9,  top: '60%', left: '2%',   width: 115 },
-  { src: POLAROID_SRCS[3]!, rotation: 16,  top: '72%', right: '5%',  width: 105 },
-  { src: POLAROID_SRCS[0]!, rotation: 20,  top: '28%', left: '8%',   width: 88  },
-  { src: POLAROID_SRCS[1]!, rotation: -17, top: '35%', right: '6%',  width: 95  },
+  // Left side
+  { src: POLAROID_SRCS[0]!, rotation: -13, top: '4%',  left: '-2%',   width: 120 },
+  { src: POLAROID_SRCS[2]!, rotation: -9,  top: '60%', left: '-3%',   width: 115 },
+  { src: POLAROID_SRCS[0]!, rotation: 20,  top: '32%', left: '2%',   width: 88  },
+  // Right side
+  { src: POLAROID_SRCS[1]!, rotation: 10,  top: '5%',  right: '2%',  width: 108 },
+  { src: POLAROID_SRCS[3]!, rotation: 16,  top: '72%', right: '0%',  width: 105 },
+  { src: POLAROID_SRCS[1]!, rotation: -17, top: '38%', right: '4%',  width: 95  },
 ];
 
 /* ── Main ───────────────────────────────────────────────────────────── */
@@ -98,7 +100,7 @@ export default function TakeSelect() {
       </div>
 
       {/* ── Navbar ── */}
-      <div className="relative z-20 flex items-center gap-3 px-5 py-3"
+      <div className="relative z-20 flex items-center gap-3 px-6 lg:px-12 py-4"
         style={{ background: 'rgba(12,10,9,0.72)', backdropFilter: 'blur(14px)', borderBottom: '1px solid rgba(200,121,65,0.1)' }}
       >
         <button
@@ -118,7 +120,7 @@ export default function TakeSelect() {
       </div>
 
       {/* ── Content ── */}
-      <div className="relative z-10 flex flex-col flex-1 px-5 pt-6 pb-8">
+      <div className="relative z-10 flex flex-col flex-1 w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16 pt-6 pb-8">
 
         {/* Left-aligned heading — not centered */}
         <motion.div initial={{ opacity: 0, x: -12 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.08 }}>

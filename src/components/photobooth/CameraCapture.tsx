@@ -160,8 +160,7 @@ export default function CameraCapture() {
         style={{ background: 'radial-gradient(circle at top right, rgba(200,121,65,0.05) 0%, transparent 70%)' }}
       />
 
-      <div className="relative flex-1 flex flex-col gap-3 p-4 md:p-5 z-10">
-
+      <div className="relative flex-1 flex flex-col gap-3 p-4 md:p-5 z-10 w-full max-w-7xl mx-auto">
         {/* ── Top bar ── */}
         <div className="flex items-center gap-3">
           <button

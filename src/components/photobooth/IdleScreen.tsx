@@ -63,15 +63,16 @@ function Polaroid({ src, rotation, top, left, right, width = 110 }: PolaroidProp
 }
 
 const POLAROIDS: PolaroidProps[] = [
-  { src: '/filters/anime-ghibli.png', rotation: -14, top: '8%',  left: '4%',   width: 135 },
-  { src: '/filters/cyberpunk.png',    rotation: 11,  top: '6%',  left: '22%',  width: 115 },
-  { src: '/filters/watercolor.png',   rotation: -9,  top: '52%', left: '3%',   width: 125 },
-  { src: '/filters/comic.png',        rotation: 17,  top: '73%', left: '18%',  width: 118 },
-  { src: '/filters/anime-ghibli.png', rotation: 9,   top: '10%', right: '4%',  width: 140 },
-  { src: '/filters/cyberpunk.png',    rotation: -13, top: '42%', right: '3%',  width: 125 },
-  { src: '/filters/watercolor.png',   rotation: 14,  top: '70%', right: '16%', width: 112 },
-  { src: '/filters/comic.png',        rotation: -18, top: '28%', left: '12%',  width: 105 },
-  { src: '/filters/anime-ghibli.png', rotation: 22,  top: '22%', right: '22%', width: 95  },
+  // Far left / Top left corner
+  { src: '/filters/anime-ghibli.png', rotation: -14, top: '4%',  left: '-2%',   width: 135 },
+  { src: '/filters/watercolor.png',   rotation: -9,  top: '65%', left: '-3%',   width: 125 },
+  // Far right / Top right corner
+  { src: '/filters/cyberpunk.png',    rotation: 11,  top: '8%',  right: '8%',  width: 125 },
+  { src: '/filters/anime-ghibli.png', rotation: 9,   top: '12%', right: '-4%',  width: 140 },
+  { src: '/filters/watercolor.png',   rotation: 14,  top: '70%', right: '4%', width: 112 },
+  // Top center-ish, but pushed up
+  { src: '/filters/comic.png',        rotation: 17,  top: '-5%', left: '35%',  width: 118 },
+  { src: '/filters/cyberpunk.png',    rotation: -13, top: '-2%', right: '35%',  width: 100 },
 ];
 
 const showcaseFilters = [
@@ -158,7 +159,7 @@ export default function IdleScreen() {
 
       {/* ── Top bar — left-aligned, not centered ── */}
       <div
-        className="relative z-20 flex items-center px-5 py-3 gap-4"
+        className="relative z-20 flex items-center px-6 lg:px-12 py-4 gap-4"
         style={{ background: 'rgba(12,10,9,0.72)', backdropFilter: 'blur(14px)', borderBottom: '1px solid rgba(200,121,65,0.1)' }}
       >
         {/* Brand mark — geometric, not a generic pill */}
@@ -193,10 +194,10 @@ export default function IdleScreen() {
       </div>
 
       {/* ── ASYMMETRIC main layout — left text / right visual ── */}
-      <div className="relative z-10 flex-1 flex flex-col md:flex-row items-center md:items-stretch px-5 md:px-8 py-6 gap-6">
+      <div className="relative z-10 flex-1 w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-stretch px-6 md:px-12 lg:px-16 py-6 gap-8 md:gap-16">
 
         {/* LEFT — editorial text column */}
-        <div className="flex flex-col justify-center md:w-[45%] md:pr-6">
+        <div className="flex flex-col justify-center md:w-1/2">
 
           {/* Issue-style label */}
           <motion.div initial={{ opacity: 0, x: -14 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.05 }}
@@ -270,7 +271,7 @@ export default function IdleScreen() {
         </div>
 
         {/* RIGHT — visual panel, offset asymmetric */}
-        <div className="flex flex-col items-center justify-center md:w-[55%] md:pl-4">
+        <div className="flex flex-col items-center justify-center md:w-1/2">
 
           {/* Filter showcase — not a rounded card on white */}
           <motion.div
@@ -353,7 +354,7 @@ export default function IdleScreen() {
       </div>
 
       {/* ── Bottom stamp — not a centered footer ── */}
-      <div className="relative z-10 px-5 pb-4 flex items-end justify-between">
+      <div className="relative z-10 px-6 lg:px-12 pb-5 flex items-end justify-between">
         <span className="text-[9px] tracking-[0.4em] text-[#2c2822] uppercase font-body">BOOTH CANVMIN</span>
         <span className="text-[9px] tracking-[0.4em] text-[#2c2822] uppercase font-body">© 2025</span>
       </div>

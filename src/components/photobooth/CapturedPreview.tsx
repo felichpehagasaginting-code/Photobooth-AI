@@ -39,7 +39,7 @@ export default function CapturedPreview() {
 
       {/* ── Header ── */}
       <div className="relative z-10 sticky top-0" style={{ background: 'rgba(12,10,9,0.82)', backdropFilter: 'blur(14px)', borderBottom: '1px solid rgba(200,121,65,0.1)' }}>
-        <div className="flex items-center gap-4 p-4">
+        <div className="flex items-center gap-4 p-4 w-full max-w-7xl mx-auto">
           <button onClick={handleRetake}
             className="w-10 h-10 flex items-center justify-center text-[#7a7168] hover:text-[#c87941] tap-none"
             style={{ border: '1px solid rgba(44,40,34,0.8)', transition: 'color 200ms cubic-bezier(0.33, 1, 0.68, 1)' }}
@@ -124,8 +124,9 @@ export default function CapturedPreview() {
       </div>
 
       {/* ── Actions ── */}
-      <div className="relative z-10 sticky bottom-0 p-4 space-y-3" style={{ background: 'linear-gradient(to top, #0c0a09 60%, rgba(12,10,9,0.9) 80%, transparent)' }}>
-        <button
+      <div className="relative z-10 sticky bottom-0 p-4" style={{ background: 'linear-gradient(to top, #0c0a09 60%, rgba(12,10,9,0.9) 80%, transparent)' }}>
+        <div className="w-full max-w-7xl mx-auto space-y-3">
+          <button
           onClick={handleNext}
           className="btn-solid w-full h-14 text-sm font-body press tap-none flex items-center justify-center gap-2"
         >
@@ -143,6 +144,7 @@ export default function CapturedPreview() {
           <RotateCcw className="w-3.5 h-3.5" />
           {t('Ulangi Foto Ini', 'Retake This Photo')}
         </button>
+        </div>
       </div>
     </div>
   );
