@@ -250,14 +250,14 @@ export default function AdminDashboard() {
                   <p className="text-[10px] tracking-[0.25em] uppercase font-body font-bold mb-4" style={{ color: '#7a7168' }}>Tren Pendapatan (7 Hari Terakhir)</p>
                   <div className="h-48 w-full">
                     <ResponsiveContainer width="100%" height="100%">
-                      <AreaChart data={[
-                        { name: 'Sen', revenue: 450000 },
-                        { name: 'Sel', revenue: 320000 },
-                        { name: 'Rab', revenue: 500000 },
-                        { name: 'Kam', revenue: 410000 },
-                        { name: 'Jum', revenue: 650000 },
-                        { name: 'Sab', revenue: 1200000 },
-                        { name: 'Min', revenue: 950000 }
+                      <AreaChart data={stats.revenueHistory || [
+                        { name: 'Sen', revenue: 0 },
+                        { name: 'Sel', revenue: 0 },
+                        { name: 'Rab', revenue: 0 },
+                        { name: 'Kam', revenue: 0 },
+                        { name: 'Jum', revenue: 0 },
+                        { name: 'Sab', revenue: 0 },
+                        { name: 'Min', revenue: 0 }
                       ]}>
                         <defs>
                           <linearGradient id="colorRev" x1="0" y1="0" x2="0" y2="1">

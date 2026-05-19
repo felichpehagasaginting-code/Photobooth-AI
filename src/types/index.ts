@@ -75,6 +75,7 @@ export interface AdminStats {
   todaySessions: number;
   todayRevenue: number;
   activeFilters: number;
+  revenueHistory?: { name: string; revenue: number }[];
   recentTransactions: TransactionInfo[];
 }
 
