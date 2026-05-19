@@ -4602,3 +4602,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T20:44:01+07:00** - [Activity #3853] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-19T21:02:00+07:00** - [Activity #3854] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-19T21:33:08+07:00** - [Activity #3855] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-05-19T21:38:38+07:00** - [Activity #3856] feat(settings): add camera device selector with resolution fallbacks
