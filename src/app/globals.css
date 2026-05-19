@@ -384,6 +384,21 @@
   90%  { transform: translate(1%, 1%); }
 }
 
+@keyframes shimmer-sweep {
+  0%   { transform: translateX(-100%) skewX(-15deg); }
+  100% { transform: translateX(300%) skewX(-15deg); }
+}
+
+@keyframes scan-line {
+  0%   { top: -4px; }
+  100% { top: calc(100% + 4px); }
+}
+
+@keyframes text-reveal {
+  from { clip-path: inset(0 100% 0 0); opacity: 0; }
+  to   { clip-path: inset(0 0% 0 0); opacity: 1; }
+}
+
 /* ── Global element resets ───────────────────────────────────────────── */
 
 /* Purposeful transitions only — no transition:all */
