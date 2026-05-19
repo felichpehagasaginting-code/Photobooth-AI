@@ -4599,3 +4599,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T19:46:28+07:00** - [Activity #3850] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-19T20:02:19+07:00** - [Activity #3851] refactor(export): optimize collage rendering algorithm for speed
 - **2026-05-19T20:26:37+07:00** - [Activity #3852] refactor(camera): extract media stream hook into standalone module
+- **2026-05-19T20:44:01+07:00** - [Activity #3853] feat(gallery): add touch swipe navigation for captured photo previews
