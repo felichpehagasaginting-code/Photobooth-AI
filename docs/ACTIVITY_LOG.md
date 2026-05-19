@@ -4591,3 +4591,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T16:31:28+07:00** - [Activity #3842] feat(audio): add shutter click and countdown sound effects
 - **2026-05-19T16:35:02+07:00** - [Activity #3843] chore(deps): update core dependencies to latest stable versions
 - **2026-05-19T17:01:01+07:00** - [Activity #3844] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-05-19T17:04:22+07:00** - [Activity #3845] feat(kiosk): add full-screen lock and inactivity reset timer
