@@ -10252,3 +10252,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T14:40:28+07:00** - [Activity #5625] feat(cloud): async upload queue for batch photo backup
 - **2026-05-19T14:53:52+07:00** - [Activity #5626] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-05-19T14:57:47+07:00** - [Activity #5627] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-05-19T15:13:40+07:00** - [Activity #5628] fix(state): sync active photo index when reopening gallery drawer
