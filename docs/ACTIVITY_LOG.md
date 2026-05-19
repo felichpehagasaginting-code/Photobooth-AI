@@ -10244,3 +10244,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T11:36:32+07:00** - [Activity #5617] feat(cloud): async upload queue for batch photo backup
 - **2026-05-19T11:44:23+07:00** - [Activity #5618] perf(anim): offload countdown animations to GPU composited layers
 - **2026-05-19T12:03:14+07:00** - [Activity #5619] chore(git): add ignore rules for local session exports and temp files
+- **2026-05-19T12:17:17+07:00** - [Activity #5620] fix(print): fix page margin clipping on 4x6 photo paper print preview
