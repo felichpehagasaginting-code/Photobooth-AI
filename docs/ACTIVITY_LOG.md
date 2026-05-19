@@ -4593,3 +4593,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T17:01:01+07:00** - [Activity #3844] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-05-19T17:04:22+07:00** - [Activity #3845] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-19T17:16:46+07:00** - [Activity #3846] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-05-19T17:34:52+07:00** - [Activity #3847] fix(canvas): prevent blur artifacts during canvas downsampling
