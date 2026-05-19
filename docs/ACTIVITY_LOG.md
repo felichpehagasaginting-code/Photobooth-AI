@@ -10232,3 +10232,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T21:55:39+07:00** - [Activity #5605] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-18T22:27:34+07:00** - [Activity #5606] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-05-19T09:04:46+07:00** - [Activity #5607] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-05-19T09:22:48+07:00** - [Activity #5608] refactor(styles): migrate hardcoded color values to CSS design tokens
