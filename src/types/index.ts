@@ -8,6 +8,7 @@ export type AppStep =
   | 'captured'
   | 'filter-select'
   | 'processing'
+  | 'customize'
   | 'download'
   | 'admin-login'
   | 'admin-dashboard';

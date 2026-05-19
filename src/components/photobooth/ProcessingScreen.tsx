@@ -24,109 +24,6 @@ const MSGS_EN = [
   'Almost done!',
 ];
 
-async function generateGrid(images: string[], count: number, filterName: string): Promise<string> {
-  return new Promise((resolve) => {
-    const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d');
-    if (!ctx) return resolve(images[0] || '');
-
-    const loadImg = (src: string): Promise<HTMLImageElement> => new Promise((res) => {
-      const img = new Image();
-      img.crossOrigin = 'anonymous';
-      img.onload = () => res(img);
-      img.onerror = () => { const errImg = new Image(); res(errImg); };
-      img.src = src;
-    });
-
-    Promise.all(images.map(loadImg)).then((loadedImages) => {
-      const imgW = loadedImages[0]?.width || 1280;
-      const imgH = loadedImages[0]?.height || 720;
-      
-      const padding = 60; // Increased padding for a more premium look
-      const innerPadding = 30; // Space between images
-      const headerH = 180;
-      const footerH = 240;
-      
-      let cols = 1;
-      let rows = 2;
-      
-      if (count === 4) { cols = 2; rows = 2; }
-      else if (count === 6) { cols = 2; rows = 3; }
-      else { cols = 1; rows = 2; } 
-      
-      const contentW = cols * imgW + (cols - 1) * innerPadding;
-      const contentH = rows * imgH + (rows - 1) * innerPadding;
-      
-      canvas.width = contentW + padding * 2;
-      canvas.height = contentH + padding * 2 + headerH + footerH;
-      
-      // Draw background (dark editorial)
-      ctx.fillStyle = '#0c0a09';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-      // Draw outer copper border
-      ctx.strokeStyle = 'rgba(200,121,65,0.8)';
-      ctx.lineWidth = 12;
-      ctx.strokeRect(20, 20, canvas.width - 40, canvas.height - 40);
-
-      // Draw subtle grain/texture lines (simulated)
-      ctx.strokeStyle = 'rgba(255,255,255,0.02)';
-      ctx.lineWidth = 1;
-      for (let i = 0; i < canvas.height; i += 8) {
-        ctx.beginPath(); ctx.moveTo(0, i); ctx.lineTo(canvas.width, i); ctx.stroke();
-      }
-      
-      // Draw images
-      loadedImages.forEach((img, idx) => {
-        if (!img.width) return;
-        const col = idx % cols;
-        const row = Math.floor(idx / cols);
-        const x = padding + col * (imgW + innerPadding);
-        const y = padding + headerH + row * (imgH + innerPadding);
-        
-        ctx.drawImage(img, x, y, imgW, imgH);
-        
-        // Copper border for each image
-        ctx.strokeStyle = '#c87941';
-        ctx.lineWidth = 4;
-        ctx.strokeRect(x, y, imgW, imgH);
-      });
-      
-      // Header Text
-      ctx.fillStyle = '#c87941';
-      ctx.font = 'bold 54px "DM Sans", sans-serif';
-      ctx.textAlign = 'center';
-      ctx.letterSpacing = '14px';
-      ctx.fillText('AI.PHOTOBOOTH', canvas.width / 2, padding + 80);
-      
-      // Sub-header
-      ctx.fillStyle = '#7a7168';
-      ctx.font = 'italic 28px "Playfair Display", serif';
-      ctx.letterSpacing = '4px';
-      ctx.fillText('Premium AI Edition', canvas.width / 2, padding + 130);
-      
-      // Divider
-      ctx.fillStyle = 'rgba(200,121,65,0.3)';
-      ctx.fillRect(canvas.width / 2 - 150, padding + 160, 300, 2);
-      
-      // Footer Text (Filter Name)
-      ctx.fillStyle = '#f0ebe3';
-      ctx.font = 'italic 86px "Playfair Display", serif';
-      ctx.fillText(filterName, canvas.width / 2, canvas.height - padding - 80);
-      
-      // Footer Subtext (Date & Time)
-      const dateStr = new Date().toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' });
-      const timeStr = new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' });
-      ctx.fillStyle = '#7a7168';
-      ctx.font = '32px "DM Sans", sans-serif';
-      ctx.letterSpacing = '6px';
-      ctx.fillText(`CAPTURED ON ${dateStr.toUpperCase()} • ${timeStr}`, canvas.width / 2, canvas.height - padding - 20);
-      
-      resolve(canvas.toDataURL('image/jpeg', 0.95));
-    });
-  });
-}
-
 export default function ProcessingScreen() {
   const {
     capturedPhotos, selectedFilters, filteredPhotos,
@@ -155,12 +52,10 @@ export default function ProcessingScreen() {
       const total = capturedPhotos.length * selectedFilters.length;
       let done = 0;
 
-      for (let i = 0; i < selectedFilters.length; i++) {
-        const filter = selectedFilters[i]!;
-        const processedImages: string[] = [];
-
-        for (let p = 0; p < capturedPhotos.length; p++) {
-          const photo = capturedPhotos[p]!;
+      for (let p = 0; p < capturedPhotos.length; p++) {
+        const photo = capturedPhotos[p]!;
+        for (let i = 0; i < selectedFilters.length; i++) {
+          const filter = selectedFilters[i]!;
           setCurrentProcessingFilter(`${filter.name} (Take ${p + 1})`);
           setProcessingProgress(Math.round((done / total) * 100));
 
@@ -178,26 +73,22 @@ export default function ProcessingScreen() {
             });
             if (res.ok) {
               const data = await res.json();
-              processedImages.push(data.filteredImage || photo.original);
+              addFilteredPhoto({ original: photo.original, filtered: data.filteredImage || photo.original, filterName: filter.name, filterId: filter.id });
               setProviderLog(prev => [...prev, `${filter.name} T${p + 1}: ✓ ${data.provider || 'ok'}`]);
             } else {
-              processedImages.push(photo.original);
+              addFilteredPhoto({ original: photo.original, filtered: photo.original, filterName: filter.name, filterId: filter.id });
               setProviderLog(prev => [...prev, `${filter.name} T${p + 1}: fallback`]);
             }
           } catch {
-            processedImages.push(photo.original);
+            addFilteredPhoto({ original: photo.original, filtered: photo.original, filterName: filter.name, filterId: filter.id });
             setProviderLog(prev => [...prev, `${filter.name} T${p + 1}: error`]);
           }
           done++;
         }
-
-        setCurrentProcessingFilter(`Menyusun Photogrid...`);
-        const gridDataUrl = await generateGrid(processedImages, capturedPhotos.length, filter.name);
-        addFilteredPhoto({ original: gridDataUrl, filtered: gridDataUrl, filterName: filter.name, filterId: filter.id });
       }
 
       setProcessingProgress(100);
-      setTimeout(() => setStep('download'), 900);
+      setTimeout(() => setStep('customize'), 900);
     };
 
     processAll();
@@ -326,7 +217,7 @@ export default function ProcessingScreen() {
           </div>
           <div className="flex justify-between items-center">
             <span className="text-[10px] tracking-[0.15em] text-[#7a7168] font-body uppercase">
-              {t('proses', 'processing')}
+              {filteredPhotos.length}/{total} {t('selesai', 'done')}
             </span>
             <span className="font-display font-black tabular-nums" style={{ fontSize: '1.1rem', color: '#c87941' }}>
               {processingProgress}%
