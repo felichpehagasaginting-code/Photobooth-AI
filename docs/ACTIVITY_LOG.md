@@ -4585,3 +4585,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T15:10:59+07:00** - [Activity #3836] feat(watermark): customizable event logo watermark overlay
 - **2026-05-19T15:24:58+07:00** - [Activity #3837] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-05-19T15:41:07+07:00** - [Activity #3838] refactor(filter): organize color grading matrices into separate configs
+- **2026-05-19T15:41:32+07:00** - [Activity #3839] docs(env): document all required environment variables with defaults
