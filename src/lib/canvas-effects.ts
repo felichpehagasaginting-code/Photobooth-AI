@@ -12,7 +12,10 @@ export type FrameType =
   | 'scrapbook'
   | 'cyber_hud'
   | 'vintage_postcard'
-  | 'duotone_copper';
+  | 'duotone_copper'
+  | 'editorial_magazine'
+  | 'vintage_vhs'
+  | 'kodak_gold';
 
 export type NonAIFilterType = 
   | 'normal'
@@ -24,7 +27,11 @@ export type NonAIFilterType =
   | 'cool'
   | 'noise'
   | 'vhs'
-  | 'invert';
+  | 'invert'
+  | 'cyberpunk'
+  | 'noir_cinema'
+  | 'lofi_dream'
+  | 'ethereal';
 
 export const FRAME_OPTIONS: { id: FrameType; label: string }[] = [
   { id: 'classic_strip', label: 'Classic Strip' },
@@ -39,6 +46,9 @@ export const FRAME_OPTIONS: { id: FrameType; label: string }[] = [
   { id: 'cyber_hud', label: 'Cyber HUD' },
   { id: 'vintage_postcard', label: 'Vintage Postcard' },
   { id: 'duotone_copper', label: 'Copper Duotone' },
+  { id: 'editorial_magazine', label: 'Vogue Editorial' },
+  { id: 'vintage_vhs', label: 'Retro VHS Cam' },
+  { id: 'kodak_gold', label: 'Kodak Gold 200' },
 ];
 
 export const FILTER_OPTIONS: { id: NonAIFilterType; label: string }[] = [
@@ -52,6 +62,10 @@ export const FILTER_OPTIONS: { id: NonAIFilterType; label: string }[] = [
   { id: 'noise', label: 'Grain' },
   { id: 'vhs', label: 'VHS Glitch' },
   { id: 'invert', label: 'Negative' },
+  { id: 'cyberpunk', label: 'Cyberpunk 2077' },
+  { id: 'noir_cinema', label: 'Noir Cinema' },
+  { id: 'lofi_dream', label: 'Lo-Fi Dream' },
+  { id: 'ethereal', label: 'Ethereal Glow' },
 ];
 
 export async function drawCustomGrid(
@@ -82,11 +96,13 @@ export async function drawCustomGrid(
     padding = 150; innerPadding = 50; headerH = 100; footerH = 100;
   } else if (frameType === 'polaroid_scatter') {
     padding = 100; innerPadding = 80; headerH = 150; footerH = 150;
-  } else if (frameType === 'film_reel') {
+  } else if (frameType === 'film_reel' || frameType === 'vintage_vhs') {
     padding = 100; innerPadding = 20; headerH = 100; footerH = 100;
     cols = 1; rows = count; // Force vertical strip
-  } else if (frameType === 'newspaper') {
+  } else if (frameType === 'newspaper' || frameType === 'editorial_magazine') {
     padding = 80; innerPadding = 40; headerH = 250; footerH = 150;
+  } else if (frameType === 'kodak_gold') {
+    padding = 100; innerPadding = 40; headerH = 180; footerH = 180;
   }
 
   const contentW = cols * imgW + (cols - 1) * innerPadding;
@@ -104,6 +120,10 @@ export async function drawCustomGrid(
     case 'warm': filterString = 'sepia(30%) saturate(120%) brightness(105%)'; break;
     case 'cool': filterString = 'hue-rotate(180deg) saturate(110%) sepia(20%)'; break;
     case 'invert': filterString = 'invert(100%)'; break;
+    case 'cyberpunk': filterString = 'saturate(200%) contrast(120%) hue-rotate(290deg)'; break;
+    case 'noir_cinema': filterString = 'grayscale(100%) contrast(150%) brightness(85%)'; break;
+    case 'lofi_dream': filterString = 'sepia(50%) saturate(150%) contrast(80%) brightness(110%) hue-rotate(-20deg)'; break;
+    case 'ethereal': filterString = 'brightness(120%) saturate(80%) contrast(90%) blur(1px)'; break;
     default: filterString = 'none'; break;
   }
 
@@ -118,16 +138,18 @@ export async function drawCustomGrid(
     ctx.lineWidth = 2;
     for (let x = 0; x < canvas.width; x += 40) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, canvas.height); ctx.stroke(); }
     for (let y = 0; y < canvas.height; y += 40) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(canvas.width, y); ctx.stroke(); }
-  } else if (frameType === 'film_reel') {
+  } else if (frameType === 'film_reel' || frameType === 'vintage_vhs') {
     ctx.fillStyle = '#0a0a0a';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = '#fff';
-    for (let y = 50; y < canvas.height; y += 120) {
-      ctx.fillRect(30, y, 40, 60);
-      ctx.fillRect(canvas.width - 70, y, 40, 60);
+    if (frameType === 'film_reel') {
+      ctx.fillStyle = '#fff';
+      for (let y = 50; y < canvas.height; y += 120) {
+        ctx.fillRect(30, y, 40, 60);
+        ctx.fillRect(canvas.width - 70, y, 40, 60);
+      }
     }
-  } else if (frameType === 'newspaper') {
-    ctx.fillStyle = '#f4f1ea';
+  } else if (frameType === 'newspaper' || frameType === 'editorial_magazine') {
+    ctx.fillStyle = frameType === 'editorial_magazine' ? '#faf9f6' : '#f4f1ea';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
   } else if (frameType === 'minimal') {
     ctx.fillStyle = '#ffffff';
@@ -140,6 +162,9 @@ export async function drawCustomGrid(
     ctx.fillRect(0, 0, canvas.width, canvas.height);
   } else if (frameType === 'polaroid_scatter') {
     ctx.fillStyle = '#8b5a2b'; // Wood-like
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  } else if (frameType === 'kodak_gold') {
+    ctx.fillStyle = '#fdb913'; // Kodak yellow
     ctx.fillRect(0, 0, canvas.width, canvas.height);
   } else {
     // Default editorial dark
@@ -173,6 +198,24 @@ export async function drawCustomGrid(
     ctx.shadowColor = '#ff00ff'; ctx.shadowBlur = 20;
     ctx.fillText('★ CYBER STAR ★', canvas.width / 2, padding + 100);
     ctx.shadowBlur = 0;
+  } else if (frameType === 'editorial_magazine') {
+    ctx.fillStyle = '#1a1a1a';
+    ctx.font = '400 160px "Playfair Display", serif';
+    ctx.textAlign = 'center';
+    ctx.fillText('VOGUE', canvas.width / 2, padding + 150);
+  } else if (frameType === 'vintage_vhs') {
+    ctx.fillStyle = '#fff';
+    ctx.font = 'bold 60px "Courier New", monospace';
+    ctx.textAlign = 'left';
+    ctx.fillText('PLAY ►', padding, padding + 80);
+    ctx.textAlign = 'right';
+    const time = new Date().toLocaleTimeString('en-US', { hour12: false });
+    ctx.fillText(time, canvas.width - padding, padding + 80);
+  } else if (frameType === 'kodak_gold') {
+    ctx.fillStyle = '#d32027'; // Kodak red
+    ctx.font = '900 80px "DM Sans", sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText('KODAK GOLD 200', padding, padding + 80);
   } else if (frameType !== 'polaroid_scatter' && frameType !== 'film_reel') {
     const { eventBranding } = usePhotoboothStore.getState();
 
@@ -240,9 +283,19 @@ export async function drawCustomGrid(
         ctx.strokeStyle = '#c87941';
         ctx.lineWidth = 4;
         ctx.strokeRect(x, y, imgW, imgH);
-      } else if (frameType === 'newspaper') {
+      } else if (frameType === 'newspaper' || frameType === 'editorial_magazine') {
         ctx.strokeStyle = '#111';
-        ctx.lineWidth = 6;
+        ctx.lineWidth = frameType === 'editorial_magazine' ? 2 : 6;
+        ctx.strokeRect(x, y, imgW, imgH);
+      } else if (frameType === 'vintage_vhs') {
+        // scanlines over image
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+        for(let sy = y; sy < y + imgH; sy += 10) {
+          ctx.fillRect(x, sy, imgW, 4);
+        }
+      } else if (frameType === 'kodak_gold') {
+        ctx.strokeStyle = '#fff';
+        ctx.lineWidth = 20;
         ctx.strokeRect(x, y, imgW, imgH);
       }
     }

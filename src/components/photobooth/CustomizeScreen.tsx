@@ -193,15 +193,14 @@ export default function CustomizeScreen() {
           </button>
         </div>
 
-        {/* Options List */}
         <div className="flex-1 overflow-y-auto scrollbar-thin p-5">
-          {activeTab === 'frame' ? (
+          {activeTab === 'frame' && (
             <div className="grid grid-cols-2 gap-3">
               {FRAME_OPTIONS.map(opt => (
                 <button
                   key={opt.id}
                   onClick={() => setActiveFrame(opt.id)}
-                  className="flex flex-col items-center justify-center gap-2 p-4 border transition-all text-left group"
+                  className="flex flex-col items-center justify-center gap-2 p-4 border transition-all text-left group hover:scale-[1.02] active:scale-[0.98]"
                   style={{ 
                     borderColor: activeFrame === opt.id ? '#c87941' : 'rgba(44,40,34,0.8)', 
                     background: activeFrame === opt.id ? 'rgba(200,121,65,0.05)' : '#151210' 
@@ -211,13 +210,15 @@ export default function CustomizeScreen() {
                 </button>
               ))}
             </div>
-          ) : (
+          )}
+          
+          {activeTab === 'filter' && (
             <div className="grid grid-cols-2 gap-3">
               {FILTER_OPTIONS.map(opt => (
                 <button
                   key={opt.id}
                   onClick={() => setActiveFilter(opt.id)}
-                  className="flex flex-col items-center justify-center gap-2 p-4 border transition-all text-left group"
+                  className="flex flex-col items-center justify-center gap-2 p-4 border transition-all text-left group hover:scale-[1.02] active:scale-[0.98]"
                   style={{ 
                     borderColor: activeFilter === opt.id ? '#c87941' : 'rgba(44,40,34,0.8)', 
                     background: activeFilter === opt.id ? 'rgba(200,121,65,0.05)' : '#151210' 
@@ -227,7 +228,9 @@ export default function CustomizeScreen() {
                 </button>
               ))}
             </div>
-          ) : (
+          )}
+          
+          {activeTab === 'sticker' && (
             <div>
               <p className="text-[10px] text-[#7a7168] mb-4 text-center font-body uppercase tracking-[0.2em]">Ketuk untuk tambah & geser ke foto</p>
               <div className="grid grid-cols-4 gap-3">
@@ -235,7 +238,7 @@ export default function CustomizeScreen() {
                   <button
                     key={idx}
                     onClick={() => setStickers(prev => [...prev, { id: `sticker-${Date.now()}-${idx}`, emoji, x: 100, y: 100 }])}
-                    className="flex flex-col items-center justify-center p-3 border border-[rgba(44,40,34,0.8)] bg-[#151210] hover:bg-[rgba(200,121,65,0.05)] hover:border-[#c87941] transition-all text-2xl tap-none"
+                    className="flex flex-col items-center justify-center p-3 border border-[rgba(44,40,34,0.8)] bg-[#151210] hover:bg-[rgba(200,121,65,0.05)] hover:border-[#c87941] hover:scale-[1.1] active:scale-[0.9] transition-all text-2xl tap-none"
                   >
                     {emoji}
                   </button>
