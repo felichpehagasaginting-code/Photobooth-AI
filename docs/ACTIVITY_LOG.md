@@ -4587,3 +4587,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T15:41:07+07:00** - [Activity #3838] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-19T15:41:32+07:00** - [Activity #3839] docs(env): document all required environment variables with defaults
 - **2026-05-19T16:05:07+07:00** - [Activity #3840] test(utils): add unit tests for image aspect ratio calculator
+- **2026-05-19T16:12:28+07:00** - [Activity #3841] docs(changelog): update version history and release milestones
