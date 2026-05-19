@@ -27,10 +27,13 @@ interface PhotoboothState {
   currentTake: number;
   setTakeConfig: (count: TakeCount, filters: number) => void;
   incrementTake: () => void;
+  retakeIndex: number | null;
+  setRetakeIndex: (index: number | null) => void;
 
   // Camera
   capturedPhotos: CapturedPhoto[];
   addCapturedPhoto: (photo: CapturedPhoto) => void;
+  replaceCapturedPhoto: (index: number, photo: CapturedPhoto) => void;
   removeLastCapturedPhoto: () => void;
   clearCapturedPhotos: () => void;
 
@@ -83,12 +86,19 @@ export const usePhotoboothStore = create<PhotoboothState>((set) => ({
   takeCount: 2,
   filtersPerTake: 2,
   currentTake: 1,
-  setTakeConfig: (count, filters) => set({ takeCount: count, filtersPerTake: filters, currentTake: 1 }),
+  setTakeConfig: (count, filters) => set({ takeCount: count, filtersPerTake: filters, currentTake: 1, retakeIndex: null }),
   incrementTake: () => set((state) => ({ currentTake: state.currentTake + 1 })),
+  retakeIndex: null,
+  setRetakeIndex: (index) => set({ retakeIndex: index }),
 
   // Camera
   capturedPhotos: [],
   addCapturedPhoto: (photo) => set((state) => ({ capturedPhotos: [...state.capturedPhotos, photo] })),
+  replaceCapturedPhoto: (index, photo) => set((state) => {
+    const newPhotos = [...state.capturedPhotos];
+    newPhotos[index] = photo;
+    return { capturedPhotos: newPhotos };
+  }),
   removeLastCapturedPhoto: () => set((state) => ({ capturedPhotos: state.capturedPhotos.slice(0, -1) })),
   clearCapturedPhotos: () => set({ capturedPhotos: [] }),
 
@@ -138,6 +148,7 @@ export const usePhotoboothStore = create<PhotoboothState>((set) => ({
     takeCount: 2,
     filtersPerTake: 2,
     currentTake: 1,
+    retakeIndex: null,
     capturedPhotos: [],
     selectedFilters: [],
     filteredPhotos: [],

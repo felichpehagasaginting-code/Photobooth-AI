@@ -10,6 +10,7 @@ export default function CameraCapture() {
     currentStep, setStep,
     addCapturedPhoto, language,
     takeCount, currentTake,
+    retakeIndex, setRetakeIndex, replaceCapturedPhoto,
   } = usePhotoboothStore();
 
   const videoRef  = useRef<HTMLVideoElement>(null);
@@ -74,10 +75,15 @@ export default function CameraCapture() {
     streamRef.current = null;
 
     setTimeout(() => {
-      addCapturedPhoto({ original: dataUrl, timestamp: Date.now() });
+      if (retakeIndex !== null) {
+        replaceCapturedPhoto(retakeIndex, { original: dataUrl, timestamp: Date.now() });
+        setRetakeIndex(null);
+      } else {
+        addCapturedPhoto({ original: dataUrl, timestamp: Date.now() });
+      }
       setStep('captured');
     }, 420);
-  }, [facingMode, addCapturedPhoto, setStep]);
+  }, [facingMode, addCapturedPhoto, replaceCapturedPhoto, retakeIndex, setRetakeIndex, setStep]);
 
   /* ── Start camera — fixed: explicit .play() + canplay fallback ─── */
   const startCamera = useCallback(async () => {
@@ -200,7 +206,10 @@ export default function CameraCapture() {
           <div className="flex-1">
             <div className="flex items-center justify-between mb-1">
               <span className="text-[9px] font-bold tracking-[0.35em] text-[#7a7168] uppercase font-body">
-                {t('Foto', 'Photo')} {currentTake} / {takeCount}
+                {retakeIndex !== null 
+                  ? t(`Mengulang Foto ${retakeIndex + 1}`, `Retaking Photo ${retakeIndex + 1}`)
+                  : t(`Foto ${currentTake} dari ${takeCount}`, `Photo ${currentTake} of ${takeCount}`)
+                }
               </span>
               <div className="flex items-center gap-1.5">
                 <motion.div
