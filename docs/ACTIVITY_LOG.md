@@ -10254,3 +10254,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T14:57:47+07:00** - [Activity #5627] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-05-19T15:13:40+07:00** - [Activity #5628] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-19T15:31:35+07:00** - [Activity #5629] refactor(types): consolidate photobooth session type definitions
+- **2026-05-19T15:38:34+07:00** - [Activity #5630] refactor(ui): extract reusable glass-panel and badge components
