@@ -4566,3 +4566,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T09:03:49+07:00** - [Activity #3817] refactor(types): consolidate photobooth session type definitions
 - **2026-05-19T09:20:46+07:00** - [Activity #3818] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-19T09:25:04+07:00** - [Activity #3819] feat(cloud): async upload queue for batch photo backup
+- **2026-05-19T09:50:07+07:00** - [Activity #3820] style(shutter): design circular pulsating shutter button with feedback
