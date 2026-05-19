@@ -24,6 +24,30 @@ export default function CameraCapture() {
 
   const t = (id: string, en: string) => (language === 'id' ? id : en);
 
+  /* ── Audio SFX ───────────────────────────────────────────────────── */
+  const playBeep = useCallback((freq = 880, type: OscillatorType = 'sine', duration = 0.1) => {
+    try {
+      const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+      if (!AudioContextClass) return;
+      const ctx = new AudioContextClass();
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = type;
+      osc.frequency.setValueAtTime(freq, ctx.currentTime);
+      gain.gain.setValueAtTime(0.1, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + duration);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + duration);
+    } catch { /* ignore audio error */ }
+  }, []);
+
+  const playShutter = useCallback(() => {
+    playBeep(400, 'square', 0.05);
+    setTimeout(() => playBeep(200, 'sawtooth', 0.1), 50);
+  }, [playBeep]);
+
   /* ── Capture ─────────────────────────────────────────────────────── */
   const capturePhoto = useCallback(() => {
     const video  = videoRef.current;
@@ -31,6 +55,7 @@ export default function CameraCapture() {
     if (!video || !canvas) return;
 
     setIsFlash(true);
+    playShutter();
     setTimeout(() => setIsFlash(false), 250);
 
     canvas.width  = video.videoWidth  || 1280;
@@ -127,12 +152,13 @@ export default function CameraCapture() {
 
   useEffect(() => {
     if (!countdown || countdown <= 0) return;
+    playBeep(880, 'sine', 0.1); // Beep on every countdown tick
     const timer = setTimeout(() => {
       if (countdown === 1) { capturePhoto(); setCountdown(null); }
       else setCountdown(countdown - 1);
     }, 1000);
     return () => clearTimeout(timer);
-  }, [countdown, capturePhoto]);
+  }, [countdown, capturePhoto, playBeep]);
 
   /* ── Handlers ────────────────────────────────────────────────────── */
   const handleTakePhoto  = () => setStep('countdown');

@@ -39,6 +39,7 @@ export default function FilterSelect() {
 
   const [filters, setFilters] = useState<FilterInfo[]>([]);
   const [loading, setLoading] = useState(true);
+  const [isOnline, setIsOnline] = useState(true);
 
   const t = (id: string, en: string) => (language === 'id' ? id : en);
 
@@ -66,6 +67,16 @@ export default function FilterSelect() {
       }
     };
     fetchFilters();
+
+    setIsOnline(navigator.onLine);
+    const handleOnline = () => setIsOnline(true);
+    const handleOffline = () => setIsOnline(false);
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
   }, []);
 
   const maxFilters = filtersPerTake;
@@ -84,6 +95,20 @@ export default function FilterSelect() {
       clearFilteredPhotos();
       setStep('processing');
     }
+  };
+
+  const handleSkipAI = () => {
+    clearFilteredPhotos();
+    const { capturedPhotos, addFilteredPhoto } = usePhotoboothStore.getState();
+    capturedPhotos.forEach((photo) => {
+      addFilteredPhoto({
+        original: photo.original,
+        filtered: photo.original,
+        filterName: 'Original',
+        filterId: 'original'
+      });
+    });
+    setStep('customize');
   };
 
   const getStyleInfo = (style: string) => FILTER_STYLES[style as keyof typeof FILTER_STYLES];
@@ -335,7 +360,13 @@ export default function FilterSelect() {
       </AnimatePresence>
 
       {/* Footer CTA */}
-      <div className="sticky bottom-0 z-10 p-4 bg-gradient-to-t from-[#0A0A0F] via-[#0A0A0F]/95 to-transparent">
+      <div className="sticky bottom-0 z-10 p-4 bg-gradient-to-t from-[#0A0A0F] via-[#0A0A0F]/95 to-transparent flex flex-col gap-2">
+        {!isOnline && (
+          <div className="w-full p-2.5 rounded-xl bg-orange-500/10 border border-orange-500/20 flex flex-col items-center justify-center text-center mb-1">
+            <span className="text-orange-400 text-[10px] font-bold tracking-widest uppercase">Offline Mode</span>
+            <span className="text-orange-400/80 text-[10px] max-w-[200px]">Koneksi terputus. AI mungkin tidak bekerja.</span>
+          </div>
+        )}
         <Button
           onClick={handleContinue}
           disabled={selectedFilters.length === 0}
@@ -346,6 +377,12 @@ export default function FilterSelect() {
           {t('Proses dengan AI', 'Process with AI')}
           {selectedFilters.length > 0 && ` (${selectedFilters.length})`}
         </Button>
+        <button
+          onClick={handleSkipAI}
+          className="w-full h-10 mt-1 flex items-center justify-center text-[11px] font-bold tracking-[0.1em] text-[#7a7168] hover:text-[#c87941] uppercase font-body transition-colors"
+        >
+          {t('Atau Lewati & Cetak Original', 'Or Skip & Print Original')}
+        </button>
       </div>
     </div>
   );

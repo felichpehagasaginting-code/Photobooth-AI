@@ -65,13 +65,14 @@ const NAV_ITEMS = [
   { id: 'filters',   Icon: Palette,   label: 'Filter' },
   { id: 'history',   Icon: History,   label: 'Riwayat' },
   { id: 'camera',    Icon: CameraIcon, label: 'Kamera' },
+  { id: 'settings',  Icon: LogOut,    label: 'Pengaturan' }, // using LogOut icon temporarily or maybe find Settings
 ] as const;
 
 type TabId = (typeof NAV_ITEMS)[number]['id'];
 
 /* ── Main ───────────────────────────────────────────────────────────── */
 export default function AdminDashboard() {
-  const { setStep, setAdminLoggedIn, language } = usePhotoboothStore();
+  const { setStep, setAdminLoggedIn, language, eventBranding, setEventBranding } = usePhotoboothStore();
   const [activeTab, setActiveTab] = useState<TabId>('dashboard');
 
   const [stats, setStats] = useState<AdminStats>({
@@ -470,6 +471,42 @@ export default function AdminDashboard() {
                       {t('Stop', 'Stop')}
                     </button>
                   </div>
+                </div>
+              </div>
+            )}
+
+            {/* ── SETTINGS TAB ── */}
+            {activeTab === 'settings' && (
+              <div>
+                <SectionHeader title={t('Pengaturan Acara', 'Event Settings')} />
+                <div className="space-y-4 max-w-sm">
+                  <div>
+                    <label className="block text-[10px] tracking-[0.2em] text-[#7a7168] font-bold uppercase mb-2">
+                      Event Title
+                    </label>
+                    <input
+                      type="text"
+                      value={eventBranding.title}
+                      onChange={(e) => setEventBranding({ ...eventBranding, title: e.target.value })}
+                      className="w-full bg-[#151210] border border-[#2c2822] text-[#f0ebe3] text-sm px-4 py-3 focus:outline-none focus:border-[#c87941] font-body"
+                      placeholder="AI.PHOTOBOOTH"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-[10px] tracking-[0.2em] text-[#7a7168] font-bold uppercase mb-2">
+                      Event Subtitle
+                    </label>
+                    <input
+                      type="text"
+                      value={eventBranding.subtitle}
+                      onChange={(e) => setEventBranding({ ...eventBranding, subtitle: e.target.value })}
+                      className="w-full bg-[#151210] border border-[#2c2822] text-[#f0ebe3] text-sm px-4 py-3 focus:outline-none focus:border-[#c87941] font-body"
+                      placeholder="Premium AI Edition"
+                    />
+                  </div>
+                  <p className="text-[10px] text-[#7a7168] italic font-body">
+                    * Perubahan ini akan langsung muncul di hasil cetak foto grid.
+                  </p>
                 </div>
               </div>
             )}

@@ -56,6 +56,8 @@ interface PhotoboothState {
   // Admin
   isAdminLoggedIn: boolean;
   setAdminLoggedIn: (loggedIn: boolean) => void;
+  eventBranding: { title: string; subtitle: string; logoUrl?: string };
+  setEventBranding: (branding: { title: string; subtitle: string; logoUrl?: string }) => void;
 
   // Language
   language: 'id' | 'en';
@@ -122,6 +124,8 @@ export const usePhotoboothStore = create<PhotoboothState>((set) => ({
   // Admin
   isAdminLoggedIn: false,
   setAdminLoggedIn: (loggedIn) => set({ isAdminLoggedIn: loggedIn }),
+  eventBranding: { title: 'AI.PHOTOBOOTH', subtitle: 'Premium AI Edition' },
+  setEventBranding: (branding) => set({ eventBranding: branding }),
 
   // Language
   language: 'id',

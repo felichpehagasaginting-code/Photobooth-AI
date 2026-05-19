@@ -1,3 +1,5 @@
+import { usePhotoboothStore } from '@/store/photobooth';
+
 export type FrameType = 
   | 'classic_strip'
   | 'classic_grid'
@@ -172,16 +174,20 @@ export async function drawCustomGrid(
     ctx.fillText('★ CYBER STAR ★', canvas.width / 2, padding + 100);
     ctx.shadowBlur = 0;
   } else if (frameType !== 'polaroid_scatter' && frameType !== 'film_reel') {
-    // Default Header
+    const { eventBranding } = usePhotoboothStore.getState();
+
+    // Header Text
     ctx.fillStyle = '#c87941';
     ctx.font = 'bold 54px "DM Sans", sans-serif';
     ctx.textAlign = 'center';
     ctx.letterSpacing = '14px';
-    ctx.fillText('AI.PHOTOBOOTH', canvas.width / 2, padding + 80);
+    ctx.fillText(eventBranding.title.toUpperCase(), canvas.width / 2, padding + 80);
+    
+    // Sub-header
     ctx.fillStyle = '#7a7168';
     ctx.font = 'italic 28px "Playfair Display", serif';
     ctx.letterSpacing = '4px';
-    ctx.fillText(filterName, canvas.width / 2, padding + 130);
+    ctx.fillText(eventBranding.subtitle, canvas.width / 2, padding + 130);
   }
 
   // Draw images
