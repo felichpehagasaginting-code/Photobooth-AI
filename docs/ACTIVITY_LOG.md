@@ -10275,3 +10275,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T21:26:57+07:00** - [Activity #5648] style(cards): apply subtle border gradient and elevation shadows
 - **2026-05-19T21:44:34+07:00** - [Activity #5649] fix(export): handle canvas taint error when loading external assets
 - **2026-05-19T22:14:06+07:00** - [Activity #5650] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-05-19T22:31:04+07:00** - [Activity #5651] docs(env): document all required environment variables with defaults
