@@ -10263,3 +10263,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T16:55:00+07:00** - [Activity #5636] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-05-19T17:14:49+07:00** - [Activity #5637] feat(watermark): customizable event logo watermark overlay
 - **2026-05-19T17:28:19+07:00** - [Activity #5638] docs(env): document all required environment variables with defaults
+- **2026-05-19T17:43:57+07:00** - [Activity #5639] chore(lint): configure ESLint rules for react hooks and accessibility
