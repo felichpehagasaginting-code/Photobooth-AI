@@ -42,9 +42,10 @@ async function generateGrid(images: string[], count: number, filterName: string)
       const imgW = loadedImages[0]?.width || 1280;
       const imgH = loadedImages[0]?.height || 720;
       
-      const padding = 40;
-      const headerH = 160;
-      const footerH = 200;
+      const padding = 60; // Increased padding for a more premium look
+      const innerPadding = 30; // Space between images
+      const headerH = 180;
+      const footerH = 240;
       
       let cols = 1;
       let rows = 2;
@@ -53,8 +54,8 @@ async function generateGrid(images: string[], count: number, filterName: string)
       else if (count === 6) { cols = 2; rows = 3; }
       else { cols = 1; rows = 2; } 
       
-      const contentW = cols * imgW + (cols - 1) * padding;
-      const contentH = rows * imgH + (rows - 1) * padding;
+      const contentW = cols * imgW + (cols - 1) * innerPadding;
+      const contentH = rows * imgH + (rows - 1) * innerPadding;
       
       canvas.width = contentW + padding * 2;
       canvas.height = contentH + padding * 2 + headerH + footerH;
@@ -62,22 +63,32 @@ async function generateGrid(images: string[], count: number, filterName: string)
       // Draw background (dark editorial)
       ctx.fillStyle = '#0c0a09';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
-      
-      // Draw subtle noise or grain if possible, but keeping it simple for performance
+
+      // Draw outer copper border
+      ctx.strokeStyle = 'rgba(200,121,65,0.8)';
+      ctx.lineWidth = 12;
+      ctx.strokeRect(20, 20, canvas.width - 40, canvas.height - 40);
+
+      // Draw subtle grain/texture lines (simulated)
+      ctx.strokeStyle = 'rgba(255,255,255,0.02)';
+      ctx.lineWidth = 1;
+      for (let i = 0; i < canvas.height; i += 8) {
+        ctx.beginPath(); ctx.moveTo(0, i); ctx.lineTo(canvas.width, i); ctx.stroke();
+      }
       
       // Draw images
       loadedImages.forEach((img, idx) => {
-        if (!img.width) return; // skip errored images
+        if (!img.width) return;
         const col = idx % cols;
         const row = Math.floor(idx / cols);
-        const x = padding + col * (imgW + padding);
-        const y = padding + headerH + row * (imgH + padding);
+        const x = padding + col * (imgW + innerPadding);
+        const y = padding + headerH + row * (imgH + innerPadding);
         
         ctx.drawImage(img, x, y, imgW, imgH);
         
-        // Copper border
-        ctx.strokeStyle = 'rgba(200,121,65,0.4)';
-        ctx.lineWidth = 6;
+        // Copper border for each image
+        ctx.strokeStyle = '#c87941';
+        ctx.lineWidth = 4;
         ctx.strokeRect(x, y, imgW, imgH);
       });
       
@@ -85,16 +96,31 @@ async function generateGrid(images: string[], count: number, filterName: string)
       ctx.fillStyle = '#c87941';
       ctx.font = 'bold 54px "DM Sans", sans-serif';
       ctx.textAlign = 'center';
-      ctx.letterSpacing = '12px';
-      ctx.fillText('AI.PHOTOBOOTH', canvas.width / 2, padding + 70);
+      ctx.letterSpacing = '14px';
+      ctx.fillText('AI.PHOTOBOOTH', canvas.width / 2, padding + 80);
       
-      ctx.fillStyle = 'rgba(200,121,65,0.5)';
-      ctx.fillRect(canvas.width / 2 - 100, padding + 110, 200, 2);
+      // Sub-header
+      ctx.fillStyle = '#7a7168';
+      ctx.font = 'italic 28px "Playfair Display", serif';
+      ctx.letterSpacing = '4px';
+      ctx.fillText('Premium AI Edition', canvas.width / 2, padding + 130);
+      
+      // Divider
+      ctx.fillStyle = 'rgba(200,121,65,0.3)';
+      ctx.fillRect(canvas.width / 2 - 150, padding + 160, 300, 2);
       
       // Footer Text (Filter Name)
       ctx.fillStyle = '#f0ebe3';
-      ctx.font = 'italic 72px "Playfair Display", serif';
-      ctx.fillText(filterName, canvas.width / 2, canvas.height - padding - 60);
+      ctx.font = 'italic 86px "Playfair Display", serif';
+      ctx.fillText(filterName, canvas.width / 2, canvas.height - padding - 80);
+      
+      // Footer Subtext (Date & Time)
+      const dateStr = new Date().toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' });
+      const timeStr = new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' });
+      ctx.fillStyle = '#7a7168';
+      ctx.font = '32px "DM Sans", sans-serif';
+      ctx.letterSpacing = '6px';
+      ctx.fillText(`CAPTURED ON ${dateStr.toUpperCase()} • ${timeStr}`, canvas.width / 2, canvas.height - padding - 20);
       
       resolve(canvas.toDataURL('image/jpeg', 0.95));
     });
