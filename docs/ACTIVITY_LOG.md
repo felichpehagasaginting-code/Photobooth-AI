@@ -4575,3 +4575,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T11:28:59+07:00** - [Activity #3826] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-05-19T11:44:41+07:00** - [Activity #3827] feat(ai): integrate edge background removal model
 - **2026-05-19T12:03:18+07:00** - [Activity #3828] docs(api): document endpoint parameters and error codes for seed route
+- **2026-05-19T12:11:42+07:00** - [Activity #3829] fix(audio): unlock audio context on initial user gesture
