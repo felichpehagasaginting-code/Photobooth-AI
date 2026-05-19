@@ -10274,3 +10274,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T21:17:10+07:00** - [Activity #5647] refactor(state): migrate photo session state management to zustand store
 - **2026-05-19T21:26:57+07:00** - [Activity #5648] style(cards): apply subtle border gradient and elevation shadows
 - **2026-05-19T21:44:34+07:00** - [Activity #5649] fix(export): handle canvas taint error when loading external assets
+- **2026-05-19T22:14:06+07:00** - [Activity #5650] fix(accessibility): add missing aria-labels to icon action buttons
