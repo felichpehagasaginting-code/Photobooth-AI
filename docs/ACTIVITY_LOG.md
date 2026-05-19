@@ -4564,3 +4564,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-18T21:56:22+07:00** - [Activity #3815] docs(changelog): update version history and release milestones
 - **2026-05-18T22:20:03+07:00** - [Activity #3816] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-19T09:03:49+07:00** - [Activity #3817] refactor(types): consolidate photobooth session type definitions
+- **2026-05-19T09:20:46+07:00** - [Activity #3818] fix(ui): correct modal z-index layering on small mobile viewports
