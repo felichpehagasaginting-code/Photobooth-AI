@@ -4596,3 +4596,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T17:34:52+07:00** - [Activity #3847] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-05-19T17:45:23+07:00** - [Activity #3848] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-19T19:30:05+07:00** - [Activity #3849] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-05-19T19:46:28+07:00** - [Activity #3850] feat(print): integrate direct thermal printer web serial interface
