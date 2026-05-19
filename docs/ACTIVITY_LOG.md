@@ -10234,3 +10234,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-19T09:04:46+07:00** - [Activity #5607] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-05-19T09:22:48+07:00** - [Activity #5608] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-05-19T09:23:20+07:00** - [Activity #5609] perf(images): compress intermediate preview thumbnails with WebP format
+- **2026-05-19T09:49:33+07:00** - [Activity #5610] refactor(styles): migrate hardcoded color values to CSS design tokens
