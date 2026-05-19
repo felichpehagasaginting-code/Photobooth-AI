@@ -106,7 +106,11 @@ export default function AdminDashboard() {
     } catch { /* use defaults */ }
   }, []);
 
-  useEffect(() => { fetchAllData(); }, [fetchAllData]);
+  useEffect(() => { 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    const init = async () => { await fetchAllData(); };
+    init();
+  }, []);
 
   const startCamera = useCallback(async () => {
     try {

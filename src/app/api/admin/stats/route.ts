@@ -57,7 +57,7 @@ export async function GET() {
     const todaySessions = todayTransactions.length;
     const todayRevenue = todayPaidTransactions.reduce((sum, t) => sum + t.amount, 0);
 
-    const revenueHistory = [];
+    const revenueHistory: { name: string; revenue: number }[] = [];
     const dayNames = ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'];
 
     for (let i = 6; i >= 0; i--) {

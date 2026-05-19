@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, RotateCcw, Sparkles, ChevronRight } from 'lucide-react';
 import { usePhotoboothStore } from '@/store/photobooth';
@@ -151,7 +152,7 @@ export default function CapturedPreview() {
                     transform: selectedPhotoIndex === i ? 'scale(1.02)' : 'scale(1)'
                   }}
                 >
-                  <img src={photo.original} className="w-full h-auto object-cover" />
+                  <img src={photo.original} alt={`Photo ${i + 1}`} className="w-full h-auto object-cover" />
                   <div className="absolute top-2 left-2 bg-[#0c0a09]/80 px-2 py-0.5 text-[10px] font-bold text-[#c87941]">
                     {i + 1}
                   </div>

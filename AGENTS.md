@@ -1,8 +1,4 @@
-## AGENT.md
-
-## System Instruction for AI Assistant
-
-# AGENT.md
+# System Instruction for AI Assistant
 
 ## Agent Persona
 
