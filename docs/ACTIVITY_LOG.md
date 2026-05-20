@@ -10290,3 +10290,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T11:53:07+07:00** - [Activity #5663] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-05-20T12:20:04+07:00** - [Activity #5664] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-05-20T13:49:42+07:00** - [Activity #5665] refactor(ui): extract reusable glass-panel and badge components
+- **2026-05-20T13:59:41+07:00** - [Activity #5666] refactor(utils): streamline color conversion and hex parsing helpers
