@@ -4629,3 +4629,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T14:56:25+07:00** - [Activity #3880] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-05-20T15:17:58+07:00** - [Activity #3881] style(cards): apply subtle border gradient and elevation shadows
 - **2026-05-20T15:33:04+07:00** - [Activity #3882] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-05-20T15:36:16+07:00** - [Activity #3883] fix(download): resolve blob URL memory leak on repeated downloads
