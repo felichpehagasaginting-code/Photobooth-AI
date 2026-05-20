@@ -4627,3 +4627,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T14:38:52+07:00** - [Activity #3878] feat(ai): integrate edge background removal model
 - **2026-05-20T14:46:13+07:00** - [Activity #3879] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-05-20T14:56:25+07:00** - [Activity #3880] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-05-20T15:17:58+07:00** - [Activity #3881] style(cards): apply subtle border gradient and elevation shadows
