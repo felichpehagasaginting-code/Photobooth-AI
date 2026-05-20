@@ -10282,3 +10282,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T09:55:04+07:00** - [Activity #5655] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-05-20T10:04:26+07:00** - [Activity #5656] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-05-20T10:16:51+07:00** - [Activity #5657] docs(env): document all required environment variables with defaults
+- **2026-05-20T10:42:54+07:00** - [Activity #5658] feat(gallery): add touch swipe navigation for captured photo previews
