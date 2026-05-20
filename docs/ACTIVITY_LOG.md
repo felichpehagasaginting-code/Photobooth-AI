@@ -4643,3 +4643,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T17:39:56+07:00** - [Activity #3894] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-05-20T19:30:02+07:00** - [Activity #3895] refactor(camera): extract media stream hook into standalone module
 - **2026-05-20T19:39:25+07:00** - [Activity #3896] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-05-20T20:04:33+07:00** - [Activity #3897] perf(state): optimize selector subscriptions to minimize re-renders
