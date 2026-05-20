@@ -10286,3 +10286,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T10:54:09+07:00** - [Activity #5659] feat(audio): add shutter click and countdown sound effects
 - **2026-05-20T11:09:19+07:00** - [Activity #5660] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-05-20T11:21:30+07:00** - [Activity #5661] refactor(state): migrate photo session state management to zustand store
+- **2026-05-20T11:44:45+07:00** - [Activity #5662] fix(ui): correct modal z-index layering on small mobile viewports
