@@ -4648,3 +4648,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T20:37:17+07:00** - [Activity #3899] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-05-20T20:44:01+07:00** - [Activity #3900] feat(audio): add shutter click and countdown sound effects
 - **2026-05-20T21:14:01+07:00** - [Activity #3901] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-05-20T21:17:04+07:00** - [Activity #3902] fix(download): resolve blob URL memory leak on repeated downloads
