@@ -4609,3 +4609,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T09:20:25+07:00** - [Activity #3860] refactor(i18n): restructure localization strings dictionary
 - **2026-05-20T09:24:19+07:00** - [Activity #3861] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-20T09:41:36+07:00** - [Activity #3862] perf(dom): virtualize gallery list items for smooth 60fps scrolling
+- **2026-05-20T10:01:02+07:00** - [Activity #3863] refactor(services): separate cloud storage adapter from UI layer
