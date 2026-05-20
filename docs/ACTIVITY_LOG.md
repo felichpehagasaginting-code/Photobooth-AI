@@ -4636,3 +4636,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T16:21:37+07:00** - [Activity #3887] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-20T16:33:20+07:00** - [Activity #3888] fix(export): handle canvas taint error when loading external assets
 - **2026-05-20T16:54:27+07:00** - [Activity #3889] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-05-20T16:58:11+07:00** - [Activity #3890] feat(stickers): support draggable and resizable decorative stickers
