@@ -10306,3 +10306,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T16:51:29+07:00** - [Activity #5679] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-20T16:52:33+07:00** - [Activity #5680] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-20T17:08:06+07:00** - [Activity #5681] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-05-20T17:28:15+07:00** - [Activity #5682] docs(api): document endpoint parameters and error codes for seed route
