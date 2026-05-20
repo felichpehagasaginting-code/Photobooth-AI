@@ -4611,3 +4611,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T09:41:36+07:00** - [Activity #3862] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-05-20T10:01:02+07:00** - [Activity #3863] refactor(services): separate cloud storage adapter from UI layer
 - **2026-05-20T10:20:30+07:00** - [Activity #3864] feat(ai): integrate edge background removal model
+- **2026-05-20T10:23:56+07:00** - [Activity #3865] fix(canvas): prevent blur artifacts during canvas downsampling
