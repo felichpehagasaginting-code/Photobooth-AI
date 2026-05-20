@@ -4641,3 +4641,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T17:31:09+07:00** - [Activity #3892] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-05-20T17:31:51+07:00** - [Activity #3893] test(hooks): add test suite for camera stream lifecycle events
 - **2026-05-20T17:39:56+07:00** - [Activity #3894] docs(comments): add inline JSDoc comments to image processing helpers
+- **2026-05-20T19:30:02+07:00** - [Activity #3895] refactor(camera): extract media stream hook into standalone module
