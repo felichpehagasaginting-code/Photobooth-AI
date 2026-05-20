@@ -10316,3 +10316,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T20:35:10+07:00** - [Activity #5689] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-05-20T20:53:51+07:00** - [Activity #5690] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-05-20T21:10:41+07:00** - [Activity #5691] fix(firebase): handle network timeout retry in transaction hook
+- **2026-05-20T21:36:27+07:00** - [Activity #5692] docs(readme): add detailed hardware camera setup and compatibility guide
