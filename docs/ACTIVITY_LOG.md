@@ -4650,3 +4650,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T21:14:01+07:00** - [Activity #3901] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-05-20T21:17:04+07:00** - [Activity #3902] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-05-20T21:33:09+07:00** - [Activity #3903] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-05-20T22:02:35+07:00** - [Activity #3904] fix(ui): correct modal z-index layering on small mobile viewports
