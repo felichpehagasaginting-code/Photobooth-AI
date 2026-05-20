@@ -10304,3 +10304,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T16:14:07+07:00** - [Activity #5677] refactor(camera): extract media stream hook into standalone module
 - **2026-05-20T16:40:04+07:00** - [Activity #5678] style(theme): update dark mode accent color tokens with warm tone
 - **2026-05-20T16:51:29+07:00** - [Activity #5679] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-05-20T16:52:33+07:00** - [Activity #5680] refactor(ui): extract reusable glass-panel and badge components
