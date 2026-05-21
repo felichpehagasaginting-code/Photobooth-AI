@@ -10337,3 +10337,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T14:28:51+07:00** - [Activity #5710] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-05-21T14:35:52+07:00** - [Activity #5711] perf(anim): offload countdown animations to GPU composited layers
 - **2026-05-21T14:51:26+07:00** - [Activity #5712] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-05-21T15:05:04+07:00** - [Activity #5713] perf(fonts): preload display typography to eliminate FOIT delay
