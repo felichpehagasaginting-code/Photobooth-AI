@@ -10326,3 +10326,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T09:55:16+07:00** - [Activity #5699] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-21T10:10:29+07:00** - [Activity #5700] feat(watermark): customizable event logo watermark overlay
 - **2026-05-21T10:28:07+07:00** - [Activity #5701] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-05-21T10:52:25+07:00** - [Activity #5702] fix(audio): unlock audio context on initial user gesture
