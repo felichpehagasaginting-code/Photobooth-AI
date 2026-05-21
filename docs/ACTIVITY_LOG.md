@@ -10323,3 +10323,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T09:05:02+07:00** - [Activity #5696] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-21T09:14:06+07:00** - [Activity #5697] style(grid): modernize layout overlap for bento-style elements
 - **2026-05-21T09:35:44+07:00** - [Activity #5698] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-05-21T09:55:16+07:00** - [Activity #5699] fix(print): fix page margin clipping on 4x6 photo paper print preview
