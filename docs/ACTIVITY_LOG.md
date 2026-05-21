@@ -4661,3 +4661,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T10:38:17+07:00** - [Activity #3912] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-21T10:56:35+07:00** - [Activity #3913] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-05-21T11:14:59+07:00** - [Activity #3914] test(api): add integration test coverage for photo seed endpoint
+- **2026-05-21T11:32:50+07:00** - [Activity #3915] perf(state): optimize selector subscriptions to minimize re-renders
