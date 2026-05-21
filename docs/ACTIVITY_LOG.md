@@ -10335,3 +10335,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T13:56:27+07:00** - [Activity #5708] style(button): add subtle hover transition and outline focus style
 - **2026-05-21T14:24:00+07:00** - [Activity #5709] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-21T14:28:51+07:00** - [Activity #5710] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-05-21T14:35:52+07:00** - [Activity #5711] perf(anim): offload countdown animations to GPU composited layers
