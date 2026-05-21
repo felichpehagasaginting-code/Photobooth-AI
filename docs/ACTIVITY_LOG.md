@@ -10347,3 +10347,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T17:05:05+07:00** - [Activity #5720] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-05-21T17:22:49+07:00** - [Activity #5721] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-21T17:32:36+07:00** - [Activity #5722] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-21T17:45:34+07:00** - [Activity #5723] refactor(filter): organize color grading matrices into separate configs
