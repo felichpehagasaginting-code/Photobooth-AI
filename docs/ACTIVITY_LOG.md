@@ -4666,3 +4666,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T12:09:49+07:00** - [Activity #3917] style(button): add subtle hover transition and outline focus style
 - **2026-05-21T13:47:01+07:00** - [Activity #3918] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-21T13:52:14+07:00** - [Activity #3919] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-05-21T14:20:50+07:00** - [Activity #3920] refactor(hooks): create custom useDebounce and useThrottle utilities
