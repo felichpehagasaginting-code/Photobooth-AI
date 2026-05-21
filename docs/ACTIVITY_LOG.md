@@ -10344,3 +10344,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T16:11:37+07:00** - [Activity #5717] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-21T16:27:10+07:00** - [Activity #5718] refactor(camera): extract media stream hook into standalone module
 - **2026-05-21T16:38:19+07:00** - [Activity #5719] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-05-21T17:05:05+07:00** - [Activity #5720] fix(filter): fix gamma correction clipping on high brightness scenes
