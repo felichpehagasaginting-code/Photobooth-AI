@@ -10350,3 +10350,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T17:45:34+07:00** - [Activity #5723] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-21T19:32:26+07:00** - [Activity #5724] refactor(types): consolidate photobooth session type definitions
 - **2026-05-21T19:48:30+07:00** - [Activity #5725] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-05-21T20:08:46+07:00** - [Activity #5726] refactor(styles): migrate hardcoded color values to CSS design tokens
