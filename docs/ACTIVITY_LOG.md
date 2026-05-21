@@ -4663,3 +4663,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T11:14:59+07:00** - [Activity #3914] test(api): add integration test coverage for photo seed endpoint
 - **2026-05-21T11:32:50+07:00** - [Activity #3915] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-05-21T11:45:48+07:00** - [Activity #3916] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-05-21T12:09:49+07:00** - [Activity #3917] style(button): add subtle hover transition and outline focus style
