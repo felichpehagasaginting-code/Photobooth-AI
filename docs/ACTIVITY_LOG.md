@@ -4653,3 +4653,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T22:02:35+07:00** - [Activity #3904] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-20T22:10:11+07:00** - [Activity #3905] docs(api): document endpoint parameters and error codes for seed route
 - **2026-05-20T22:34:35+07:00** - [Activity #3906] refactor(events): use custom event bus for decoupled component messaging
+- **2026-05-21T09:00:47+07:00** - [Activity #3907] refactor(utils): streamline color conversion and hex parsing helpers
