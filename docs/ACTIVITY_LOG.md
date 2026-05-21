@@ -10334,3 +10334,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T13:49:21+07:00** - [Activity #5707] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-05-21T13:56:27+07:00** - [Activity #5708] style(button): add subtle hover transition and outline focus style
 - **2026-05-21T14:24:00+07:00** - [Activity #5709] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-05-21T14:28:51+07:00** - [Activity #5710] fix(storage): add fallback for local storage quota exceeded errors
