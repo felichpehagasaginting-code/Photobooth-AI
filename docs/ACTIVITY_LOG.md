@@ -10331,3 +10331,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T11:36:42+07:00** - [Activity #5704] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-21T11:46:32+07:00** - [Activity #5705] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-05-21T12:17:40+07:00** - [Activity #5706] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-05-21T13:49:21+07:00** - [Activity #5707] refactor(hooks): create custom useDebounce and useThrottle utilities
