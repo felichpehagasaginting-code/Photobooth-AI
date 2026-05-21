@@ -10322,3 +10322,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-20T22:21:10+07:00** - [Activity #5695] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-05-21T09:05:02+07:00** - [Activity #5696] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-21T09:14:06+07:00** - [Activity #5697] style(grid): modernize layout overlap for bento-style elements
+- **2026-05-21T09:35:44+07:00** - [Activity #5698] chore(config): adjust tsconfig path aliases for cleaner imports
