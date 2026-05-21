@@ -10328,3 +10328,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T10:28:07+07:00** - [Activity #5701] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-05-21T10:52:25+07:00** - [Activity #5702] fix(audio): unlock audio context on initial user gesture
 - **2026-05-21T11:17:34+07:00** - [Activity #5703] style(grid): modernize layout overlap for bento-style elements
+- **2026-05-21T11:36:42+07:00** - [Activity #5704] feat(kiosk): add full-screen lock and inactivity reset timer
