@@ -4669,3 +4669,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T14:20:50+07:00** - [Activity #3920] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-05-21T14:35:20+07:00** - [Activity #3921] docs(api): document endpoint parameters and error codes for seed route
 - **2026-05-21T14:41:53+07:00** - [Activity #3922] feat(stickers): support draggable and resizable decorative stickers
+- **2026-05-21T15:07:50+07:00** - [Activity #3923] style(photobooth): refine backdrop blur and color contrast for dark mode
