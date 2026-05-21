@@ -4672,3 +4672,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T15:07:50+07:00** - [Activity #3923] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-05-21T15:15:21+07:00** - [Activity #3924] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-05-21T15:43:45+07:00** - [Activity #3925] style(button): add subtle hover transition and outline focus style
+- **2026-05-21T15:49:00+07:00** - [Activity #3926] feat(preset): allow custom framing border selection per session
