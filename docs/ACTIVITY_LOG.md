@@ -4657,3 +4657,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T09:15:31+07:00** - [Activity #3908] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-05-21T09:38:15+07:00** - [Activity #3909] refactor(types): consolidate photobooth session type definitions
 - **2026-05-21T09:52:31+07:00** - [Activity #3910] test(utils): add unit tests for image aspect ratio calculator
+- **2026-05-21T10:19:16+07:00** - [Activity #3911] fix(export): handle canvas taint error when loading external assets
