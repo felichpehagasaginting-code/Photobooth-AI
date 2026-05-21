@@ -4676,3 +4676,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T16:09:23+07:00** - [Activity #3927] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-05-21T16:15:42+07:00** - [Activity #3928] docs(env): document all required environment variables with defaults
 - **2026-05-21T16:35:56+07:00** - [Activity #3929] docs(api): document endpoint parameters and error codes for seed route
+- **2026-05-21T17:03:56+07:00** - [Activity #3930] fix(audio): unlock audio context on initial user gesture
