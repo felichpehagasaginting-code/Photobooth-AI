@@ -4710,3 +4710,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T14:44:39+07:00** - [Activity #3961] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-22T15:12:01+07:00** - [Activity #3962] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-05-22T15:15:16+07:00** - [Activity #3963] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-05-22T15:26:06+07:00** - [Activity #3964] chore(config): adjust tsconfig path aliases for cleaner imports
