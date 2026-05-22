@@ -10386,3 +10386,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T19:30:40+07:00** - [Activity #5759] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-22T19:59:25+07:00** - [Activity #5760] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-05-22T20:16:58+07:00** - [Activity #5761] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-05-22T20:39:57+07:00** - [Activity #5762] fix(ui): correct modal z-index layering on small mobile viewports
