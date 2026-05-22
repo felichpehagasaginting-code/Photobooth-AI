@@ -4698,3 +4698,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T10:33:37+07:00** - [Activity #3949] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-22T10:53:28+07:00** - [Activity #3950] style(badge): update status indicator badge colors and glow effects
 - **2026-05-22T11:09:18+07:00** - [Activity #3951] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-05-22T11:30:06+07:00** - [Activity #3952] docs(changelog): update version history and release milestones
