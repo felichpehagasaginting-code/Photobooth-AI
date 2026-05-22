@@ -10364,3 +10364,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T10:01:57+07:00** - [Activity #5737] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-05-22T10:18:11+07:00** - [Activity #5738] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-05-22T10:39:37+07:00** - [Activity #5739] docs(changelog): update version history and release milestones
+- **2026-05-22T11:12:39+07:00** - [Activity #5740] refactor(hooks): create custom useDebounce and useThrottle utilities
