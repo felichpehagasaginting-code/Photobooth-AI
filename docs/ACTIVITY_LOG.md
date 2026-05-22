@@ -10389,3 +10389,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T20:39:57+07:00** - [Activity #5762] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-22T21:08:48+07:00** - [Activity #5763] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-22T21:25:19+07:00** - [Activity #5764] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-05-22T21:51:12+07:00** - [Activity #5765] refactor(ui): extract reusable glass-panel and badge components
