@@ -10365,3 +10365,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T10:18:11+07:00** - [Activity #5738] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-05-22T10:39:37+07:00** - [Activity #5739] docs(changelog): update version history and release milestones
 - **2026-05-22T11:12:39+07:00** - [Activity #5740] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-05-22T11:33:18+07:00** - [Activity #5741] fix(audio): unlock audio context on initial user gesture
