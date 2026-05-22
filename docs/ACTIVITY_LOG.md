@@ -4691,3 +4691,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-21T22:24:30+07:00** - [Activity #3942] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-05-22T09:04:49+07:00** - [Activity #3943] refactor(services): separate cloud storage adapter from UI layer
 - **2026-05-22T09:18:49+07:00** - [Activity #3944] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-05-22T09:26:21+07:00** - [Activity #3945] style(theme): update dark mode accent color tokens with warm tone
