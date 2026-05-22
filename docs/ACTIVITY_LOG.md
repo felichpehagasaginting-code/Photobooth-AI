@@ -10361,3 +10361,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T09:00:30+07:00** - [Activity #5734] feat(audio): add shutter click and countdown sound effects
 - **2026-05-22T09:13:37+07:00** - [Activity #5735] docs(api): document endpoint parameters and error codes for seed route
 - **2026-05-22T09:49:33+07:00** - [Activity #5736] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-05-22T10:01:57+07:00** - [Activity #5737] fix(canvas): prevent blur artifacts during canvas downsampling
