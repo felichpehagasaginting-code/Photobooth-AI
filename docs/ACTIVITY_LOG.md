@@ -4693,3 +4693,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T09:18:49+07:00** - [Activity #3944] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-05-22T09:26:21+07:00** - [Activity #3945] style(theme): update dark mode accent color tokens with warm tone
 - **2026-05-22T09:40:24+07:00** - [Activity #3946] feat(cloud): async upload queue for batch photo backup
+- **2026-05-22T10:04:32+07:00** - [Activity #3947] perf(fonts): preload display typography to eliminate FOIT delay
