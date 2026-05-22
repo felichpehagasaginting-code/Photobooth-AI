@@ -4712,3 +4712,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T15:15:16+07:00** - [Activity #3963] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-05-22T15:26:06+07:00** - [Activity #3964] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-05-22T15:54:43+07:00** - [Activity #3965] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-05-22T15:59:09+07:00** - [Activity #3966] refactor(state): migrate photo session state management to zustand store
