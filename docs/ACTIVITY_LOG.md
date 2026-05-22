@@ -4706,3 +4706,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T14:07:00+07:00** - [Activity #3957] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-05-22T14:17:53+07:00** - [Activity #3958] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-05-22T14:29:37+07:00** - [Activity #3959] feat(audio): add shutter click and countdown sound effects
+- **2026-05-22T14:42:25+07:00** - [Activity #3960] refactor(ui): extract reusable glass-panel and badge components
