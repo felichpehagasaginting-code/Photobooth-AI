@@ -10368,3 +10368,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T11:33:18+07:00** - [Activity #5741] fix(audio): unlock audio context on initial user gesture
 - **2026-05-22T11:52:36+07:00** - [Activity #5742] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-05-22T12:08:11+07:00** - [Activity #5743] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-05-22T13:45:57+07:00** - [Activity #5744] fix(print): fix page margin clipping on 4x6 photo paper print preview
