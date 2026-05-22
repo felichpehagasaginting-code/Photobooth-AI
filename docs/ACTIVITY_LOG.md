@@ -10375,3 +10375,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T15:01:09+07:00** - [Activity #5748] docs(env): document all required environment variables with defaults
 - **2026-05-22T15:06:40+07:00** - [Activity #5749] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-22T15:24:23+07:00** - [Activity #5750] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-05-22T15:49:26+07:00** - [Activity #5751] style(typography): refine letter-spacing and hierarchy for hero heading
