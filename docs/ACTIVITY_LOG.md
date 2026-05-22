@@ -4724,3 +4724,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T19:30:13+07:00** - [Activity #3975] docs(changelog): update version history and release milestones
 - **2026-05-22T19:50:56+07:00** - [Activity #3976] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-05-22T20:15:47+07:00** - [Activity #3977] chore(git): add ignore rules for local session exports and temp files
+- **2026-05-22T20:22:24+07:00** - [Activity #3978] feat(export): support high-resolution PNG and PDF print strip layout
