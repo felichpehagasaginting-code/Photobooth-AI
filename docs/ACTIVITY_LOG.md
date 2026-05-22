@@ -4708,3 +4708,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T14:29:37+07:00** - [Activity #3959] feat(audio): add shutter click and countdown sound effects
 - **2026-05-22T14:42:25+07:00** - [Activity #3960] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-22T14:44:39+07:00** - [Activity #3961] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-05-22T15:12:01+07:00** - [Activity #3962] docs(arch): add architecture diagram explaining client-side filter flow
