@@ -4702,3 +4702,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T11:42:39+07:00** - [Activity #3953] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-05-22T11:55:43+07:00** - [Activity #3954] style(badge): update status indicator badge colors and glow effects
 - **2026-05-22T12:15:14+07:00** - [Activity #3955] style(controls): refine slider track and thumb sizing for touch screens
+- **2026-05-22T13:47:41+07:00** - [Activity #3956] perf(dom): virtualize gallery list items for smooth 60fps scrolling
