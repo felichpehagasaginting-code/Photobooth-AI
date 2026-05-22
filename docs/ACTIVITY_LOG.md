@@ -4715,3 +4715,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T15:59:09+07:00** - [Activity #3966] refactor(state): migrate photo session state management to zustand store
 - **2026-05-22T16:20:37+07:00** - [Activity #3967] test(api): add integration test coverage for photo seed endpoint
 - **2026-05-22T16:33:26+07:00** - [Activity #3968] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-05-22T16:37:42+07:00** - [Activity #3969] fix(qr): adjust QR code contrast ratio for low-light scanning
