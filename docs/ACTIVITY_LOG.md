@@ -4696,3 +4696,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T10:04:32+07:00** - [Activity #3947] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-22T10:22:58+07:00** - [Activity #3948] perf(anim): offload countdown animations to GPU composited layers
 - **2026-05-22T10:33:37+07:00** - [Activity #3949] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-22T10:53:28+07:00** - [Activity #3950] style(badge): update status indicator badge colors and glow effects
