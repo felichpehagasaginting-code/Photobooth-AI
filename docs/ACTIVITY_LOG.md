@@ -10381,3 +10381,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T16:25:46+07:00** - [Activity #5754] feat(watermark): customizable event logo watermark overlay
 - **2026-05-22T16:54:55+07:00** - [Activity #5755] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-05-22T17:16:59+07:00** - [Activity #5756] feat(cloud): async upload queue for batch photo backup
+- **2026-05-22T17:26:36+07:00** - [Activity #5757] fix(canvas): prevent blur artifacts during canvas downsampling
