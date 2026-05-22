@@ -10373,3 +10373,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T14:11:43+07:00** - [Activity #5746] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-05-22T14:44:16+07:00** - [Activity #5747] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-22T15:01:09+07:00** - [Activity #5748] docs(env): document all required environment variables with defaults
+- **2026-05-22T15:06:40+07:00** - [Activity #5749] feat(kiosk): add full-screen lock and inactivity reset timer
