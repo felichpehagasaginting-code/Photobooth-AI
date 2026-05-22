@@ -4727,3 +4727,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T20:22:24+07:00** - [Activity #3978] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-05-22T20:46:08+07:00** - [Activity #3979] style(badge): update status indicator badge colors and glow effects
 - **2026-05-22T21:04:38+07:00** - [Activity #3980] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-05-22T21:32:22+07:00** - [Activity #3981] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
