@@ -10371,3 +10371,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T13:45:57+07:00** - [Activity #5744] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-22T13:55:34+07:00** - [Activity #5745] style(grid): modernize layout overlap for bento-style elements
 - **2026-05-22T14:11:43+07:00** - [Activity #5746] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-05-22T14:44:16+07:00** - [Activity #5747] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
