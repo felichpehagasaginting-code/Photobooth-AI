@@ -4733,3 +4733,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T22:22:12+07:00** - [Activity #3984] feat(stickers): support draggable and resizable decorative stickers
 - **2026-05-23T09:01:11+07:00** - [Activity #3985] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-05-23T09:27:31+07:00** - [Activity #3986] style(button): add subtle hover transition and outline focus style
+- **2026-05-23T10:13:52+07:00** - [Activity #3987] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
