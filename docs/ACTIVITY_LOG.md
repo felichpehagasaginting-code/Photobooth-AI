@@ -4748,3 +4748,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-23T17:34:09+07:00** - [Activity #3999] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-23T19:30:46+07:00** - [Activity #4000] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-05-23T20:11:33+07:00** - [Activity #4001] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-05-23T20:41:43+07:00** - [Activity #4002] feat(camera): add dynamic exposure and focus adjustment controls
