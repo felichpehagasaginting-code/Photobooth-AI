@@ -4746,3 +4746,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-23T16:29:43+07:00** - [Activity #3997] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-05-23T17:00:24+07:00** - [Activity #3998] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-05-23T17:34:09+07:00** - [Activity #3999] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-23T19:30:46+07:00** - [Activity #4000] refactor(styles): migrate hardcoded color values to CSS design tokens
