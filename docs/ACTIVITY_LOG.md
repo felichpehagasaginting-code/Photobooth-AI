@@ -10392,3 +10392,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T21:51:12+07:00** - [Activity #5765] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-22T22:15:16+07:00** - [Activity #5766] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-23T09:05:12+07:00** - [Activity #5767] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-05-23T09:50:48+07:00** - [Activity #5768] feat(watermark): customizable event logo watermark overlay
