@@ -4740,3 +4740,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-23T13:46:22+07:00** - [Activity #3991] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-05-23T14:20:59+07:00** - [Activity #3992] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-05-23T14:32:48+07:00** - [Activity #3993] docs(api): document endpoint parameters and error codes for seed route
+- **2026-05-23T15:02:24+07:00** - [Activity #3994] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
