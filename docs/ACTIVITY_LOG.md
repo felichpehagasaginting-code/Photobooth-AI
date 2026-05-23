@@ -4743,3 +4743,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-23T15:02:24+07:00** - [Activity #3994] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-23T15:39:09+07:00** - [Activity #3995] refactor(services): separate cloud storage adapter from UI layer
 - **2026-05-23T15:59:43+07:00** - [Activity #3996] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-05-23T16:29:43+07:00** - [Activity #3997] perf(state): optimize selector subscriptions to minimize re-renders
