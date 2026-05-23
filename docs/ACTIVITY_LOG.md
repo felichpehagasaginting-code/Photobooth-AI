@@ -4737,3 +4737,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-23T10:44:14+07:00** - [Activity #3988] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-23T11:19:20+07:00** - [Activity #3989] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-05-23T11:50:31+07:00** - [Activity #3990] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-05-23T13:46:22+07:00** - [Activity #3991] fix(canvas): prevent blur artifacts during canvas downsampling
