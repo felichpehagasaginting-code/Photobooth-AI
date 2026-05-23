@@ -10397,3 +10397,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-23T11:38:51+07:00** - [Activity #5770] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-05-23T13:45:41+07:00** - [Activity #5771] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-23T14:25:05+07:00** - [Activity #5772] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-05-23T15:04:45+07:00** - [Activity #5773] refactor(hooks): create custom useDebounce and useThrottle utilities
