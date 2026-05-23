@@ -4744,3 +4744,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-23T15:39:09+07:00** - [Activity #3995] refactor(services): separate cloud storage adapter from UI layer
 - **2026-05-23T15:59:43+07:00** - [Activity #3996] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-05-23T16:29:43+07:00** - [Activity #3997] perf(state): optimize selector subscriptions to minimize re-renders
+- **2026-05-23T17:00:24+07:00** - [Activity #3998] style(typography): refine letter-spacing and hierarchy for hero heading
