@@ -10395,3 +10395,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-23T09:50:48+07:00** - [Activity #5768] feat(watermark): customizable event logo watermark overlay
 - **2026-05-23T10:37:55+07:00** - [Activity #5769] docs(changelog): update version history and release milestones
 - **2026-05-23T11:38:51+07:00** - [Activity #5770] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-05-23T13:45:41+07:00** - [Activity #5771] feat(kiosk): add full-screen lock and inactivity reset timer
