@@ -20,36 +20,36 @@ export default function AnimatedBackground({
 }: AnimatedBackgroundProps) {
   const orbConfigs = [
     { 
-      size: 300, 
-      color: '#FF6B9D', 
-      top: '-10%', 
-      left: '-15%', 
+      size: 350, 
+      color: '#2b5cf6', // Premium Cobalt
+      top: '-5%', 
+      left: '-10%', 
       delay: 0,
-      duration: 8,
-    },
-    { 
-      size: 200, 
-      color: '#A855F7', 
-      top: '60%', 
-      left: '80%', 
-      delay: 2,
-      duration: 10,
-    },
-    { 
-      size: 250, 
-      color: '#06D6A0', 
-      top: '40%', 
-      left: '-5%', 
-      delay: 4,
       duration: 9,
     },
     { 
-      size: 150, 
-      color: '#FF8A65', 
-      top: '10%', 
-      left: '70%', 
+      size: 250, 
+      color: '#1e3a8a', // Midnight Blue
+      top: '60%', 
+      left: '75%', 
+      delay: 2,
+      duration: 11,
+    },
+    { 
+      size: 280, 
+      color: '#2dd4bf', // Turquoise
+      top: '35%', 
+      left: '-5%', 
+      delay: 4,
+      duration: 10,
+    },
+    { 
+      size: 180, 
+      color: '#9cb6f9', // Metallic Ice Sapphire
+      top: '15%', 
+      left: '65%', 
       delay: 1,
-      duration: 7,
+      duration: 8,
     },
   ];
 
@@ -63,10 +63,10 @@ export default function AnimatedBackground({
   ];
 
   const backgroundVariants = {
-    hero: 'bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950',
-    default: 'bg-gradient-to-br from-[#0A0A0F] via-[#1A1A2A] to-[#0A0A0F]',
-    dark: 'bg-[#0A0A0F]',
-    light: 'bg-gradient-to-br from-[#15151F] to-[#0A0A0F]',
+    hero: 'bg-gradient-to-br from-[#030611] via-[#0a0e1c] to-[#030611]',
+    default: 'bg-gradient-to-br from-[#030611] via-[#0d152c] to-[#030611]',
+    dark: 'bg-[#030611]',
+    light: 'bg-gradient-to-br from-[#0a0e1c] to-[#030611]',
   };
 
   return (

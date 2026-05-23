@@ -24,8 +24,8 @@ function StatTile({ label, value, accent, index }: { label: string; value: strin
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.06, duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
       style={{
-        background: '#151210',
-        border: '1px solid #2c2822',
+        background: '#0a0e1c',
+        border: '1px solid rgba(29,39,64,0.8)',
         padding: '16px 18px',
         /* Each tile gets unique clip per index */
         clipPath: index % 2 === 0
@@ -33,7 +33,7 @@ function StatTile({ label, value, accent, index }: { label: string; value: strin
           : 'polygon(10px 0, 100% 0, 100% 100%, 0 100%, 0 10px)',
       }}
     >
-      <p className="text-[10px] font-bold tracking-[0.25em] uppercase font-body mb-2" style={{ color: '#7a7168' }}>
+      <p className="text-[10px] font-bold tracking-[0.25em] uppercase font-body mb-2" style={{ color: '#7687a1' }}>
         {label}
       </p>
       <p className="font-display font-black leading-none" style={{ fontSize: 'clamp(1.4rem, 3vw, 1.9rem)', color: accent }}>
@@ -47,11 +47,11 @@ function StatTile({ label, value, accent, index }: { label: string; value: strin
 function SectionHeader({ title, onRefresh }: { title: string; onRefresh?: () => void }) {
   return (
     <div className="flex items-center gap-3 mb-4">
-      <div className="h-px w-4 bg-[#c87941]" />
-      <span className="text-[9px] font-bold tracking-[0.35em] text-[#c87941] uppercase font-body">{title}</span>
-      <div className="flex-1 h-px" style={{ background: 'rgba(44,40,34,0.6)' }} />
+      <div className="h-px w-4 bg-var(--copper)" />
+      <span className="text-[9px] font-bold tracking-[0.35em] text-var(--copper) uppercase font-body">{title}</span>
+      <div className="flex-1 h-px" style={{ background: 'rgba(29,39,64,0.6)' }} />
       {onRefresh && (
-        <button onClick={onRefresh} className="text-[#7a7168] hover:text-[#c87941] tap-none press" style={{ transition: 'color 180ms cubic-bezier(0.33, 1, 0.68, 1)' }}>
+        <button onClick={onRefresh} className="text-[#7687a1] hover:text-var(--copper) tap-none press" style={{ transition: 'color 180ms cubic-bezier(0.33, 1, 0.68, 1)' }}>
           <RefreshCw className="w-3.5 h-3.5" />
         </button>
       )}
@@ -140,32 +140,32 @@ export default function AdminDashboard() {
   const handleLogout = () => { setAdminLoggedIn(false); setStep('idle'); };
 
   const getStyleColor = (style: string) =>
-    FILTER_STYLES[style as keyof typeof FILTER_STYLES]?.color || '#c87941';
+    FILTER_STYLES[style as keyof typeof FILTER_STYLES]?.color || 'var(--cobalt)';
   const getCategoryLabel = (cat: string) =>
     FILTER_CATEGORIES[cat as keyof typeof FILTER_CATEGORIES]?.label || cat;
 
   /* Status color mapping */
   const statusColor: Record<string, string> = {
-    paid: '#4ecb9e', pending: '#e8a02a', expired: '#d94040',
+    paid: '#2dd4bf', pending: 'var(--amber)', expired: '#d94040',
   };
 
   return (
-    <div className="min-h-screen flex flex-col relative overflow-hidden" style={{ background: '#0c0a09' }}>
+    <div className="min-h-screen flex flex-col relative overflow-hidden" style={{ background: '#030611' }}>
 
       {/* Film grain */}
       <div className="absolute inset-0 pointer-events-none z-0"
-        style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E\")", opacity: 0.4 }}
+        style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E\")", opacity: 0.4 }}
       />
 
       {/* ── Top bar ── */}
       <div className="relative z-20 flex items-center px-5 py-3 gap-4"
-        style={{ background: 'rgba(12,10,9,0.9)', backdropFilter: 'blur(14px)', borderBottom: '1px solid rgba(200,121,65,0.1)' }}
+        style={{ background: 'rgba(3,6,17,0.9)', backdropFilter: 'blur(14px)', borderBottom: '1px solid rgba(43,92,246,0.15)' }}
       >
         {/* Brand */}
         <div className="flex items-center gap-2">
-          <div style={{ width: 24, height: 24, background: '#c87941', clipPath: 'polygon(0 0, calc(100% - 5px) 0, 100% 5px, 100% 100%, 0 100%)' }} />
-          <span className="font-display font-black text-xs tracking-[0.15em] text-[#f0ebe3] uppercase">
-            Admin<span className="text-[#c87941]">.</span>Panel
+          <div style={{ width: 24, height: 24, background: 'var(--copper)', clipPath: 'polygon(0 0, calc(100% - 5px) 0, 100% 5px, 100% 100%, 0 100%)' }} />
+          <span className="font-display font-black text-xs tracking-[0.15em] text-[#f1f4fb] uppercase">
+            Admin<span className="text-var(--copper)">.</span>Panel
           </span>
         </div>
 
@@ -178,9 +178,9 @@ export default function AdminDashboard() {
               onClick={() => setActiveTab(id)}
               className="flex items-center gap-1.5 px-3 py-1.5 tap-none press whitespace-nowrap font-body text-[11px] font-semibold"
               style={{
-                color: activeTab === id ? '#c87941' : '#7a7168',
-                background: activeTab === id ? 'rgba(200,121,65,0.08)' : 'transparent',
-                borderBottom: activeTab === id ? '2px solid #c87941' : '2px solid transparent',
+                color: activeTab === id ? 'var(--copper)' : '#7687a1',
+                background: activeTab === id ? 'rgba(43,92,246,0.08)' : 'transparent',
+                borderBottom: activeTab === id ? '2px solid var(--copper)' : '2px solid transparent',
                 transition: 'color 180ms cubic-bezier(0.33, 1, 0.68, 1), background 180ms cubic-bezier(0.33, 1, 0.68, 1)',
               }}
             >
@@ -193,7 +193,7 @@ export default function AdminDashboard() {
         {/* Logout */}
         <button
           onClick={handleLogout}
-          className="flex items-center gap-1.5 text-[11px] font-body font-semibold text-[#7a7168] hover:text-[#d94040] tap-none press"
+          className="flex items-center gap-1.5 text-[11px] font-body font-semibold text-[#7687a1] hover:text-[#d94040] tap-none press"
           style={{ transition: 'color 180ms cubic-bezier(0.33, 1, 0.68, 1)' }}
         >
           <LogOut className="w-3.5 h-3.5" />
@@ -217,41 +217,41 @@ export default function AdminDashboard() {
               <div>
                 <div className="mb-5">
                   <div className="flex items-center gap-2 mb-1">
-                    <div className="h-px w-4 bg-[#c87941]" />
-                    <span className="text-[9px] font-bold tracking-[0.35em] text-[#c87941] uppercase font-body">Overview</span>
+                    <div className="h-px w-4 bg-var(--copper)" />
+                    <span className="text-[9px] font-bold tracking-[0.35em] text-var(--copper) uppercase font-body">Overview</span>
                   </div>
-                  <h2 className="font-display font-black text-[#f0ebe3]" style={{ fontSize: 'clamp(1.5rem, 4vw, 2.2rem)' }}>
-                    Admin <span className="italic text-[#c87941]">Dashboard</span>
+                  <h2 className="font-display font-black text-[#f1f4fb]" style={{ fontSize: 'clamp(1.5rem, 4vw, 2.2rem)' }}>
+                    Admin <span className="italic text-gradient-copper">Dashboard</span>
                   </h2>
                 </div>
 
                 {/* Stats grid — 2×2 with alternating clip-paths */}
                 <div className="grid grid-cols-2 gap-2.5 mb-5">
-                  <StatTile label={t('Total Sesi', 'Total Sessions')} value={stats.totalSessions.toString()} accent="#c87941" index={0} />
-                  <StatTile label={t('Total Pendapatan', 'Total Revenue')} value={formatPrice(stats.totalRevenue)} accent="#e8a02a" index={1} />
-                  <StatTile label={t('Sesi Hari Ini', "Today's Sessions")} value={stats.todaySessions.toString()} accent="#4ecb9e" index={2} />
-                  <StatTile label={t('Pendapatan Hari Ini', "Today's Revenue")} value={formatPrice(stats.todayRevenue)} accent="#f0ebe3" index={3} />
+                  <StatTile label={t('Total Sesi', 'Total Sessions')} value={stats.totalSessions.toString()} accent="var(--copper)" index={0} />
+                  <StatTile label={t('Total Pendapatan', 'Total Revenue')} value={formatPrice(stats.totalRevenue)} accent="var(--amber)" index={1} />
+                  <StatTile label={t('Sesi Hari Ini', "Today's Sessions")} value={stats.todaySessions.toString()} accent="#2dd4bf" index={2} />
+                  <StatTile label={t('Pendapatan Hari Ini', "Today's Revenue")} value={formatPrice(stats.todayRevenue)} accent="#f1f4fb" index={3} />
                 </div>
 
                 {/* Active filters — full-width accent bar */}
-                <div style={{ background: '#151210', border: '1px solid rgba(200,121,65,0.2)', padding: '14px 18px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                <div style={{ background: '#0a0e1c', border: '1px solid rgba(43,92,246,0.2)', padding: '14px 18px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                   <div>
-                    <p className="text-[10px] tracking-[0.25em] uppercase font-body font-bold mb-1" style={{ color: '#7a7168' }}>{t('Filter Aktif', 'Active Filters')}</p>
-                    <p className="font-display font-black" style={{ fontSize: '2rem', color: '#4ecb9e' }}>
+                    <p className="text-[10px] tracking-[0.25em] uppercase font-body font-bold mb-1" style={{ color: '#7687a1' }}>{t('Filter Aktif', 'Active Filters')}</p>
+                    <p className="font-display font-black" style={{ fontSize: '2rem', color: '#2dd4bf' }}>
                       {stats.activeFilters || filters.filter(f => f.active).length}
                     </p>
                   </div>
                   {/* Visual bar */}
                   <div className="flex gap-1 items-end h-10">
                     {[40,65,50,80,55,70,45].map((h, i) => (
-                      <div key={i} style={{ width: 4, height: `${h}%`, background: i === 5 ? '#4ecb9e' : 'rgba(78,203,158,0.2)' }} />
+                      <div key={i} style={{ width: 4, height: `${h}%`, background: i === 5 ? '#2dd4bf' : 'rgba(45,212,191,0.2)' }} />
                     ))}
                   </div>
                 </div>
 
                 {/* Revenue Chart */}
-                <div className="mt-5 mb-5 p-5" style={{ background: '#151210', border: '1px solid #2c2822' }}>
-                  <p className="text-[10px] tracking-[0.25em] uppercase font-body font-bold mb-4" style={{ color: '#7a7168' }}>Tren Pendapatan (7 Hari Terakhir)</p>
+                <div className="mt-5 mb-5 p-5" style={{ background: '#0a0e1c', border: '1px solid rgba(29,39,64,0.8)' }}>
+                  <p className="text-[10px] tracking-[0.25em] uppercase font-body font-bold mb-4" style={{ color: '#7687a1' }}>Tren Pendapatan (7 Hari Terakhir)</p>
                   <div className="h-48 w-full">
                     <ResponsiveContainer width="100%" height="100%">
                       <AreaChart data={stats.revenueHistory || [
@@ -265,17 +265,17 @@ export default function AdminDashboard() {
                       ]}>
                         <defs>
                           <linearGradient id="colorRev" x1="0" y1="0" x2="0" y2="1">
-                            <stop offset="5%" stopColor="#c87941" stopOpacity={0.3}/>
-                            <stop offset="95%" stopColor="#c87941" stopOpacity={0}/>
+                            <stop offset="5%" stopColor="var(--copper)" stopOpacity={0.3}/>
+                            <stop offset="95%" stopColor="var(--copper)" stopOpacity={0}/>
                           </linearGradient>
                         </defs>
-                        <XAxis dataKey="name" stroke="#7a7168" fontSize={10} tickLine={false} axisLine={false} />
+                        <XAxis dataKey="name" stroke="#7687a1" fontSize={10} tickLine={false} axisLine={false} />
                         <Tooltip 
-                          contentStyle={{ backgroundColor: '#0c0a09', border: '1px solid #2c2822', borderRadius: 0 }}
-                          itemStyle={{ color: '#c87941', fontWeight: 'bold' }}
+                          contentStyle={{ backgroundColor: '#030611', border: '1px solid rgba(29,39,64,0.8)', borderRadius: 0 }}
+                          itemStyle={{ color: 'var(--copper)', fontWeight: 'bold' }}
                           formatter={(value: number) => formatPrice(value)}
                         />
-                        <Area type="monotone" dataKey="revenue" stroke="#c87941" strokeWidth={2} fillOpacity={1} fill="url(#colorRev)" />
+                        <Area type="monotone" dataKey="revenue" stroke="var(--copper)" strokeWidth={2} fillOpacity={1} fill="url(#colorRev)" />
                       </AreaChart>
                     </ResponsiveContainer>
                   </div>
@@ -288,12 +288,12 @@ export default function AdminDashboard() {
                     <div className="space-y-2">
                       {stats.recentTransactions.slice(0, 3).map((txn: TransactionInfo) => (
                         <div key={txn.id} className="flex items-center justify-between px-3 py-2.5"
-                          style={{ background: '#151210', border: '1px solid #2c2822' }}
+                          style={{ background: '#0a0e1c', border: '1px solid rgba(29,39,64,0.8)' }}
                         >
-                          <span className="font-mono text-[11px] text-[#7a7168] font-body">{txn.orderId?.slice(0, 12)}…</span>
-                          <span className="text-[11px] font-bold font-body text-[#f0ebe3]">{formatPrice(txn.amount)}</span>
+                          <span className="font-mono text-[11px] text-[#7687a1] font-body">{txn.orderId?.slice(0, 12)}…</span>
+                          <span className="text-[11px] font-bold font-body text-[#f1f4fb]">{formatPrice(txn.amount)}</span>
                           <span className="text-[9px] font-bold tracking-[0.15em] uppercase font-body px-2 py-0.5"
-                            style={{ color: statusColor[txn.status] || '#7a7168', border: `1px solid ${statusColor[txn.status] || '#2c2822'}30` }}
+                            style={{ color: statusColor[txn.status] || '#7687a1', border: `1px solid ${statusColor[txn.status] || 'rgba(29,39,64,0.8)'}30` }}
                           >
                             {txn.status}
                           </span>
@@ -314,7 +314,7 @@ export default function AdminDashboard() {
                 }} />
                 <div className="space-y-3">
                   {packages.length === 0 && (
-                    <p className="text-[#7a7168] text-sm font-body text-center py-10">{t('Tidak ada paket', 'No packages found')}</p>
+                    <p className="text-[#7687a1] text-sm font-body text-center py-10">{t('Tidak ada paket', 'No packages found')}</p>
                   )}
                   {packages.map((pkg, i) => (
                     <motion.div key={pkg.id}
@@ -322,28 +322,28 @@ export default function AdminDashboard() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: i * 0.05 }}
                       style={{
-                        background: '#151210', border: '1px solid #2c2822', padding: '16px',
+                        background: '#0a0e1c', border: '1px solid rgba(29,39,64,0.8)', padding: '16px',
                         clipPath: i % 2 === 0 ? 'polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%)' : undefined,
                       }}
                     >
                       <div className="flex items-center justify-between mb-1.5">
-                        <h3 className="font-display font-bold text-[#f0ebe3] text-base">{pkg.name}</h3>
+                        <h3 className="font-display font-bold text-[#f1f4fb] text-base">{pkg.name}</h3>
                         <span
                           className="text-[9px] font-bold tracking-[0.2em] uppercase font-body px-2 py-0.5"
                           style={{
-                            color: pkg.active ? '#4ecb9e' : '#d94040',
-                            border: `1px solid ${pkg.active ? 'rgba(78,203,158,0.3)' : 'rgba(217,64,64,0.3)'}`,
+                            color: pkg.active ? '#2dd4bf' : '#d94040',
+                            border: `1px solid ${pkg.active ? 'rgba(45,212,191,0.3)' : 'rgba(217,64,64,0.3)'}`,
                           }}
                         >
                           {pkg.active ? t('AKTIF', 'ACTIVE') : t('NONAKTIF', 'INACTIVE')}
                         </span>
                       </div>
-                      <p className="text-[12px] text-[#7a7168] font-body mb-3 leading-relaxed">{pkg.description}</p>
+                      <p className="text-[12px] text-[#7687a1] font-body mb-3 leading-relaxed">{pkg.description}</p>
                       <div className="flex items-end justify-between">
-                        <span className="font-display font-black" style={{ fontSize: '1.3rem', color: '#c87941' }}>
+                        <span className="font-display font-black" style={{ fontSize: '1.3rem', color: 'var(--copper)' }}>
                           {formatPrice(pkg.price)}
                         </span>
-                        <span className="text-[10px] tracking-[0.15em] text-[#7a7168] font-body uppercase">
+                        <span className="text-[10px] tracking-[0.15em] text-[#7687a1] font-body uppercase">
                           {pkg.filterCount >= 99 ? t('Semua filter', 'All filters') : `${pkg.filterCount} ${t('filter', 'filters')}`}
                         </span>
                       </div>
@@ -369,7 +369,7 @@ export default function AdminDashboard() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: i * 0.03 }}
                         className="flex items-center justify-between px-3 py-3"
-                        style={{ background: '#151210', border: '1px solid #2c2822', borderLeft: `3px solid ${accent}` }}
+                        style={{ background: '#0a0e1c', border: '1px solid rgba(29,39,64,0.8)', borderLeft: `3px solid ${accent}` }}
                       >
                         <div className="flex items-center gap-3 min-w-0">
                           {filter.thumbnail ? (
@@ -382,7 +382,7 @@ export default function AdminDashboard() {
                             </div>
                           )}
                           <div className="min-w-0">
-                            <p className="text-sm font-bold text-[#f0ebe3] font-body truncate">{filter.name}</p>
+                            <p className="text-sm font-bold text-[#f1f4fb] font-body truncate">{filter.name}</p>
                             <p className="text-[10px] tracking-[0.15em] uppercase font-body" style={{ color: accent }}>
                               {getCategoryLabel(filter.category)}
                             </p>
@@ -396,7 +396,7 @@ export default function AdminDashboard() {
                     );
                   })}
                   {filters.length === 0 && (
-                    <p className="text-[#7a7168] text-sm font-body text-center py-10">{t('Tidak ada filter', 'No filters found')}</p>
+                    <p className="text-[#7687a1] text-sm font-body text-center py-10">{t('Tidak ada filter', 'No filters found')}</p>
                   )}
                 </div>
               </div>
@@ -411,17 +411,17 @@ export default function AdminDashboard() {
                 }} />
                 {transactions.length === 0 ? (
                   <div className="flex flex-col items-center justify-center py-16 gap-3">
-                    <div className="w-10 h-10" style={{ border: '1px solid #2c2822', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                      <History className="w-5 h-5 text-[#2c2822]" />
+                    <div className="w-10 h-10" style={{ border: '1px solid rgba(29,39,64,0.8)', display: 'flex', alignItems: 'center', justifyRules: 'center' }}>
+                      <History className="w-5 h-5 text-[#7687a1]" />
                     </div>
-                    <p className="text-[11px] tracking-[0.25em] text-[#7a7168] uppercase font-body">{t('Belum ada transaksi', 'No transactions yet')}</p>
+                    <p className="text-[11px] tracking-[0.25em] text-[#7687a1] uppercase font-body">{t('Belum ada transaksi', 'No transactions yet')}</p>
                   </div>
                 ) : (
                   <div className="space-y-2">
                     {/* Column header */}
-                    <div className="grid grid-cols-3 gap-2 px-3 pb-2" style={{ borderBottom: '1px solid rgba(44,40,34,0.6)' }}>
+                    <div className="grid grid-cols-3 gap-2 px-3 pb-2" style={{ borderBottom: '1px solid rgba(29,39,64,0.6)' }}>
                       {[t('Order ID', 'Order ID'), t('Jumlah', 'Amount'), t('Status', 'Status')].map(h => (
-                        <span key={h} className="text-[9px] font-bold tracking-[0.3em] uppercase text-[#7a7168] font-body">{h}</span>
+                        <span key={h} className="text-[9px] font-bold tracking-[0.3em] uppercase text-[#7687a1] font-body">{h}</span>
                       ))}
                     </div>
                     {transactions.map((txn, i) => (
@@ -430,12 +430,12 @@ export default function AdminDashboard() {
                         animate={{ opacity: 1 }}
                         transition={{ delay: i * 0.03 }}
                         className="grid grid-cols-3 gap-2 items-center px-3 py-2.5"
-                        style={{ background: i % 2 === 0 ? '#151210' : 'transparent', border: '1px solid rgba(44,40,34,0.4)' }}
+                        style={{ background: i % 2 === 0 ? '#0a0e1c' : 'transparent', border: '1px solid rgba(29,39,64,0.4)' }}
                       >
-                        <span className="font-mono text-[11px] text-[#7a7168] font-body truncate">{txn.orderId?.slice(0, 10)}…</span>
-                        <span className="text-[12px] font-bold text-[#f0ebe3] font-body">{formatPrice(txn.amount)}</span>
+                        <span className="font-mono text-[11px] text-[#7687a1] font-body truncate">{txn.orderId?.slice(0, 10)}…</span>
+                        <span className="text-[12px] font-bold text-[#f1f4fb] font-body">{formatPrice(txn.amount)}</span>
                         <span className="text-[9px] font-bold tracking-[0.15em] uppercase font-body"
-                          style={{ color: statusColor[txn.status] || '#7a7168' }}
+                          style={{ color: statusColor[txn.status] || '#7687a1' }}
                         >
                           {txn.status}
                         </span>
@@ -456,8 +456,8 @@ export default function AdminDashboard() {
                     className="w-full max-w-md relative overflow-hidden"
                     style={{
                       aspectRatio: '4/3',
-                      background: '#0c0a09',
-                      border: '1px solid rgba(200,121,65,0.2)',
+                      background: '#030611',
+                      border: '1px solid rgba(43,92,246,0.2)',
                       clipPath: 'polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%)',
                     }}
                   >
@@ -466,21 +466,21 @@ export default function AdminDashboard() {
                     ) : (
                       <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
                         {/* Crosshair viewfinder icon */}
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="rgba(200,121,65,0.3)" strokeWidth="1.5">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="rgba(43,92,246,0.3)" strokeWidth="1.5">
                           <rect x="2" y="2" width="12" height="12" /><rect x="26" y="2" width="12" height="12" />
                           <rect x="2" y="26" width="12" height="12" /><rect x="26" y="26" width="12" height="12" />
                         </svg>
-                        <span className="text-[10px] tracking-[0.3em] text-[#2c2822] uppercase font-body">{t('Kamera tidak aktif', 'Camera inactive')}</span>
+                        <span className="text-[10px] tracking-[0.3em] text-[#7687a1] uppercase font-body">{t('Kamera tidak aktif', 'Camera inactive')}</span>
                       </div>
                     )}
 
-                    {/* Corner brackets — copper */}
+                    {/* Corner brackets */}
                     {cameraActive && (
                       <>
-                        <div className="absolute top-3 left-3 w-5 h-5" style={{ borderTop: '2px solid #c87941', borderLeft: '2px solid #c87941' }} />
-                        <div className="absolute top-3 right-3 w-5 h-5" style={{ borderTop: '2px solid #c87941', borderRight: '2px solid #c87941' }} />
-                        <div className="absolute bottom-3 left-3 w-5 h-5" style={{ borderBottom: '2px solid #c87941', borderLeft: '2px solid #c87941' }} />
-                        <div className="absolute bottom-3 right-3 w-5 h-5" style={{ borderBottom: '2px solid #c87941', borderRight: '2px solid #c87941' }} />
+                        <div className="absolute top-3 left-3 w-5 h-5" style={{ borderTop: '2px solid var(--copper)', borderLeft: '2px solid var(--copper)' }} />
+                        <div className="absolute top-3 right-3 w-5 h-5" style={{ borderTop: '2px solid var(--copper)', borderRight: '2px solid var(--copper)' }} />
+                        <div className="absolute bottom-3 left-3 w-5 h-5" style={{ borderBottom: '2px solid var(--copper)', borderLeft: '2px solid var(--copper)' }} />
+                        <div className="absolute bottom-3 right-3 w-5 h-5" style={{ borderBottom: '2px solid var(--copper)', borderRight: '2px solid var(--copper)' }} />
                       </>
                     )}
                   </div>
@@ -500,8 +500,8 @@ export default function AdminDashboard() {
                       disabled={!cameraActive}
                       className="h-11 px-6 text-xs font-body font-bold press tap-none disabled:opacity-30 flex items-center gap-2"
                       style={{
-                        border: '1px solid rgba(44,40,34,0.8)',
-                        color: '#7a7168',
+                        border: '1px solid rgba(29,39,64,0.8)',
+                        color: '#7687a1',
                         transition: 'color 180ms cubic-bezier(0.33, 1, 0.68, 1)',
                       }}
                     >
@@ -518,30 +518,30 @@ export default function AdminDashboard() {
                 <SectionHeader title={t('Pengaturan Acara', 'Event Settings')} />
                 <div className="space-y-4 max-w-sm">
                   <div>
-                    <label className="block text-[10px] tracking-[0.2em] text-[#7a7168] font-bold uppercase mb-2">
+                    <label className="block text-[10px] tracking-[0.2em] text-[#7687a1] font-bold uppercase mb-2">
                       Event Title
                     </label>
                     <input
                       type="text"
                       value={eventBranding.title}
                       onChange={(e) => setEventBranding({ ...eventBranding, title: e.target.value })}
-                      className="w-full bg-[#151210] border border-[#2c2822] text-[#f0ebe3] text-sm px-4 py-3 focus:outline-none focus:border-[#c87941] font-body"
+                      className="w-full bg-[#0a0e1c] border border-[rgba(29,39,64,0.8)] text-[#f1f4fb] text-sm px-4 py-3 focus:outline-none focus:border-var(--copper) font-body"
                       placeholder="AI.PHOTOBOOTH"
                     />
                   </div>
                   <div>
-                    <label className="block text-[10px] tracking-[0.2em] text-[#7a7168] font-bold uppercase mb-2">
+                    <label className="block text-[10px] tracking-[0.2em] text-[#7687a1] font-bold uppercase mb-2">
                       Event Subtitle
                     </label>
                     <input
                       type="text"
                       value={eventBranding.subtitle}
                       onChange={(e) => setEventBranding({ ...eventBranding, subtitle: e.target.value })}
-                      className="w-full bg-[#151210] border border-[#2c2822] text-[#f0ebe3] text-sm px-4 py-3 focus:outline-none focus:border-[#c87941] font-body"
+                      className="w-full bg-[#0a0e1c] border border-[rgba(29,39,64,0.8)] text-[#f1f4fb] text-sm px-4 py-3 focus:outline-none focus:border-var(--copper) font-body"
                       placeholder="Premium AI Edition"
                     />
                   </div>
-                  <p className="text-[10px] text-[#7a7168] italic font-body">
+                  <p className="text-[10px] text-[#7687a1] italic font-body">
                     * Perubahan ini akan langsung muncul di hasil cetak foto grid.
                   </p>
                 </div>
@@ -553,7 +553,7 @@ export default function AdminDashboard() {
       </div>
 
       {/* Bottom edge accent */}
-      <div className="absolute bottom-0 left-0 right-0 h-px" style={{ background: 'linear-gradient(to right, transparent, rgba(200,121,65,0.25), transparent)' }} />
+      <div className="absolute bottom-0 left-0 right-0 h-px" style={{ background: 'linear-gradient(to right, transparent, rgba(43,92,246,0.25), transparent)' }} />
     </div>
   );
 }

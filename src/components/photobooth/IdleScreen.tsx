@@ -5,7 +5,7 @@ import { motion, AnimatePresence, useMotionValue, useTransform } from 'framer-mo
 import { Settings, Camera } from 'lucide-react';
 import { usePhotoboothStore } from '@/store/photobooth';
 
-/* ── Floating particle — warm tones ─────────────────────────────────── */
+/* ── Floating particle — premium cool tones ─────────────────────────── */
 function FloatingOrb({ delay, x, size, duration, color }: { delay: number; x: string; size: number; duration: number; color: string }) {
   return (
     <motion.div
@@ -13,9 +13,9 @@ function FloatingOrb({ delay, x, size, duration, color }: { delay: number; x: st
       style={{
         left: x, width: size, height: size,
         background: `radial-gradient(circle, ${color} 0%, transparent 70%)`,
-        filter: 'blur(1px)',
+        filter: 'blur(2px)',
       }}
-      animate={{ y: [0, -600], opacity: [0, 0.7, 0], scale: [0.3, 1.1, 0.6] }}
+      animate={{ y: [0, -600], opacity: [0, 0.65, 0], scale: [0.3, 1.1, 0.6] }}
       transition={{ duration, delay, repeat: Infinity, ease: [0.22, 1, 0.36, 1] }}
     />
   );
@@ -29,10 +29,10 @@ function TickerTape({ reversed, rowIndex }: { reversed?: boolean; rowIndex: numb
   ];
   const text = items.join('  ');
   return (
-    <div className="whitespace-nowrap overflow-hidden opacity-[0.055]" style={{ transform: `skewY(-${rowIndex % 2 === 0 ? 0 : 0}deg)` }}>
+    <div className="whitespace-nowrap overflow-hidden opacity-[0.035]" style={{ transform: `skewY(-${rowIndex % 2 === 0 ? 0 : 0}deg)` }}>
       <motion.span
         className="font-display font-black tracking-[0.2em] uppercase inline-block"
-        style={{ fontSize: 'clamp(1.4rem, 3vw, 2rem)', color: '#c87941', lineHeight: 1 }}
+        style={{ fontSize: 'clamp(1.4rem, 3vw, 2rem)', color: 'var(--copper)', lineHeight: 1 }}
         animate={{ x: reversed ? ['0%', '50%'] : ['0%', '-50%'] }}
         transition={{ duration: 22 + rowIndex * 4, repeat: Infinity, ease: 'linear', repeatType: 'loop' }}
       >
@@ -84,22 +84,22 @@ function MagneticButton({ onClick, children }: { onClick: () => void; children: 
 interface ShowcaseFilter { name: string; src: string; accentHex: string; tag: string; filterCSS: string; }
 
 const showcaseFilters: ShowcaseFilter[] = [
-  { name: 'Anime Ghibli',   src: '/filters/anime-ghibli.png', accentHex: '#c87941', tag: 'FANTASY',  filterCSS: 'saturate(120%) brightness(105%)' },
+  { name: 'Anime Ghibli',   src: '/filters/anime-ghibli.png', accentHex: '#2b5cf6', tag: 'FANTASY',  filterCSS: 'saturate(120%) brightness(105%)' },
   { name: 'Cyberpunk Neon', src: '/filters/cyberpunk.png',    accentHex: '#8a6ff0', tag: 'SCI-FI',   filterCSS: 'hue-rotate(270deg) saturate(180%) contrast(110%)' },
-  { name: 'Watercolor Art', src: '/filters/watercolor.png',   accentHex: '#4ecb9e', tag: 'ART',      filterCSS: 'saturate(130%) brightness(108%) contrast(95%)' },
-  { name: 'Comic Book',     src: '/filters/comic.png',        accentHex: '#e8a02a', tag: 'POP ART',  filterCSS: 'saturate(160%) contrast(130%)' },
+  { name: 'Watercolor Art', src: '/filters/watercolor.png',   accentHex: '#2dd4bf', tag: 'ART',      filterCSS: 'saturate(130%) brightness(108%) contrast(95%)' },
+  { name: 'Comic Book',     src: '/filters/comic.png',        accentHex: '#9cb6f9', tag: 'POP ART',  filterCSS: 'saturate(160%) contrast(130%)' },
 ];
 
 const ORBS = [
-  { delay: 0.0,  x: '5%',  size: 6,  duration: 11, color: 'rgba(200,121,65,0.6)'  },
-  { delay: 1.5,  x: '18%', size: 10, duration: 14, color: 'rgba(232,160,42,0.5)'  },
-  { delay: 2.8,  x: '33%', size: 5,  duration: 9,  color: 'rgba(200,121,65,0.5)'  },
-  { delay: 4.2,  x: '52%', size: 12, duration: 13, color: 'rgba(78,203,158,0.4)'  },
-  { delay: 5.0,  x: '68%', size: 7,  duration: 11, color: 'rgba(200,121,65,0.5)'  },
-  { delay: 6.5,  x: '82%', size: 9,  duration: 15, color: 'rgba(232,160,42,0.45)' },
-  { delay: 8.0,  x: '12%', size: 4,  duration: 8,  color: 'rgba(78,203,158,0.5)'  },
-  { delay: 9.3,  x: '44%', size: 11, duration: 12, color: 'rgba(200,121,65,0.4)'  },
-  { delay: 10.5, x: '76%', size: 6,  duration: 10, color: 'rgba(232,160,42,0.5)'  },
+  { delay: 0.0,  x: '5%',  size: 6,  duration: 11, color: 'rgba(43,92,246,0.5)'  }, // cobalt
+  { delay: 1.5,  x: '18%', size: 10, duration: 14, color: 'rgba(156,182,249,0.4)' }, // ice sapphire
+  { delay: 2.8,  x: '33%', size: 5,  duration: 9,  color: 'rgba(43,92,246,0.4)'  }, 
+  { delay: 4.2,  x: '52%', size: 12, duration: 13, color: 'rgba(45,212,191,0.3)' }, // turquoise
+  { delay: 5.0,  x: '68%', size: 7,  duration: 11, color: 'rgba(43,92,246,0.4)'  }, 
+  { delay: 6.5,  x: '82%', size: 9,  duration: 15, color: 'rgba(156,182,249,0.35)' }, 
+  { delay: 8.0,  x: '12%', size: 4,  duration: 8,  color: 'rgba(45,212,191,0.4)'  }, 
+  { delay: 9.3,  x: '44%', size: 11, duration: 12, color: 'rgba(43,92,246,0.3)'  }, 
+  { delay: 10.5, x: '76%', size: 6,  duration: 10, color: 'rgba(156,182,249,0.4)' }, 
 ];
 
 const FEATURES = [
@@ -124,21 +124,21 @@ export default function IdleScreen() {
   const current = showcaseFilters[showcaseIndex]!;
 
   return (
-    <div className="relative min-h-screen overflow-hidden select-none flex flex-col" style={{ background: '#0c0a09' }}>
+    <div className="relative min-h-screen overflow-hidden select-none flex flex-col" style={{ background: '#030611' }}>
 
       {/* ── Animated film grain ── */}
       <div
         className="absolute inset-0 pointer-events-none z-0"
         style={{
-          backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E\")",
+          backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E\")",
           opacity: 0.45, animation: 'grain-shift 0.5s steps(1) infinite',
         }}
       />
 
       {/* ── Depth gradients ── */}
-      <div className="absolute inset-0 pointer-events-none z-0" style={{ background: 'radial-gradient(ellipse 80% 60% at 65% 40%, rgba(200,121,65,0.08) 0%, transparent 65%)' }} />
-      <div className="absolute inset-0 pointer-events-none z-0" style={{ background: 'radial-gradient(ellipse 50% 50% at 15% 85%, rgba(78,203,158,0.05) 0%, transparent 60%)' }} />
-      <div className="absolute inset-0 pointer-events-none z-0" style={{ background: 'radial-gradient(ellipse 40% 30% at 90% 5%, rgba(138,111,240,0.04) 0%, transparent 60%)' }} />
+      <div className="absolute inset-0 pointer-events-none z-0" style={{ background: 'radial-gradient(ellipse 80% 60% at 65% 40%, rgba(43,92,246,0.07) 0%, transparent 65%)' }} />
+      <div className="absolute inset-0 pointer-events-none z-0" style={{ background: 'radial-gradient(ellipse 50% 50% at 15% 85%, rgba(45,212,191,0.05) 0%, transparent 60%)' }} />
+      <div className="absolute inset-0 pointer-events-none z-0" style={{ background: 'radial-gradient(ellipse 40% 30% at 90% 5%, rgba(156,182,249,0.04) 0%, transparent 60%)' }} />
 
       {/* ── Floating orbs ── */}
       <div className="absolute inset-0 pointer-events-none z-0">
@@ -157,7 +157,7 @@ export default function IdleScreen() {
         className="absolute pointer-events-none z-0"
         style={{
           top: 0, left: '55%', width: 1, height: '100%',
-          background: 'linear-gradient(to bottom, transparent, rgba(200,121,65,0.08) 30%, rgba(200,121,65,0.12) 60%, transparent)',
+          background: 'linear-gradient(to bottom, transparent, rgba(43,92,246,0.08) 30%, rgba(43,92,246,0.12) 60%, transparent)',
           transform: 'skewX(-12deg)',
         }}
       />
@@ -165,23 +165,23 @@ export default function IdleScreen() {
       {/* ── Top bar ── */}
       <div
         className="relative z-20 flex items-center px-6 lg:px-12 py-4 gap-4"
-        style={{ background: 'rgba(12,10,9,0.80)', backdropFilter: 'blur(20px) saturate(160%)', borderBottom: '1px solid rgba(200,121,65,0.1)' }}
+        style={{ background: 'rgba(3,6,17,0.85)', backdropFilter: 'blur(20px) saturate(160%)', borderBottom: '1px solid rgba(43,92,246,0.1)' }}
       >
         {/* Brand wordmark — geometric */}
         <motion.div
           initial={{ opacity: 0, x: -12 }} animate={{ opacity: 1, x: 0 }}
           className="flex items-center gap-3"
         >
-          <div style={{ width: 32, height: 32, background: '#c87941', clipPath: 'polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <Camera className="w-4 h-4 text-[#0c0a09]" />
+          <div style={{ width: 32, height: 32, background: 'var(--copper)', clipPath: 'polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <Camera className="w-4 h-4 text-white" />
           </div>
           <div>
-            <span className="font-display font-black text-base tracking-wider text-[#f0ebe3] uppercase leading-none" style={{ letterSpacing: '0.14em' }}>
-              AI<span className="text-[#c87941]">.</span>Booth
+            <span className="font-display font-black text-base tracking-wider text-[#f1f4fb] uppercase leading-none" style={{ letterSpacing: '0.14em' }}>
+              AI<span className="text-var(--copper)">.</span>Booth
             </span>
             <div className="flex items-center gap-1 mt-0.5">
-              <div className="w-1.5 h-1.5 rounded-full" style={{ background: '#4ecb9e' }} />
-              <span className="text-[8px] tracking-[0.3em] text-[#4ecb9e] uppercase font-body">Live</span>
+              <div className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: '#2dd4bf' }} />
+              <span className="text-[8px] tracking-[0.3em] text-[#2dd4bf] uppercase font-body">Live</span>
             </div>
           </div>
         </motion.div>
@@ -192,13 +192,13 @@ export default function IdleScreen() {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }} className="flex items-center gap-3">
           <button
             onClick={() => setLanguage(language === 'id' ? 'en' : 'id')}
-            className="text-[9px] font-bold tracking-[0.25em] text-[#7a7168] hover:text-[#c87941] uppercase tap-none px-2 py-1 border border-transparent hover:border-[#c87941]/30 transition-all"
+            className="text-[9px] font-bold tracking-[0.25em] text-[#7687a1] hover:text-var(--copper) uppercase tap-none px-2.5 py-1 border border-transparent hover:border-[#2b5cf6]/30 transition-all font-body"
           >
             {language === 'id' ? 'EN' : 'ID'}
           </button>
           <button
             onClick={handleAdminClick}
-            className="w-8 h-8 flex items-center justify-center text-[#7a7168] hover:text-[#c87941] tap-none"
+            className="w-8 h-8 flex items-center justify-center text-[#7687a1] hover:text-var(--copper) tap-none"
           >
             <Settings className="w-4 h-4" />
           </button>
@@ -214,11 +214,11 @@ export default function IdleScreen() {
           {/* Issue-style label with animated dash */}
           <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.05 }} className="flex items-center gap-3 mb-5">
             <motion.div
-              className="h-px bg-[#c87941]"
+              className="h-px bg-var(--copper)"
               initial={{ width: 0 }} animate={{ width: 32 }}
               transition={{ delay: 0.2, duration: 0.6 }}
             />
-            <span className="text-[9px] font-bold tracking-[0.4em] text-[#c87941] uppercase">
+            <span className="text-[9px] font-bold tracking-[0.4em] text-var(--copper) uppercase">
               {t('Powered by Gemini AI', 'Powered by Gemini AI')}
             </span>
           </motion.div>
@@ -228,7 +228,7 @@ export default function IdleScreen() {
             <motion.h1
               initial={{ y: '100%' }} animate={{ y: 0 }}
               transition={{ delay: 0.1, duration: 0.7, ease: [0.33, 1, 0.68, 1] }}
-              className="font-display font-black leading-[0.88] text-[#f0ebe3]"
+              className="font-display font-black leading-[0.88] text-[#f1f4fb]"
               style={{ fontSize: 'clamp(2.8rem, 9vw, 5.5rem)' }}
             >
               Capture
@@ -238,8 +238,8 @@ export default function IdleScreen() {
             <motion.h1
               initial={{ y: '100%' }} animate={{ y: 0 }}
               transition={{ delay: 0.15, duration: 0.7, ease: [0.33, 1, 0.68, 1] }}
-              className="font-display font-black italic leading-[0.88]"
-              style={{ fontSize: 'clamp(2.8rem, 9vw, 5.5rem)', color: '#c87941' }}
+              className="font-display font-black italic leading-[0.88] text-gradient-copper"
+              style={{ fontSize: 'clamp(2.8rem, 9vw, 5.5rem)' }}
             >
               {t('Momen', 'Moments')}
             </motion.h1>
@@ -248,7 +248,7 @@ export default function IdleScreen() {
             <motion.h1
               initial={{ y: '100%' }} animate={{ y: 0 }}
               transition={{ delay: 0.2, duration: 0.7, ease: [0.33, 1, 0.68, 1] }}
-              className="font-display font-black leading-[0.88] text-[#f0ebe3]"
+              className="font-display font-black leading-[0.88] text-[#f1f4fb]"
               style={{ fontSize: 'clamp(2.8rem, 9vw, 5.5rem)' }}
             >
               With AI
@@ -258,7 +258,7 @@ export default function IdleScreen() {
           {/* Sub copy */}
           <motion.p
             initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.35 }}
-            className="text-[#7a7168] text-sm leading-relaxed max-w-[32ch] font-body mb-7"
+            className="text-[#7687a1] text-sm leading-relaxed max-w-[32ch] font-body mb-7"
           >
             {t(
               'Abadikan momen dengan 8+ filter AI eksklusif — hasilkan foto grid premium berkualitas tinggi.',
@@ -273,10 +273,10 @@ export default function IdleScreen() {
           >
             {FEATURES.map(({ label, sub, glyph }) => (
               <div key={label} className="flex items-start gap-2.5">
-                <span className="text-[#c87941] text-base mt-0.5 font-mono">{glyph}</span>
+                <span className="text-var(--copper) text-base mt-0.5 font-mono">{glyph}</span>
                 <div>
-                  <p className="text-[11px] font-bold text-[#f0ebe3] tracking-wide uppercase">{label}</p>
-                  <p className="text-[9px] text-[#7a7168] tracking-wider uppercase">{sub}</p>
+                  <p className="text-[11px] font-bold text-[#f1f4fb] tracking-wide uppercase font-body">{label}</p>
+                  <p className="text-[9px] text-[#7687a1] tracking-wider uppercase font-body">{sub}</p>
                 </div>
               </div>
             ))}
@@ -296,7 +296,7 @@ export default function IdleScreen() {
               animate={{ opacity: [0.4, 1, 0.4] }}
               transition={{ duration: 2.8, repeat: Infinity, ease: 'easeInOut' }}
             >
-              <p className="text-[9px] tracking-[0.35em] text-[#7a7168] uppercase font-body leading-none">
+              <p className="text-[9px] tracking-[0.35em] text-[#7687a1] uppercase font-body leading-none">
                 {t('Ketuk', 'Tap to')}<br />
                 {t('untuk mulai', 'begin')}
               </p>
@@ -311,7 +311,7 @@ export default function IdleScreen() {
             className="relative w-full max-w-[300px] md:max-w-[340px]"
           >
             {/* Left edge accent */}
-            <div className="absolute left-0 top-6 bottom-6 w-0.5" style={{ background: 'linear-gradient(to bottom, transparent, #c87941 30%, #c87941 70%, transparent)' }} />
+            <div className="absolute left-0 top-6 bottom-6 w-0.5" style={{ background: 'linear-gradient(to bottom, transparent, var(--copper) 30%, var(--copper) 70%, transparent)' }} />
 
             {/* Main frame — sharp geometric, not a card */}
             <div
@@ -320,8 +320,8 @@ export default function IdleScreen() {
               onMouseLeave={() => setFilterHovered(false)}
               style={{
                 aspectRatio: '3/4',
-                background: '#151210',
-                border: '1px solid rgba(200,121,65,0.15)',
+                background: '#0a0e1c',
+                border: '1px solid rgba(43,92,246,0.18)',
                 clipPath: 'polygon(0 0, calc(100% - 22px) 0, 100% 22px, 100% 100%, 0 100%)',
               }}
             >
@@ -339,19 +339,19 @@ export default function IdleScreen() {
                     className="w-full h-full object-cover"
                     style={{ filter: filterHovered ? current.filterCSS : 'none', transition: 'filter 0.6s ease' }}
                   />
-                  {/* Directional gradient — not generic overlay */}
-                  <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(12,10,9,0.92) 0%, rgba(12,10,9,0.2) 50%, transparent 70%)' }} />
-                  <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(12,10,9,0.3) 0%, transparent 40%)' }} />
+                  {/* Directional gradient ── Obsidian Ink base */}
+                  <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(3,6,17,0.92) 0%, rgba(3,6,17,0.2) 50%, transparent 70%)' }} />
+                  <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(3,6,17,0.3) 0%, transparent 40%)' }} />
                 </motion.div>
               </AnimatePresence>
 
               {/* HUD overlay — top */}
               <div className="absolute top-0 left-0 right-0 p-3 flex items-center justify-between">
                 <div className="flex items-center gap-1">
-                  <div className="w-1.5 h-1.5 rounded-full" style={{ background: '#4ecb9e' }} />
-                  <span className="text-[8px] font-bold tracking-[0.25em] text-[#7a7168] uppercase font-body">AI Preview</span>
+                  <div className="w-1.5 h-1.5 rounded-full" style={{ background: '#2dd4bf' }} />
+                  <span className="text-[8px] font-bold tracking-[0.25em] text-[#7687a1] uppercase font-body">AI Preview</span>
                 </div>
-                <span className="text-[8px] font-mono text-[#2c2822]">{String(showcaseIndex + 1).padStart(2, '0')}/{String(showcaseFilters.length).padStart(2, '0')}</span>
+                <span className="text-[8px] font-mono text-var(--edge)">{String(showcaseIndex + 1).padStart(2, '0')}/{String(showcaseFilters.length).padStart(2, '0')}</span>
               </div>
 
               {/* Bottom info — left aligned */}
@@ -361,10 +361,10 @@ export default function IdleScreen() {
                     <span className="text-[9px] font-bold tracking-[0.35em] uppercase mb-2 block" style={{ color: current.accentHex }}>
                       {current.tag}
                     </span>
-                    <p className="font-display font-bold text-2xl text-[#f0ebe3] leading-tight">
+                    <p className="font-display font-bold text-2xl text-[#f1f4fb] leading-tight">
                       {current.name}
                     </p>
-                    <p className="text-[9px] text-[#7a7168] mt-1 font-body tracking-wider">
+                    <p className="text-[9px] text-[#7687a1] mt-1 font-body tracking-wider">
                       {filterHovered ? t('Filter aktif', 'Filter active') : t('Hover untuk preview', 'Hover to preview')}
                     </p>
                   </motion.div>
@@ -372,18 +372,18 @@ export default function IdleScreen() {
               </div>
 
               {/* Angled corner cut */}
-              <div className="absolute top-0 right-0 w-0 h-0" style={{ borderLeft: '22px solid transparent', borderTop: '22px solid #c87941' }} />
+              <div className="absolute top-0 right-0 w-0 h-0" style={{ borderLeft: '22px solid transparent', borderTop: '22px solid var(--copper)' }} />
 
               {/* Scan line effect */}
               <motion.div
                 className="absolute left-0 right-0 h-px pointer-events-none"
-                style={{ background: 'rgba(200,121,65,0.15)' }}
+                style={{ background: 'rgba(43,92,246,0.15)' }}
                 animate={{ top: ['0%', '100%'] }}
                 transition={{ duration: 3.5, repeat: Infinity, ease: 'linear' }}
               />
             </div>
 
-            {/* Progress — line segments, not dots */}
+            {/* Progress — line segments */}
             <div className="flex gap-1.5 mt-4 ml-4">
               {showcaseFilters.map((f, i) => (
                 <button
@@ -393,7 +393,7 @@ export default function IdleScreen() {
                   style={{
                     height: 2,
                     width: i === showcaseIndex ? 28 : 8,
-                    background: i === showcaseIndex ? current.accentHex : 'rgba(200,121,65,0.18)',
+                    background: i === showcaseIndex ? current.accentHex : 'rgba(43,92,246,0.18)',
                     transition: 'width 320ms cubic-bezier(0.33, 1, 0.68, 1), background 320ms',
                   }}
                 />
@@ -413,9 +413,9 @@ export default function IdleScreen() {
                     fontWeight: 700,
                     letterSpacing: '0.2em',
                     textTransform: 'uppercase',
-                    color: i === showcaseIndex ? '#0c0a09' : '#7a7168',
+                    color: i === showcaseIndex ? '#030611' : '#7687a1',
                     background: i === showcaseIndex ? current.accentHex : 'transparent',
-                    border: `1px solid ${i === showcaseIndex ? current.accentHex : 'rgba(44,40,34,0.6)'}`,
+                    border: `1px solid ${i === showcaseIndex ? current.accentHex : 'rgba(29,39,64,0.6)'}`,
                     transition: 'all 280ms cubic-bezier(0.33, 1, 0.68, 1)',
                   }}
                 >
@@ -430,17 +430,17 @@ export default function IdleScreen() {
       {/* ── Bottom strip ── */}
       <div className="relative z-10 px-6 lg:px-12 pb-5 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="h-px w-6" style={{ background: 'rgba(200,121,65,0.3)' }} />
-          <span className="text-[8px] tracking-[0.4em] text-[#2c2822] uppercase font-body">Booth Canvas Studio</span>
+          <div className="h-px w-6" style={{ background: 'rgba(43,92,246,0.3)' }} />
+          <span className="text-[8px] tracking-[0.4em] text-[#1d2740] uppercase font-body">Booth Canvas Studio</span>
         </div>
         <div className="flex items-center gap-2">
-          <div className="w-1.5 h-1.5 rounded-full" style={{ background: '#4ecb9e' }} />
-          <span className="text-[8px] tracking-[0.3em] text-[#2c2822] uppercase font-body">System Online</span>
+          <div className="w-1.5 h-1.5 rounded-full" style={{ background: '#2dd4bf' }} />
+          <span className="text-[8px] tracking-[0.3em] text-[#1d2740] uppercase font-body">System Online</span>
         </div>
       </div>
 
       {/* Bottom edge gradient */}
-      <div className="absolute bottom-0 left-0 right-0 h-px" style={{ background: 'linear-gradient(to right, transparent, rgba(200,121,65,0.3), transparent)' }} />
+      <div className="absolute bottom-0 left-0 right-0 h-px" style={{ background: 'linear-gradient(to right, transparent, rgba(43,92,246,0.3), transparent)' }} />
     </div>
   );
 }

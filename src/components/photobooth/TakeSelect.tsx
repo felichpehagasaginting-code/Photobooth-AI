@@ -9,9 +9,9 @@ import { TAKE_OPTIONS, type TakeCount } from '@/types';
 interface OptionMeta { subtitle: string; tag: string; accent: string; desc: string; icon: string; }
 
 const FRAME_META: Record<TakeCount, OptionMeta> = {
-  2: { subtitle: 'Photostrip',   tag: 'MINIMAL',  accent: '#4ecb9e', desc: 'Foto vertikal klasik — cepat dan elegan.', icon: '▬' },
-  4: { subtitle: 'Classic Grid', tag: '★ POPULER', accent: '#c87941', desc: 'Format 2×2 ikonik, paling banyak dipilih.', icon: '▪' },
-  6: { subtitle: 'Story Pack',   tag: 'LENGKAP',  accent: '#e8a02a', desc: 'Enam foto untuk cerita yang lebih kaya.', icon: '▤' },
+  2: { subtitle: 'Photostrip',   tag: 'MINIMAL',  accent: '#2dd4bf', desc: 'Foto vertikal klasik — cepat dan elegan.', icon: '▬' }, // turquoise
+  4: { subtitle: 'Classic Grid', tag: '★ POPULER', accent: '#2b5cf6', desc: 'Format 2×2 ikonik, paling banyak dipilih.', icon: '▪' }, // cobalt
+  6: { subtitle: 'Story Pack',   tag: 'LENGKAP',  accent: '#9cb6f9', desc: 'Enam foto untuk cerita yang lebih kaya.', icon: '▤' }, // sapphire
 };
 
 /* ── Animated grid sketch preview ── */
@@ -29,8 +29,8 @@ function GridSketch({ count, accent, isActive }: { count: TakeCount; accent: str
         <motion.div
           key={i}
           style={{
-            background: isActive ? `${accent}25` : 'rgba(200,121,65,0.10)',
-            border: `1px solid ${isActive ? `${accent}50` : 'rgba(200,121,65,0.12)'}`,
+            background: isActive ? `${accent}25` : 'rgba(43,92,246,0.06)',
+            border: `1px solid ${isActive ? `${accent}50` : 'rgba(43,92,246,0.12)'}`,
           }}
           animate={{ opacity: isActive ? [0.7, 1, 0.7] : 1 }}
           transition={{ duration: 2, repeat: Infinity, delay: i * 0.3 }}
@@ -62,14 +62,14 @@ export default function TakeSelect() {
   const selectedMeta = FRAME_META[selected];
 
   return (
-    <div className="relative min-h-screen overflow-hidden select-none flex flex-col" style={{ background: '#0c0a09' }}>
+    <div className="relative min-h-screen overflow-hidden select-none flex flex-col" style={{ background: '#030611' }}>
 
       {/* Film grain */}
       <div className="absolute inset-0 pointer-events-none z-0"
-        style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E\")", opacity: 0.4 }}
+        style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E\")", opacity: 0.4 }}
       />
 
-      {/* Warm radial accent */}
+      {/* Cool radial accent */}
       <motion.div
         className="absolute inset-0 pointer-events-none z-0"
         animate={{ opacity: [0.6, 1, 0.6] }}
@@ -79,25 +79,25 @@ export default function TakeSelect() {
 
       {/* ── Navbar ── */}
       <div className="relative z-20 flex items-center gap-3 px-6 lg:px-12 py-4"
-        style={{ background: 'rgba(12,10,9,0.82)', backdropFilter: 'blur(18px)', borderBottom: '1px solid rgba(200,121,65,0.1)' }}
+        style={{ background: 'rgba(3,6,17,0.85)', backdropFilter: 'blur(18px)', borderBottom: '1px solid rgba(43,92,246,0.1)' }}
       >
         <button
           onClick={() => setStep('idle')}
-          className="w-9 h-9 flex items-center justify-center text-[#7a7168] hover:text-[#c87941] tap-none press"
+          className="w-9 h-9 flex items-center justify-center text-[#7687a1] hover:text-var(--copper) tap-none press"
         >
           <ArrowLeft className="w-5 h-5" />
         </button>
 
-        <div className="h-4 w-px" style={{ background: 'rgba(44,40,34,0.8)' }} />
+        <div className="h-4 w-px" style={{ background: 'rgba(29,39,64,0.8)' }} />
 
         <div className="flex items-center gap-2">
-          <div className="h-px w-4 bg-[#c87941]" />
-          <span className="text-[9px] font-bold tracking-[0.35em] text-[#c87941] uppercase font-body">Format Foto</span>
+          <div className="h-px w-4 bg-var(--copper)" />
+          <span className="text-[9px] font-bold tracking-[0.35em] text-var(--copper) uppercase font-body">Format Foto</span>
         </div>
 
         <div className="flex-1" />
 
-        <div className="text-[8px] font-bold tracking-[0.3em] text-[#c87941] uppercase border border-[#c87941]/30 px-2 py-0.5 font-body">
+        <div className="text-[8px] font-bold tracking-[0.35em] text-var(--copper) uppercase border border-[#2b5cf6]/30 px-2 py-0.5 font-body">
           STEP 1 / 4
         </div>
       </div>
@@ -107,10 +107,10 @@ export default function TakeSelect() {
 
         {/* Header */}
         <motion.div initial={{ opacity: 0, y: -16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.08 }}>
-          <h1 className="font-display font-black leading-[0.9] text-[#f0ebe3]" style={{ fontSize: 'clamp(2.2rem, 6vw, 3.5rem)' }}>
-            Pilih <span className="italic text-[#c87941]">Format</span>
+          <h1 className="font-display font-black leading-[0.9] text-[#f1f4fb]" style={{ fontSize: 'clamp(2.2rem, 6vw, 3.5rem)' }}>
+            Pilih <span className="italic text-gradient-copper">Format</span>
           </h1>
-          <p className="mt-2 text-[#7a7168] text-sm font-body leading-relaxed">
+          <p className="mt-2 text-[#7687a1] text-sm font-body leading-relaxed">
             Berapa momen yang ingin kamu abadikan hari ini?
           </p>
         </motion.div>
@@ -150,7 +150,7 @@ export default function TakeSelect() {
                     <motion.div
                       initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}
                       className="mb-2 px-2 py-0.5 text-[8px] font-bold tracking-[0.3em] uppercase font-body"
-                      style={{ background: meta.accent, color: '#0c0a09' }}
+                      style={{ background: meta.accent, color: '#030611' }}
                     >
                       {meta.tag}
                     </motion.div>
@@ -159,11 +159,11 @@ export default function TakeSelect() {
                   {/* Card */}
                   <motion.div
                     animate={{
-                      borderColor: isSelected ? `${meta.accent}90` : isHovered ? `${meta.accent}35` : 'rgba(44,40,34,0.7)',
+                      borderColor: isSelected ? `${meta.accent}90` : isHovered ? `${meta.accent}35` : 'rgba(29,39,64,0.7)',
                       boxShadow: isSelected
                         ? `0 0 0 1px ${meta.accent}40, 0 8px 40px ${meta.accent}25, inset 0 0 24px ${meta.accent}08`
                         : '0 4px 16px rgba(0,0,0,0.5)',
-                      background: isSelected ? `rgba(200,121,65,0.04)` : '#151210',
+                      background: isSelected ? `rgba(43,92,246,0.03)` : '#0a0e1c',
                     }}
                     transition={{ duration: 0.28 }}
                     className="w-full overflow-hidden"
@@ -174,8 +174,8 @@ export default function TakeSelect() {
 
                   {/* Label */}
                   <div className="mt-3 text-center">
-                    <p className="text-[#f0ebe3] font-body font-bold text-sm">{count}× Foto</p>
-                    <p className="text-[#7a7168] text-[9px] mt-0.5 font-body tracking-wider uppercase">{meta.subtitle}</p>
+                    <p className="text-[#f1f4fb] font-body font-bold text-sm">{count}× Foto</p>
+                    <p className="text-[#7687a1] text-[9px] mt-0.5 font-body tracking-wider uppercase">{meta.subtitle}</p>
                   </div>
 
                   {/* Selected indicator */}
@@ -189,7 +189,7 @@ export default function TakeSelect() {
                         className="absolute -top-2 -right-2 w-6 h-6 flex items-center justify-center"
                         style={{ background: meta.accent, clipPath: 'polygon(0 0, calc(100% - 5px) 0, 100% 5px, 100% 100%, 0 100%)' }}
                       >
-                        <Check className="w-3 h-3 text-[#0c0a09]" strokeWidth={3} />
+                        <Check className="w-3 h-3 text-[#030611]" strokeWidth={3} />
                       </motion.div>
                     )}
                   </AnimatePresence>
@@ -215,10 +215,10 @@ export default function TakeSelect() {
                     {selectedMeta.tag}
                   </span>
                 </div>
-                <h2 className="font-display font-black text-[#f0ebe3] leading-tight" style={{ fontSize: 'clamp(1.8rem, 4vw, 2.8rem)' }}>
+                <h2 className="font-display font-black text-[#f1f4fb] leading-tight" style={{ fontSize: 'clamp(1.8rem, 4vw, 2.8rem)' }}>
                   {selected}× <span style={{ color: selectedMeta.accent }}>Frame</span>
                 </h2>
-                <p className="text-[13px] text-[#7a7168] font-body leading-relaxed mt-2 max-w-[28ch]">
+                <p className="text-[13px] text-[#7687a1] font-body leading-relaxed mt-2 max-w-[28ch]">
                   {selectedMeta.desc}
                 </p>
               </div>
@@ -231,10 +231,10 @@ export default function TakeSelect() {
                   { label: 'Format Output', value: 'Photo Grid HD' },
                 ].map(spec => (
                   <div key={spec.label} className="flex items-center justify-between py-2"
-                    style={{ borderBottom: '1px solid rgba(44,40,34,0.6)' }}
+                    style={{ borderBottom: '1px solid rgba(29,39,64,0.6)' }}
                   >
-                    <span className="text-[10px] tracking-[0.15em] text-[#7a7168] uppercase font-body">{spec.label}</span>
-                    <span className="text-[11px] font-bold text-[#f0ebe3] font-body">{spec.value}</span>
+                    <span className="text-[10px] tracking-[0.15em] text-[#7687a1] uppercase font-body">{spec.label}</span>
+                    <span className="text-[11px] font-bold text-[#f1f4fb] font-body">{spec.value}</span>
                   </div>
                 ))}
               </div>
@@ -246,19 +246,22 @@ export default function TakeSelect() {
                 whileTap={{ scale: 0.96 }}
                 className="btn-solid h-14 px-8 text-sm font-body press tap-none flex items-center justify-center gap-3 disabled:opacity-60"
                 style={{
-                  background: selectedMeta.accent === '#c87941' ? undefined : selectedMeta.accent,
-                  color: '#0c0a09',
+                  background: selectedMeta.accent,
+                  color: '#030611',
                 }}
               >
                 {confirmed ? (
                   <>
-                    <motion.div animate={{ rotate: 360 }} transition={{ duration: 0.8, repeat: Infinity, ease: 'linear' }} className="w-4 h-4 border-2 border-[#0c0a09]/40 border-t-[#0c0a09] rounded-full" />
-                    Mempersiapkan kamera…
+                    <svg className="animate-spin h-4 w-4 text-[#030611]" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                    </svg>
+                    <span>MEMPROSES...</span>
                   </>
                 ) : (
                   <>
+                    <span>MULAI STUDIO</span>
                     <ChevronRight className="w-4 h-4" />
-                    Mulai dengan {selected} Foto
                   </>
                 )}
               </motion.button>

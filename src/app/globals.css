@@ -45,53 +45,54 @@
 :root {
   --radius: 0.5rem;
 
-  /* Warm true-dark — not default #121212 or navy */
-  --background:    #0c0a09;
-  --surface:       #151210;
-  --surface-raised:#1d1a17;
-  --edge:          #2c2822;
-  --foreground:    #f0ebe3;
-  --ink:           #7a7168;
+  /* Premium Obsidian Ink - deepest dark slate blue-black */
+  --background:    #030611;
+  --surface:       #0a0e1c;
+  --surface-raised:#11162b;
+  --edge:          #1d2740;
+  --foreground:    #f1f4fb;
+  --ink:           #7687a1;
 
-  /* Brand: copper warmth + amber punch */
-  --copper:  #c87941;
-  --amber:   #e8a02a;
-  --mint:    #4ecb9e;
+  /* Brand: cobalt blue + metallic ice-sapphire */
+  --copper:  #2b5cf6;
+  --amber:   #9cb6f9;
+  --mint:    #2dd4bf;
+  --gold:    #d4b483; /* Luxurious Champagne Gold highlight */
 
   /* shadcn compat mapping */
-  --card:                #151210;
-  --card-foreground:     #f0ebe3;
-  --popover:             #1d1a17;
-  --popover-foreground:  #f0ebe3;
-  --primary:             #c87941;
-  --primary-foreground:  #0c0a09;
-  --secondary:           #2c2822;
-  --secondary-foreground:#f0ebe3;
-  --muted:               #1d1a17;
-  --muted-foreground:    #7a7168;
-  --accent:              #e8a02a;
-  --accent-foreground:   #0c0a09;
-  --destructive:         #d94040;
-  --border:              #2c2822;
-  --input:               #2c2822;
-  --ring:                #c87941;
+  --card:                #0a0e1c;
+  --card-foreground:     #f1f4fb;
+  --popover:             #11162b;
+  --popover-foreground:  #f1f4fb;
+  --primary:             #2b5cf6;
+  --primary-foreground:  #f1f4fb;
+  --secondary:           #1d2740;
+  --secondary-foreground:#f1f4fb;
+  --muted:               #11162b;
+  --muted-foreground:    #7687a1;
+  --accent:              #9cb6f9;
+  --accent-foreground:   #030611;
+  --destructive:         #ff4a4a;
+  --border:              #1d2740;
+  --input:               #1d2740;
+  --ring:                #2b5cf6;
 
   /* sidebar */
-  --sidebar:                   #0c0a09;
-  --sidebar-foreground:        #f0ebe3;
-  --sidebar-primary:           #c87941;
-  --sidebar-primary-foreground:#0c0a09;
-  --sidebar-accent:            #151210;
-  --sidebar-accent-foreground: #f0ebe3;
-  --sidebar-border:            #2c2822;
-  --sidebar-ring:              #c87941;
+  --sidebar:                   #030611;
+  --sidebar-foreground:        #f1f4fb;
+  --sidebar-primary:           #2b5cf6;
+  --sidebar-primary-foreground:#030611;
+  --sidebar-accent:            #0a0e1c;
+  --sidebar-accent-foreground: #f1f4fb;
+  --sidebar-border:            #1d2740;
+  --sidebar-ring:              #2b5cf6;
 
   /* chart */
-  --chart-1: #c87941;
-  --chart-2: #e8a02a;
-  --chart-3: #4ecb9e;
-  --chart-4: #d94040;
-  --chart-5: #8a6ff0;
+  --chart-1: #2b5cf6;
+  --chart-2: #9cb6f9;
+  --chart-3: #2dd4bf;
+  --chart-4: #ff4a4a;
+  --chart-5: #d4b483;
 }
 
 /* ── Base ────────────────────────────────────────────────────────────── */
@@ -150,10 +151,10 @@
   }
   /* Intentional glass — used sparingly */
   .glass-intentional {
-    background: rgba(21, 18, 16, 0.72);
+    background: rgba(10, 14, 28, 0.72);
     backdrop-filter: blur(18px) saturate(160%);
     -webkit-backdrop-filter: blur(18px) saturate(160%);
-    border: 1px solid rgba(200, 121, 65, 0.12);
+    border: 1px solid rgba(43, 92, 246, 0.12);
   }
 
   /* ── Shadows with personality ── */
@@ -164,39 +165,39 @@
       0 16px 40px rgba(0,0,0,0.35);
   }
   .shadow-hard {
-    box-shadow: 3px 3px 0 rgba(200, 121, 65, 0.5);
+    box-shadow: 3px 3px 0 rgba(43, 92, 246, 0.5);
   }
   .shadow-copper {
     box-shadow:
-      0 0 18px rgba(200, 121, 65, 0.22),
-      0 0 48px rgba(200, 121, 65, 0.08);
+      0 0 18px rgba(43, 92, 246, 0.22),
+      0 0 48px rgba(43, 92, 246, 0.08);
   }
   .shadow-amber {
     box-shadow:
-      0 0 18px rgba(232, 160, 42, 0.25),
-      0 0 48px rgba(232, 160, 42, 0.08);
+      0 0 18px rgba(156, 182, 249, 0.25),
+      0 0 48px rgba(156, 182, 249, 0.08);
   }
   .shadow-mint {
     box-shadow:
-      0 0 18px rgba(78, 203, 158, 0.2),
-      0 0 48px rgba(78, 203, 158, 0.06);
+      0 0 18px rgba(45, 212, 191, 0.2),
+      0 0 48px rgba(45, 212, 191, 0.06);
   }
 
   /* ── Gradient text ── */
   .text-gradient-copper {
-    background: linear-gradient(135deg, #e8a02a, #c87941);
+    background: linear-gradient(135deg, #9cb6f9, #2b5cf6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   .text-gradient-warm {
-    background: linear-gradient(135deg, #f0ebe3, #c87941);
+    background: linear-gradient(135deg, #f1f4fb, #2b5cf6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   .text-gradient-mint {
-    background: linear-gradient(135deg, #4ecb9e, #2da876);
+    background: linear-gradient(135deg, #2dd4bf, #0f9f8c);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -225,18 +226,18 @@
   .btn-editorial:hover {
     background: var(--copper);
     color: var(--background);
-    box-shadow: 4px 4px 0 rgba(200, 121, 65, 0.35);
+    box-shadow: 4px 4px 0 rgba(43, 92, 246, 0.35);
   }
   .btn-editorial:active {
     transform: translate(2px, 2px);
-    box-shadow: 2px 2px 0 rgba(200, 121, 65, 0.35);
+    box-shadow: 2px 2px 0 rgba(43, 92, 246, 0.35);
   }
 
   .btn-solid {
     position: relative;
     overflow: hidden;
     background: var(--copper);
-    color: var(--background);
+    color: var(--foreground);
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -306,7 +307,7 @@
     inset: -1px;
     border-radius: inherit;
     padding: 1px;
-    background: conic-gradient(from var(--border-angle, 0deg), #c87941, #e8a02a, #4ecb9e, #c87941);
+    background: conic-gradient(from var(--border-angle, 0deg), var(--copper), var(--amber), var(--mint), var(--copper));
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;

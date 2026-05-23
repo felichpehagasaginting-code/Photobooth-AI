@@ -53,19 +53,19 @@ const config: Config = {
   				'5': 'var(--chart-5)'
   			},
   			/* Semantic brand tokens */
-  			copper: '#c87941',
-  			amber: '#e8a02a',
-  			mint: '#4ecb9e',
-  			edge: '#2c2822',
-  			surface: '#151210',
-  			'surface-raised': '#1d1a17',
+  			copper: 'var(--copper)',
+  			amber: 'var(--amber)',
+  			mint: 'var(--mint)',
+  			edge: 'var(--edge)',
+  			surface: 'var(--surface)',
+  			'surface-raised': 'var(--surface-raised)',
   			/* Legacy kept for gradual migration */
   			premium: {
-  				pink: '#c87941',
-  				cyan: '#4ecb9e',
-  				gold: '#e8a02a',
+  				pink: 'var(--copper)',
+  				cyan: 'var(--mint)',
+  				gold: 'var(--amber)',
   				purple: '#8a6ff0',
-  				orange: '#c87941',
+  				orange: 'var(--copper)',
   			}
   		},
   		borderRadius: {

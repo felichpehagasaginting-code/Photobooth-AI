@@ -26,21 +26,21 @@ function PadKey({
 
   const styles: Record<string, React.CSSProperties> = {
     digit: {
-      background: '#1d1a17',
-      border: '1px solid #2c2822',
-      color: '#f0ebe3',
+      background: '#0a0e1c',
+      border: '1px solid rgba(29,39,64,0.8)',
+      color: '#f1f4fb',
       fontSize: '1.35rem',
     },
     action: {
       background: 'transparent',
-      border: '1px solid rgba(44,40,34,0.6)',
-      color: '#7a7168',
+      border: '1px solid rgba(29,39,64,0.6)',
+      color: '#7687a1',
       fontSize: '0.9rem',
     },
     confirm: {
-      background: disabled ? '#1d1a17' : '#c87941',
-      border: disabled ? '1px solid rgba(44,40,34,0.5)' : '1px solid #c87941',
-      color: disabled ? '#2c2822' : '#0c0a09',
+      background: disabled ? '#0a0e1c' : 'var(--copper)',
+      border: disabled ? '1px solid rgba(29,39,64,0.5)' : '1px solid var(--copper)',
+      color: disabled ? '#1d2740' : '#030611',
       fontSize: '1rem',
       cursor: disabled ? 'not-allowed' : 'pointer',
     },
@@ -106,13 +106,13 @@ export default function AdminLogin() {
   return (
     <div
       className="min-h-screen flex items-center justify-center relative overflow-hidden"
-      style={{ background: '#0c0a09' }}
+      style={{ background: '#030611' }}
     >
       {/* Film grain */}
-      <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E\")", opacity: 0.5 }} />
+      <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E\")", opacity: 0.5 }} />
 
-      {/* Warm radial */}
-      <div className="absolute inset-0 pointer-events-none" style={{ background: 'radial-gradient(ellipse 55% 45% at 50% 40%, rgba(200,121,65,0.06) 0%, transparent 70%)' }} />
+      {/* Cool radial */}
+      <div className="absolute inset-0 pointer-events-none" style={{ background: 'radial-gradient(ellipse 55% 45% at 50% 40%, rgba(43,92,246,0.06) 0%, transparent 70%)' }} />
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -123,18 +123,18 @@ export default function AdminLogin() {
         {/* Header — left-aligned editorial */}
         <div className="mb-6 px-1">
           <div className="flex items-center gap-2 mb-3">
-            <div style={{ width: 26, height: 26, background: '#c87941', clipPath: 'polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 0 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#0c0a09" strokeWidth="2.5" strokeLinecap="square">
+            <div style={{ width: 26, height: 26, background: 'var(--copper)', clipPath: 'polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 0 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#030611" strokeWidth="2.5" strokeLinecap="square">
                 <rect x="3" y="11" width="18" height="11" rx="0" />
                 <path d="M7 11V7a5 5 0 0 1 10 0v4" />
               </svg>
             </div>
-            <span className="text-[9px] font-bold tracking-[0.35em] text-[#c87941] uppercase font-body">Admin Access</span>
+            <span className="text-[9px] font-bold tracking-[0.35em] text-var(--copper) uppercase font-body">Admin Access</span>
           </div>
-          <h1 className="font-display font-black text-[#f0ebe3] leading-tight" style={{ fontSize: 'clamp(1.8rem, 5vw, 2.4rem)' }}>
-            Enter<br /><span className="italic text-[#c87941]">PIN</span>
+          <h1 className="font-display font-black text-[#f1f4fb] leading-tight" style={{ fontSize: 'clamp(1.8rem, 5vw, 2.4rem)' }}>
+            Enter<br /><span className="italic text-gradient-copper">PIN</span>
           </h1>
-          <p className="mt-1.5 text-[11px] text-[#7a7168] font-body tracking-wide">
+          <p className="mt-1.5 text-[11px] text-[#7687a1] font-body tracking-wide">
             {t('Masukkan PIN 6 digit', 'Enter your 6-digit PIN')}
           </p>
         </div>
@@ -154,7 +154,7 @@ export default function AdminLogin() {
                     animate={{ scale: 1 }}
                     exit={{ scale: 0 }}
                     className="w-2 h-2 rounded-full"
-                    style={{ background: error ? '#d94040' : '#c87941' }}
+                    style={{ background: error ? '#d94040' : 'var(--copper)' }}
                   />
                 )}
               </AnimatePresence>
@@ -164,8 +164,8 @@ export default function AdminLogin() {
                 height: 2,
                 width: '100%',
                 background: i < pin.length
-                  ? (error ? '#d94040' : '#c87941')
-                  : 'rgba(44,40,34,0.8)',
+                  ? (error ? '#d94040' : 'var(--copper)')
+                  : 'rgba(29,39,64,0.8)',
                 transition: 'background 200ms cubic-bezier(0.33, 1, 0.68, 1)',
               }} />
             </div>
@@ -216,7 +216,7 @@ export default function AdminLogin() {
         {/* Cancel — minimal underline link */}
         <button
           onClick={goBack}
-          className="mt-5 text-center text-[11px] font-body text-[#7a7168] hover:text-[#f0ebe3] tap-none tracking-[0.15em] uppercase press"
+          className="mt-5 text-center text-[11px] font-body text-[#7687a1] hover:text-[#f1f4fb] tap-none tracking-[0.15em] uppercase press"
           style={{ transition: 'color 180ms cubic-bezier(0.33, 1, 0.68, 1)' }}
         >
           {t('Batal', 'Cancel')}

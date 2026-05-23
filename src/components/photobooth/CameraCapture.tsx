@@ -179,7 +179,7 @@ export default function CameraCapture() {
 
   /* ── Render ──────────────────────────────────────────────────────── */
   return (
-    <div className="relative min-h-screen flex flex-col overflow-hidden select-none" style={{ background: '#0c0a09' }}>
+    <div className="relative min-h-screen flex flex-col overflow-hidden select-none" style={{ background: '#030611' }}>
       <canvas ref={canvasRef} className="hidden" />
 
       {/* Film grain */}
@@ -224,11 +224,11 @@ export default function CameraCapture() {
                 </span>
               </div>
             </div>
-            {/* Progress — line style, not pill */}
-            <div className="w-full h-px" style={{ background: 'rgba(44,40,34,0.8)' }}>
+            {/* Progress — line style */}
+            <div className="w-full h-px" style={{ background: 'rgba(29,39,64,0.8)' }}>
               <motion.div
                 className="h-full"
-                style={{ background: '#c87941' }}
+                style={{ background: 'var(--copper)' }}
                 initial={{ width: 0 }}
                 animate={{ width: `${progress}%` }}
                 transition={{ duration: 0.5, ease: [0.33, 1, 0.68, 1] }}
@@ -238,8 +238,8 @@ export default function CameraCapture() {
 
           <button
             onClick={handleFlipCamera}
-            className="shrink-0 w-9 h-9 flex items-center justify-center text-[#7a7168] hover:text-[#c87941] tap-none press"
-            style={{ border: '1px solid rgba(44,40,34,0.7)', transition: 'color 180ms cubic-bezier(0.33, 1, 0.68, 1)' }}
+            className="shrink-0 w-9 h-9 flex items-center justify-center text-[#7687a1] hover:text-var(--copper) tap-none press"
+            style={{ border: '1px solid rgba(29,39,64,0.7)', transition: 'color 180ms cubic-bezier(0.33, 1, 0.68, 1)' }}
           >
             <FlipHorizontal className="w-4 h-4" />
           </button>
@@ -249,8 +249,8 @@ export default function CameraCapture() {
         <div
           className="relative flex-1 overflow-hidden"
           style={{
-            background: '#0c0a09',
-            border: '1px solid rgba(200,121,65,0.15)',
+            background: '#030611',
+            border: '1px solid rgba(43,92,246,0.18)',
             clipPath: 'polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%)',
             minHeight: 260,
           }}
@@ -268,38 +268,38 @@ export default function CameraCapture() {
             style={{ transform: facingMode === 'user' ? 'scaleX(-1)' : 'none' }}
           />
 
-          {/* Rule-of-thirds grid — subtle */}
+          {/* Rule-of-thirds grid ── cobalt */}
           <div className="absolute inset-0 pointer-events-none z-10">
             {[33, 66].map(pct => (
-              <div key={`h${pct}`} className="absolute w-full" style={{ top: `${pct}%`, height: 1, background: 'rgba(200,121,65,0.06)' }} />
+              <div key={`h${pct}`} className="absolute w-full" style={{ top: `${pct}%`, height: 1, background: 'rgba(43,92,246,0.06)' }} />
             ))}
             {[33, 66].map(pct => (
-              <div key={`v${pct}`} className="absolute h-full" style={{ left: `${pct}%`, width: 1, background: 'rgba(200,121,65,0.06)' }} />
+              <div key={`v${pct}`} className="absolute h-full" style={{ left: `${pct}%`, width: 1, background: 'rgba(43,92,246,0.06)' }} />
             ))}
           </div>
 
-          {/* Corner brackets — copper, square (not rounded) */}
+          {/* Corner brackets ── cobalt, square */}
           {isReady && (
             <div className="absolute inset-0 pointer-events-none z-10">
               {/* TL */}
               <div className="absolute top-4 left-4 w-7 h-7">
-                <div style={{ position:'absolute', top:0, left:0, width:'100%', height: 2, background:'#c87941' }} />
-                <div style={{ position:'absolute', top:0, left:0, height:'100%', width: 2, background:'#c87941' }} />
+                <div style={{ position:'absolute', top:0, left:0, width:'100%', height: 2, background:'var(--copper)' }} />
+                <div style={{ position:'absolute', top:0, left:0, height:'100%', width: 2, background:'var(--copper)' }} />
               </div>
               {/* TR */}
               <div className="absolute top-4 right-4 w-7 h-7">
-                <div style={{ position:'absolute', top:0, right:0, width:'100%', height: 2, background:'#c87941' }} />
-                <div style={{ position:'absolute', top:0, right:0, height:'100%', width: 2, background:'#c87941' }} />
+                <div style={{ position:'absolute', top:0, right:0, width:'100%', height: 2, background:'var(--copper)' }} />
+                <div style={{ position:'absolute', top:0, right:0, height:'100%', width: 2, background:'var(--copper)' }} />
               </div>
               {/* BL */}
               <div className="absolute bottom-4 left-4 w-7 h-7">
-                <div style={{ position:'absolute', bottom:0, left:0, width:'100%', height: 2, background:'#c87941' }} />
-                <div style={{ position:'absolute', bottom:0, left:0, height:'100%', width: 2, background:'#c87941' }} />
+                <div style={{ position:'absolute', bottom:0, left:0, width:'100%', height: 2, background:'var(--copper)' }} />
+                <div style={{ position:'absolute', bottom:0, left:0, height:'100%', width: 2, background:'var(--copper)' }} />
               </div>
               {/* BR */}
               <div className="absolute bottom-4 right-4 w-7 h-7">
-                <div style={{ position:'absolute', bottom:0, right:0, width:'100%', height: 2, background:'#c87941' }} />
-                <div style={{ position:'absolute', bottom:0, right:0, height:'100%', width: 2, background:'#c87941' }} />
+                <div style={{ position:'absolute', bottom:0, right:0, width:'100%', height: 2, background:'var(--copper)' }} />
+                <div style={{ position:'absolute', bottom:0, right:0, height:'100%', width: 2, background:'var(--copper)' }} />
               </div>
             </div>
           )}
@@ -388,21 +388,20 @@ export default function CameraCapture() {
                     className="flex flex-col items-center gap-3"
                   >
                     <span
-                      className="font-display font-black"
+                      className="font-display font-black text-gradient-copper"
                       style={{
                         fontSize: 'clamp(100px, 25vw, 160px)',
                         lineHeight: 1,
-                        color: '#c87941',
-                        textShadow: '0 0 60px rgba(200,121,65,0.4)',
+                        textShadow: '0 0 60px rgba(43,92,246,0.3)',
                       }}
                     >
                       {countdown}
                     </span>
                     <div className="flex items-center gap-2 px-3 py-1.5"
-                      style={{ border: '1px solid rgba(200,121,65,0.3)', background: 'rgba(12,10,9,0.8)' }}
+                      style={{ border: '1px solid rgba(43,92,246,0.3)', background: 'rgba(3,6,17,0.85)' }}
                     >
-                      <Zap className="w-3.5 h-3.5 text-[#c87941]" />
-                      <span className="text-[11px] font-bold tracking-[0.2em] text-[#f0ebe3] font-body uppercase">
+                      <Zap className="w-3.5 h-3.5 text-var(--copper)" />
+                      <span className="text-[11px] font-bold tracking-[0.2em] text-[#f1f4fb] font-body uppercase">
                         {t('Bersiap!', 'Get Ready!')}
                       </span>
                     </div>
@@ -436,7 +435,7 @@ export default function CameraCapture() {
           {/* Spacer */}
           <div className="w-12 h-12" />
 
-          {/* Shutter — geometric, not pill gradient */}
+          {/* Shutter — geometric */}
           <motion.button
             whileTap={!isReady ? {} : { scale: 0.92 }}
             onClick={currentStep === 'camera' ? handleTakePhoto : undefined}
@@ -444,13 +443,13 @@ export default function CameraCapture() {
             className="relative w-[70px] h-[70px] tap-none"
             style={{ cursor: isReady ? 'pointer' : 'not-allowed', opacity: isReady ? 1 : 0.4 }}
           >
-            {/* Outer rotating copper ring */}
+            {/* Outer rotating cobalt ring */}
             <motion.div
               animate={{ rotate: isReady ? [0, 360] : 0 }}
               transition={{ duration: 8, repeat: Infinity, ease: 'linear' }}
               className="absolute inset-0"
               style={{
-                background: 'conic-gradient(from 0deg, #c87941, #e8a02a, #4ecb9e, #c87941)',
+                background: 'conic-gradient(from 0deg, var(--copper), var(--amber), var(--mint), var(--copper))',
                 clipPath: 'polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%)',
                 padding: 2,
               }}
@@ -460,12 +459,12 @@ export default function CameraCapture() {
               className="absolute flex items-center justify-center"
               style={{
                 inset: 3,
-                background: '#0c0a09',
+                background: '#030611',
                 clipPath: 'polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%)',
               }}
             >
-              {/* Camera icon — custom SVG, square */}
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c87941" strokeWidth="1.8" strokeLinecap="square" strokeLinejoin="miter">
+              {/* Camera icon — custom SVG */}
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--copper)" strokeWidth="1.8" strokeLinecap="square" strokeLinejoin="miter">
                 <rect x="2" y="6" width="20" height="15" />
                 <circle cx="12" cy="13.5" r="4" />
                 <path d="M8 6l2-3h4l2 3" />
@@ -480,7 +479,7 @@ export default function CameraCapture() {
                 <div key={i} style={{
                   width: 6,
                   height: i === currentTake - 1 ? 14 : 6,
-                  background: i < currentTake - 1 ? '#4ecb9e' : i === currentTake - 1 ? '#c87941' : 'rgba(44,40,34,0.8)',
+                  background: i < currentTake - 1 ? '#2dd4bf' : i === currentTake - 1 ? 'var(--copper)' : 'rgba(29,39,64,0.8)',
                   transition: 'height 280ms cubic-bezier(0.33, 1, 0.68, 1), background 280ms',
                 }} />
               ))}

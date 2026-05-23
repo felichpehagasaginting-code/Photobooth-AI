@@ -119,8 +119,8 @@ export default function FilterSelect() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex flex-col bg-[#0A0A0F]">
-        <div className="sticky top-0 z-10 bg-[#0A0A0F]/80 backdrop-blur-xl border-b border-white/5 h-[73px]" />
+      <div className="min-h-screen flex flex-col bg-[#030611]">
+        <div className="sticky top-0 z-10 bg-[#030611]/80 backdrop-blur-xl border-b border-white/5 h-[73px]" />
         <div className="flex-1 px-3 py-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5 max-w-2xl mx-auto">
             {Array.from({ length: 8 }).map((_, i) => (
@@ -128,7 +128,7 @@ export default function FilterSelect() {
                 key={i}
                 animate={{ opacity: [0.3, 0.6, 0.3] }}
                 transition={{ duration: 1.5, repeat: Infinity, delay: i * 0.1 }}
-                className="rounded-2xl bg-[#0E0E15] border border-white/5"
+                className="rounded-xl bg-[#0a0e1c] border border-white/5"
                 style={{ height: 130 }}
               />
             ))}
@@ -142,13 +142,13 @@ export default function FilterSelect() {
   const progressPct = (selectedCount / maxFilters) * 100;
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#0A0A0F]">
+    <div className="min-h-screen flex flex-col bg-[#030611]">
       {/* Header */}
-      <div className="sticky top-0 z-10 bg-[#0A0A0F]/85 backdrop-blur-xl border-b border-white/5">
+      <div className="sticky top-0 z-10 bg-[#030611]/85 backdrop-blur-xl border-b border-white/5">
         <div className="flex items-center gap-4 p-4">
           <button
             onClick={goBack}
-            className="w-11 h-11 rounded-full glass flex items-center justify-center text-white hover:text-[#FF6B9D] transition-colors tap-none"
+            className="w-11 h-11 rounded-full glass flex items-center justify-center text-white hover:text-var(--copper) transition-colors tap-none"
           >
             <ArrowLeft className="w-5 h-5" />
           </button>
@@ -169,7 +169,7 @@ export default function FilterSelect() {
               <circle cx="18" cy="18" r="15.9" fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="2.5" />
               <motion.circle
                 cx="18" cy="18" r="15.9" fill="none"
-                stroke="#FF6B9D"
+                stroke="var(--copper)"
                 strokeWidth="2.5"
                 strokeDasharray="100"
                 animate={{ strokeDashoffset: 100 - progressPct }}
@@ -189,7 +189,7 @@ export default function FilterSelect() {
         {maxFilters < 99 && (
           <div className="h-0.5 bg-white/5">
             <motion.div
-              className="h-full bg-gradient-to-r from-[#FF6B9D] to-[#FF8A65]"
+              className="h-full bg-gradient-to-r from-var(--copper) to-var(--amber)"
               animate={{ width: `${progressPct}%` }}
               transition={{ duration: 0.3, ease: 'easeOut' }}
             />
@@ -212,7 +212,7 @@ export default function FilterSelect() {
                 const sel = isSelected(filter.id);
                 const styleInfo = getStyleInfo(filter.style);
                 const canSelect = sel || selectedFilters.length < maxFilters;
-                const accentColor = styleInfo?.color || '#FF6B9D';
+                const accentColor = styleInfo?.color || 'var(--cobalt)';
 
                 return (
                   <motion.button
@@ -221,12 +221,12 @@ export default function FilterSelect() {
                     layout
                     onClick={() => canSelect && handleToggleFilter(filter)}
                     disabled={!canSelect && !sel}
-                    className={`relative rounded-2xl p-3.5 text-left transition-all duration-250 tap-none border ${
+                    className={`relative rounded-xl p-3.5 text-left transition-all duration-250 tap-none border ${
                       sel
-                        ? 'bg-[#15151F] scale-[1.03] z-10'
+                        ? 'bg-[#0a0e1c] scale-[1.03] z-10'
                         : canSelect
-                          ? 'bg-[#0E0E15] border-white/5 hover:border-white/12 hover:bg-[#121218] hover:scale-[1.01]'
-                          : 'bg-[#0E0E15] border-white/5 opacity-35 cursor-not-allowed'
+                          ? 'bg-[#0a0e1c]/55 border-white/5 hover:border-white/12 hover:bg-[#0a0e1c]/80 hover:scale-[1.01]'
+                          : 'bg-[#0a0e1c]/30 border-white/5 opacity-35 cursor-not-allowed'
                     }`}
                     style={
                       sel
@@ -246,7 +246,7 @@ export default function FilterSelect() {
                           exit={{ scale: 0 }}
                           transition={{ type: 'spring', stiffness: 500, damping: 22 }}
                           className="absolute top-2.5 right-2.5 w-6 h-6 rounded-full flex items-center justify-center shadow-lg z-10"
-                          style={{ background: `linear-gradient(135deg, ${accentColor}, #FF8A65)` }}
+                          style={{ background: `linear-gradient(135deg, ${accentColor}, var(--cobalt))` }}
                         >
                           <Check className="w-3.5 h-3.5 text-white" strokeWidth={3} />
                         </motion.div>
@@ -324,12 +324,12 @@ export default function FilterSelect() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 20 }}
-            className="px-4 py-3 border-t border-white/5 bg-[#0A0A0F]/90 backdrop-blur"
+            className="px-4 py-3 border-t border-white/5 bg-[#030611]/90 backdrop-blur"
           >
             <div className="flex flex-wrap gap-1.5">
               {selectedFilters.map((filter) => {
                 const styleInfo = getStyleInfo(filter.style);
-                const color = styleInfo?.color || '#FF6B9D';
+                const color = styleInfo?.color || 'var(--copper)';
                 return (
                   <motion.span
                     key={filter.id}
@@ -360,7 +360,7 @@ export default function FilterSelect() {
       </AnimatePresence>
 
       {/* Footer CTA */}
-      <div className="sticky bottom-0 z-10 p-4 bg-gradient-to-t from-[#0A0A0F] via-[#0A0A0F]/95 to-transparent flex flex-col gap-2">
+      <div className="sticky bottom-0 z-10 p-4 bg-gradient-to-t from-[#030611] via-[#030611]/95 to-transparent flex flex-col gap-2">
         {!isOnline && (
           <div className="w-full p-2.5 rounded-xl bg-orange-500/10 border border-orange-500/20 flex flex-col items-center justify-center text-center mb-1">
             <span className="text-orange-400 text-[10px] font-bold tracking-widest uppercase">Offline Mode</span>
@@ -370,8 +370,7 @@ export default function FilterSelect() {
         <Button
           onClick={handleContinue}
           disabled={selectedFilters.length === 0}
-          className="w-full h-14 text-base font-black rounded-2xl bg-gradient-to-r from-[#FF6B9D] to-[#FF8A65] hover:from-[#FF7BAE] hover:to-[#FF9B75] text-white disabled:opacity-25 disabled:cursor-not-allowed transition-all duration-300 shadow-glow-pink scale-press"
-          style={{ fontFamily: 'var(--font-outfit)' }}
+          className="btn-solid w-full h-14 text-sm font-body press tap-none flex items-center justify-center gap-2 disabled:opacity-30 disabled:cursor-not-allowed shadow-depth"
         >
           <Sparkles className="w-5 h-5 mr-2" />
           {t('Proses dengan AI', 'Process with AI')}
@@ -379,7 +378,7 @@ export default function FilterSelect() {
         </Button>
         <button
           onClick={handleSkipAI}
-          className="w-full h-10 mt-1 flex items-center justify-center text-[11px] font-bold tracking-[0.1em] text-[#7a7168] hover:text-[#c87941] uppercase font-body transition-colors"
+          className="w-full h-10 mt-1 flex items-center justify-center text-[11px] font-bold tracking-[0.1em] text-[#7687a1] hover:text-var(--copper) uppercase font-body transition-colors"
         >
           {t('Atau Lewati & Cetak Original', 'Or Skip & Print Original')}
         </button>

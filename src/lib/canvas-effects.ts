@@ -12,10 +12,14 @@ export type FrameType =
   | 'scrapbook'
   | 'cyber_hud'
   | 'vintage_postcard'
-  | 'duotone_copper'
+  | 'duotone_cobalt'
   | 'editorial_magazine'
   | 'vintage_vhs'
-  | 'kodak_gold';
+  | 'kodak_gold'
+  | 'neon_matrix'
+  | 'cyberpunk_glitch'
+  | 'sci_fi_blueprint'
+  | 'vaporwave_dream';
 
 export type NonAIFilterType = 
   | 'normal'
@@ -31,7 +35,14 @@ export type NonAIFilterType =
   | 'cyberpunk'
   | 'noir_cinema'
   | 'lofi_dream'
-  | 'ethereal';
+  | 'ethereal'
+  | 'matrix_code'
+  | 'glitch_rgb'
+  | 'vaporwave_gradient'
+  | 'cyber_amber'
+  | 'infrared'
+  | 'retro_gameboy'
+  | 'solarized';
 
 export const FRAME_OPTIONS: { id: FrameType; label: string }[] = [
   { id: 'classic_strip', label: 'Classic Strip' },
@@ -45,10 +56,14 @@ export const FRAME_OPTIONS: { id: FrameType; label: string }[] = [
   { id: 'scrapbook', label: 'Scrapbook' },
   { id: 'cyber_hud', label: 'Cyber HUD' },
   { id: 'vintage_postcard', label: 'Vintage Postcard' },
-  { id: 'duotone_copper', label: 'Copper Duotone' },
+  { id: 'duotone_cobalt', label: 'Cobalt Duotone' },
   { id: 'editorial_magazine', label: 'Vogue Editorial' },
   { id: 'vintage_vhs', label: 'Retro VHS Cam' },
   { id: 'kodak_gold', label: 'Kodak Gold 200' },
+  { id: 'neon_matrix', label: 'Neon Matrix' },
+  { id: 'cyberpunk_glitch', label: 'Cyberpunk Glitch' },
+  { id: 'sci_fi_blueprint', label: 'Technical Blueprint' },
+  { id: 'vaporwave_dream', label: 'Vaporwave Dream' },
 ];
 
 export const FILTER_OPTIONS: { id: NonAIFilterType; label: string }[] = [
@@ -66,6 +81,13 @@ export const FILTER_OPTIONS: { id: NonAIFilterType; label: string }[] = [
   { id: 'noir_cinema', label: 'Noir Cinema' },
   { id: 'lofi_dream', label: 'Lo-Fi Dream' },
   { id: 'ethereal', label: 'Ethereal Glow' },
+  { id: 'matrix_code', label: 'Matrix Code' },
+  { id: 'glitch_rgb', label: 'RGB Glitch' },
+  { id: 'vaporwave_gradient', label: 'Vaporwave Tint' },
+  { id: 'cyber_amber', label: 'Cyber Amber' },
+  { id: 'infrared', label: 'Infrared Thermal' },
+  { id: 'retro_gameboy', label: 'Gameboy 8-Bit' },
+  { id: 'solarized', label: 'Solarized' },
 ];
 
 export async function drawCustomGrid(
@@ -124,6 +146,13 @@ export async function drawCustomGrid(
     case 'noir_cinema': filterString = 'grayscale(100%) contrast(150%) brightness(85%)'; break;
     case 'lofi_dream': filterString = 'sepia(50%) saturate(150%) contrast(80%) brightness(110%) hue-rotate(-20deg)'; break;
     case 'ethereal': filterString = 'brightness(120%) saturate(80%) contrast(90%) blur(1px)'; break;
+    case 'matrix_code': filterString = 'hue-rotate(90deg) contrast(140%) brightness(90%) saturate(150%) grayscale(50%)'; break;
+    case 'glitch_rgb': filterString = 'contrast(130%) brightness(105%) hue-rotate(15deg) saturate(120%)'; break;
+    case 'vaporwave_gradient': filterString = 'hue-rotate(320deg) saturate(160%) brightness(110%)'; break;
+    case 'cyber_amber': filterString = 'sepia(100%) hue-rotate(5deg) saturate(200%) brightness(90%) contrast(150%)'; break;
+    case 'infrared': filterString = 'invert(100%) hue-rotate(180deg) saturate(200%) contrast(150%)'; break;
+    case 'retro_gameboy': filterString = 'grayscale(100%) brightness(120%) contrast(180%) sepia(80%) hue-rotate(60deg) saturate(150%)'; break;
+    case 'solarized': filterString = 'invert(30%) contrast(160%) brightness(110%) saturate(140%)'; break;
     default: filterString = 'none'; break;
   }
 
@@ -165,6 +194,30 @@ export async function drawCustomGrid(
     ctx.fillRect(0, 0, canvas.width, canvas.height);
   } else if (frameType === 'kodak_gold') {
     ctx.fillStyle = '#fdb913'; // Kodak yellow
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  } else if (frameType === 'neon_matrix') {
+    ctx.fillStyle = '#010502';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.strokeStyle = 'rgba(0, 255, 65, 0.15)';
+    ctx.lineWidth = 1;
+    for (let x = 0; x < canvas.width; x += 30) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, canvas.height); ctx.stroke(); }
+    for (let y = 0; y < canvas.height; y += 30) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(canvas.width, y); ctx.stroke(); }
+  } else if (frameType === 'cyberpunk_glitch') {
+    ctx.fillStyle = '#0a0512';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  } else if (frameType === 'sci_fi_blueprint') {
+    ctx.fillStyle = '#001a33';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.strokeStyle = 'rgba(0, 150, 255, 0.18)';
+    ctx.lineWidth = 1;
+    for (let x = 0; x < canvas.width; x += 40) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, canvas.height); ctx.stroke(); }
+    for (let y = 0; y < canvas.height; y += 40) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(canvas.width, y); ctx.stroke(); }
+  } else if (frameType === 'vaporwave_dream') {
+    const grad = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+    grad.addColorStop(0, '#ff71ce');
+    grad.addColorStop(0.5, '#01cdfe');
+    grad.addColorStop(1, '#b967ff');
+    ctx.fillStyle = grad;
     ctx.fillRect(0, 0, canvas.width, canvas.height);
   } else {
     // Default editorial dark
@@ -216,18 +269,40 @@ export async function drawCustomGrid(
     ctx.font = '900 80px "DM Sans", sans-serif';
     ctx.textAlign = 'left';
     ctx.fillText('KODAK GOLD 200', padding, padding + 80);
+  } else if (frameType === 'neon_matrix') {
+    ctx.fillStyle = '#00ff41';
+    ctx.font = 'bold 60px "Courier New", monospace';
+    ctx.textAlign = 'center';
+    ctx.fillText('SYSTEM_OVERLOAD_STATUS: ACTIVE', canvas.width / 2, padding + 80);
+  } else if (frameType === 'cyberpunk_glitch') {
+    ctx.fillStyle = '#fcee0a';
+    ctx.font = '900 80px "DM Sans", sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText('CYBER_GLITCH_2077 //', padding, padding + 80);
+  } else if (frameType === 'sci_fi_blueprint') {
+    ctx.fillStyle = '#00d5ff';
+    ctx.font = 'bold 50px "Courier New", monospace';
+    ctx.textAlign = 'left';
+    ctx.fillText('TECHNICAL SCHEMATIC // AP-400', padding, padding + 70);
+  } else if (frameType === 'vaporwave_dream') {
+    ctx.fillStyle = '#fff';
+    ctx.font = 'italic 900 100px "DM Sans", sans-serif';
+    ctx.shadowColor = '#01cdfe'; ctx.shadowBlur = 15;
+    ctx.textAlign = 'center';
+    ctx.fillText('VAPORWAVE // 1999', canvas.width / 2, padding + 100);
+    ctx.shadowBlur = 0;
   } else if (frameType !== 'polaroid_scatter' && frameType !== 'film_reel') {
     const { eventBranding } = usePhotoboothStore.getState();
 
     // Header Text
-    ctx.fillStyle = '#c87941';
+    ctx.fillStyle = '#2b5cf6';
     ctx.font = 'bold 54px "DM Sans", sans-serif';
     ctx.textAlign = 'center';
     ctx.letterSpacing = '14px';
     ctx.fillText(eventBranding.title.toUpperCase(), canvas.width / 2, padding + 80);
     
     // Sub-header
-    ctx.fillStyle = '#7a7168';
+    ctx.fillStyle = '#7687a1';
     ctx.font = 'italic 28px "Playfair Display", serif';
     ctx.letterSpacing = '4px';
     ctx.fillText(eventBranding.subtitle, canvas.width / 2, padding + 130);
@@ -279,8 +354,8 @@ export async function drawCustomGrid(
       ctx.beginPath(); ctx.moveTo(x+20, y-20); ctx.lineTo(x+20, y+20); ctx.stroke();
     } else {
       ctx.drawImage(img, x, y, imgW, imgH);
-      if (frameType === 'classic_grid' || frameType === 'classic_strip' || frameType === 'duotone_copper') {
-        ctx.strokeStyle = '#c87941';
+      if (frameType === 'classic_grid' || frameType === 'classic_strip' || frameType === 'duotone_cobalt') {
+        ctx.strokeStyle = '#2b5cf6';
         ctx.lineWidth = 4;
         ctx.strokeRect(x, y, imgW, imgH);
       } else if (frameType === 'newspaper' || frameType === 'editorial_magazine') {
@@ -296,6 +371,28 @@ export async function drawCustomGrid(
       } else if (frameType === 'kodak_gold') {
         ctx.strokeStyle = '#fff';
         ctx.lineWidth = 20;
+        ctx.strokeRect(x, y, imgW, imgH);
+      } else if (frameType === 'neon_matrix') {
+        ctx.strokeStyle = '#00ff41';
+        ctx.lineWidth = 4;
+        ctx.strokeRect(x, y, imgW, imgH);
+      } else if (frameType === 'cyberpunk_glitch') {
+        ctx.strokeStyle = '#ff007f';
+        ctx.lineWidth = 6;
+        ctx.strokeRect(x, y, imgW, imgH);
+        ctx.fillStyle = '#00f0ff';
+        ctx.fillRect(x - 10, y + 40, 6, 80);
+        ctx.fillRect(x + imgW + 4, y + imgH - 120, 6, 80);
+      } else if (frameType === 'sci_fi_blueprint') {
+        ctx.strokeStyle = '#00d5ff';
+        ctx.lineWidth = 2;
+        ctx.strokeRect(x, y, imgW, imgH);
+        ctx.fillStyle = '#00d5ff';
+        ctx.fillRect(x - 5, y - 5, 15, 2);
+        ctx.fillRect(x - 5, y - 5, 2, 15);
+      } else if (frameType === 'vaporwave_dream') {
+        ctx.strokeStyle = '#fff';
+        ctx.lineWidth = 10;
         ctx.strokeRect(x, y, imgW, imgH);
       }
     }
@@ -314,15 +411,36 @@ export async function drawCustomGrid(
     }
   }
 
-  if (frameType === 'duotone_copper') {
-    // Simple duotone hack: multiply with copper, screen with dark?
-    // Doing true duotone in pure canvas 2d without ImageData is tricky,
-    // so we just lay a 'color' or 'multiply' blend mode
+  if (filterType === 'vaporwave_gradient') {
+    ctx.save();
+    ctx.globalCompositeOperation = 'overlay';
+    const grad = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+    grad.addColorStop(0, '#ff71ce');
+    grad.addColorStop(1, '#01cdfe');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.restore();
+  }
+  
+  if (filterType === 'matrix_code') {
+    ctx.save();
+    ctx.fillStyle = 'rgba(0, 255, 65, 0.08)';
+    for (let x = 10; x < canvas.width; x += 40) {
+      for (let y = 10; y < canvas.height; y += 80) {
+        ctx.font = '10px monospace';
+        ctx.fillText(Math.random() > 0.5 ? '1' : '0', x, y);
+      }
+    }
+    ctx.restore();
+  }
+
+  if (frameType === 'duotone_cobalt') {
+    // Simple duotone hack: multiply with cobalt
     ctx.globalCompositeOperation = 'color';
-    ctx.fillStyle = '#c87941';
+    ctx.fillStyle = '#2b5cf6';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.globalCompositeOperation = 'multiply';
-    ctx.fillStyle = '#c87941';
+    ctx.fillStyle = '#2b5cf6';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.globalCompositeOperation = 'source-over';
   }
@@ -338,9 +456,24 @@ export async function drawCustomGrid(
     ctx.font = 'bold 40px "DM Sans", sans-serif';
     ctx.textAlign = 'center';
     ctx.fillText('<3 FOREVER <3', canvas.width / 2, canvas.height - padding);
+  } else if (frameType === 'neon_matrix') {
+    ctx.fillStyle = '#00ff41';
+    ctx.font = '30px "Courier New", monospace';
+    ctx.textAlign = 'center';
+    ctx.fillText('⚡ DATA_STREAM_SECURED ⚡', canvas.width / 2, canvas.height - padding);
+  } else if (frameType === 'sci_fi_blueprint') {
+    ctx.fillStyle = '#00d5ff';
+    ctx.font = '24px "Courier New", monospace';
+    ctx.textAlign = 'left';
+    ctx.fillText('SCALE: 1:1.24 // SENSOR ID: 94002-C', padding, canvas.height - padding);
+  } else if (frameType === 'vaporwave_dream') {
+    ctx.fillStyle = '#fff';
+    ctx.font = 'italic bold 48px "DM Sans", sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText('✿ PHYSICAL EDUCATION ✿', canvas.width / 2, canvas.height - padding);
   } else if (frameType !== 'polaroid_scatter' && frameType !== 'film_reel' && frameType !== 'minimal' && frameType !== 'newspaper') {
     const dateStr = new Date().toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' });
-    ctx.fillStyle = '#7a7168';
+    ctx.fillStyle = '#7687a1';
     ctx.font = '32px "DM Sans", sans-serif';
     ctx.textAlign = 'center';
     ctx.letterSpacing = '6px';

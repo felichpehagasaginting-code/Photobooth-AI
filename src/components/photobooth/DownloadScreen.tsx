@@ -31,16 +31,16 @@ function PhotoReel({ photos, activeIdx, onSelect }: {
           className="shrink-0 relative overflow-hidden tap-none"
           style={{
             width: 60, height: 60,
-            border: i === activeIdx ? '2px solid #c87941' : '1px solid rgba(44,40,34,0.6)',
+            border: i === activeIdx ? '2px solid var(--copper)' : '1px solid rgba(29,39,64,0.6)',
             transform: i === activeIdx ? 'scale(1.05)' : 'scale(1)',
             transition: 'border-color 200ms, transform 200ms',
           }}
         >
           <img src={photo.filtered} alt={photo.filterName} className="w-full h-full object-cover" />
           {i === activeIdx && (
-            <div className="absolute inset-0" style={{ background: 'rgba(200,121,65,0.15)' }} />
+            <div className="absolute inset-0" style={{ background: 'rgba(43,92,246,0.15)' }} />
           )}
-          <div className="absolute bottom-0 left-0 right-0 h-0.5" style={{ background: i === activeIdx ? '#c87941' : 'transparent' }} />
+          <div className="absolute bottom-0 left-0 right-0 h-0.5" style={{ background: i === activeIdx ? 'var(--copper)' : 'transparent' }} />
         </motion.button>
       ))}
     </div>
@@ -56,11 +56,11 @@ function ShareAction({ label, icon: Icon, onClick, color }: { label: string; ico
     >
       <div
         className="w-11 h-11 flex items-center justify-center transition-transform group-hover:scale-110"
-        style={{ background: '#1d1a17', border: `1px solid ${color}30` }}
+        style={{ background: '#0a0e1c', border: `1px solid ${color === 'var(--copper)' ? 'var(--copper)' : 'var(--amber)'}30` }}
       >
         <Icon className="w-5 h-5" style={{ color }} />
       </div>
-      <span className="text-[8px] font-bold tracking-[0.2em] uppercase text-[#7a7168] font-body">{label}</span>
+      <span className="text-[8px] font-bold tracking-[0.2em] uppercase text-[#7687a1] font-body">{label}</span>
     </button>
   );
 }
@@ -74,15 +74,15 @@ function RatingWidget() {
   if (submitted) {
     return (
       <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="flex items-center gap-2 justify-center">
-        <Check className="w-3.5 h-3.5 text-[#4ecb9e]" />
-        <span className="text-[10px] text-[#4ecb9e] font-body tracking-wider">Terima kasih!</span>
+        <Check className="w-3.5 h-3.5 text-[#2dd4bf]" />
+        <span className="text-[10px] text-[#2dd4bf] font-body tracking-wider">Terima kasih!</span>
       </motion.div>
     );
   }
 
   return (
     <div className="flex flex-col items-center gap-2">
-      <p className="text-[9px] tracking-[0.25em] text-[#7a7168] uppercase font-body">Rate pengalaman kamu</p>
+      <p className="text-[9px] tracking-[0.25em] text-[#7687a1] uppercase font-body">Rate pengalaman kamu</p>
       <div className="flex gap-1">
         {[1,2,3,4,5].map(i => (
           <button
@@ -94,7 +94,7 @@ function RatingWidget() {
           >
             <Star
               className="w-5 h-5 transition-all"
-              style={{ color: i <= (hovered || rating) ? '#e8a02a' : '#2c2822', fill: i <= (hovered || rating) ? '#e8a02a' : 'none' }}
+              style={{ color: i <= (hovered || rating) ? 'var(--amber)' : '#1d2740', fill: i <= (hovered || rating) ? 'var(--amber)' : 'none' }}
             />
           </button>
         ))}
@@ -120,7 +120,7 @@ export default function DownloadScreen() {
   useEffect(() => {
     if (!currentTransaction) return;
     const url = `${window.location.origin}/?txn=${currentTransaction.id}&token=${currentTransaction.downloadToken || ''}`;
-    QRCode.toString(url, { type: 'svg', margin: 2, color: { dark: '#f0ebe3', light: '#151210' } })
+    QRCode.toString(url, { type: 'svg', margin: 2, color: { dark: '#f1f4fb', light: '#0a0e1c' } })
       .then((svg: string) => setDownloadQr(`data:image/svg+xml;base64,${btoa(svg)}`))
       .catch(() => {});
   }, [currentTransaction]);
@@ -151,16 +151,16 @@ export default function DownloadScreen() {
     <>
       {showCheck && <ConfettiParticles count={65} size="md" duration={5} />}
 
-      <div className="min-h-screen flex flex-col md:flex-row overflow-hidden relative" style={{ background: '#0c0a09' }}>
+      <div className="min-h-screen flex flex-col md:flex-row overflow-hidden relative" style={{ background: '#030611' }}>
 
         {/* Film grain */}
         <div className="absolute inset-0 pointer-events-none z-0"
-          style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E\")", opacity: 0.4 }}
+          style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E\")", opacity: 0.4 }}
         />
         <motion.div
           className="absolute inset-0 pointer-events-none z-0"
           initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5, duration: 1 }}
-          style={{ background: 'radial-gradient(ellipse 70% 50% at 50% 0%, rgba(78,203,158,0.07) 0%, transparent 70%)' }}
+          style={{ background: 'radial-gradient(ellipse 70% 50% at 50% 0%, rgba(45,212,191,0.07) 0%, transparent 70%)' }}
         />
 
         {/* ── Left: Large photo display ── */}
@@ -169,11 +169,11 @@ export default function DownloadScreen() {
           {/* Header bar */}
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="h-px w-5 bg-[#4ecb9e]" />
-              <span className="text-[9px] font-bold tracking-[0.35em] text-[#4ecb9e] uppercase font-body">Sesi Selesai</span>
+              <div className="h-px w-5 bg-[#2dd4bf]" />
+              <span className="text-[9px] font-bold tracking-[0.35em] text-[#2dd4bf] uppercase font-body">Sesi Selesai</span>
             </div>
             {currentTransaction && (
-              <span className="text-[9px] font-mono text-[#2c2822]">{currentTransaction.orderId}</span>
+              <span className="text-[9px] font-mono text-[#7687a1]">{currentTransaction.orderId}</span>
             )}
           </div>
 
@@ -186,7 +186,7 @@ export default function DownloadScreen() {
               transition={{ delay: 0.35 }}
               style={{
                 clipPath: 'polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%)',
-                border: '1px solid rgba(200,121,65,0.15)',
+                border: '1px solid rgba(43,92,246,0.15)',
                 minHeight: 260,
               }}
             >
@@ -200,20 +200,20 @@ export default function DownloadScreen() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.4 }}
-                  style={{ background: '#151210' }}
+                  style={{ background: '#0a0e1c' }}
                 />
               </AnimatePresence>
 
               {/* Corner cut */}
-              <div className="absolute top-0 right-0 w-0 h-0" style={{ borderLeft: '20px solid transparent', borderTop: '20px solid rgba(200,121,65,0.5)' }} />
+              <div className="absolute top-0 right-0 w-0 h-0" style={{ borderLeft: '20px solid transparent', borderTop: '20px solid rgba(43,92,246,0.5)' }} />
 
               {/* Bottom overlay */}
               <div className="absolute bottom-0 left-0 right-0 p-4 flex items-end justify-between"
-                style={{ background: 'linear-gradient(to top, rgba(12,10,9,0.95), transparent)' }}
+                style={{ background: 'linear-gradient(to top, rgba(3,6,17,0.95), transparent)' }}
               >
                 <div>
-                  <p className="text-[9px] font-bold tracking-[0.25em] uppercase text-[#7a7168] mb-0.5 font-body">Filter</p>
-                  <p className="text-[#f0ebe3] font-display font-bold text-lg leading-none">
+                  <p className="text-[9px] font-bold tracking-[0.25em] uppercase text-[#7687a1] mb-0.5 font-body">Filter</p>
+                  <p className="text-[#f1f4fb] font-display font-bold text-lg leading-none">
                     {filteredPhotos[activePhoto]?.filterName}
                   </p>
                 </div>
@@ -223,8 +223,8 @@ export default function DownloadScreen() {
                   whileTap={{ scale: 0.93 }}
                   className="flex items-center gap-2 px-4 py-2.5 text-[10px] font-bold tracking-[0.15em] uppercase font-body press tap-none"
                   style={{
-                    background: downloaded.has(activePhoto) ? '#4ecb9e' : '#c87941',
-                    color: '#0c0a09',
+                    background: downloaded.has(activePhoto) ? '#2dd4bf' : 'var(--copper)',
+                    color: '#030611',
                     clipPath: 'polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 0 100%)',
                   }}
                 >
@@ -245,7 +245,7 @@ export default function DownloadScreen() {
         {/* ── Right: Actions panel ── */}
         <div
           className="relative z-20 w-full md:w-[340px] flex flex-col p-5 gap-5 border-t md:border-t-0 md:border-l"
-          style={{ borderColor: 'rgba(200,121,65,0.12)', background: '#0c0a09' }}
+          style={{ borderColor: 'rgba(43,92,246,0.12)', background: '#030611' }}
         >
           {/* Success mark */}
           <motion.div
@@ -255,44 +255,44 @@ export default function DownloadScreen() {
           >
             <div
               className="relative flex items-center justify-center shrink-0"
-              style={{ width: 56, height: 56, background: '#4ecb9e', clipPath: 'polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%)' }}
+              style={{ width: 56, height: 56, background: '#2dd4bf', clipPath: 'polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%)' }}
             >
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0c0a09" strokeWidth={3} strokeLinecap="square">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#030611" strokeWidth={3} strokeLinecap="square">
                 <polyline points="20 6 9 17 4 12" />
               </svg>
               <motion.div
                 className="absolute"
                 animate={{ scale: [1, 1.6, 1], opacity: [0.3, 0, 0.3] }}
                 transition={{ duration: 2.5, repeat: Infinity }}
-                style={{ inset: 0, border: '1px solid rgba(78,203,158,0.4)', clipPath: 'inherit' }}
+                style={{ inset: 0, border: '1px solid rgba(45,212,191,0.4)', clipPath: 'inherit' }}
               />
             </div>
             <div>
-              <h2 className="font-display font-black text-[#f0ebe3] leading-tight" style={{ fontSize: 'clamp(1.4rem, 3vw, 1.9rem)' }}>
+              <h2 className="font-display font-black text-[#f1f4fb] leading-tight" style={{ fontSize: 'clamp(1.4rem, 3vw, 1.9rem)' }}>
                 {t('Foto Siap!', 'Photos Ready!')}
               </h2>
-              <p className="text-[11px] text-[#7a7168] font-body mt-0.5">
+              <p className="text-[11px] text-[#7687a1] font-body mt-0.5">
                 {t(`${filteredPhotos.length} foto diproses AI`, `${filteredPhotos.length} AI-processed photos`)}
               </p>
             </div>
           </motion.div>
 
-          <div style={{ height: 1, background: 'rgba(44,40,34,0.8)' }} />
+          <div style={{ height: 1, background: 'rgba(29,39,64,0.8)' }} />
 
           {/* Transaction block */}
           {currentTransaction && (
             <motion.div
               initial={{ opacity: 0, x: 14 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.4 }}
               className="space-y-2 p-3"
-              style={{ background: '#151210', border: '1px solid rgba(78,203,158,0.12)', borderLeft: '3px solid #4ecb9e' }}
+              style={{ background: '#0a0e1c', border: '1px solid rgba(45,212,191,0.12)', borderLeft: '3px solid #2dd4bf' }}
             >
               {[
                 { label: 'Order ID', val: currentTransaction.orderId },
                 { label: 'Status', val: 'Lunas ✓', isGreen: true },
               ].map(item => (
                 <div key={item.label} className="flex justify-between items-center">
-                  <span className="text-[9px] tracking-[0.2em] text-[#7a7168] uppercase font-body">{item.label}</span>
-                  <span className={`text-[10px] font-bold font-body ${item.isGreen ? 'text-[#4ecb9e]' : 'text-[#c87941] font-mono'}`}>{item.val}</span>
+                  <span className="text-[9px] tracking-[0.2em] text-[#7687a1] uppercase font-body">{item.label}</span>
+                  <span className={`text-[10px] font-bold font-body ${item.isGreen ? 'text-[#2dd4bf]' : 'text-var(--copper) font-mono'}`}>{item.val}</span>
                 </div>
               ))}
             </motion.div>
@@ -300,10 +300,10 @@ export default function DownloadScreen() {
 
           {/* Social share */}
           <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }}>
-            <p className="text-[9px] tracking-[0.25em] text-[#7a7168] uppercase font-body mb-3">Bagikan</p>
+            <p className="text-[9px] tracking-[0.25em] text-[#7687a1] uppercase font-body mb-3">Bagikan</p>
             <div className="flex gap-3">
-              <ShareAction label="Share" icon={Share2} onClick={handleShare} color="#c87941" />
-              <ShareAction label="IG Story" icon={Instagram} onClick={handleShare} color="#e8a02a" />
+              <ShareAction label="Share" icon={Share2} onClick={handleShare} color="var(--copper)" />
+              <ShareAction label="IG Story" icon={Instagram} onClick={handleShare} color="var(--amber)" />
             </div>
           </motion.div>
 
@@ -311,24 +311,24 @@ export default function DownloadScreen() {
           {downloadQr && (
             <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }}
               className="flex items-center gap-3 p-3"
-              style={{ background: '#151210', border: '1px solid rgba(44,40,34,0.8)' }}
+              style={{ background: '#0a0e1c', border: '1px solid rgba(29,39,64,0.8)' }}
             >
-              <div className="w-16 h-16 shrink-0 p-1.5" style={{ background: '#151210', border: '1px solid rgba(200,121,65,0.2)' }}>
+              <div className="w-16 h-16 shrink-0 p-1.5" style={{ background: '#0a0e1c', border: '1px solid rgba(43,92,246,0.2)' }}>
                 <img src={downloadQr} alt="QR" className="w-full h-full" />
               </div>
               <div>
                 <div className="flex items-center gap-1.5 mb-1">
-                  <QrCode className="w-3 h-3 text-[#c87941]" />
-                  <span className="text-[8px] font-bold tracking-[0.25em] text-[#c87941] uppercase font-body">Scan to Download</span>
+                  <QrCode className="w-3 h-3 text-var(--copper)" />
+                  <span className="text-[8px] font-bold tracking-[0.25em] text-var(--copper) uppercase font-body">Scan to Download</span>
                 </div>
-                <p className="text-[10px] text-[#7a7168] font-body">Scan untuk unduh di HP kamu</p>
+                <p className="text-[10px] text-[#7687a1] font-body">Scan untuk unduh di HP kamu</p>
               </div>
             </motion.div>
           )}
 
           {/* Rating */}
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.75 }}
-            className="p-3" style={{ background: '#151210', border: '1px solid rgba(44,40,34,0.6)' }}
+            className="p-3" style={{ background: '#0a0e1c', border: '1px solid rgba(29,39,64,0.6)' }}
           >
             <RatingWidget />
           </motion.div>
