@@ -10393,3 +10393,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-22T22:15:16+07:00** - [Activity #5766] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-23T09:05:12+07:00** - [Activity #5767] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-23T09:50:48+07:00** - [Activity #5768] feat(watermark): customizable event logo watermark overlay
+- **2026-05-23T10:37:55+07:00** - [Activity #5769] docs(changelog): update version history and release milestones
