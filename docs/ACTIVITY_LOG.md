@@ -10403,3 +10403,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-23T16:50:41+07:00** - [Activity #5776] refactor(state): migrate photo session state management to zustand store
 - **2026-05-23T17:18:34+07:00** - [Activity #5777] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-05-23T19:36:21+07:00** - [Activity #5778] refactor(camera): extract media stream hook into standalone module
+- **2026-05-23T20:25:35+07:00** - [Activity #5779] fix(camera): prevent stream freeze on rapid device re-plug
