@@ -10414,3 +10414,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-24T11:53:48+07:00** - [Activity #5787] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-24T13:51:30+07:00** - [Activity #5788] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-05-24T14:07:59+07:00** - [Activity #5789] test(hooks): add test suite for camera stream lifecycle events
+- **2026-05-24T14:42:20+07:00** - [Activity #5790] docs(env): document all required environment variables with defaults
