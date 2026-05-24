@@ -10412,3 +10412,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-24T10:47:02+07:00** - [Activity #5785] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-24T11:27:13+07:00** - [Activity #5786] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-05-24T11:53:48+07:00** - [Activity #5787] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-05-24T13:51:30+07:00** - [Activity #5788] feat(preview): render live filter preview using WebGL shader canvas
