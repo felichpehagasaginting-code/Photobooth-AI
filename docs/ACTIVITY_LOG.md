@@ -4769,3 +4769,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-24T17:27:01+07:00** - [Activity #4020] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-24T19:30:13+07:00** - [Activity #4021] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-05-24T20:02:20+07:00** - [Activity #4022] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-05-24T20:50:29+07:00** - [Activity #4023] perf(api): cache static filter presets with aggressive HTTP headers
