@@ -4756,3 +4756,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-24T10:04:21+07:00** - [Activity #4007] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-24T10:42:08+07:00** - [Activity #4008] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-24T11:15:34+07:00** - [Activity #4009] feat(watermark): customizable event logo watermark overlay
+- **2026-05-24T11:52:32+07:00** - [Activity #4010] refactor(events): use custom event bus for decoupled component messaging
