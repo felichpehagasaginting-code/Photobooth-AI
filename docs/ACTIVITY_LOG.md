@@ -10416,3 +10416,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-24T14:07:59+07:00** - [Activity #5789] test(hooks): add test suite for camera stream lifecycle events
 - **2026-05-24T14:42:20+07:00** - [Activity #5790] docs(env): document all required environment variables with defaults
 - **2026-05-24T15:12:27+07:00** - [Activity #5791] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-05-24T15:43:20+07:00** - [Activity #5792] feat(camera): add dynamic exposure and focus adjustment controls
