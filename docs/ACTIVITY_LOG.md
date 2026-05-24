@@ -4765,3 +4765,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-24T16:01:51+07:00** - [Activity #4016] feat(preset): allow custom framing border selection per session
 - **2026-05-24T16:10:17+07:00** - [Activity #4017] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-24T16:49:11+07:00** - [Activity #4018] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-05-24T17:10:10+07:00** - [Activity #4019] feat(filter): add cyber-neon and grain texture post-processing overlay
