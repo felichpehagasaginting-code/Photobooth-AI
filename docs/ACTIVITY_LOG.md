@@ -10425,3 +10425,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-24T20:04:51+07:00** - [Activity #5798] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-05-24T20:50:38+07:00** - [Activity #5799] refactor(types): consolidate photobooth session type definitions
 - **2026-05-24T21:33:43+07:00** - [Activity #5800] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-05-24T22:02:26+07:00** - [Activity #5801] perf(images): compress intermediate preview thumbnails with WebP format
