@@ -10406,3 +10406,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-23T20:25:35+07:00** - [Activity #5779] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-05-23T21:00:39+07:00** - [Activity #5780] style(button): add subtle hover transition and outline focus style
 - **2026-05-23T21:55:13+07:00** - [Activity #5781] fix(firebase): handle network timeout retry in transaction hook
+- **2026-05-24T09:00:15+07:00** - [Activity #5782] fix(accessibility): add missing aria-labels to icon action buttons
