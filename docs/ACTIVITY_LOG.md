@@ -10410,3 +10410,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-24T09:42:46+07:00** - [Activity #5783] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-05-24T10:17:44+07:00** - [Activity #5784] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-05-24T10:47:02+07:00** - [Activity #5785] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-05-24T11:27:13+07:00** - [Activity #5786] fix(accessibility): add missing aria-labels to icon action buttons
