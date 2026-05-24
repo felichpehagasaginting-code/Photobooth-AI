@@ -4751,3 +4751,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-23T20:41:43+07:00** - [Activity #4002] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-05-23T21:27:39+07:00** - [Activity #4003] refactor(api): modularize backend route handlers and validation utils
 - **2026-05-23T22:11:46+07:00** - [Activity #4004] style(shutter): design circular pulsating shutter button with feedback
+- **2026-05-24T09:00:28+07:00** - [Activity #4005] refactor(services): separate cloud storage adapter from UI layer
