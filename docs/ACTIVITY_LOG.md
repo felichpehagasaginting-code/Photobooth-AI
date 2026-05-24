@@ -4763,3 +4763,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-24T14:51:29+07:00** - [Activity #4014] refactor(camera): extract media stream hook into standalone module
 - **2026-05-24T15:23:26+07:00** - [Activity #4015] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-05-24T16:01:51+07:00** - [Activity #4016] feat(preset): allow custom framing border selection per session
+- **2026-05-24T16:10:17+07:00** - [Activity #4017] test(utils): add unit tests for image aspect ratio calculator
