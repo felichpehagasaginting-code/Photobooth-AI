@@ -10432,3 +10432,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T09:44:58+07:00** - [Activity #5805] refactor(camera): extract media stream hook into standalone module
 - **2026-05-25T10:09:43+07:00** - [Activity #5806] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-05-25T10:28:54+07:00** - [Activity #5807] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-05-25T10:44:44+07:00** - [Activity #5808] chore(git): add ignore rules for local session exports and temp files
