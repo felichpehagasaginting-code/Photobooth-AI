@@ -10429,3 +10429,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T09:00:14+07:00** - [Activity #5802] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-25T09:10:51+07:00** - [Activity #5803] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-05-25T09:31:41+07:00** - [Activity #5804] fix(auth): prevent race condition when initializing anonymous session
+- **2026-05-25T09:44:58+07:00** - [Activity #5805] refactor(camera): extract media stream hook into standalone module
