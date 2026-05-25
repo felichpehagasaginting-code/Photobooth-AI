@@ -4775,3 +4775,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T09:06:19+07:00** - [Activity #4026] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-05-25T09:18:41+07:00** - [Activity #4027] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-25T09:40:52+07:00** - [Activity #4028] feat(watermark): customizable event logo watermark overlay
+- **2026-05-25T09:46:51+07:00** - [Activity #4029] perf(fonts): preload display typography to eliminate FOIT delay
