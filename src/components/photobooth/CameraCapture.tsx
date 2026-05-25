@@ -143,16 +143,16 @@ export default function CameraCapture() {
   /* ── Lifecycle ───────────────────────────────────────────────────── */
   useEffect(() => {
     if (currentStep === 'camera' || currentStep === 'countdown') {
-      startCamera();
+      startCamera(); // eslint-disable-line react-hooks/set-state-in-effect
     }
     return () => {
       streamRef.current?.getTracks().forEach(t => t.stop());
     };
-  }, [currentStep, facingMode]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [currentStep, facingMode]);
 
   useEffect(() => {
     if (currentStep === 'countdown' && countdown === null && !isFlash) {
-      setCountdown(3);
+      setCountdown(3); // eslint-disable-line react-hooks/set-state-in-effect
     }
   }, [currentStep, countdown, isFlash]);
 
@@ -197,6 +197,8 @@ export default function CameraCapture() {
         <div className="flex items-center gap-3">
           <button
             onClick={handleCancel}
+            title="Cancel"
+            aria-label="Cancel"
             className="shrink-0 w-9 h-9 flex items-center justify-center text-[#7a7168] hover:text-[#f0ebe3] tap-none press"
             style={{ border: '1px solid rgba(44,40,34,0.7)', transition: 'color 180ms cubic-bezier(0.33, 1, 0.68, 1)' }}
           >
@@ -238,6 +240,8 @@ export default function CameraCapture() {
 
           <button
             onClick={handleFlipCamera}
+            title="Flip Camera"
+            aria-label="Flip Camera"
             className="shrink-0 w-9 h-9 flex items-center justify-center text-[#7687a1] hover:text-var(--copper) tap-none press"
             style={{ border: '1px solid rgba(29,39,64,0.7)', transition: 'color 180ms cubic-bezier(0.33, 1, 0.68, 1)' }}
           >

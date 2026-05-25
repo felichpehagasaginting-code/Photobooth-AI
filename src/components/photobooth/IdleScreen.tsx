@@ -198,6 +198,8 @@ export default function IdleScreen() {
           </button>
           <button
             onClick={handleAdminClick}
+            title="Admin Settings"
+            aria-label="Admin Settings"
             className="w-8 h-8 flex items-center justify-center text-[#7687a1] hover:text-var(--copper) tap-none"
           >
             <Settings className="w-4 h-4" />
@@ -389,6 +391,8 @@ export default function IdleScreen() {
                 <button
                   key={i}
                   onClick={() => setShowcaseIndex(i)}
+                  title={`View showcase filter ${f.name}`}
+                  aria-label={`View showcase filter ${f.name}`}
                   className="tap-none"
                   style={{
                     height: 2,

@@ -83,6 +83,8 @@ export default function TakeSelect() {
       >
         <button
           onClick={() => setStep('idle')}
+          title="Back"
+          aria-label="Back"
           className="w-9 h-9 flex items-center justify-center text-[#7687a1] hover:text-var(--copper) tap-none press"
         >
           <ArrowLeft className="w-5 h-5" />

@@ -54,6 +54,8 @@ export default function CapturedPreview() {
       <div className="relative z-10 sticky top-0" style={{ background: 'rgba(3,6,17,0.85)', backdropFilter: 'blur(14px)', borderBottom: '1px solid rgba(43,92,246,0.1)' }}>
         <div className="flex items-center gap-4 p-4 w-full max-w-7xl mx-auto">
           <button onClick={handleRetake}
+            title="Back / Retake"
+            aria-label="Back / Retake"
             className="w-10 h-10 flex items-center justify-center text-[#7687a1] hover:text-var(--copper) tap-none"
             style={{ border: '1px solid rgba(29,39,64,0.8)', transition: 'color 200ms cubic-bezier(0.33, 1, 0.68, 1)' }}
           >

@@ -68,7 +68,7 @@ export default function FilterSelect() {
     };
     fetchFilters();
 
-    setIsOnline(navigator.onLine);
+    setIsOnline(navigator.onLine); // eslint-disable-line react-hooks/set-state-in-effect
     const handleOnline = () => setIsOnline(true);
     const handleOffline = () => setIsOnline(false);
     window.addEventListener('online', handleOnline);
@@ -148,6 +148,8 @@ export default function FilterSelect() {
         <div className="flex items-center gap-4 p-4">
           <button
             onClick={goBack}
+            title="Back"
+            aria-label="Back"
             className="w-11 h-11 rounded-full glass flex items-center justify-center text-white hover:text-var(--copper) transition-colors tap-none"
           >
             <ArrowLeft className="w-5 h-5" />
@@ -347,6 +349,8 @@ export default function FilterSelect() {
                     {filter.name}
                     <button
                       onClick={() => removeFilter(filter.id)}
+                      title={`Remove ${filter.name}`}
+                      aria-label={`Remove ${filter.name}`}
                       className="hover:opacity-70 tap-none rounded-full"
                     >
                       <X className="w-3 h-3" />

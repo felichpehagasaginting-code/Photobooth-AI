@@ -94,6 +94,8 @@ export default function PackageSelect() {
         <div className="flex items-center gap-4 p-4">
           <button
             onClick={goBack}
+            title="Back"
+            aria-label="Back"
             className="w-11 h-11 rounded-full glass flex items-center justify-center text-white hover:text-[#FF6B9D] transition-colors tap-none"
           >
             <ArrowLeft className="w-5 h-5" />

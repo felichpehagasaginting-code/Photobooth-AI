@@ -14,12 +14,16 @@ function PadKey({
   onClick,
   variant = 'digit',
   disabled = false,
+  title,
+  ariaLabel,
 }: {
   label: React.ReactNode;
   sub?: string;
   onClick: () => void;
   variant?: 'digit' | 'action' | 'confirm';
   disabled?: boolean;
+  title?: string;
+  ariaLabel?: string;
 }) {
   const base =
     'relative h-[68px] flex flex-col items-center justify-center gap-0.5 press tap-none font-body font-bold select-none';
@@ -51,6 +55,8 @@ function PadKey({
       whileTap={disabled ? {} : { scale: 0.93 }}
       onClick={onClick}
       disabled={disabled}
+      title={title}
+      aria-label={ariaLabel}
       className={base}
       style={{
         ...styles[variant],
@@ -199,6 +205,8 @@ export default function AdminLogin() {
             label={<Delete className="w-4 h-4" />}
             onClick={handleBackspace}
             variant="action"
+            title="Backspace"
+            ariaLabel="Backspace"
           />
           <PadKey label="0" onClick={() => handleNumber('0')} />
           <PadKey
@@ -210,6 +218,8 @@ export default function AdminLogin() {
             onClick={handleEnter}
             variant="confirm"
             disabled={pin.length !== 6}
+            title="Confirm"
+            ariaLabel="Confirm PIN"
           />
         </div>
 

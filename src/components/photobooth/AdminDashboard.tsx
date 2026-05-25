@@ -51,7 +51,7 @@ function SectionHeader({ title, onRefresh }: { title: string; onRefresh?: () => 
       <span className="text-[9px] font-bold tracking-[0.35em] text-var(--copper) uppercase font-body">{title}</span>
       <div className="flex-1 h-px" style={{ background: 'rgba(29,39,64,0.6)' }} />
       {onRefresh && (
-        <button onClick={onRefresh} className="text-[#7687a1] hover:text-var(--copper) tap-none press" style={{ transition: 'color 180ms cubic-bezier(0.33, 1, 0.68, 1)' }}>
+        <button onClick={onRefresh} title="Refresh" aria-label="Refresh" className="text-[#7687a1] hover:text-var(--copper) tap-none press" style={{ transition: 'color 180ms cubic-bezier(0.33, 1, 0.68, 1)' }}>
           <RefreshCw className="w-3.5 h-3.5" />
         </button>
       )}
@@ -107,10 +107,9 @@ export default function AdminDashboard() {
   }, []);
 
   useEffect(() => { 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     const init = async () => { await fetchAllData(); };
     init();
-  }, []);
+  }, [fetchAllData]);
 
   const startCamera = useCallback(async () => {
     try {
@@ -193,6 +192,8 @@ export default function AdminDashboard() {
         {/* Logout */}
         <button
           onClick={handleLogout}
+          title={t('Keluar', 'Logout')}
+          aria-label={t('Keluar', 'Logout')}
           className="flex items-center gap-1.5 text-[11px] font-body font-semibold text-[#7687a1] hover:text-[#d94040] tap-none press"
           style={{ transition: 'color 180ms cubic-bezier(0.33, 1, 0.68, 1)' }}
         >
@@ -518,27 +519,33 @@ export default function AdminDashboard() {
                 <SectionHeader title={t('Pengaturan Acara', 'Event Settings')} />
                 <div className="space-y-4 max-w-sm">
                   <div>
-                    <label className="block text-[10px] tracking-[0.2em] text-[#7687a1] font-bold uppercase mb-2">
+                    <label htmlFor="event-title-input" className="block text-[10px] tracking-[0.2em] text-[#7687a1] font-bold uppercase mb-2">
                       Event Title
                     </label>
                     <input
+                      id="event-title-input"
                       type="text"
                       value={eventBranding.title}
                       onChange={(e) => setEventBranding({ ...eventBranding, title: e.target.value })}
                       className="w-full bg-[#0a0e1c] border border-[rgba(29,39,64,0.8)] text-[#f1f4fb] text-sm px-4 py-3 focus:outline-none focus:border-var(--copper) font-body"
                       placeholder="AI.PHOTOBOOTH"
+                      title="Event Title"
+                      aria-label="Event Title"
                     />
                   </div>
                   <div>
-                    <label className="block text-[10px] tracking-[0.2em] text-[#7687a1] font-bold uppercase mb-2">
+                    <label htmlFor="event-subtitle-input" className="block text-[10px] tracking-[0.2em] text-[#7687a1] font-bold uppercase mb-2">
                       Event Subtitle
                     </label>
                     <input
+                      id="event-subtitle-input"
                       type="text"
                       value={eventBranding.subtitle}
                       onChange={(e) => setEventBranding({ ...eventBranding, subtitle: e.target.value })}
                       className="w-full bg-[#0a0e1c] border border-[rgba(29,39,64,0.8)] text-[#f1f4fb] text-sm px-4 py-3 focus:outline-none focus:border-var(--copper) font-body"
                       placeholder="Premium AI Edition"
+                      title="Event Subtitle"
+                      aria-label="Event Subtitle"
                     />
                   </div>
                   <p className="text-[10px] text-[#7687a1] italic font-body">

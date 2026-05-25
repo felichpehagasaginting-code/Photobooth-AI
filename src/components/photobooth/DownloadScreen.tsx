@@ -25,6 +25,8 @@ function PhotoReel({ photos, activeIdx, onSelect }: {
         <motion.button
           key={photo.id}
           onClick={() => onSelect(i)}
+          title={`Select Photo ${i + 1}`}
+          aria-label={`Select Photo ${i + 1}`}
           initial={{ opacity: 0, scale: 0.75 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.6 + i * 0.06, ease: [0.34, 1.56, 0.64, 1] }}
@@ -90,6 +92,8 @@ function RatingWidget() {
             onMouseEnter={() => setHovered(i)}
             onMouseLeave={() => setHovered(0)}
             onClick={() => { setRating(i); setSubmitted(true); }}
+            title={`Rate ${i} Star${i > 1 ? 's' : ''}`}
+            aria-label={`Rate ${i} Star${i > 1 ? 's' : ''}`}
             className="tap-none"
           >
             <Star

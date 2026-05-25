@@ -345,7 +345,7 @@ export default function CustomizeScreen() {
         style={{ background: 'radial-gradient(ellipse at center, rgba(43,92,246,0.08) 0%, transparent 70%)' }}
         onClick={() => setSelectedStickerId(null)}
       >
-        <button onClick={() => setStep('processing')} className="absolute top-6 left-6 z-20 w-10 h-10 flex items-center justify-center text-[#7687a1] hover:text-var(--copper) bg-[#0a0e1c] border border-[#1d2740] tap-none transition-colors">
+        <button onClick={() => setStep('processing')} title="Back" aria-label="Back" className="absolute top-6 left-6 z-20 w-10 h-10 flex items-center justify-center text-[#7687a1] hover:text-var(--copper) bg-[#0a0e1c] border border-[#1d2740] tap-none transition-colors">
           <ArrowLeft className="w-5 h-5" />
         </button>
 
@@ -545,6 +545,8 @@ export default function CustomizeScreen() {
                         setStickers(prev => prev.map(s => s.id === selectedStickerId ? { ...s, scale: val } : s));
                       }}
                       className="w-full accent-var(--copper)"
+                      title="Sticker Scale"
+                      aria-label="Sticker Scale"
                     />
                   </div>
 
@@ -565,6 +567,8 @@ export default function CustomizeScreen() {
                         setStickers(prev => prev.map(s => s.id === selectedStickerId ? { ...s, rotation: val } : s));
                       }}
                       className="w-full accent-var(--copper)"
+                      title="Sticker Rotation"
+                      aria-label="Sticker Rotation"
                     />
                   </div>
 
