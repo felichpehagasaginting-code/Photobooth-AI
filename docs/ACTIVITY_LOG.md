@@ -4807,3 +4807,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T20:20:09+07:00** - [Activity #4058] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-05-25T20:49:13+07:00** - [Activity #4059] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-05-25T21:12:50+07:00** - [Activity #4060] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-05-25T21:23:23+07:00** - [Activity #4061] refactor(camera): extract media stream hook into standalone module
