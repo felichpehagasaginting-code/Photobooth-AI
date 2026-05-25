@@ -4782,3 +4782,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T11:00:11+07:00** - [Activity #4033] style(badge): update status indicator badge colors and glow effects
 - **2026-05-25T11:13:41+07:00** - [Activity #4034] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-25T11:42:50+07:00** - [Activity #4035] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-05-25T11:54:32+07:00** - [Activity #4036] feat(share): generate instant QR code for mobile photo download
