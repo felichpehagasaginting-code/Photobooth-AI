@@ -4788,3 +4788,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T13:59:51+07:00** - [Activity #4039] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-25T14:23:25+07:00** - [Activity #4040] refactor(types): consolidate photobooth session type definitions
 - **2026-05-25T14:34:47+07:00** - [Activity #4041] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-05-25T14:35:40+07:00** - [Activity #4042] refactor(events): use custom event bus for decoupled component messaging
