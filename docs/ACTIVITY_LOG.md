@@ -4802,3 +4802,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T17:32:21+07:00** - [Activity #4053] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-25T17:43:28+07:00** - [Activity #4054] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-05-25T19:34:29+07:00** - [Activity #4055] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-05-25T19:52:55+07:00** - [Activity #4056] chore(config): adjust tsconfig path aliases for cleaner imports
