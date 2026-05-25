@@ -10462,3 +10462,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T20:47:38+07:00** - [Activity #5835] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-05-25T21:04:41+07:00** - [Activity #5836] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-25T21:29:04+07:00** - [Activity #5837] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-05-25T21:46:22+07:00** - [Activity #5838] refactor(hooks): create custom useDebounce and useThrottle utilities
