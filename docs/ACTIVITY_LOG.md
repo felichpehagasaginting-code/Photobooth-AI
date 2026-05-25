@@ -10449,3 +10449,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T15:47:58+07:00** - [Activity #5822] feat(analytics): log anonymous capture session completion metrics
 - **2026-05-25T15:54:59+07:00** - [Activity #5823] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-05-25T16:24:55+07:00** - [Activity #5824] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-25T16:38:35+07:00** - [Activity #5825] style(button): add subtle hover transition and outline focus style
