@@ -10450,3 +10450,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T15:54:59+07:00** - [Activity #5823] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-05-25T16:24:55+07:00** - [Activity #5824] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-25T16:38:35+07:00** - [Activity #5825] style(button): add subtle hover transition and outline focus style
+- **2026-05-25T16:39:29+07:00** - [Activity #5826] perf(images): compress intermediate preview thumbnails with WebP format
