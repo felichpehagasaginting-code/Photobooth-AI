@@ -4774,3 +4774,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-24T22:03:36+07:00** - [Activity #4025] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-05-25T09:06:19+07:00** - [Activity #4026] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-05-25T09:18:41+07:00** - [Activity #4027] feat(settings): add camera device selector with resolution fallbacks
+- **2026-05-25T09:40:52+07:00** - [Activity #4028] feat(watermark): customizable event logo watermark overlay
