@@ -4789,3 +4789,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T14:23:25+07:00** - [Activity #4040] refactor(types): consolidate photobooth session type definitions
 - **2026-05-25T14:34:47+07:00** - [Activity #4041] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-05-25T14:35:40+07:00** - [Activity #4042] refactor(events): use custom event bus for decoupled component messaging
+- **2026-05-25T14:54:13+07:00** - [Activity #4043] style(modal): fine-tune cubic-bezier easing curves on open transition
