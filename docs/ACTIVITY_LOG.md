@@ -10460,3 +10460,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T20:12:05+07:00** - [Activity #5833] feat(analytics): log anonymous capture session completion metrics
 - **2026-05-25T20:34:11+07:00** - [Activity #5834] chore(deps): update core dependencies to latest stable versions
 - **2026-05-25T20:47:38+07:00** - [Activity #5835] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-05-25T21:04:41+07:00** - [Activity #5836] perf(fonts): preload display typography to eliminate FOIT delay
