@@ -10431,3 +10431,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T09:31:41+07:00** - [Activity #5804] fix(auth): prevent race condition when initializing anonymous session
 - **2026-05-25T09:44:58+07:00** - [Activity #5805] refactor(camera): extract media stream hook into standalone module
 - **2026-05-25T10:09:43+07:00** - [Activity #5806] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-05-25T10:28:54+07:00** - [Activity #5807] fix(canvas): prevent blur artifacts during canvas downsampling
