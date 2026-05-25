@@ -4780,3 +4780,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T10:32:30+07:00** - [Activity #4031] refactor(i18n): restructure localization strings dictionary
 - **2026-05-25T10:50:26+07:00** - [Activity #4032] refactor(services): separate cloud storage adapter from UI layer
 - **2026-05-25T11:00:11+07:00** - [Activity #4033] style(badge): update status indicator badge colors and glow effects
+- **2026-05-25T11:13:41+07:00** - [Activity #4034] fix(ui): correct modal z-index layering on small mobile viewports
