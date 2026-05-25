@@ -4809,3 +4809,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T21:12:50+07:00** - [Activity #4060] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-05-25T21:23:23+07:00** - [Activity #4061] refactor(camera): extract media stream hook into standalone module
 - **2026-05-25T21:46:44+07:00** - [Activity #4062] fix(audio): unlock audio context on initial user gesture
+- **2026-05-25T22:04:23+07:00** - [Activity #4063] docs(api): document endpoint parameters and error codes for seed route
