@@ -10437,3 +10437,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T11:24:40+07:00** - [Activity #5810] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-05-25T11:34:18+07:00** - [Activity #5811] fix(export): handle canvas taint error when loading external assets
 - **2026-05-25T12:02:38+07:00** - [Activity #5812] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-05-25T12:06:46+07:00** - [Activity #5813] refactor(utils): streamline color conversion and hex parsing helpers
