@@ -10439,3 +10439,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T12:02:38+07:00** - [Activity #5812] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-05-25T12:06:46+07:00** - [Activity #5813] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-05-25T13:52:39+07:00** - [Activity #5814] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-05-25T14:07:22+07:00** - [Activity #5815] refactor(hooks): create custom useDebounce and useThrottle utilities
