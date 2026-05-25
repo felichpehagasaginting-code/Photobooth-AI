@@ -10452,3 +10452,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T16:38:35+07:00** - [Activity #5825] style(button): add subtle hover transition and outline focus style
 - **2026-05-25T16:39:29+07:00** - [Activity #5826] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-05-25T17:07:59+07:00** - [Activity #5827] test(utils): add unit tests for image aspect ratio calculator
+- **2026-05-25T17:12:36+07:00** - [Activity #5828] feat(preset): allow custom framing border selection per session
