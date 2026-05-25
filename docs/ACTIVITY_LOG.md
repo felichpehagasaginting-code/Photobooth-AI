@@ -4800,3 +4800,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T16:54:59+07:00** - [Activity #4051] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-25T17:24:12+07:00** - [Activity #4052] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-05-25T17:32:21+07:00** - [Activity #4053] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-05-25T17:43:28+07:00** - [Activity #4054] docs(testing): describe manual verification steps for photobooth kiosk
