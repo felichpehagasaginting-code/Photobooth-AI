@@ -10442,3 +10442,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T14:07:22+07:00** - [Activity #5815] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-05-25T14:13:14+07:00** - [Activity #5816] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-05-25T14:38:53+07:00** - [Activity #5817] fix(auth): prevent race condition when initializing anonymous session
+- **2026-05-25T14:39:40+07:00** - [Activity #5818] chore(lint): configure ESLint rules for react hooks and accessibility
