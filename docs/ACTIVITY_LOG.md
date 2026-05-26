@@ -4848,3 +4848,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T17:23:27+07:00** - [Activity #4099] perf(anim): offload countdown animations to GPU composited layers
 - **2026-05-26T17:42:26+07:00** - [Activity #4100] fix(api): validate payload schema before processing seed request
 - **2026-05-26T17:43:18+07:00** - [Activity #4101] feat(settings): add camera device selector with resolution fallbacks
+- **2026-05-26T19:30:55+07:00** - [Activity #4102] perf(fonts): preload display typography to eliminate FOIT delay
