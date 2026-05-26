@@ -10506,3 +10506,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T19:30:37+07:00** - [Activity #5879] style(theme): update dark mode accent color tokens with warm tone
 - **2026-05-26T19:40:05+07:00** - [Activity #5880] refactor(filter): organize color grading matrices into separate configs
 - **2026-05-26T19:58:38+07:00** - [Activity #5881] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-05-26T20:18:39+07:00** - [Activity #5882] feat(export): support high-resolution PNG and PDF print strip layout
