@@ -10489,3 +10489,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T14:49:19+07:00** - [Activity #5862] refactor(state): migrate photo session state management to zustand store
 - **2026-05-26T15:11:00+07:00** - [Activity #5863] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-05-26T15:20:55+07:00** - [Activity #5864] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-05-26T15:29:02+07:00** - [Activity #5865] fix(download): resolve blob URL memory leak on repeated downloads
