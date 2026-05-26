@@ -10510,3 +10510,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T20:32:26+07:00** - [Activity #5883] perf(anim): offload countdown animations to GPU composited layers
 - **2026-05-26T20:50:17+07:00** - [Activity #5884] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-05-26T21:08:42+07:00** - [Activity #5885] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-05-26T21:25:08+07:00** - [Activity #5886] fix(camera): prevent stream freeze on rapid device re-plug
