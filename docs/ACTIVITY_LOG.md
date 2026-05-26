@@ -4841,3 +4841,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T16:05:14+07:00** - [Activity #4092] chore(git): add ignore rules for local session exports and temp files
 - **2026-05-26T16:08:46+07:00** - [Activity #4093] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-26T16:20:20+07:00** - [Activity #4094] feat(stickers): support draggable and resizable decorative stickers
+- **2026-05-26T16:45:47+07:00** - [Activity #4095] fix(state): sync active photo index when reopening gallery drawer
