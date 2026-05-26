@@ -4820,3 +4820,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T10:18:46+07:00** - [Activity #4071] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-05-26T10:32:36+07:00** - [Activity #4072] refactor(types): consolidate photobooth session type definitions
 - **2026-05-26T10:47:39+07:00** - [Activity #4073] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-26T11:04:18+07:00** - [Activity #4074] style(photobooth): refine backdrop blur and color contrast for dark mode
