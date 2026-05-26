@@ -4812,3 +4812,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T22:04:23+07:00** - [Activity #4063] docs(api): document endpoint parameters and error codes for seed route
 - **2026-05-25T22:18:26+07:00** - [Activity #4064] feat(audio): add shutter click and countdown sound effects
 - **2026-05-26T09:00:31+07:00** - [Activity #4065] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-05-26T09:12:51+07:00** - [Activity #4066] style(photobooth): refine backdrop blur and color contrast for dark mode
