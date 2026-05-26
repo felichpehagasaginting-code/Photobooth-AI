@@ -4829,3 +4829,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T13:53:51+07:00** - [Activity #4080] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-05-26T14:01:59+07:00** - [Activity #4081] refactor(events): use custom event bus for decoupled component messaging
 - **2026-05-26T14:03:58+07:00** - [Activity #4082] refactor(export): optimize collage rendering algorithm for speed
+- **2026-05-26T14:21:30+07:00** - [Activity #4083] fix(canvas): prevent blur artifacts during canvas downsampling
