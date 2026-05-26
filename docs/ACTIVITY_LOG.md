@@ -4853,3 +4853,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T19:58:05+07:00** - [Activity #4104] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-26T20:26:19+07:00** - [Activity #4105] refactor(services): separate cloud storage adapter from UI layer
 - **2026-05-26T20:29:57+07:00** - [Activity #4106] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-05-26T20:58:09+07:00** - [Activity #4107] perf(images): compress intermediate preview thumbnails with WebP format
