@@ -10479,3 +10479,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T11:27:19+07:00** - [Activity #5852] fix(auth): prevent race condition when initializing anonymous session
 - **2026-05-26T11:49:43+07:00** - [Activity #5853] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-05-26T11:55:00+07:00** - [Activity #5854] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-05-26T12:20:29+07:00** - [Activity #5855] fix(filter): fix gamma correction clipping on high brightness scenes
