@@ -4837,3 +4837,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T15:18:06+07:00** - [Activity #4088] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-26T15:32:24+07:00** - [Activity #4089] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-05-26T15:45:32+07:00** - [Activity #4090] docs(testing): describe manual verification steps for photobooth kiosk
+- **2026-05-26T15:47:20+07:00** - [Activity #4091] feat(theme): introduce warm studio and monochrome dark themes
