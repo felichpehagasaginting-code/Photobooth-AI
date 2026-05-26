@@ -10513,3 +10513,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T21:25:08+07:00** - [Activity #5886] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-05-26T21:44:38+07:00** - [Activity #5887] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-05-26T21:50:37+07:00** - [Activity #5888] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-05-26T22:12:45+07:00** - [Activity #5889] fix(canvas): prevent blur artifacts during canvas downsampling
