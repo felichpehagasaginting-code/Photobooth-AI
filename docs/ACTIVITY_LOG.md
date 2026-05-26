@@ -4817,3 +4817,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T09:48:35+07:00** - [Activity #4068] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-26T09:49:58+07:00** - [Activity #4069] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-26T10:12:46+07:00** - [Activity #4070] test(hooks): add test suite for camera stream lifecycle events
+- **2026-05-26T10:18:46+07:00** - [Activity #4071] fix(accessibility): add missing aria-labels to icon action buttons
