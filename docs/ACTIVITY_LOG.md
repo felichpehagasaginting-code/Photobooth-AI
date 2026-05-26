@@ -4833,3 +4833,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T14:32:40+07:00** - [Activity #4084] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-26T14:41:22+07:00** - [Activity #4085] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-05-26T15:01:57+07:00** - [Activity #4086] fix(download): resolve blob URL memory leak on repeated downloads
+- **2026-05-26T15:02:35+07:00** - [Activity #4087] fix(qr): adjust QR code contrast ratio for low-light scanning
