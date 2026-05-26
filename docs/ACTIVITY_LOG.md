@@ -4827,3 +4827,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T11:57:05+07:00** - [Activity #4078] chore(git): add ignore rules for local session exports and temp files
 - **2026-05-26T12:14:50+07:00** - [Activity #4079] feat(audio): add shutter click and countdown sound effects
 - **2026-05-26T13:53:51+07:00** - [Activity #4080] docs(testing): describe manual verification steps for photobooth kiosk
+- **2026-05-26T14:01:59+07:00** - [Activity #4081] refactor(events): use custom event bus for decoupled component messaging
