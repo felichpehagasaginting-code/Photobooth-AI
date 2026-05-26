@@ -10473,3 +10473,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T10:11:10+07:00** - [Activity #5846] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-26T10:16:09+07:00** - [Activity #5847] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-05-26T10:41:12+07:00** - [Activity #5848] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-05-26T10:52:13+07:00** - [Activity #5849] chore(ci): adjust GitHub Actions caching for faster test execution
