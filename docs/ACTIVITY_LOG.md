@@ -10502,3 +10502,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T17:24:44+07:00** - [Activity #5875] style(theme): update dark mode accent color tokens with warm tone
 - **2026-05-26T17:24:48+07:00** - [Activity #5876] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-05-26T17:42:55+07:00** - [Activity #5877] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-05-26T17:51:55+07:00** - [Activity #5878] docs(deploy): add production deployment instructions for Vercel/Docker
