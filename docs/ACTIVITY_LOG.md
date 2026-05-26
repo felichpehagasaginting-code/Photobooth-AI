@@ -4838,3 +4838,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T15:32:24+07:00** - [Activity #4089] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-05-26T15:45:32+07:00** - [Activity #4090] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-05-26T15:47:20+07:00** - [Activity #4091] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-05-26T16:05:14+07:00** - [Activity #4092] chore(git): add ignore rules for local session exports and temp files
