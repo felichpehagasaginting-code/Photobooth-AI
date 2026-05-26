@@ -4815,3 +4815,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T09:12:51+07:00** - [Activity #4066] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-05-26T09:27:04+07:00** - [Activity #4067] refactor(i18n): restructure localization strings dictionary
 - **2026-05-26T09:48:35+07:00** - [Activity #4068] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-26T09:49:58+07:00** - [Activity #4069] perf(fonts): preload display typography to eliminate FOIT delay
