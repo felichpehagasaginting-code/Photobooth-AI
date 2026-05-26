@@ -4857,3 +4857,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T21:00:46+07:00** - [Activity #4108] style(theme): update dark mode accent color tokens with warm tone
 - **2026-05-26T21:22:12+07:00** - [Activity #4109] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-05-26T21:39:41+07:00** - [Activity #4110] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-05-26T22:02:23+07:00** - [Activity #4111] style(badge): update status indicator badge colors and glow effects
