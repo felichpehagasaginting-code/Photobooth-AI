@@ -10469,3 +10469,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T09:17:20+07:00** - [Activity #5842] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-26T09:33:01+07:00** - [Activity #5843] feat(cloud): async upload queue for batch photo backup
 - **2026-05-26T09:47:39+07:00** - [Activity #5844] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-05-26T10:00:16+07:00** - [Activity #5845] style(modal): fine-tune cubic-bezier easing curves on open transition
