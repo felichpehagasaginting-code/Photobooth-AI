@@ -4822,3 +4822,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T10:47:39+07:00** - [Activity #4073] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-26T11:04:18+07:00** - [Activity #4074] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-05-26T11:20:48+07:00** - [Activity #4075] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-05-26T11:39:58+07:00** - [Activity #4076] refactor(styles): migrate hardcoded color values to CSS design tokens
