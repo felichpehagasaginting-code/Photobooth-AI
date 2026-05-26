@@ -10466,3 +10466,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-25T22:05:41+07:00** - [Activity #5839] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-05-25T22:26:39+07:00** - [Activity #5840] perf(memory): dispose cached image objects after strip generation
 - **2026-05-26T09:07:47+07:00** - [Activity #5841] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-05-26T09:17:20+07:00** - [Activity #5842] test(canvas): add snapshot tests for multi-frame collage layouts
