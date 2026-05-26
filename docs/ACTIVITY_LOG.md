@@ -10484,3 +10484,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T13:56:32+07:00** - [Activity #5857] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-26T14:10:49+07:00** - [Activity #5858] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-05-26T14:20:03+07:00** - [Activity #5859] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-05-26T14:21:39+07:00** - [Activity #5860] docs(changelog): update version history and release milestones
