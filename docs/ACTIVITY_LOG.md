@@ -10514,3 +10514,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T21:44:38+07:00** - [Activity #5887] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-05-26T21:50:37+07:00** - [Activity #5888] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-05-26T22:12:45+07:00** - [Activity #5889] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-05-26T22:24:43+07:00** - [Activity #5890] feat(settings): add camera device selector with resolution fallbacks
