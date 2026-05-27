@@ -4894,3 +4894,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T20:51:49+07:00** - [Activity #4145] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-05-27T21:17:01+07:00** - [Activity #4146] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-05-27T21:44:16+07:00** - [Activity #4147] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-05-27T22:06:48+07:00** - [Activity #4148] docs(comments): add inline JSDoc comments to image processing helpers
