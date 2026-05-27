@@ -10517,3 +10517,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-26T22:24:43+07:00** - [Activity #5890] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-27T09:07:14+07:00** - [Activity #5891] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-27T09:16:25+07:00** - [Activity #5892] refactor(api): modularize backend route handlers and validation utils
+- **2026-05-27T09:31:56+07:00** - [Activity #5893] fix(accessibility): add missing aria-labels to icon action buttons
