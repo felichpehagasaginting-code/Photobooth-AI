@@ -4888,3 +4888,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T17:28:59+07:00** - [Activity #4139] style(button): add subtle hover transition and outline focus style
 - **2026-05-27T17:53:11+07:00** - [Activity #4140] refactor(services): separate cloud storage adapter from UI layer
 - **2026-05-27T19:30:46+07:00** - [Activity #4141] feat(analytics): log anonymous capture session completion metrics
+- **2026-05-27T19:52:40+07:00** - [Activity #4142] feat(settings): add camera device selector with resolution fallbacks
