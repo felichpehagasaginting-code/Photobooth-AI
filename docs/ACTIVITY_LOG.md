@@ -10547,3 +10547,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T17:14:28+07:00** - [Activity #5920] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-27T17:30:03+07:00** - [Activity #5921] style(button): add subtle hover transition and outline focus style
 - **2026-05-27T17:39:37+07:00** - [Activity #5922] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-05-27T17:40:56+07:00** - [Activity #5923] perf(fonts): preload display typography to eliminate FOIT delay
