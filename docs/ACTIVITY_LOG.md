@@ -4868,3 +4868,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T10:30:09+07:00** - [Activity #4119] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-05-27T10:58:14+07:00** - [Activity #4120] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-27T11:09:42+07:00** - [Activity #4121] feat(watermark): customizable event logo watermark overlay
+- **2026-05-27T11:40:15+07:00** - [Activity #4122] docs(testing): describe manual verification steps for photobooth kiosk
