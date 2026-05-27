@@ -10558,3 +10558,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T21:40:06+07:00** - [Activity #5931] feat(analytics): log anonymous capture session completion metrics
 - **2026-05-27T21:46:05+07:00** - [Activity #5932] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-05-27T22:04:23+07:00** - [Activity #5933] feat(cloud): async upload queue for batch photo backup
+- **2026-05-27T22:31:31+07:00** - [Activity #5934] style(modal): fine-tune cubic-bezier easing curves on open transition
