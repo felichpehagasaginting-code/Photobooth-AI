@@ -10525,3 +10525,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T10:50:37+07:00** - [Activity #5898] fix(export): handle canvas taint error when loading external assets
 - **2026-05-27T11:15:48+07:00** - [Activity #5899] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-05-27T11:32:01+07:00** - [Activity #5900] chore(deps): update core dependencies to latest stable versions
+- **2026-05-27T11:37:25+07:00** - [Activity #5901] chore(git): add ignore rules for local session exports and temp files
