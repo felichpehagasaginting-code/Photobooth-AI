@@ -4873,3 +4873,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T12:14:21+07:00** - [Activity #4124] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-27T13:46:26+07:00** - [Activity #4125] style(cards): apply subtle border gradient and elevation shadows
 - **2026-05-27T14:07:17+07:00** - [Activity #4126] feat(watermark): customizable event logo watermark overlay
+- **2026-05-27T14:08:00+07:00** - [Activity #4127] fix(auth): prevent race condition when initializing anonymous session
