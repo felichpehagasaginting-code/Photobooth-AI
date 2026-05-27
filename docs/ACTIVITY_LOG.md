@@ -4879,3 +4879,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T15:07:23+07:00** - [Activity #4130] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-05-27T15:25:12+07:00** - [Activity #4131] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-05-27T15:34:25+07:00** - [Activity #4132] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-05-27T15:49:08+07:00** - [Activity #4133] fix(ui): correct modal z-index layering on small mobile viewports
