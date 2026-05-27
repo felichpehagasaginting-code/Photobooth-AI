@@ -10523,3 +10523,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T10:23:28+07:00** - [Activity #5896] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-05-27T10:32:18+07:00** - [Activity #5897] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-05-27T10:50:37+07:00** - [Activity #5898] fix(export): handle canvas taint error when loading external assets
+- **2026-05-27T11:15:48+07:00** - [Activity #5899] fix(filter): fix gamma correction clipping on high brightness scenes
