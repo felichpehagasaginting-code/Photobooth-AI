@@ -4886,3 +4886,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T17:02:42+07:00** - [Activity #4137] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-27T17:04:58+07:00** - [Activity #4138] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-05-27T17:28:59+07:00** - [Activity #4139] style(button): add subtle hover transition and outline focus style
+- **2026-05-27T17:53:11+07:00** - [Activity #4140] refactor(services): separate cloud storage adapter from UI layer
