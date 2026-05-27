@@ -10556,3 +10556,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T21:00:21+07:00** - [Activity #5929] perf(anim): offload countdown animations to GPU composited layers
 - **2026-05-27T21:10:19+07:00** - [Activity #5930] feat(stickers): support draggable and resizable decorative stickers
 - **2026-05-27T21:40:06+07:00** - [Activity #5931] feat(analytics): log anonymous capture session completion metrics
+- **2026-05-27T21:46:05+07:00** - [Activity #5932] feat(kiosk): add full-screen lock and inactivity reset timer
