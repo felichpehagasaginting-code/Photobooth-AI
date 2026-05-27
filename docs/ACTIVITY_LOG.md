@@ -4885,3 +4885,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T16:35:45+07:00** - [Activity #4136] feat(preset): allow custom framing border selection per session
 - **2026-05-27T17:02:42+07:00** - [Activity #4137] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-27T17:04:58+07:00** - [Activity #4138] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-05-27T17:28:59+07:00** - [Activity #4139] style(button): add subtle hover transition and outline focus style
