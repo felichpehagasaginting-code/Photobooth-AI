@@ -10540,3 +10540,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T15:42:17+07:00** - [Activity #5913] fix(audio): unlock audio context on initial user gesture
 - **2026-05-27T15:55:16+07:00** - [Activity #5914] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-05-27T16:08:03+07:00** - [Activity #5915] feat(print): integrate direct thermal printer web serial interface
+- **2026-05-27T16:12:19+07:00** - [Activity #5916] feat(camera): add dynamic exposure and focus adjustment controls
