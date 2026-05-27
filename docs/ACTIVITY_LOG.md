@@ -10527,3 +10527,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T11:32:01+07:00** - [Activity #5900] chore(deps): update core dependencies to latest stable versions
 - **2026-05-27T11:37:25+07:00** - [Activity #5901] chore(git): add ignore rules for local session exports and temp files
 - **2026-05-27T12:03:17+07:00** - [Activity #5902] fix(auth): prevent race condition when initializing anonymous session
+- **2026-05-27T12:21:42+07:00** - [Activity #5903] docs(arch): add architecture diagram explaining client-side filter flow
