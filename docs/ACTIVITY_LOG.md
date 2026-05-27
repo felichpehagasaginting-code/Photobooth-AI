@@ -4866,3 +4866,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T10:00:33+07:00** - [Activity #4117] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-05-27T10:17:53+07:00** - [Activity #4118] style(button): add subtle hover transition and outline focus style
 - **2026-05-27T10:30:09+07:00** - [Activity #4119] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-05-27T10:58:14+07:00** - [Activity #4120] refactor(ui): extract reusable glass-panel and badge components
