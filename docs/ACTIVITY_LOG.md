@@ -4892,3 +4892,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T20:05:03+07:00** - [Activity #4143] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-27T20:36:44+07:00** - [Activity #4144] feat(watermark): customizable event logo watermark overlay
 - **2026-05-27T20:51:49+07:00** - [Activity #4145] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-05-27T21:17:01+07:00** - [Activity #4146] fix(accessibility): add missing aria-labels to icon action buttons
