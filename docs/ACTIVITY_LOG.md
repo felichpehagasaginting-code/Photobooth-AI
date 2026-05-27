@@ -10544,3 +10544,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T16:39:33+07:00** - [Activity #5917] chore(deps): update core dependencies to latest stable versions
 - **2026-05-27T16:45:00+07:00** - [Activity #5918] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-05-27T17:03:28+07:00** - [Activity #5919] refactor(ui): extract reusable glass-panel and badge components
+- **2026-05-27T17:14:28+07:00** - [Activity #5920] fix(ui): correct modal z-index layering on small mobile viewports
