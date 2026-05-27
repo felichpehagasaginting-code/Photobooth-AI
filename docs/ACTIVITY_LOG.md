@@ -10542,3 +10542,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T16:08:03+07:00** - [Activity #5915] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-27T16:12:19+07:00** - [Activity #5916] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-05-27T16:39:33+07:00** - [Activity #5917] chore(deps): update core dependencies to latest stable versions
+- **2026-05-27T16:45:00+07:00** - [Activity #5918] fix(camera): prevent stream freeze on rapid device re-plug
