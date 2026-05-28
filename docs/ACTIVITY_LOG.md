@@ -10593,3 +10593,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T16:55:40+07:00** - [Activity #5966] test(hooks): add test suite for camera stream lifecycle events
 - **2026-05-28T17:20:37+07:00** - [Activity #5967] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-28T17:27:31+07:00** - [Activity #5968] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-28T17:45:13+07:00** - [Activity #5969] feat(audio): add shutter click and countdown sound effects
