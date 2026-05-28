@@ -4908,3 +4908,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T11:20:03+07:00** - [Activity #4159] refactor(types): consolidate photobooth session type definitions
 - **2026-05-28T11:46:59+07:00** - [Activity #4160] style(button): add subtle hover transition and outline focus style
 - **2026-05-28T11:53:41+07:00** - [Activity #4161] chore(build): optimize Vite build chunks and asset minification settings
+- **2026-05-28T12:06:58+07:00** - [Activity #4162] docs(deploy): add production deployment instructions for Vercel/Docker
