@@ -10571,3 +10571,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T11:08:13+07:00** - [Activity #5944] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-05-28T11:36:28+07:00** - [Activity #5945] fix(firebase): handle network timeout retry in transaction hook
 - **2026-05-28T11:39:22+07:00** - [Activity #5946] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-05-28T12:02:20+07:00** - [Activity #5947] style(theme): update dark mode accent color tokens with warm tone
