@@ -10600,3 +10600,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T20:10:52+07:00** - [Activity #5973] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-05-28T20:23:51+07:00** - [Activity #5974] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-28T20:30:31+07:00** - [Activity #5975] feat(preset): allow custom framing border selection per session
+- **2026-05-28T20:55:15+07:00** - [Activity #5976] fix(qr): adjust QR code contrast ratio for low-light scanning
