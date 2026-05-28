@@ -4897,3 +4897,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-27T22:06:48+07:00** - [Activity #4148] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-05-27T22:29:50+07:00** - [Activity #4149] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-05-28T09:00:48+07:00** - [Activity #4150] refactor(api): modularize backend route handlers and validation utils
+- **2026-05-28T09:22:11+07:00** - [Activity #4151] fix(camera): prevent stream freeze on rapid device re-plug
