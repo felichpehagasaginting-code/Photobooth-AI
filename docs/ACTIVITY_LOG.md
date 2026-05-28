@@ -4938,3 +4938,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T21:19:23+07:00** - [Activity #4189] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-05-28T21:36:11+07:00** - [Activity #4190] refactor(api): modularize backend route handlers and validation utils
 - **2026-05-28T21:53:38+07:00** - [Activity #4191] style(badge): update status indicator badge colors and glow effects
+- **2026-05-28T22:11:12+07:00** - [Activity #4192] fix(state): sync active photo index when reopening gallery drawer
