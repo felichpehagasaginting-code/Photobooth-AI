@@ -4927,3 +4927,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T16:59:28+07:00** - [Activity #4178] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-05-28T17:12:53+07:00** - [Activity #4179] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-05-28T17:20:31+07:00** - [Activity #4180] feat(cloud): async upload queue for batch photo backup
+- **2026-05-28T17:27:02+07:00** - [Activity #4181] test(canvas): add snapshot tests for multi-frame collage layouts
