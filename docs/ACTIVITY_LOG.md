@@ -10589,3 +10589,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T16:10:29+07:00** - [Activity #5962] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-28T16:29:16+07:00** - [Activity #5963] docs(env): document all required environment variables with defaults
 - **2026-05-28T16:34:05+07:00** - [Activity #5964] feat(analytics): log anonymous capture session completion metrics
+- **2026-05-28T16:53:59+07:00** - [Activity #5965] refactor(styles): migrate hardcoded color values to CSS design tokens
