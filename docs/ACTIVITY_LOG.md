@@ -4932,3 +4932,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T19:33:24+07:00** - [Activity #4183] chore(git): add ignore rules for local session exports and temp files
 - **2026-05-28T19:41:42+07:00** - [Activity #4184] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-28T20:10:40+07:00** - [Activity #4185] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-05-28T20:15:22+07:00** - [Activity #4186] docs(comments): add inline JSDoc comments to image processing helpers
