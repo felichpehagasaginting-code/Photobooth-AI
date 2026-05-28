@@ -10567,3 +10567,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T10:11:10+07:00** - [Activity #5940] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-05-28T10:30:06+07:00** - [Activity #5941] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-05-28T10:38:59+07:00** - [Activity #5942] refactor(camera): extract media stream hook into standalone module
+- **2026-05-28T10:55:12+07:00** - [Activity #5943] style(theme): update dark mode accent color tokens with warm tone
