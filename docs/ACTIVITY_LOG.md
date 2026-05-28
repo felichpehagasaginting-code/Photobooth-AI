@@ -4916,3 +4916,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T14:39:25+07:00** - [Activity #4167] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-28T14:42:38+07:00** - [Activity #4168] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-05-28T15:07:27+07:00** - [Activity #4169] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-05-28T15:20:26+07:00** - [Activity #4170] fix(export): handle canvas taint error when loading external assets
