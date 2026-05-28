@@ -4911,3 +4911,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T12:06:58+07:00** - [Activity #4162] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-05-28T13:46:33+07:00** - [Activity #4163] style(button): add subtle hover transition and outline focus style
 - **2026-05-28T13:48:52+07:00** - [Activity #4164] refactor(state): migrate photo session state management to zustand store
+- **2026-05-28T14:11:59+07:00** - [Activity #4165] perf(dom): virtualize gallery list items for smooth 60fps scrolling
