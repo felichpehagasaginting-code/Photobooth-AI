@@ -10605,3 +10605,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T21:23:44+07:00** - [Activity #5978] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-05-28T21:34:20+07:00** - [Activity #5979] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-05-28T21:50:53+07:00** - [Activity #5980] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-05-28T22:10:55+07:00** - [Activity #5981] feat(settings): add camera device selector with resolution fallbacks
