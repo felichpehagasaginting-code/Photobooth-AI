@@ -4900,3 +4900,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T09:22:11+07:00** - [Activity #4151] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-05-28T09:36:07+07:00** - [Activity #4152] test(hooks): add test suite for camera stream lifecycle events
 - **2026-05-28T09:46:17+07:00** - [Activity #4153] chore(deps): update core dependencies to latest stable versions
+- **2026-05-28T10:08:34+07:00** - [Activity #4154] fix(export): handle canvas taint error when loading external assets
