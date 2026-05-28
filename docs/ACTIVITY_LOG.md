@@ -10594,3 +10594,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T17:20:37+07:00** - [Activity #5967] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-28T17:27:31+07:00** - [Activity #5968] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-05-28T17:45:13+07:00** - [Activity #5969] feat(audio): add shutter click and countdown sound effects
+- **2026-05-28T17:57:40+07:00** - [Activity #5970] style(theme): update dark mode accent color tokens with warm tone
