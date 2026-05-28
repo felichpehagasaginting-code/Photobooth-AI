@@ -4921,3 +4921,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T15:31:46+07:00** - [Activity #4172] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-05-28T15:53:32+07:00** - [Activity #4173] refactor(state): migrate photo session state management to zustand store
 - **2026-05-28T16:11:26+07:00** - [Activity #4174] style(controls): refine slider track and thumb sizing for touch screens
+- **2026-05-28T16:25:46+07:00** - [Activity #4175] chore(deps): update core dependencies to latest stable versions
