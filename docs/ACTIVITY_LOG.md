@@ -4934,3 +4934,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T20:10:40+07:00** - [Activity #4185] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-05-28T20:15:22+07:00** - [Activity #4186] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-05-28T20:39:05+07:00** - [Activity #4187] chore(git): add ignore rules for local session exports and temp files
+- **2026-05-28T20:51:58+07:00** - [Activity #4188] fix(print): fix page margin clipping on 4x6 photo paper print preview
