@@ -4939,3 +4939,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T21:36:11+07:00** - [Activity #4190] refactor(api): modularize backend route handlers and validation utils
 - **2026-05-28T21:53:38+07:00** - [Activity #4191] style(badge): update status indicator badge colors and glow effects
 - **2026-05-28T22:11:12+07:00** - [Activity #4192] fix(state): sync active photo index when reopening gallery drawer
+- **2026-05-28T22:29:42+07:00** - [Activity #4193] refactor(hooks): create custom useDebounce and useThrottle utilities
