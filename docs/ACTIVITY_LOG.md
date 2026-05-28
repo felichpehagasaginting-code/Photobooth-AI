@@ -10587,3 +10587,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T15:49:22+07:00** - [Activity #5960] refactor(api): modularize backend route handlers and validation utils
 - **2026-05-28T15:59:17+07:00** - [Activity #5961] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-05-28T16:10:29+07:00** - [Activity #5962] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-05-28T16:29:16+07:00** - [Activity #5963] docs(env): document all required environment variables with defaults
