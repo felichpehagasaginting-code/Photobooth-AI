@@ -10565,3 +10565,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T09:52:19+07:00** - [Activity #5938] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-05-28T10:00:08+07:00** - [Activity #5939] chore(deps): update core dependencies to latest stable versions
 - **2026-05-28T10:11:10+07:00** - [Activity #5940] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-05-28T10:30:06+07:00** - [Activity #5941] fix(camera): prevent stream freeze on rapid device re-plug
