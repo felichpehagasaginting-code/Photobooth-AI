@@ -4964,3 +4964,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-29T16:57:06+07:00** - [Activity #4215] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-05-29T17:25:34+07:00** - [Activity #4216] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-29T17:42:50+07:00** - [Activity #4217] fix(state): sync active photo index when reopening gallery drawer
+- **2026-05-29T19:30:38+07:00** - [Activity #4218] feat(ui): implement smooth countdown overlay animation before shutter
