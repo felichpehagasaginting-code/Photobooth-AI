@@ -10636,3 +10636,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-29T20:15:13+07:00** - [Activity #6009] refactor(state): migrate photo session state management to zustand store
 - **2026-05-29T20:36:25+07:00** - [Activity #6010] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-05-29T21:00:18+07:00** - [Activity #6011] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-05-29T21:38:46+07:00** - [Activity #6012] style(theme): update dark mode accent color tokens with warm tone
