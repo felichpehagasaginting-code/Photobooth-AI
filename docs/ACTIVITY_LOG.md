@@ -10620,3 +10620,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-29T13:54:39+07:00** - [Activity #5993] refactor(ui): extract reusable glass-panel and badge components
 - **2026-05-29T13:54:44+07:00** - [Activity #5994] feat(settings): add camera device selector with resolution fallbacks
 - **2026-05-29T14:19:24+07:00** - [Activity #5995] perf(render): memoize grid item rendering to prevent redundant cycles
+- **2026-05-29T14:38:13+07:00** - [Activity #5996] feat(ai): integrate edge background removal model
