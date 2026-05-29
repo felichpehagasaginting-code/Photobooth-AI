@@ -4940,3 +4940,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T21:53:38+07:00** - [Activity #4191] style(badge): update status indicator badge colors and glow effects
 - **2026-05-28T22:11:12+07:00** - [Activity #4192] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-28T22:29:42+07:00** - [Activity #4193] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-05-29T09:00:28+07:00** - [Activity #4194] style(cards): apply subtle border gradient and elevation shadows
