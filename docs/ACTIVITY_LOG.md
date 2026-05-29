@@ -10611,3 +10611,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-29T09:17:39+07:00** - [Activity #5984] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-29T09:39:58+07:00** - [Activity #5985] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-05-29T09:57:48+07:00** - [Activity #5986] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-05-29T10:27:55+07:00** - [Activity #5987] feat(print): integrate direct thermal printer web serial interface
