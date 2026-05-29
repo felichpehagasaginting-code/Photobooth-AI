@@ -10624,3 +10624,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-29T14:48:10+07:00** - [Activity #5997] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-29T15:10:45+07:00** - [Activity #5998] docs(changelog): update version history and release milestones
 - **2026-05-29T15:26:04+07:00** - [Activity #5999] feat(cloud): async upload queue for batch photo backup
+- **2026-05-29T15:45:29+07:00** - [Activity #6000] feat(gallery): add touch swipe navigation for captured photo previews
