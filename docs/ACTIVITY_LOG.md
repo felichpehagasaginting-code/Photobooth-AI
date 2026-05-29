@@ -10632,3 +10632,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-29T17:25:46+07:00** - [Activity #6005] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-05-29T17:51:58+07:00** - [Activity #6006] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-05-29T19:30:59+07:00** - [Activity #6007] feat(stickers): support draggable and resizable decorative stickers
+- **2026-05-29T19:59:50+07:00** - [Activity #6008] feat(filter): add cyber-neon and grain texture post-processing overlay
