@@ -10610,3 +10610,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-29T09:00:20+07:00** - [Activity #5983] test(utils): add unit tests for image aspect ratio calculator
 - **2026-05-29T09:17:39+07:00** - [Activity #5984] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-05-29T09:39:58+07:00** - [Activity #5985] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-05-29T09:57:48+07:00** - [Activity #5986] refactor(utils): streamline color conversion and hex parsing helpers
