@@ -4945,3 +4945,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-29T09:39:52+07:00** - [Activity #4196] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-05-29T10:03:42+07:00** - [Activity #4197] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-29T10:26:35+07:00** - [Activity #4198] refactor(events): use custom event bus for decoupled component messaging
+- **2026-05-29T10:45:48+07:00** - [Activity #4199] perf(fonts): preload display typography to eliminate FOIT delay
