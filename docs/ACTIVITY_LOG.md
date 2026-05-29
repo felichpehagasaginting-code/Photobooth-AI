@@ -4947,3 +4947,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-29T10:26:35+07:00** - [Activity #4198] refactor(events): use custom event bus for decoupled component messaging
 - **2026-05-29T10:45:48+07:00** - [Activity #4199] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-05-29T11:09:31+07:00** - [Activity #4200] style(cards): apply subtle border gradient and elevation shadows
+- **2026-05-29T11:32:50+07:00** - [Activity #4201] fix(download): resolve blob URL memory leak on repeated downloads
