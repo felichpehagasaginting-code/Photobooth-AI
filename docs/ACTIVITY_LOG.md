@@ -10614,3 +10614,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-29T10:27:55+07:00** - [Activity #5987] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-29T10:41:19+07:00** - [Activity #5988] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-29T11:11:04+07:00** - [Activity #5989] feat(share): generate instant QR code for mobile photo download
+- **2026-05-29T11:20:49+07:00** - [Activity #5990] style(photobooth): refine backdrop blur and color contrast for dark mode
