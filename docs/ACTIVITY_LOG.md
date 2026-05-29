@@ -4942,3 +4942,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-28T22:29:42+07:00** - [Activity #4193] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-05-29T09:00:28+07:00** - [Activity #4194] style(cards): apply subtle border gradient and elevation shadows
 - **2026-05-29T09:23:36+07:00** - [Activity #4195] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-05-29T09:39:52+07:00** - [Activity #4196] style(photobooth): refine backdrop blur and color contrast for dark mode
