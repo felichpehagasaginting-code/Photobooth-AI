@@ -4961,3 +4961,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-29T16:12:33+07:00** - [Activity #4212] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-05-29T16:21:08+07:00** - [Activity #4213] fix(export): handle canvas taint error when loading external assets
 - **2026-05-29T16:38:53+07:00** - [Activity #4214] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-05-29T16:57:06+07:00** - [Activity #4215] fix(timer): clear interval on component unmount to prevent memory leak
