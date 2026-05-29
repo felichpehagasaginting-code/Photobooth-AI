@@ -10628,3 +10628,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-29T16:15:35+07:00** - [Activity #6001] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-05-29T16:37:10+07:00** - [Activity #6002] feat(analytics): log anonymous capture session completion metrics
 - **2026-05-29T16:55:25+07:00** - [Activity #6003] refactor(api): modularize backend route handlers and validation utils
+- **2026-05-29T16:55:58+07:00** - [Activity #6004] style(cards): apply subtle border gradient and elevation shadows
