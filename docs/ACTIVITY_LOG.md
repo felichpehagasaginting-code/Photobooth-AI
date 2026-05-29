@@ -4958,3 +4958,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-29T15:15:20+07:00** - [Activity #4209] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-05-29T15:24:12+07:00** - [Activity #4210] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-05-29T15:59:08+07:00** - [Activity #4211] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-05-29T16:12:33+07:00** - [Activity #4212] style(modal): fine-tune cubic-bezier easing curves on open transition
