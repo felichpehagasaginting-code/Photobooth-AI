@@ -10645,3 +10645,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-30T11:38:39+07:00** - [Activity #6018] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-05-30T13:47:49+07:00** - [Activity #6019] feat(audio): add shutter click and countdown sound effects
 - **2026-05-30T14:25:18+07:00** - [Activity #6020] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-05-30T15:08:02+07:00** - [Activity #6021] fix(canvas): prevent blur artifacts during canvas downsampling
