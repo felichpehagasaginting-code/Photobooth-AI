@@ -10651,3 +10651,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-30T17:17:28+07:00** - [Activity #6024] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-30T19:36:10+07:00** - [Activity #6025] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-05-30T20:15:00+07:00** - [Activity #6026] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-05-30T21:08:03+07:00** - [Activity #6027] chore(config): adjust tsconfig path aliases for cleaner imports
