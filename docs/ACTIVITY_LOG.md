@@ -10655,3 +10655,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-30T21:51:53+07:00** - [Activity #6028] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-31T09:00:13+07:00** - [Activity #6029] fix(auth): prevent race condition when initializing anonymous session
 - **2026-05-31T09:58:35+07:00** - [Activity #6030] refactor(state): migrate photo session state management to zustand store
+- **2026-05-31T10:44:50+07:00** - [Activity #6031] docs(arch): add architecture diagram explaining client-side filter flow
