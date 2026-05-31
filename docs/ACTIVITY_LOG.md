@@ -4988,3 +4988,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-31T09:00:25+07:00** - [Activity #4239] refactor(camera): extract media stream hook into standalone module
 - **2026-05-31T09:44:41+07:00** - [Activity #4240] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-05-31T10:52:00+07:00** - [Activity #4241] feat(cloud): async upload queue for batch photo backup
+- **2026-05-31T11:40:28+07:00** - [Activity #4242] feat(watermark): customizable event logo watermark overlay
