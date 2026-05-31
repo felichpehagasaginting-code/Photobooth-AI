@@ -10664,3 +10664,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-31T16:44:32+07:00** - [Activity #6037] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-05-31T17:25:33+07:00** - [Activity #6038] feat(print): integrate direct thermal printer web serial interface
 - **2026-05-31T19:30:05+07:00** - [Activity #6039] feat(share): generate instant QR code for mobile photo download
+- **2026-05-31T20:18:12+07:00** - [Activity #6040] feat(gallery): add touch swipe navigation for captured photo previews
