@@ -10653,3 +10653,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-30T20:15:00+07:00** - [Activity #6026] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-05-30T21:08:03+07:00** - [Activity #6027] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-05-30T21:51:53+07:00** - [Activity #6028] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-05-31T09:00:13+07:00** - [Activity #6029] fix(auth): prevent race condition when initializing anonymous session
