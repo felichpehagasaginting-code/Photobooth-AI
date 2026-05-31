@@ -10662,3 +10662,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-31T15:16:52+07:00** - [Activity #6035] docs(env): document all required environment variables with defaults
 - **2026-05-31T15:51:36+07:00** - [Activity #6036] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-05-31T16:44:32+07:00** - [Activity #6037] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-05-31T17:25:33+07:00** - [Activity #6038] feat(print): integrate direct thermal printer web serial interface
