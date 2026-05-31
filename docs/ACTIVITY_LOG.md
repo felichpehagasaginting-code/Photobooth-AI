@@ -4993,3 +4993,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-31T14:31:29+07:00** - [Activity #4244] feat(stickers): support draggable and resizable decorative stickers
 - **2026-05-31T15:18:10+07:00** - [Activity #4245] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-05-31T15:49:21+07:00** - [Activity #4246] style(badge): update status indicator badge colors and glow effects
+- **2026-05-31T16:42:32+07:00** - [Activity #4247] fix(state): sync active photo index when reopening gallery drawer
