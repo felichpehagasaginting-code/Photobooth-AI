@@ -4986,3 +4986,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-30T20:31:13+07:00** - [Activity #4237] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-05-30T21:47:36+07:00** - [Activity #4238] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-05-31T09:00:25+07:00** - [Activity #4239] refactor(camera): extract media stream hook into standalone module
+- **2026-05-31T09:44:41+07:00** - [Activity #4240] perf(api): cache static filter presets with aggressive HTTP headers
