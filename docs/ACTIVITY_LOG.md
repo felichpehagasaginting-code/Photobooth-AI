@@ -4995,3 +4995,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-31T15:49:21+07:00** - [Activity #4246] style(badge): update status indicator badge colors and glow effects
 - **2026-05-31T16:42:32+07:00** - [Activity #4247] fix(state): sync active photo index when reopening gallery drawer
 - **2026-05-31T17:23:16+07:00** - [Activity #4248] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-05-31T19:30:33+07:00** - [Activity #4249] style(cards): apply subtle border gradient and elevation shadows
