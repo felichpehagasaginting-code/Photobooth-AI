@@ -10659,3 +10659,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-31T11:36:31+07:00** - [Activity #6032] fix(audio): unlock audio context on initial user gesture
 - **2026-05-31T13:45:56+07:00** - [Activity #6033] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-05-31T14:31:10+07:00** - [Activity #6034] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-05-31T15:16:52+07:00** - [Activity #6035] docs(env): document all required environment variables with defaults
