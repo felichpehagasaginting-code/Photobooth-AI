@@ -4992,3 +4992,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-31T13:45:40+07:00** - [Activity #4243] perf(memory): dispose cached image objects after strip generation
 - **2026-05-31T14:31:29+07:00** - [Activity #4244] feat(stickers): support draggable and resizable decorative stickers
 - **2026-05-31T15:18:10+07:00** - [Activity #4245] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-05-31T15:49:21+07:00** - [Activity #4246] style(badge): update status indicator badge colors and glow effects
