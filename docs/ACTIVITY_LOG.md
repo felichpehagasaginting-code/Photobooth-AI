@@ -4989,3 +4989,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-31T09:44:41+07:00** - [Activity #4240] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-05-31T10:52:00+07:00** - [Activity #4241] feat(cloud): async upload queue for batch photo backup
 - **2026-05-31T11:40:28+07:00** - [Activity #4242] feat(watermark): customizable event logo watermark overlay
+- **2026-05-31T13:45:40+07:00** - [Activity #4243] perf(memory): dispose cached image objects after strip generation
