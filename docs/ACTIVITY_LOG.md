@@ -5006,3 +5006,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T10:52:25+07:00** - [Activity #4257] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-06-01T11:19:34+07:00** - [Activity #4258] perf(memory): dispose cached image objects after strip generation
 - **2026-06-01T11:40:10+07:00** - [Activity #4259] docs(testing): describe manual verification steps for photobooth kiosk
+- **2026-06-01T12:13:04+07:00** - [Activity #4260] feat(preview): render live filter preview using WebGL shader canvas
