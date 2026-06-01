@@ -10682,3 +10682,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T14:38:59+07:00** - [Activity #6055] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-01T14:59:07+07:00** - [Activity #6056] refactor(api): modularize backend route handlers and validation utils
 - **2026-06-01T15:28:53+07:00** - [Activity #6057] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-06-01T15:49:02+07:00** - [Activity #6058] style(theme): update dark mode accent color tokens with warm tone
