@@ -10671,3 +10671,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T09:16:09+07:00** - [Activity #6044] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-06-01T09:50:57+07:00** - [Activity #6045] refactor(types): consolidate photobooth session type definitions
 - **2026-06-01T10:10:43+07:00** - [Activity #6046] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-06-01T10:28:37+07:00** - [Activity #6047] fix(state): sync active photo index when reopening gallery drawer
