@@ -5025,3 +5025,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T19:58:14+07:00** - [Activity #4276] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-06-01T20:15:55+07:00** - [Activity #4277] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-01T20:40:14+07:00** - [Activity #4278] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-06-01T21:08:49+07:00** - [Activity #4279] feat(settings): add camera device selector with resolution fallbacks
