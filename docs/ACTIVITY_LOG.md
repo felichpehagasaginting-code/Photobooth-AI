@@ -10667,3 +10667,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-31T20:18:12+07:00** - [Activity #6040] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-05-31T21:02:02+07:00** - [Activity #6041] fix(export): handle canvas taint error when loading external assets
 - **2026-05-31T21:57:32+07:00** - [Activity #6042] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-06-01T09:00:29+07:00** - [Activity #6043] fix(camera): prevent stream freeze on rapid device re-plug
