@@ -5007,3 +5007,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T11:19:34+07:00** - [Activity #4258] perf(memory): dispose cached image objects after strip generation
 - **2026-06-01T11:40:10+07:00** - [Activity #4259] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-06-01T12:13:04+07:00** - [Activity #4260] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-06-01T13:53:07+07:00** - [Activity #4261] feat(preview): render live filter preview using WebGL shader canvas
