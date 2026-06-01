@@ -5013,3 +5013,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T14:30:18+07:00** - [Activity #4264] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-01T15:06:30+07:00** - [Activity #4265] chore(deps): update core dependencies to latest stable versions
 - **2026-06-01T15:21:21+07:00** - [Activity #4266] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-06-01T15:25:44+07:00** - [Activity #4267] test(api): add integration test coverage for photo seed endpoint
