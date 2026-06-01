@@ -4998,3 +4998,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-05-31T19:30:33+07:00** - [Activity #4249] style(cards): apply subtle border gradient and elevation shadows
 - **2026-05-31T20:42:47+07:00** - [Activity #4250] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-05-31T21:43:46+07:00** - [Activity #4251] refactor(state): migrate photo session state management to zustand store
+- **2026-06-01T09:06:59+07:00** - [Activity #4252] fix(audio): unlock audio context on initial user gesture
