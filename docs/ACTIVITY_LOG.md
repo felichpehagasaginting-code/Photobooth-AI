@@ -5004,3 +5004,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T10:05:24+07:00** - [Activity #4255] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-01T10:32:14+07:00** - [Activity #4256] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-06-01T10:52:25+07:00** - [Activity #4257] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-06-01T11:19:34+07:00** - [Activity #4258] perf(memory): dispose cached image objects after strip generation
