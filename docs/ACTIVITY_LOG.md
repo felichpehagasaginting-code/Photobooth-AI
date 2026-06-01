@@ -5008,3 +5008,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T11:40:10+07:00** - [Activity #4259] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-06-01T12:13:04+07:00** - [Activity #4260] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-06-01T13:53:07+07:00** - [Activity #4261] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-06-01T14:08:58+07:00** - [Activity #4262] chore(deps): update core dependencies to latest stable versions
