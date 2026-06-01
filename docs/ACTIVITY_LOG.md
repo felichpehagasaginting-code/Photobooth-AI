@@ -5028,3 +5028,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T21:08:49+07:00** - [Activity #4279] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-01T21:38:46+07:00** - [Activity #4280] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-06-01T21:48:38+07:00** - [Activity #4281] chore(git): add ignore rules for local session exports and temp files
+- **2026-06-01T22:16:53+07:00** - [Activity #4282] feat(gallery): add touch swipe navigation for captured photo previews
