@@ -10676,3 +10676,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T11:16:43+07:00** - [Activity #6049] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-06-01T11:36:13+07:00** - [Activity #6050] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-06-01T12:14:53+07:00** - [Activity #6051] docs(api): document endpoint parameters and error codes for seed route
+- **2026-06-01T13:45:30+07:00** - [Activity #6052] docs(readme): add detailed hardware camera setup and compatibility guide
