@@ -5020,3 +5020,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T16:50:43+07:00** - [Activity #4271] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-06-01T17:07:28+07:00** - [Activity #4272] refactor(types): consolidate photobooth session type definitions
 - **2026-06-01T17:27:18+07:00** - [Activity #4273] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-06-01T17:38:34+07:00** - [Activity #4274] chore(config): adjust tsconfig path aliases for cleaner imports
