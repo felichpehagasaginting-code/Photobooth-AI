@@ -10694,3 +10694,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T20:14:36+07:00** - [Activity #6067] test(utils): add unit tests for image aspect ratio calculator
 - **2026-06-01T20:35:34+07:00** - [Activity #6068] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-06-01T21:00:56+07:00** - [Activity #6069] style(button): add subtle hover transition and outline focus style
+- **2026-06-01T21:29:48+07:00** - [Activity #6070] refactor(hooks): create custom useDebounce and useThrottle utilities
