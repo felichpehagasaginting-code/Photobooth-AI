@@ -5015,3 +5015,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T15:21:21+07:00** - [Activity #4266] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-06-01T15:25:44+07:00** - [Activity #4267] test(api): add integration test coverage for photo seed endpoint
 - **2026-06-01T15:57:11+07:00** - [Activity #4268] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-06-01T16:18:28+07:00** - [Activity #4269] fix(camera): prevent stream freeze on rapid device re-plug
