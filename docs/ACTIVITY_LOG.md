@@ -5016,3 +5016,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T15:25:44+07:00** - [Activity #4267] test(api): add integration test coverage for photo seed endpoint
 - **2026-06-01T15:57:11+07:00** - [Activity #4268] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-06-01T16:18:28+07:00** - [Activity #4269] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-06-01T16:29:00+07:00** - [Activity #4270] refactor(services): separate cloud storage adapter from UI layer
