@@ -5027,3 +5027,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T20:40:14+07:00** - [Activity #4278] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-06-01T21:08:49+07:00** - [Activity #4279] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-01T21:38:46+07:00** - [Activity #4280] perf(api): cache static filter presets with aggressive HTTP headers
+- **2026-06-01T21:48:38+07:00** - [Activity #4281] chore(git): add ignore rules for local session exports and temp files
