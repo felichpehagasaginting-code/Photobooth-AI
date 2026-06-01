@@ -10683,3 +10683,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-01T14:59:07+07:00** - [Activity #6056] refactor(api): modularize backend route handlers and validation utils
 - **2026-06-01T15:28:53+07:00** - [Activity #6057] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-06-01T15:49:02+07:00** - [Activity #6058] style(theme): update dark mode accent color tokens with warm tone
+- **2026-06-01T16:11:45+07:00** - [Activity #6059] fix(download): resolve blob URL memory leak on repeated downloads
