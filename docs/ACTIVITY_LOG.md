@@ -5032,3 +5032,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T09:02:05+07:00** - [Activity #4283] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-02T09:25:42+07:00** - [Activity #4284] feat(stickers): support draggable and resizable decorative stickers
 - **2026-06-02T09:41:31+07:00** - [Activity #4285] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-06-02T10:04:11+07:00** - [Activity #4286] docs(arch): add architecture diagram explaining client-side filter flow
