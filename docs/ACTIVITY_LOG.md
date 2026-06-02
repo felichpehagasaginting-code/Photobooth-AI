@@ -5052,3 +5052,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T16:16:23+07:00** - [Activity #4303] feat(cloud): async upload queue for batch photo backup
 - **2026-06-02T16:42:01+07:00** - [Activity #4304] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-06-02T16:54:27+07:00** - [Activity #4305] style(badge): update status indicator badge colors and glow effects
+- **2026-06-02T17:09:57+07:00** - [Activity #4306] refactor(cleanup): remove deprecated legacy camera capture methods
