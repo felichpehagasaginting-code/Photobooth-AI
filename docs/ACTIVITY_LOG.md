@@ -10720,3 +10720,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T15:31:20+07:00** - [Activity #6093] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-06-02T15:39:10+07:00** - [Activity #6094] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-02T15:56:33+07:00** - [Activity #6095] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-06-02T16:15:15+07:00** - [Activity #6096] feat(ai): integrate edge background removal model
