@@ -10706,3 +10706,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T10:37:35+07:00** - [Activity #6079] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-06-02T10:56:09+07:00** - [Activity #6080] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-02T11:24:21+07:00** - [Activity #6081] feat(analytics): log anonymous capture session completion metrics
+- **2026-06-02T11:32:52+07:00** - [Activity #6082] chore(deps): update core dependencies to latest stable versions
