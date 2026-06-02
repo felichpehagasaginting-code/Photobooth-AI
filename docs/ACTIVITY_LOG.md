@@ -10712,3 +10712,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T13:45:00+07:00** - [Activity #6085] feat(watermark): customizable event logo watermark overlay
 - **2026-06-02T14:02:38+07:00** - [Activity #6086] perf(anim): offload countdown animations to GPU composited layers
 - **2026-06-02T14:05:20+07:00** - [Activity #6087] feat(cloud): async upload queue for batch photo backup
+- **2026-06-02T14:30:50+07:00** - [Activity #6088] style(button): add subtle hover transition and outline focus style
