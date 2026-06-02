@@ -10704,3 +10704,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T10:10:57+07:00** - [Activity #6077] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-02T10:24:39+07:00** - [Activity #6078] feat(audio): add shutter click and countdown sound effects
 - **2026-06-02T10:37:35+07:00** - [Activity #6079] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-06-02T10:56:09+07:00** - [Activity #6080] fix(filter): fix gamma correction clipping on high brightness scenes
