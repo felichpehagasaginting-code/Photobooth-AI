@@ -10734,3 +10734,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T20:28:30+07:00** - [Activity #6107] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-02T20:42:55+07:00** - [Activity #6108] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-06-02T21:14:22+07:00** - [Activity #6109] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-06-02T21:20:30+07:00** - [Activity #6110] chore(deps): update core dependencies to latest stable versions
