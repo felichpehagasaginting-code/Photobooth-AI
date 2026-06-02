@@ -5035,3 +5035,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T10:04:11+07:00** - [Activity #4286] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-06-02T10:20:15+07:00** - [Activity #4287] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-06-02T10:45:54+07:00** - [Activity #4288] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-06-02T11:00:54+07:00** - [Activity #4289] refactor(utils): streamline color conversion and hex parsing helpers
