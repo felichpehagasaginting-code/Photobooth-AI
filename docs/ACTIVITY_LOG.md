@@ -5044,3 +5044,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T14:16:00+07:00** - [Activity #4295] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-06-02T14:30:32+07:00** - [Activity #4296] feat(watermark): customizable event logo watermark overlay
 - **2026-06-02T14:39:10+07:00** - [Activity #4297] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-06-02T15:04:38+07:00** - [Activity #4298] fix(filter): fix gamma correction clipping on high brightness scenes
