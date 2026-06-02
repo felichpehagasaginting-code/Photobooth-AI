@@ -10719,3 +10719,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T15:13:38+07:00** - [Activity #6092] fix(api): validate payload schema before processing seed request
 - **2026-06-02T15:31:20+07:00** - [Activity #6093] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-06-02T15:39:10+07:00** - [Activity #6094] feat(settings): add camera device selector with resolution fallbacks
+- **2026-06-02T15:56:33+07:00** - [Activity #6095] fix(storage): add fallback for local storage quota exceeded errors
