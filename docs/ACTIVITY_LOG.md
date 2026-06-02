@@ -10700,3 +10700,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T09:07:58+07:00** - [Activity #6073] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-02T09:22:31+07:00** - [Activity #6074] feat(analytics): log anonymous capture session completion metrics
 - **2026-06-02T09:37:33+07:00** - [Activity #6075] feat(audio): add shutter click and countdown sound effects
+- **2026-06-02T09:54:33+07:00** - [Activity #6076] docs(api): document endpoint parameters and error codes for seed route
