@@ -10710,3 +10710,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T12:00:19+07:00** - [Activity #6083] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-02T12:12:12+07:00** - [Activity #6084] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-06-02T13:45:00+07:00** - [Activity #6085] feat(watermark): customizable event logo watermark overlay
+- **2026-06-02T14:02:38+07:00** - [Activity #6086] perf(anim): offload countdown animations to GPU composited layers
