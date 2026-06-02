@@ -10736,3 +10736,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T21:14:22+07:00** - [Activity #6109] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-06-02T21:20:30+07:00** - [Activity #6110] chore(deps): update core dependencies to latest stable versions
 - **2026-06-02T21:50:32+07:00** - [Activity #6111] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-06-02T21:58:58+07:00** - [Activity #6112] feat(settings): add camera device selector with resolution fallbacks
