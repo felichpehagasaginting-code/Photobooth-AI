@@ -5046,3 +5046,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T14:39:10+07:00** - [Activity #4297] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-06-02T15:04:38+07:00** - [Activity #4298] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-02T15:25:24+07:00** - [Activity #4299] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-06-02T15:32:57+07:00** - [Activity #4300] fix(download): resolve blob URL memory leak on repeated downloads
