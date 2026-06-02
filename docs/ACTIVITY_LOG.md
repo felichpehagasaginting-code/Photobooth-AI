@@ -5059,3 +5059,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T19:54:29+07:00** - [Activity #4310] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-06-02T20:18:23+07:00** - [Activity #4311] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-02T20:37:53+07:00** - [Activity #4312] docs(changelog): update version history and release milestones
+- **2026-06-02T20:57:55+07:00** - [Activity #4313] feat(ui): implement smooth countdown overlay animation before shutter
