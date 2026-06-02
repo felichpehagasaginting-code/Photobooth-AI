@@ -10724,3 +10724,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T16:21:08+07:00** - [Activity #6097] fix(export): handle canvas taint error when loading external assets
 - **2026-06-02T16:45:25+07:00** - [Activity #6098] feat(preset): allow custom framing border selection per session
 - **2026-06-02T17:01:30+07:00** - [Activity #6099] refactor(types): consolidate photobooth session type definitions
+- **2026-06-02T17:01:41+07:00** - [Activity #6100] feat(camera): add dynamic exposure and focus adjustment controls
