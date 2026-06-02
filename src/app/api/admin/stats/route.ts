@@ -12,35 +12,21 @@ export async function GET() {
 
     const [
       totalSessions,
-      paidTransactions,
       todayTransactions,
-      todayPaidTransactions,
-      recentPaidTransactions,
+      recentTransactionsList,
       activeFilters,
       recentTransactions,
     ] = await Promise.all([
       db.transaction.count(),
       db.transaction.findMany({
-        where: { status: 'paid' },
-        select: { amount: true },
-      }),
-      db.transaction.findMany({
         where: { createdAt: { gte: today } },
-        select: { amount: true, status: true },
+        select: { status: true },
       }),
       db.transaction.findMany({
         where: {
-          status: 'paid',
-          paymentTime: { gte: today },
+          createdAt: { gte: sevenDaysAgo },
         },
-        select: { amount: true },
-      }),
-      db.transaction.findMany({
-        where: {
-          status: 'paid',
-          paymentTime: { gte: sevenDaysAgo },
-        },
-        select: { amount: true, paymentTime: true, createdAt: true },
+        select: { createdAt: true },
       }),
       db.filter.count({ where: { active: true } }),
       db.transaction.findMany({
@@ -53,11 +39,9 @@ export async function GET() {
       }),
     ]);
 
-    const totalRevenue = paidTransactions.reduce((sum, t) => sum + t.amount, 0);
     const todaySessions = todayTransactions.length;
-    const todayRevenue = todayPaidTransactions.reduce((sum, t) => sum + t.amount, 0);
 
-    const revenueHistory: { name: string; revenue: number }[] = [];
+    const sessionHistory: { name: string; sessions: number }[] = [];
     const dayNames = ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'];
 
     for (let i = 6; i >= 0; i--) {
@@ -68,25 +52,21 @@ export async function GET() {
       const nextD = new Date(d);
       nextD.setDate(d.getDate() + 1);
 
-      const dayRevenue = recentPaidTransactions
+      const daySessionsCount = recentTransactionsList
         .filter(t => {
-          const time = t.paymentTime || t.createdAt;
-          return time >= d && time < nextD;
-        })
-        .reduce((sum, t) => sum + t.amount, 0);
+          return t.createdAt >= d && t.createdAt < nextD;
+        }).length;
 
-      revenueHistory.push({
+      sessionHistory.push({
         name: dayNames[d.getDay()],
-        revenue: dayRevenue
+        sessions: daySessionsCount
       });
     }
 
     return NextResponse.json({
       totalSessions,
-      totalRevenue,
       todaySessions,
-      todayRevenue,
-      revenueHistory,
+      sessionHistory,
       activeFilters,
       recentTransactions,
     });

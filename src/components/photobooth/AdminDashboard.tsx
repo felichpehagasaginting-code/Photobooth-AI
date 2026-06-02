@@ -84,6 +84,7 @@ export default function AdminDashboard() {
   const [packages, setPackages]         = useState<PackageInfo[]>([]);
   const [filters, setFilters]           = useState<FilterInfo[]>([]);
   const [transactions, setTransactions] = useState<TransactionInfo[]>([]);
+  const [statusFilter, setStatusFilter] = useState<'all' | 'paid' | 'pending' | 'expired'>('all');
 
   const videoRef  = useRef<HTMLVideoElement>(null);
   const streamRef = useRef<MediaStream | null>(null);
@@ -229,17 +230,17 @@ export default function AdminDashboard() {
                 {/* Stats grid — 2×2 with alternating clip-paths */}
                 <div className="grid grid-cols-2 gap-2.5 mb-5">
                   <StatTile label={t('Total Sesi', 'Total Sessions')} value={stats.totalSessions.toString()} accent="var(--copper)" index={0} />
-                  <StatTile label={t('Total Pendapatan', 'Total Revenue')} value={formatPrice(stats.totalRevenue)} accent="var(--amber)" index={1} />
+                  <StatTile label={t('Filter Aktif', 'Active Filters')} value={(stats.activeFilters || filters.filter(f => f.active).length).toString()} accent="var(--amber)" index={1} />
                   <StatTile label={t('Sesi Hari Ini', "Today's Sessions")} value={stats.todaySessions.toString()} accent="#2dd4bf" index={2} />
-                  <StatTile label={t('Pendapatan Hari Ini', "Today's Revenue")} value={formatPrice(stats.todayRevenue)} accent="#f1f4fb" index={3} />
+                  <StatTile label={t('Paket Foto', "Photo Formats")} value={packages.length.toString()} accent="#f1f4fb" index={3} />
                 </div>
 
                 {/* Active filters — full-width accent bar */}
                 <div style={{ background: '#0a0e1c', border: '1px solid rgba(43,92,246,0.2)', padding: '14px 18px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                   <div>
-                    <p className="text-[10px] tracking-[0.25em] uppercase font-body font-bold mb-1" style={{ color: '#7687a1' }}>{t('Filter Aktif', 'Active Filters')}</p>
+                    <p className="text-[10px] tracking-[0.25em] uppercase font-body font-bold mb-1" style={{ color: '#7687a1' }}>{t('Total Opsi Filter', 'Total Filter Options')}</p>
                     <p className="font-display font-black" style={{ fontSize: '2rem', color: '#2dd4bf' }}>
-                      {stats.activeFilters || filters.filter(f => f.active).length}
+                      {filters.length}
                     </p>
                   </div>
                   {/* Visual bar */}
@@ -250,22 +251,22 @@ export default function AdminDashboard() {
                   </div>
                 </div>
 
-                {/* Revenue Chart */}
+                {/* Session Activity Chart */}
                 <div className="mt-5 mb-5 p-5" style={{ background: '#0a0e1c', border: '1px solid rgba(29,39,64,0.8)' }}>
-                  <p className="text-[10px] tracking-[0.25em] uppercase font-body font-bold mb-4" style={{ color: '#7687a1' }}>Tren Pendapatan (7 Hari Terakhir)</p>
+                  <p className="text-[10px] tracking-[0.25em] uppercase font-body font-bold mb-4" style={{ color: '#7687a1' }}>Tren Aktivitas Sesi (7 Hari Terakhir)</p>
                   <div className="h-48 w-full">
                     <ResponsiveContainer width="100%" height="100%">
-                      <AreaChart data={stats.revenueHistory || [
-                        { name: 'Sen', revenue: 0 },
-                        { name: 'Sel', revenue: 0 },
-                        { name: 'Rab', revenue: 0 },
-                        { name: 'Kam', revenue: 0 },
-                        { name: 'Jum', revenue: 0 },
-                        { name: 'Sab', revenue: 0 },
-                        { name: 'Min', revenue: 0 }
+                      <AreaChart data={stats.sessionHistory || [
+                        { name: 'Sen', sessions: 0 },
+                        { name: 'Sel', sessions: 0 },
+                        { name: 'Rab', sessions: 0 },
+                        { name: 'Kam', sessions: 0 },
+                        { name: 'Jum', sessions: 0 },
+                        { name: 'Sab', sessions: 0 },
+                        { name: 'Min', sessions: 0 }
                       ]}>
                         <defs>
-                          <linearGradient id="colorRev" x1="0" y1="0" x2="0" y2="1">
+                          <linearGradient id="colorSessions" x1="0" y1="0" x2="0" y2="1">
                             <stop offset="5%" stopColor="var(--copper)" stopOpacity={0.3}/>
                             <stop offset="95%" stopColor="var(--copper)" stopOpacity={0}/>
                           </linearGradient>
@@ -274,9 +275,9 @@ export default function AdminDashboard() {
                         <Tooltip 
                           contentStyle={{ backgroundColor: '#030611', border: '1px solid rgba(29,39,64,0.8)', borderRadius: 0 }}
                           itemStyle={{ color: 'var(--copper)', fontWeight: 'bold' }}
-                          formatter={(value: number) => formatPrice(value)}
+                          formatter={(value: number) => [value, t('Sesi', 'Sessions')]}
                         />
-                        <Area type="monotone" dataKey="revenue" stroke="var(--copper)" strokeWidth={2} fillOpacity={1} fill="url(#colorRev)" />
+                        <Area type="monotone" dataKey="sessions" stroke="var(--copper)" strokeWidth={2} fillOpacity={1} fill="url(#colorSessions)" />
                       </AreaChart>
                     </ResponsiveContainer>
                   </div>
@@ -285,14 +286,14 @@ export default function AdminDashboard() {
                 {/* Recent transactions — last 3 */}
                 {stats.recentTransactions?.length > 0 && (
                   <div className="mt-5">
-                    <SectionHeader title="Transaksi Terakhir" />
+                    <SectionHeader title={t('Sesi Terakhir', 'Recent Sessions')} />
                     <div className="space-y-2">
                       {stats.recentTransactions.slice(0, 3).map((txn: TransactionInfo) => (
                         <div key={txn.id} className="flex items-center justify-between px-3 py-2.5"
                           style={{ background: '#0a0e1c', border: '1px solid rgba(29,39,64,0.8)' }}
                         >
                           <span className="font-mono text-[11px] text-[#7687a1] font-body">{txn.orderId?.slice(0, 12)}…</span>
-                          <span className="text-[11px] font-bold font-body text-[#f1f4fb]">{formatPrice(txn.amount)}</span>
+                          <span className="text-[11px] font-bold font-body text-[#f1f4fb]">{txn.package?.name || t('Sesi Kustom', 'Custom Session')}</span>
                           <span className="text-[9px] font-bold tracking-[0.15em] uppercase font-body px-2 py-0.5"
                             style={{ color: statusColor[txn.status] || '#7687a1', border: `1px solid ${statusColor[txn.status] || 'rgba(29,39,64,0.8)'}30` }}
                           >
@@ -341,8 +342,8 @@ export default function AdminDashboard() {
                       </div>
                       <p className="text-[12px] text-[#7687a1] font-body mb-3 leading-relaxed">{pkg.description}</p>
                       <div className="flex items-end justify-between">
-                        <span className="font-display font-black" style={{ fontSize: '1.3rem', color: 'var(--copper)' }}>
-                          {formatPrice(pkg.price)}
+                        <span className="font-display font-black text-sm uppercase tracking-wider" style={{ color: 'var(--copper)' }}>
+                          {pkg.price === 0 ? t('Gratis', 'Free') : formatPrice(pkg.price)}
                         </span>
                         <span className="text-[10px] tracking-[0.15em] text-[#7687a1] font-body uppercase">
                           {pkg.filterCount >= 99 ? t('Semua filter', 'All filters') : `${pkg.filterCount} ${t('filter', 'filters')}`}
@@ -404,48 +405,76 @@ export default function AdminDashboard() {
             )}
 
             {/* ── HISTORY TAB ── */}
-            {activeTab === 'history' && (
-              <div>
-                <SectionHeader title={t('Riwayat Transaksi', 'Transaction History')} onRefresh={async () => {
-                  const res = await fetch('/api/admin/transactions');
-                  if (res.ok) { const d = await res.json(); setTransactions(d.transactions || []); }
-                }} />
-                {transactions.length === 0 ? (
-                  <div className="flex flex-col items-center justify-center py-16 gap-3">
-                    <div className="w-10 h-10" style={{ border: '1px solid rgba(29,39,64,0.8)', display: 'flex', alignItems: 'center', justifyRules: 'center' }}>
-                      <History className="w-5 h-5 text-[#7687a1]" />
-                    </div>
-                    <p className="text-[11px] tracking-[0.25em] text-[#7687a1] uppercase font-body">{t('Belum ada transaksi', 'No transactions yet')}</p>
-                  </div>
-                ) : (
-                  <div className="space-y-2">
-                    {/* Column header */}
-                    <div className="grid grid-cols-3 gap-2 px-3 pb-2" style={{ borderBottom: '1px solid rgba(29,39,64,0.6)' }}>
-                      {[t('Order ID', 'Order ID'), t('Jumlah', 'Amount'), t('Status', 'Status')].map(h => (
-                        <span key={h} className="text-[9px] font-bold tracking-[0.3em] uppercase text-[#7687a1] font-body">{h}</span>
-                      ))}
-                    </div>
-                    {transactions.map((txn, i) => (
-                      <motion.div key={txn.id}
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ delay: i * 0.03 }}
-                        className="grid grid-cols-3 gap-2 items-center px-3 py-2.5"
-                        style={{ background: i % 2 === 0 ? '#0a0e1c' : 'transparent', border: '1px solid rgba(29,39,64,0.4)' }}
+            {activeTab === 'history' && (() => {
+              const filteredTxns = transactions.filter(txn => statusFilter === 'all' || txn.status === statusFilter);
+              return (
+                <div>
+                  <SectionHeader title={t('Riwayat Transaksi', 'Transaction History')} onRefresh={async () => {
+                    const res = await fetch('/api/admin/transactions');
+                    if (res.ok) { const d = await res.json(); setTransactions(d.transactions || []); }
+                  }} />
+
+                  {/* Filter tabs */}
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {(['all', 'paid', 'pending', 'expired'] as const).map(status => (
+                      <button
+                        key={status}
+                        onClick={() => setStatusFilter(status)}
+                        className="tap-none press font-body"
+                        style={{
+                          padding: '4px 10px',
+                          fontSize: 9,
+                          fontWeight: 700,
+                          letterSpacing: '0.25em',
+                          textTransform: 'uppercase',
+                          color: statusFilter === status ? '#030611' : '#7687a1',
+                          background: statusFilter === status ? (status === 'all' ? 'var(--copper)' : statusColor[status] || 'var(--copper)') : 'transparent',
+                          border: `1px solid ${statusFilter === status ? (status === 'all' ? 'var(--copper)' : statusColor[status] || 'var(--copper)') : 'rgba(29,39,64,0.6)'}`,
+                          transition: 'all 200ms cubic-bezier(0.33, 1, 0.68, 1)',
+                        }}
                       >
-                        <span className="font-mono text-[11px] text-[#7687a1] font-body truncate">{txn.orderId?.slice(0, 10)}…</span>
-                        <span className="text-[12px] font-bold text-[#f1f4fb] font-body">{formatPrice(txn.amount)}</span>
-                        <span className="text-[9px] font-bold tracking-[0.15em] uppercase font-body"
-                          style={{ color: statusColor[txn.status] || '#7687a1' }}
-                        >
-                          {txn.status}
-                        </span>
-                      </motion.div>
+                        {status}
+                      </button>
                     ))}
                   </div>
-                )}
-              </div>
-            )}
+
+                  {filteredTxns.length === 0 ? (
+                    <div className="flex flex-col items-center justify-center py-16 gap-3">
+                      <div className="w-10 h-10" style={{ border: '1px solid rgba(29,39,64,0.8)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <History className="w-5 h-5 text-[#7687a1]" />
+                      </div>
+                      <p className="text-[11px] tracking-[0.25em] text-[#7687a1] uppercase font-body">{t('Belum ada transaksi', 'No transactions yet')}</p>
+                    </div>
+                  ) : (
+                    <div className="space-y-2">
+                      {/* Column header */}
+                      <div className="grid grid-cols-3 gap-2 px-3 pb-2" style={{ borderBottom: '1px solid rgba(29,39,64,0.6)' }}>
+                        {[t('Order ID', 'Order ID'), t('Format', 'Format'), t('Status', 'Status')].map(h => (
+                          <span key={h} className="text-[9px] font-bold tracking-[0.3em] uppercase text-[#7687a1] font-body">{h}</span>
+                        ))}
+                      </div>
+                      {filteredTxns.map((txn, i) => (
+                        <motion.div key={txn.id}
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          transition={{ delay: i * 0.03 }}
+                          className="grid grid-cols-3 gap-2 items-center px-3 py-2.5"
+                          style={{ background: i % 2 === 0 ? '#0a0e1c' : 'transparent', border: '1px solid rgba(29,39,64,0.4)' }}
+                        >
+                          <span className="font-mono text-[11px] text-[#7687a1] font-body truncate">{txn.orderId?.slice(0, 10)}…</span>
+                          <span className="text-[11px] font-bold text-[#f1f4fb] font-body">{txn.package?.name || t('Sesi Kustom', 'Custom Session')}</span>
+                          <span className="text-[9px] font-bold tracking-[0.15em] uppercase font-body"
+                            style={{ color: statusColor[txn.status] || '#7687a1' }}
+                          >
+                            {txn.status}
+                          </span>
+                        </motion.div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
 
             {/* ── CAMERA TAB ── */}
             {activeTab === 'camera' && (

@@ -4,10 +4,20 @@ import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Palette, Frame, Wand2, Download } from 'lucide-react';
 import { usePhotoboothStore } from '@/store/photobooth';
+import { type TransactionInfo } from '@/types';
 import { FRAME_OPTIONS, FILTER_OPTIONS, drawCustomGrid, type FrameType, type NonAIFilterType } from '@/lib/canvas-effects';
 
 export default function CustomizeScreen() {
-  const { filteredPhotos, setStep, language, addFilteredPhoto, clearFilteredPhotos } = usePhotoboothStore();
+  const { 
+    filteredPhotos, 
+    setStep, 
+    language, 
+    addFilteredPhoto, 
+    clearFilteredPhotos,
+    selectedPackage,
+    setCurrentTransaction,
+    takeCount 
+  } = usePhotoboothStore();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   
   const [activeFrame, setActiveFrame] = useState<FrameType>('classic_strip');
@@ -326,7 +336,78 @@ export default function CustomizeScreen() {
     clearFilteredPhotos();
     addFilteredPhoto({ original: finalDataUrl, filtered: finalDataUrl, filterName: 'Custom Grid', filterId: 'custom' });
     
-    setStep('download');
+    // Create free transaction in the background
+    setIsProcessing(true);
+    const createAndUploadTransaction = async () => {
+      try {
+        const res = await fetch('/api/transactions', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            packageId: selectedPackage?.id || `pkg-${takeCount}`,
+            amount: 0,
+          }),
+        });
+        if (res.ok) {
+          const data = await res.json();
+          const txnId = data.transaction.id;
+          
+          // Mark transaction as paid
+          const payRes = await fetch(`/api/transactions/${txnId}/pay`, {
+            method: 'POST',
+          });
+          const payData = await payRes.json();
+          
+          // Helper to convert base64 to File
+          const dataURLtoFile = (dataurl: string, filename: string): File => {
+            const arr = dataurl.split(',');
+            const mime = arr[0].match(/:(.*?);/)?.[1] || 'image/jpeg';
+            const bstr = atob(arr[1]);
+            let n = bstr.length;
+            const u8arr = new Uint8Array(n);
+            while (n--) {
+              u8arr[n] = bstr.charCodeAt(n);
+            }
+            return new File([u8arr], filename, { type: mime });
+          };
+          
+          // Upload photo
+          const file = dataURLtoFile(finalDataUrl, `filtered_Custom_Grid_${Date.now()}.jpg`);
+          const formData = new FormData();
+          formData.append('transactionId', txnId);
+          formData.append('original', file);
+          formData.append('filtered', file);
+          formData.append('filterName', 'Custom Grid');
+          
+          await fetch('/api/photos/upload', {
+            method: 'POST',
+            body: formData,
+          });
+
+          const transaction: TransactionInfo = {
+            id: payData.transaction.id,
+            orderId: payData.transaction.orderId,
+            packageId: selectedPackage?.id || `pkg-${takeCount}`,
+            amount: 0,
+            status: 'paid',
+            paymentMethod: 'FREE',
+            paymentTime: new Date().toISOString(),
+            filterNames: 'Custom Grid',
+            createdAt: payData.transaction.createdAt,
+            downloadToken: payData.transaction.downloadToken,
+            tokenExpiresAt: payData.transaction.tokenExpiresAt,
+          };
+          setCurrentTransaction(transaction);
+        }
+      } catch (err) {
+        console.error('Error creating transaction:', err);
+      } finally {
+        setIsProcessing(false);
+        setStep('download');
+      }
+    };
+    
+    createAndUploadTransaction();
   };
 
   const selectedSticker = stickers.find(s => s.id === selectedStickerId);

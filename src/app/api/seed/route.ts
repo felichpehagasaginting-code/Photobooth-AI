@@ -23,7 +23,7 @@ export async function GET() {
           {
             name: 'Basic',
             description: '1 AI filter of your choice',
-            price: 15000,
+            price: 0,
             filterCount: 1,
             active: true,
             sortOrder: 1,
@@ -31,7 +31,7 @@ export async function GET() {
           {
             name: 'Standard',
             description: '3 AI filters of your choice',
-            price: 30000,
+            price: 0,
             filterCount: 3,
             active: true,
             sortOrder: 2,
@@ -39,7 +39,7 @@ export async function GET() {
           {
             name: 'Premium',
             description: 'All Access - Use all AI filters',
-            price: 50000,
+            price: 0,
             filterCount: 99,
             active: true,
             sortOrder: 3,

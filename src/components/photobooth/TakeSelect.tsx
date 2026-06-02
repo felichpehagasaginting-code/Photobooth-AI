@@ -41,7 +41,7 @@ function GridSketch({ count, accent, isActive }: { count: TakeCount; accent: str
 }
 
 export default function TakeSelect() {
-  const { setStep, setTakeConfig, takeCount } = usePhotoboothStore();
+  const { setStep, setTakeConfig, takeCount, setSelectedPackage } = usePhotoboothStore();
   const [selected, setSelected] = useState<TakeCount>(takeCount);
   const [hovered, setHovered] = useState<TakeCount | null>(null);
   const [confirmed, setConfirmed] = useState(false);
@@ -55,6 +55,15 @@ export default function TakeSelect() {
     const option = TAKE_OPTIONS.find(o => o.count === selected);
     if (option) {
       setTakeConfig(option.count, option.filtersPerTake);
+      setSelectedPackage({
+        id: `pkg-${option.count}`,
+        name: option.label,
+        description: `Sesi foto ${option.count}x dengan ${option.filtersPerTake} filter AI`,
+        price: option.totalPrice,
+        filterCount: option.filtersPerTake,
+        active: true,
+        sortOrder: option.count === 2 ? 1 : option.count === 4 ? 2 : 3
+      });
       setTimeout(() => setStep('camera'), 600);
     }
   };

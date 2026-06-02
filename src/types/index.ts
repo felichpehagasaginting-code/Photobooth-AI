@@ -9,6 +9,7 @@ export type AppStep =
   | 'filter-select'
   | 'processing'
   | 'customize'
+  | 'payment'
   | 'download'
   | 'admin-login'
   | 'admin-dashboard';
@@ -49,6 +50,7 @@ export interface TransactionInfo {
   id: string;
   orderId: string;
   packageId: string;
+  package?: PackageInfo;
   amount: number;
   status: 'pending' | 'paid' | 'failed' | 'expired' | 'cancelled';
   paymentMethod?: string;
@@ -76,6 +78,7 @@ export interface AdminStats {
   todayRevenue: number;
   activeFilters: number;
   revenueHistory?: { name: string; revenue: number }[];
+  sessionHistory?: { name: string; sessions: number }[];
   recentTransactions: TransactionInfo[];
 }
 

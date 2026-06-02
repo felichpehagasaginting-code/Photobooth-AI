@@ -34,6 +34,7 @@ export async function GET(
       tokenExpiresAt: transaction.tokenExpiresAt,
       filterNames: transaction.filterNames,
       package: transaction.package,
+      photos: transaction.photos,
       photoCount: transaction.photos.length,
       createdAt: transaction.createdAt,
     });

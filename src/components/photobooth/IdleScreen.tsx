@@ -104,7 +104,7 @@ const ORBS = [
 
 const FEATURES = [
   { label: '15+ Frame Layouts', sub: 'Photogrid',  glyph: '◈' },
-  { label: 'QRIS Payment',       sub: 'Instant',   glyph: '◉' },
+  { label: 'Auto G-Drive Sync',  sub: 'Instant Share', glyph: '◉' },
   { label: 'HD Digital Print',   sub: 'Download',  glyph: '◎' },
   { label: 'Gemini AI Engine',   sub: 'Realtime',  glyph: '◇' },
 ];

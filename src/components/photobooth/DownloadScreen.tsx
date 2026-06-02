@@ -291,8 +291,8 @@ export default function DownloadScreen() {
               style={{ background: '#0a0e1c', border: '1px solid rgba(45,212,191,0.12)', borderLeft: '3px solid #2dd4bf' }}
             >
               {[
-                { label: 'Order ID', val: currentTransaction.orderId },
-                { label: 'Status', val: 'Lunas ✓', isGreen: true },
+                { label: t('Order ID', 'Order ID'), val: currentTransaction.orderId },
+                { label: t('Status', 'Status'), val: t('Gratis ✓', 'Free ✓'), isGreen: true },
               ].map(item => (
                 <div key={item.label} className="flex justify-between items-center">
                   <span className="text-[9px] tracking-[0.2em] text-[#7687a1] uppercase font-body">{item.label}</span>

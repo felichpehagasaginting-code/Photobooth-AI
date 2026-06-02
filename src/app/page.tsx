@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { usePhotoboothStore } from '@/store/photobooth';
 import { AnimatePresence, motion } from 'framer-motion';
 import { pageTransitions, slideUpVariants, fadeVariants } from '@/lib/animations';
@@ -15,11 +15,13 @@ import CustomizeScreen from '@/components/photobooth/CustomizeScreen';
 import DownloadScreen from '@/components/photobooth/DownloadScreen';
 import AdminLogin from '@/components/photobooth/AdminLogin';
 import AdminDashboard from '@/components/photobooth/AdminDashboard';
+import RemoteDownloadView from '@/components/photobooth/RemoteDownloadView';
 
 
 
 export default function Home() {
   const { currentStep } = usePhotoboothStore();
+  const [txnId, setTxnId] = useState<string | null>(null);
 
   // Seed the database on mount
   useEffect(() => {
@@ -28,7 +30,19 @@ export default function Home() {
       .catch(() => {
         // Seed API might not exist yet - that's fine
       });
+
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const txn = params.get('txn');
+      if (txn) {
+        setTxnId(txn);
+      }
+    }
   }, []);
+
+  if (txnId) {
+    return <RemoteDownloadView txnId={txnId} />;
+  }
 
   const renderStep = () => {
     switch (currentStep) {

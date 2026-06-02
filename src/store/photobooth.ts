@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import type { AppStep, TakeCount, FilterInfo, TransactionInfo } from '@/types';
+import type { AppStep, TakeCount, FilterInfo, TransactionInfo, PackageInfo } from '@/types';
 
 interface CapturedPhoto {
   original: string; // base64 data URL
@@ -29,6 +29,10 @@ interface PhotoboothState {
   incrementTake: () => void;
   retakeIndex: number | null;
   setRetakeIndex: (index: number | null) => void;
+
+  // Package
+  selectedPackage: PackageInfo | null;
+  setSelectedPackage: (pkg: PackageInfo | null) => void;
 
   // Camera
   capturedPhotos: CapturedPhoto[];
@@ -91,6 +95,10 @@ export const usePhotoboothStore = create<PhotoboothState>((set) => ({
   retakeIndex: null,
   setRetakeIndex: (index) => set({ retakeIndex: index }),
 
+  // Package
+  selectedPackage: null,
+  setSelectedPackage: (pkg) => set({ selectedPackage: pkg }),
+
   // Camera
   capturedPhotos: [],
   addCapturedPhoto: (photo) => set((state) => ({ capturedPhotos: [...state.capturedPhotos, photo] })),
@@ -149,6 +157,7 @@ export const usePhotoboothStore = create<PhotoboothState>((set) => ({
     filtersPerTake: 2,
     currentTake: 1,
     retakeIndex: null,
+    selectedPackage: null,
     capturedPhotos: [],
     selectedFilters: [],
     filteredPhotos: [],
