@@ -10714,3 +10714,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T14:05:20+07:00** - [Activity #6087] feat(cloud): async upload queue for batch photo backup
 - **2026-06-02T14:30:50+07:00** - [Activity #6088] style(button): add subtle hover transition and outline focus style
 - **2026-06-02T14:46:05+07:00** - [Activity #6089] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-06-02T14:47:20+07:00** - [Activity #6090] docs(env): document all required environment variables with defaults
