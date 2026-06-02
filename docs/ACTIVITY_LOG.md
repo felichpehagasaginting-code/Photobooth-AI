@@ -10733,3 +10733,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T20:04:09+07:00** - [Activity #6106] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-06-02T20:28:30+07:00** - [Activity #6107] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-02T20:42:55+07:00** - [Activity #6108] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-06-02T21:14:22+07:00** - [Activity #6109] fix(camera): resolve aspect ratio distortion on ultrawide webcams
