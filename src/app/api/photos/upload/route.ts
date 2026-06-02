@@ -2,6 +2,7 @@ import { db } from '@/lib/db';
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { sseManager } from '@/lib/sse';
 
 export async function POST(request: Request) {
   try {
@@ -72,6 +73,7 @@ export async function POST(request: Request) {
       });
     }
 
+    sseManager.broadcast({ event: 'photo_uploaded', transactionId });
     return NextResponse.json({ photo }, { status: 201 });
   } catch (error) {
     console.error('Photo upload error:', error);

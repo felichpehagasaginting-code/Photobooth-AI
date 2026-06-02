@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, Check, ChevronRight } from 'lucide-react';
 import { usePhotoboothStore } from '@/store/photobooth';
 import { TAKE_OPTIONS, type TakeCount } from '@/types';
+import { audio } from '@/lib/audio';
 
 interface OptionMeta { subtitle: string; tag: string; accent: string; desc: string; icon: string; }
 
@@ -52,6 +53,7 @@ export default function TakeSelect() {
 
   const handleConfirm = () => {
     setConfirmed(true);
+    audio.playChime();
     const option = TAKE_OPTIONS.find(o => o.count === selected);
     if (option) {
       setTakeConfig(option.count, option.filtersPerTake);

@@ -4,6 +4,7 @@ import { useRef, useEffect, useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, FlipHorizontal, Zap } from 'lucide-react';
 import { usePhotoboothStore } from '@/store/photobooth';
+import { audio } from '@/lib/audio';
 
 export default function CameraCapture() {
   const {
@@ -11,6 +12,7 @@ export default function CameraCapture() {
     addCapturedPhoto, language,
     takeCount, currentTake,
     retakeIndex, setRetakeIndex, replaceCapturedPhoto,
+    eventBranding,
   } = usePhotoboothStore();
 
   const videoRef  = useRef<HTMLVideoElement>(null);
@@ -26,28 +28,9 @@ export default function CameraCapture() {
   const t = (id: string, en: string) => (language === 'id' ? id : en);
 
   /* ── Audio SFX ───────────────────────────────────────────────────── */
-  const playBeep = useCallback((freq = 880, type: OscillatorType = 'sine', duration = 0.1) => {
-    try {
-      const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
-      if (!AudioContextClass) return;
-      const ctx = new AudioContextClass();
-      const osc = ctx.createOscillator();
-      const gain = ctx.createGain();
-      osc.type = type;
-      osc.frequency.setValueAtTime(freq, ctx.currentTime);
-      gain.gain.setValueAtTime(0.1, ctx.currentTime);
-      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + duration);
-      osc.connect(gain);
-      gain.connect(ctx.destination);
-      osc.start();
-      osc.stop(ctx.currentTime + duration);
-    } catch { /* ignore audio error */ }
-  }, []);
-
   const playShutter = useCallback(() => {
-    playBeep(400, 'square', 0.05);
-    setTimeout(() => playBeep(200, 'sawtooth', 0.1), 50);
-  }, [playBeep]);
+    audio.playShutter();
+  }, []);
 
   /* ── Capture ─────────────────────────────────────────────────────── */
   const capturePhoto = useCallback(() => {
@@ -152,19 +135,19 @@ export default function CameraCapture() {
 
   useEffect(() => {
     if (currentStep === 'countdown' && countdown === null && !isFlash) {
-      setCountdown(3); // eslint-disable-line react-hooks/set-state-in-effect
+      setCountdown(eventBranding.countdownSec || 3); // eslint-disable-line react-hooks/set-state-in-effect
     }
-  }, [currentStep, countdown, isFlash]);
+  }, [currentStep, countdown, isFlash, eventBranding]);
 
   useEffect(() => {
     if (!countdown || countdown <= 0) return;
-    playBeep(880, 'sine', 0.1); // Beep on every countdown tick
+    audio.playTick(); // Synthesized tick on every second
     const timer = setTimeout(() => {
       if (countdown === 1) { capturePhoto(); setCountdown(null); }
       else setCountdown(countdown - 1);
     }, 1000);
     return () => clearTimeout(timer);
-  }, [countdown, capturePhoto, playBeep]);
+  }, [countdown, capturePhoto]);
 
   /* ── Handlers ────────────────────────────────────────────────────── */
   const handleTakePhoto  = () => setStep('countdown');

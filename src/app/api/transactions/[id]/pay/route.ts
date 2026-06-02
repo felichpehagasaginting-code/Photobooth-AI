@@ -1,6 +1,7 @@
 import { db } from '@/lib/db';
 import { NextResponse } from 'next/server';
 import { randomUUID } from 'crypto';
+import { sseManager } from '@/lib/sse';
 
 export async function POST(
   _request: Request,
@@ -44,6 +45,7 @@ export async function POST(
       },
     });
 
+    sseManager.broadcast({ event: 'transaction_paid', transaction: updated });
     return NextResponse.json({ transaction: updated });
   } catch (error) {
     console.error('Simulate payment error:', error);

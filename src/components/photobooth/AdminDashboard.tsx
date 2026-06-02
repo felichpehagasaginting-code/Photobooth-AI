@@ -112,6 +112,25 @@ export default function AdminDashboard() {
     init();
   }, [fetchAllData]);
 
+  useEffect(() => {
+    const eventSource = new EventSource('/api/admin/live-updates');
+    
+    eventSource.onmessage = (event) => {
+      try {
+        const data = JSON.parse(event.data);
+        if (data.event === 'photo_uploaded' || data.event === 'transaction_paid') {
+          fetchAllData();
+        }
+      } catch {
+        // Heartbeat or malformed messages
+      }
+    };
+
+    return () => {
+      eventSource.close();
+    };
+  }, [fetchAllData]);
+
   const startCamera = useCallback(async () => {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'user', width: { ideal: 640 }, height: { ideal: 480 } }, audio: false });
@@ -577,8 +596,26 @@ export default function AdminDashboard() {
                       aria-label="Event Subtitle"
                     />
                   </div>
+                  <div>
+                    <label htmlFor="event-countdown-input" className="block text-[10px] tracking-[0.2em] text-[#7687a1] font-bold uppercase mb-2">
+                      Countdown (Detik)
+                    </label>
+                    <select
+                      id="event-countdown-input"
+                      value={eventBranding.countdownSec || 3}
+                      onChange={(e) => setEventBranding({ ...eventBranding, countdownSec: parseInt(e.target.value) })}
+                      className="w-full bg-[#0a0e1c] border border-[rgba(29,39,64,0.8)] text-[#f1f4fb] text-sm px-4 py-3 focus:outline-none focus:border-var(--copper) font-body"
+                      title="Countdown"
+                      aria-label="Countdown"
+                    >
+                      <option value="3">3 Detik</option>
+                      <option value="5">5 Detik</option>
+                      <option value="8">8 Detik</option>
+                      <option value="10">10 Detik</option>
+                    </select>
+                  </div>
                   <p className="text-[10px] text-[#7687a1] italic font-body">
-                    * Perubahan ini akan langsung muncul di hasil cetak foto grid.
+                    * Perubahan ini akan langsung disimpan dan disesuaikan pada sistem.
                   </p>
                 </div>
               </div>

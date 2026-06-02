@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Download, Loader2, AlertTriangle, Image as ImageIcon, Sparkles, Send } from 'lucide-react';
+import { Download, Loader2, AlertTriangle, Sparkles, Check, Circle } from 'lucide-react';
+import { audio } from '@/lib/audio';
 
 interface PhotoInfo {
   id: string;
@@ -24,7 +25,7 @@ export default function RemoteDownloadView({ txnId }: { txnId: string; token?: s
   // GDrive state
   const [email, setEmail] = useState('');
   const [shareStatus, setShareStatus] = useState<'idle' | 'processing' | 'success' | 'error'>('idle');
-  const [shareStep, setShareStep] = useState('');
+  const [shareStepIndex, setShareStepIndex] = useState(0);
   const [shareError, setShareError] = useState('');
 
   useEffect(() => {
@@ -65,20 +66,26 @@ export default function RemoteDownloadView({ txnId }: { txnId: string; token?: s
     if (!email) return;
 
     setShareStatus('processing');
-    setShareStep('Menghubungkan ke API Google Drive...');
-
-    // Stagger steps for visually outstanding microinteractions (Awwwards design aesthetic)
-    setTimeout(() => {
-      setShareStep('Mengunggah file foto asli...');
-    }, 600);
+    setShareStepIndex(0);
+    audio.playTick();
 
     setTimeout(() => {
-      setShareStep('Membagikan akses dengan email Anda...');
-    }, 1200);
+      setShareStepIndex(1);
+      audio.playTick();
+    }, 500);
+
+    setTimeout(() => {
+      setShareStepIndex(2);
+      audio.playTick();
+    }, 1000);
+
+    setTimeout(() => {
+      setShareStepIndex(3);
+      audio.playTick();
+    }, 1500);
 
     try {
-      // Execute the request to route handler after 1800ms to allow visual steps to complete
-      await new Promise(resolve => setTimeout(resolve, 1800));
+      await new Promise(resolve => setTimeout(resolve, 2000));
 
       const res = await fetch('/api/share/gdrive', {
         method: 'POST',
@@ -87,6 +94,8 @@ export default function RemoteDownloadView({ txnId }: { txnId: string; token?: s
       });
 
       if (res.ok) {
+        setShareStepIndex(4);
+        audio.playChime();
         setShareStatus('success');
       } else {
         const errData = await res.json();
@@ -226,11 +235,34 @@ export default function RemoteDownloadView({ txnId }: { txnId: string; token?: s
               )}
 
               {shareStatus === 'processing' && (
-                <div className="py-4 flex flex-col items-center justify-center gap-3">
-                  <Loader2 className="w-6 h-6 animate-spin text-var(--copper)" />
-                  <p className="text-[9px] tracking-[0.15em] uppercase text-[#7687a1] font-body animate-pulse text-center">
-                    {shareStep}
-                  </p>
+                <div className="flex flex-col gap-3 py-2 font-body text-left">
+                  {[
+                    'Menghubungkan ke API Google...',
+                    'Memproses layout resolusi tinggi...',
+                    'Mengunggah berkas ke Google Drive...',
+                    'Mengirim email undangan akses...',
+                  ].map((step, idx) => {
+                    const isDone = shareStepIndex > idx;
+                    const isActive = shareStepIndex === idx;
+                    return (
+                      <div key={idx} className="flex items-center gap-3 text-[11px] tracking-wide">
+                        {isDone ? (
+                          <Check className="w-3.5 h-3.5 text-[#2dd4bf] shrink-0" strokeWidth={3} />
+                        ) : isActive ? (
+                          <Loader2 className="w-3.5 h-3.5 animate-spin text-var(--copper) shrink-0" />
+                        ) : (
+                          <Circle className="w-3.5 h-3.5 text-[#1d2740] shrink-0" />
+                        )}
+                        <span style={{
+                          color: isDone ? '#2dd4bf' : isActive ? 'var(--copper)' : '#7687a1',
+                          fontWeight: isActive ? 'bold' : 'normal',
+                          transition: 'color 250ms',
+                        }}>
+                          {step}
+                        </span>
+                      </div>
+                    );
+                  })}
                 </div>
               )}
 

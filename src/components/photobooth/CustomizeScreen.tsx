@@ -331,7 +331,7 @@ export default function CustomizeScreen() {
       }
     }
     
-    const finalDataUrl = canvas.toDataURL('image/jpeg', 0.95);
+    const finalDataUrl = canvas.toDataURL('image/jpeg', 0.85);
     
     clearFilteredPhotos();
     addFilteredPhoto({ original: finalDataUrl, filtered: finalDataUrl, filterName: 'Custom Grid', filterId: 'custom' });
