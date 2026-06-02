@@ -10716,3 +10716,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-02T14:46:05+07:00** - [Activity #6089] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-06-02T14:47:20+07:00** - [Activity #6090] docs(env): document all required environment variables with defaults
 - **2026-06-02T15:02:56+07:00** - [Activity #6091] fix(export): handle canvas taint error when loading external assets
+- **2026-06-02T15:13:38+07:00** - [Activity #6092] fix(api): validate payload schema before processing seed request
