@@ -5073,3 +5073,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T11:01:57+07:00** - [Activity #4324] refactor(i18n): restructure localization strings dictionary
 - **2026-06-03T11:13:17+07:00** - [Activity #4325] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-03T11:25:21+07:00** - [Activity #4326] feat(stickers): support draggable and resizable decorative stickers
+- **2026-06-03T11:46:46+07:00** - [Activity #4327] style(typography): refine letter-spacing and hierarchy for hero heading
