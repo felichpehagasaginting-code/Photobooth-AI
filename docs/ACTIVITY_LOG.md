@@ -10741,3 +10741,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T09:00:49+07:00** - [Activity #6114] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-06-03T09:20:20+07:00** - [Activity #6115] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-06-03T09:34:38+07:00** - [Activity #6116] feat(audio): add shutter click and countdown sound effects
+- **2026-06-03T09:54:20+07:00** - [Activity #6117] style(modal): fine-tune cubic-bezier easing curves on open transition
