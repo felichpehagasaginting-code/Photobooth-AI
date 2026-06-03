@@ -5098,3 +5098,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T20:52:33+07:00** - [Activity #4349] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-06-03T21:10:33+07:00** - [Activity #4350] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-06-03T21:34:11+07:00** - [Activity #4351] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-06-03T22:04:24+07:00** - [Activity #4352] refactor(state): migrate photo session state management to zustand store
