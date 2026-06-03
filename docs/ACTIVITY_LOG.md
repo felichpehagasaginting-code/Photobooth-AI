@@ -10747,3 +10747,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T10:37:19+07:00** - [Activity #6120] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-06-03T10:56:02+07:00** - [Activity #6121] refactor(types): consolidate photobooth session type definitions
 - **2026-06-03T11:21:17+07:00** - [Activity #6122] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-06-03T11:42:15+07:00** - [Activity #6123] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
