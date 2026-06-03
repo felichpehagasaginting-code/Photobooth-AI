@@ -10765,3 +10765,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T16:38:13+07:00** - [Activity #6138] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-06-03T16:55:08+07:00** - [Activity #6139] refactor(types): consolidate photobooth session type definitions
 - **2026-06-03T17:19:41+07:00** - [Activity #6140] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-06-03T17:36:38+07:00** - [Activity #6141] fix(qr): adjust QR code contrast ratio for low-light scanning
