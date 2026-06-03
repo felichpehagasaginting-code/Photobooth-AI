@@ -10750,3 +10750,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T11:42:15+07:00** - [Activity #6123] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-03T11:52:28+07:00** - [Activity #6124] fix(audio): unlock audio context on initial user gesture
 - **2026-06-03T12:16:18+07:00** - [Activity #6125] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-06-03T13:45:35+07:00** - [Activity #6126] feat(photobooth): implement multi-frame collage capture sequence
