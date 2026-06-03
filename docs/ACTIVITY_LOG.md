@@ -5087,3 +5087,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T16:04:33+07:00** - [Activity #4338] docs(env): document all required environment variables with defaults
 - **2026-06-03T16:20:28+07:00** - [Activity #4339] feat(analytics): log anonymous capture session completion metrics
 - **2026-06-03T16:43:05+07:00** - [Activity #4340] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-06-03T16:48:35+07:00** - [Activity #4341] fix(audio): unlock audio context on initial user gesture
