@@ -10752,3 +10752,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T12:16:18+07:00** - [Activity #6125] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-06-03T13:45:35+07:00** - [Activity #6126] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-06-03T14:06:50+07:00** - [Activity #6127] style(grid): modernize layout overlap for bento-style elements
+- **2026-06-03T14:10:36+07:00** - [Activity #6128] refactor(utils): streamline color conversion and hex parsing helpers
