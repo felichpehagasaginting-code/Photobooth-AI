@@ -5068,3 +5068,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T09:12:47+07:00** - [Activity #4319] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-06-03T09:34:12+07:00** - [Activity #4320] refactor(events): use custom event bus for decoupled component messaging
 - **2026-06-03T09:54:20+07:00** - [Activity #4321] feat(watermark): customizable event logo watermark overlay
+- **2026-06-03T10:08:17+07:00** - [Activity #4322] fix(storage): add fallback for local storage quota exceeded errors
