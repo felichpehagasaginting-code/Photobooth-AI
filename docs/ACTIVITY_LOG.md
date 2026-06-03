@@ -5093,3 +5093,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T17:39:00+07:00** - [Activity #4344] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-06-03T19:30:03+07:00** - [Activity #4345] fix(auth): prevent race condition when initializing anonymous session
 - **2026-06-03T19:58:42+07:00** - [Activity #4346] feat(watermark): customizable event logo watermark overlay
+- **2026-06-03T20:18:05+07:00** - [Activity #4347] style(badge): update status indicator badge colors and glow effects
