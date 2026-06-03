@@ -10771,3 +10771,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T19:48:54+07:00** - [Activity #6144] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-06-03T20:02:12+07:00** - [Activity #6145] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-06-03T20:34:34+07:00** - [Activity #6146] perf(images): compress intermediate preview thumbnails with WebP format
+- **2026-06-03T20:49:05+07:00** - [Activity #6147] fix(camera): prevent stream freeze on rapid device re-plug
