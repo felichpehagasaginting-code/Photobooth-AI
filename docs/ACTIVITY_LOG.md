@@ -5069,3 +5069,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T09:34:12+07:00** - [Activity #4320] refactor(events): use custom event bus for decoupled component messaging
 - **2026-06-03T09:54:20+07:00** - [Activity #4321] feat(watermark): customizable event logo watermark overlay
 - **2026-06-03T10:08:17+07:00** - [Activity #4322] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-06-03T10:38:08+07:00** - [Activity #4323] feat(kiosk): add full-screen lock and inactivity reset timer
