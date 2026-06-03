@@ -10769,3 +10769,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T17:41:44+07:00** - [Activity #6142] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-06-03T19:36:36+07:00** - [Activity #6143] fix(api): validate payload schema before processing seed request
 - **2026-06-03T19:48:54+07:00** - [Activity #6144] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-06-03T20:02:12+07:00** - [Activity #6145] docs(readme): add detailed hardware camera setup and compatibility guide
