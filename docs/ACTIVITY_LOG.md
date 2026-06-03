@@ -5089,3 +5089,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T16:43:05+07:00** - [Activity #4340] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-06-03T16:48:35+07:00** - [Activity #4341] fix(audio): unlock audio context on initial user gesture
 - **2026-06-03T17:18:24+07:00** - [Activity #4342] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-06-03T17:20:14+07:00** - [Activity #4343] feat(gallery): add touch swipe navigation for captured photo previews
