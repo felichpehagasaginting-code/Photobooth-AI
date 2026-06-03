@@ -5075,3 +5075,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T11:25:21+07:00** - [Activity #4326] feat(stickers): support draggable and resizable decorative stickers
 - **2026-06-03T11:46:46+07:00** - [Activity #4327] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-06-03T12:14:07+07:00** - [Activity #4328] test(hooks): add test suite for camera stream lifecycle events
+- **2026-06-03T13:45:43+07:00** - [Activity #4329] perf(memory): dispose cached image objects after strip generation
