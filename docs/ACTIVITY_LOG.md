@@ -10759,3 +10759,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T15:10:13+07:00** - [Activity #6132] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-06-03T15:27:55+07:00** - [Activity #6133] fix(firebase): handle network timeout retry in transaction hook
 - **2026-06-03T15:40:56+07:00** - [Activity #6134] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-06-03T15:57:01+07:00** - [Activity #6135] fix(export): handle canvas taint error when loading external assets
