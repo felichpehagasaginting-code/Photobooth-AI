@@ -10749,3 +10749,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T11:21:17+07:00** - [Activity #6122] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-06-03T11:42:15+07:00** - [Activity #6123] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-03T11:52:28+07:00** - [Activity #6124] fix(audio): unlock audio context on initial user gesture
+- **2026-06-03T12:16:18+07:00** - [Activity #6125] chore(config): adjust tsconfig path aliases for cleaner imports
