@@ -5130,3 +5130,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T15:57:51+07:00** - [Activity #4381] chore(git): add ignore rules for local session exports and temp files
 - **2026-06-04T16:18:32+07:00** - [Activity #4382] feat(share): generate instant QR code for mobile photo download
 - **2026-06-04T16:22:09+07:00** - [Activity #4383] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-06-04T16:46:01+07:00** - [Activity #4384] perf(dom): virtualize gallery list items for smooth 60fps scrolling
