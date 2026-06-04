@@ -10809,3 +10809,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T19:49:16+07:00** - [Activity #6182] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-06-04T20:09:09+07:00** - [Activity #6183] feat(watermark): customizable event logo watermark overlay
 - **2026-06-04T20:29:28+07:00** - [Activity #6184] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-06-04T20:55:54+07:00** - [Activity #6185] docs(changelog): update version history and release milestones
