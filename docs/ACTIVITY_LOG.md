@@ -10812,3 +10812,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T20:55:54+07:00** - [Activity #6185] docs(changelog): update version history and release milestones
 - **2026-06-04T21:25:43+07:00** - [Activity #6186] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-06-04T21:43:55+07:00** - [Activity #6187] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-06-04T21:57:48+07:00** - [Activity #6188] fix(api): validate payload schema before processing seed request
