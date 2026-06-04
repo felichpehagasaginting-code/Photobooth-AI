@@ -5126,3 +5126,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T15:12:35+07:00** - [Activity #4377] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-06-04T15:33:48+07:00** - [Activity #4378] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-06-04T15:50:48+07:00** - [Activity #4379] feat(preset): allow custom framing border selection per session
+- **2026-06-04T15:56:09+07:00** - [Activity #4380] feat(settings): add camera device selector with resolution fallbacks
