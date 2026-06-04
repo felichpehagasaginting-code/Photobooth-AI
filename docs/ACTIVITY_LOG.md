@@ -5120,3 +5120,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T14:16:52+07:00** - [Activity #4371] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-06-04T14:25:04+07:00** - [Activity #4372] refactor(i18n): restructure localization strings dictionary
 - **2026-06-04T14:32:29+07:00** - [Activity #4373] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-06-04T14:50:20+07:00** - [Activity #4374] style(photobooth): refine backdrop blur and color contrast for dark mode
