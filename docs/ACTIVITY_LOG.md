@@ -10784,3 +10784,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T10:17:46+07:00** - [Activity #6157] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-06-04T10:40:16+07:00** - [Activity #6158] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-06-04T10:53:53+07:00** - [Activity #6159] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-06-04T11:08:13+07:00** - [Activity #6160] chore(git): add ignore rules for local session exports and temp files
