@@ -10786,3 +10786,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T10:53:53+07:00** - [Activity #6159] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-06-04T11:08:13+07:00** - [Activity #6160] chore(git): add ignore rules for local session exports and temp files
 - **2026-06-04T11:38:37+07:00** - [Activity #6161] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-06-04T11:54:23+07:00** - [Activity #6162] chore(config): adjust tsconfig path aliases for cleaner imports
