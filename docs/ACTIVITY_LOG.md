@@ -10780,3 +10780,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T09:05:06+07:00** - [Activity #6153] docs(changelog): update version history and release milestones
 - **2026-06-04T09:17:36+07:00** - [Activity #6154] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-04T09:31:32+07:00** - [Activity #6155] fix(auth): prevent race condition when initializing anonymous session
+- **2026-06-04T10:00:11+07:00** - [Activity #6156] refactor(state): migrate photo session state management to zustand store
