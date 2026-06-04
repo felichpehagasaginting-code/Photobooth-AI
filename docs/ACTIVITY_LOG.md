@@ -5103,3 +5103,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T09:04:55+07:00** - [Activity #4354] fix(firebase): handle network timeout retry in transaction hook
 - **2026-06-04T09:09:28+07:00** - [Activity #4355] feat(cloud): async upload queue for batch photo backup
 - **2026-06-04T09:24:08+07:00** - [Activity #4356] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-06-04T09:34:02+07:00** - [Activity #4357] feat(export): support high-resolution PNG and PDF print strip layout
