@@ -5141,3 +5141,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T19:43:23+07:00** - [Activity #4392] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-06-04T19:56:02+07:00** - [Activity #4393] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-06-04T20:25:31+07:00** - [Activity #4394] perf(memory): dispose cached image objects after strip generation
+- **2026-06-04T20:28:28+07:00** - [Activity #4395] docs(comments): add inline JSDoc comments to image processing helpers
