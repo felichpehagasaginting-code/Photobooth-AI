@@ -10799,3 +10799,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T15:37:43+07:00** - [Activity #6172] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-06-04T15:59:26+07:00** - [Activity #6173] docs(changelog): update version history and release milestones
 - **2026-06-04T16:14:52+07:00** - [Activity #6174] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-06-04T16:35:12+07:00** - [Activity #6175] feat(settings): add camera device selector with resolution fallbacks
