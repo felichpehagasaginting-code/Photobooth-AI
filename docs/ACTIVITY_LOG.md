@@ -5140,3 +5140,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T19:30:18+07:00** - [Activity #4391] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-04T19:43:23+07:00** - [Activity #4392] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-06-04T19:56:02+07:00** - [Activity #4393] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-06-04T20:25:31+07:00** - [Activity #4394] perf(memory): dispose cached image objects after strip generation
