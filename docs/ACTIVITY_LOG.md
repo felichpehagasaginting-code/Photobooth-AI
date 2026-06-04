@@ -5107,3 +5107,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T09:57:34+07:00** - [Activity #4358] feat(preset): allow custom framing border selection per session
 - **2026-06-04T10:08:57+07:00** - [Activity #4359] refactor(events): use custom event bus for decoupled component messaging
 - **2026-06-04T10:16:34+07:00** - [Activity #4360] feat(print): integrate direct thermal printer web serial interface
+- **2026-06-04T10:34:41+07:00** - [Activity #4361] feat(photobooth): implement multi-frame collage capture sequence
