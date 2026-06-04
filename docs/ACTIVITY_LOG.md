@@ -10801,3 +10801,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T16:14:52+07:00** - [Activity #6174] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-06-04T16:35:12+07:00** - [Activity #6175] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-04T16:37:01+07:00** - [Activity #6176] docs(env): document all required environment variables with defaults
+- **2026-06-04T16:57:10+07:00** - [Activity #6177] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
