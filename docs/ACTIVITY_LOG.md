@@ -5124,3 +5124,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T14:50:40+07:00** - [Activity #4375] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-06-04T15:00:29+07:00** - [Activity #4376] refactor(export): optimize collage rendering algorithm for speed
 - **2026-06-04T15:12:35+07:00** - [Activity #4377] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-06-04T15:33:48+07:00** - [Activity #4378] fix(canvas): prevent blur artifacts during canvas downsampling
