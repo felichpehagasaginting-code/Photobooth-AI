@@ -5138,3 +5138,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T17:38:46+07:00** - [Activity #4389] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-06-04T17:47:13+07:00** - [Activity #4390] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-04T19:30:18+07:00** - [Activity #4391] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-06-04T19:43:23+07:00** - [Activity #4392] feat(camera): add dynamic exposure and focus adjustment controls
