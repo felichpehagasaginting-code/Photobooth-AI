@@ -5146,3 +5146,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T21:02:51+07:00** - [Activity #4397] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-04T21:28:32+07:00** - [Activity #4398] fix(auth): prevent race condition when initializing anonymous session
 - **2026-06-04T21:35:23+07:00** - [Activity #4399] perf(memory): dispose cached image objects after strip generation
+- **2026-06-04T21:56:04+07:00** - [Activity #4400] feat(camera): add dynamic exposure and focus adjustment controls
