@@ -5134,3 +5134,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T16:46:12+07:00** - [Activity #4385] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-06-04T16:54:19+07:00** - [Activity #4386] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-06-04T17:11:58+07:00** - [Activity #4387] perf(state): optimize selector subscriptions to minimize re-renders
+- **2026-06-04T17:17:05+07:00** - [Activity #4388] fix(camera): prevent stream freeze on rapid device re-plug
