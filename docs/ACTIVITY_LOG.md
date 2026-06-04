@@ -5147,3 +5147,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T21:28:32+07:00** - [Activity #4398] fix(auth): prevent race condition when initializing anonymous session
 - **2026-06-04T21:35:23+07:00** - [Activity #4399] perf(memory): dispose cached image objects after strip generation
 - **2026-06-04T21:56:04+07:00** - [Activity #4400] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-06-04T22:06:00+07:00** - [Activity #4401] fix(ui): correct modal z-index layering on small mobile viewports
