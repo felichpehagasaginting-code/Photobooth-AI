@@ -10778,3 +10778,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-03T22:02:53+07:00** - [Activity #6151] feat(watermark): customizable event logo watermark overlay
 - **2026-06-03T22:28:11+07:00** - [Activity #6152] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-06-04T09:05:06+07:00** - [Activity #6153] docs(changelog): update version history and release milestones
+- **2026-06-04T09:17:36+07:00** - [Activity #6154] perf(images): compress intermediate preview thumbnails with WebP format
