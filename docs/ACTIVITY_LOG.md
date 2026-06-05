@@ -5179,3 +5179,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-05T17:37:44+07:00** - [Activity #4430] chore(deps): update core dependencies to latest stable versions
 - **2026-06-05T19:30:08+07:00** - [Activity #4431] refactor(state): migrate photo session state management to zustand store
 - **2026-06-05T19:44:02+07:00** - [Activity #4432] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-06-05T20:17:33+07:00** - [Activity #4433] style(badge): update status indicator badge colors and glow effects
