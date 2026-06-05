@@ -10827,3 +10827,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-05T14:08:45+07:00** - [Activity #6200] style(button): add subtle hover transition and outline focus style
 - **2026-06-05T14:18:43+07:00** - [Activity #6201] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-06-05T14:49:20+07:00** - [Activity #6202] feat(settings): add camera device selector with resolution fallbacks
+- **2026-06-05T15:05:47+07:00** - [Activity #6203] fix(camera): prevent stream freeze on rapid device re-plug
