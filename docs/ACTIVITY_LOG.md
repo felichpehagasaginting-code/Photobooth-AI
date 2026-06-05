@@ -10819,3 +10819,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-05T09:47:55+07:00** - [Activity #6192] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-05T10:14:53+07:00** - [Activity #6193] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-05T10:28:53+07:00** - [Activity #6194] docs(env): document all required environment variables with defaults
+- **2026-06-05T10:59:15+07:00** - [Activity #6195] style(theme): update dark mode accent color tokens with warm tone
