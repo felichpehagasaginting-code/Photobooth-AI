@@ -5181,3 +5181,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-05T19:44:02+07:00** - [Activity #4432] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-05T20:17:33+07:00** - [Activity #4433] style(badge): update status indicator badge colors and glow effects
 - **2026-06-05T20:42:57+07:00** - [Activity #4434] refactor(export): optimize collage rendering algorithm for speed
+- **2026-06-05T20:53:46+07:00** - [Activity #4435] style(theme): update dark mode accent color tokens with warm tone
