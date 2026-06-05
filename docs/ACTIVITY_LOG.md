@@ -5154,3 +5154,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-05T09:37:58+07:00** - [Activity #4405] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-06-05T09:53:06+07:00** - [Activity #4406] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-06-05T10:16:30+07:00** - [Activity #4407] style(controls): refine slider track and thumb sizing for touch screens
+- **2026-06-05T10:36:08+07:00** - [Activity #4408] style(photobooth): refine backdrop blur and color contrast for dark mode
