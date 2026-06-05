@@ -10824,3 +10824,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-05T11:42:26+07:00** - [Activity #6197] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-06-05T11:59:16+07:00** - [Activity #6198] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-05T13:47:44+07:00** - [Activity #6199] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-06-05T14:08:45+07:00** - [Activity #6200] style(button): add subtle hover transition and outline focus style
