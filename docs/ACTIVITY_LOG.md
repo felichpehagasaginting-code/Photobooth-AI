@@ -10821,3 +10821,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-05T10:28:53+07:00** - [Activity #6194] docs(env): document all required environment variables with defaults
 - **2026-06-05T10:59:15+07:00** - [Activity #6195] style(theme): update dark mode accent color tokens with warm tone
 - **2026-06-05T11:24:04+07:00** - [Activity #6196] feat(analytics): log anonymous capture session completion metrics
+- **2026-06-05T11:42:26+07:00** - [Activity #6197] feat(filter): add cyber-neon and grain texture post-processing overlay
