@@ -10837,3 +10837,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-05T17:12:38+07:00** - [Activity #6210] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-06-05T17:33:11+07:00** - [Activity #6211] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-06-05T17:45:03+07:00** - [Activity #6212] refactor(ui): extract reusable glass-panel and badge components
+- **2026-06-05T19:30:02+07:00** - [Activity #6213] style(modal): fine-tune cubic-bezier easing curves on open transition
