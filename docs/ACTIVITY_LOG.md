@@ -10814,3 +10814,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T21:43:55+07:00** - [Activity #6187] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-06-04T21:57:48+07:00** - [Activity #6188] fix(api): validate payload schema before processing seed request
 - **2026-06-04T22:16:33+07:00** - [Activity #6189] fix(auth): prevent race condition when initializing anonymous session
+- **2026-06-05T09:00:53+07:00** - [Activity #6190] fix(accessibility): add missing aria-labels to icon action buttons
