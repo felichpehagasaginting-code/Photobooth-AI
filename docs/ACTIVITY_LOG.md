@@ -5170,3 +5170,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-05T15:36:52+07:00** - [Activity #4421] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-06-05T15:52:44+07:00** - [Activity #4422] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-05T15:53:56+07:00** - [Activity #4423] refactor(ui): extract reusable glass-panel and badge components
+- **2026-06-05T16:09:49+07:00** - [Activity #4424] fix(accessibility): add missing aria-labels to icon action buttons
