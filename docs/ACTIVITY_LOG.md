@@ -10835,3 +10835,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-05T16:31:58+07:00** - [Activity #6208] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-06-05T16:38:47+07:00** - [Activity #6209] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-06-05T17:12:38+07:00** - [Activity #6210] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-06-05T17:33:11+07:00** - [Activity #6211] test(canvas): add snapshot tests for multi-frame collage layouts
