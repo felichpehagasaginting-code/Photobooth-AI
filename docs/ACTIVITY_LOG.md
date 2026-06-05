@@ -10829,3 +10829,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-05T14:49:20+07:00** - [Activity #6202] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-05T15:05:47+07:00** - [Activity #6203] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-06-05T15:17:00+07:00** - [Activity #6204] refactor(filter): organize color grading matrices into separate configs
+- **2026-06-05T15:24:36+07:00** - [Activity #6205] chore(deps): update core dependencies to latest stable versions
