@@ -5151,3 +5151,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-04T22:28:07+07:00** - [Activity #4402] refactor(services): separate cloud storage adapter from UI layer
 - **2026-06-05T09:00:04+07:00** - [Activity #4403] feat(cloud): async upload queue for batch photo backup
 - **2026-06-05T09:24:35+07:00** - [Activity #4404] perf(dom): virtualize gallery list items for smooth 60fps scrolling
+- **2026-06-05T09:37:58+07:00** - [Activity #4405] refactor(cleanup): remove deprecated legacy camera capture methods
