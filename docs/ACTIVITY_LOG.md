@@ -5204,3 +5204,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-06T19:30:15+07:00** - [Activity #4455] style(grid): modernize layout overlap for bento-style elements
 - **2026-06-06T20:16:49+07:00** - [Activity #4456] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-06-06T20:50:59+07:00** - [Activity #4457] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-06-06T21:19:49+07:00** - [Activity #4458] perf(images): compress intermediate preview thumbnails with WebP format
