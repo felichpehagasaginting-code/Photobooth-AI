@@ -10850,3 +10850,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-06T10:05:01+07:00** - [Activity #6223] refactor(camera): extract media stream hook into standalone module
 - **2026-06-06T10:25:45+07:00** - [Activity #6224] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-06-06T10:57:32+07:00** - [Activity #6225] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-06-06T11:32:16+07:00** - [Activity #6226] fix(camera): prevent stream freeze on rapid device re-plug
