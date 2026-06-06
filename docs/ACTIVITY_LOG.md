@@ -10856,3 +10856,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-06T14:08:46+07:00** - [Activity #6229] refactor(filter): organize color grading matrices into separate configs
 - **2026-06-06T14:32:46+07:00** - [Activity #6230] feat(cloud): async upload queue for batch photo backup
 - **2026-06-06T15:17:26+07:00** - [Activity #6231] refactor(types): consolidate photobooth session type definitions
+- **2026-06-06T15:34:01+07:00** - [Activity #6232] feat(preview): render live filter preview using WebGL shader canvas
