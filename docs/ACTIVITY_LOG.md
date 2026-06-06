@@ -10859,3 +10859,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-06T15:34:01+07:00** - [Activity #6232] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-06-06T15:59:28+07:00** - [Activity #6233] refactor(camera): extract media stream hook into standalone module
 - **2026-06-06T16:36:19+07:00** - [Activity #6234] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-06-06T17:10:41+07:00** - [Activity #6235] chore(lint): configure ESLint rules for react hooks and accessibility
