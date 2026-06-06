@@ -5193,3 +5193,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-06T11:21:39+07:00** - [Activity #4444] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-06-06T11:57:09+07:00** - [Activity #4445] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-06T13:45:58+07:00** - [Activity #4446] style(shutter): design circular pulsating shutter button with feedback
+- **2026-06-06T14:22:37+07:00** - [Activity #4447] refactor(services): separate cloud storage adapter from UI layer
