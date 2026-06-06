@@ -5191,3 +5191,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-06T10:10:41+07:00** - [Activity #4442] refactor(filter): organize color grading matrices into separate configs
 - **2026-06-06T10:46:37+07:00** - [Activity #4443] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-06-06T11:21:39+07:00** - [Activity #4444] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-06-06T11:57:09+07:00** - [Activity #4445] perf(images): compress intermediate preview thumbnails with WebP format
