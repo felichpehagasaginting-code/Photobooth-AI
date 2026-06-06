@@ -10847,3 +10847,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-05T22:27:22+07:00** - [Activity #6220] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-06T09:00:57+07:00** - [Activity #6221] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-06-06T09:22:43+07:00** - [Activity #6222] feat(watermark): customizable event logo watermark overlay
+- **2026-06-06T10:05:01+07:00** - [Activity #6223] refactor(camera): extract media stream hook into standalone module
