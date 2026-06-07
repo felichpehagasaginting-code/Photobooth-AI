@@ -5206,3 +5206,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-06T20:50:59+07:00** - [Activity #4457] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-06-06T21:19:49+07:00** - [Activity #4458] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-06T22:10:37+07:00** - [Activity #4459] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-06-07T09:00:29+07:00** - [Activity #4460] feat(print): integrate direct thermal printer web serial interface
