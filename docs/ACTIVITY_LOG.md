@@ -5215,3 +5215,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-07T14:58:40+07:00** - [Activity #4466] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-06-07T15:33:15+07:00** - [Activity #4467] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-07T16:19:24+07:00** - [Activity #4468] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-06-07T16:45:18+07:00** - [Activity #4469] docs(arch): add architecture diagram explaining client-side filter flow
