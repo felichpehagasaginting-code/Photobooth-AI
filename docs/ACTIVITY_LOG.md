@@ -10888,3 +10888,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-07T20:02:56+07:00** - [Activity #6261] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-07T20:34:16+07:00** - [Activity #6262] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-06-07T21:10:19+07:00** - [Activity #6263] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-06-07T21:36:28+07:00** - [Activity #6264] fix(filter): fix gamma correction clipping on high brightness scenes
