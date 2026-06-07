@@ -10869,3 +10869,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-06T22:04:08+07:00** - [Activity #6242] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-06-07T09:02:39+07:00** - [Activity #6243] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-06-07T09:37:28+07:00** - [Activity #6244] feat(print): integrate direct thermal printer web serial interface
+- **2026-06-07T10:01:34+07:00** - [Activity #6245] fix(camera): prevent stream freeze on rapid device re-plug
