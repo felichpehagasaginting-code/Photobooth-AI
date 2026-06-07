@@ -10872,3 +10872,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-07T10:01:34+07:00** - [Activity #6245] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-06-07T10:29:14+07:00** - [Activity #6246] docs(env): document all required environment variables with defaults
 - **2026-06-07T10:57:03+07:00** - [Activity #6247] test(utils): add unit tests for image aspect ratio calculator
+- **2026-06-07T11:23:43+07:00** - [Activity #6248] refactor(ui): extract reusable glass-panel and badge components
