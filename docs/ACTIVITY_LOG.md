@@ -5211,3 +5211,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-07T10:45:32+07:00** - [Activity #4462] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-06-07T11:36:36+07:00** - [Activity #4463] perf(memory): dispose cached image objects after strip generation
 - **2026-06-07T13:45:43+07:00** - [Activity #4464] docs(api): document endpoint parameters and error codes for seed route
+- **2026-06-07T14:19:34+07:00** - [Activity #4465] style(cards): apply subtle border gradient and elevation shadows
