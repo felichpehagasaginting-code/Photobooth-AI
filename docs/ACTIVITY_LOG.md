@@ -10885,3 +10885,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-07T17:14:00+07:00** - [Activity #6258] perf(memory): dispose cached image objects after strip generation
 - **2026-06-07T17:37:08+07:00** - [Activity #6259] style(button): add subtle hover transition and outline focus style
 - **2026-06-07T19:35:34+07:00** - [Activity #6260] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-06-07T20:02:56+07:00** - [Activity #6261] perf(fonts): preload display typography to eliminate FOIT delay
