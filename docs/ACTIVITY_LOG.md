@@ -10882,3 +10882,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-07T16:01:12+07:00** - [Activity #6255] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-06-07T16:13:33+07:00** - [Activity #6256] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-07T16:49:11+07:00** - [Activity #6257] fix(firebase): handle network timeout retry in transaction hook
+- **2026-06-07T17:14:00+07:00** - [Activity #6258] perf(memory): dispose cached image objects after strip generation
