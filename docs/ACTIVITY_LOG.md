@@ -5209,3 +5209,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-07T09:00:29+07:00** - [Activity #4460] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-07T09:50:42+07:00** - [Activity #4461] feat(preset): allow custom framing border selection per session
 - **2026-06-07T10:45:32+07:00** - [Activity #4462] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-06-07T11:36:36+07:00** - [Activity #4463] perf(memory): dispose cached image objects after strip generation
