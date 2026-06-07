@@ -5219,3 +5219,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-07T17:24:29+07:00** - [Activity #4470] feat(ai): integrate edge background removal model
 - **2026-06-07T19:30:05+07:00** - [Activity #4471] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-07T20:21:10+07:00** - [Activity #4472] refactor(services): separate cloud storage adapter from UI layer
+- **2026-06-07T21:04:02+07:00** - [Activity #4473] docs(arch): add architecture diagram explaining client-side filter flow
