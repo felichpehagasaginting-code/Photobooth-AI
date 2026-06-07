@@ -10875,3 +10875,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-07T11:23:43+07:00** - [Activity #6248] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-07T11:59:03+07:00** - [Activity #6249] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-06-07T13:52:08+07:00** - [Activity #6250] feat(cloud): async upload queue for batch photo backup
+- **2026-06-07T14:19:01+07:00** - [Activity #6251] feat(print): integrate direct thermal printer web serial interface
