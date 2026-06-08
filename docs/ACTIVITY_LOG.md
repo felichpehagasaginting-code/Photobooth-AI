@@ -5224,3 +5224,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T09:03:28+07:00** - [Activity #4475] style(controls): refine slider track and thumb sizing for touch screens
 - **2026-06-08T09:18:48+07:00** - [Activity #4476] feat(stickers): support draggable and resizable decorative stickers
 - **2026-06-08T09:27:29+07:00** - [Activity #4477] refactor(filter): organize color grading matrices into separate configs
+- **2026-06-08T09:50:38+07:00** - [Activity #4478] fix(accessibility): add missing aria-labels to icon action buttons
