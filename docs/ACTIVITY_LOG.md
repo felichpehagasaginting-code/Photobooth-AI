@@ -5238,3 +5238,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T14:10:44+07:00** - [Activity #4489] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-06-08T14:22:20+07:00** - [Activity #4490] fix(audio): unlock audio context on initial user gesture
 - **2026-06-08T14:48:29+07:00** - [Activity #4491] feat(settings): add camera device selector with resolution fallbacks
+- **2026-06-08T14:57:49+07:00** - [Activity #4492] chore(build): optimize Vite build chunks and asset minification settings
