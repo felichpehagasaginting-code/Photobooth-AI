@@ -10892,3 +10892,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-07T22:12:58+07:00** - [Activity #6265] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-06-08T09:00:48+07:00** - [Activity #6266] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-08T09:23:57+07:00** - [Activity #6267] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-06-08T09:30:34+07:00** - [Activity #6268] fix(export): handle canvas taint error when loading external assets
