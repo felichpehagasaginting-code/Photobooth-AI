@@ -10900,3 +10900,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T10:59:43+07:00** - [Activity #6273] feat(stickers): support draggable and resizable decorative stickers
 - **2026-06-08T11:16:56+07:00** - [Activity #6274] fix(export): handle canvas taint error when loading external assets
 - **2026-06-08T11:22:44+07:00** - [Activity #6275] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-06-08T11:48:28+07:00** - [Activity #6276] chore(config): adjust tsconfig path aliases for cleaner imports
