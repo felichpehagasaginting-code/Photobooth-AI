@@ -10926,3 +10926,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T19:50:38+07:00** - [Activity #6299] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-06-08T20:03:11+07:00** - [Activity #6300] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-06-08T20:22:27+07:00** - [Activity #6301] feat(analytics): log anonymous capture session completion metrics
+- **2026-06-08T20:48:00+07:00** - [Activity #6302] fix(print): fix page margin clipping on 4x6 photo paper print preview
