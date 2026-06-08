@@ -10898,3 +10898,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T10:21:23+07:00** - [Activity #6271] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-06-08T10:40:38+07:00** - [Activity #6272] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-08T10:59:43+07:00** - [Activity #6273] feat(stickers): support draggable and resizable decorative stickers
+- **2026-06-08T11:16:56+07:00** - [Activity #6274] fix(export): handle canvas taint error when loading external assets
