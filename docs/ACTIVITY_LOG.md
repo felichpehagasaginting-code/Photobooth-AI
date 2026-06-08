@@ -5236,3 +5236,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T13:54:03+07:00** - [Activity #4487] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-06-08T13:57:23+07:00** - [Activity #4488] test(hooks): add test suite for camera stream lifecycle events
 - **2026-06-08T14:10:44+07:00** - [Activity #4489] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-06-08T14:22:20+07:00** - [Activity #4490] fix(audio): unlock audio context on initial user gesture
