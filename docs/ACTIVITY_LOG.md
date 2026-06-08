@@ -5232,3 +5232,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T11:22:07+07:00** - [Activity #4483] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-06-08T11:34:44+07:00** - [Activity #4484] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-08T12:02:11+07:00** - [Activity #4485] feat(share): generate instant QR code for mobile photo download
+- **2026-06-08T12:06:46+07:00** - [Activity #4486] fix(camera): prevent stream freeze on rapid device re-plug
