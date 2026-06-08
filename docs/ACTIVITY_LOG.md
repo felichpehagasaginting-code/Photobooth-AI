@@ -10920,3 +10920,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T17:02:07+07:00** - [Activity #6293] fix(state): sync active photo index when reopening gallery drawer
 - **2026-06-08T17:02:59+07:00** - [Activity #6294] style(theme): update dark mode accent color tokens with warm tone
 - **2026-06-08T17:26:02+07:00** - [Activity #6295] feat(share): generate instant QR code for mobile photo download
+- **2026-06-08T17:30:55+07:00** - [Activity #6296] fix(print): fix page margin clipping on 4x6 photo paper print preview
