@@ -5254,3 +5254,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T17:54:41+07:00** - [Activity #4505] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-06-08T19:33:25+07:00** - [Activity #4506] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-06-08T19:52:57+07:00** - [Activity #4507] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-06-08T20:15:35+07:00** - [Activity #4508] feat(watermark): customizable event logo watermark overlay
