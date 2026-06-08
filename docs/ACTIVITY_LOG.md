@@ -10904,3 +10904,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T12:01:37+07:00** - [Activity #6277] feat(analytics): log anonymous capture session completion metrics
 - **2026-06-08T12:20:33+07:00** - [Activity #6278] feat(analytics): log anonymous capture session completion metrics
 - **2026-06-08T13:45:24+07:00** - [Activity #6279] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-06-08T14:06:22+07:00** - [Activity #6280] feat(settings): add camera device selector with resolution fallbacks
