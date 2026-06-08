@@ -5226,3 +5226,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T09:27:29+07:00** - [Activity #4477] refactor(filter): organize color grading matrices into separate configs
 - **2026-06-08T09:50:38+07:00** - [Activity #4478] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-06-08T10:10:09+07:00** - [Activity #4479] feat(preset): allow custom framing border selection per session
+- **2026-06-08T10:24:06+07:00** - [Activity #4480] feat(gallery): add touch swipe navigation for captured photo previews
