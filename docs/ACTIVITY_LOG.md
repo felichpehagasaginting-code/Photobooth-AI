@@ -5228,3 +5228,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T10:10:09+07:00** - [Activity #4479] feat(preset): allow custom framing border selection per session
 - **2026-06-08T10:24:06+07:00** - [Activity #4480] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-06-08T10:39:57+07:00** - [Activity #4481] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-06-08T11:08:51+07:00** - [Activity #4482] feat(theme): introduce warm studio and monochrome dark themes
