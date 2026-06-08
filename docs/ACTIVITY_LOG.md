@@ -5247,3 +5247,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T16:07:10+07:00** - [Activity #4498] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-06-08T16:29:37+07:00** - [Activity #4499] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-08T16:43:28+07:00** - [Activity #4500] docs(testing): describe manual verification steps for photobooth kiosk
+- **2026-06-08T16:47:58+07:00** - [Activity #4501] fix(canvas): prevent blur artifacts during canvas downsampling
