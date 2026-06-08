@@ -10906,3 +10906,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T13:45:24+07:00** - [Activity #6279] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-08T14:06:22+07:00** - [Activity #6280] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-08T14:15:00+07:00** - [Activity #6281] fix(api): validate payload schema before processing seed request
+- **2026-06-08T14:15:26+07:00** - [Activity #6282] style(photobooth): refine backdrop blur and color contrast for dark mode
