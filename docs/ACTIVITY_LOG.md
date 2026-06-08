@@ -5244,3 +5244,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T15:22:48+07:00** - [Activity #4495] feat(cloud): async upload queue for batch photo backup
 - **2026-06-08T15:55:22+07:00** - [Activity #4496] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-06-08T16:01:09+07:00** - [Activity #4497] style(button): add subtle hover transition and outline focus style
+- **2026-06-08T16:07:10+07:00** - [Activity #4498] style(typography): refine letter-spacing and hierarchy for hero heading
