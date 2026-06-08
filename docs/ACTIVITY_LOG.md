@@ -5225,3 +5225,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T09:18:48+07:00** - [Activity #4476] feat(stickers): support draggable and resizable decorative stickers
 - **2026-06-08T09:27:29+07:00** - [Activity #4477] refactor(filter): organize color grading matrices into separate configs
 - **2026-06-08T09:50:38+07:00** - [Activity #4478] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-06-08T10:10:09+07:00** - [Activity #4479] feat(preset): allow custom framing border selection per session
