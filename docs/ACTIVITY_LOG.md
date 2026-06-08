@@ -10890,3 +10890,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-07T21:10:19+07:00** - [Activity #6263] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-06-07T21:36:28+07:00** - [Activity #6264] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-07T22:12:58+07:00** - [Activity #6265] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-06-08T09:00:48+07:00** - [Activity #6266] refactor(ui): extract reusable glass-panel and badge components
