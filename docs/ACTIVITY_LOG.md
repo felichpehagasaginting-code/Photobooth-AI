@@ -10923,3 +10923,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T17:30:55+07:00** - [Activity #6296] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-06-08T17:44:54+07:00** - [Activity #6297] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-06-08T19:36:00+07:00** - [Activity #6298] fix(export): handle canvas taint error when loading external assets
+- **2026-06-08T19:50:38+07:00** - [Activity #6299] chore(lint): configure ESLint rules for react hooks and accessibility
