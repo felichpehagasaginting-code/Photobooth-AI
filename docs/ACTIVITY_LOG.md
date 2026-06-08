@@ -10918,3 +10918,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T16:21:32+07:00** - [Activity #6291] refactor(camera): extract media stream hook into standalone module
 - **2026-06-08T16:39:18+07:00** - [Activity #6292] fix(firebase): handle network timeout retry in transaction hook
 - **2026-06-08T17:02:07+07:00** - [Activity #6293] fix(state): sync active photo index when reopening gallery drawer
+- **2026-06-08T17:02:59+07:00** - [Activity #6294] style(theme): update dark mode accent color tokens with warm tone
