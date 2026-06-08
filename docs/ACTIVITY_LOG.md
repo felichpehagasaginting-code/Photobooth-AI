@@ -10913,3 +10913,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T15:20:50+07:00** - [Activity #6286] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-08T15:34:07+07:00** - [Activity #6287] chore(git): add ignore rules for local session exports and temp files
 - **2026-06-08T15:53:09+07:00** - [Activity #6288] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-06-08T15:57:25+07:00** - [Activity #6289] feat(camera): add dynamic exposure and focus adjustment controls
