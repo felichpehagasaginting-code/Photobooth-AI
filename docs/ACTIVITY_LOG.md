@@ -10957,3 +10957,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T15:15:40+07:00** - [Activity #6330] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-09T15:34:18+07:00** - [Activity #6331] feat(share): generate instant QR code for mobile photo download
 - **2026-06-09T15:40:06+07:00** - [Activity #6332] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-06-09T15:50:29+07:00** - [Activity #6333] feat(kiosk): add full-screen lock and inactivity reset timer
