@@ -10962,3 +10962,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T16:16:27+07:00** - [Activity #6335] feat(cloud): async upload queue for batch photo backup
 - **2026-06-09T16:22:59+07:00** - [Activity #6336] refactor(state): migrate photo session state management to zustand store
 - **2026-06-09T16:34:34+07:00** - [Activity #6337] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-06-09T16:58:39+07:00** - [Activity #6338] feat(print): integrate direct thermal printer web serial interface
