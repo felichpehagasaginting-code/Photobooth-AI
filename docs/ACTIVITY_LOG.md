@@ -10934,3 +10934,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T22:22:29+07:00** - [Activity #6307] fix(audio): unlock audio context on initial user gesture
 - **2026-06-09T09:03:48+07:00** - [Activity #6308] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-09T09:11:32+07:00** - [Activity #6309] feat(analytics): log anonymous capture session completion metrics
+- **2026-06-09T09:24:29+07:00** - [Activity #6310] style(modal): fine-tune cubic-bezier easing curves on open transition
