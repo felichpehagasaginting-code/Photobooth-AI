@@ -5262,3 +5262,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T21:42:07+07:00** - [Activity #4513] feat(preset): allow custom framing border selection per session
 - **2026-06-08T22:06:17+07:00** - [Activity #4514] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-08T22:30:54+07:00** - [Activity #4515] refactor(types): consolidate photobooth session type definitions
+- **2026-06-09T09:02:41+07:00** - [Activity #4516] style(button): add subtle hover transition and outline focus style
