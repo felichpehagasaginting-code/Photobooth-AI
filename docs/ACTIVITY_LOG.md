@@ -5309,3 +5309,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T21:39:49+07:00** - [Activity #4560] docs(changelog): update version history and release milestones
 - **2026-06-09T21:59:25+07:00** - [Activity #4561] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-09T22:16:47+07:00** - [Activity #4562] test(hooks): add test suite for camera stream lifecycle events
+- **2026-06-09T22:26:45+07:00** - [Activity #4563] perf(memory): dispose cached image objects after strip generation
