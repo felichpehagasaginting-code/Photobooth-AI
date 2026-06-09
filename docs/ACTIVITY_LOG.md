@@ -5266,3 +5266,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T09:22:15+07:00** - [Activity #4517] perf(memory): dispose cached image objects after strip generation
 - **2026-06-09T09:32:58+07:00** - [Activity #4518] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-06-09T09:43:53+07:00** - [Activity #4519] refactor(i18n): restructure localization strings dictionary
+- **2026-06-09T10:01:14+07:00** - [Activity #4520] docs(deploy): add production deployment instructions for Vercel/Docker
