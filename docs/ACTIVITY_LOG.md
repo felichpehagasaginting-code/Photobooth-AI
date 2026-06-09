@@ -10932,3 +10932,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T21:38:06+07:00** - [Activity #6305] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-08T22:09:43+07:00** - [Activity #6306] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-06-08T22:22:29+07:00** - [Activity #6307] fix(audio): unlock audio context on initial user gesture
+- **2026-06-09T09:03:48+07:00** - [Activity #6308] feat(settings): add camera device selector with resolution fallbacks
