@@ -5287,3 +5287,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T15:27:08+07:00** - [Activity #4538] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-06-09T15:32:24+07:00** - [Activity #4539] refactor(api): modularize backend route handlers and validation utils
 - **2026-06-09T15:42:27+07:00** - [Activity #4540] docs(env): document all required environment variables with defaults
+- **2026-06-09T15:55:35+07:00** - [Activity #4541] style(theme): update dark mode accent color tokens with warm tone
