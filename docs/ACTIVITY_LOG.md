@@ -10947,3 +10947,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T12:05:45+07:00** - [Activity #6320] chore(deps): update core dependencies to latest stable versions
 - **2026-06-09T12:07:58+07:00** - [Activity #6321] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-06-09T13:48:48+07:00** - [Activity #6322] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-06-09T14:03:17+07:00** - [Activity #6323] feat(theme): introduce warm studio and monochrome dark themes
