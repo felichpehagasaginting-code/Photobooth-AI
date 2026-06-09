@@ -10972,3 +10972,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T19:41:18+07:00** - [Activity #6345] style(button): add subtle hover transition and outline focus style
 - **2026-06-09T20:08:14+07:00** - [Activity #6346] fix(state): sync active photo index when reopening gallery drawer
 - **2026-06-09T20:26:26+07:00** - [Activity #6347] test(hooks): add test suite for camera stream lifecycle events
+- **2026-06-09T20:39:29+07:00** - [Activity #6348] feat(print): integrate direct thermal printer web serial interface
