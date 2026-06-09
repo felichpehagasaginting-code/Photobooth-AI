@@ -5304,3 +5304,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T20:11:22+07:00** - [Activity #4555] style(shutter): design circular pulsating shutter button with feedback
 - **2026-06-09T20:29:55+07:00** - [Activity #4556] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-06-09T20:53:23+07:00** - [Activity #4557] fix(export): handle canvas taint error when loading external assets
+- **2026-06-09T21:12:30+07:00** - [Activity #4558] perf(api): cache static filter presets with aggressive HTTP headers
