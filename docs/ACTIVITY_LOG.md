@@ -10941,3 +10941,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T10:29:19+07:00** - [Activity #6314] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-09T10:50:08+07:00** - [Activity #6315] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-06-09T10:52:41+07:00** - [Activity #6316] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-06-09T11:20:41+07:00** - [Activity #6317] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
