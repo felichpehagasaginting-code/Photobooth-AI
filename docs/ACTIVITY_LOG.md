@@ -5306,3 +5306,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T20:53:23+07:00** - [Activity #4557] fix(export): handle canvas taint error when loading external assets
 - **2026-06-09T21:12:30+07:00** - [Activity #4558] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-06-09T21:31:08+07:00** - [Activity #4559] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-06-09T21:39:49+07:00** - [Activity #4560] docs(changelog): update version history and release milestones
