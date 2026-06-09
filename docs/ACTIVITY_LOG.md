@@ -10964,3 +10964,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T16:34:34+07:00** - [Activity #6337] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-06-09T16:58:39+07:00** - [Activity #6338] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-09T16:58:53+07:00** - [Activity #6339] docs(env): document all required environment variables with defaults
+- **2026-06-09T17:13:58+07:00** - [Activity #6340] docs(changelog): update version history and release milestones
