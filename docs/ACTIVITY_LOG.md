@@ -10948,3 +10948,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T12:07:58+07:00** - [Activity #6321] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-06-09T13:48:48+07:00** - [Activity #6322] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-09T14:03:17+07:00** - [Activity #6323] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-06-09T14:17:52+07:00** - [Activity #6324] chore(git): add ignore rules for local session exports and temp files
