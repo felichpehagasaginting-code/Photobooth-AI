@@ -10946,3 +10946,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T11:43:16+07:00** - [Activity #6319] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-06-09T12:05:45+07:00** - [Activity #6320] chore(deps): update core dependencies to latest stable versions
 - **2026-06-09T12:07:58+07:00** - [Activity #6321] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-06-09T13:48:48+07:00** - [Activity #6322] perf(fonts): preload display typography to eliminate FOIT delay
