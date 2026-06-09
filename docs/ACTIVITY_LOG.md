@@ -5291,3 +5291,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T15:59:01+07:00** - [Activity #4542] refactor(filter): organize color grading matrices into separate configs
 - **2026-06-09T16:25:02+07:00** - [Activity #4543] feat(ai): integrate edge background removal model
 - **2026-06-09T16:36:42+07:00** - [Activity #4544] feat(preset): allow custom framing border selection per session
+- **2026-06-09T16:40:13+07:00** - [Activity #4545] style(badge): update status indicator badge colors and glow effects
