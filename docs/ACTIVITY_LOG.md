@@ -5300,3 +5300,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T17:51:21+07:00** - [Activity #4551] fix(audio): unlock audio context on initial user gesture
 - **2026-06-09T19:30:30+07:00** - [Activity #4552] test(utils): add unit tests for image aspect ratio calculator
 - **2026-06-09T19:44:38+07:00** - [Activity #4553] feat(preset): allow custom framing border selection per session
+- **2026-06-09T20:04:05+07:00** - [Activity #4554] fix(state): sync active photo index when reopening gallery drawer
