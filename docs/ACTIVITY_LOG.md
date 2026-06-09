@@ -10968,3 +10968,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T17:15:37+07:00** - [Activity #6341] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-06-09T17:44:11+07:00** - [Activity #6342] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-06-09T17:54:28+07:00** - [Activity #6343] fix(download): resolve blob URL memory leak on repeated downloads
+- **2026-06-09T19:30:42+07:00** - [Activity #6344] feat(filter): add cyber-neon and grain texture post-processing overlay
