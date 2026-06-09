@@ -10954,3 +10954,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T14:40:32+07:00** - [Activity #6327] docs(env): document all required environment variables with defaults
 - **2026-06-09T14:55:14+07:00** - [Activity #6328] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-06-09T15:07:50+07:00** - [Activity #6329] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-06-09T15:15:40+07:00** - [Activity #6330] refactor(ui): extract reusable glass-panel and badge components
