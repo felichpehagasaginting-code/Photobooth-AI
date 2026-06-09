@@ -17,16 +17,16 @@ export default function CapturedPreview() {
   const currentPhoto = capturedPhotos[capturedPhotos.length - 1];
   const t = (id: string, en: string) => (language === 'id' ? id : en);
 
-  const handleRetake = () => { 
+  const handleRetake = () => {
     if (isLastTake && selectedPhotoIndex !== null) {
       setRetakeIndex(selectedPhotoIndex);
       setStep('camera');
     } else {
-      removeLastCapturedPhoto(); 
-      setStep('camera'); 
+      removeLastCapturedPhoto();
+      setStep('camera');
     }
   };
-  
+
   const handleNext = () => {
     if (currentTake < takeCount) { incrementTake(); setStep('camera'); }
     else setStep('filter-select');
@@ -93,10 +93,10 @@ export default function CapturedPreview() {
             className="relative w-full max-w-md"
           >
             {/* Decorative corner brackets — cobalt */}
-            {[[-1,-1,'r','b'],[-1,1,'l','b'],[1,-1,'r','t'],[1,1,'l','t']].map(([vy,vx,bx,by],i)=>(
+            {[[-1, -1, 'r', 'b'], [-1, 1, 'l', 'b'], [1, -1, 'r', 't'], [1, 1, 'l', 't']].map(([vy, vx, bx, by], i) => (
               <div key={i} className="absolute" style={{ top: vy === -1 ? -8 : undefined, bottom: vy === 1 ? -8 : undefined, left: vx === -1 ? -8 : undefined, right: vx === 1 ? -8 : undefined, width: 20, height: 20 }}>
-                <div style={{ position:'absolute', [by === 't' ? 'top' : 'bottom']: 0, [bx === 'r' ? 'right' : 'left']: 0, width:'100%', height: 2, background:'var(--copper)' }} />
-                <div style={{ position:'absolute', [by === 't' ? 'top' : 'bottom']: 0, [bx === 'r' ? 'right' : 'left']: 0, width: 2, height:'100%', background:'var(--copper)' }} />
+                <div style={{ position: 'absolute', [by === 't' ? 'top' : 'bottom']: 0, [bx === 'r' ? 'right' : 'left']: 0, width: '100%', height: 2, background: 'var(--copper)' }} />
+                <div style={{ position: 'absolute', [by === 't' ? 'top' : 'bottom']: 0, [bx === 'r' ? 'right' : 'left']: 0, width: 2, height: '100%', background: 'var(--copper)' }} />
               </div>
             ))}
 
@@ -149,7 +149,7 @@ export default function CapturedPreview() {
                   transition={{ delay: i * 0.1 }}
                   onClick={() => setSelectedPhotoIndex(i === selectedPhotoIndex ? null : i)}
                   className="relative cursor-pointer transition-transform"
-                  style={{ 
+                  style={{
                     border: selectedPhotoIndex === i ? '3.5px solid var(--copper)' : '1.5px solid rgba(43,92,246,0.2)',
                     transform: selectedPhotoIndex === i ? 'scale(1.02)' : 'scale(1)'
                   }}
@@ -192,8 +192,8 @@ export default function CapturedPreview() {
               style={{ border: '1px solid rgba(44,40,34,0.8)', transition: 'color 200ms cubic-bezier(0.33, 1, 0.68, 1), border-color 200ms' }}
             >
               <RotateCcw className="w-3.5 h-3.5" />
-              {isLastTake 
-                ? t(`Ulangi Foto ${selectedPhotoIndex! + 1}`, `Retake Photo ${selectedPhotoIndex! + 1}`) 
+              {isLastTake
+                ? t(`Ulangi Foto ${selectedPhotoIndex! + 1}`, `Retake Photo ${selectedPhotoIndex! + 1}`)
                 : t('Ulangi Foto Ini', 'Retake This Photo')
               }
             </button>
