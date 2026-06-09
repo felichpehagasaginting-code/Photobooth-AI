@@ -5279,3 +5279,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T13:45:03+07:00** - [Activity #4530] test(api): add integration test coverage for photo seed endpoint
 - **2026-06-09T13:54:30+07:00** - [Activity #4531] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-06-09T13:59:09+07:00** - [Activity #4532] docs(api): document endpoint parameters and error codes for seed route
+- **2026-06-09T14:10:06+07:00** - [Activity #4533] feat(kiosk): add full-screen lock and inactivity reset timer
