@@ -10974,3 +10974,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T20:26:26+07:00** - [Activity #6347] test(hooks): add test suite for camera stream lifecycle events
 - **2026-06-09T20:39:29+07:00** - [Activity #6348] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-09T20:58:49+07:00** - [Activity #6349] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
+- **2026-06-09T21:00:43+07:00** - [Activity #6350] fix(download): resolve blob URL memory leak on repeated downloads
