@@ -10938,3 +10938,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T09:49:39+07:00** - [Activity #6311] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-06-09T09:57:46+07:00** - [Activity #6312] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-06-09T10:19:50+07:00** - [Activity #6313] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-06-09T10:29:19+07:00** - [Activity #6314] perf(images): compress intermediate preview thumbnails with WebP format
