@@ -5264,3 +5264,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-08T22:30:54+07:00** - [Activity #4515] refactor(types): consolidate photobooth session type definitions
 - **2026-06-09T09:02:41+07:00** - [Activity #4516] style(button): add subtle hover transition and outline focus style
 - **2026-06-09T09:22:15+07:00** - [Activity #4517] perf(memory): dispose cached image objects after strip generation
+- **2026-06-09T09:32:58+07:00** - [Activity #4518] fix(camera): prevent stream freeze on rapid device re-plug
