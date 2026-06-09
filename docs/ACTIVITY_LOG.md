@@ -10970,3 +10970,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-09T17:54:28+07:00** - [Activity #6343] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-06-09T19:30:42+07:00** - [Activity #6344] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-06-09T19:41:18+07:00** - [Activity #6345] style(button): add subtle hover transition and outline focus style
+- **2026-06-09T20:08:14+07:00** - [Activity #6346] fix(state): sync active photo index when reopening gallery drawer
