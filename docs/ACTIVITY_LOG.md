@@ -11001,3 +11001,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T14:45:45+07:00** - [Activity #6374] feat(cloud): async upload queue for batch photo backup
 - **2026-06-10T14:56:04+07:00** - [Activity #6375] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-10T15:03:52+07:00** - [Activity #6376] refactor(filter): organize color grading matrices into separate configs
+- **2026-06-10T15:14:13+07:00** - [Activity #6377] chore(lint): configure ESLint rules for react hooks and accessibility
