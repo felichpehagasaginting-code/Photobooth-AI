@@ -10992,3 +10992,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T11:11:29+07:00** - [Activity #6365] docs(env): document all required environment variables with defaults
 - **2026-06-10T11:23:59+07:00** - [Activity #6366] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-06-10T11:52:52+07:00** - [Activity #6367] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-06-10T11:58:24+07:00** - [Activity #6368] test(canvas): add snapshot tests for multi-frame collage layouts
