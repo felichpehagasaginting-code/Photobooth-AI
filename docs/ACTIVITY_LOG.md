@@ -5352,3 +5352,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T20:53:57+07:00** - [Activity #4603] perf(memory): dispose cached image objects after strip generation
 - **2026-06-10T21:02:29+07:00** - [Activity #4604] feat(analytics): log anonymous capture session completion metrics
 - **2026-06-10T21:31:57+07:00** - [Activity #4605] feat(watermark): customizable event logo watermark overlay
+- **2026-06-10T21:43:15+07:00** - [Activity #4606] fix(timer): clear interval on component unmount to prevent memory leak
