@@ -11004,3 +11004,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T15:14:13+07:00** - [Activity #6377] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-06-10T15:29:48+07:00** - [Activity #6378] feat(share): generate instant QR code for mobile photo download
 - **2026-06-10T15:43:01+07:00** - [Activity #6379] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-06-10T15:44:34+07:00** - [Activity #6380] refactor(camera): extract media stream hook into standalone module
