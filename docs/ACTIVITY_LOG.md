@@ -11018,3 +11018,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T19:45:40+07:00** - [Activity #6391] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-06-10T19:54:10+07:00** - [Activity #6392] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-06-10T20:17:37+07:00** - [Activity #6393] test(hooks): add test suite for camera stream lifecycle events
+- **2026-06-10T20:42:01+07:00** - [Activity #6394] fix(export): handle canvas taint error when loading external assets
