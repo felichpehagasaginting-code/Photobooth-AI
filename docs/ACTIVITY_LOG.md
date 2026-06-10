@@ -10996,3 +10996,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T12:16:15+07:00** - [Activity #6369] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-06-10T13:45:00+07:00** - [Activity #6370] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-06-10T14:01:30+07:00** - [Activity #6371] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
+- **2026-06-10T14:19:00+07:00** - [Activity #6372] fix(camera): prevent stream freeze on rapid device re-plug
