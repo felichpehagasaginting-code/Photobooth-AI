@@ -5340,3 +5340,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T16:28:37+07:00** - [Activity #4591] style(cards): apply subtle border gradient and elevation shadows
 - **2026-06-10T16:51:16+07:00** - [Activity #4592] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-06-10T16:55:25+07:00** - [Activity #4593] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-06-10T17:07:50+07:00** - [Activity #4594] perf(bundle): implement dynamic lazy loading for heavy filter shaders
