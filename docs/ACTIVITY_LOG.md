@@ -10985,3 +10985,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T09:25:28+07:00** - [Activity #6358] fix(state): sync active photo index when reopening gallery drawer
 - **2026-06-10T09:50:34+07:00** - [Activity #6359] refactor(types): consolidate photobooth session type definitions
 - **2026-06-10T10:05:57+07:00** - [Activity #6360] docs(env): document all required environment variables with defaults
+- **2026-06-10T10:19:23+07:00** - [Activity #6361] feat(gallery): add touch swipe navigation for captured photo previews
