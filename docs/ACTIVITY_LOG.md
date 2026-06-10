@@ -5338,3 +5338,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T16:06:59+07:00** - [Activity #4589] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-06-10T16:27:23+07:00** - [Activity #4590] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-06-10T16:28:37+07:00** - [Activity #4591] style(cards): apply subtle border gradient and elevation shadows
+- **2026-06-10T16:51:16+07:00** - [Activity #4592] style(modal): fine-tune cubic-bezier easing curves on open transition
