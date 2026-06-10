@@ -11012,3 +11012,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T16:54:23+07:00** - [Activity #6385] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-06-10T17:15:22+07:00** - [Activity #6386] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-10T17:27:12+07:00** - [Activity #6387] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-06-10T17:30:13+07:00** - [Activity #6388] fix(export): handle canvas taint error when loading external assets
