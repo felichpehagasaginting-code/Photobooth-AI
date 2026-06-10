@@ -5318,3 +5318,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T10:09:07+07:00** - [Activity #4569] chore(git): add ignore rules for local session exports and temp files
 - **2026-06-10T10:25:42+07:00** - [Activity #4570] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-10T10:49:15+07:00** - [Activity #4571] perf(anim): offload countdown animations to GPU composited layers
+- **2026-06-10T10:56:39+07:00** - [Activity #4572] refactor(styles): migrate hardcoded color values to CSS design tokens
