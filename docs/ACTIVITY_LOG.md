@@ -11020,3 +11020,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T20:17:37+07:00** - [Activity #6393] test(hooks): add test suite for camera stream lifecycle events
 - **2026-06-10T20:42:01+07:00** - [Activity #6394] fix(export): handle canvas taint error when loading external assets
 - **2026-06-10T20:53:12+07:00** - [Activity #6395] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-06-10T21:02:21+07:00** - [Activity #6396] perf(anim): offload countdown animations to GPU composited layers
