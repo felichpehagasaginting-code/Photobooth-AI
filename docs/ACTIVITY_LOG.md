@@ -10991,3 +10991,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T10:56:42+07:00** - [Activity #6364] test(hooks): add test suite for camera stream lifecycle events
 - **2026-06-10T11:11:29+07:00** - [Activity #6365] docs(env): document all required environment variables with defaults
 - **2026-06-10T11:23:59+07:00** - [Activity #6366] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-06-10T11:52:52+07:00** - [Activity #6367] feat(gallery): add touch swipe navigation for captured photo previews
