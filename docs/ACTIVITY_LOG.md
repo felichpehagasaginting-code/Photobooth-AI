@@ -5348,3 +5348,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T19:41:35+07:00** - [Activity #4599] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-06-10T19:56:46+07:00** - [Activity #4600] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-06-10T20:22:50+07:00** - [Activity #4601] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-06-10T20:32:40+07:00** - [Activity #4602] fix(print): fix page margin clipping on 4x6 photo paper print preview
