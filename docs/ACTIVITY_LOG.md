@@ -5355,3 +5355,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T21:43:15+07:00** - [Activity #4606] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-06-10T21:57:58+07:00** - [Activity #4607] refactor(types): consolidate photobooth session type definitions
 - **2026-06-10T22:16:40+07:00** - [Activity #4608] docs(testing): describe manual verification steps for photobooth kiosk
+- **2026-06-10T22:24:47+07:00** - [Activity #4609] feat(camera): add dynamic exposure and focus adjustment controls
