@@ -5331,3 +5331,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T14:40:43+07:00** - [Activity #4582] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-06-10T14:43:13+07:00** - [Activity #4583] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-06-10T14:57:39+07:00** - [Activity #4584] docs(env): document all required environment variables with defaults
+- **2026-06-10T15:22:06+07:00** - [Activity #4585] docs(arch): add architecture diagram explaining client-side filter flow
