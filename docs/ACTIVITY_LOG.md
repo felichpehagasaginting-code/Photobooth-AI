@@ -10983,3 +10983,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T09:00:13+07:00** - [Activity #6356] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-06-10T09:09:09+07:00** - [Activity #6357] refactor(types): consolidate photobooth session type definitions
 - **2026-06-10T09:25:28+07:00** - [Activity #6358] fix(state): sync active photo index when reopening gallery drawer
+- **2026-06-10T09:50:34+07:00** - [Activity #6359] refactor(types): consolidate photobooth session type definitions
