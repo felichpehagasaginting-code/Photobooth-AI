@@ -11014,3 +11014,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-10T17:27:12+07:00** - [Activity #6387] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-06-10T17:30:13+07:00** - [Activity #6388] fix(export): handle canvas taint error when loading external assets
 - **2026-06-10T17:51:33+07:00** - [Activity #6389] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-06-10T19:33:59+07:00** - [Activity #6390] chore(deps): update core dependencies to latest stable versions
