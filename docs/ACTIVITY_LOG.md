@@ -11031,3 +11031,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T09:31:43+07:00** - [Activity #6404] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-06-11T09:51:51+07:00** - [Activity #6405] style(button): add subtle hover transition and outline focus style
 - **2026-06-11T10:11:50+07:00** - [Activity #6406] fix(download): resolve blob URL memory leak on repeated downloads
+- **2026-06-11T10:42:05+07:00** - [Activity #6407] docs(api): document endpoint parameters and error codes for seed route
