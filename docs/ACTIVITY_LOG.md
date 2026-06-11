@@ -5375,3 +5375,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T15:11:51+07:00** - [Activity #4626] fix(state): sync active photo index when reopening gallery drawer
 - **2026-06-11T15:16:10+07:00** - [Activity #4627] docs(api): document endpoint parameters and error codes for seed route
 - **2026-06-11T15:44:53+07:00** - [Activity #4628] refactor(types): consolidate photobooth session type definitions
+- **2026-06-11T15:51:29+07:00** - [Activity #4629] style(photobooth): refine backdrop blur and color contrast for dark mode
