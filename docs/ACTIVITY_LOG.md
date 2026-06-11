@@ -11034,3 +11034,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T10:42:05+07:00** - [Activity #6407] docs(api): document endpoint parameters and error codes for seed route
 - **2026-06-11T10:53:21+07:00** - [Activity #6408] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-06-11T11:16:08+07:00** - [Activity #6409] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-06-11T11:25:45+07:00** - [Activity #6410] fix(camera): resolve aspect ratio distortion on ultrawide webcams
