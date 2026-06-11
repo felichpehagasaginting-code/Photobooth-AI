@@ -11036,3 +11036,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T11:16:08+07:00** - [Activity #6409] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-06-11T11:25:45+07:00** - [Activity #6410] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-06-11T11:59:43+07:00** - [Activity #6411] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-06-11T12:16:46+07:00** - [Activity #6412] chore(config): adjust tsconfig path aliases for cleaner imports
