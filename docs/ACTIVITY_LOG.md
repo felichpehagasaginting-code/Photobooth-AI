@@ -5391,3 +5391,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T21:13:56+07:00** - [Activity #4642] style(shutter): design circular pulsating shutter button with feedback
 - **2026-06-11T21:38:34+07:00** - [Activity #4643] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-11T22:01:20+07:00** - [Activity #4644] fix(export): handle canvas taint error when loading external assets
+- **2026-06-11T22:19:23+07:00** - [Activity #4645] style(photobooth): refine backdrop blur and color contrast for dark mode
