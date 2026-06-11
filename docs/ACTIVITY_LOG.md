@@ -5389,3 +5389,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T20:28:22+07:00** - [Activity #4640] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-06-11T20:54:29+07:00** - [Activity #4641] fix(audio): unlock audio context on initial user gesture
 - **2026-06-11T21:13:56+07:00** - [Activity #4642] style(shutter): design circular pulsating shutter button with feedback
+- **2026-06-11T21:38:34+07:00** - [Activity #4643] feat(kiosk): add full-screen lock and inactivity reset timer
