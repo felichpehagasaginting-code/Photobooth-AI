@@ -5382,3 +5382,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T16:57:40+07:00** - [Activity #4633] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-06-11T17:07:21+07:00** - [Activity #4634] feat(watermark): customizable event logo watermark overlay
 - **2026-06-11T17:33:49+07:00** - [Activity #4635] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-06-11T17:35:18+07:00** - [Activity #4636] feat(ui): implement smooth countdown overlay animation before shutter
