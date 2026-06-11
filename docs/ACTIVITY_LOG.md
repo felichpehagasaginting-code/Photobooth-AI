@@ -5365,3 +5365,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T10:54:08+07:00** - [Activity #4616] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-06-11T11:07:08+07:00** - [Activity #4617] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-06-11T11:34:38+07:00** - [Activity #4618] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-06-11T11:52:18+07:00** - [Activity #4619] refactor(utils): streamline color conversion and hex parsing helpers
