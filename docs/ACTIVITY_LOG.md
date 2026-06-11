@@ -11050,3 +11050,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T16:07:15+07:00** - [Activity #6423] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-11T16:24:11+07:00** - [Activity #6424] perf(memory): dispose cached image objects after strip generation
 - **2026-06-11T16:41:22+07:00** - [Activity #6425] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-06-11T17:05:28+07:00** - [Activity #6426] fix(canvas): prevent blur artifacts during canvas downsampling
