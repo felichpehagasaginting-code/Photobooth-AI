@@ -11062,3 +11062,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T21:08:17+07:00** - [Activity #6435] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-06-11T21:22:26+07:00** - [Activity #6436] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-06-11T21:42:39+07:00** - [Activity #6437] feat(share): generate instant QR code for mobile photo download
+- **2026-06-11T22:06:05+07:00** - [Activity #6438] style(modal): fine-tune cubic-bezier easing curves on open transition
