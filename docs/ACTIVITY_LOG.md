@@ -11057,3 +11057,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T19:33:08+07:00** - [Activity #6430] feat(ai): integrate edge background removal model
 - **2026-06-11T19:48:18+07:00** - [Activity #6431] feat(share): generate instant QR code for mobile photo download
 - **2026-06-11T20:03:05+07:00** - [Activity #6432] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-06-11T20:20:01+07:00** - [Activity #6433] chore(git): add ignore rules for local session exports and temp files
