@@ -11048,3 +11048,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T15:47:27+07:00** - [Activity #6421] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-06-11T15:51:34+07:00** - [Activity #6422] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-11T16:07:15+07:00** - [Activity #6423] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-06-11T16:24:11+07:00** - [Activity #6424] perf(memory): dispose cached image objects after strip generation
