@@ -5387,3 +5387,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T19:56:39+07:00** - [Activity #4638] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-06-11T20:16:11+07:00** - [Activity #4639] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-11T20:28:22+07:00** - [Activity #4640] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-06-11T20:54:29+07:00** - [Activity #4641] fix(audio): unlock audio context on initial user gesture
