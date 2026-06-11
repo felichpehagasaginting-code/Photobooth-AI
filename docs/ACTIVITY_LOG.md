@@ -5371,3 +5371,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T14:06:47+07:00** - [Activity #4622] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-06-11T14:08:55+07:00** - [Activity #4623] feat(ai): integrate edge background removal model
 - **2026-06-11T14:28:31+07:00** - [Activity #4624] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-06-11T14:48:48+07:00** - [Activity #4625] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
