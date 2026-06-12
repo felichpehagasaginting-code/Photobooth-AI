@@ -11083,3 +11083,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T14:18:43+07:00** - [Activity #6456] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-06-12T14:43:16+07:00** - [Activity #6457] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-12T14:53:20+07:00** - [Activity #6458] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-06-12T15:07:52+07:00** - [Activity #6459] docs(deploy): add production deployment instructions for Vercel/Docker
