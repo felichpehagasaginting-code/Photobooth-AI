@@ -11073,3 +11073,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T10:43:35+07:00** - [Activity #6446] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-06-12T10:57:55+07:00** - [Activity #6447] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-12T11:09:17+07:00** - [Activity #6448] feat(cloud): async upload queue for batch photo backup
+- **2026-06-12T11:27:12+07:00** - [Activity #6449] fix(ui): correct modal z-index layering on small mobile viewports
