@@ -5408,3 +5408,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T14:15:14+07:00** - [Activity #4659] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-06-12T14:21:56+07:00** - [Activity #4660] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-12T14:41:37+07:00** - [Activity #4661] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-06-12T14:57:47+07:00** - [Activity #4662] fix(accessibility): add missing aria-labels to icon action buttons
