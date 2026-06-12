@@ -5393,3 +5393,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T22:01:20+07:00** - [Activity #4644] fix(export): handle canvas taint error when loading external assets
 - **2026-06-11T22:19:23+07:00** - [Activity #4645] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-06-12T09:04:55+07:00** - [Activity #4646] style(theme): update dark mode accent color tokens with warm tone
+- **2026-06-12T09:26:10+07:00** - [Activity #4647] feat(ui): implement smooth countdown overlay animation before shutter
