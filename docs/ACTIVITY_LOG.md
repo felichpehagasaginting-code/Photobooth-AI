@@ -5425,3 +5425,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T20:10:42+07:00** - [Activity #4676] test(utils): add unit tests for image aspect ratio calculator
 - **2026-06-12T20:34:04+07:00** - [Activity #4677] chore(deps): update core dependencies to latest stable versions
 - **2026-06-12T20:53:04+07:00** - [Activity #4678] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-06-12T21:02:08+07:00** - [Activity #4679] fix(state): sync active photo index when reopening gallery drawer
