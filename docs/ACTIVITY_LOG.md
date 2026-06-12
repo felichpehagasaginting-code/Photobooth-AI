@@ -11098,3 +11098,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T17:46:32+07:00** - [Activity #6471] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-06-12T19:30:27+07:00** - [Activity #6472] fix(api): validate payload schema before processing seed request
 - **2026-06-12T19:42:20+07:00** - [Activity #6473] fix(firebase): handle network timeout retry in transaction hook
+- **2026-06-12T20:02:51+07:00** - [Activity #6474] fix(ui): correct modal z-index layering on small mobile viewports
