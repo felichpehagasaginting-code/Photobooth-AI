@@ -5402,3 +5402,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T11:13:48+07:00** - [Activity #4653] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-12T11:32:52+07:00** - [Activity #4654] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-06-12T11:51:29+07:00** - [Activity #4655] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-06-12T12:06:07+07:00** - [Activity #4656] fix(qr): adjust QR code contrast ratio for low-light scanning
