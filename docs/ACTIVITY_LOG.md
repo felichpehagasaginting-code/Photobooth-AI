@@ -5394,3 +5394,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-11T22:19:23+07:00** - [Activity #4645] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-06-12T09:04:55+07:00** - [Activity #4646] style(theme): update dark mode accent color tokens with warm tone
 - **2026-06-12T09:26:10+07:00** - [Activity #4647] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-06-12T09:37:09+07:00** - [Activity #4648] docs(env): document all required environment variables with defaults
