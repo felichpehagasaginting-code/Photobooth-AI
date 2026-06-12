@@ -5405,3 +5405,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T12:06:07+07:00** - [Activity #4656] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-06-12T13:52:46+07:00** - [Activity #4657] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-06-12T14:03:44+07:00** - [Activity #4658] feat(watermark): customizable event logo watermark overlay
+- **2026-06-12T14:15:14+07:00** - [Activity #4659] refactor(cleanup): remove deprecated legacy camera capture methods
