@@ -5398,3 +5398,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T09:57:56+07:00** - [Activity #4649] refactor(state): migrate photo session state management to zustand store
 - **2026-06-12T10:15:26+07:00** - [Activity #4650] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-12T10:40:01+07:00** - [Activity #4651] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-06-12T11:00:52+07:00** - [Activity #4652] style(typography): refine letter-spacing and hierarchy for hero heading
