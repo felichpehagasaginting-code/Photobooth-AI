@@ -11067,3 +11067,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T09:06:43+07:00** - [Activity #6440] perf(anim): offload countdown animations to GPU composited layers
 - **2026-06-12T09:23:19+07:00** - [Activity #6441] fix(audio): unlock audio context on initial user gesture
 - **2026-06-12T09:36:03+07:00** - [Activity #6442] chore(git): add ignore rules for local session exports and temp files
+- **2026-06-12T09:54:58+07:00** - [Activity #6443] style(modal): fine-tune cubic-bezier easing curves on open transition
