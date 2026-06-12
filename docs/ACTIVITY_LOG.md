@@ -11088,3 +11088,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T15:32:06+07:00** - [Activity #6461] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-06-12T15:38:35+07:00** - [Activity #6462] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-12T15:51:33+07:00** - [Activity #6463] perf(memory): dispose cached image objects after strip generation
+- **2026-06-12T16:04:01+07:00** - [Activity #6464] refactor(styles): migrate hardcoded color values to CSS design tokens
