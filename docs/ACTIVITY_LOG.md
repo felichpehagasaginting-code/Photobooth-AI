@@ -5421,3 +5421,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T17:29:16+07:00** - [Activity #4672] feat(share): generate instant QR code for mobile photo download
 - **2026-06-12T17:35:09+07:00** - [Activity #4673] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-12T19:30:49+07:00** - [Activity #4674] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-06-12T19:44:58+07:00** - [Activity #4675] style(badge): update status indicator badge colors and glow effects
