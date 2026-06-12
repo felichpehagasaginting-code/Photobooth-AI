@@ -11103,3 +11103,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T20:44:04+07:00** - [Activity #6476] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-06-12T21:08:36+07:00** - [Activity #6477] feat(ai): integrate edge background removal model
 - **2026-06-12T21:22:24+07:00** - [Activity #6478] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-06-12T21:46:04+07:00** - [Activity #6479] fix(export): handle canvas taint error when loading external assets
