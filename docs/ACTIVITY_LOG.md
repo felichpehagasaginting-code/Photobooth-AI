@@ -11071,3 +11071,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T10:10:49+07:00** - [Activity #6444] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-12T10:13:05+07:00** - [Activity #6445] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-06-12T10:43:35+07:00** - [Activity #6446] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-06-12T10:57:55+07:00** - [Activity #6447] feat(export): support high-resolution PNG and PDF print strip layout
