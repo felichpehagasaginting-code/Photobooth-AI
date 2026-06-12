@@ -5426,3 +5426,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T20:34:04+07:00** - [Activity #4677] chore(deps): update core dependencies to latest stable versions
 - **2026-06-12T20:53:04+07:00** - [Activity #4678] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-06-12T21:02:08+07:00** - [Activity #4679] fix(state): sync active photo index when reopening gallery drawer
+- **2026-06-12T21:19:37+07:00** - [Activity #4680] chore(build): optimize Vite build chunks and asset minification settings
