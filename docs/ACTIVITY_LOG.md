@@ -11069,3 +11069,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T09:36:03+07:00** - [Activity #6442] chore(git): add ignore rules for local session exports and temp files
 - **2026-06-12T09:54:58+07:00** - [Activity #6443] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-06-12T10:10:49+07:00** - [Activity #6444] refactor(ui): extract reusable glass-panel and badge components
+- **2026-06-12T10:13:05+07:00** - [Activity #6445] fix(camera): prevent stream freeze on rapid device re-plug
