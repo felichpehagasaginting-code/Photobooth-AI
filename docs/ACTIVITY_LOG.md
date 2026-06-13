@@ -5435,3 +5435,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-13T11:12:01+07:00** - [Activity #4686] style(theme): update dark mode accent color tokens with warm tone
 - **2026-06-13T13:45:20+07:00** - [Activity #4687] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-06-13T14:41:58+07:00** - [Activity #4688] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-06-13T15:23:04+07:00** - [Activity #4689] perf(api): cache static filter presets with aggressive HTTP headers
