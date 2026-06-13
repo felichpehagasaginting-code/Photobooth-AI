@@ -11107,3 +11107,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T22:13:24+07:00** - [Activity #6480] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-06-12T22:22:02+07:00** - [Activity #6481] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-06-13T09:00:46+07:00** - [Activity #6482] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-06-13T09:54:34+07:00** - [Activity #6483] feat(camera): add dynamic exposure and focus adjustment controls
