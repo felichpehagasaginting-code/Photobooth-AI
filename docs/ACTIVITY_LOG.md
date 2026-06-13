@@ -11113,3 +11113,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-13T13:45:28+07:00** - [Activity #6486] docs(changelog): update version history and release milestones
 - **2026-06-13T14:27:14+07:00** - [Activity #6487] fix(audio): unlock audio context on initial user gesture
 - **2026-06-13T15:09:39+07:00** - [Activity #6488] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-06-13T15:47:05+07:00** - [Activity #6489] refactor(utils): streamline color conversion and hex parsing helpers
