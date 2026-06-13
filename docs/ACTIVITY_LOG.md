@@ -5432,3 +5432,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-12T22:18:17+07:00** - [Activity #4683] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-06-13T09:00:20+07:00** - [Activity #4684] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-06-13T10:05:23+07:00** - [Activity #4685] fix(firebase): handle network timeout retry in transaction hook
+- **2026-06-13T11:12:01+07:00** - [Activity #4686] style(theme): update dark mode accent color tokens with warm tone
