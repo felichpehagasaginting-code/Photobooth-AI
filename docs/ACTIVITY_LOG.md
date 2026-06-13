@@ -5436,3 +5436,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-13T13:45:20+07:00** - [Activity #4687] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-06-13T14:41:58+07:00** - [Activity #4688] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-06-13T15:23:04+07:00** - [Activity #4689] perf(api): cache static filter presets with aggressive HTTP headers
+- **2026-06-13T16:08:14+07:00** - [Activity #4690] style(typography): refine letter-spacing and hierarchy for hero heading
