@@ -11112,3 +11112,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-13T11:30:45+07:00** - [Activity #6485] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-06-13T13:45:28+07:00** - [Activity #6486] docs(changelog): update version history and release milestones
 - **2026-06-13T14:27:14+07:00** - [Activity #6487] fix(audio): unlock audio context on initial user gesture
+- **2026-06-13T15:09:39+07:00** - [Activity #6488] fix(canvas): prevent blur artifacts during canvas downsampling
