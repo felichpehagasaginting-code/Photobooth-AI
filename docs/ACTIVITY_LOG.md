@@ -11130,3 +11130,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-14T14:43:29+07:00** - [Activity #6503] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-06-14T15:08:31+07:00** - [Activity #6504] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-14T15:35:45+07:00** - [Activity #6505] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-06-14T16:11:55+07:00** - [Activity #6506] feat(theme): introduce warm studio and monochrome dark themes
