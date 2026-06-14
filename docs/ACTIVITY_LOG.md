@@ -5444,3 +5444,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-14T09:48:38+07:00** - [Activity #4695] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-06-14T10:28:35+07:00** - [Activity #4696] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-06-14T11:11:22+07:00** - [Activity #4697] fix(api): validate payload schema before processing seed request
+- **2026-06-14T11:55:26+07:00** - [Activity #4698] refactor(cleanup): remove deprecated legacy camera capture methods
