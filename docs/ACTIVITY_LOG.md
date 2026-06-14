@@ -11136,3 +11136,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-14T17:40:58+07:00** - [Activity #6509] style(grid): modernize layout overlap for bento-style elements
 - **2026-06-14T19:32:13+07:00** - [Activity #6510] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-14T20:10:39+07:00** - [Activity #6511] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-06-14T20:47:11+07:00** - [Activity #6512] style(button): add subtle hover transition and outline focus style
