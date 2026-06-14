@@ -5445,3 +5445,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-14T10:28:35+07:00** - [Activity #4696] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-06-14T11:11:22+07:00** - [Activity #4697] fix(api): validate payload schema before processing seed request
 - **2026-06-14T11:55:26+07:00** - [Activity #4698] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-06-14T13:45:08+07:00** - [Activity #4699] chore(git): add ignore rules for local session exports and temp files
