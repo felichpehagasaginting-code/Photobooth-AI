@@ -11125,3 +11125,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-14T10:44:48+07:00** - [Activity #6498] test(hooks): add test suite for camera stream lifecycle events
 - **2026-06-14T11:17:21+07:00** - [Activity #6499] refactor(state): migrate photo session state management to zustand store
 - **2026-06-14T11:47:40+07:00** - [Activity #6500] refactor(api): modularize backend route handlers and validation utils
+- **2026-06-14T13:50:26+07:00** - [Activity #6501] perf(images): compress intermediate preview thumbnails with WebP format
