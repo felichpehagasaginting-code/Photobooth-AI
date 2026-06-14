@@ -5456,3 +5456,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-14T19:34:42+07:00** - [Activity #4707] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-06-14T20:13:27+07:00** - [Activity #4708] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-06-14T21:08:13+07:00** - [Activity #4709] feat(ai): integrate edge background removal model
+- **2026-06-14T22:00:21+07:00** - [Activity #4710] docs(readme): add detailed hardware camera setup and compatibility guide
