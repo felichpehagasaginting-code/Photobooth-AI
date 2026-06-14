@@ -11128,3 +11128,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-14T13:50:26+07:00** - [Activity #6501] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-14T14:12:07+07:00** - [Activity #6502] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-06-14T14:43:29+07:00** - [Activity #6503] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-06-14T15:08:31+07:00** - [Activity #6504] feat(print): integrate direct thermal printer web serial interface
