@@ -11122,3 +11122,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-14T09:06:18+07:00** - [Activity #6495] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-06-14T09:39:27+07:00** - [Activity #6496] perf(memory): dispose cached image objects after strip generation
 - **2026-06-14T10:17:05+07:00** - [Activity #6497] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-06-14T10:44:48+07:00** - [Activity #6498] test(hooks): add test suite for camera stream lifecycle events
