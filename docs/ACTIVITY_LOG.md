@@ -11121,3 +11121,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-13T21:42:48+07:00** - [Activity #6494] fix(firebase): handle network timeout retry in transaction hook
 - **2026-06-14T09:06:18+07:00** - [Activity #6495] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-06-14T09:39:27+07:00** - [Activity #6496] perf(memory): dispose cached image objects after strip generation
+- **2026-06-14T10:17:05+07:00** - [Activity #6497] perf(fonts): preload display typography to eliminate FOIT delay
