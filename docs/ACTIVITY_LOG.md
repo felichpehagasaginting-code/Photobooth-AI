@@ -5463,3 +5463,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-15T09:54:58+07:00** - [Activity #4714] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-15T10:16:49+07:00** - [Activity #4715] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-06-15T10:36:10+07:00** - [Activity #4716] docs(testing): describe manual verification steps for photobooth kiosk
+- **2026-06-15T10:47:41+07:00** - [Activity #4717] fix(camera): prevent stream freeze on rapid device re-plug
