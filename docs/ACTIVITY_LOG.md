@@ -5474,3 +5474,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-15T14:21:39+07:00** - [Activity #4725] refactor(events): use custom event bus for decoupled component messaging
 - **2026-06-15T14:40:33+07:00** - [Activity #4726] feat(preset): allow custom framing border selection per session
 - **2026-06-15T15:02:31+07:00** - [Activity #4727] fix(state): sync active photo index when reopening gallery drawer
+- **2026-06-15T15:13:49+07:00** - [Activity #4728] refactor(cleanup): remove deprecated legacy camera capture methods
