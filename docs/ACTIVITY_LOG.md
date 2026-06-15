@@ -11153,3 +11153,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-15T13:45:15+07:00** - [Activity #6526] style(grid): modernize layout overlap for bento-style elements
 - **2026-06-15T14:02:46+07:00** - [Activity #6527] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-06-15T14:20:04+07:00** - [Activity #6528] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-06-15T14:21:26+07:00** - [Activity #6529] chore(config): adjust tsconfig path aliases for cleaner imports
