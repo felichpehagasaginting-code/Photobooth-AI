@@ -5487,3 +5487,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-15T17:35:31+07:00** - [Activity #4738] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-06-15T19:30:50+07:00** - [Activity #4739] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-06-15T19:47:20+07:00** - [Activity #4740] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-06-15T20:17:16+07:00** - [Activity #4741] docs(api): document endpoint parameters and error codes for seed route
