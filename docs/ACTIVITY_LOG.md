@@ -11159,3 +11159,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-15T15:18:40+07:00** - [Activity #6532] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-06-15T15:35:11+07:00** - [Activity #6533] test(utils): add unit tests for image aspect ratio calculator
 - **2026-06-15T15:52:06+07:00** - [Activity #6534] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-06-15T16:06:09+07:00** - [Activity #6535] fix(camera): prevent stream freeze on rapid device re-plug
