@@ -5481,3 +5481,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-15T16:14:10+07:00** - [Activity #4732] fix(export): handle canvas taint error when loading external assets
 - **2026-06-15T16:36:25+07:00** - [Activity #4733] docs(changelog): update version history and release milestones
 - **2026-06-15T16:45:52+07:00** - [Activity #4734] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-06-15T17:09:14+07:00** - [Activity #4735] docs(testing): describe manual verification steps for photobooth kiosk
