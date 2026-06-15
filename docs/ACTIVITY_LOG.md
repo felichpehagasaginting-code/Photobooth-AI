@@ -11174,3 +11174,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-15T20:59:01+07:00** - [Activity #6547] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-06-15T21:25:24+07:00** - [Activity #6548] feat(ai): integrate edge background removal model
 - **2026-06-15T21:46:40+07:00** - [Activity #6549] fix(audio): unlock audio context on initial user gesture
+- **2026-06-15T21:56:31+07:00** - [Activity #6550] chore(config): adjust tsconfig path aliases for cleaner imports
