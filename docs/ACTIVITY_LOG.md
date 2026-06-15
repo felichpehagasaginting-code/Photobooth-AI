@@ -5472,3 +5472,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-15T13:51:47+07:00** - [Activity #4723] fix(audio): unlock audio context on initial user gesture
 - **2026-06-15T14:16:21+07:00** - [Activity #4724] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-06-15T14:21:39+07:00** - [Activity #4725] refactor(events): use custom event bus for decoupled component messaging
+- **2026-06-15T14:40:33+07:00** - [Activity #4726] feat(preset): allow custom framing border selection per session
