@@ -5510,3 +5510,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-16T14:42:55+07:00** - [Activity #4761] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-06-16T14:53:17+07:00** - [Activity #4762] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-16T15:13:53+07:00** - [Activity #4763] docs(api): document endpoint parameters and error codes for seed route
+- **2026-06-16T15:18:49+07:00** - [Activity #4764] feat(ui): implement smooth countdown overlay animation before shutter
