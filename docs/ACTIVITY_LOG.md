@@ -11214,3 +11214,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-16T17:48:14+07:00** - [Activity #6587] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-16T19:36:37+07:00** - [Activity #6588] feat(analytics): log anonymous capture session completion metrics
 - **2026-06-16T19:52:06+07:00** - [Activity #6589] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-06-16T20:04:21+07:00** - [Activity #6590] refactor(hooks): create custom useDebounce and useThrottle utilities
