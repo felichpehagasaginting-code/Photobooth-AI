@@ -11189,3 +11189,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-16T11:34:50+07:00** - [Activity #6562] chore(deps): update core dependencies to latest stable versions
 - **2026-06-16T11:38:52+07:00** - [Activity #6563] refactor(filter): organize color grading matrices into separate configs
 - **2026-06-16T11:56:37+07:00** - [Activity #6564] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-06-16T12:07:58+07:00** - [Activity #6565] fix(export): handle canvas taint error when loading external assets
