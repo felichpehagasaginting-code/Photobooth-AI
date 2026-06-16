@@ -5520,3 +5520,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-16T17:15:23+07:00** - [Activity #4771] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-06-16T17:22:59+07:00** - [Activity #4772] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-06-16T17:44:43+07:00** - [Activity #4773] style(cards): apply subtle border gradient and elevation shadows
+- **2026-06-16T19:30:54+07:00** - [Activity #4774] refactor(cleanup): remove deprecated legacy camera capture methods
