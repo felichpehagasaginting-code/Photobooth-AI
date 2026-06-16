@@ -11195,3 +11195,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-16T14:16:22+07:00** - [Activity #6568] feat(ai): integrate edge background removal model
 - **2026-06-16T14:22:57+07:00** - [Activity #6569] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-06-16T14:27:44+07:00** - [Activity #6570] feat(share): generate instant QR code for mobile photo download
+- **2026-06-16T14:35:10+07:00** - [Activity #6571] docs(api): document endpoint parameters and error codes for seed route
