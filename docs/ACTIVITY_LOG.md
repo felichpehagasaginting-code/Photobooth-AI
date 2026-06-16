@@ -11221,3 +11221,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-16T21:06:02+07:00** - [Activity #6594] feat(ai): integrate edge background removal model
 - **2026-06-16T21:17:26+07:00** - [Activity #6595] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-06-16T21:42:16+07:00** - [Activity #6596] refactor(camera): extract media stream hook into standalone module
+- **2026-06-16T21:52:27+07:00** - [Activity #6597] chore(lint): configure ESLint rules for react hooks and accessibility
