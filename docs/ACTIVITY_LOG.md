@@ -5528,3 +5528,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-16T21:24:24+07:00** - [Activity #4779] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-16T21:32:55+07:00** - [Activity #4780] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-06-16T22:00:04+07:00** - [Activity #4781] fix(export): handle canvas taint error when loading external assets
+- **2026-06-16T22:29:02+07:00** - [Activity #4782] docs(testing): describe manual verification steps for photobooth kiosk
