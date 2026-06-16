@@ -11202,3 +11202,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-16T15:28:25+07:00** - [Activity #6575] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-16T15:43:38+07:00** - [Activity #6576] style(theme): update dark mode accent color tokens with warm tone
 - **2026-06-16T15:50:04+07:00** - [Activity #6577] perf(memory): dispose cached image objects after strip generation
+- **2026-06-16T16:06:59+07:00** - [Activity #6578] style(cards): apply subtle border gradient and elevation shadows
