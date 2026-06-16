@@ -5501,3 +5501,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-16T10:19:53+07:00** - [Activity #4752] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-06-16T10:44:27+07:00** - [Activity #4753] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-06-16T11:05:17+07:00** - [Activity #4754] refactor(i18n): restructure localization strings dictionary
+- **2026-06-16T11:22:03+07:00** - [Activity #4755] fix(camera): prevent stream freeze on rapid device re-plug
