@@ -5508,3 +5508,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-16T14:04:22+07:00** - [Activity #4759] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-06-16T14:23:09+07:00** - [Activity #4760] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-16T14:42:55+07:00** - [Activity #4761] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
+- **2026-06-16T14:53:17+07:00** - [Activity #4762] feat(settings): add camera device selector with resolution fallbacks
