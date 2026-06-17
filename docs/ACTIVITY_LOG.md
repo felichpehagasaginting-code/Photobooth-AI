@@ -11234,3 +11234,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T10:57:39+07:00** - [Activity #6607] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-06-17T11:05:37+07:00** - [Activity #6608] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-06-17T11:30:26+07:00** - [Activity #6609] refactor(ui): extract reusable glass-panel and badge components
+- **2026-06-17T11:41:21+07:00** - [Activity #6610] chore(lint): configure ESLint rules for react hooks and accessibility
