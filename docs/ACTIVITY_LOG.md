@@ -5530,3 +5530,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-16T22:00:04+07:00** - [Activity #4781] fix(export): handle canvas taint error when loading external assets
 - **2026-06-16T22:29:02+07:00** - [Activity #4782] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-06-17T09:00:17+07:00** - [Activity #4783] feat(settings): add camera device selector with resolution fallbacks
+- **2026-06-17T09:16:19+07:00** - [Activity #4784] test(api): add integration test coverage for photo seed endpoint
