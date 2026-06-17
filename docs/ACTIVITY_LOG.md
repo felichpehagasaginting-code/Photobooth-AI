@@ -5571,3 +5571,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T21:33:00+07:00** - [Activity #4822] feat(preset): allow custom framing border selection per session
 - **2026-06-17T21:53:19+07:00** - [Activity #4823] feat(audio): add shutter click and countdown sound effects
 - **2026-06-17T22:08:22+07:00** - [Activity #4824] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-06-17T22:22:30+07:00** - [Activity #4825] refactor(canvas): simplify image compositing pipeline architecture
