@@ -11266,3 +11266,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T21:21:52+07:00** - [Activity #6639] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-06-17T21:30:27+07:00** - [Activity #6640] perf(memory): dispose cached image objects after strip generation
 - **2026-06-17T21:50:16+07:00** - [Activity #6641] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-06-17T22:06:30+07:00** - [Activity #6642] chore(config): adjust tsconfig path aliases for cleaner imports
