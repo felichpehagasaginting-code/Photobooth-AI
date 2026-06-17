@@ -5536,3 +5536,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T10:04:28+07:00** - [Activity #4787] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-06-17T10:21:15+07:00** - [Activity #4788] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-17T10:37:48+07:00** - [Activity #4789] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
+- **2026-06-17T10:52:43+07:00** - [Activity #4790] feat(export): support high-resolution PNG and PDF print strip layout
