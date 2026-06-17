@@ -5559,3 +5559,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T16:52:27+07:00** - [Activity #4810] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-06-17T17:13:15+07:00** - [Activity #4811] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-06-17T17:14:59+07:00** - [Activity #4812] feat(ai): integrate edge background removal model
+- **2026-06-17T17:34:01+07:00** - [Activity #4813] docs(testing): describe manual verification steps for photobooth kiosk
