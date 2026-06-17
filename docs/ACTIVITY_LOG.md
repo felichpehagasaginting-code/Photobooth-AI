@@ -5549,3 +5549,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T14:46:56+07:00** - [Activity #4800] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-06-17T14:58:24+07:00** - [Activity #4801] feat(preset): allow custom framing border selection per session
 - **2026-06-17T15:09:56+07:00** - [Activity #4802] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
+- **2026-06-17T15:10:00+07:00** - [Activity #4803] fix(print): fix page margin clipping on 4x6 photo paper print preview
