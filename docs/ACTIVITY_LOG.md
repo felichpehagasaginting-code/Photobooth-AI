@@ -5569,3 +5569,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T21:02:46+07:00** - [Activity #4820] test(api): add integration test coverage for photo seed endpoint
 - **2026-06-17T21:13:36+07:00** - [Activity #4821] fix(state): sync active photo index when reopening gallery drawer
 - **2026-06-17T21:33:00+07:00** - [Activity #4822] feat(preset): allow custom framing border selection per session
+- **2026-06-17T21:53:19+07:00** - [Activity #4823] feat(audio): add shutter click and countdown sound effects
