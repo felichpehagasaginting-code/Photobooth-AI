@@ -11246,3 +11246,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T15:01:47+07:00** - [Activity #6619] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-17T15:14:08+07:00** - [Activity #6620] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-06-17T15:27:06+07:00** - [Activity #6621] feat(print): integrate direct thermal printer web serial interface
+- **2026-06-17T15:47:16+07:00** - [Activity #6622] feat(settings): add camera device selector with resolution fallbacks
