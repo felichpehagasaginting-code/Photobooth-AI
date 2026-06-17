@@ -5567,3 +5567,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T20:17:04+07:00** - [Activity #4818] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-06-17T20:41:23+07:00** - [Activity #4819] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-06-17T21:02:46+07:00** - [Activity #4820] test(api): add integration test coverage for photo seed endpoint
+- **2026-06-17T21:13:36+07:00** - [Activity #4821] fix(state): sync active photo index when reopening gallery drawer
