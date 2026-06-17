@@ -5564,3 +5564,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T19:30:27+07:00** - [Activity #4815] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-06-17T19:50:12+07:00** - [Activity #4816] feat(audio): add shutter click and countdown sound effects
 - **2026-06-17T20:00:25+07:00** - [Activity #4817] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-06-17T20:17:04+07:00** - [Activity #4818] style(typography): refine letter-spacing and hierarchy for hero heading
