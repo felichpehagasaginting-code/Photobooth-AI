@@ -11238,3 +11238,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T11:58:53+07:00** - [Activity #6611] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-06-17T12:13:28+07:00** - [Activity #6612] fix(export): handle canvas taint error when loading external assets
 - **2026-06-17T13:45:16+07:00** - [Activity #6613] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-06-17T14:06:48+07:00** - [Activity #6614] chore(deps): update core dependencies to latest stable versions
