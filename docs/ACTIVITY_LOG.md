@@ -5561,3 +5561,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T17:14:59+07:00** - [Activity #4812] feat(ai): integrate edge background removal model
 - **2026-06-17T17:34:01+07:00** - [Activity #4813] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-06-17T17:53:00+07:00** - [Activity #4814] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-06-17T19:30:27+07:00** - [Activity #4815] chore(lint): configure ESLint rules for react hooks and accessibility
