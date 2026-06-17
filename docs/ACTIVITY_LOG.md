@@ -5537,3 +5537,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T10:21:15+07:00** - [Activity #4788] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-17T10:37:48+07:00** - [Activity #4789] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-06-17T10:52:43+07:00** - [Activity #4790] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-06-17T11:07:58+07:00** - [Activity #4791] test(hooks): add test suite for camera stream lifecycle events
