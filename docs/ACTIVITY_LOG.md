@@ -11229,3 +11229,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T09:29:15+07:00** - [Activity #6602] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-06-17T09:53:02+07:00** - [Activity #6603] chore(git): add ignore rules for local session exports and temp files
 - **2026-06-17T10:05:11+07:00** - [Activity #6604] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-06-17T10:27:08+07:00** - [Activity #6605] refactor(camera): extract media stream hook into standalone module
