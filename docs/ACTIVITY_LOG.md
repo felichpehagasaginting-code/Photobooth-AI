@@ -5547,3 +5547,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T14:14:55+07:00** - [Activity #4798] feat(share): generate instant QR code for mobile photo download
 - **2026-06-17T14:28:35+07:00** - [Activity #4799] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-17T14:46:56+07:00** - [Activity #4800] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-06-17T14:58:24+07:00** - [Activity #4801] feat(preset): allow custom framing border selection per session
