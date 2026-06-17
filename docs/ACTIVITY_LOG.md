@@ -11225,3 +11225,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-16T22:04:02+07:00** - [Activity #6598] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-06-16T22:30:33+07:00** - [Activity #6599] fix(api): validate payload schema before processing seed request
 - **2026-06-17T09:02:15+07:00** - [Activity #6600] docs(changelog): update version history and release milestones
+- **2026-06-17T09:19:54+07:00** - [Activity #6601] fix(accessibility): add missing aria-labels to icon action buttons
