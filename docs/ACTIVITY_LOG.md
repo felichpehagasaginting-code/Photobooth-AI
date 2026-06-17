@@ -11260,3 +11260,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T19:34:14+07:00** - [Activity #6633] refactor(camera): extract media stream hook into standalone module
 - **2026-06-17T19:55:04+07:00** - [Activity #6634] refactor(types): consolidate photobooth session type definitions
 - **2026-06-17T20:00:01+07:00** - [Activity #6635] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-06-17T20:21:19+07:00** - [Activity #6636] fix(print): fix page margin clipping on 4x6 photo paper print preview
