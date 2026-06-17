@@ -11251,3 +11251,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T16:12:25+07:00** - [Activity #6624] feat(audio): add shutter click and countdown sound effects
 - **2026-06-17T16:27:36+07:00** - [Activity #6625] style(grid): modernize layout overlap for bento-style elements
 - **2026-06-17T16:34:22+07:00** - [Activity #6626] fix(audio): unlock audio context on initial user gesture
+- **2026-06-17T16:43:27+07:00** - [Activity #6627] fix(ui): correct modal z-index layering on small mobile viewports
