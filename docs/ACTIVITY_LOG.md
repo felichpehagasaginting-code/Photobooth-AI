@@ -11292,3 +11292,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T14:59:42+07:00** - [Activity #6665] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-06-18T15:19:17+07:00** - [Activity #6666] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-18T15:34:45+07:00** - [Activity #6667] feat(audio): add shutter click and countdown sound effects
+- **2026-06-18T15:37:46+07:00** - [Activity #6668] fix(filter): fix gamma correction clipping on high brightness scenes
