@@ -11297,3 +11297,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T15:57:25+07:00** - [Activity #6670] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-06-18T16:23:05+07:00** - [Activity #6671] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-06-18T16:24:02+07:00** - [Activity #6672] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-06-18T16:43:06+07:00** - [Activity #6673] fix(storage): add fallback for local storage quota exceeded errors
