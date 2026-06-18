@@ -11289,3 +11289,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T14:31:33+07:00** - [Activity #6662] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-06-18T14:37:52+07:00** - [Activity #6663] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-18T14:56:34+07:00** - [Activity #6664] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-06-18T14:59:42+07:00** - [Activity #6665] fix(canvas): prevent blur artifacts during canvas downsampling
