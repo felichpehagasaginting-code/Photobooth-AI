@@ -11286,3 +11286,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T13:49:24+07:00** - [Activity #6659] fix(state): sync active photo index when reopening gallery drawer
 - **2026-06-18T14:13:39+07:00** - [Activity #6660] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-18T14:28:02+07:00** - [Activity #6661] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-06-18T14:31:33+07:00** - [Activity #6662] fix(timer): clear interval on component unmount to prevent memory leak
