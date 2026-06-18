@@ -5613,3 +5613,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T20:23:58+07:00** - [Activity #4864] style(grid): modernize layout overlap for bento-style elements
 - **2026-06-18T20:39:39+07:00** - [Activity #4865] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-06-18T20:57:41+07:00** - [Activity #4866] fix(export): handle canvas taint error when loading external assets
+- **2026-06-18T21:10:33+07:00** - [Activity #4867] fix(canvas): prevent blur artifacts during canvas downsampling
