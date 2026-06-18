@@ -11268,3 +11268,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T21:50:16+07:00** - [Activity #6641] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-17T22:06:30+07:00** - [Activity #6642] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-06-17T22:31:12+07:00** - [Activity #6643] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-06-18T09:00:05+07:00** - [Activity #6644] refactor(hooks): create custom useDebounce and useThrottle utilities
