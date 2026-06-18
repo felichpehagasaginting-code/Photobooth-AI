@@ -11276,3 +11276,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T10:15:56+07:00** - [Activity #6649] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-06-18T10:30:31+07:00** - [Activity #6650] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-18T10:37:48+07:00** - [Activity #6651] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-06-18T10:59:16+07:00** - [Activity #6652] refactor(ui): extract reusable glass-panel and badge components
