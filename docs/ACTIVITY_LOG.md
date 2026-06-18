@@ -5585,3 +5585,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T11:23:42+07:00** - [Activity #4836] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-18T11:47:34+07:00** - [Activity #4837] fix(export): handle canvas taint error when loading external assets
 - **2026-06-18T12:02:44+07:00** - [Activity #4838] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-06-18T12:14:42+07:00** - [Activity #4839] refactor(services): separate cloud storage adapter from UI layer
