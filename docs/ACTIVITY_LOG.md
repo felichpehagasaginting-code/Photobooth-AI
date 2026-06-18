@@ -11280,3 +11280,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T11:17:02+07:00** - [Activity #6653] refactor(api): modularize backend route handlers and validation utils
 - **2026-06-18T11:25:37+07:00** - [Activity #6654] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-18T11:43:23+07:00** - [Activity #6655] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-06-18T12:04:55+07:00** - [Activity #6656] fix(canvas): prevent blur artifacts during canvas downsampling
