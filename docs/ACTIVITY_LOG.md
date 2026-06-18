@@ -11283,3 +11283,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T12:04:55+07:00** - [Activity #6656] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-06-18T12:15:54+07:00** - [Activity #6657] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-06-18T13:47:46+07:00** - [Activity #6658] fix(download): resolve blob URL memory leak on repeated downloads
+- **2026-06-18T13:49:24+07:00** - [Activity #6659] fix(state): sync active photo index when reopening gallery drawer
