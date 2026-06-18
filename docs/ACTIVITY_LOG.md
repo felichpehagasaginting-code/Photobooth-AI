@@ -5575,3 +5575,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T09:00:00+07:00** - [Activity #4826] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-18T09:20:08+07:00** - [Activity #4827] feat(watermark): customizable event logo watermark overlay
 - **2026-06-18T09:26:42+07:00** - [Activity #4828] feat(preset): allow custom framing border selection per session
+- **2026-06-18T09:46:53+07:00** - [Activity #4829] style(theme): update dark mode accent color tokens with warm tone
