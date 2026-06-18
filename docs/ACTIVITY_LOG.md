@@ -11294,3 +11294,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T15:34:45+07:00** - [Activity #6667] feat(audio): add shutter click and countdown sound effects
 - **2026-06-18T15:37:46+07:00** - [Activity #6668] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-18T15:56:42+07:00** - [Activity #6669] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-06-18T15:57:25+07:00** - [Activity #6670] test(canvas): add snapshot tests for multi-frame collage layouts
