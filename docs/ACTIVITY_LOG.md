@@ -11290,3 +11290,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T14:37:52+07:00** - [Activity #6663] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-18T14:56:34+07:00** - [Activity #6664] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-06-18T14:59:42+07:00** - [Activity #6665] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-06-18T15:19:17+07:00** - [Activity #6666] feat(export): support high-resolution PNG and PDF print strip layout
