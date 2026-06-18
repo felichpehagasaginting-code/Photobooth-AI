@@ -5577,3 +5577,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T09:26:42+07:00** - [Activity #4828] feat(preset): allow custom framing border selection per session
 - **2026-06-18T09:46:53+07:00** - [Activity #4829] style(theme): update dark mode accent color tokens with warm tone
 - **2026-06-18T09:52:10+07:00** - [Activity #4830] chore(build): optimize Vite build chunks and asset minification settings
+- **2026-06-18T10:15:53+07:00** - [Activity #4831] refactor(ui): extract reusable glass-panel and badge components
