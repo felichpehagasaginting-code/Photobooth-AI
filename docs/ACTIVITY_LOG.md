@@ -11274,3 +11274,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T09:44:09+07:00** - [Activity #6647] refactor(types): consolidate photobooth session type definitions
 - **2026-06-18T09:56:40+07:00** - [Activity #6648] fix(audio): unlock audio context on initial user gesture
 - **2026-06-18T10:15:56+07:00** - [Activity #6649] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-06-18T10:30:31+07:00** - [Activity #6650] perf(fonts): preload display typography to eliminate FOIT delay
