@@ -11278,3 +11278,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T10:37:48+07:00** - [Activity #6651] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-06-18T10:59:16+07:00** - [Activity #6652] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-18T11:17:02+07:00** - [Activity #6653] refactor(api): modularize backend route handlers and validation utils
+- **2026-06-18T11:25:37+07:00** - [Activity #6654] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
