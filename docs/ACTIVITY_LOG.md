@@ -5579,3 +5579,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T09:52:10+07:00** - [Activity #4830] chore(build): optimize Vite build chunks and asset minification settings
 - **2026-06-18T10:15:53+07:00** - [Activity #4831] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-18T10:35:45+07:00** - [Activity #4832] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-06-18T10:50:39+07:00** - [Activity #4833] fix(export): handle canvas taint error when loading external assets
