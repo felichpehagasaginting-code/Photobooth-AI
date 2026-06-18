@@ -11269,3 +11269,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T22:06:30+07:00** - [Activity #6642] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-06-17T22:31:12+07:00** - [Activity #6643] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-06-18T09:00:05+07:00** - [Activity #6644] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-06-18T09:12:09+07:00** - [Activity #6645] fix(export): handle canvas taint error when loading external assets
