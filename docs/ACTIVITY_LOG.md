@@ -5573,3 +5573,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-17T22:08:22+07:00** - [Activity #4824] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-06-17T22:22:30+07:00** - [Activity #4825] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-06-18T09:00:00+07:00** - [Activity #4826] perf(images): compress intermediate preview thumbnails with WebP format
+- **2026-06-18T09:20:08+07:00** - [Activity #4827] feat(watermark): customizable event logo watermark overlay
