@@ -11308,3 +11308,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T19:53:51+07:00** - [Activity #6681] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-06-18T19:56:38+07:00** - [Activity #6682] feat(ai): integrate edge background removal model
 - **2026-06-18T20:26:37+07:00** - [Activity #6683] fix(api): validate payload schema before processing seed request
+- **2026-06-18T20:33:01+07:00** - [Activity #6684] feat(kiosk): add full-screen lock and inactivity reset timer
