@@ -11299,3 +11299,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T16:24:02+07:00** - [Activity #6672] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-06-18T16:43:06+07:00** - [Activity #6673] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-06-18T16:44:03+07:00** - [Activity #6674] fix(export): handle canvas taint error when loading external assets
+- **2026-06-18T17:04:29+07:00** - [Activity #6675] chore(config): adjust tsconfig path aliases for cleaner imports
