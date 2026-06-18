@@ -5617,3 +5617,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T21:20:59+07:00** - [Activity #4868] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-06-18T21:39:42+07:00** - [Activity #4869] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-06-18T21:56:14+07:00** - [Activity #4870] style(badge): update status indicator badge colors and glow effects
+- **2026-06-18T22:06:01+07:00** - [Activity #4871] perf(dom): virtualize gallery list items for smooth 60fps scrolling
