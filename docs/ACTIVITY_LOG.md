@@ -5603,3 +5603,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T16:26:34+07:00** - [Activity #4854] fix(state): sync active photo index when reopening gallery drawer
 - **2026-06-18T16:41:53+07:00** - [Activity #4855] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-06-18T17:03:38+07:00** - [Activity #4856] fix(state): sync active photo index when reopening gallery drawer
+- **2026-06-18T17:03:53+07:00** - [Activity #4857] fix(camera): resolve aspect ratio distortion on ultrawide webcams
