@@ -5621,3 +5621,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-18T22:23:28+07:00** - [Activity #4872] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-06-19T09:00:10+07:00** - [Activity #4873] style(grid): modernize layout overlap for bento-style elements
 - **2026-06-19T09:24:05+07:00** - [Activity #4874] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-06-19T09:31:08+07:00** - [Activity #4875] docs(env): document all required environment variables with defaults
