@@ -11344,3 +11344,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-19T16:28:18+07:00** - [Activity #6717] style(cards): apply subtle border gradient and elevation shadows
 - **2026-06-19T16:36:53+07:00** - [Activity #6718] test(utils): add unit tests for image aspect ratio calculator
 - **2026-06-19T16:51:18+07:00** - [Activity #6719] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-06-19T16:57:15+07:00** - [Activity #6720] feat(print): integrate direct thermal printer web serial interface
