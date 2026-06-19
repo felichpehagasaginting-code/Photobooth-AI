@@ -5622,3 +5622,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-19T09:00:10+07:00** - [Activity #4873] style(grid): modernize layout overlap for bento-style elements
 - **2026-06-19T09:24:05+07:00** - [Activity #4874] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-19T09:31:08+07:00** - [Activity #4875] docs(env): document all required environment variables with defaults
+- **2026-06-19T09:56:31+07:00** - [Activity #4876] feat(kiosk): add full-screen lock and inactivity reset timer
