@@ -5635,3 +5635,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-19T13:51:02+07:00** - [Activity #4886] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-06-19T14:17:33+07:00** - [Activity #4887] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-06-19T14:23:06+07:00** - [Activity #4888] feat(preset): allow custom framing border selection per session
+- **2026-06-19T14:47:27+07:00** - [Activity #4889] docs(comments): add inline JSDoc comments to image processing helpers
