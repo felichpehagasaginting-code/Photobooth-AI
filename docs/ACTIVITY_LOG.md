@@ -11326,3 +11326,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-19T10:46:27+07:00** - [Activity #6699] refactor(types): consolidate photobooth session type definitions
 - **2026-06-19T11:14:55+07:00** - [Activity #6700] style(button): add subtle hover transition and outline focus style
 - **2026-06-19T11:20:11+07:00** - [Activity #6701] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-06-19T11:38:30+07:00** - [Activity #6702] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
