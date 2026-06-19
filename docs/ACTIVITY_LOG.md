@@ -11347,3 +11347,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-19T16:57:15+07:00** - [Activity #6720] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-19T17:12:20+07:00** - [Activity #6721] feat(ai): integrate edge background removal model
 - **2026-06-19T17:29:36+07:00** - [Activity #6722] perf(render): memoize grid item rendering to prevent redundant cycles
+- **2026-06-19T17:41:16+07:00** - [Activity #6723] fix(camera): prevent stream freeze on rapid device re-plug
