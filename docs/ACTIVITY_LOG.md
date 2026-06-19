@@ -11338,3 +11338,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-19T15:08:55+07:00** - [Activity #6711] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-06-19T15:15:24+07:00** - [Activity #6712] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-19T15:33:21+07:00** - [Activity #6713] fix(audio): unlock audio context on initial user gesture
+- **2026-06-19T15:55:25+07:00** - [Activity #6714] feat(ai): integrate edge background removal model
