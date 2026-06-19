@@ -5625,3 +5625,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-19T09:56:31+07:00** - [Activity #4876] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-19T10:15:22+07:00** - [Activity #4877] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-06-19T10:32:47+07:00** - [Activity #4878] fix(api): validate payload schema before processing seed request
+- **2026-06-19T10:37:45+07:00** - [Activity #4879] fix(export): handle canvas taint error when loading external assets
