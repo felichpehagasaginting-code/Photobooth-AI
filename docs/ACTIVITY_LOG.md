@@ -11353,3 +11353,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-19T20:07:31+07:00** - [Activity #6726] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-06-19T20:24:56+07:00** - [Activity #6727] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-19T20:45:17+07:00** - [Activity #6728] style(theme): update dark mode accent color tokens with warm tone
+- **2026-06-19T21:14:31+07:00** - [Activity #6729] fix(ui): correct modal z-index layering on small mobile viewports
