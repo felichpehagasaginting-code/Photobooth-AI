@@ -11355,3 +11355,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-19T20:45:17+07:00** - [Activity #6728] style(theme): update dark mode accent color tokens with warm tone
 - **2026-06-19T21:14:31+07:00** - [Activity #6729] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-06-19T21:32:49+07:00** - [Activity #6730] fix(state): sync active photo index when reopening gallery drawer
+- **2026-06-19T21:52:54+07:00** - [Activity #6731] fix(timer): clear interval on component unmount to prevent memory leak
