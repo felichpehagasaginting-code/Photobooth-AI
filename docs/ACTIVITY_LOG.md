@@ -5643,3 +5643,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-19T15:55:04+07:00** - [Activity #4894] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-06-19T16:13:35+07:00** - [Activity #4895] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-06-19T16:31:07+07:00** - [Activity #4896] fix(audio): unlock audio context on initial user gesture
+- **2026-06-19T16:53:01+07:00** - [Activity #4897] fix(timer): clear interval on component unmount to prevent memory leak
