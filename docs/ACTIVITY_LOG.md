@@ -11341,3 +11341,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-19T15:55:25+07:00** - [Activity #6714] feat(ai): integrate edge background removal model
 - **2026-06-19T16:04:11+07:00** - [Activity #6715] docs(api): document endpoint parameters and error codes for seed route
 - **2026-06-19T16:07:56+07:00** - [Activity #6716] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-06-19T16:28:18+07:00** - [Activity #6717] style(cards): apply subtle border gradient and elevation shadows
