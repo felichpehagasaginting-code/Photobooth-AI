@@ -5660,3 +5660,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-19T22:30:15+07:00** - [Activity #4911] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-06-20T09:04:15+07:00** - [Activity #4912] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-06-20T09:36:36+07:00** - [Activity #4913] chore(deps): update core dependencies to latest stable versions
+- **2026-06-20T10:17:09+07:00** - [Activity #4914] chore(git): add ignore rules for local session exports and temp files
