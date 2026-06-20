@@ -5675,3 +5675,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-20T17:22:46+07:00** - [Activity #4926] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-06-20T19:30:32+07:00** - [Activity #4927] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-06-20T20:03:39+07:00** - [Activity #4928] docs(comments): add inline JSDoc comments to image processing helpers
+- **2026-06-20T20:44:09+07:00** - [Activity #4929] feat(camera): add dynamic exposure and focus adjustment controls
