@@ -11374,3 +11374,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-20T16:14:47+07:00** - [Activity #6747] perf(memory): dispose cached image objects after strip generation
 - **2026-06-20T16:41:30+07:00** - [Activity #6748] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-06-20T17:11:44+07:00** - [Activity #6749] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-06-20T17:29:23+07:00** - [Activity #6750] refactor(hooks): create custom useDebounce and useThrottle utilities
