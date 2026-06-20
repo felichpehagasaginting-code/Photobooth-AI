@@ -11371,3 +11371,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-20T14:57:12+07:00** - [Activity #6744] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-06-20T15:21:06+07:00** - [Activity #6745] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-06-20T15:59:55+07:00** - [Activity #6746] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-06-20T16:14:47+07:00** - [Activity #6747] perf(memory): dispose cached image objects after strip generation
