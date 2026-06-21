@@ -11387,3 +11387,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-21T11:34:17+07:00** - [Activity #6760] docs(env): document all required environment variables with defaults
 - **2026-06-21T13:45:12+07:00** - [Activity #6761] feat(cloud): async upload queue for batch photo backup
 - **2026-06-21T14:28:44+07:00** - [Activity #6762] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-06-21T15:05:01+07:00** - [Activity #6763] chore(lint): configure ESLint rules for react hooks and accessibility
