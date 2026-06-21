@@ -11381,3 +11381,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-20T21:12:43+07:00** - [Activity #6754] fix(firebase): handle network timeout retry in transaction hook
 - **2026-06-20T21:42:54+07:00** - [Activity #6755] style(theme): update dark mode accent color tokens with warm tone
 - **2026-06-20T22:04:03+07:00** - [Activity #6756] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-06-21T09:00:40+07:00** - [Activity #6757] perf(images): compress intermediate preview thumbnails with WebP format
