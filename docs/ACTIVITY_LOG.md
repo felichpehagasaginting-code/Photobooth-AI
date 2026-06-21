@@ -11393,3 +11393,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-21T16:37:33+07:00** - [Activity #6766] fix(firebase): handle network timeout retry in transaction hook
 - **2026-06-21T17:27:36+07:00** - [Activity #6767] feat(audio): add shutter click and countdown sound effects
 - **2026-06-21T19:30:46+07:00** - [Activity #6768] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-06-21T20:19:02+07:00** - [Activity #6769] fix(camera): prevent stream freeze on rapid device re-plug
