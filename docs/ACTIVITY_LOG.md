@@ -5688,3 +5688,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-21T15:55:32+07:00** - [Activity #4939] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-21T16:42:56+07:00** - [Activity #4940] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-06-21T17:21:30+07:00** - [Activity #4941] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-06-21T19:35:04+07:00** - [Activity #4942] style(theme): update dark mode accent color tokens with warm tone
