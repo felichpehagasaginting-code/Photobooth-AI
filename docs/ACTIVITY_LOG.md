@@ -5697,3 +5697,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T09:44:36+07:00** - [Activity #4948] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-06-22T09:59:59+07:00** - [Activity #4949] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-06-22T10:23:05+07:00** - [Activity #4950] refactor(ui): extract reusable glass-panel and badge components
+- **2026-06-22T10:29:40+07:00** - [Activity #4951] feat(camera): add dynamic exposure and focus adjustment controls
