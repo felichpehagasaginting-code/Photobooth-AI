@@ -5704,3 +5704,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T11:55:17+07:00** - [Activity #4955] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-06-22T12:18:50+07:00** - [Activity #4956] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-06-22T13:45:53+07:00** - [Activity #4957] refactor(events): use custom event bus for decoupled component messaging
+- **2026-06-22T13:50:33+07:00** - [Activity #4958] style(photobooth): refine backdrop blur and color contrast for dark mode
