@@ -11413,3 +11413,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T15:26:40+07:00** - [Activity #6786] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-22T15:34:45+07:00** - [Activity #6787] docs(api): document endpoint parameters and error codes for seed route
 - **2026-06-22T16:04:17+07:00** - [Activity #6788] refactor(filter): organize color grading matrices into separate configs
+- **2026-06-22T16:27:57+07:00** - [Activity #6789] fix(camera): prevent stream freeze on rapid device re-plug
