@@ -5708,3 +5708,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T14:05:30+07:00** - [Activity #4959] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-06-22T14:22:10+07:00** - [Activity #4960] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-22T14:47:46+07:00** - [Activity #4961] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-06-22T14:57:26+07:00** - [Activity #4962] perf(images): compress intermediate preview thumbnails with WebP format
