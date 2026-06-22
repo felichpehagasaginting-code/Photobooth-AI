@@ -5714,3 +5714,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T15:40:56+07:00** - [Activity #4965] style(controls): refine slider track and thumb sizing for touch screens
 - **2026-06-22T16:08:44+07:00** - [Activity #4966] refactor(export): optimize collage rendering algorithm for speed
 - **2026-06-22T16:22:16+07:00** - [Activity #4967] docs(api): document endpoint parameters and error codes for seed route
+- **2026-06-22T16:25:16+07:00** - [Activity #4968] docs(readme): add detailed hardware camera setup and compatibility guide
