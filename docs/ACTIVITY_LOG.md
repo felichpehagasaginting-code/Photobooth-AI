@@ -11417,3 +11417,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T16:46:01+07:00** - [Activity #6790] chore(deps): update core dependencies to latest stable versions
 - **2026-06-22T16:57:54+07:00** - [Activity #6791] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-06-22T17:23:21+07:00** - [Activity #6792] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-06-22T17:48:29+07:00** - [Activity #6793] feat(kiosk): add full-screen lock and inactivity reset timer
