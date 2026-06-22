@@ -5701,3 +5701,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T10:56:11+07:00** - [Activity #4952] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-06-22T11:11:52+07:00** - [Activity #4953] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-06-22T11:40:29+07:00** - [Activity #4954] fix(api): validate payload schema before processing seed request
+- **2026-06-22T11:55:17+07:00** - [Activity #4955] feat(preview): render live filter preview using WebGL shader canvas
