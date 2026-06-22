@@ -11423,3 +11423,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T20:14:15+07:00** - [Activity #6796] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-06-22T20:39:24+07:00** - [Activity #6797] refactor(api): modularize backend route handlers and validation utils
 - **2026-06-22T21:14:16+07:00** - [Activity #6798] docs(changelog): update version history and release milestones
+- **2026-06-22T21:27:23+07:00** - [Activity #6799] fix(camera): resolve aspect ratio distortion on ultrawide webcams
