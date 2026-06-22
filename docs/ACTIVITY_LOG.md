@@ -5711,3 +5711,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T14:57:26+07:00** - [Activity #4962] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-22T15:15:38+07:00** - [Activity #4963] feat(preset): allow custom framing border selection per session
 - **2026-06-22T15:23:14+07:00** - [Activity #4964] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-06-22T15:40:56+07:00** - [Activity #4965] style(controls): refine slider track and thumb sizing for touch screens
