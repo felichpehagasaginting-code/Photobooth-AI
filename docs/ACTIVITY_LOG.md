@@ -5706,3 +5706,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T13:45:53+07:00** - [Activity #4957] refactor(events): use custom event bus for decoupled component messaging
 - **2026-06-22T13:50:33+07:00** - [Activity #4958] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-06-22T14:05:30+07:00** - [Activity #4959] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-06-22T14:22:10+07:00** - [Activity #4960] perf(images): compress intermediate preview thumbnails with WebP format
