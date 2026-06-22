@@ -5716,3 +5716,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T16:22:16+07:00** - [Activity #4967] docs(api): document endpoint parameters and error codes for seed route
 - **2026-06-22T16:25:16+07:00** - [Activity #4968] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-06-22T16:35:08+07:00** - [Activity #4969] fix(firebase): handle network timeout retry in transaction hook
+- **2026-06-22T16:56:20+07:00** - [Activity #4970] fix(filter): fix gamma correction clipping on high brightness scenes
