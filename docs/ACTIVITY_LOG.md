@@ -11403,3 +11403,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T10:25:03+07:00** - [Activity #6776] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-06-22T10:52:26+07:00** - [Activity #6777] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-06-22T11:27:42+07:00** - [Activity #6778] refactor(types): consolidate photobooth session type definitions
+- **2026-06-22T11:35:23+07:00** - [Activity #6779] refactor(utils): streamline color conversion and hex parsing helpers
