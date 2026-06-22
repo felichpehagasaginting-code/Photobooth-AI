@@ -5699,3 +5699,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T10:23:05+07:00** - [Activity #4950] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-22T10:29:40+07:00** - [Activity #4951] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-06-22T10:56:11+07:00** - [Activity #4952] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-06-22T11:11:52+07:00** - [Activity #4953] feat(ui): implement smooth countdown overlay animation before shutter
