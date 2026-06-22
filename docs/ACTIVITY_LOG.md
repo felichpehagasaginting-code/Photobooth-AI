@@ -11397,3 +11397,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-21T21:02:13+07:00** - [Activity #6770] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-06-21T21:49:09+07:00** - [Activity #6771] feat(stickers): support draggable and resizable decorative stickers
 - **2026-06-22T09:04:31+07:00** - [Activity #6772] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-06-22T09:15:25+07:00** - [Activity #6773] feat(watermark): customizable event logo watermark overlay
