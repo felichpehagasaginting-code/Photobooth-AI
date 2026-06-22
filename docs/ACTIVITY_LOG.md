@@ -11420,3 +11420,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T17:48:29+07:00** - [Activity #6793] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-22T19:30:19+07:00** - [Activity #6794] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-06-22T19:55:03+07:00** - [Activity #6795] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-06-22T20:14:15+07:00** - [Activity #6796] docs(readme): add detailed hardware camera setup and compatibility guide
