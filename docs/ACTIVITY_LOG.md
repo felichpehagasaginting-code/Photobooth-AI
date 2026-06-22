@@ -11415,3 +11415,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-22T16:04:17+07:00** - [Activity #6788] refactor(filter): organize color grading matrices into separate configs
 - **2026-06-22T16:27:57+07:00** - [Activity #6789] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-06-22T16:46:01+07:00** - [Activity #6790] chore(deps): update core dependencies to latest stable versions
+- **2026-06-22T16:57:54+07:00** - [Activity #6791] test(canvas): add snapshot tests for multi-frame collage layouts
