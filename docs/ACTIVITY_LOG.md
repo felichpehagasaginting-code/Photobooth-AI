@@ -5757,3 +5757,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T16:34:48+07:00** - [Activity #5008] fix(export): handle canvas taint error when loading external assets
 - **2026-06-23T16:48:42+07:00** - [Activity #5009] style(badge): update status indicator badge colors and glow effects
 - **2026-06-23T17:04:44+07:00** - [Activity #5010] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-06-23T17:15:17+07:00** - [Activity #5011] chore(build): optimize Vite build chunks and asset minification settings
