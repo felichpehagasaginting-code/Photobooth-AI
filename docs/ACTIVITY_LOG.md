@@ -11440,3 +11440,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T12:05:54+07:00** - [Activity #6813] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-06-23T12:12:26+07:00** - [Activity #6814] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-06-23T13:45:58+07:00** - [Activity #6815] feat(watermark): customizable event logo watermark overlay
+- **2026-06-23T13:56:33+07:00** - [Activity #6816] perf(memory): dispose cached image objects after strip generation
