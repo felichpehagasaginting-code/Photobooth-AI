@@ -11456,3 +11456,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T16:51:08+07:00** - [Activity #6829] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-23T16:51:45+07:00** - [Activity #6830] fix(auth): prevent race condition when initializing anonymous session
 - **2026-06-23T17:17:26+07:00** - [Activity #6831] perf(memory): dispose cached image objects after strip generation
+- **2026-06-23T17:29:36+07:00** - [Activity #6832] chore(lint): configure ESLint rules for react hooks and accessibility
