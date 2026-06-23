@@ -11455,3 +11455,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T16:22:33+07:00** - [Activity #6828] feat(analytics): log anonymous capture session completion metrics
 - **2026-06-23T16:51:08+07:00** - [Activity #6829] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-23T16:51:45+07:00** - [Activity #6830] fix(auth): prevent race condition when initializing anonymous session
+- **2026-06-23T17:17:26+07:00** - [Activity #6831] perf(memory): dispose cached image objects after strip generation
