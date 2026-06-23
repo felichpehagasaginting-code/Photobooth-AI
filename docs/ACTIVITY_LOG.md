@@ -5759,3 +5759,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T17:04:44+07:00** - [Activity #5010] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-06-23T17:15:17+07:00** - [Activity #5011] chore(build): optimize Vite build chunks and asset minification settings
 - **2026-06-23T17:25:09+07:00** - [Activity #5012] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-06-23T17:42:01+07:00** - [Activity #5013] refactor(styles): migrate hardcoded color values to CSS design tokens
