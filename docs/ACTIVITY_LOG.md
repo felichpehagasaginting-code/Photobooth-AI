@@ -11444,3 +11444,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T14:19:54+07:00** - [Activity #6817] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-06-23T14:25:36+07:00** - [Activity #6818] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-06-23T14:38:16+07:00** - [Activity #6819] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-06-23T14:55:31+07:00** - [Activity #6820] fix(filter): fix gamma correction clipping on high brightness scenes
