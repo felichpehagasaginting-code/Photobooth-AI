@@ -11446,3 +11446,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T14:38:16+07:00** - [Activity #6819] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-06-23T14:55:31+07:00** - [Activity #6820] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-23T15:05:56+07:00** - [Activity #6821] feat(cloud): async upload queue for batch photo backup
+- **2026-06-23T15:11:55+07:00** - [Activity #6822] docs(arch): add architecture diagram explaining client-side filter flow
