@@ -5754,3 +5754,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T15:53:03+07:00** - [Activity #5005] refactor(export): optimize collage rendering algorithm for speed
 - **2026-06-23T16:18:19+07:00** - [Activity #5006] fix(api): validate payload schema before processing seed request
 - **2026-06-23T16:31:20+07:00** - [Activity #5007] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-06-23T16:34:48+07:00** - [Activity #5008] fix(export): handle canvas taint error when loading external assets
