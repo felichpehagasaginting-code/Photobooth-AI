@@ -11463,3 +11463,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T19:41:09+07:00** - [Activity #6836] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-23T20:04:24+07:00** - [Activity #6837] fix(firebase): handle network timeout retry in transaction hook
 - **2026-06-23T20:19:17+07:00** - [Activity #6838] feat(settings): add camera device selector with resolution fallbacks
+- **2026-06-23T20:36:53+07:00** - [Activity #6839] fix(qr): adjust QR code contrast ratio for low-light scanning
