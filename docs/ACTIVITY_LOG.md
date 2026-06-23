@@ -11459,3 +11459,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T17:29:36+07:00** - [Activity #6832] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-06-23T17:30:44+07:00** - [Activity #6833] fix(state): sync active photo index when reopening gallery drawer
 - **2026-06-23T17:38:22+07:00** - [Activity #6834] docs(api): document endpoint parameters and error codes for seed route
+- **2026-06-23T19:31:15+07:00** - [Activity #6835] chore(ci): adjust GitHub Actions caching for faster test execution
