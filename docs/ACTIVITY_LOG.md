@@ -11438,3 +11438,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T11:28:09+07:00** - [Activity #6811] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-06-23T11:43:32+07:00** - [Activity #6812] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-23T12:05:54+07:00** - [Activity #6813] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-06-23T12:12:26+07:00** - [Activity #6814] feat(camera): add dynamic exposure and focus adjustment controls
