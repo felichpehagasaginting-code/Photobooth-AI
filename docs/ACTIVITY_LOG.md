@@ -11434,3 +11434,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T10:17:38+07:00** - [Activity #6807] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-23T10:40:07+07:00** - [Activity #6808] fix(auth): prevent race condition when initializing anonymous session
 - **2026-06-23T10:45:34+07:00** - [Activity #6809] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-06-23T11:04:26+07:00** - [Activity #6810] style(typography): refine letter-spacing and hierarchy for hero heading
