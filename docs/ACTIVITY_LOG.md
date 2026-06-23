@@ -5734,3 +5734,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T09:30:52+07:00** - [Activity #4985] fix(api): validate payload schema before processing seed request
 - **2026-06-23T09:54:27+07:00** - [Activity #4986] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-23T10:11:51+07:00** - [Activity #4987] perf(api): cache static filter presets with aggressive HTTP headers
+- **2026-06-23T10:26:20+07:00** - [Activity #4988] refactor(ui): extract reusable glass-panel and badge components
