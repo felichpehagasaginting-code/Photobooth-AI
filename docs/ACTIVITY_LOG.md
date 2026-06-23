@@ -11441,3 +11441,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-23T12:12:26+07:00** - [Activity #6814] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-06-23T13:45:58+07:00** - [Activity #6815] feat(watermark): customizable event logo watermark overlay
 - **2026-06-23T13:56:33+07:00** - [Activity #6816] perf(memory): dispose cached image objects after strip generation
+- **2026-06-23T14:19:54+07:00** - [Activity #6817] fix(print): fix page margin clipping on 4x6 photo paper print preview
