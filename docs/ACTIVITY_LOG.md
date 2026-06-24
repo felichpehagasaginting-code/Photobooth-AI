@@ -5773,3 +5773,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T09:00:39+07:00** - [Activity #5024] fix(firebase): handle network timeout retry in transaction hook
 - **2026-06-24T09:14:25+07:00** - [Activity #5025] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-24T09:36:41+07:00** - [Activity #5026] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-06-24T09:55:39+07:00** - [Activity #5027] feat(camera): add dynamic exposure and focus adjustment controls
