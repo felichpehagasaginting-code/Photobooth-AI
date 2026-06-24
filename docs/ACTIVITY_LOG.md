@@ -11492,3 +11492,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T14:53:18+07:00** - [Activity #6865] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-06-24T14:56:52+07:00** - [Activity #6866] test(hooks): add test suite for camera stream lifecycle events
 - **2026-06-24T15:14:15+07:00** - [Activity #6867] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-06-24T15:24:59+07:00** - [Activity #6868] fix(print): fix page margin clipping on 4x6 photo paper print preview
