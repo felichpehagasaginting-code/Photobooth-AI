@@ -11499,3 +11499,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T16:17:00+07:00** - [Activity #6872] perf(anim): offload countdown animations to GPU composited layers
 - **2026-06-24T16:27:16+07:00** - [Activity #6873] style(theme): update dark mode accent color tokens with warm tone
 - **2026-06-24T16:43:05+07:00** - [Activity #6874] style(grid): modernize layout overlap for bento-style elements
+- **2026-06-24T17:01:56+07:00** - [Activity #6875] style(typography): refine letter-spacing and hierarchy for hero heading
