@@ -5800,3 +5800,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T16:57:10+07:00** - [Activity #5051] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-06-24T17:04:21+07:00** - [Activity #5052] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-06-24T17:26:07+07:00** - [Activity #5053] refactor(state): migrate photo session state management to zustand store
+- **2026-06-24T17:41:50+07:00** - [Activity #5054] feat(print): integrate direct thermal printer web serial interface
