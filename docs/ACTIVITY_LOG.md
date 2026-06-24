@@ -11476,3 +11476,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T09:52:13+07:00** - [Activity #6849] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-06-24T10:05:39+07:00** - [Activity #6850] feat(analytics): log anonymous capture session completion metrics
 - **2026-06-24T10:08:29+07:00** - [Activity #6851] chore(deps): update core dependencies to latest stable versions
+- **2026-06-24T10:32:37+07:00** - [Activity #6852] perf(memory): dispose cached image objects after strip generation
