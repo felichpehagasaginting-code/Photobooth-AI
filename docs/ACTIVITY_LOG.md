@@ -11488,3 +11488,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T13:54:05+07:00** - [Activity #6861] test(utils): add unit tests for image aspect ratio calculator
 - **2026-06-24T14:15:27+07:00** - [Activity #6862] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-06-24T14:19:53+07:00** - [Activity #6863] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-06-24T14:30:38+07:00** - [Activity #6864] refactor(camera): extract media stream hook into standalone module
