@@ -5806,3 +5806,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T19:43:13+07:00** - [Activity #5057] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-06-24T20:10:07+07:00** - [Activity #5058] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-24T20:24:23+07:00** - [Activity #5059] test(utils): add unit tests for image aspect ratio calculator
+- **2026-06-24T20:42:43+07:00** - [Activity #5060] perf(memory): dispose cached image objects after strip generation
