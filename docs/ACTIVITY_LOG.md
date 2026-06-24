@@ -11509,3 +11509,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T20:08:26+07:00** - [Activity #6882] test(utils): add unit tests for image aspect ratio calculator
 - **2026-06-24T20:17:36+07:00** - [Activity #6883] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-06-24T20:30:00+07:00** - [Activity #6884] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
+- **2026-06-24T20:47:56+07:00** - [Activity #6885] feat(preset): allow custom framing border selection per session
