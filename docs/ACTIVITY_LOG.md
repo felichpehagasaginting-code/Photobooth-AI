@@ -11511,3 +11511,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T20:30:00+07:00** - [Activity #6884] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-06-24T20:47:56+07:00** - [Activity #6885] feat(preset): allow custom framing border selection per session
 - **2026-06-24T21:14:38+07:00** - [Activity #6886] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-06-24T21:31:56+07:00** - [Activity #6887] fix(accessibility): add missing aria-labels to icon action buttons
