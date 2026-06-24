@@ -5797,3 +5797,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T16:08:39+07:00** - [Activity #5048] test(api): add integration test coverage for photo seed endpoint
 - **2026-06-24T16:19:29+07:00** - [Activity #5049] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-06-24T16:44:27+07:00** - [Activity #5050] docs(testing): describe manual verification steps for photobooth kiosk
+- **2026-06-24T16:57:10+07:00** - [Activity #5051] fix(ui): correct modal z-index layering on small mobile viewports
