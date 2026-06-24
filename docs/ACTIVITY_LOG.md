@@ -11496,3 +11496,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T15:48:47+07:00** - [Activity #6869] feat(preset): allow custom framing border selection per session
 - **2026-06-24T15:55:30+07:00** - [Activity #6870] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-24T16:06:22+07:00** - [Activity #6871] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-06-24T16:17:00+07:00** - [Activity #6872] perf(anim): offload countdown animations to GPU composited layers
