@@ -11482,3 +11482,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T11:10:55+07:00** - [Activity #6855] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-24T11:31:03+07:00** - [Activity #6856] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-06-24T11:51:02+07:00** - [Activity #6857] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-06-24T11:59:13+07:00** - [Activity #6858] fix(auth): prevent race condition when initializing anonymous session
