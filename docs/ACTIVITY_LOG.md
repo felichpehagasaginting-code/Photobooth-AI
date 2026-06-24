@@ -11486,3 +11486,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T12:17:51+07:00** - [Activity #6859] perf(anim): offload countdown animations to GPU composited layers
 - **2026-06-24T13:45:20+07:00** - [Activity #6860] feat(stickers): support draggable and resizable decorative stickers
 - **2026-06-24T13:54:05+07:00** - [Activity #6861] test(utils): add unit tests for image aspect ratio calculator
+- **2026-06-24T14:15:27+07:00** - [Activity #6862] refactor(hooks): create custom useDebounce and useThrottle utilities
