@@ -5778,3 +5778,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T10:24:37+07:00** - [Activity #5029] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-06-24T10:32:36+07:00** - [Activity #5030] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-06-24T10:46:31+07:00** - [Activity #5031] feat(print): integrate direct thermal printer web serial interface
+- **2026-06-24T11:13:08+07:00** - [Activity #5032] fix(storage): add fallback for local storage quota exceeded errors
