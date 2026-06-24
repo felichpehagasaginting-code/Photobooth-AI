@@ -5810,3 +5810,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T20:58:37+07:00** - [Activity #5061] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-06-24T21:13:28+07:00** - [Activity #5062] feat(cloud): async upload queue for batch photo backup
 - **2026-06-24T21:37:55+07:00** - [Activity #5063] feat(stickers): support draggable and resizable decorative stickers
+- **2026-06-24T21:59:34+07:00** - [Activity #5064] feat(camera): add dynamic exposure and focus adjustment controls
