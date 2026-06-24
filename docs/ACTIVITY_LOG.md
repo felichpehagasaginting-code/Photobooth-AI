@@ -5780,3 +5780,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T10:46:31+07:00** - [Activity #5031] feat(print): integrate direct thermal printer web serial interface
 - **2026-06-24T11:13:08+07:00** - [Activity #5032] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-06-24T11:27:29+07:00** - [Activity #5033] refactor(types): consolidate photobooth session type definitions
+- **2026-06-24T11:44:37+07:00** - [Activity #5034] style(photobooth): refine backdrop blur and color contrast for dark mode
