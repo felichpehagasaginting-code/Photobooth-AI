@@ -11480,3 +11480,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T10:42:04+07:00** - [Activity #6853] docs(env): document all required environment variables with defaults
 - **2026-06-24T10:59:36+07:00** - [Activity #6854] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-06-24T11:10:55+07:00** - [Activity #6855] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-06-24T11:31:03+07:00** - [Activity #6856] fix(print): fix page margin clipping on 4x6 photo paper print preview
