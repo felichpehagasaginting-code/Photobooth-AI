@@ -5777,3 +5777,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T10:00:36+07:00** - [Activity #5028] style(cards): apply subtle border gradient and elevation shadows
 - **2026-06-24T10:24:37+07:00** - [Activity #5029] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-06-24T10:32:36+07:00** - [Activity #5030] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-06-24T10:46:31+07:00** - [Activity #5031] feat(print): integrate direct thermal printer web serial interface
