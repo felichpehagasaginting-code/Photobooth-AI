@@ -5791,3 +5791,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T14:56:13+07:00** - [Activity #5042] perf(anim): offload countdown animations to GPU composited layers
 - **2026-06-24T15:05:30+07:00** - [Activity #5043] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-24T15:12:35+07:00** - [Activity #5044] fix(export): handle canvas taint error when loading external assets
+- **2026-06-24T15:40:43+07:00** - [Activity #5045] perf(api): cache static filter presets with aggressive HTTP headers
