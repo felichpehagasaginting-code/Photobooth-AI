@@ -11478,3 +11478,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T10:08:29+07:00** - [Activity #6851] chore(deps): update core dependencies to latest stable versions
 - **2026-06-24T10:32:37+07:00** - [Activity #6852] perf(memory): dispose cached image objects after strip generation
 - **2026-06-24T10:42:04+07:00** - [Activity #6853] docs(env): document all required environment variables with defaults
+- **2026-06-24T10:59:36+07:00** - [Activity #6854] chore(config): adjust tsconfig path aliases for cleaner imports
