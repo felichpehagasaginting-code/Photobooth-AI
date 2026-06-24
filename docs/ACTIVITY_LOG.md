@@ -5787,3 +5787,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T14:05:07+07:00** - [Activity #5038] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-06-24T14:07:17+07:00** - [Activity #5039] fix(auth): prevent race condition when initializing anonymous session
 - **2026-06-24T14:21:51+07:00** - [Activity #5040] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-06-24T14:37:24+07:00** - [Activity #5041] docs(api): document endpoint parameters and error codes for seed route
