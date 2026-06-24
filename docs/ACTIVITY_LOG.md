@@ -5784,3 +5784,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T12:02:28+07:00** - [Activity #5035] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-06-24T12:15:01+07:00** - [Activity #5036] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-06-24T13:50:54+07:00** - [Activity #5037] feat(settings): add camera device selector with resolution fallbacks
+- **2026-06-24T14:05:07+07:00** - [Activity #5038] feat(preview): render live filter preview using WebGL shader canvas
