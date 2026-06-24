@@ -5782,3 +5782,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T11:27:29+07:00** - [Activity #5033] refactor(types): consolidate photobooth session type definitions
 - **2026-06-24T11:44:37+07:00** - [Activity #5034] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-06-24T12:02:28+07:00** - [Activity #5035] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
+- **2026-06-24T12:15:01+07:00** - [Activity #5036] refactor(utils): streamline color conversion and hex parsing helpers
