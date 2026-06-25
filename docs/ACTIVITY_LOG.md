@@ -11547,3 +11547,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T17:12:55+07:00** - [Activity #6920] test(hooks): add test suite for camera stream lifecycle events
 - **2026-06-25T17:27:51+07:00** - [Activity #6921] refactor(filter): organize color grading matrices into separate configs
 - **2026-06-25T17:38:48+07:00** - [Activity #6922] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-06-25T19:34:02+07:00** - [Activity #6923] feat(print): integrate direct thermal printer web serial interface
