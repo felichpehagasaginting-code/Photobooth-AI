@@ -11534,3 +11534,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T14:24:57+07:00** - [Activity #6907] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-06-25T14:34:49+07:00** - [Activity #6908] feat(preset): allow custom framing border selection per session
 - **2026-06-25T14:58:01+07:00** - [Activity #6909] docs(env): document all required environment variables with defaults
+- **2026-06-25T15:07:33+07:00** - [Activity #6910] style(modal): fine-tune cubic-bezier easing curves on open transition
