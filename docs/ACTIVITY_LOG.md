@@ -11528,3 +11528,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T11:32:16+07:00** - [Activity #6901] feat(analytics): log anonymous capture session completion metrics
 - **2026-06-25T11:53:27+07:00** - [Activity #6902] fix(auth): prevent race condition when initializing anonymous session
 - **2026-06-25T12:08:31+07:00** - [Activity #6903] feat(share): generate instant QR code for mobile photo download
+- **2026-06-25T13:54:01+07:00** - [Activity #6904] fix(export): handle canvas taint error when loading external assets
