@@ -11538,3 +11538,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T15:22:18+07:00** - [Activity #6911] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-06-25T15:40:52+07:00** - [Activity #6912] feat(share): generate instant QR code for mobile photo download
 - **2026-06-25T15:52:26+07:00** - [Activity #6913] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-06-25T15:56:26+07:00** - [Activity #6914] fix(export): handle canvas taint error when loading external assets
