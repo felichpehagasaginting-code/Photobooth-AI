@@ -5815,3 +5815,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T22:31:53+07:00** - [Activity #5066] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-06-25T09:00:57+07:00** - [Activity #5067] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-25T09:10:41+07:00** - [Activity #5068] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-06-25T09:28:27+07:00** - [Activity #5069] refactor(cleanup): remove deprecated legacy camera capture methods
