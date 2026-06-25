@@ -5835,3 +5835,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T14:53:16+07:00** - [Activity #5086] fix(state): sync active photo index when reopening gallery drawer
 - **2026-06-25T14:57:08+07:00** - [Activity #5087] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-06-25T15:06:23+07:00** - [Activity #5088] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-06-25T15:23:18+07:00** - [Activity #5089] fix(ui): correct modal z-index layering on small mobile viewports
