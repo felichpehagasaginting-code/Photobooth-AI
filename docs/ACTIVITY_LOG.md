@@ -5842,3 +5842,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T16:16:55+07:00** - [Activity #5093] refactor(state): migrate photo session state management to zustand store
 - **2026-06-25T16:33:16+07:00** - [Activity #5094] feat(watermark): customizable event logo watermark overlay
 - **2026-06-25T16:47:32+07:00** - [Activity #5095] perf(dom): virtualize gallery list items for smooth 60fps scrolling
+- **2026-06-25T17:02:48+07:00** - [Activity #5096] refactor(state): migrate photo session state management to zustand store
