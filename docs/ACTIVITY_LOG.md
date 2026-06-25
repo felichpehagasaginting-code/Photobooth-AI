@@ -5817,3 +5817,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T09:10:41+07:00** - [Activity #5068] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-06-25T09:28:27+07:00** - [Activity #5069] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-06-25T09:51:10+07:00** - [Activity #5070] style(grid): modernize layout overlap for bento-style elements
+- **2026-06-25T09:54:30+07:00** - [Activity #5071] fix(state): sync active photo index when reopening gallery drawer
