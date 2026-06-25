@@ -5813,3 +5813,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-24T21:59:34+07:00** - [Activity #5064] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-06-24T22:10:32+07:00** - [Activity #5065] style(controls): refine slider track and thumb sizing for touch screens
 - **2026-06-24T22:31:53+07:00** - [Activity #5066] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-06-25T09:00:57+07:00** - [Activity #5067] feat(settings): add camera device selector with resolution fallbacks
