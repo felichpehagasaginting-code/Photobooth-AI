@@ -5837,3 +5837,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T15:06:23+07:00** - [Activity #5088] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-06-25T15:23:18+07:00** - [Activity #5089] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-06-25T15:46:54+07:00** - [Activity #5090] fix(firebase): handle network timeout retry in transaction hook
+- **2026-06-25T16:01:16+07:00** - [Activity #5091] style(photobooth): refine backdrop blur and color contrast for dark mode
