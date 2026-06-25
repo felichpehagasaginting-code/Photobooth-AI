@@ -5820,3 +5820,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T09:54:30+07:00** - [Activity #5071] fix(state): sync active photo index when reopening gallery drawer
 - **2026-06-25T10:16:31+07:00** - [Activity #5072] style(theme): update dark mode accent color tokens with warm tone
 - **2026-06-25T10:30:22+07:00** - [Activity #5073] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-06-25T10:44:21+07:00** - [Activity #5074] perf(memory): dispose cached image objects after strip generation
