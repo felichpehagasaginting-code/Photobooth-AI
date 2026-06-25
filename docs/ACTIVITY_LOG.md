@@ -5852,3 +5852,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T19:59:36+07:00** - [Activity #5103] chore(build): optimize Vite build chunks and asset minification settings
 - **2026-06-25T20:18:30+07:00** - [Activity #5104] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-25T20:46:26+07:00** - [Activity #5105] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-06-25T20:55:59+07:00** - [Activity #5106] docs(readme): add detailed hardware camera setup and compatibility guide
