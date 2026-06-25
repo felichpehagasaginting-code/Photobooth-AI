@@ -11529,3 +11529,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T11:53:27+07:00** - [Activity #6902] fix(auth): prevent race condition when initializing anonymous session
 - **2026-06-25T12:08:31+07:00** - [Activity #6903] feat(share): generate instant QR code for mobile photo download
 - **2026-06-25T13:54:01+07:00** - [Activity #6904] fix(export): handle canvas taint error when loading external assets
+- **2026-06-25T14:05:20+07:00** - [Activity #6905] refactor(state): migrate photo session state management to zustand store
