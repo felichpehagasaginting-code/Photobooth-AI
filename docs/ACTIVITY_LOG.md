@@ -5845,3 +5845,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T17:02:48+07:00** - [Activity #5096] refactor(state): migrate photo session state management to zustand store
 - **2026-06-25T17:13:40+07:00** - [Activity #5097] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-06-25T17:30:47+07:00** - [Activity #5098] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-06-25T17:38:42+07:00** - [Activity #5099] perf(memory): dispose cached image objects after strip generation
