@@ -5833,3 +5833,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T14:15:27+07:00** - [Activity #5084] refactor(filter): organize color grading matrices into separate configs
 - **2026-06-25T14:41:42+07:00** - [Activity #5085] test(utils): add unit tests for image aspect ratio calculator
 - **2026-06-25T14:53:16+07:00** - [Activity #5086] fix(state): sync active photo index when reopening gallery drawer
+- **2026-06-25T14:57:08+07:00** - [Activity #5087] fix(accessibility): add missing aria-labels to icon action buttons
