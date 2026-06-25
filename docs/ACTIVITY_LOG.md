@@ -5827,3 +5827,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T11:37:12+07:00** - [Activity #5078] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-06-25T12:00:09+07:00** - [Activity #5079] refactor(events): use custom event bus for decoupled component messaging
 - **2026-06-25T12:18:19+07:00** - [Activity #5080] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-06-25T13:45:06+07:00** - [Activity #5081] feat(audio): add shutter click and countdown sound effects
