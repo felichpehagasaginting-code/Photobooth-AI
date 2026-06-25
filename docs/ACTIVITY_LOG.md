@@ -5825,3 +5825,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T11:11:34+07:00** - [Activity #5076] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-06-25T11:33:30+07:00** - [Activity #5077] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-06-25T11:37:12+07:00** - [Activity #5078] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-06-25T12:00:09+07:00** - [Activity #5079] refactor(events): use custom event bus for decoupled component messaging
