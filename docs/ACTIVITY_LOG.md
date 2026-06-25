@@ -5822,3 +5822,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T10:30:22+07:00** - [Activity #5073] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-25T10:44:21+07:00** - [Activity #5074] perf(memory): dispose cached image objects after strip generation
 - **2026-06-25T10:59:31+07:00** - [Activity #5075] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-06-25T11:11:34+07:00** - [Activity #5076] feat(theme): introduce warm studio and monochrome dark themes
