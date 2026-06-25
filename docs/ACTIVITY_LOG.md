@@ -11541,3 +11541,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T15:56:26+07:00** - [Activity #6914] fix(export): handle canvas taint error when loading external assets
 - **2026-06-25T16:14:23+07:00** - [Activity #6915] chore(deps): update core dependencies to latest stable versions
 - **2026-06-25T16:16:09+07:00** - [Activity #6916] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-06-25T16:30:02+07:00** - [Activity #6917] perf(memory): dispose cached image objects after strip generation
