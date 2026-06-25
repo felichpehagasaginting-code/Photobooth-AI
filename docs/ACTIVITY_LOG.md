@@ -11553,3 +11553,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T20:22:20+07:00** - [Activity #6926] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-06-25T20:42:02+07:00** - [Activity #6927] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-06-25T21:08:27+07:00** - [Activity #6928] fix(state): sync active photo index when reopening gallery drawer
+- **2026-06-25T21:22:13+07:00** - [Activity #6929] perf(images): compress intermediate preview thumbnails with WebP format
