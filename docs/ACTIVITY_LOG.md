@@ -5880,3 +5880,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T16:16:41+07:00** - [Activity #5131] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-26T16:28:22+07:00** - [Activity #5132] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-06-26T16:37:52+07:00** - [Activity #5133] feat(settings): add camera device selector with resolution fallbacks
+- **2026-06-26T16:50:56+07:00** - [Activity #5134] docs(arch): add architecture diagram explaining client-side filter flow
