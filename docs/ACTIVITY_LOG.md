@@ -5871,3 +5871,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T13:45:46+07:00** - [Activity #5122] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-06-26T14:09:04+07:00** - [Activity #5123] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-06-26T14:17:35+07:00** - [Activity #5124] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-06-26T14:25:33+07:00** - [Activity #5125] feat(audio): add shutter click and countdown sound effects
