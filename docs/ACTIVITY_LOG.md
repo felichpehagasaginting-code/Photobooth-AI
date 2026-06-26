@@ -5869,3 +5869,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T11:44:15+07:00** - [Activity #5120] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-06-26T12:05:27+07:00** - [Activity #5121] feat(stickers): support draggable and resizable decorative stickers
 - **2026-06-26T13:45:46+07:00** - [Activity #5122] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-06-26T14:09:04+07:00** - [Activity #5123] style(photobooth): refine backdrop blur and color contrast for dark mode
