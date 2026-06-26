@@ -5883,3 +5883,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T16:50:56+07:00** - [Activity #5134] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-06-26T17:15:40+07:00** - [Activity #5135] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-06-26T17:29:57+07:00** - [Activity #5136] docs(env): document all required environment variables with defaults
+- **2026-06-26T17:37:08+07:00** - [Activity #5137] fix(timer): clear interval on component unmount to prevent memory leak
