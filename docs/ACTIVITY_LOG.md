@@ -11571,3 +11571,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T14:01:53+07:00** - [Activity #6944] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-06-26T14:21:25+07:00** - [Activity #6945] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-06-26T14:36:31+07:00** - [Activity #6946] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-06-26T14:54:58+07:00** - [Activity #6947] feat(preview): render live filter preview using WebGL shader canvas
