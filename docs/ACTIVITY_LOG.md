@@ -5860,3 +5860,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-25T22:34:58+07:00** - [Activity #5111] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-06-26T09:02:55+07:00** - [Activity #5112] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-06-26T09:17:13+07:00** - [Activity #5113] refactor(camera): extract media stream hook into standalone module
+- **2026-06-26T09:38:22+07:00** - [Activity #5114] style(modal): fine-tune cubic-bezier easing curves on open transition
