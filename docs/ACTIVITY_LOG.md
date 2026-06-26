@@ -5864,3 +5864,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T10:07:11+07:00** - [Activity #5115] feat(analytics): log anonymous capture session completion metrics
 - **2026-06-26T10:31:02+07:00** - [Activity #5116] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-26T10:46:40+07:00** - [Activity #5117] feat(ai): integrate edge background removal model
+- **2026-06-26T11:10:17+07:00** - [Activity #5118] feat(preset): allow custom framing border selection per session
