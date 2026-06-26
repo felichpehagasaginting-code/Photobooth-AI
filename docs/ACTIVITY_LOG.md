@@ -11564,3 +11564,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T10:16:14+07:00** - [Activity #6937] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-06-26T10:37:08+07:00** - [Activity #6938] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-06-26T10:59:59+07:00** - [Activity #6939] docs(changelog): update version history and release milestones
+- **2026-06-26T11:30:17+07:00** - [Activity #6940] feat(settings): add camera device selector with resolution fallbacks
