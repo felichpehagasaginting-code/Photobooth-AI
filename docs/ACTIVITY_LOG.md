@@ -5886,3 +5886,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T17:37:08+07:00** - [Activity #5137] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-06-26T19:36:25+07:00** - [Activity #5138] feat(analytics): log anonymous capture session completion metrics
 - **2026-06-26T19:52:55+07:00** - [Activity #5139] refactor(state): migrate photo session state management to zustand store
+- **2026-06-26T20:15:24+07:00** - [Activity #5140] style(modal): fine-tune cubic-bezier easing curves on open transition
