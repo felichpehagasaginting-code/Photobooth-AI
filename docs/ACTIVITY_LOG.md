@@ -11573,3 +11573,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T14:36:31+07:00** - [Activity #6946] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-06-26T14:54:58+07:00** - [Activity #6947] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-06-26T15:21:26+07:00** - [Activity #6948] refactor(state): migrate photo session state management to zustand store
+- **2026-06-26T15:30:14+07:00** - [Activity #6949] style(typography): refine letter-spacing and hierarchy for hero heading
