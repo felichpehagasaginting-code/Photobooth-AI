@@ -5878,3 +5878,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T15:34:51+07:00** - [Activity #5129] feat(audio): add shutter click and countdown sound effects
 - **2026-06-26T15:45:15+07:00** - [Activity #5130] refactor(types): consolidate photobooth session type definitions
 - **2026-06-26T16:16:41+07:00** - [Activity #5131] refactor(ui): extract reusable glass-panel and badge components
+- **2026-06-26T16:28:22+07:00** - [Activity #5132] perf(dom): virtualize gallery list items for smooth 60fps scrolling
