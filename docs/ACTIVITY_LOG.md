@@ -11568,3 +11568,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T11:42:21+07:00** - [Activity #6941] refactor(filter): organize color grading matrices into separate configs
 - **2026-06-26T12:14:12+07:00** - [Activity #6942] feat(ai): integrate edge background removal model
 - **2026-06-26T13:47:10+07:00** - [Activity #6943] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
+- **2026-06-26T14:01:53+07:00** - [Activity #6944] fix(ui): correct modal z-index layering on small mobile viewports
