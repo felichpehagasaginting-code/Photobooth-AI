@@ -5872,3 +5872,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T14:09:04+07:00** - [Activity #5123] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-06-26T14:17:35+07:00** - [Activity #5124] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-06-26T14:25:33+07:00** - [Activity #5125] feat(audio): add shutter click and countdown sound effects
+- **2026-06-26T14:55:58+07:00** - [Activity #5126] fix(download): resolve blob URL memory leak on repeated downloads
