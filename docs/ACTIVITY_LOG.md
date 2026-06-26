@@ -5866,3 +5866,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T10:46:40+07:00** - [Activity #5117] feat(ai): integrate edge background removal model
 - **2026-06-26T11:10:17+07:00** - [Activity #5118] feat(preset): allow custom framing border selection per session
 - **2026-06-26T11:21:01+07:00** - [Activity #5119] refactor(ui): extract reusable glass-panel and badge components
+- **2026-06-26T11:44:15+07:00** - [Activity #5120] test(canvas): add snapshot tests for multi-frame collage layouts
