@@ -11594,3 +11594,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-27T10:00:00+07:00** - [Activity #6967] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-27T10:36:16+07:00** - [Activity #6968] feat(analytics): log anonymous capture session completion metrics
 - **2026-06-27T10:56:04+07:00** - [Activity #6969] docs(api): document endpoint parameters and error codes for seed route
+- **2026-06-27T11:25:27+07:00** - [Activity #6970] refactor(state): migrate photo session state management to zustand store
