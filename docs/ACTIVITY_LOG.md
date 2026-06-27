@@ -11611,3 +11611,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-27T19:58:14+07:00** - [Activity #6984] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-06-27T20:42:42+07:00** - [Activity #6985] feat(preset): allow custom framing border selection per session
 - **2026-06-27T21:10:59+07:00** - [Activity #6986] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-06-27T21:36:30+07:00** - [Activity #6987] style(modal): fine-tune cubic-bezier easing curves on open transition
