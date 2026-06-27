@@ -11607,3 +11607,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-27T16:49:26+07:00** - [Activity #6980] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-06-27T17:10:06+07:00** - [Activity #6981] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-06-27T17:30:45+07:00** - [Activity #6982] feat(settings): add camera device selector with resolution fallbacks
+- **2026-06-27T19:32:01+07:00** - [Activity #6983] feat(theme): introduce warm studio and monochrome dark themes
