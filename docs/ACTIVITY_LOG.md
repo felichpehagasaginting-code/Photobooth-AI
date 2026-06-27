@@ -5894,3 +5894,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-26T22:22:27+07:00** - [Activity #5145] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-06-27T09:00:36+07:00** - [Activity #5146] feat(share): generate instant QR code for mobile photo download
 - **2026-06-27T09:25:16+07:00** - [Activity #5147] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-06-27T10:07:52+07:00** - [Activity #5148] fix(camera): prevent stream freeze on rapid device re-plug
