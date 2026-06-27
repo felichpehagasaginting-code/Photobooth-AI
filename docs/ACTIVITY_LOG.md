@@ -11610,3 +11610,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-27T19:32:01+07:00** - [Activity #6983] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-06-27T19:58:14+07:00** - [Activity #6984] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-06-27T20:42:42+07:00** - [Activity #6985] feat(preset): allow custom framing border selection per session
+- **2026-06-27T21:10:59+07:00** - [Activity #6986] chore(lint): configure ESLint rules for react hooks and accessibility
