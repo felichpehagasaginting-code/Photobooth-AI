@@ -5898,3 +5898,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-27T10:37:12+07:00** - [Activity #5149] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-06-27T11:02:14+07:00** - [Activity #5150] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-06-27T11:22:14+07:00** - [Activity #5151] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-06-27T11:59:31+07:00** - [Activity #5152] refactor(state): migrate photo session state management to zustand store
