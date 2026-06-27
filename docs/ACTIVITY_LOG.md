@@ -11593,3 +11593,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-27T09:33:15+07:00** - [Activity #6966] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-06-27T10:00:00+07:00** - [Activity #6967] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-27T10:36:16+07:00** - [Activity #6968] feat(analytics): log anonymous capture session completion metrics
+- **2026-06-27T10:56:04+07:00** - [Activity #6969] docs(api): document endpoint parameters and error codes for seed route
