@@ -11596,3 +11596,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-27T10:56:04+07:00** - [Activity #6969] docs(api): document endpoint parameters and error codes for seed route
 - **2026-06-27T11:25:27+07:00** - [Activity #6970] refactor(state): migrate photo session state management to zustand store
 - **2026-06-27T11:54:52+07:00** - [Activity #6971] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-06-27T13:45:43+07:00** - [Activity #6972] fix(print): fix page margin clipping on 4x6 photo paper print preview
