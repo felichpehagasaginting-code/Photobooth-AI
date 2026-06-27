@@ -11605,3 +11605,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-27T16:06:56+07:00** - [Activity #6978] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-06-27T16:29:58+07:00** - [Activity #6979] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-27T16:49:26+07:00** - [Activity #6980] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-06-27T17:10:06+07:00** - [Activity #6981] refactor(hooks): create custom useDebounce and useThrottle utilities
