@@ -5916,3 +5916,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-27T21:00:27+07:00** - [Activity #5167] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-06-27T21:35:38+07:00** - [Activity #5168] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-06-27T22:10:30+07:00** - [Activity #5169] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-06-28T09:00:51+07:00** - [Activity #5170] feat(export): support high-resolution PNG and PDF print strip layout
