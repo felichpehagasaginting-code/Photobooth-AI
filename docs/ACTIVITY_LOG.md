@@ -5926,3 +5926,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-28T13:45:41+07:00** - [Activity #5177] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-06-28T14:15:39+07:00** - [Activity #5178] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-06-28T14:45:26+07:00** - [Activity #5179] refactor(api): modularize backend route handlers and validation utils
+- **2026-06-28T15:11:18+07:00** - [Activity #5180] fix(download): resolve blob URL memory leak on repeated downloads
