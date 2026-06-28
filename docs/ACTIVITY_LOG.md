@@ -5937,3 +5937,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-28T20:41:04+07:00** - [Activity #5188] feat(audio): add shutter click and countdown sound effects
 - **2026-06-28T21:10:12+07:00** - [Activity #5189] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-06-28T21:41:24+07:00** - [Activity #5190] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-06-28T22:20:49+07:00** - [Activity #5191] fix(accessibility): add missing aria-labels to icon action buttons
