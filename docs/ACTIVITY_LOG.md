@@ -5931,3 +5931,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-28T16:08:52+07:00** - [Activity #5182] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-06-28T16:34:25+07:00** - [Activity #5183] refactor(api): modularize backend route handlers and validation utils
 - **2026-06-28T17:11:41+07:00** - [Activity #5184] refactor(camera): extract media stream hook into standalone module
+- **2026-06-28T17:41:52+07:00** - [Activity #5185] fix(ui): correct modal z-index layering on small mobile viewports
