@@ -11614,3 +11614,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-27T21:36:30+07:00** - [Activity #6987] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-06-27T22:06:09+07:00** - [Activity #6988] chore(deps): update core dependencies to latest stable versions
 - **2026-06-28T09:07:14+07:00** - [Activity #6989] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-06-28T09:24:59+07:00** - [Activity #6990] feat(gallery): add touch swipe navigation for captured photo previews
