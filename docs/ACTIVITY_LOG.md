@@ -11634,3 +11634,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-28T19:30:15+07:00** - [Activity #7007] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-06-28T19:56:43+07:00** - [Activity #7008] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-06-28T20:34:40+07:00** - [Activity #7009] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-06-28T21:14:44+07:00** - [Activity #7010] perf(memory): dispose cached image objects after strip generation
