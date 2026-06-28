@@ -11621,3 +11621,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-28T11:27:45+07:00** - [Activity #6994] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-06-28T12:07:02+07:00** - [Activity #6995] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-06-28T13:45:13+07:00** - [Activity #6996] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-06-28T13:58:14+07:00** - [Activity #6997] perf(memory): dispose cached image objects after strip generation
