@@ -11613,3 +11613,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-27T21:10:59+07:00** - [Activity #6986] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-06-27T21:36:30+07:00** - [Activity #6987] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-06-27T22:06:09+07:00** - [Activity #6988] chore(deps): update core dependencies to latest stable versions
+- **2026-06-28T09:07:14+07:00** - [Activity #6989] fix(print): fix page margin clipping on 4x6 photo paper print preview
