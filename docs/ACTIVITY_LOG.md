@@ -11635,3 +11635,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-28T19:56:43+07:00** - [Activity #7008] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-06-28T20:34:40+07:00** - [Activity #7009] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-28T21:14:44+07:00** - [Activity #7010] perf(memory): dispose cached image objects after strip generation
+- **2026-06-28T21:34:20+07:00** - [Activity #7011] fix(ui): correct modal z-index layering on small mobile viewports
