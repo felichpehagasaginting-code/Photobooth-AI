@@ -11636,3 +11636,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-28T20:34:40+07:00** - [Activity #7009] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-28T21:14:44+07:00** - [Activity #7010] perf(memory): dispose cached image objects after strip generation
 - **2026-06-28T21:34:20+07:00** - [Activity #7011] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-06-28T22:04:52+07:00** - [Activity #7012] feat(settings): add camera device selector with resolution fallbacks
