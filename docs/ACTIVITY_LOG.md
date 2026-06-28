@@ -5919,3 +5919,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-28T09:00:51+07:00** - [Activity #5170] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-28T09:23:26+07:00** - [Activity #5171] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-06-28T09:55:16+07:00** - [Activity #5172] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-06-28T10:33:34+07:00** - [Activity #5173] chore(git): add ignore rules for local session exports and temp files
