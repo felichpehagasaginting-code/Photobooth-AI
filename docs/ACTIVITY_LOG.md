@@ -11625,3 +11625,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-28T14:26:16+07:00** - [Activity #6998] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-06-28T14:52:47+07:00** - [Activity #6999] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-06-28T15:23:41+07:00** - [Activity #7000] docs(env): document all required environment variables with defaults
+- **2026-06-28T15:31:39+07:00** - [Activity #7001] feat(kiosk): add full-screen lock and inactivity reset timer
