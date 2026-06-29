@@ -11656,3 +11656,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-29T14:29:34+07:00** - [Activity #7029] refactor(ui): extract reusable glass-panel and badge components
 - **2026-06-29T14:53:17+07:00** - [Activity #7030] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-29T15:02:39+07:00** - [Activity #7031] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-06-29T15:10:38+07:00** - [Activity #7032] fix(qr): adjust QR code contrast ratio for low-light scanning
