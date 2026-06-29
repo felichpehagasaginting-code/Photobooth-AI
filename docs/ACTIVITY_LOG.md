@@ -11661,3 +11661,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-29T15:52:02+07:00** - [Activity #7034] docs(changelog): update version history and release milestones
 - **2026-06-29T16:04:54+07:00** - [Activity #7035] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-06-29T16:16:50+07:00** - [Activity #7036] feat(watermark): customizable event logo watermark overlay
+- **2026-06-29T16:22:47+07:00** - [Activity #7037] style(cards): apply subtle border gradient and elevation shadows
