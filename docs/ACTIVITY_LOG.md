@@ -11639,3 +11639,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-28T22:04:52+07:00** - [Activity #7012] feat(settings): add camera device selector with resolution fallbacks
 - **2026-06-29T09:04:20+07:00** - [Activity #7013] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-29T09:14:46+07:00** - [Activity #7014] feat(ai): integrate edge background removal model
+- **2026-06-29T09:38:13+07:00** - [Activity #7015] perf(fonts): preload display typography to eliminate FOIT delay
