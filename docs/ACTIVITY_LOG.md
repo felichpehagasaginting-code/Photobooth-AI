@@ -5940,3 +5940,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-28T22:20:49+07:00** - [Activity #5191] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-06-29T09:05:44+07:00** - [Activity #5192] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-29T09:13:15+07:00** - [Activity #5193] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-06-29T09:43:09+07:00** - [Activity #5194] fix(filter): fix gamma correction clipping on high brightness scenes
