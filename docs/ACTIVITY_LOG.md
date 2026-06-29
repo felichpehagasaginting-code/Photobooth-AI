@@ -11653,3 +11653,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-29T14:00:20+07:00** - [Activity #7026] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-29T14:18:15+07:00** - [Activity #7027] chore(deps): update core dependencies to latest stable versions
 - **2026-06-29T14:29:18+07:00** - [Activity #7028] feat(share): generate instant QR code for mobile photo download
+- **2026-06-29T14:29:34+07:00** - [Activity #7029] refactor(ui): extract reusable glass-panel and badge components
