@@ -5939,3 +5939,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-28T21:41:24+07:00** - [Activity #5190] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-06-28T22:20:49+07:00** - [Activity #5191] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-06-29T09:05:44+07:00** - [Activity #5192] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-06-29T09:13:15+07:00** - [Activity #5193] style(photobooth): refine backdrop blur and color contrast for dark mode
