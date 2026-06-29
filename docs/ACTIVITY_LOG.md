@@ -11650,3 +11650,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-29T11:56:06+07:00** - [Activity #7023] fix(api): validate payload schema before processing seed request
 - **2026-06-29T12:16:29+07:00** - [Activity #7024] fix(audio): unlock audio context on initial user gesture
 - **2026-06-29T13:52:17+07:00** - [Activity #7025] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-06-29T14:00:20+07:00** - [Activity #7026] feat(kiosk): add full-screen lock and inactivity reset timer
