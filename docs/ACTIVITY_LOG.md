@@ -11667,3 +11667,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-29T17:02:12+07:00** - [Activity #7040] fix(auth): prevent race condition when initializing anonymous session
 - **2026-06-29T17:20:33+07:00** - [Activity #7041] refactor(filter): organize color grading matrices into separate configs
 - **2026-06-29T17:33:57+07:00** - [Activity #7042] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-06-29T17:51:51+07:00** - [Activity #7043] chore(git): add ignore rules for local session exports and temp files
