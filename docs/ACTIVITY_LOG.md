@@ -5961,3 +5961,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-29T16:46:56+07:00** - [Activity #5212] feat(analytics): log anonymous capture session completion metrics
 - **2026-06-29T17:04:19+07:00** - [Activity #5213] refactor(export): optimize collage rendering algorithm for speed
 - **2026-06-29T17:30:43+07:00** - [Activity #5214] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-06-29T17:33:28+07:00** - [Activity #5215] chore(config): adjust tsconfig path aliases for cleaner imports
