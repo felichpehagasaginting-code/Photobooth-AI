@@ -5943,3 +5943,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-29T09:43:09+07:00** - [Activity #5194] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-06-29T10:00:28+07:00** - [Activity #5195] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-06-29T10:17:02+07:00** - [Activity #5196] refactor(api): modularize backend route handlers and validation utils
+- **2026-06-29T10:52:45+07:00** - [Activity #5197] docs(changelog): update version history and release milestones
