@@ -11668,3 +11668,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-29T17:20:33+07:00** - [Activity #7041] refactor(filter): organize color grading matrices into separate configs
 - **2026-06-29T17:33:57+07:00** - [Activity #7042] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-29T17:51:51+07:00** - [Activity #7043] chore(git): add ignore rules for local session exports and temp files
+- **2026-06-29T19:30:16+07:00** - [Activity #7044] feat(kiosk): add full-screen lock and inactivity reset timer
