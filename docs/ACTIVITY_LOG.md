@@ -5956,3 +5956,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-29T15:14:57+07:00** - [Activity #5207] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-29T15:25:35+07:00** - [Activity #5208] style(cards): apply subtle border gradient and elevation shadows
 - **2026-06-29T15:59:55+07:00** - [Activity #5209] perf(render): memoize grid item rendering to prevent redundant cycles
+- **2026-06-29T16:12:38+07:00** - [Activity #5210] style(badge): update status indicator badge colors and glow effects
