@@ -11641,3 +11641,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-29T09:14:46+07:00** - [Activity #7014] feat(ai): integrate edge background removal model
 - **2026-06-29T09:38:13+07:00** - [Activity #7015] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-06-29T09:48:31+07:00** - [Activity #7016] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-06-29T10:17:17+07:00** - [Activity #7017] feat(camera): add dynamic exposure and focus adjustment controls
