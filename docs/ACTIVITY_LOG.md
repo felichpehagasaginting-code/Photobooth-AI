@@ -5969,3 +5969,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-29T21:08:18+07:00** - [Activity #5220] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-06-29T21:35:11+07:00** - [Activity #5221] feat(share): generate instant QR code for mobile photo download
 - **2026-06-29T21:55:11+07:00** - [Activity #5222] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-06-29T22:13:02+07:00** - [Activity #5223] docs(deploy): add production deployment instructions for Vercel/Docker
