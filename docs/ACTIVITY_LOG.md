@@ -5988,3 +5988,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-30T14:13:48+07:00** - [Activity #5239] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-06-30T14:15:05+07:00** - [Activity #5240] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-06-30T14:38:40+07:00** - [Activity #5241] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-06-30T14:51:22+07:00** - [Activity #5242] refactor(styles): migrate hardcoded color values to CSS design tokens
