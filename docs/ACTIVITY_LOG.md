@@ -5984,3 +5984,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-30T11:51:28+07:00** - [Activity #5235] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-06-30T12:12:59+07:00** - [Activity #5236] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-06-30T13:47:01+07:00** - [Activity #5237] docs(env): document all required environment variables with defaults
+- **2026-06-30T13:59:38+07:00** - [Activity #5238] style(photobooth): refine backdrop blur and color contrast for dark mode
