@@ -5973,3 +5973,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-30T09:06:31+07:00** - [Activity #5224] feat(share): generate instant QR code for mobile photo download
 - **2026-06-30T09:13:52+07:00** - [Activity #5225] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-06-30T09:37:00+07:00** - [Activity #5226] feat(preset): allow custom framing border selection per session
+- **2026-06-30T09:46:57+07:00** - [Activity #5227] fix(timer): clear interval on component unmount to prevent memory leak
