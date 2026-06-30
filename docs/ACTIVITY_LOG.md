@@ -5990,3 +5990,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-30T14:38:40+07:00** - [Activity #5241] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-06-30T14:51:22+07:00** - [Activity #5242] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-06-30T14:53:28+07:00** - [Activity #5243] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-06-30T15:14:38+07:00** - [Activity #5244] refactor(ui): extract reusable glass-panel and badge components
