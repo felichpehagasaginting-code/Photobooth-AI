@@ -5986,3 +5986,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-30T13:47:01+07:00** - [Activity #5237] docs(env): document all required environment variables with defaults
 - **2026-06-30T13:59:38+07:00** - [Activity #5238] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-06-30T14:13:48+07:00** - [Activity #5239] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-06-30T14:15:05+07:00** - [Activity #5240] perf(images): compress intermediate preview thumbnails with WebP format
