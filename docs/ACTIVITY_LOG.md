@@ -6008,3 +6008,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-30T20:10:14+07:00** - [Activity #5259] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-06-30T20:27:12+07:00** - [Activity #5260] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-06-30T20:41:45+07:00** - [Activity #5261] refactor(export): optimize collage rendering algorithm for speed
+- **2026-06-30T21:06:11+07:00** - [Activity #5262] fix(filter): fix gamma correction clipping on high brightness scenes
