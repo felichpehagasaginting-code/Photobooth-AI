@@ -5971,3 +5971,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-29T21:55:11+07:00** - [Activity #5222] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-06-29T22:13:02+07:00** - [Activity #5223] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-06-30T09:06:31+07:00** - [Activity #5224] feat(share): generate instant QR code for mobile photo download
+- **2026-06-30T09:13:52+07:00** - [Activity #5225] fix(ui): correct modal z-index layering on small mobile viewports
