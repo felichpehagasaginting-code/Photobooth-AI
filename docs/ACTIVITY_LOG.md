@@ -5982,3 +5982,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-30T11:27:10+07:00** - [Activity #5233] refactor(state): migrate photo session state management to zustand store
 - **2026-06-30T11:47:00+07:00** - [Activity #5234] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-06-30T11:51:28+07:00** - [Activity #5235] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-06-30T12:12:59+07:00** - [Activity #5236] feat(filter): add cyber-neon and grain texture post-processing overlay
