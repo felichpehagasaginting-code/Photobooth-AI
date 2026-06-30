@@ -6013,3 +6013,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-30T21:26:38+07:00** - [Activity #5264] docs(env): document all required environment variables with defaults
 - **2026-06-30T21:51:51+07:00** - [Activity #5265] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-06-30T22:09:48+07:00** - [Activity #5266] style(grid): modernize layout overlap for bento-style elements
+- **2026-06-30T22:22:14+07:00** - [Activity #5267] docs(testing): describe manual verification steps for photobooth kiosk
