@@ -11709,3 +11709,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-30T19:48:19+07:00** - [Activity #7082] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-06-30T20:05:00+07:00** - [Activity #7083] docs(changelog): update version history and release milestones
 - **2026-06-30T20:35:04+07:00** - [Activity #7084] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-06-30T20:57:48+07:00** - [Activity #7085] docs(deploy): add production deployment instructions for Vercel/Docker
