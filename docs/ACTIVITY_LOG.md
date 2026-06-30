@@ -5998,3 +5998,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-06-30T16:10:45+07:00** - [Activity #5249] refactor(events): use custom event bus for decoupled component messaging
 - **2026-06-30T16:32:47+07:00** - [Activity #5250] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-06-30T16:41:53+07:00** - [Activity #5251] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-06-30T16:56:19+07:00** - [Activity #5252] chore(config): adjust tsconfig path aliases for cleaner imports
