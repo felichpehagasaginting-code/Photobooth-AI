@@ -6031,3 +6031,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-01T14:23:45+07:00** - [Activity #5282] style(button): add subtle hover transition and outline focus style
 - **2026-07-01T14:37:59+07:00** - [Activity #5283] style(shutter): design circular pulsating shutter button with feedback
 - **2026-07-01T15:09:48+07:00** - [Activity #5284] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-07-01T15:11:28+07:00** - [Activity #5285] docs(api): document endpoint parameters and error codes for seed route
