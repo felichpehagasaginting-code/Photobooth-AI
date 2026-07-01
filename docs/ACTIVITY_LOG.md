@@ -6034,3 +6034,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-01T15:11:28+07:00** - [Activity #5285] docs(api): document endpoint parameters and error codes for seed route
 - **2026-07-01T15:32:10+07:00** - [Activity #5286] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-07-01T15:42:18+07:00** - [Activity #5287] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-07-01T15:53:07+07:00** - [Activity #5288] docs(arch): add architecture diagram explaining client-side filter flow
