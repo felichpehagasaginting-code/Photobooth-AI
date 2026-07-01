@@ -11720,3 +11720,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-01T09:51:13+07:00** - [Activity #7093] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-07-01T09:57:08+07:00** - [Activity #7094] docs(env): document all required environment variables with defaults
 - **2026-07-01T10:19:43+07:00** - [Activity #7095] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-07-01T10:32:37+07:00** - [Activity #7096] perf(images): compress intermediate preview thumbnails with WebP format
