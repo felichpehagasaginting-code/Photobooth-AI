@@ -6025,3 +6025,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-01T11:34:58+07:00** - [Activity #5276] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-07-01T11:44:41+07:00** - [Activity #5277] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-07-01T12:11:08+07:00** - [Activity #5278] docs(changelog): update version history and release milestones
+- **2026-07-01T13:47:24+07:00** - [Activity #5279] fix(export): handle canvas taint error when loading external assets
