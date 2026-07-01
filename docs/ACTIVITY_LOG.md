@@ -11730,3 +11730,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-01T12:14:09+07:00** - [Activity #7103] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-07-01T13:51:58+07:00** - [Activity #7104] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-07-01T13:54:19+07:00** - [Activity #7105] perf(images): compress intermediate preview thumbnails with WebP format
+- **2026-07-01T14:03:34+07:00** - [Activity #7106] style(theme): update dark mode accent color tokens with warm tone
