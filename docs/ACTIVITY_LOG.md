@@ -6043,3 +6043,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-01T17:26:42+07:00** - [Activity #5294] feat(settings): add camera device selector with resolution fallbacks
 - **2026-07-01T17:41:04+07:00** - [Activity #5295] feat(share): generate instant QR code for mobile photo download
 - **2026-07-01T19:30:42+07:00** - [Activity #5296] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-07-01T19:47:15+07:00** - [Activity #5297] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
