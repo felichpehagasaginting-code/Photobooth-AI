@@ -11740,3 +11740,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-01T15:37:00+07:00** - [Activity #7113] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-07-01T15:50:20+07:00** - [Activity #7114] feat(watermark): customizable event logo watermark overlay
 - **2026-07-01T15:50:39+07:00** - [Activity #7115] feat(ai): integrate edge background removal model
+- **2026-07-01T15:57:45+07:00** - [Activity #7116] chore(config): adjust tsconfig path aliases for cleaner imports
