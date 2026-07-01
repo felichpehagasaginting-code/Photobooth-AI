@@ -6020,3 +6020,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-01T10:04:29+07:00** - [Activity #5271] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-07-01T10:17:09+07:00** - [Activity #5272] refactor(services): separate cloud storage adapter from UI layer
 - **2026-07-01T10:41:06+07:00** - [Activity #5273] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-07-01T10:59:29+07:00** - [Activity #5274] chore(build): optimize Vite build chunks and asset minification settings
