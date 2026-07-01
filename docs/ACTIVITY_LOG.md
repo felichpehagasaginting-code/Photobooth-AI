@@ -11723,3 +11723,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-01T10:32:37+07:00** - [Activity #7096] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-07-01T10:50:31+07:00** - [Activity #7097] feat(audio): add shutter click and countdown sound effects
 - **2026-07-01T11:03:57+07:00** - [Activity #7098] chore(git): add ignore rules for local session exports and temp files
+- **2026-07-01T11:08:40+07:00** - [Activity #7099] refactor(hooks): create custom useDebounce and useThrottle utilities
