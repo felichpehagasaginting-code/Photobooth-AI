@@ -6074,3 +6074,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-02T16:15:40+07:00** - [Activity #5325] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-07-02T16:49:36+07:00** - [Activity #5326] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-07-02T16:58:37+07:00** - [Activity #5327] fix(download): resolve blob URL memory leak on repeated downloads
+- **2026-07-02T17:21:43+07:00** - [Activity #5328] refactor(services): separate cloud storage adapter from UI layer
