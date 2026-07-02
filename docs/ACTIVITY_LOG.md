@@ -11762,3 +11762,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-01T22:02:18+07:00** - [Activity #7135] feat(share): generate instant QR code for mobile photo download
 - **2026-07-01T22:18:39+07:00** - [Activity #7136] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-07-01T22:25:20+07:00** - [Activity #7137] feat(print): integrate direct thermal printer web serial interface
+- **2026-07-02T09:06:26+07:00** - [Activity #7138] fix(camera): prevent stream freeze on rapid device re-plug
