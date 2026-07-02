@@ -6075,3 +6075,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-02T16:49:36+07:00** - [Activity #5326] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-07-02T16:58:37+07:00** - [Activity #5327] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-02T17:21:43+07:00** - [Activity #5328] refactor(services): separate cloud storage adapter from UI layer
+- **2026-07-02T17:35:04+07:00** - [Activity #5329] feat(print): integrate direct thermal printer web serial interface
