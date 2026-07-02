@@ -6053,3 +6053,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-01T22:29:43+07:00** - [Activity #5304] feat(audio): add shutter click and countdown sound effects
 - **2026-07-02T09:06:00+07:00** - [Activity #5305] refactor(services): separate cloud storage adapter from UI layer
 - **2026-07-02T09:16:20+07:00** - [Activity #5306] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-07-02T09:36:16+07:00** - [Activity #5307] feat(preview): render live filter preview using WebGL shader canvas
