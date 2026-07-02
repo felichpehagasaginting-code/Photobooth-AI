@@ -6059,3 +6059,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-02T10:49:18+07:00** - [Activity #5310] refactor(api): modularize backend route handlers and validation utils
 - **2026-07-02T11:08:16+07:00** - [Activity #5311] refactor(export): optimize collage rendering algorithm for speed
 - **2026-07-02T11:28:21+07:00** - [Activity #5312] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-02T11:49:41+07:00** - [Activity #5313] docs(env): document all required environment variables with defaults
