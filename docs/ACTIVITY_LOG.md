@@ -6071,3 +6071,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-02T15:38:03+07:00** - [Activity #5322] refactor(events): use custom event bus for decoupled component messaging
 - **2026-07-02T15:45:00+07:00** - [Activity #5323] feat(print): integrate direct thermal printer web serial interface
 - **2026-07-02T15:59:10+07:00** - [Activity #5324] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-07-02T16:15:40+07:00** - [Activity #5325] fix(canvas): prevent blur artifacts during canvas downsampling
