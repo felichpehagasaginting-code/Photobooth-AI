@@ -11786,3 +11786,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-02T16:16:04+07:00** - [Activity #7159] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-07-02T16:23:28+07:00** - [Activity #7160] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-07-02T16:36:41+07:00** - [Activity #7161] style(theme): update dark mode accent color tokens with warm tone
+- **2026-07-02T16:59:22+07:00** - [Activity #7162] docs(env): document all required environment variables with defaults
