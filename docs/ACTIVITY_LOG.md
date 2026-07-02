@@ -6078,3 +6078,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-02T17:35:04+07:00** - [Activity #5329] feat(print): integrate direct thermal printer web serial interface
 - **2026-07-02T17:37:30+07:00** - [Activity #5330] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-07-02T19:37:38+07:00** - [Activity #5331] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-07-02T19:51:31+07:00** - [Activity #5332] refactor(events): use custom event bus for decoupled component messaging
