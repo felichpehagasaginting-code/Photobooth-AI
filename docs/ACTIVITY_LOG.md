@@ -6068,3 +6068,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-02T14:49:20+07:00** - [Activity #5319] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-07-02T14:57:32+07:00** - [Activity #5320] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-07-02T15:21:19+07:00** - [Activity #5321] feat(print): integrate direct thermal printer web serial interface
+- **2026-07-02T15:38:03+07:00** - [Activity #5322] refactor(events): use custom event bus for decoupled component messaging
