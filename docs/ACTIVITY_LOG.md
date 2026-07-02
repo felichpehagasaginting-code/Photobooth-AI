@@ -6066,3 +6066,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-02T14:16:09+07:00** - [Activity #5317] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-07-02T14:27:08+07:00** - [Activity #5318] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-07-02T14:49:20+07:00** - [Activity #5319] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-07-02T14:57:32+07:00** - [Activity #5320] style(typography): refine letter-spacing and hierarchy for hero heading
