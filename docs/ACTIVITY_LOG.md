@@ -11765,3 +11765,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-02T09:06:26+07:00** - [Activity #7138] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-07-02T09:23:53+07:00** - [Activity #7139] feat(print): integrate direct thermal printer web serial interface
 - **2026-07-02T09:42:57+07:00** - [Activity #7140] fix(api): validate payload schema before processing seed request
+- **2026-07-02T09:51:11+07:00** - [Activity #7141] fix(timer): clear interval on component unmount to prevent memory leak
