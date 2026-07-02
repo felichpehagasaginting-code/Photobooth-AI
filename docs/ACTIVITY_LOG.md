@@ -6073,3 +6073,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-02T15:59:10+07:00** - [Activity #5324] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-07-02T16:15:40+07:00** - [Activity #5325] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-07-02T16:49:36+07:00** - [Activity #5326] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-07-02T16:58:37+07:00** - [Activity #5327] fix(download): resolve blob URL memory leak on repeated downloads
