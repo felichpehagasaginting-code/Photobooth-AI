@@ -11782,3 +11782,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-02T15:16:17+07:00** - [Activity #7155] docs(env): document all required environment variables with defaults
 - **2026-07-02T15:30:22+07:00** - [Activity #7156] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-07-02T15:39:33+07:00** - [Activity #7157] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-07-02T15:50:46+07:00** - [Activity #7158] fix(print): fix page margin clipping on 4x6 photo paper print preview
