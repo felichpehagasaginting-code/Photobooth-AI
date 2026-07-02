@@ -11784,3 +11784,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-02T15:39:33+07:00** - [Activity #7157] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-07-02T15:50:46+07:00** - [Activity #7158] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-07-02T16:16:04+07:00** - [Activity #7159] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-07-02T16:23:28+07:00** - [Activity #7160] refactor(hooks): create custom useDebounce and useThrottle utilities
