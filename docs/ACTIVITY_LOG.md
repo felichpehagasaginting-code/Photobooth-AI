@@ -6106,3 +6106,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-03T16:31:10+07:00** - [Activity #5357] test(api): add integration test coverage for photo seed endpoint
 - **2026-07-03T16:40:13+07:00** - [Activity #5358] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-07-03T17:07:27+07:00** - [Activity #5359] feat(camera): add dynamic exposure and focus adjustment controls
+- **2026-07-03T17:19:34+07:00** - [Activity #5360] chore(lint): configure ESLint rules for react hooks and accessibility
