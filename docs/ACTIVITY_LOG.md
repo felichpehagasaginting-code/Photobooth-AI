@@ -11822,3 +11822,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-03T16:02:32+07:00** - [Activity #7195] refactor(ui): extract reusable glass-panel and badge components
 - **2026-07-03T16:14:53+07:00** - [Activity #7196] docs(api): document endpoint parameters and error codes for seed route
 - **2026-07-03T16:35:07+07:00** - [Activity #7197] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-07-03T16:50:37+07:00** - [Activity #7198] fix(audio): unlock audio context on initial user gesture
