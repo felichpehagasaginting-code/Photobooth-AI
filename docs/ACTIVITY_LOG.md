@@ -6092,3 +6092,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-03T10:13:24+07:00** - [Activity #5343] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-07-03T10:34:05+07:00** - [Activity #5344] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-07-03T10:49:51+07:00** - [Activity #5345] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-07-03T11:21:38+07:00** - [Activity #5346] feat(camera): add dynamic exposure and focus adjustment controls
