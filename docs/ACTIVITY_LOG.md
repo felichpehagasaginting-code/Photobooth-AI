@@ -6102,3 +6102,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-03T15:12:50+07:00** - [Activity #5353] docs(env): document all required environment variables with defaults
 - **2026-07-03T15:28:40+07:00** - [Activity #5354] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-07-03T15:42:56+07:00** - [Activity #5355] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-07-03T16:07:29+07:00** - [Activity #5356] fix(print): fix page margin clipping on 4x6 photo paper print preview
