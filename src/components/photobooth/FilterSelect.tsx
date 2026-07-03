@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowLeft, Check, X, Sparkles } from 'lucide-react';
+import { ArrowLeft, Check, X, Sparkles, Brain } from 'lucide-react';
 import { usePhotoboothStore } from '@/store/photobooth';
 import { FILTER_CATEGORIES, FILTER_STYLES, type FilterInfo } from '@/types';
 import { Button } from '@/components/ui/button';
@@ -35,11 +35,14 @@ export default function FilterSelect() {
     removeFilter,
     clearFilteredPhotos,
     language,
+    capturedPhotos,
   } = usePhotoboothStore();
 
   const [filters, setFilters] = useState<FilterInfo[]>([]);
   const [loading, setLoading] = useState(true);
   const [isOnline, setIsOnline] = useState(true);
+  const [suggesting, setSuggesting] = useState(false);
+  const [suggestionError, setSuggestionError] = useState('');
 
   const t = (id: string, en: string) => (language === 'id' ? id : en);
 
@@ -111,6 +114,43 @@ export default function FilterSelect() {
     setStep('customize');
   };
 
+  const handleAISuggest = async () => {
+    if (suggesting) return;
+    setSuggesting(true);
+    setSuggestionError('');
+
+    try {
+      const res = await fetch('/api/nvidia/filter-advisor', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          photos: capturedPhotos.slice(0, 2).map(p => p.original),
+        }),
+      });
+
+      if (!res.ok) {
+        const err = await res.json();
+        throw new Error(err.error || 'Failed to get suggestions');
+      }
+
+      const data = await res.json();
+      if (data.suggestions && data.suggestions.length > 0) {
+        clearFilteredPhotos();
+        data.suggestions.forEach((s: { filterName: string }) => {
+          const match = filters.find(f => f.name.toLowerCase() === s.filterName.toLowerCase());
+          if (match && !selectedFilters.some(f => f.id === match.id) && selectedFilters.length < maxFilters) {
+            addFilter(match);
+          }
+        });
+      }
+    } catch (err: any) {
+      setSuggestionError(err.message || 'AI suggestion failed');
+      console.error('[FilterSelect] AI suggest error:', err);
+    } finally {
+      setSuggesting(false);
+    }
+  };
+
   const getStyleInfo = (style: string) => FILTER_STYLES[style as keyof typeof FILTER_STYLES];
   const getCategoryLabel = (category: string) => {
     const cat = FILTER_CATEGORIES[category as keyof typeof FILTER_CATEGORIES];
@@ -164,6 +204,31 @@ export default function FilterSelect() {
                 : t(`Pilih hingga ${maxFilters} filter`, `Select up to ${maxFilters} filters`)}
             </p>
           </div>
+
+          {/* NVIDIA AI Suggest Button */}
+          <button
+            onClick={handleAISuggest}
+            disabled={suggesting}
+            title={t('Saran AI', 'AI Suggest')}
+            aria-label={t('Saran AI dengan NVIDIA', 'AI Suggest with NVIDIA')}
+            className="relative w-11 h-11 rounded-full flex items-center justify-center transition-all tap-none disabled:opacity-40"
+            style={{
+              background: suggesting
+                ? 'linear-gradient(135deg, #76b90020, #76b90010)'
+                : 'linear-gradient(135deg, #76b90030, #76b90015)',
+              border: '1px solid #76b90040',
+            }}
+          >
+            {suggesting ? (
+              <motion.div
+                animate={{ rotate: 360 }}
+                transition={{ duration: 1.5, repeat: Infinity, ease: 'linear' }}
+                className="w-4 h-4 rounded-full border-2 border-transparent border-t-[#76b900]"
+              />
+            ) : (
+              <Brain className="w-4.5 h-4.5" style={{ color: '#76b900' }} />
+            )}
+          </button>
 
           {/* Circular progress counter */}
           <div className="shrink-0 relative w-12 h-12">

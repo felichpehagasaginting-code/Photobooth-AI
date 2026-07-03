@@ -1,9 +1,11 @@
-import { GoogleGenAI } from '@google/genai';
 import { NextResponse } from 'next/server';
+import { nvidiaAI } from '@/lib/nvidia-ai';
 
 // ─── API Keys (from environment only – never hardcode!) ──────────────────────
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || '';
-const POLLINATIONS_API_KEY = process.env.POLLINATIONS_API_KEY || ''; // optional, works without key
+const POLLINATIONS_API_KEY = process.env.POLLINATIONS_API_KEY || '';
+const NVIDIA_QWEN_API_KEY = process.env.NVIDIA_QWEN_API_KEY || '';
+const NVIDIA_QWEN_MODEL = process.env.NVIDIA_QWEN_MODEL || 'qwen/qwen2.5-vl-72b-instruct';
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 function stripBase64Prefix(dataUrl: string): { mimeType: string; data: string } {
@@ -12,7 +14,14 @@ function stripBase64Prefix(dataUrl: string): { mimeType: string; data: string } 
   return { mimeType: 'image/jpeg', data: dataUrl };
 }
 
-// ─── Provider 1: Gemini (image-to-image) ─────────────────────────────────────
+// ─── Provider 1: Gemini via REST API (image-to-image) ─────────────────────────
+const GEMINI_MODELS = [
+  'gemini-3.1-flash-image',
+  'gemini-2.5-flash-image',
+  'gemini-3.1-flash-lite-image',
+  'gemini-2.5-flash',
+];
+
 async function tryGemini(image: string, filterPrompt: string): Promise<string | null> {
   if (!GEMINI_API_KEY || GEMINI_API_KEY.length < 10) {
     console.log('[generate-filter] Gemini: no API key, skipping');
@@ -21,67 +30,55 @@ async function tryGemini(image: string, filterPrompt: string): Promise<string | 
 
   const { mimeType, data } = stripBase64Prefix(image);
 
-  // If using OpenRouter
-  if (GEMINI_API_KEY.startsWith('sk-or-')) {
-    console.log('[generate-filter] Trying Gemini via OpenRouter (google/gemini-2.5-flash)…');
-    const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${GEMINI_API_KEY}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        model: 'google/gemini-2.5-flash',
-        messages: [
-          {
-            role: 'user',
-            content: [
-              { type: 'text', text: filterPrompt },
-              { type: 'image_url', image_url: { url: `data:${mimeType};base64,${data}` } },
-            ],
-          },
-        ],
-      }),
-    });
+  for (const model of GEMINI_MODELS) {
+    try {
+      console.log(`[generate-filter] Trying Gemini (${model})…`);
 
-    if (!res.ok) {
-      console.warn('[generate-filter] OpenRouter error:', await res.text());
-      return null;
-    }
+      const res = await fetch(
+        `https://generativelanguage.googleapis.com/v1/models/${model}:generateContent?key=${GEMINI_API_KEY}`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            contents: [{
+              parts: [
+                { text: filterPrompt },
+                { inlineData: { mimeType, data } },
+              ],
+            }],
+          }),
+          signal: AbortSignal.timeout(30_000),
+        }
+      );
 
-    const result = await res.json();
-    const content = result.choices?.[0]?.message?.content;
-    if (content) {
-      // If the model returns base64 or an image URL in content, handle it here.
-      // Often, base64 images might be raw or wrapped. If it's a URL, we'd need to fetch it.
-      // Assuming it tries to return base64 text:
-      console.log('[generate-filter] OpenRouter: success');
-      if (content.startsWith('data:image')) return content;
-      return `data:image/jpeg;base64,${content}`;
+      if (!res.ok) {
+        const errBody = await res.text();
+        console.warn(`[generate-filter] Gemini (${model}) error ${res.status}:`, errBody.slice(0, 200));
+        continue;
+      }
+
+      const json = await res.json();
+      const parts = json?.candidates?.[0]?.content?.parts || [];
+
+      // Check for image in response
+      const imagePart = parts.find((p: any) => p.inlineData);
+      if (imagePart?.inlineData?.data) {
+        const outputMime = imagePart.inlineData.mimeType || 'image/png';
+        console.log(`[generate-filter] Gemini (${model}): image success`);
+        return `data:${outputMime};base64,${imagePart.inlineData.data}`;
+      }
+
+      // Text response (no image generated)
+      const text = parts.map((p: any) => p.text).filter(Boolean).join(' ');
+      if (text) {
+        console.log(`[generate-filter] Gemini (${model}) returned text (${text.length} chars), trying next model`);
+      }
+    } catch (err: any) {
+      console.warn(`[generate-filter] Gemini (${model}) exception:`, String(err).slice(0, 200));
     }
-    return null;
   }
 
-  // Fallback to official Google API
-  const genAI = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
-  const contents = [
-    { text: filterPrompt },
-    { inlineData: { mimeType, data } },
-  ];
-
-  console.log('[generate-filter] Trying Gemini (gemini-2.5-flash-image)…');
-  const response = await genAI.models.generateContent({
-    model: 'gemini-2.5-flash-image',
-    contents,
-  });
-
-  const parts = response.candidates?.[0]?.content?.parts;
-  const imagePart = parts?.find((p: any) => p.inlineData);
-  if (!imagePart?.inlineData?.data) return null;
-
-  const outputMime = imagePart.inlineData.mimeType || 'image/png';
-  console.log('[generate-filter] Gemini: success');
-  return `data:${outputMime};base64,${imagePart.inlineData.data}`;
+  return null;
 }
 
 // ─── Provider 2: Pollinations.ai (image-to-image via flux/gptimage) ──────────
@@ -187,6 +184,74 @@ async function tryPollinationsDirect(
   }
 }
 
+// ─── Provider 3: NVIDIA Qwen VL (image-to-image via chat completions) ──────────
+async function tryQwen(image: string, filterPrompt: string): Promise<string | null> {
+  if (!NVIDIA_QWEN_API_KEY || NVIDIA_QWEN_API_KEY.length < 10) {
+    console.log('[generate-filter] Qwen: no API key, skipping');
+    return null;
+  }
+
+  try {
+    const { mimeType, data } = stripBase64Prefix(image);
+    const imageDataUrl = `data:${mimeType};base64,${data}`;
+
+    console.log(`[generate-filter] Trying Qwen (${NVIDIA_QWEN_MODEL})…`);
+
+    const res = await fetch('https://integrate.api.nvidia.com/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${NVIDIA_QWEN_API_KEY}`,
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+      },
+      body: JSON.stringify({
+        model: NVIDIA_QWEN_MODEL,
+        messages: [
+          {
+            role: 'user',
+            content: [
+              { type: 'image_url', image_url: { url: imageDataUrl } },
+              { type: 'text', text: filterPrompt },
+            ],
+          },
+        ],
+        max_tokens: 4096,
+        temperature: 0.7,
+        top_p: 0.95,
+      }),
+      signal: AbortSignal.timeout(60_000),
+    });
+
+    if (!res.ok) {
+      const errText = await res.text();
+      console.warn('[generate-filter] Qwen error:', res.status, errText.slice(0, 200));
+      return null;
+    }
+
+    const json = await res.json();
+    const content = json.choices?.[0]?.message?.content;
+
+    if (content) {
+      // Qwen might return a data URL or base64 image
+      if (content.startsWith('data:image')) return content;
+      if (content.length > 1000) {
+        // Might be raw base64 image data
+        try {
+          return `data:image/jpeg;base64,${content}`;
+        } catch {
+          return content;
+        }
+      }
+      console.log('[generate-filter] Qwen returned text response (not an image), content:', content.slice(0, 100));
+    }
+
+    return null;
+  } catch (err) {
+    console.warn('[generate-filter] Qwen failed:', String(err).slice(0, 200));
+    return null;
+  }
+}
+
 // ─── Main Handler ─────────────────────────────────────────────────────────────
 export async function POST(request: Request) {
   try {
@@ -202,35 +267,78 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Missing required field: image' }, { status: 400 });
     }
 
+    // ── Apply NVIDIA Nemotron-3 Ultra Prompt Enhancement ───────────────────────
+    let enhancedPrompt = filterPrompt;
+    let nvidiaReasoning = '';
+    if (nvidiaAI.isConfigured) {
+      try {
+        console.log('[generate-filter] Enhancing prompt with NVIDIA Nemotron-3 Ultra…');
+        const enhancement = await nvidiaAI.enhancePrompt(
+          'A portrait photo from a photobooth session',
+          filterPrompt,
+          style || 'artistic'
+        );
+        enhancedPrompt = enhancement.enhancedPrompt;
+        nvidiaReasoning = enhancement.reasoning;
+        console.log('[generate-filter] NVIDIA enhancement applied. Enhanced prompt:', enhancedPrompt.slice(0, 80));
+      } catch (nvErr: any) {
+        console.warn('[generate-filter] NVIDIA enhancement failed, using original prompt:', String(nvErr).slice(0, 200));
+      }
+    } else {
+      console.log('[generate-filter] NVIDIA API not configured. Using original prompt. Add NVIDIA_API_KEY to .env.local');
+    }
+
     // ── Try Gemini first ──────────────────────────────────────────────────────
     try {
-      const geminiResult = await tryGemini(image, filterPrompt);
+      const geminiResult = await tryGemini(image, enhancedPrompt);
       if (geminiResult) {
         return NextResponse.json({
           filteredImage: geminiResult,
           style,
-          prompt: filterPrompt,
-          provider: 'gemini',
+          prompt: enhancedPrompt,
+          originalPrompt: filterPrompt,
+          provider: 'gemini+nvidia',
+          nvidiaReasoning: nvidiaReasoning || undefined,
         });
       }
     } catch (geminiErr: any) {
       const msg = String(geminiErr);
+      console.warn('[generate-filter] Gemini error details:', msg.slice(0, 500));
       if (msg.includes('429') || msg.includes('RESOURCE_EXHAUSTED') || msg.includes('quota')) {
-        console.warn('[generate-filter] Gemini quota exceeded, falling back to Pollinations…');
+        console.warn('[generate-filter] Gemini quota exceeded or model unavailable, falling back to Qwen…');
       } else {
-        console.warn('[generate-filter] Gemini error:', msg.slice(0, 200));
+        console.warn('[generate-filter] Gemini failed with non-quota error, falling back to Qwen…');
       }
+    }
+
+    // ── Try NVIDIA Qwen VL ────────────────────────────────────────────────────
+    try {
+      const qwenResult = await tryQwen(image, enhancedPrompt);
+      if (qwenResult) {
+        return NextResponse.json({
+          filteredImage: qwenResult,
+          style,
+          prompt: enhancedPrompt,
+          originalPrompt: filterPrompt,
+          provider: 'qwen+nvidia',
+          nvidiaReasoning: nvidiaReasoning || undefined,
+        });
+      }
+    } catch (qwenErr: any) {
+      console.warn('[generate-filter] Qwen error:', String(qwenErr).slice(0, 200));
     }
 
     // ── Try Pollinations.ai ───────────────────────────────────────────────────
     try {
-      const plResult = await tryPollinations(image, filterPrompt);
+      const plResult = await tryPollinations(image, enhancedPrompt);
       if (plResult) {
         return NextResponse.json({
           filteredImage: plResult,
           style,
-          prompt: filterPrompt,
-          provider: 'pollinations',
+          prompt: enhancedPrompt,
+          originalPrompt: filterPrompt,
+          provider: 'pollinations+nvidia',
+          nvidiaReasoning: nvidiaReasoning || undefined,
         });
       }
     } catch (plErr: any) {
@@ -243,8 +351,11 @@ export async function POST(request: Request) {
       filteredImage: image,
       style,
       prompt: filterPrompt,
+      enhancedPrompt,
+      originalPrompt: filterPrompt,
       provider: 'fallback-original',
-      warning: 'AI providers unavailable. Returning original photo. Add GEMINI_API_KEY to .env.local for best results. Pollinations.ai is free without key.',
+      nvidiaReasoning: nvidiaReasoning || undefined,
+      warning: 'AI providers unavailable. Returning original photo. Add GEMINI_API_KEY to .env.local for best results, or NVIDIA_API_KEY for prompt enhancement.',
     });
   } catch (error) {
     console.error('[generate-filter] Unexpected error:', error);

@@ -35,6 +35,7 @@ export default function ProcessingScreen() {
   const isProcessingRef = useRef(false);
   const [providerLog, setProviderLog] = useState<string[]>([]);
   const [msgIndex, setMsgIndex]       = useState(0);
+  const [nvidiaReasoning, setNvidiaReasoning] = useState<string>('');
 
   const t = (id: string, en: string) => (language === 'id' ? id : en);
   const msgs = language === 'id' ? MSGS_ID : MSGS_EN;
@@ -75,6 +76,9 @@ export default function ProcessingScreen() {
               const data = await res.json();
               addFilteredPhoto({ original: photo.original, filtered: data.filteredImage || photo.original, filterName: filter.name, filterId: filter.id });
               setProviderLog(prev => [...prev, `${filter.name} T${p + 1}: ✓ ${data.provider || 'ok'}`]);
+              if (data.nvidiaReasoning) {
+                setNvidiaReasoning(prev => prev + `\n[${filter.name}] ${data.nvidiaReasoning.slice(0, 120)}...`);
+              }
             } else {
               addFilteredPhoto({ original: photo.original, filtered: photo.original, filterName: filter.name, filterId: filter.id });
               setProviderLog(prev => [...prev, `${filter.name} T${p + 1}: fallback`]);
@@ -264,6 +268,29 @@ export default function ProcessingScreen() {
                 className="text-[9px] font-mono text-[#2c2822]">{log}</motion.p>
             ))}
           </div>
+        )}
+
+        {/* NVIDIA Reasoning — streaming thought process */}
+        {nvidiaReasoning && (
+          <motion.div
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="w-full px-3 py-2 rounded-lg"
+            style={{
+              background: 'rgba(118, 185, 0, 0.06)',
+              border: '1px solid rgba(118, 185, 0, 0.15)',
+            }}
+          >
+            <div className="flex items-center gap-1.5 mb-1">
+              <div className="w-1.5 h-1.5 rounded-full" style={{ background: '#76b900' }} />
+              <span className="text-[9px] font-bold tracking-widest uppercase" style={{ color: '#76b900' }}>
+                NVIDIA Nemotron Reasoning
+              </span>
+            </div>
+            <p className="text-[10px] font-mono leading-relaxed" style={{ color: 'rgba(255,255,255,0.5)' }}>
+              {nvidiaReasoning}
+            </p>
+          </motion.div>
         )}
       </div>
     </div>

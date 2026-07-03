@@ -37,7 +37,8 @@ export async function POST(request: Request) {
     
     if (credentialsJson) {
       try {
-        const { google } = require('googleapis');
+        const googleapis = await import('googleapis');
+        const google = googleapis.google || googleapis.default?.google;
         
         const credentials = JSON.parse(credentialsJson);
         const auth = new google.auth.JWT(
