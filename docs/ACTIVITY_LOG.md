@@ -11801,3 +11801,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-02T22:27:53+07:00** - [Activity #7174] feat(watermark): customizable event logo watermark overlay
 - **2026-07-03T09:00:18+07:00** - [Activity #7175] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-07-03T09:23:30+07:00** - [Activity #7176] feat(preset): allow custom framing border selection per session
+- **2026-07-03T09:32:24+07:00** - [Activity #7177] fix(api): validate payload schema before processing seed request
