@@ -45,7 +45,7 @@ export async function POST(
       },
     });
 
-    sseManager.broadcast({ event: 'transaction_paid', transaction: updated });
+    sseManager.broadcast('transaction_paid', { transactionId: id });
     return NextResponse.json({ transaction: updated });
   } catch (error) {
     console.error('Simulate payment error:', error);

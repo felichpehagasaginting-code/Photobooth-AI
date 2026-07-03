@@ -73,7 +73,7 @@ export async function POST(request: Request) {
       });
     }
 
-    sseManager.broadcast({ event: 'photo_uploaded', transactionId });
+    sseManager.broadcast('photo_uploaded', { transactionId });
     return NextResponse.json({ photo }, { status: 201 });
   } catch (error) {
     console.error('Photo upload error:', error);

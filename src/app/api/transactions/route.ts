@@ -1,11 +1,6 @@
 import { db } from '@/lib/db';
 import { NextResponse } from 'next/server';
-
-function generateOrderId(): string {
-  const timestamp = Date.now().toString(36);
-  const random = Math.random().toString(36).substring(2, 8);
-  return `PB-${timestamp}-${random}`;
-}
+import { generateOrderId } from '@/types';
 
 export async function POST(request: Request) {
   try {

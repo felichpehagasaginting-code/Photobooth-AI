@@ -49,7 +49,7 @@ interface PhotoboothState {
 
   // Processing
   filteredPhotos: FilteredPhoto[];
-  addFilteredPhoto: (photo: Omit<FilteredPhoto, 'id'>) => void;
+  addFilteredPhoto: (photo: Omit<FilteredPhoto, 'id'> & { id?: string }) => void;
   clearFilteredPhotos: () => void;
   processingProgress: number;
   setProcessingProgress: (progress: number) => void;
@@ -127,7 +127,7 @@ export const usePhotoboothStore = create<PhotoboothState>((set) => ({
   // Processing
   filteredPhotos: [],
   addFilteredPhoto: (photo) => set((state) => ({
-    filteredPhotos: [...state.filteredPhotos, { ...photo, id: `${photo.filterId}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}` }],
+    filteredPhotos: [...state.filteredPhotos, { ...photo, id: photo.id || `${photo.filterId}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}` }],
   })),
   clearFilteredPhotos: () => set({ filteredPhotos: [] }),
   processingProgress: 0,

@@ -146,14 +146,14 @@ export default function AdminDashboard() {
     setCameraActive(false);
   }, []);
 
-  const toggleFilter = async (filterId: string, active: boolean) => {
+  const toggleFilter = async (filterId: string, _active: boolean) => {
     try {
-      await fetch(`/api/filters/${filterId}`, {
-        method: 'PATCH', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ active: !active }),
+      await fetch('/api/admin/filters', {
+        method: 'PUT', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: filterId, active: !_active }),
       });
     } catch { /* still update locally */ }
-    setFilters(prev => prev.map(f => f.id === filterId ? { ...f, active: !active } : f));
+    setFilters(prev => prev.map(f => f.id === filterId ? { ...f, active: !_active } : f));
   };
 
   const handleLogout = () => { setAdminLoggedIn(false); setStep('idle'); };

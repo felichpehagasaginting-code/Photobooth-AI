@@ -42,7 +42,22 @@ export type NonAIFilterType =
   | 'cyber_amber'
   | 'infrared'
   | 'retro_gameboy'
-  | 'solarized';
+  | 'solarized'
+  | 'cinematic_teal'
+  | 'split_tone_warm'
+  | 'matte_cinema'
+  | 'golden_hour'
+  | 'dramatic_portrait'
+  | 'bleach_bypass'
+  | 'vibrant_pop'
+  | 'soft_dream'
+  | 'moody_dark'
+  | 'film_stock'
+  | 'analog_fade'
+  | 'noir_dramatic'
+  | 'retro_chrome'
+  | 'cross_process'
+  | 'lomo';
 
 export const FRAME_OPTIONS: { id: FrameType; label: string }[] = [
   { id: 'classic_strip', label: 'Classic Strip' },
@@ -88,6 +103,21 @@ export const FILTER_OPTIONS: { id: NonAIFilterType; label: string }[] = [
   { id: 'infrared', label: 'Infrared Thermal' },
   { id: 'retro_gameboy', label: 'Gameboy 8-Bit' },
   { id: 'solarized', label: 'Solarized' },
+  { id: 'cinematic_teal', label: 'Cinematic Teal' },
+  { id: 'split_tone_warm', label: 'Split Tone' },
+  { id: 'matte_cinema', label: 'Matte Cinema' },
+  { id: 'golden_hour', label: 'Golden Hour' },
+  { id: 'dramatic_portrait', label: 'Dramatic Portrait' },
+  { id: 'bleach_bypass', label: 'Bleach Bypass' },
+  { id: 'vibrant_pop', label: 'Vibrant Pop' },
+  { id: 'soft_dream', label: 'Soft Dream' },
+  { id: 'moody_dark', label: 'Moody Dark' },
+  { id: 'film_stock', label: 'Film Stock' },
+  { id: 'analog_fade', label: 'Analog Fade' },
+  { id: 'noir_dramatic', label: 'Noir Dramatic' },
+  { id: 'retro_chrome', label: 'Retro Chrome' },
+  { id: 'cross_process', label: 'Cross Process' },
+  { id: 'lomo', label: 'Lomo' },
 ];
 
 export async function drawCustomGrid(
@@ -153,6 +183,21 @@ export async function drawCustomGrid(
     case 'infrared': filterString = 'invert(100%) hue-rotate(180deg) saturate(200%) contrast(150%)'; break;
     case 'retro_gameboy': filterString = 'grayscale(100%) brightness(120%) contrast(180%) sepia(80%) hue-rotate(60deg) saturate(150%)'; break;
     case 'solarized': filterString = 'invert(30%) contrast(160%) brightness(110%) saturate(140%)'; break;
+    case 'cinematic_teal': filterString = 'contrast(110%) brightness(95%) saturate(90%) sepia(10%) hue-rotate(190deg)'; break;
+    case 'split_tone_warm': filterString = 'contrast(105%) brightness(105%) saturate(110%) sepia(40%)'; break;
+    case 'matte_cinema': filterString = 'contrast(85%) brightness(110%) saturate(70%)'; break;
+    case 'golden_hour': filterString = 'contrast(95%) brightness(110%) saturate(120%) sepia(50%) hue-rotate(-5deg)'; break;
+    case 'dramatic_portrait': filterString = 'contrast(130%) brightness(95%) saturate(105%)'; break;
+    case 'bleach_bypass': filterString = 'contrast(140%) brightness(105%) saturate(50%)'; break;
+    case 'vibrant_pop': filterString = 'contrast(120%) brightness(105%) saturate(160%)'; break;
+    case 'soft_dream': filterString = 'contrast(85%) brightness(115%) saturate(80%) blur(0.5px)'; break;
+    case 'moody_dark': filterString = 'contrast(120%) brightness(70%) saturate(60%)'; break;
+    case 'film_stock': filterString = 'contrast(105%) brightness(100%) saturate(90%) sepia(20%)'; break;
+    case 'analog_fade': filterString = 'contrast(90%) brightness(105%) saturate(75%) sepia(15%)'; break;
+    case 'noir_dramatic': filterString = 'grayscale(100%) contrast(160%) brightness(80%)'; break;
+    case 'retro_chrome': filterString = 'contrast(110%) brightness(100%) saturate(90%) sepia(60%) hue-rotate(10deg)'; break;
+    case 'cross_process': filterString = 'contrast(110%) saturate(130%) hue-rotate(20deg) sepia(30%) brightness(105%)'; break;
+    case 'lomo': filterString = 'contrast(120%) saturate(150%) brightness(105%) hue-rotate(5deg)'; break;
     default: filterString = 'none'; break;
   }
 
@@ -401,6 +446,108 @@ export async function drawCustomGrid(
   });
 
   // Post-processing overlays
+  if (filterType === 'cinematic_teal') {
+    ctx.save();
+    ctx.fillStyle = 'rgba(0, 80, 120, 0.12)';
+    ctx.globalCompositeOperation = 'overlay';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.restore();
+    // Vignette
+    const vigGrad = ctx.createRadialGradient(canvas.width/2, canvas.height/2, canvas.height*0.3, canvas.width/2, canvas.height/2, canvas.height*0.8);
+    vigGrad.addColorStop(0, 'rgba(0,0,0,0)');
+    vigGrad.addColorStop(1, 'rgba(0,0,0,0.35)');
+    ctx.fillStyle = vigGrad;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  }
+
+  if (filterType === 'split_tone_warm') {
+    ctx.save();
+    ctx.globalCompositeOperation = 'overlay';
+    const grad = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+    grad.addColorStop(0, 'rgba(180, 140, 60, 0.15)');
+    grad.addColorStop(0.5, 'rgba(128, 128, 200, 0.08)');
+    grad.addColorStop(1, 'rgba(80, 60, 140, 0.18)');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.restore();
+  }
+
+  if (filterType === 'golden_hour') {
+    ctx.save();
+    ctx.globalCompositeOperation = 'soft-light';
+    const grad = ctx.createRadialGradient(canvas.width*0.7, canvas.height*0.2, 0, canvas.width*0.7, canvas.height*0.2, canvas.height);
+    grad.addColorStop(0, 'rgba(255, 200, 100, 0.25)');
+    grad.addColorStop(0.5, 'rgba(255, 160, 50, 0.08)');
+    grad.addColorStop(1, 'rgba(200, 100, 20, 0.15)');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.restore();
+  }
+
+  if (filterType === 'dramatic_portrait') {
+    const vigGrad = ctx.createRadialGradient(canvas.width/2, canvas.height/2, canvas.height*0.25, canvas.width/2, canvas.height/2, canvas.height*0.75);
+    vigGrad.addColorStop(0, 'rgba(0,0,0,0)');
+    vigGrad.addColorStop(1, 'rgba(0,0,0,0.3)');
+    ctx.fillStyle = vigGrad;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  }
+
+  if (filterType === 'bleach_bypass') {
+    ctx.save();
+    ctx.globalCompositeOperation = 'overlay';
+    ctx.fillStyle = 'rgba(200, 200, 200, 0.08)';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.restore();
+  }
+
+  if (filterType === 'soft_dream') {
+    ctx.save();
+    ctx.globalCompositeOperation = 'soft-light';
+    ctx.fillStyle = 'rgba(255, 255, 230, 0.15)';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.restore();
+  }
+
+  if (filterType === 'moody_dark') {
+    const vigGrad = ctx.createRadialGradient(canvas.width/2, canvas.height/2, canvas.height*0.2, canvas.width/2, canvas.height/2, canvas.height*0.9);
+    vigGrad.addColorStop(0, 'rgba(0,0,0,0)');
+    vigGrad.addColorStop(1, 'rgba(0,0,0,0.45)');
+    ctx.fillStyle = vigGrad;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  }
+
+  if (filterType === 'retro_chrome') {
+    ctx.save();
+    ctx.globalCompositeOperation = 'overlay';
+    const grad = ctx.createLinearGradient(0, 0, canvas.width, 0);
+    grad.addColorStop(0, 'rgba(180, 120, 60, 0.12)');
+    grad.addColorStop(0.5, 'rgba(255, 200, 100, 0.06)');
+    grad.addColorStop(1, 'rgba(180, 120, 60, 0.12)');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.restore();
+  }
+
+  if (filterType === 'cross_process') {
+    ctx.save();
+    ctx.globalCompositeOperation = 'color';
+    ctx.fillStyle = 'rgba(60, 160, 80, 0.06)';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.globalCompositeOperation = 'overlay';
+    ctx.fillStyle = 'rgba(200, 60, 120, 0.06)';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.restore();
+  }
+
+  if (filterType === 'lomo') {
+    const vigGrad = ctx.createRadialGradient(canvas.width/2, canvas.height/2, canvas.height*0.15, canvas.width/2, canvas.height/2, canvas.height*0.85);
+    vigGrad.addColorStop(0, 'rgba(0,0,0,0)');
+    vigGrad.addColorStop(0.5, 'rgba(0,0,0,0)');
+    vigGrad.addColorStop(1, 'rgba(0,0,0,0.5)');
+    ctx.fillStyle = vigGrad;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  }
+
   if (filterType === 'noise') {
     // Simple noise simulation: draw semi-transparent random dots
     // For performance, we use a tile or simple fill with noise pattern
