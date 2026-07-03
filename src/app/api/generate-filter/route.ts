@@ -22,7 +22,7 @@ const GEMINI_MODELS = [
   'gemini-2.5-flash',
 ];
 
-async function tryGemini(image: string, filterPrompt: string): Promise<string | null> {
+export async function tryGemini(image: string, filterPrompt: string): Promise<string | null> {
   if (!GEMINI_API_KEY || GEMINI_API_KEY.length < 10) {
     console.log('[generate-filter] Gemini: no API key, skipping');
     return null;
@@ -82,7 +82,7 @@ async function tryGemini(image: string, filterPrompt: string): Promise<string | 
 }
 
 // ─── Provider 2: Pollinations.ai (image-to-image via flux/gptimage) ──────────
-async function tryPollinations(image: string, filterPrompt: string): Promise<string | null> {
+export async function tryPollinations(image: string, filterPrompt: string): Promise<string | null> {
   const { data: base64Data, mimeType } = stripBase64Prefix(image);
 
   try {
@@ -185,7 +185,7 @@ async function tryPollinationsDirect(
 }
 
 // ─── Provider 3: NVIDIA Qwen VL (image-to-image via chat completions) ──────────
-async function tryQwen(image: string, filterPrompt: string): Promise<string | null> {
+export async function tryQwen(image: string, filterPrompt: string): Promise<string | null> {
   if (!NVIDIA_QWEN_API_KEY || NVIDIA_QWEN_API_KEY.length < 10) {
     console.log('[generate-filter] Qwen: no API key, skipping');
     return null;
