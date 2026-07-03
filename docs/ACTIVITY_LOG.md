@@ -11804,3 +11804,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-03T09:32:24+07:00** - [Activity #7177] fix(api): validate payload schema before processing seed request
 - **2026-07-03T10:03:45+07:00** - [Activity #7178] feat(share): generate instant QR code for mobile photo download
 - **2026-07-03T10:16:39+07:00** - [Activity #7179] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-07-03T10:32:33+07:00** - [Activity #7180] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
