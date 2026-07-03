@@ -6100,3 +6100,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-03T14:15:58+07:00** - [Activity #5351] style(controls): refine slider track and thumb sizing for touch screens
 - **2026-07-03T14:41:37+07:00** - [Activity #5352] fix(api): validate payload schema before processing seed request
 - **2026-07-03T15:12:50+07:00** - [Activity #5353] docs(env): document all required environment variables with defaults
+- **2026-07-03T15:28:40+07:00** - [Activity #5354] docs(deploy): add production deployment instructions for Vercel/Docker
