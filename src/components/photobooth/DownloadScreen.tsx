@@ -6,6 +6,7 @@ import { Download, RotateCcw, Share2, Instagram, QrCode, Star, Check } from 'luc
 import QRCode from 'qrcode';
 import { usePhotoboothStore } from '@/store/photobooth';
 import { ConfettiParticles } from '@/components/common/ConfettiParticles';
+import { audio } from '@/lib/audio';
 
 /* ── Reel strip preview (horizontal scroller) ── */
 function PhotoReel({ photos, activeIdx, onSelect }: {
@@ -117,7 +118,10 @@ export default function DownloadScreen() {
   const t = (id: string, en: string) => (language === 'id' ? id : en);
 
   useEffect(() => {
-    const timer = setTimeout(() => setShowCheck(true), 400);
+    const timer = setTimeout(() => {
+      setShowCheck(true);
+      audio.playSuccess();
+    }, 400);
     return () => clearTimeout(timer);
   }, []);
 

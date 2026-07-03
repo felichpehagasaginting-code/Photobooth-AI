@@ -2,7 +2,7 @@
 
 import { useRef, useEffect, useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, FlipHorizontal, Zap } from 'lucide-react';
+import { X, FlipHorizontal } from 'lucide-react';
 import { usePhotoboothStore } from '@/store/photobooth';
 import { audio } from '@/lib/audio';
 
@@ -363,32 +363,109 @@ export default function CameraCapture() {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 className="absolute inset-0 flex items-center justify-center z-30"
-                style={{ background: 'rgba(12,10,9,0.6)', backdropFilter: 'blur(4px)' }}
+                style={{ background: 'rgba(3,6,17,0.72)', backdropFilter: 'blur(6px)' }}
               >
+                {/* Radial pulse ring — fires each tick */}
+                <AnimatePresence>
+                  <motion.div
+                    key={`pulse-${countdown}`}
+                    initial={{ scale: 0.6, opacity: 0.7 }}
+                    animate={{ scale: 2.2, opacity: 0 }}
+                    transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
+                    className="absolute rounded-full pointer-events-none"
+                    style={{
+                      width: 160,
+                      height: 160,
+                      border: `2px solid ${
+                        countdown === 3 ? '#22c55e'
+                        : countdown === 2 ? '#f59e0b'
+                        : '#ef4444'
+                      }`,
+                    }}
+                  />
+                </AnimatePresence>
+
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={countdown}
-                    initial={{ scale: 1.6, opacity: 0 }}
+                    initial={{ scale: 1.5, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
-                    exit={{ scale: 0.6, opacity: 0 }}
-                    transition={{ duration: 0.38, ease: [0.25, 0.46, 0.45, 0.94] }}
-                    className="flex flex-col items-center gap-3"
+                    exit={{ scale: 0.55, opacity: 0 }}
+                    transition={{ duration: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
+                    className="flex flex-col items-center gap-4 relative"
                   >
-                    <span
-                      className="font-display font-black text-gradient-copper"
-                      style={{
-                        fontSize: 'clamp(100px, 25vw, 160px)',
-                        lineHeight: 1,
-                        textShadow: '0 0 60px rgba(43,92,246,0.3)',
-                      }}
+                    {/* Circular SVG ring */}
+                    <div className="relative flex items-center justify-center">
+                      <svg
+                        width="180" height="180"
+                        viewBox="0 0 180 180"
+                        style={{ transform: 'rotate(-90deg)' }}
+                        className="absolute"
+                      >
+                        {/* Track */}
+                        <circle
+                          cx="90" cy="90" r="78"
+                          fill="none"
+                          stroke="rgba(255,255,255,0.06)"
+                          strokeWidth="4"
+                        />
+                        {/* Animated progress arc */}
+                        <motion.circle
+                          cx="90" cy="90" r="78"
+                          fill="none"
+                          stroke={
+                            countdown === 3 ? '#22c55e'
+                            : countdown === 2 ? '#f59e0b'
+                            : '#ef4444'
+                          }
+                          strokeWidth="4"
+                          strokeLinecap="round"
+                          strokeDasharray={`${2 * Math.PI * 78}`}
+                          initial={{ strokeDashoffset: 0 }}
+                          animate={{ strokeDashoffset: 2 * Math.PI * 78 }}
+                          transition={{ duration: 1, ease: 'linear' }}
+                        />
+                      </svg>
+
+                      {/* Number */}
+                      <motion.span
+                        className="font-display font-black relative z-10"
+                        style={{
+                          fontSize: 'clamp(80px, 18vw, 120px)',
+                          lineHeight: 1,
+                          color: countdown === 3 ? '#22c55e'
+                            : countdown === 2 ? '#f59e0b'
+                            : '#ef4444',
+                          textShadow: `0 0 40px ${
+                            countdown === 3 ? 'rgba(34,197,94,0.5)'
+                            : countdown === 2 ? 'rgba(245,158,11,0.5)'
+                            : 'rgba(239,68,68,0.5)'
+                          }`,
+                          width: 180,
+                          height: 180,
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                        }}
+                      >
+                        {countdown}
+                      </motion.span>
+                    </div>
+
+                    {/* Label */}
+                    <div className="flex items-center gap-2 px-4 py-1.5"
+                      style={{ border: '1px solid rgba(255,255,255,0.1)', background: 'rgba(3,6,17,0.85)' }}
                     >
-                      {countdown}
-                    </span>
-                    <div className="flex items-center gap-2 px-3 py-1.5"
-                      style={{ border: '1px solid rgba(43,92,246,0.3)', background: 'rgba(3,6,17,0.85)' }}
-                    >
-                      <Zap className="w-3.5 h-3.5 text-var(--copper)" />
-                      <span className="text-[11px] font-bold tracking-[0.2em] text-[#f1f4fb] font-body uppercase">
+                      <motion.div
+                        animate={{ opacity: [1, 0.3, 1] }}
+                        transition={{ duration: 0.5, repeat: Infinity }}
+                        className="w-1.5 h-1.5 rounded-full"
+                        style={{
+                          background: countdown === 3 ? '#22c55e'
+                            : countdown === 2 ? '#f59e0b' : '#ef4444'
+                        }}
+                      />
+                      <span className="text-[11px] font-bold tracking-[0.25em] text-[#f1f4fb] font-body uppercase">
                         {t('Bersiap!', 'Get Ready!')}
                       </span>
                     </div>

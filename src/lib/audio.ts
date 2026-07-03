@@ -113,7 +113,6 @@ class AudioEngine {
     try {
       const now = ctx.currentTime;
 
-      // First note (low)
       const osc1 = ctx.createOscillator();
       const gain1 = ctx.createGain();
       osc1.type = 'sine';
@@ -125,7 +124,6 @@ class AudioEngine {
       osc1.start(now);
       osc1.stop(now + 0.12);
 
-      // Second note (high, slightly offset)
       const osc2 = ctx.createOscillator();
       const gain2 = ctx.createGain();
       osc2.type = 'sine';
@@ -136,6 +134,94 @@ class AudioEngine {
       gain2.connect(ctx.destination);
       osc2.start(now + 0.06);
       osc2.stop(now + 0.2);
+    } catch {}
+  }
+
+  // 4. Download Success Fanfare (tri-tone ascending arpeggio)
+  playSuccess() {
+    this.init();
+    const ctx = this.ctx;
+    if (!ctx) return;
+    if (ctx.state === 'suspended') ctx.resume().catch(() => {});
+
+    try {
+      const now = ctx.currentTime;
+      // C5 → E5 → G5 → C6
+      const notes = [523.25, 659.25, 783.99, 1046.5];
+      const delays = [0, 0.1, 0.2, 0.33];
+
+      notes.forEach((freq, i) => {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(freq, now + delays[i]);
+        gain.gain.setValueAtTime(0, now + delays[i]);
+        gain.gain.linearRampToValueAtTime(0.1, now + delays[i] + 0.02);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + delays[i] + 0.3);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now + delays[i]);
+        osc.stop(now + delays[i] + 0.35);
+      });
+    } catch {}
+  }
+
+  // 5. UI Button Click (crisp short tap)
+  playClick() {
+    this.init();
+    const ctx = this.ctx;
+    if (!ctx) return;
+    if (ctx.state === 'suspended') ctx.resume().catch(() => {});
+
+    try {
+      const now = ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(440, now);
+      osc.frequency.exponentialRampToValueAtTime(220, now + 0.04);
+      gain.gain.setValueAtTime(0.06, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.05);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.06);
+    } catch {}
+  }
+
+  // 6. Filter Select Pop (bubbly soft pop with harmonic)
+  playFilterPop() {
+    this.init();
+    const ctx = this.ctx;
+    if (!ctx) return;
+    if (ctx.state === 'suspended') ctx.resume().catch(() => {});
+
+    try {
+      const now = ctx.currentTime;
+      // Primary pop tone
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(800, now);
+      osc.frequency.exponentialRampToValueAtTime(400, now + 0.07);
+      gain.gain.setValueAtTime(0.07, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.1);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.11);
+
+      // Soft harmonic shimmer
+      const osc2 = ctx.createOscillator();
+      const gain2 = ctx.createGain();
+      osc2.type = 'sine';
+      osc2.frequency.setValueAtTime(1200, now + 0.02);
+      gain2.gain.setValueAtTime(0.03, now + 0.02);
+      gain2.gain.exponentialRampToValueAtTime(0.001, now + 0.12);
+      osc2.connect(gain2);
+      gain2.connect(ctx.destination);
+      osc2.start(now + 0.02);
+      osc2.stop(now + 0.13);
     } catch {}
   }
 }

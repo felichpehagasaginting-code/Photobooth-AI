@@ -6,6 +6,7 @@ import { ArrowLeft, Check, X, Sparkles, Brain } from 'lucide-react';
 import { usePhotoboothStore } from '@/store/photobooth';
 import { FILTER_CATEGORIES, FILTER_STYLES, type FilterInfo } from '@/types';
 import { Button } from '@/components/ui/button';
+import { audio } from '@/lib/audio';
 
 const container = {
   hidden: { opacity: 0 },
@@ -88,13 +89,16 @@ export default function FilterSelect() {
   const handleToggleFilter = (filter: FilterInfo) => {
     if (isSelected(filter.id)) {
       removeFilter(filter.id);
+      audio.playClick();
     } else if (selectedFilters.length < maxFilters) {
       addFilter(filter);
+      audio.playFilterPop();
     }
   };
 
   const handleContinue = () => {
     if (selectedFilters.length > 0) {
+      audio.playChime();
       clearFilteredPhotos();
       setStep('processing');
     }
