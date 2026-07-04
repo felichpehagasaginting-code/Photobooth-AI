@@ -6136,3 +6136,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-04T20:29:32+07:00** - [Activity #5387] refactor(types): consolidate photobooth session type definitions
 - **2026-07-04T21:00:42+07:00** - [Activity #5388] feat(watermark): customizable event logo watermark overlay
 - **2026-07-04T21:41:26+07:00** - [Activity #5389] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-04T22:10:03+07:00** - [Activity #5390] feat(stickers): support draggable and resizable decorative stickers
