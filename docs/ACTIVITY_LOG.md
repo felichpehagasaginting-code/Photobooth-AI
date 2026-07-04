@@ -11839,3 +11839,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-03T22:20:16+07:00** - [Activity #7212] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-07-04T09:00:21+07:00** - [Activity #7213] docs(api): document endpoint parameters and error codes for seed route
 - **2026-07-04T09:41:20+07:00** - [Activity #7214] fix(api): validate payload schema before processing seed request
+- **2026-07-04T10:18:59+07:00** - [Activity #7215] chore(config): adjust tsconfig path aliases for cleaner imports
