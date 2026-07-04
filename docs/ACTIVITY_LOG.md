@@ -11846,3 +11846,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-04T14:12:16+07:00** - [Activity #7219] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-07-04T14:50:38+07:00** - [Activity #7220] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-07-04T15:05:59+07:00** - [Activity #7221] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-07-04T15:37:39+07:00** - [Activity #7222] fix(print): fix page margin clipping on 4x6 photo paper print preview
