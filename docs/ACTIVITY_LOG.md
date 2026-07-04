@@ -11847,3 +11847,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-04T14:50:38+07:00** - [Activity #7220] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-07-04T15:05:59+07:00** - [Activity #7221] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-07-04T15:37:39+07:00** - [Activity #7222] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-07-04T15:59:34+07:00** - [Activity #7223] fix(download): resolve blob URL memory leak on repeated downloads
