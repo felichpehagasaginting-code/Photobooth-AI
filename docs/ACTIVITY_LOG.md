@@ -6152,3 +6152,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-05T16:06:19+07:00** - [Activity #5403] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-07-05T16:32:30+07:00** - [Activity #5404] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-07-05T16:59:16+07:00** - [Activity #5405] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-07-05T17:29:44+07:00** - [Activity #5406] docs(testing): describe manual verification steps for photobooth kiosk
