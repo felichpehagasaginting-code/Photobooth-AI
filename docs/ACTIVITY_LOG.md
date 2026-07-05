@@ -6147,3 +6147,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-05T13:45:04+07:00** - [Activity #5398] refactor(ui): extract reusable glass-panel and badge components
 - **2026-07-05T14:18:10+07:00** - [Activity #5399] feat(print): integrate direct thermal printer web serial interface
 - **2026-07-05T14:39:42+07:00** - [Activity #5400] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-07-05T15:18:55+07:00** - [Activity #5401] fix(camera): prevent stream freeze on rapid device re-plug
