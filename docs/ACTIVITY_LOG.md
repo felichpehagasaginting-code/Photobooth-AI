@@ -11855,3 +11855,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-04T20:20:38+07:00** - [Activity #7228] test(hooks): add test suite for camera stream lifecycle events
 - **2026-07-04T21:00:52+07:00** - [Activity #7229] style(button): add subtle hover transition and outline focus style
 - **2026-07-04T21:53:51+07:00** - [Activity #7230] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-07-05T09:00:07+07:00** - [Activity #7231] fix(state): sync active photo index when reopening gallery drawer
