@@ -6142,3 +6142,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-05T09:56:52+07:00** - [Activity #5393] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-07-05T10:29:03+07:00** - [Activity #5394] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-07-05T11:02:51+07:00** - [Activity #5395] perf(anim): offload countdown animations to GPU composited layers
+- **2026-07-05T11:28:09+07:00** - [Activity #5396] fix(accessibility): add missing aria-labels to icon action buttons
