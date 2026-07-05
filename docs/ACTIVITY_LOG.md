@@ -11857,3 +11857,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-04T21:53:51+07:00** - [Activity #7230] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-07-05T09:00:07+07:00** - [Activity #7231] fix(state): sync active photo index when reopening gallery drawer
 - **2026-07-05T09:36:58+07:00** - [Activity #7232] chore(git): add ignore rules for local session exports and temp files
+- **2026-07-05T10:28:51+07:00** - [Activity #7233] refactor(hooks): create custom useDebounce and useThrottle utilities
