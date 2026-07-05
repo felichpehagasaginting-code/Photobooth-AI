@@ -6138,3 +6138,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-04T21:41:26+07:00** - [Activity #5389] feat(settings): add camera device selector with resolution fallbacks
 - **2026-07-04T22:10:03+07:00** - [Activity #5390] feat(stickers): support draggable and resizable decorative stickers
 - **2026-07-05T09:00:59+07:00** - [Activity #5391] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-07-05T09:22:22+07:00** - [Activity #5392] test(hooks): add test suite for camera stream lifecycle events
