@@ -11867,3 +11867,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-05T15:51:27+07:00** - [Activity #7240] style(button): add subtle hover transition and outline focus style
 - **2026-07-05T16:16:56+07:00** - [Activity #7241] fix(firebase): handle network timeout retry in transaction hook
 - **2026-07-05T17:05:30+07:00** - [Activity #7242] perf(memory): dispose cached image objects after strip generation
+- **2026-07-05T17:37:53+07:00** - [Activity #7243] feat(camera): add dynamic exposure and focus adjustment controls
