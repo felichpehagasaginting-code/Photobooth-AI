@@ -11870,3 +11870,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-05T17:37:53+07:00** - [Activity #7243] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-07-05T19:37:08+07:00** - [Activity #7244] docs(env): document all required environment variables with defaults
 - **2026-07-05T20:15:10+07:00** - [Activity #7245] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-07-05T21:02:54+07:00** - [Activity #7246] perf(images): compress intermediate preview thumbnails with WebP format
