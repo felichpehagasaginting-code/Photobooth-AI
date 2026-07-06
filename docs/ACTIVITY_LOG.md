@@ -11874,3 +11874,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-05T21:57:49+07:00** - [Activity #7247] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-07-06T09:04:44+07:00** - [Activity #7248] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-07-06T09:21:17+07:00** - [Activity #7249] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-07-06T09:32:20+07:00** - [Activity #7250] feat(preset): allow custom framing border selection per session
