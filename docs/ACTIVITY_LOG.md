@@ -11885,3 +11885,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-06T12:09:47+07:00** - [Activity #7258] feat(cloud): async upload queue for batch photo backup
 - **2026-07-06T13:46:36+07:00** - [Activity #7259] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-07-06T14:08:50+07:00** - [Activity #7260] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-06T14:10:13+07:00** - [Activity #7261] fix(qr): adjust QR code contrast ratio for low-light scanning
