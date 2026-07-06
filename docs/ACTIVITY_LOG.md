@@ -6166,3 +6166,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-06T10:09:32+07:00** - [Activity #5417] fix(api): validate payload schema before processing seed request
 - **2026-07-06T10:40:07+07:00** - [Activity #5418] feat(stickers): support draggable and resizable decorative stickers
 - **2026-07-06T11:01:55+07:00** - [Activity #5419] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-07-06T11:12:02+07:00** - [Activity #5420] style(modal): fine-tune cubic-bezier easing curves on open transition
