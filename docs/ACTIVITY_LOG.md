@@ -6190,3 +6190,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-06T19:58:54+07:00** - [Activity #5441] refactor(state): migrate photo session state management to zustand store
 - **2026-07-06T20:13:27+07:00** - [Activity #5442] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-07-06T20:39:39+07:00** - [Activity #5443] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-07-06T20:56:54+07:00** - [Activity #5444] chore(git): add ignore rules for local session exports and temp files
