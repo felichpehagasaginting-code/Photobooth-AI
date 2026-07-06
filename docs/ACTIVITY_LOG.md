@@ -6194,3 +6194,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-06T21:12:54+07:00** - [Activity #5445] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-07-06T21:39:55+07:00** - [Activity #5446] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-07-06T21:57:34+07:00** - [Activity #5447] refactor(ui): extract reusable glass-panel and badge components
+- **2026-07-06T22:30:59+07:00** - [Activity #5448] docs(readme): add detailed hardware camera setup and compatibility guide
