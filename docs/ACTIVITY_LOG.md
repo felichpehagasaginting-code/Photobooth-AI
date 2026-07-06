@@ -6187,3 +6187,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-06T17:26:41+07:00** - [Activity #5438] feat(preset): allow custom framing border selection per session
 - **2026-07-06T17:51:14+07:00** - [Activity #5439] docs(api): document endpoint parameters and error codes for seed route
 - **2026-07-06T19:30:58+07:00** - [Activity #5440] refactor(ui): extract reusable glass-panel and badge components
+- **2026-07-06T19:58:54+07:00** - [Activity #5441] refactor(state): migrate photo session state management to zustand store
