@@ -11898,3 +11898,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-06T16:41:26+07:00** - [Activity #7271] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-07-06T16:50:52+07:00** - [Activity #7272] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-07-06T17:09:26+07:00** - [Activity #7273] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
+- **2026-07-06T17:30:09+07:00** - [Activity #7274] docs(readme): add detailed hardware camera setup and compatibility guide
