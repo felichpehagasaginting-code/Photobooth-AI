@@ -6161,3 +6161,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-05T22:08:19+07:00** - [Activity #5412] fix(firebase): handle network timeout retry in transaction hook
 - **2026-07-06T09:03:09+07:00** - [Activity #5413] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-07-06T09:25:01+07:00** - [Activity #5414] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-07-06T09:36:23+07:00** - [Activity #5415] feat(camera): add dynamic exposure and focus adjustment controls
