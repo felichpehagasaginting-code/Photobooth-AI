@@ -11937,3 +11937,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-07T15:38:36+07:00** - [Activity #7310] feat(cloud): async upload queue for batch photo backup
 - **2026-07-07T15:45:26+07:00** - [Activity #7311] docs(env): document all required environment variables with defaults
 - **2026-07-07T15:48:49+07:00** - [Activity #7312] chore(deps): update core dependencies to latest stable versions
+- **2026-07-07T16:15:56+07:00** - [Activity #7313] style(modal): fine-tune cubic-bezier easing curves on open transition
