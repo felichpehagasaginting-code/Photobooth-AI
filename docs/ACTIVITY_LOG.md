@@ -11954,3 +11954,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-07T20:30:28+07:00** - [Activity #7327] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-07-07T20:52:42+07:00** - [Activity #7328] style(theme): update dark mode accent color tokens with warm tone
 - **2026-07-07T21:08:47+07:00** - [Activity #7329] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-07-07T21:19:09+07:00** - [Activity #7330] docs(readme): add detailed hardware camera setup and compatibility guide
