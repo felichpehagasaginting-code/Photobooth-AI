@@ -6237,3 +6237,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-07T20:46:53+07:00** - [Activity #5488] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-07-07T21:14:01+07:00** - [Activity #5489] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-07-07T21:31:12+07:00** - [Activity #5490] fix(download): resolve blob URL memory leak on repeated downloads
+- **2026-07-07T21:36:35+07:00** - [Activity #5491] style(modal): fine-tune cubic-bezier easing curves on open transition
