@@ -11941,3 +11941,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-07T16:24:47+07:00** - [Activity #7314] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-07-07T16:38:51+07:00** - [Activity #7315] feat(stickers): support draggable and resizable decorative stickers
 - **2026-07-07T16:40:27+07:00** - [Activity #7316] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-07-07T17:02:08+07:00** - [Activity #7317] style(button): add subtle hover transition and outline focus style
