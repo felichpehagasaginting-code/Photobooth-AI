@@ -6207,3 +6207,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-07T11:16:10+07:00** - [Activity #5458] test(api): add integration test coverage for photo seed endpoint
 - **2026-07-07T11:29:30+07:00** - [Activity #5459] refactor(i18n): restructure localization strings dictionary
 - **2026-07-07T11:39:43+07:00** - [Activity #5460] style(badge): update status indicator badge colors and glow effects
+- **2026-07-07T12:05:52+07:00** - [Activity #5461] docs(api): document endpoint parameters and error codes for seed route
