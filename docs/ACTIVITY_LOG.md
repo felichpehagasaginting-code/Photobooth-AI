@@ -6202,3 +6202,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-07T10:01:15+07:00** - [Activity #5453] refactor(camera): extract media stream hook into standalone module
 - **2026-07-07T10:21:29+07:00** - [Activity #5454] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-07-07T10:22:44+07:00** - [Activity #5455] fix(firebase): handle network timeout retry in transaction hook
+- **2026-07-07T10:44:38+07:00** - [Activity #5456] docs(arch): add architecture diagram explaining client-side filter flow
