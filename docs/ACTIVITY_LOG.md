@@ -11981,3 +11981,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-08T15:21:22+07:00** - [Activity #7354] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-07-08T15:31:43+07:00** - [Activity #7355] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-07-08T16:01:52+07:00** - [Activity #7356] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-07-08T16:13:42+07:00** - [Activity #7357] style(typography): refine letter-spacing and hierarchy for hero heading
