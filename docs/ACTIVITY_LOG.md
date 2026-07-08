@@ -6252,3 +6252,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-08T11:07:40+07:00** - [Activity #5503] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-07-08T11:20:37+07:00** - [Activity #5504] feat(share): generate instant QR code for mobile photo download
 - **2026-07-08T11:29:15+07:00** - [Activity #5505] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-07-08T11:48:34+07:00** - [Activity #5506] perf(dom): virtualize gallery list items for smooth 60fps scrolling
