@@ -11990,3 +11990,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-08T17:36:27+07:00** - [Activity #7363] feat(settings): add camera device selector with resolution fallbacks
 - **2026-07-08T17:45:23+07:00** - [Activity #7364] refactor(api): modularize backend route handlers and validation utils
 - **2026-07-08T19:31:40+07:00** - [Activity #7365] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-07-08T19:50:33+07:00** - [Activity #7366] refactor(utils): streamline color conversion and hex parsing helpers
