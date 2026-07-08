@@ -6278,3 +6278,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-08T17:53:34+07:00** - [Activity #5529] style(shutter): design circular pulsating shutter button with feedback
 - **2026-07-08T19:30:43+07:00** - [Activity #5530] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-07-08T19:50:11+07:00** - [Activity #5531] feat(audio): add shutter click and countdown sound effects
+- **2026-07-08T20:04:31+07:00** - [Activity #5532] refactor(hooks): create custom useDebounce and useThrottle utilities
