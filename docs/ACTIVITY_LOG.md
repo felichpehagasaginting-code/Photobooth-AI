@@ -11998,3 +11998,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-08T21:20:47+07:00** - [Activity #7371] perf(anim): offload countdown animations to GPU composited layers
 - **2026-07-08T21:46:26+07:00** - [Activity #7372] fix(auth): prevent race condition when initializing anonymous session
 - **2026-07-08T21:59:03+07:00** - [Activity #7373] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-07-08T22:18:24+07:00** - [Activity #7374] refactor(ui): extract reusable glass-panel and badge components
