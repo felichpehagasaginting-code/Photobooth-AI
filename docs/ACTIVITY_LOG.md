@@ -11959,3 +11959,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-07T22:01:09+07:00** - [Activity #7332] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-07T22:04:59+07:00** - [Activity #7333] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-07T22:22:51+07:00** - [Activity #7334] feat(cloud): async upload queue for batch photo backup
+- **2026-07-08T09:00:32+07:00** - [Activity #7335] docs(arch): add architecture diagram explaining client-side filter flow
