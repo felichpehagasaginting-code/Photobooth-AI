@@ -11987,3 +11987,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-08T16:40:13+07:00** - [Activity #7360] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-07-08T17:04:51+07:00** - [Activity #7361] style(grid): modernize layout overlap for bento-style elements
 - **2026-07-08T17:15:36+07:00** - [Activity #7362] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-07-08T17:36:27+07:00** - [Activity #7363] feat(settings): add camera device selector with resolution fallbacks
