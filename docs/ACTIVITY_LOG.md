@@ -6248,3 +6248,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-08T09:59:38+07:00** - [Activity #5499] test(api): add integration test coverage for photo seed endpoint
 - **2026-07-08T10:16:47+07:00** - [Activity #5500] chore(deps): update core dependencies to latest stable versions
 - **2026-07-08T10:27:14+07:00** - [Activity #5501] perf(state): optimize selector subscriptions to minimize re-renders
+- **2026-07-08T10:48:41+07:00** - [Activity #5502] docs(env): document all required environment variables with defaults
