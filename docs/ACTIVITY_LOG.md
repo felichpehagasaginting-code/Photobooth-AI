@@ -6331,3 +6331,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-09T21:00:10+07:00** - [Activity #5582] feat(cloud): async upload queue for batch photo backup
 - **2026-07-09T21:21:06+07:00** - [Activity #5583] feat(watermark): customizable event logo watermark overlay
 - **2026-07-09T21:46:49+07:00** - [Activity #5584] perf(anim): offload countdown animations to GPU composited layers
+- **2026-07-09T21:54:59+07:00** - [Activity #5585] refactor(ui): extract reusable glass-panel and badge components
