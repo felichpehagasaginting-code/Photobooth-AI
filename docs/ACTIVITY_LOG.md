@@ -6288,3 +6288,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-08T21:48:38+07:00** - [Activity #5539] refactor(i18n): restructure localization strings dictionary
 - **2026-07-08T22:14:02+07:00** - [Activity #5540] feat(watermark): customizable event logo watermark overlay
 - **2026-07-08T22:24:17+07:00** - [Activity #5541] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-07-09T09:00:53+07:00** - [Activity #5542] docs(arch): add architecture diagram explaining client-side filter flow
