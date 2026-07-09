@@ -12024,3 +12024,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-09T16:01:11+07:00** - [Activity #7397] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-07-09T16:24:17+07:00** - [Activity #7398] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-07-09T16:25:24+07:00** - [Activity #7399] fix(state): sync active photo index when reopening gallery drawer
+- **2026-07-09T16:50:38+07:00** - [Activity #7400] docs(readme): add detailed hardware camera setup and compatibility guide
