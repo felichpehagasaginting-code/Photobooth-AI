@@ -6323,3 +6323,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-09T17:25:02+07:00** - [Activity #5574] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-07-09T17:44:48+07:00** - [Activity #5575] chore(git): add ignore rules for local session exports and temp files
 - **2026-07-09T19:30:46+07:00** - [Activity #5576] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-07-09T19:40:50+07:00** - [Activity #5577] docs(arch): add architecture diagram explaining client-side filter flow
