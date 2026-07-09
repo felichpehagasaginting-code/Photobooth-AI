@@ -12037,3 +12037,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-09T21:12:43+07:00** - [Activity #7410] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-09T21:27:23+07:00** - [Activity #7411] fix(audio): unlock audio context on initial user gesture
 - **2026-07-09T21:44:01+07:00** - [Activity #7412] refactor(api): modularize backend route handlers and validation utils
+- **2026-07-09T22:08:46+07:00** - [Activity #7413] perf(fonts): preload display typography to eliminate FOIT delay
