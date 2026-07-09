@@ -12031,3 +12031,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-09T17:53:03+07:00** - [Activity #7404] feat(preset): allow custom framing border selection per session
 - **2026-07-09T19:30:12+07:00** - [Activity #7405] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-07-09T19:56:34+07:00** - [Activity #7406] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-07-09T20:15:28+07:00** - [Activity #7407] perf(memory): dispose cached image objects after strip generation
