@@ -6321,3 +6321,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-09T16:59:07+07:00** - [Activity #5572] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-07-09T17:23:19+07:00** - [Activity #5573] feat(ai): integrate edge background removal model
 - **2026-07-09T17:25:02+07:00** - [Activity #5574] perf(images): compress intermediate preview thumbnails with WebP format
+- **2026-07-09T17:44:48+07:00** - [Activity #5575] chore(git): add ignore rules for local session exports and temp files
