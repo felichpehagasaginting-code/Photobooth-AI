@@ -6320,3 +6320,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-09T16:50:59+07:00** - [Activity #5571] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-07-09T16:59:07+07:00** - [Activity #5572] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-07-09T17:23:19+07:00** - [Activity #5573] feat(ai): integrate edge background removal model
+- **2026-07-09T17:25:02+07:00** - [Activity #5574] perf(images): compress intermediate preview thumbnails with WebP format
