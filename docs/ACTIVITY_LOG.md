@@ -12035,3 +12035,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-09T20:34:48+07:00** - [Activity #7408] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-07-09T20:50:44+07:00** - [Activity #7409] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-07-09T21:12:43+07:00** - [Activity #7410] fix(download): resolve blob URL memory leak on repeated downloads
+- **2026-07-09T21:27:23+07:00** - [Activity #7411] fix(audio): unlock audio context on initial user gesture
