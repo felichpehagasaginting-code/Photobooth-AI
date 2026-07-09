@@ -6327,3 +6327,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-09T19:58:03+07:00** - [Activity #5578] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-09T20:23:52+07:00** - [Activity #5579] fix(export): handle canvas taint error when loading external assets
 - **2026-07-09T20:41:01+07:00** - [Activity #5580] style(badge): update status indicator badge colors and glow effects
+- **2026-07-09T20:43:31+07:00** - [Activity #5581] perf(memory): dispose cached image objects after strip generation
