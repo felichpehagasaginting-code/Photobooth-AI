@@ -6311,3 +6311,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-09T14:57:49+07:00** - [Activity #5562] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-07-09T15:20:17+07:00** - [Activity #5563] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-07-09T15:22:09+07:00** - [Activity #5564] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-07-09T15:31:42+07:00** - [Activity #5565] docs(deploy): add production deployment instructions for Vercel/Docker
