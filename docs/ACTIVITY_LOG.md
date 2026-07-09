@@ -11999,3 +11999,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-08T21:46:26+07:00** - [Activity #7372] fix(auth): prevent race condition when initializing anonymous session
 - **2026-07-08T21:59:03+07:00** - [Activity #7373] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-07-08T22:18:24+07:00** - [Activity #7374] refactor(ui): extract reusable glass-panel and badge components
+- **2026-07-09T09:06:44+07:00** - [Activity #7375] style(modal): fine-tune cubic-bezier easing curves on open transition
