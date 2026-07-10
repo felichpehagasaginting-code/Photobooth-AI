@@ -6355,3 +6355,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-10T16:02:40+07:00** - [Activity #5606] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-07-10T16:15:57+07:00** - [Activity #5607] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-07-10T16:33:05+07:00** - [Activity #5608] docs(env): document all required environment variables with defaults
+- **2026-07-10T16:43:12+07:00** - [Activity #5609] docs(env): document all required environment variables with defaults
