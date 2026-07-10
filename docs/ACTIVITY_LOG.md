@@ -12069,3 +12069,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-10T19:57:30+07:00** - [Activity #7442] style(cards): apply subtle border gradient and elevation shadows
 - **2026-07-10T20:08:07+07:00** - [Activity #7443] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-07-10T20:36:45+07:00** - [Activity #7444] fix(export): handle canvas taint error when loading external assets
+- **2026-07-10T20:53:25+07:00** - [Activity #7445] fix(camera): resolve aspect ratio distortion on ultrawide webcams
