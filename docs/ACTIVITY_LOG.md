@@ -6365,3 +6365,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-10T20:41:19+07:00** - [Activity #5616] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-07-10T21:04:46+07:00** - [Activity #5617] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-07-10T21:35:17+07:00** - [Activity #5618] docs(changelog): update version history and release milestones
+- **2026-07-10T22:02:34+07:00** - [Activity #5619] perf(fonts): preload display typography to eliminate FOIT delay
