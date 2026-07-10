@@ -6346,3 +6346,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-10T12:01:01+07:00** - [Activity #5597] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-07-10T13:51:36+07:00** - [Activity #5598] refactor(cleanup): remove deprecated legacy camera capture methods
 - **2026-07-10T14:03:34+07:00** - [Activity #5599] style(controls): refine slider track and thumb sizing for touch screens
+- **2026-07-10T14:25:41+07:00** - [Activity #5600] chore(git): add ignore rules for local session exports and temp files
