@@ -12062,3 +12062,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-10T16:23:51+07:00** - [Activity #7435] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-07-10T16:49:08+07:00** - [Activity #7436] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-07-10T16:54:09+07:00** - [Activity #7437] refactor(filter): organize color grading matrices into separate configs
+- **2026-07-10T17:17:36+07:00** - [Activity #7438] fix(qr): adjust QR code contrast ratio for low-light scanning
