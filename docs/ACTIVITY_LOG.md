@@ -6344,3 +6344,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-10T11:26:35+07:00** - [Activity #5595] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-07-10T11:51:40+07:00** - [Activity #5596] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-07-10T12:01:01+07:00** - [Activity #5597] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-07-10T13:51:36+07:00** - [Activity #5598] refactor(cleanup): remove deprecated legacy camera capture methods
