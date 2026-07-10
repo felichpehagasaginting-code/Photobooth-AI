@@ -12052,3 +12052,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-10T13:48:53+07:00** - [Activity #7425] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-07-10T14:00:01+07:00** - [Activity #7426] fix(api): validate payload schema before processing seed request
 - **2026-07-10T14:13:54+07:00** - [Activity #7427] style(theme): update dark mode accent color tokens with warm tone
+- **2026-07-10T14:40:58+07:00** - [Activity #7428] fix(download): resolve blob URL memory leak on repeated downloads
