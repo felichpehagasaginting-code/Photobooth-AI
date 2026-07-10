@@ -6341,3 +6341,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-10T10:28:14+07:00** - [Activity #5592] feat(share): generate instant QR code for mobile photo download
 - **2026-07-10T10:45:42+07:00** - [Activity #5593] docs(api): document endpoint parameters and error codes for seed route
 - **2026-07-10T11:08:46+07:00** - [Activity #5594] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-07-10T11:26:35+07:00** - [Activity #5595] feat(export): support high-resolution PNG and PDF print strip layout
