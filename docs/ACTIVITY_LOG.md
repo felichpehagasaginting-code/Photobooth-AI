@@ -6359,3 +6359,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-10T17:04:13+07:00** - [Activity #5610] refactor(services): separate cloud storage adapter from UI layer
 - **2026-07-10T17:23:03+07:00** - [Activity #5611] perf(anim): offload countdown animations to GPU composited layers
 - **2026-07-10T17:45:55+07:00** - [Activity #5612] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-07-10T19:30:39+07:00** - [Activity #5613] fix(download): resolve blob URL memory leak on repeated downloads
