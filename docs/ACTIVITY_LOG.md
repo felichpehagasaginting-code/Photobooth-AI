@@ -12054,3 +12054,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-10T14:13:54+07:00** - [Activity #7427] style(theme): update dark mode accent color tokens with warm tone
 - **2026-07-10T14:40:58+07:00** - [Activity #7428] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-10T14:57:17+07:00** - [Activity #7429] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-07-10T14:58:00+07:00** - [Activity #7430] docs(api): document endpoint parameters and error codes for seed route
