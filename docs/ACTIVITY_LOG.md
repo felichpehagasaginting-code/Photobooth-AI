@@ -12078,3 +12078,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-11T09:52:00+07:00** - [Activity #7451] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-07-11T10:39:53+07:00** - [Activity #7452] perf(memory): dispose cached image objects after strip generation
 - **2026-07-11T11:38:51+07:00** - [Activity #7453] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-07-11T13:49:10+07:00** - [Activity #7454] chore(git): add ignore rules for local session exports and temp files
