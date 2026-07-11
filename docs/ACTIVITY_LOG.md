@@ -6370,3 +6370,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-11T09:00:34+07:00** - [Activity #5621] chore(build): optimize Vite build chunks and asset minification settings
 - **2026-07-11T09:27:20+07:00** - [Activity #5622] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-07-11T10:03:34+07:00** - [Activity #5623] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-07-11T10:40:52+07:00** - [Activity #5624] perf(images): compress intermediate preview thumbnails with WebP format
