@@ -12077,3 +12077,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-11T09:00:00+07:00** - [Activity #7450] docs(changelog): update version history and release milestones
 - **2026-07-11T09:52:00+07:00** - [Activity #7451] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-07-11T10:39:53+07:00** - [Activity #7452] perf(memory): dispose cached image objects after strip generation
+- **2026-07-11T11:38:51+07:00** - [Activity #7453] fix(accessibility): add missing aria-labels to icon action buttons
