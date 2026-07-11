@@ -12075,3 +12075,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-10T22:07:23+07:00** - [Activity #7448] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-07-10T22:17:05+07:00** - [Activity #7449] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-07-11T09:00:00+07:00** - [Activity #7450] docs(changelog): update version history and release milestones
+- **2026-07-11T09:52:00+07:00** - [Activity #7451] perf(fonts): preload display typography to eliminate FOIT delay
