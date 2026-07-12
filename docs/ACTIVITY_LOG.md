@@ -6397,3 +6397,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-12T15:04:09+07:00** - [Activity #5648] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-07-12T15:59:10+07:00** - [Activity #5649] style(badge): update status indicator badge colors and glow effects
 - **2026-07-12T16:39:36+07:00** - [Activity #5650] chore(ci): adjust GitHub Actions caching for faster test execution
+- **2026-07-12T17:19:01+07:00** - [Activity #5651] chore(deps): update core dependencies to latest stable versions
