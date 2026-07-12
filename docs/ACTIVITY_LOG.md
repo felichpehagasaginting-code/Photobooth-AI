@@ -6399,3 +6399,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-12T16:39:36+07:00** - [Activity #5650] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-07-12T17:19:01+07:00** - [Activity #5651] chore(deps): update core dependencies to latest stable versions
 - **2026-07-12T19:30:26+07:00** - [Activity #5652] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-07-12T20:29:02+07:00** - [Activity #5653] perf(memory): dispose cached image objects after strip generation
