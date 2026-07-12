@@ -12101,3 +12101,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-12T17:26:18+07:00** - [Activity #7474] test(hooks): add test suite for camera stream lifecycle events
 - **2026-07-12T19:30:44+07:00** - [Activity #7475] style(theme): update dark mode accent color tokens with warm tone
 - **2026-07-12T20:12:37+07:00** - [Activity #7476] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-07-12T21:08:59+07:00** - [Activity #7477] docs(deploy): add production deployment instructions for Vercel/Docker
