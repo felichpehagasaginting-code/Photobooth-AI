@@ -12096,3 +12096,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-12T14:56:31+07:00** - [Activity #7469] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-07-12T15:15:09+07:00** - [Activity #7470] style(button): add subtle hover transition and outline focus style
 - **2026-07-12T15:49:21+07:00** - [Activity #7471] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-07-12T16:24:24+07:00** - [Activity #7472] perf(memory): dispose cached image objects after strip generation
