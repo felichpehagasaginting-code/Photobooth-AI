@@ -6392,3 +6392,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-12T09:46:31+07:00** - [Activity #5643] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-07-12T10:52:29+07:00** - [Activity #5644] feat(preset): allow custom framing border selection per session
 - **2026-07-12T11:36:32+07:00** - [Activity #5645] refactor(filter): organize color grading matrices into separate configs
+- **2026-07-12T13:45:07+07:00** - [Activity #5646] feat(print): integrate direct thermal printer web serial interface
