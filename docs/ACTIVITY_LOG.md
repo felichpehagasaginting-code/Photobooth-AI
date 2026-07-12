@@ -6389,3 +6389,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-11T21:25:38+07:00** - [Activity #5640] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-07-11T22:09:39+07:00** - [Activity #5641] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-07-12T09:00:27+07:00** - [Activity #5642] perf(render): memoize grid item rendering to prevent redundant cycles
+- **2026-07-12T09:46:31+07:00** - [Activity #5643] docs(readme): add detailed hardware camera setup and compatibility guide
