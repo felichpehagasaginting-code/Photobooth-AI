@@ -6394,3 +6394,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-12T11:36:32+07:00** - [Activity #5645] refactor(filter): organize color grading matrices into separate configs
 - **2026-07-12T13:45:07+07:00** - [Activity #5646] feat(print): integrate direct thermal printer web serial interface
 - **2026-07-12T14:23:49+07:00** - [Activity #5647] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-07-12T15:04:09+07:00** - [Activity #5648] docs(testing): describe manual verification steps for photobooth kiosk
