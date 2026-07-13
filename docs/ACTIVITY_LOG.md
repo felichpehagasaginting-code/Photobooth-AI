@@ -6410,3 +6410,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-13T10:51:10+07:00** - [Activity #5661] feat(watermark): customizable event logo watermark overlay
 - **2026-07-13T11:09:57+07:00** - [Activity #5662] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-07-13T11:35:09+07:00** - [Activity #5663] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-07-13T11:44:43+07:00** - [Activity #5664] fix(camera): prevent stream freeze on rapid device re-plug
