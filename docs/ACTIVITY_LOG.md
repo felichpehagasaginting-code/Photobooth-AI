@@ -6407,3 +6407,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-13T10:00:12+07:00** - [Activity #5658] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-07-13T10:19:08+07:00** - [Activity #5659] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-07-13T10:29:13+07:00** - [Activity #5660] feat(preset): allow custom framing border selection per session
+- **2026-07-13T10:51:10+07:00** - [Activity #5661] feat(watermark): customizable event logo watermark overlay
