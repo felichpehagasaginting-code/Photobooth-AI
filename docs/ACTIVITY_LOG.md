@@ -6430,3 +6430,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-13T17:45:16+07:00** - [Activity #5681] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-07-13T19:30:18+07:00** - [Activity #5682] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-07-13T19:47:06+07:00** - [Activity #5683] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-07-13T20:19:05+07:00** - [Activity #5684] feat(preview): render live filter preview using WebGL shader canvas
