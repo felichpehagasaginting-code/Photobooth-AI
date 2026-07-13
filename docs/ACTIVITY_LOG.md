@@ -6415,3 +6415,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-13T13:46:47+07:00** - [Activity #5666] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-07-13T14:02:31+07:00** - [Activity #5667] feat(ai): integrate edge background removal model
 - **2026-07-13T14:17:03+07:00** - [Activity #5668] docs(testing): describe manual verification steps for photobooth kiosk
+- **2026-07-13T14:34:25+07:00** - [Activity #5669] fix(qr): adjust QR code contrast ratio for low-light scanning
