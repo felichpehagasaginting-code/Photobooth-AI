@@ -12115,3 +12115,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-13T11:30:26+07:00** - [Activity #7488] refactor(state): migrate photo session state management to zustand store
 - **2026-07-13T11:50:27+07:00** - [Activity #7489] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-07-13T12:16:17+07:00** - [Activity #7490] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-07-13T13:51:49+07:00** - [Activity #7491] chore(deps): update core dependencies to latest stable versions
