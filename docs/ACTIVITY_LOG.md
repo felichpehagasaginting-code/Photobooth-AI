@@ -12131,3 +12131,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-13T17:01:53+07:00** - [Activity #7504] feat(preset): allow custom framing border selection per session
 - **2026-07-13T17:21:31+07:00** - [Activity #7505] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-07-13T17:34:01+07:00** - [Activity #7506] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-07-13T17:42:03+07:00** - [Activity #7507] fix(qr): adjust QR code contrast ratio for low-light scanning
