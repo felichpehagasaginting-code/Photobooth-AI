@@ -12134,3 +12134,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-13T17:42:03+07:00** - [Activity #7507] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-07-13T19:30:24+07:00** - [Activity #7508] chore(deps): update core dependencies to latest stable versions
 - **2026-07-13T19:52:09+07:00** - [Activity #7509] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-07-13T20:15:59+07:00** - [Activity #7510] fix(ui): correct modal z-index layering on small mobile viewports
