@@ -12129,3 +12129,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-13T16:24:30+07:00** - [Activity #7502] style(cards): apply subtle border gradient and elevation shadows
 - **2026-07-13T16:35:19+07:00** - [Activity #7503] style(button): add subtle hover transition and outline focus style
 - **2026-07-13T17:01:53+07:00** - [Activity #7504] feat(preset): allow custom framing border selection per session
+- **2026-07-13T17:21:31+07:00** - [Activity #7505] refactor(styles): migrate hardcoded color values to CSS design tokens
