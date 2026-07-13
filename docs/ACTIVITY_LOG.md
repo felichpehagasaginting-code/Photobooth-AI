@@ -12138,3 +12138,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-13T20:32:15+07:00** - [Activity #7511] perf(memory): dispose cached image objects after strip generation
 - **2026-07-13T20:44:11+07:00** - [Activity #7512] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-07-13T21:04:27+07:00** - [Activity #7513] feat(print): integrate direct thermal printer web serial interface
+- **2026-07-13T21:21:37+07:00** - [Activity #7514] style(theme): update dark mode accent color tokens with warm tone
