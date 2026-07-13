@@ -6405,3 +6405,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-13T09:12:43+07:00** - [Activity #5656] feat(audio): add shutter click and countdown sound effects
 - **2026-07-13T09:30:43+07:00** - [Activity #5657] docs(changelog): update version history and release milestones
 - **2026-07-13T10:00:12+07:00** - [Activity #5658] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-07-13T10:19:08+07:00** - [Activity #5659] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
