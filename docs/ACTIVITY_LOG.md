@@ -12104,3 +12104,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-12T21:08:59+07:00** - [Activity #7477] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-07-12T21:48:11+07:00** - [Activity #7478] fix(api): validate payload schema before processing seed request
 - **2026-07-13T09:01:39+07:00** - [Activity #7479] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-07-13T09:10:26+07:00** - [Activity #7480] fix(download): resolve blob URL memory leak on repeated downloads
