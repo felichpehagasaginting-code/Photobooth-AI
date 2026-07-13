@@ -12125,3 +12125,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-13T15:23:52+07:00** - [Activity #7498] feat(watermark): customizable event logo watermark overlay
 - **2026-07-13T15:45:33+07:00** - [Activity #7499] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-07-13T15:53:41+07:00** - [Activity #7500] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-07-13T16:20:52+07:00** - [Activity #7501] feat(settings): add camera device selector with resolution fallbacks
