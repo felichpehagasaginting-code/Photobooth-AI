@@ -12177,3 +12177,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T20:55:35+07:00** - [Activity #7550] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-07-14T21:14:22+07:00** - [Activity #7551] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-07-14T21:22:00+07:00** - [Activity #7552] fix(download): resolve blob URL memory leak on repeated downloads
+- **2026-07-14T21:54:03+07:00** - [Activity #7553] style(cards): apply subtle border gradient and elevation shadows
