@@ -6474,3 +6474,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T21:12:56+07:00** - [Activity #5725] feat(audio): add shutter click and countdown sound effects
 - **2026-07-14T21:26:43+07:00** - [Activity #5726] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-14T21:44:06+07:00** - [Activity #5727] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-07-14T22:11:57+07:00** - [Activity #5728] perf(state): optimize selector subscriptions to minimize re-renders
