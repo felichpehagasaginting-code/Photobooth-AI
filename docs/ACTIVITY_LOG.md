@@ -6458,3 +6458,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T15:10:28+07:00** - [Activity #5709] style(grid): modernize layout overlap for bento-style elements
 - **2026-07-14T15:27:19+07:00** - [Activity #5710] refactor(api): modularize backend route handlers and validation utils
 - **2026-07-14T15:48:54+07:00** - [Activity #5711] test(hooks): add test suite for camera stream lifecycle events
+- **2026-07-14T15:56:03+07:00** - [Activity #5712] refactor(cleanup): remove deprecated legacy camera capture methods
