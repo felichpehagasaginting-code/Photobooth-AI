@@ -12152,3 +12152,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T11:10:03+07:00** - [Activity #7525] chore(git): add ignore rules for local session exports and temp files
 - **2026-07-14T11:29:41+07:00** - [Activity #7526] feat(stickers): support draggable and resizable decorative stickers
 - **2026-07-14T11:58:54+07:00** - [Activity #7527] style(cards): apply subtle border gradient and elevation shadows
+- **2026-07-14T12:15:28+07:00** - [Activity #7528] fix(camera): prevent stream freeze on rapid device re-plug
