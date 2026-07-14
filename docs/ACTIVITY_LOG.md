@@ -12170,3 +12170,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T17:17:43+07:00** - [Activity #7543] refactor(api): modularize backend route handlers and validation utils
 - **2026-07-14T17:29:54+07:00** - [Activity #7544] chore(deps): update core dependencies to latest stable versions
 - **2026-07-14T17:48:43+07:00** - [Activity #7545] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-07-14T19:30:10+07:00** - [Activity #7546] style(cards): apply subtle border gradient and elevation shadows
