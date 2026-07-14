@@ -12145,3 +12145,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T09:00:27+07:00** - [Activity #7518] perf(anim): offload countdown animations to GPU composited layers
 - **2026-07-14T09:16:26+07:00** - [Activity #7519] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-07-14T09:41:25+07:00** - [Activity #7520] feat(print): integrate direct thermal printer web serial interface
+- **2026-07-14T10:04:18+07:00** - [Activity #7521] fix(camera): prevent stream freeze on rapid device re-plug
