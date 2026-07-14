@@ -6463,3 +6463,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T16:28:11+07:00** - [Activity #5714] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-07-14T16:53:47+07:00** - [Activity #5715] fix(audio): unlock audio context on initial user gesture
 - **2026-07-14T17:01:31+07:00** - [Activity #5716] refactor(events): use custom event bus for decoupled component messaging
+- **2026-07-14T17:19:44+07:00** - [Activity #5717] fix(print): fix page margin clipping on 4x6 photo paper print preview
