@@ -6449,3 +6449,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T11:44:45+07:00** - [Activity #5700] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-07-14T11:55:19+07:00** - [Activity #5701] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-07-14T12:12:25+07:00** - [Activity #5702] docs(changelog): update version history and release milestones
+- **2026-07-14T13:47:40+07:00** - [Activity #5703] docs(arch): add architecture diagram explaining client-side filter flow
