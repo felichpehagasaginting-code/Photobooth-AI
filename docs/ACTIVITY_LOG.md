@@ -12154,3 +12154,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T11:58:54+07:00** - [Activity #7527] style(cards): apply subtle border gradient and elevation shadows
 - **2026-07-14T12:15:28+07:00** - [Activity #7528] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-07-14T13:45:10+07:00** - [Activity #7529] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-07-14T14:03:36+07:00** - [Activity #7530] perf(memory): dispose cached image objects after strip generation
