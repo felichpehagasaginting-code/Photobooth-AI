@@ -12175,3 +12175,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T20:03:30+07:00** - [Activity #7548] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-07-14T20:34:40+07:00** - [Activity #7549] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-07-14T20:55:35+07:00** - [Activity #7550] perf(images): compress intermediate preview thumbnails with WebP format
+- **2026-07-14T21:14:22+07:00** - [Activity #7551] feat(export): support high-resolution PNG and PDF print strip layout
