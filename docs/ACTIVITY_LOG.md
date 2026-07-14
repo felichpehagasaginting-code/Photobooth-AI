@@ -12160,3 +12160,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T14:46:30+07:00** - [Activity #7533] test(utils): add unit tests for image aspect ratio calculator
 - **2026-07-14T14:52:57+07:00** - [Activity #7534] feat(settings): add camera device selector with resolution fallbacks
 - **2026-07-14T15:13:16+07:00** - [Activity #7535] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-07-14T15:29:37+07:00** - [Activity #7536] refactor(camera): extract media stream hook into standalone module
