@@ -12173,3 +12173,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T19:30:10+07:00** - [Activity #7546] style(cards): apply subtle border gradient and elevation shadows
 - **2026-07-14T19:44:37+07:00** - [Activity #7547] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-07-14T20:03:30+07:00** - [Activity #7548] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-07-14T20:34:40+07:00** - [Activity #7549] docs(readme): add detailed hardware camera setup and compatibility guide
