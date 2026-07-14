@@ -12158,3 +12158,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T14:24:12+07:00** - [Activity #7531] docs(changelog): update version history and release milestones
 - **2026-07-14T14:27:14+07:00** - [Activity #7532] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-14T14:46:30+07:00** - [Activity #7533] test(utils): add unit tests for image aspect ratio calculator
+- **2026-07-14T14:52:57+07:00** - [Activity #7534] feat(settings): add camera device selector with resolution fallbacks
