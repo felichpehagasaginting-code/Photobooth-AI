@@ -6478,3 +6478,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T22:26:06+07:00** - [Activity #5729] refactor(events): use custom event bus for decoupled component messaging
 - **2026-07-15T09:00:10+07:00** - [Activity #5730] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-07-15T09:21:57+07:00** - [Activity #5731] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-07-15T09:31:00+07:00** - [Activity #5732] fix(canvas): prevent blur artifacts during canvas downsampling
