@@ -6481,3 +6481,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-15T09:31:00+07:00** - [Activity #5732] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-07-15T09:48:32+07:00** - [Activity #5733] test(utils): add unit tests for image aspect ratio calculator
 - **2026-07-15T10:12:27+07:00** - [Activity #5734] fix(export): handle canvas taint error when loading external assets
+- **2026-07-15T10:15:57+07:00** - [Activity #5735] refactor(events): use custom event bus for decoupled component messaging
