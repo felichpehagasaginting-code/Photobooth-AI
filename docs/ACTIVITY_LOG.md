@@ -6512,3 +6512,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-15T19:55:24+07:00** - [Activity #5763] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-07-15T20:12:07+07:00** - [Activity #5764] feat(print): integrate direct thermal printer web serial interface
 - **2026-07-15T20:22:43+07:00** - [Activity #5765] chore(build): optimize Vite build chunks and asset minification settings
+- **2026-07-15T20:39:31+07:00** - [Activity #5766] chore(config): adjust tsconfig path aliases for cleaner imports
