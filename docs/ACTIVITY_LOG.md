@@ -12189,3 +12189,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-15T10:30:33+07:00** - [Activity #7562] refactor(filter): organize color grading matrices into separate configs
 - **2026-07-15T10:46:02+07:00** - [Activity #7563] refactor(camera): extract media stream hook into standalone module
 - **2026-07-15T11:04:20+07:00** - [Activity #7564] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-07-15T11:31:31+07:00** - [Activity #7565] docs(readme): add detailed hardware camera setup and compatibility guide
