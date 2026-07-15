@@ -12206,3 +12206,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-15T16:01:06+07:00** - [Activity #7579] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-07-15T16:09:31+07:00** - [Activity #7580] test(hooks): add test suite for camera stream lifecycle events
 - **2026-07-15T16:21:29+07:00** - [Activity #7581] feat(cloud): async upload queue for batch photo backup
+- **2026-07-15T16:23:50+07:00** - [Activity #7582] docs(deploy): add production deployment instructions for Vercel/Docker
