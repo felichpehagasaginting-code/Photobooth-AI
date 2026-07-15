@@ -12191,3 +12191,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-15T11:04:20+07:00** - [Activity #7564] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-07-15T11:31:31+07:00** - [Activity #7565] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-07-15T11:35:30+07:00** - [Activity #7566] docs(changelog): update version history and release milestones
+- **2026-07-15T12:00:35+07:00** - [Activity #7567] fix(timer): clear interval on component unmount to prevent memory leak
