@@ -6477,3 +6477,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-14T22:11:57+07:00** - [Activity #5728] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-07-14T22:26:06+07:00** - [Activity #5729] refactor(events): use custom event bus for decoupled component messaging
 - **2026-07-15T09:00:10+07:00** - [Activity #5730] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-07-15T09:21:57+07:00** - [Activity #5731] fix(print): fix page margin clipping on 4x6 photo paper print preview
