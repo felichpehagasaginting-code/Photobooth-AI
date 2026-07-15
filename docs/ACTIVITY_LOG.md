@@ -6514,3 +6514,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-15T20:22:43+07:00** - [Activity #5765] chore(build): optimize Vite build chunks and asset minification settings
 - **2026-07-15T20:39:31+07:00** - [Activity #5766] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-07-15T21:05:01+07:00** - [Activity #5767] feat(preset): allow custom framing border selection per session
+- **2026-07-15T21:15:55+07:00** - [Activity #5768] feat(filter): add cyber-neon and grain texture post-processing overlay
