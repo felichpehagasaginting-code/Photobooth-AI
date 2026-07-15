@@ -6503,3 +6503,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-15T16:09:01+07:00** - [Activity #5754] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-15T16:19:58+07:00** - [Activity #5755] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-07-15T16:40:15+07:00** - [Activity #5756] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-07-15T16:51:59+07:00** - [Activity #5757] fix(camera): prevent stream freeze on rapid device re-plug
