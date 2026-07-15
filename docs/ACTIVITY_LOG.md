@@ -6506,3 +6506,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-15T16:51:59+07:00** - [Activity #5757] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-07-15T16:56:44+07:00** - [Activity #5758] fix(export): handle canvas taint error when loading external assets
 - **2026-07-15T17:10:44+07:00** - [Activity #5759] test(hooks): add test suite for camera stream lifecycle events
+- **2026-07-15T17:32:31+07:00** - [Activity #5760] feat(watermark): customizable event logo watermark overlay
