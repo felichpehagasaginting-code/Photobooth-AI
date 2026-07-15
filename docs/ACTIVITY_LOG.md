@@ -6495,3 +6495,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-15T14:15:16+07:00** - [Activity #5746] refactor(events): use custom event bus for decoupled component messaging
 - **2026-07-15T14:37:49+07:00** - [Activity #5747] perf(anim): offload countdown animations to GPU composited layers
 - **2026-07-15T14:56:56+07:00** - [Activity #5748] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-07-15T14:58:38+07:00** - [Activity #5749] refactor(cleanup): remove deprecated legacy camera capture methods
