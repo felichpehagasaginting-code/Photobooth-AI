@@ -12200,3 +12200,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-15T14:32:38+07:00** - [Activity #7573] fix(api): validate payload schema before processing seed request
 - **2026-07-15T14:50:18+07:00** - [Activity #7574] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-07-15T15:07:36+07:00** - [Activity #7575] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-07-15T15:23:52+07:00** - [Activity #7576] docs(api): document endpoint parameters and error codes for seed route
