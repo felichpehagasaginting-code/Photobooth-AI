@@ -6549,3 +6549,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T16:47:32+07:00** - [Activity #5800] feat(audio): add shutter click and countdown sound effects
 - **2026-07-16T17:10:01+07:00** - [Activity #5801] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-16T17:10:12+07:00** - [Activity #5802] feat(print): integrate direct thermal printer web serial interface
+- **2026-07-16T17:28:19+07:00** - [Activity #5803] perf(memory): dispose cached image objects after strip generation
