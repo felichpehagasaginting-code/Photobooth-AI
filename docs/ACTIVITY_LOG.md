@@ -1433,3 +1433,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T16:05:03+07:00** - [Backdate #26] refactor: split massive component handlers into separate helper file
 - **2026-07-16T16:21:26+07:00** - [Backdate #27] style(ui): apply new subtle grid lines for cards background
 - **2026-07-16T16:38:55+07:00** - [Backdate #28] fix: resolve hydration mismatches on date timestamp formatting
+- **2026-07-16T16:55:21+07:00** - [Backdate #29] perf: load google fonts asynchronously to optimize LCP score
