@@ -12257,3 +12257,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T17:26:56+07:00** - [Activity #7630] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-07-16T17:39:08+07:00** - [Activity #7631] feat(share): generate instant QR code for mobile photo download
 - **2026-07-16T17:46:23+07:00** - [Activity #7632] style(cards): apply subtle border gradient and elevation shadows
+- **2026-07-16T19:35:11+07:00** - [Activity #7633] docs(changelog): update version history and release milestones
