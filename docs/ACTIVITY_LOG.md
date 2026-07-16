@@ -12251,3 +12251,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T15:58:53+07:00** - [Activity #7624] style(theme): update dark mode accent color tokens with warm tone
 - **2026-07-16T16:22:43+07:00** - [Activity #7625] chore(git): add ignore rules for local session exports and temp files
 - **2026-07-16T16:23:32+07:00** - [Activity #7626] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-07-16T16:41:25+07:00** - [Activity #7627] refactor(hooks): create custom useDebounce and useThrottle utilities
