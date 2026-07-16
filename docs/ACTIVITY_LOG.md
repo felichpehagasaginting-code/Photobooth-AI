@@ -6535,3 +6535,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T13:49:13+07:00** - [Activity #5786] style(theme): update dark mode accent color tokens with warm tone
 - **2026-07-16T13:56:57+07:00** - [Activity #5787] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-07-16T14:14:56+07:00** - [Activity #5788] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-16T14:18:18+07:00** - [Activity #5789] chore(lint): configure ESLint rules for react hooks and accessibility
