@@ -6551,3 +6551,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T17:10:12+07:00** - [Activity #5802] feat(print): integrate direct thermal printer web serial interface
 - **2026-07-16T17:28:19+07:00** - [Activity #5803] perf(memory): dispose cached image objects after strip generation
 - **2026-07-16T17:39:58+07:00** - [Activity #5804] chore(git): add ignore rules for local session exports and temp files
+- **2026-07-16T19:36:59+07:00** - [Activity #5805] style(typography): refine letter-spacing and hierarchy for hero heading
