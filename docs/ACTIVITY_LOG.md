@@ -6561,3 +6561,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T21:35:28+07:00** - [Activity #5812] refactor(api): modularize backend route handlers and validation utils
 - **2026-07-16T21:59:52+07:00** - [Activity #5813] style(button): add subtle hover transition and outline focus style
 - **2026-07-16T22:10:44+07:00** - [Activity #5814] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-07-16T22:30:08+07:00** - [Activity #5815] perf(fonts): preload display typography to eliminate FOIT delay
