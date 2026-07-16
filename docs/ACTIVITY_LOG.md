@@ -12224,3 +12224,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-15T21:59:50+07:00** - [Activity #7597] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-07-15T22:13:53+07:00** - [Activity #7598] feat(settings): add camera device selector with resolution fallbacks
 - **2026-07-15T22:34:18+07:00** - [Activity #7599] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-07-16T09:00:53+07:00** - [Activity #7600] style(cards): apply subtle border gradient and elevation shadows
