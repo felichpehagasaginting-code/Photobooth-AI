@@ -12261,3 +12261,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T19:48:56+07:00** - [Activity #7634] docs(api): document endpoint parameters and error codes for seed route
 - **2026-07-16T20:04:07+07:00** - [Activity #7635] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-07-16T20:28:46+07:00** - [Activity #7636] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-16T20:45:34+07:00** - [Activity #7637] refactor(hooks): create custom useDebounce and useThrottle utilities
