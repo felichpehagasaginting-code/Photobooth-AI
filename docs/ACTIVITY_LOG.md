@@ -6560,3 +6560,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T21:09:58+07:00** - [Activity #5811] style(cards): apply subtle border gradient and elevation shadows
 - **2026-07-16T21:35:28+07:00** - [Activity #5812] refactor(api): modularize backend route handlers and validation utils
 - **2026-07-16T21:59:52+07:00** - [Activity #5813] style(button): add subtle hover transition and outline focus style
+- **2026-07-16T22:10:44+07:00** - [Activity #5814] fix(camera): prevent stream freeze on rapid device re-plug
