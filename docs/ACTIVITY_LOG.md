@@ -6544,3 +6544,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T15:36:37+07:00** - [Activity #5795] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-07-16T16:08:56+07:00** - [Activity #5796] refactor(export): optimize collage rendering algorithm for speed
 - **2026-07-16T16:14:55+07:00** - [Activity #5797] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-07-16T16:16:53+07:00** - [Activity #5798] fix(camera): prevent stream freeze on rapid device re-plug
