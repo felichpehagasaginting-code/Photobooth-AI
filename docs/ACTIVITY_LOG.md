@@ -12254,3 +12254,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T16:41:25+07:00** - [Activity #7627] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-07-16T16:54:03+07:00** - [Activity #7628] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-07-16T17:09:32+07:00** - [Activity #7629] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-07-16T17:26:56+07:00** - [Activity #7630] feat(kiosk): add full-screen lock and inactivity reset timer
