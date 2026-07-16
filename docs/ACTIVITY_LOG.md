@@ -6531,3 +6531,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T11:23:44+07:00** - [Activity #5782] chore(deps): update core dependencies to latest stable versions
 - **2026-07-16T11:46:28+07:00** - [Activity #5783] feat(ai): integrate edge background removal model
 - **2026-07-16T11:57:54+07:00** - [Activity #5784] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-07-16T12:15:52+07:00** - [Activity #5785] refactor(filter): organize color grading matrices into separate configs
