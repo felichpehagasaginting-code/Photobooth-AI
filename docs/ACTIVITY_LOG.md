@@ -12265,3 +12265,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T20:55:30+07:00** - [Activity #7638] fix(api): validate payload schema before processing seed request
 - **2026-07-16T21:10:00+07:00** - [Activity #7639] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-07-16T21:33:02+07:00** - [Activity #7640] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-07-16T21:44:15+07:00** - [Activity #7641] docs(readme): add detailed hardware camera setup and compatibility guide
