@@ -6541,3 +6541,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T15:12:06+07:00** - [Activity #5792] docs(changelog): update version history and release milestones
 - **2026-07-16T15:25:48+07:00** - [Activity #5793] refactor(state): migrate photo session state management to zustand store
 - **2026-07-16T15:26:40+07:00** - [Activity #5794] refactor(events): use custom event bus for decoupled component messaging
+- **2026-07-16T15:36:37+07:00** - [Activity #5795] fix(ui): correct modal z-index layering on small mobile viewports
