@@ -6524,3 +6524,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T09:29:51+07:00** - [Activity #5775] test(api): add integration test coverage for photo seed endpoint
 - **2026-07-16T09:46:12+07:00** - [Activity #5776] test(utils): add unit tests for image aspect ratio calculator
 - **2026-07-16T09:59:08+07:00** - [Activity #5777] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-07-16T10:24:12+07:00** - [Activity #5778] perf(api): cache static filter presets with aggressive HTTP headers
