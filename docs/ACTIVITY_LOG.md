@@ -12267,3 +12267,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T21:33:02+07:00** - [Activity #7640] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-07-16T21:44:15+07:00** - [Activity #7641] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-07-16T22:08:47+07:00** - [Activity #7642] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-07-16T22:29:29+07:00** - [Activity #7643] docs(deploy): add production deployment instructions for Vercel/Docker
