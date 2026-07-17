@@ -6579,3 +6579,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T14:24:10+07:00** - [Activity #5830] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-07-17T14:44:02+07:00** - [Activity #5831] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-07-17T15:05:17+07:00** - [Activity #5832] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-17T15:10:00+07:00** - [Activity #5833] refactor(export): optimize collage rendering algorithm for speed
