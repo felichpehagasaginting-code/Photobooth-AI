@@ -6577,3 +6577,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T14:08:55+07:00** - [Activity #5828] docs(api): document endpoint parameters and error codes for seed route
 - **2026-07-17T14:18:01+07:00** - [Activity #5829] refactor(state): migrate photo session state management to zustand store
 - **2026-07-17T14:24:10+07:00** - [Activity #5830] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-07-17T14:44:02+07:00** - [Activity #5831] perf(bundle): implement dynamic lazy loading for heavy filter shaders
