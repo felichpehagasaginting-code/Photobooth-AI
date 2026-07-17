@@ -12282,3 +12282,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T13:45:15+07:00** - [Activity #7655] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-07-17T14:08:16+07:00** - [Activity #7656] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-07-17T14:14:37+07:00** - [Activity #7657] test(utils): add unit tests for image aspect ratio calculator
+- **2026-07-17T14:28:28+07:00** - [Activity #7658] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
