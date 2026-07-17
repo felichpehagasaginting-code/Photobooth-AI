@@ -12284,3 +12284,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T14:14:37+07:00** - [Activity #7657] test(utils): add unit tests for image aspect ratio calculator
 - **2026-07-17T14:28:28+07:00** - [Activity #7658] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-07-17T14:43:40+07:00** - [Activity #7659] fix(api): validate payload schema before processing seed request
+- **2026-07-17T15:02:06+07:00** - [Activity #7660] docs(api): document endpoint parameters and error codes for seed route
