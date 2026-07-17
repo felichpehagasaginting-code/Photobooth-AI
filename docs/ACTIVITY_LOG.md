@@ -12274,3 +12274,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T09:50:40+07:00** - [Activity #7647] style(cards): apply subtle border gradient and elevation shadows
 - **2026-07-17T10:15:26+07:00** - [Activity #7648] feat(share): generate instant QR code for mobile photo download
 - **2026-07-17T10:33:25+07:00** - [Activity #7649] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-07-17T10:55:55+07:00** - [Activity #7650] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
