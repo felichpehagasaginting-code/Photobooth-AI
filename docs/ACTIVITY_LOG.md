@@ -6568,3 +6568,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T09:50:05+07:00** - [Activity #5819] docs(env): document all required environment variables with defaults
 - **2026-07-17T10:19:48+07:00** - [Activity #5820] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-07-17T10:28:11+07:00** - [Activity #5821] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-17T10:49:21+07:00** - [Activity #5822] fix(download): resolve blob URL memory leak on repeated downloads
