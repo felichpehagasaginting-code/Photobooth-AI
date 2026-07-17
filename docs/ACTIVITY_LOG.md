@@ -6591,3 +6591,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T17:34:34+07:00** - [Activity #5842] feat(share): generate instant QR code for mobile photo download
 - **2026-07-17T17:45:17+07:00** - [Activity #5843] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-07-17T19:30:19+07:00** - [Activity #5844] fix(export): handle canvas taint error when loading external assets
+- **2026-07-17T19:56:19+07:00** - [Activity #5845] refactor(utils): streamline color conversion and hex parsing helpers
