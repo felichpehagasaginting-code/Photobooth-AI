@@ -6571,3 +6571,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T10:49:21+07:00** - [Activity #5822] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-17T11:13:54+07:00** - [Activity #5823] docs(env): document all required environment variables with defaults
 - **2026-07-17T11:26:49+07:00** - [Activity #5824] feat(audio): add shutter click and countdown sound effects
+- **2026-07-17T11:48:43+07:00** - [Activity #5825] refactor(events): use custom event bus for decoupled component messaging
