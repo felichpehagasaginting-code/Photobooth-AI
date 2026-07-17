@@ -6582,3 +6582,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T15:10:00+07:00** - [Activity #5833] refactor(export): optimize collage rendering algorithm for speed
 - **2026-07-17T15:20:49+07:00** - [Activity #5834] refactor(i18n): restructure localization strings dictionary
 - **2026-07-17T15:51:39+07:00** - [Activity #5835] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-07-17T16:05:28+07:00** - [Activity #5836] style(badge): update status indicator badge colors and glow effects
