@@ -12301,3 +12301,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T20:04:53+07:00** - [Activity #7674] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-07-17T20:36:01+07:00** - [Activity #7675] fix(export): handle canvas taint error when loading external assets
 - **2026-07-17T20:45:27+07:00** - [Activity #7676] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-07-17T21:14:34+07:00** - [Activity #7677] fix(api): validate payload schema before processing seed request
