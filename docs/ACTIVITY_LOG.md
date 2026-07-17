@@ -1492,3 +1492,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T20:02:57+07:00** - [Backdate #85] chore: add gitignore entry for local scratch outputs
 - **2026-07-17T20:20:59+07:00** - [Backdate #86] refactor: split massive component handlers into separate helper file
 - **2026-07-17T20:37:20+07:00** - [Backdate #87] style(ui): apply new subtle grid lines for cards background
+- **2026-07-17T20:54:25+07:00** - [Backdate #88] fix: resolve hydration mismatches on date timestamp formatting
