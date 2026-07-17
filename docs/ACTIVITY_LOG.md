@@ -6572,3 +6572,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T11:13:54+07:00** - [Activity #5823] docs(env): document all required environment variables with defaults
 - **2026-07-17T11:26:49+07:00** - [Activity #5824] feat(audio): add shutter click and countdown sound effects
 - **2026-07-17T11:48:43+07:00** - [Activity #5825] refactor(events): use custom event bus for decoupled component messaging
+- **2026-07-17T12:09:24+07:00** - [Activity #5826] fix(camera): resolve aspect ratio distortion on ultrawide webcams
