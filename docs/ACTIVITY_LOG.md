@@ -12299,3 +12299,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T19:35:57+07:00** - [Activity #7672] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-07-17T19:44:52+07:00** - [Activity #7673] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-07-17T20:04:53+07:00** - [Activity #7674] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-07-17T20:36:01+07:00** - [Activity #7675] fix(export): handle canvas taint error when loading external assets
