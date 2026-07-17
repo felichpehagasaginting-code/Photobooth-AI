@@ -12287,3 +12287,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T15:02:06+07:00** - [Activity #7660] docs(api): document endpoint parameters and error codes for seed route
 - **2026-07-17T15:20:53+07:00** - [Activity #7661] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-07-17T15:21:47+07:00** - [Activity #7662] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-07-17T15:45:45+07:00** - [Activity #7663] fix(filter): fix gamma correction clipping on high brightness scenes
