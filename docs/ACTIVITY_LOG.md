@@ -12270,3 +12270,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-16T22:29:29+07:00** - [Activity #7643] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-07-17T09:00:14+07:00** - [Activity #7644] refactor(filter): organize color grading matrices into separate configs
 - **2026-07-17T09:25:36+07:00** - [Activity #7645] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-07-17T09:31:54+07:00** - [Activity #7646] fix(ui): correct modal z-index layering on small mobile viewports
