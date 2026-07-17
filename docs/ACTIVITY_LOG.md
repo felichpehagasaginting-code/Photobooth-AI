@@ -12271,3 +12271,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T09:00:14+07:00** - [Activity #7644] refactor(filter): organize color grading matrices into separate configs
 - **2026-07-17T09:25:36+07:00** - [Activity #7645] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-07-17T09:31:54+07:00** - [Activity #7646] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-07-17T09:50:40+07:00** - [Activity #7647] style(cards): apply subtle border gradient and elevation shadows
