@@ -6587,3 +6587,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T16:30:39+07:00** - [Activity #5838] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-07-17T16:37:42+07:00** - [Activity #5839] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-07-17T17:02:06+07:00** - [Activity #5840] style(shutter): design circular pulsating shutter button with feedback
+- **2026-07-17T17:20:06+07:00** - [Activity #5841] feat(settings): add camera device selector with resolution fallbacks
