@@ -6613,3 +6613,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-18T16:01:54+07:00** - [Activity #5864] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-07-18T16:16:33+07:00** - [Activity #5865] style(cards): apply subtle border gradient and elevation shadows
 - **2026-07-18T16:53:49+07:00** - [Activity #5866] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-07-18T17:07:29+07:00** - [Activity #5867] chore(git): add ignore rules for local session exports and temp files
