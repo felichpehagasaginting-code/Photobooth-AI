@@ -6609,3 +6609,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-18T14:13:05+07:00** - [Activity #5860] refactor(camera): extract media stream hook into standalone module
 - **2026-07-18T14:44:19+07:00** - [Activity #5861] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-07-18T14:55:06+07:00** - [Activity #5862] fix(export): handle canvas taint error when loading external assets
+- **2026-07-18T15:26:53+07:00** - [Activity #5863] feat(settings): add camera device selector with resolution fallbacks
