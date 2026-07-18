@@ -6610,3 +6610,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-18T14:44:19+07:00** - [Activity #5861] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-07-18T14:55:06+07:00** - [Activity #5862] fix(export): handle canvas taint error when loading external assets
 - **2026-07-18T15:26:53+07:00** - [Activity #5863] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-18T16:01:54+07:00** - [Activity #5864] feat(preview): render live filter preview using WebGL shader canvas
