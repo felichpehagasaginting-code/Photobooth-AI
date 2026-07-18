@@ -6608,3 +6608,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-18T13:45:37+07:00** - [Activity #5859] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-07-18T14:13:05+07:00** - [Activity #5860] refactor(camera): extract media stream hook into standalone module
 - **2026-07-18T14:44:19+07:00** - [Activity #5861] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-07-18T14:55:06+07:00** - [Activity #5862] fix(export): handle canvas taint error when loading external assets
