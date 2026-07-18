@@ -12309,3 +12309,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-18T09:03:14+07:00** - [Activity #7682] feat(watermark): customizable event logo watermark overlay
 - **2026-07-18T09:41:30+07:00** - [Activity #7683] refactor(filter): organize color grading matrices into separate configs
 - **2026-07-18T10:10:04+07:00** - [Activity #7684] feat(audio): add shutter click and countdown sound effects
+- **2026-07-18T10:50:58+07:00** - [Activity #7685] fix(storage): add fallback for local storage quota exceeded errors
