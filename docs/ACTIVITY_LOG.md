@@ -6618,3 +6618,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-18T19:32:34+07:00** - [Activity #5869] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-07-18T20:05:11+07:00** - [Activity #5870] fix(auth): prevent race condition when initializing anonymous session
 - **2026-07-18T20:47:30+07:00** - [Activity #5871] feat(audio): add shutter click and countdown sound effects
+- **2026-07-18T21:31:17+07:00** - [Activity #5872] fix(export): handle canvas taint error when loading external assets
