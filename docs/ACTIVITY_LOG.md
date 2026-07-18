@@ -6611,3 +6611,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-18T14:55:06+07:00** - [Activity #5862] fix(export): handle canvas taint error when loading external assets
 - **2026-07-18T15:26:53+07:00** - [Activity #5863] feat(settings): add camera device selector with resolution fallbacks
 - **2026-07-18T16:01:54+07:00** - [Activity #5864] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-07-18T16:16:33+07:00** - [Activity #5865] style(cards): apply subtle border gradient and elevation shadows
