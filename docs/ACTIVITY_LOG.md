@@ -6600,3 +6600,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-17T22:02:08+07:00** - [Activity #5851] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-07-17T22:17:39+07:00** - [Activity #5852] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-18T09:02:12+07:00** - [Activity #5853] chore(build): optimize Vite build chunks and asset minification settings
+- **2026-07-18T09:33:01+07:00** - [Activity #5854] fix(accessibility): add missing aria-labels to icon action buttons
