@@ -6619,3 +6619,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-18T20:05:11+07:00** - [Activity #5870] fix(auth): prevent race condition when initializing anonymous session
 - **2026-07-18T20:47:30+07:00** - [Activity #5871] feat(audio): add shutter click and countdown sound effects
 - **2026-07-18T21:31:17+07:00** - [Activity #5872] fix(export): handle canvas taint error when loading external assets
+- **2026-07-18T22:10:40+07:00** - [Activity #5873] fix(camera): prevent stream freeze on rapid device re-plug
