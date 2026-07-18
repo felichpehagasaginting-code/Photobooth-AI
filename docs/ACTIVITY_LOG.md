@@ -12321,3 +12321,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-18T16:50:00+07:00** - [Activity #7694] refactor(state): migrate photo session state management to zustand store
 - **2026-07-18T17:28:13+07:00** - [Activity #7695] feat(preset): allow custom framing border selection per session
 - **2026-07-18T19:30:13+07:00** - [Activity #7696] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-07-18T20:03:25+07:00** - [Activity #7697] docs(api): document endpoint parameters and error codes for seed route
