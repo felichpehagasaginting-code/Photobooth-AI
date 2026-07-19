@@ -6632,3 +6632,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-19T17:13:30+07:00** - [Activity #5883] refactor(ui): extract reusable glass-panel and badge components
 - **2026-07-19T19:32:01+07:00** - [Activity #5884] test(api): add integration test coverage for photo seed endpoint
 - **2026-07-19T20:18:09+07:00** - [Activity #5885] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-07-19T21:00:28+07:00** - [Activity #5886] fix(print): fix page margin clipping on 4x6 photo paper print preview
