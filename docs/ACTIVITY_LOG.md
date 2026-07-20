@@ -6674,3 +6674,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-20T21:02:26+07:00** - [Activity #5925] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-07-20T21:26:54+07:00** - [Activity #5926] docs(api): document endpoint parameters and error codes for seed route
 - **2026-07-20T21:46:37+07:00** - [Activity #5927] refactor(events): use custom event bus for decoupled component messaging
+- **2026-07-20T22:10:41+07:00** - [Activity #5928] feat(camera): add dynamic exposure and focus adjustment controls
