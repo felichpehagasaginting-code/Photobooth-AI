@@ -12353,3 +12353,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-20T13:59:22+07:00** - [Activity #7726] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-07-20T14:19:01+07:00** - [Activity #7727] feat(stickers): support draggable and resizable decorative stickers
 - **2026-07-20T14:36:03+07:00** - [Activity #7728] feat(watermark): customizable event logo watermark overlay
+- **2026-07-20T15:00:30+07:00** - [Activity #7729] docs(deploy): add production deployment instructions for Vercel/Docker
