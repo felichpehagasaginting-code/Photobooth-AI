@@ -6657,3 +6657,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-20T15:10:06+07:00** - [Activity #5908] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-07-20T15:36:49+07:00** - [Activity #5909] test(hooks): add test suite for camera stream lifecycle events
 - **2026-07-20T15:38:25+07:00** - [Activity #5910] refactor(ui): extract reusable glass-panel and badge components
+- **2026-07-20T16:03:32+07:00** - [Activity #5911] fix(print): fix page margin clipping on 4x6 photo paper print preview
