@@ -1625,3 +1625,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-20T19:28:13+07:00** - [Backdate #218] perf: implement dynamic imports for heavy components
 - **2026-07-20T19:46:36+07:00** - [Backdate #219] style: improve font pair weighting contrast in hero display
 - **2026-07-20T20:03:40+07:00** - [Backdate #220] fix: prevent layout shift on image aspect ratio rendering
+- **2026-07-20T20:20:59+07:00** - [Backdate #221] refactor: simplify transaction processing type schema
