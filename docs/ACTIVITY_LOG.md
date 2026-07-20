@@ -6651,3 +6651,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-20T14:04:37+07:00** - [Activity #5902] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-07-20T14:16:06+07:00** - [Activity #5903] feat(print): integrate direct thermal printer web serial interface
 - **2026-07-20T14:19:55+07:00** - [Activity #5904] refactor(ui): extract reusable glass-panel and badge components
+- **2026-07-20T14:44:40+07:00** - [Activity #5905] style(badge): update status indicator badge colors and glow effects
