@@ -12367,3 +12367,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-20T19:30:01+07:00** - [Activity #7740] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-07-20T19:53:54+07:00** - [Activity #7741] docs(env): document all required environment variables with defaults
 - **2026-07-20T20:11:52+07:00** - [Activity #7742] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-07-20T20:42:09+07:00** - [Activity #7743] test(canvas): add snapshot tests for multi-frame collage layouts
