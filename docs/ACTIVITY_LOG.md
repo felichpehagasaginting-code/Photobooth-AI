@@ -12370,3 +12370,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-20T20:42:09+07:00** - [Activity #7743] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-07-20T21:14:20+07:00** - [Activity #7744] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-07-20T21:28:22+07:00** - [Activity #7745] perf(images): compress intermediate preview thumbnails with WebP format
+- **2026-07-20T22:02:44+07:00** - [Activity #7746] fix(download): resolve blob URL memory leak on repeated downloads
