@@ -6672,3 +6672,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-20T20:24:33+07:00** - [Activity #5923] feat(cloud): async upload queue for batch photo backup
 - **2026-07-20T20:40:40+07:00** - [Activity #5924] chore(deps): update core dependencies to latest stable versions
 - **2026-07-20T21:02:26+07:00** - [Activity #5925] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-07-20T21:26:54+07:00** - [Activity #5926] docs(api): document endpoint parameters and error codes for seed route
