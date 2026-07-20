@@ -12344,3 +12344,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-20T09:43:49+07:00** - [Activity #7717] refactor(ui): extract reusable glass-panel and badge components
 - **2026-07-20T10:00:32+07:00** - [Activity #7718] test(utils): add unit tests for image aspect ratio calculator
 - **2026-07-20T10:27:22+07:00** - [Activity #7719] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-07-20T10:39:01+07:00** - [Activity #7720] refactor(hooks): create custom useDebounce and useThrottle utilities
