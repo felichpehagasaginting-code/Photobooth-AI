@@ -6636,3 +6636,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-19T21:56:36+07:00** - [Activity #5887] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-07-20T09:00:26+07:00** - [Activity #5888] fix(firebase): handle network timeout retry in transaction hook
 - **2026-07-20T09:13:27+07:00** - [Activity #5889] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-07-20T09:30:16+07:00** - [Activity #5890] fix(export): handle canvas taint error when loading external assets
