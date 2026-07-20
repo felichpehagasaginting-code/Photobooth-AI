@@ -12341,3 +12341,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-19T22:03:40+07:00** - [Activity #7714] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-07-20T09:06:25+07:00** - [Activity #7715] chore(deps): update core dependencies to latest stable versions
 - **2026-07-20T09:21:35+07:00** - [Activity #7716] perf(memory): dispose cached image objects after strip generation
+- **2026-07-20T09:43:49+07:00** - [Activity #7717] refactor(ui): extract reusable glass-panel and badge components
