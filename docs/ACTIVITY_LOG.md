@@ -6706,3 +6706,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T19:59:42+07:00** - [Activity #5957] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-07-21T20:12:49+07:00** - [Activity #5958] fix(state): sync active photo index when reopening gallery drawer
 - **2026-07-21T20:28:37+07:00** - [Activity #5959] refactor(camera): extract media stream hook into standalone module
+- **2026-07-21T20:51:57+07:00** - [Activity #5960] fix(storage): add fallback for local storage quota exceeded errors
