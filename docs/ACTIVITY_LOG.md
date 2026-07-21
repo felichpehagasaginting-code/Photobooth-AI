@@ -6677,3 +6677,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-20T22:10:41+07:00** - [Activity #5928] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-07-20T22:18:03+07:00** - [Activity #5929] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-07-21T09:01:58+07:00** - [Activity #5930] feat(cloud): async upload queue for batch photo backup
+- **2026-07-21T09:21:03+07:00** - [Activity #5931] fix(canvas): prevent blur artifacts during canvas downsampling
