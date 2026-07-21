@@ -12372,3 +12372,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-20T21:28:22+07:00** - [Activity #7745] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-07-20T22:02:44+07:00** - [Activity #7746] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-20T22:28:10+07:00** - [Activity #7747] docs(changelog): update version history and release milestones
+- **2026-07-21T09:00:31+07:00** - [Activity #7748] fix(qr): adjust QR code contrast ratio for low-light scanning
