@@ -12399,3 +12399,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T17:08:58+07:00** - [Activity #7772] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-07-21T17:34:25+07:00** - [Activity #7773] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-07-21T17:42:31+07:00** - [Activity #7774] chore(deps): update core dependencies to latest stable versions
+- **2026-07-21T19:30:01+07:00** - [Activity #7775] docs(arch): add architecture diagram explaining client-side filter flow
