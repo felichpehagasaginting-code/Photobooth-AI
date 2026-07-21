@@ -12396,3 +12396,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T16:26:01+07:00** - [Activity #7769] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-07-21T16:48:44+07:00** - [Activity #7770] style(theme): update dark mode accent color tokens with warm tone
 - **2026-07-21T16:58:18+07:00** - [Activity #7771] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-07-21T17:08:58+07:00** - [Activity #7772] fix(timer): clear interval on component unmount to prevent memory leak
