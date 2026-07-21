@@ -6697,3 +6697,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T15:55:17+07:00** - [Activity #5948] chore(build): optimize Vite build chunks and asset minification settings
 - **2026-07-21T16:11:28+07:00** - [Activity #5949] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-07-21T16:30:59+07:00** - [Activity #5950] chore(deps): update core dependencies to latest stable versions
+- **2026-07-21T16:31:06+07:00** - [Activity #5951] feat(settings): add camera device selector with resolution fallbacks
