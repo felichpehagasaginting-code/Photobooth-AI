@@ -6710,3 +6710,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T21:12:18+07:00** - [Activity #5961] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-07-21T21:39:26+07:00** - [Activity #5962] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-07-21T21:54:55+07:00** - [Activity #5963] test(hooks): add test suite for camera stream lifecycle events
+- **2026-07-21T22:30:48+07:00** - [Activity #5964] docs(readme): add detailed hardware camera setup and compatibility guide
