@@ -6688,3 +6688,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T12:06:07+07:00** - [Activity #5939] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-07-21T13:45:27+07:00** - [Activity #5940] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-07-21T14:07:30+07:00** - [Activity #5941] style(theme): update dark mode accent color tokens with warm tone
+- **2026-07-21T14:13:38+07:00** - [Activity #5942] feat(preset): allow custom framing border selection per session
