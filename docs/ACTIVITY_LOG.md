@@ -6704,3 +6704,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T17:40:31+07:00** - [Activity #5955] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-07-21T19:30:18+07:00** - [Activity #5956] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-07-21T19:59:42+07:00** - [Activity #5957] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-07-21T20:12:49+07:00** - [Activity #5958] fix(state): sync active photo index when reopening gallery drawer
