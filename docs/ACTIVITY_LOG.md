@@ -12379,3 +12379,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T10:11:50+07:00** - [Activity #7752] refactor(state): migrate photo session state management to zustand store
 - **2026-07-21T10:40:08+07:00** - [Activity #7753] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-07-21T10:56:41+07:00** - [Activity #7754] feat(cloud): async upload queue for batch photo backup
+- **2026-07-21T11:12:13+07:00** - [Activity #7755] refactor(hooks): create custom useDebounce and useThrottle utilities
