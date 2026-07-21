@@ -12390,3 +12390,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T14:45:24+07:00** - [Activity #7763] refactor(filter): organize color grading matrices into separate configs
 - **2026-07-21T14:58:59+07:00** - [Activity #7764] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-07-21T15:20:44+07:00** - [Activity #7765] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-07-21T15:39:52+07:00** - [Activity #7766] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
