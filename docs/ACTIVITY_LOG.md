@@ -6681,3 +6681,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T09:43:46+07:00** - [Activity #5932] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-07-21T10:05:31+07:00** - [Activity #5933] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-07-21T10:17:25+07:00** - [Activity #5934] refactor(filter): organize color grading matrices into separate configs
+- **2026-07-21T10:41:33+07:00** - [Activity #5935] perf(fonts): preload display typography to eliminate FOIT delay
