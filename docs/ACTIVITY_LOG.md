@@ -6684,3 +6684,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T10:41:33+07:00** - [Activity #5935] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-07-21T11:07:15+07:00** - [Activity #5936] chore(deps): update core dependencies to latest stable versions
 - **2026-07-21T11:29:25+07:00** - [Activity #5937] docs(comments): add inline JSDoc comments to image processing helpers
+- **2026-07-21T11:49:38+07:00** - [Activity #5938] perf(images): compress intermediate preview thumbnails with WebP format
