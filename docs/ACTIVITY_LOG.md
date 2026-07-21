@@ -12387,3 +12387,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T14:06:31+07:00** - [Activity #7760] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-07-21T14:26:00+07:00** - [Activity #7761] docs(env): document all required environment variables with defaults
 - **2026-07-21T14:38:40+07:00** - [Activity #7762] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-07-21T14:45:24+07:00** - [Activity #7763] refactor(filter): organize color grading matrices into separate configs
