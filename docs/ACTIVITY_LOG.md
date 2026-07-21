@@ -6699,3 +6699,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T16:30:59+07:00** - [Activity #5950] chore(deps): update core dependencies to latest stable versions
 - **2026-07-21T16:31:06+07:00** - [Activity #5951] feat(settings): add camera device selector with resolution fallbacks
 - **2026-07-21T17:00:29+07:00** - [Activity #5952] style(grid): modernize layout overlap for bento-style elements
+- **2026-07-21T17:15:46+07:00** - [Activity #5953] feat(export): support high-resolution PNG and PDF print strip layout
