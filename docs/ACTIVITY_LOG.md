@@ -12374,3 +12374,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-20T22:28:10+07:00** - [Activity #7747] docs(changelog): update version history and release milestones
 - **2026-07-21T09:00:31+07:00** - [Activity #7748] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-07-21T09:25:47+07:00** - [Activity #7749] docs(env): document all required environment variables with defaults
+- **2026-07-21T09:38:01+07:00** - [Activity #7750] docs(deploy): add production deployment instructions for Vercel/Docker
