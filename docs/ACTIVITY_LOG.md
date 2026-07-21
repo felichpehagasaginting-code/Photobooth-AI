@@ -12405,3 +12405,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T20:41:56+07:00** - [Activity #7778] feat(watermark): customizable event logo watermark overlay
 - **2026-07-21T21:04:01+07:00** - [Activity #7779] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-07-21T21:16:37+07:00** - [Activity #7780] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-07-21T21:41:13+07:00** - [Activity #7781] refactor(state): migrate photo session state management to zustand store
