@@ -12385,3 +12385,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T12:12:41+07:00** - [Activity #7758] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-07-21T13:45:18+07:00** - [Activity #7759] feat(audio): add shutter click and countdown sound effects
 - **2026-07-21T14:06:31+07:00** - [Activity #7760] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-07-21T14:26:00+07:00** - [Activity #7761] docs(env): document all required environment variables with defaults
