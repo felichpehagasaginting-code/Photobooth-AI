@@ -6686,3 +6686,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T11:29:25+07:00** - [Activity #5937] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-07-21T11:49:38+07:00** - [Activity #5938] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-07-21T12:06:07+07:00** - [Activity #5939] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-07-21T13:45:27+07:00** - [Activity #5940] fix(accessibility): add missing aria-labels to icon action buttons
