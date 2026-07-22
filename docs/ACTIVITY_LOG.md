@@ -6734,3 +6734,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T15:30:11+07:00** - [Activity #5985] style(button): add subtle hover transition and outline focus style
 - **2026-07-22T15:43:02+07:00** - [Activity #5986] refactor(events): use custom event bus for decoupled component messaging
 - **2026-07-22T15:57:14+07:00** - [Activity #5987] perf(state): optimize selector subscriptions to minimize re-renders
+- **2026-07-22T16:11:12+07:00** - [Activity #5988] fix(filter): fix gamma correction clipping on high brightness scenes
