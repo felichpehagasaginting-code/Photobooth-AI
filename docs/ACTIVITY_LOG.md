@@ -12419,3 +12419,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T11:32:38+07:00** - [Activity #7792] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-07-22T11:55:03+07:00** - [Activity #7793] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-07-22T12:17:13+07:00** - [Activity #7794] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-07-22T13:51:35+07:00** - [Activity #7795] refactor(ui): extract reusable glass-panel and badge components
