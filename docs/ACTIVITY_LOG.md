@@ -12415,3 +12415,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T10:08:24+07:00** - [Activity #7788] style(cards): apply subtle border gradient and elevation shadows
 - **2026-07-22T10:34:00+07:00** - [Activity #7789] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-07-22T10:59:53+07:00** - [Activity #7790] test(utils): add unit tests for image aspect ratio calculator
+- **2026-07-22T11:15:59+07:00** - [Activity #7791] fix(print): fix page margin clipping on 4x6 photo paper print preview
