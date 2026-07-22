@@ -12422,3 +12422,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T13:51:35+07:00** - [Activity #7795] refactor(ui): extract reusable glass-panel and badge components
 - **2026-07-22T14:05:10+07:00** - [Activity #7796] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-07-22T14:09:28+07:00** - [Activity #7797] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-07-22T14:21:41+07:00** - [Activity #7798] feat(preset): allow custom framing border selection per session
