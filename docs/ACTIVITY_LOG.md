@@ -6726,3 +6726,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T13:45:14+07:00** - [Activity #5977] style(shutter): design circular pulsating shutter button with feedback
 - **2026-07-22T14:02:21+07:00** - [Activity #5978] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-07-22T14:19:52+07:00** - [Activity #5979] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-07-22T14:20:01+07:00** - [Activity #5980] fix(state): sync active photo index when reopening gallery drawer
