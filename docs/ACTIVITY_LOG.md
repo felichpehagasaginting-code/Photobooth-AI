@@ -6743,3 +6743,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T17:51:20+07:00** - [Activity #5994] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-07-22T19:35:07+07:00** - [Activity #5995] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-07-22T19:54:58+07:00** - [Activity #5996] refactor(types): consolidate photobooth session type definitions
+- **2026-07-22T20:06:05+07:00** - [Activity #5997] chore(git): add ignore rules for local session exports and temp files
