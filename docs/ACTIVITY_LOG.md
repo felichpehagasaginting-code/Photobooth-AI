@@ -12434,3 +12434,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T16:43:39+07:00** - [Activity #7807] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-07-22T17:06:15+07:00** - [Activity #7808] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-07-22T17:19:58+07:00** - [Activity #7809] perf(memory): dispose cached image objects after strip generation
+- **2026-07-22T17:33:17+07:00** - [Activity #7810] fix(state): sync active photo index when reopening gallery drawer
