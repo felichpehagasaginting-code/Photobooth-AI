@@ -12425,3 +12425,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T14:21:41+07:00** - [Activity #7798] feat(preset): allow custom framing border selection per session
 - **2026-07-22T14:43:55+07:00** - [Activity #7799] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-07-22T15:09:36+07:00** - [Activity #7800] fix(state): sync active photo index when reopening gallery drawer
+- **2026-07-22T15:09:46+07:00** - [Activity #7801] docs(env): document all required environment variables with defaults
