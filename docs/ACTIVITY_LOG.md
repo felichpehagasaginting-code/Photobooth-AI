@@ -12432,3 +12432,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T16:13:44+07:00** - [Activity #7805] test(hooks): add test suite for camera stream lifecycle events
 - **2026-07-22T16:22:10+07:00** - [Activity #7806] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-07-22T16:43:39+07:00** - [Activity #7807] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-07-22T17:06:15+07:00** - [Activity #7808] refactor(canvas): simplify image compositing pipeline architecture
