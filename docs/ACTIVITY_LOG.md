@@ -6739,3 +6739,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T16:52:29+07:00** - [Activity #5990] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-07-22T17:05:28+07:00** - [Activity #5991] refactor(camera): extract media stream hook into standalone module
 - **2026-07-22T17:23:06+07:00** - [Activity #5992] perf(api): cache static filter presets with aggressive HTTP headers
+- **2026-07-22T17:25:58+07:00** - [Activity #5993] docs(readme): add detailed hardware camera setup and compatibility guide
