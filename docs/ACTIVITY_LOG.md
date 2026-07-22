@@ -6740,3 +6740,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T17:05:28+07:00** - [Activity #5991] refactor(camera): extract media stream hook into standalone module
 - **2026-07-22T17:23:06+07:00** - [Activity #5992] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-07-22T17:25:58+07:00** - [Activity #5993] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-07-22T17:51:20+07:00** - [Activity #5994] fix(camera): prevent stream freeze on rapid device re-plug
