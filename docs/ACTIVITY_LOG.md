@@ -6720,3 +6720,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T10:41:49+07:00** - [Activity #5971] docs(changelog): update version history and release milestones
 - **2026-07-22T10:58:25+07:00** - [Activity #5972] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-07-22T11:13:10+07:00** - [Activity #5973] style(cards): apply subtle border gradient and elevation shadows
+- **2026-07-22T11:44:09+07:00** - [Activity #5974] feat(kiosk): add full-screen lock and inactivity reset timer
