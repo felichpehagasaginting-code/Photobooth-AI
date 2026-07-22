@@ -1717,3 +1717,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T20:03:18+07:00** - [Backdate #310] perf(ui): memoize download handler callback in RemoteDownloadView
 - **2026-07-22T20:20:26+07:00** - [Backdate #311] chore: clean up console statements in download screen
 - **2026-07-22T20:37:00+07:00** - [Backdate #312] refactor: group interface type declarations in types/index.ts
+- **2026-07-22T20:53:07+07:00** - [Backdate #313] style: adjust border radius for card panels to match premium look
