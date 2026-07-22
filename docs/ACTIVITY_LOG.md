@@ -12408,3 +12408,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-21T21:41:13+07:00** - [Activity #7781] refactor(state): migrate photo session state management to zustand store
 - **2026-07-21T22:02:14+07:00** - [Activity #7782] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-07-21T22:22:01+07:00** - [Activity #7783] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-07-22T09:00:52+07:00** - [Activity #7784] chore(git): add ignore rules for local session exports and temp files
