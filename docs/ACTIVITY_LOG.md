@@ -6748,3 +6748,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T20:50:59+07:00** - [Activity #5999] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-07-22T21:06:18+07:00** - [Activity #6000] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-07-22T21:34:57+07:00** - [Activity #6001] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-07-22T21:48:49+07:00** - [Activity #6002] fix(camera): prevent stream freeze on rapid device re-plug
