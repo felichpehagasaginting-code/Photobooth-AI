@@ -6736,3 +6736,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T15:57:14+07:00** - [Activity #5987] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-07-22T16:11:12+07:00** - [Activity #5988] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-07-22T16:29:12+07:00** - [Activity #5989] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-07-22T16:52:29+07:00** - [Activity #5990] feat(gallery): add touch swipe navigation for captured photo previews
