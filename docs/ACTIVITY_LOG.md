@@ -12444,3 +12444,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T21:00:44+07:00** - [Activity #7817] refactor(types): consolidate photobooth session type definitions
 - **2026-07-22T21:25:59+07:00** - [Activity #7818] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-07-22T21:50:05+07:00** - [Activity #7819] fix(state): sync active photo index when reopening gallery drawer
+- **2026-07-22T22:06:20+07:00** - [Activity #7820] feat(audio): add shutter click and countdown sound effects
