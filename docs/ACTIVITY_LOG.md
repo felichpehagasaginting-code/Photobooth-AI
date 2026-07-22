@@ -6728,3 +6728,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T14:19:52+07:00** - [Activity #5979] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-07-22T14:20:01+07:00** - [Activity #5980] fix(state): sync active photo index when reopening gallery drawer
 - **2026-07-22T14:47:44+07:00** - [Activity #5981] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-07-22T15:00:46+07:00** - [Activity #5982] style(button): add subtle hover transition and outline focus style
