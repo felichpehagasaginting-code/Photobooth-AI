@@ -12427,3 +12427,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T15:09:36+07:00** - [Activity #7800] fix(state): sync active photo index when reopening gallery drawer
 - **2026-07-22T15:09:46+07:00** - [Activity #7801] docs(env): document all required environment variables with defaults
 - **2026-07-22T15:34:48+07:00** - [Activity #7802] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-07-22T15:35:24+07:00** - [Activity #7803] fix(camera): resolve aspect ratio distortion on ultrawide webcams
