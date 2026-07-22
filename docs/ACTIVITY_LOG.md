@@ -6723,3 +6723,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T11:44:09+07:00** - [Activity #5974] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-07-22T11:52:04+07:00** - [Activity #5975] fix(api): validate payload schema before processing seed request
 - **2026-07-22T12:08:26+07:00** - [Activity #5976] feat(print): integrate direct thermal printer web serial interface
+- **2026-07-22T13:45:14+07:00** - [Activity #5977] style(shutter): design circular pulsating shutter button with feedback
