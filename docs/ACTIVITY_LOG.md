@@ -12436,3 +12436,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T17:19:58+07:00** - [Activity #7809] perf(memory): dispose cached image objects after strip generation
 - **2026-07-22T17:33:17+07:00** - [Activity #7810] fix(state): sync active photo index when reopening gallery drawer
 - **2026-07-22T17:48:52+07:00** - [Activity #7811] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-07-22T19:30:39+07:00** - [Activity #7812] feat(camera): add dynamic exposure and focus adjustment controls
