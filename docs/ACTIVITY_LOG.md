@@ -6774,3 +6774,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T15:09:10+07:00** - [Activity #6025] refactor(ui): extract reusable glass-panel and badge components
 - **2026-07-23T15:10:10+07:00** - [Activity #6026] feat(analytics): log anonymous capture session completion metrics
 - **2026-07-23T15:31:51+07:00** - [Activity #6027] refactor(services): separate cloud storage adapter from UI layer
+- **2026-07-23T15:31:57+07:00** - [Activity #6028] fix(export): handle canvas taint error when loading external assets
