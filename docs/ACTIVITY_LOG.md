@@ -6754,3 +6754,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T09:02:50+07:00** - [Activity #6005] test(api): add integration test coverage for photo seed endpoint
 - **2026-07-23T09:21:04+07:00** - [Activity #6006] feat(watermark): customizable event logo watermark overlay
 - **2026-07-23T09:37:07+07:00** - [Activity #6007] perf(api): cache static filter presets with aggressive HTTP headers
+- **2026-07-23T09:49:53+07:00** - [Activity #6008] docs(readme): add detailed hardware camera setup and compatibility guide
