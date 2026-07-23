@@ -12446,3 +12446,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-22T21:50:05+07:00** - [Activity #7819] fix(state): sync active photo index when reopening gallery drawer
 - **2026-07-22T22:06:20+07:00** - [Activity #7820] feat(audio): add shutter click and countdown sound effects
 - **2026-07-22T22:22:51+07:00** - [Activity #7821] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-07-23T09:03:06+07:00** - [Activity #7822] fix(filter): fix gamma correction clipping on high brightness scenes
