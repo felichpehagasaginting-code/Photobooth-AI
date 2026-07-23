@@ -12465,3 +12465,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T14:22:11+07:00** - [Activity #7838] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-07-23T14:33:22+07:00** - [Activity #7839] feat(ai): integrate edge background removal model
 - **2026-07-23T15:01:42+07:00** - [Activity #7840] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-07-23T15:11:33+07:00** - [Activity #7841] fix(accessibility): add missing aria-labels to icon action buttons
