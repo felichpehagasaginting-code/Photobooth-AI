@@ -12478,3 +12478,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T17:22:54+07:00** - [Activity #7851] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-07-23T17:31:49+07:00** - [Activity #7852] refactor(camera): extract media stream hook into standalone module
 - **2026-07-23T17:55:50+07:00** - [Activity #7853] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-07-23T19:36:22+07:00** - [Activity #7854] feat(watermark): customizable event logo watermark overlay
