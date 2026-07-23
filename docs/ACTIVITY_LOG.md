@@ -6769,3 +6769,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T13:51:40+07:00** - [Activity #6020] refactor(camera): extract media stream hook into standalone module
 - **2026-07-23T14:01:38+07:00** - [Activity #6021] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-07-23T14:26:31+07:00** - [Activity #6022] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-07-23T14:35:52+07:00** - [Activity #6023] refactor(hooks): create custom useDebounce and useThrottle utilities
