@@ -6793,3 +6793,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T21:04:42+07:00** - [Activity #6044] feat(settings): add camera device selector with resolution fallbacks
 - **2026-07-23T21:08:06+07:00** - [Activity #6045] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-07-23T21:28:32+07:00** - [Activity #6046] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-07-23T21:48:38+07:00** - [Activity #6047] refactor(events): use custom event bus for decoupled component messaging
