@@ -6786,3 +6786,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T17:31:57+07:00** - [Activity #6037] fix(export): handle canvas taint error when loading external assets
 - **2026-07-23T17:41:13+07:00** - [Activity #6038] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-07-23T19:34:44+07:00** - [Activity #6039] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-07-23T19:44:30+07:00** - [Activity #6040] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
