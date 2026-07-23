@@ -1761,3 +1761,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T19:45:57+07:00** - [Backdate #354] style(theme): update dark mode accent color token
 - **2026-07-23T20:03:20+07:00** - [Backdate #355] refactor(hooks): abstract custom window size listener
 - **2026-07-23T20:20:39+07:00** - [Backdate #356] docs(readme): add troubleshooting section for local dev server
+- **2026-07-23T20:36:01+07:00** - [Backdate #357] chore(config): adjust tsconfig path aliases for components
