@@ -6757,3 +6757,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T09:49:53+07:00** - [Activity #6008] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-07-23T09:53:58+07:00** - [Activity #6009] test(api): add integration test coverage for photo seed endpoint
 - **2026-07-23T10:14:57+07:00** - [Activity #6010] docs(deploy): add production deployment instructions for Vercel/Docker
+- **2026-07-23T10:30:03+07:00** - [Activity #6011] chore(config): adjust tsconfig path aliases for cleaner imports
