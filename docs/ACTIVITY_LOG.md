@@ -12487,3 +12487,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T21:21:12+07:00** - [Activity #7860] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-07-23T21:50:10+07:00** - [Activity #7861] refactor(ui): extract reusable glass-panel and badge components
 - **2026-07-23T22:01:40+07:00** - [Activity #7862] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-23T22:22:41+07:00** - [Activity #7863] fix(api): validate payload schema before processing seed request
