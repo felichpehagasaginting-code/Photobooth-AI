@@ -12484,3 +12484,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T20:32:35+07:00** - [Activity #7857] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-07-23T20:43:27+07:00** - [Activity #7858] feat(stickers): support draggable and resizable decorative stickers
 - **2026-07-23T21:02:16+07:00** - [Activity #7859] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-07-23T21:21:12+07:00** - [Activity #7860] chore(lint): configure ESLint rules for react hooks and accessibility
