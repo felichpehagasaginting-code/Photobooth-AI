@@ -12456,3 +12456,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T10:51:32+07:00** - [Activity #7829] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-07-23T11:03:57+07:00** - [Activity #7830] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-07-23T11:28:37+07:00** - [Activity #7831] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-07-23T11:42:33+07:00** - [Activity #7832] perf(memory): dispose cached image objects after strip generation
