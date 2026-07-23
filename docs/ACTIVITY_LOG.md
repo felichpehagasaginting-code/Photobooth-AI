@@ -6778,3 +6778,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T15:49:19+07:00** - [Activity #6029] refactor(state): migrate photo session state management to zustand store
 - **2026-07-23T16:10:21+07:00** - [Activity #6030] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-07-23T16:22:52+07:00** - [Activity #6031] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-07-23T16:27:05+07:00** - [Activity #6032] fix(audio): unlock audio context on initial user gesture
