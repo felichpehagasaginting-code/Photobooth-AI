@@ -12457,3 +12457,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T11:03:57+07:00** - [Activity #7830] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-07-23T11:28:37+07:00** - [Activity #7831] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-07-23T11:42:33+07:00** - [Activity #7832] perf(memory): dispose cached image objects after strip generation
+- **2026-07-23T12:04:18+07:00** - [Activity #7833] feat(export): support high-resolution PNG and PDF print strip layout
