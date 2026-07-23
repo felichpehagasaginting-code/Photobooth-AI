@@ -12475,3 +12475,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T16:44:05+07:00** - [Activity #7848] fix(firebase): handle network timeout retry in transaction hook
 - **2026-07-23T16:58:18+07:00** - [Activity #7849] refactor(ui): extract reusable glass-panel and badge components
 - **2026-07-23T17:05:36+07:00** - [Activity #7850] feat(analytics): log anonymous capture session completion metrics
+- **2026-07-23T17:22:54+07:00** - [Activity #7851] feat(camera): add dynamic exposure and focus adjustment controls
