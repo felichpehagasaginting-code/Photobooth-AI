@@ -12461,3 +12461,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T12:13:56+07:00** - [Activity #7834] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-07-23T13:47:08+07:00** - [Activity #7835] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-07-23T13:57:19+07:00** - [Activity #7836] refactor(ui): extract reusable glass-panel and badge components
+- **2026-07-23T14:15:29+07:00** - [Activity #7837] fix(timer): clear interval on component unmount to prevent memory leak
