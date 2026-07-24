@@ -6824,3 +6824,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T20:53:55+07:00** - [Activity #6075] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-07-24T21:25:29+07:00** - [Activity #6076] fix(export): handle canvas taint error when loading external assets
 - **2026-07-24T21:56:40+07:00** - [Activity #6077] feat(analytics): log anonymous capture session completion metrics
+- **2026-07-24T22:09:05+07:00** - [Activity #6078] perf(images): compress intermediate preview thumbnails with WebP format
