@@ -12492,3 +12492,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T09:15:17+07:00** - [Activity #7865] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-07-24T09:32:12+07:00** - [Activity #7866] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-07-24T09:53:08+07:00** - [Activity #7867] feat(watermark): customizable event logo watermark overlay
+- **2026-07-24T10:08:02+07:00** - [Activity #7868] fix(accessibility): add missing aria-labels to icon action buttons
