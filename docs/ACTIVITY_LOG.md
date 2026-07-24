@@ -12498,3 +12498,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T11:08:35+07:00** - [Activity #7871] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-07-24T11:34:12+07:00** - [Activity #7872] docs(changelog): update version history and release milestones
 - **2026-07-24T11:47:45+07:00** - [Activity #7873] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-07-24T12:11:45+07:00** - [Activity #7874] docs(arch): add architecture diagram explaining client-side filter flow
