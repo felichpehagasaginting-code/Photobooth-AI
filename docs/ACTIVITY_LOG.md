@@ -1804,3 +1804,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T19:11:49+07:00** - [Backdate #397] fix: update responsive padding values for mobile screens
 - **2026-07-24T19:28:07+07:00** - [Backdate #398] perf: implement dynamic imports for heavy components
 - **2026-07-24T19:45:36+07:00** - [Backdate #399] style: improve font pair weighting contrast in hero display
+- **2026-07-24T20:02:45+07:00** - [Backdate #400] fix: prevent layout shift on image aspect ratio rendering
