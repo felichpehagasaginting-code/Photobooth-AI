@@ -1796,3 +1796,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T16:56:24+07:00** - [Backdate #389] perf: load google fonts asynchronously to optimize LCP score
 - **2026-07-24T17:13:48+07:00** - [Backdate #390] refactor: simplify layout alignment for remote download views
 - **2026-07-24T17:29:36+07:00** - [Backdate #391] style: update button transitions for click states
+- **2026-07-24T17:46:51+07:00** - [Backdate #392] fix: handle edge case with missing env variables gracefully
