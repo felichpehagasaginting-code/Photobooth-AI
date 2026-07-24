@@ -12504,3 +12504,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T14:08:26+07:00** - [Activity #7877] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-07-24T14:28:35+07:00** - [Activity #7878] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-07-24T14:51:49+07:00** - [Activity #7879] feat(share): generate instant QR code for mobile photo download
+- **2026-07-24T15:12:29+07:00** - [Activity #7880] fix(accessibility): add missing aria-labels to icon action buttons
