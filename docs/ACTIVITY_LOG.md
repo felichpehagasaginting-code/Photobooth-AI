@@ -6806,3 +6806,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T11:40:52+07:00** - [Activity #6057] docs(api): document endpoint parameters and error codes for seed route
 - **2026-07-24T12:02:27+07:00** - [Activity #6058] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-07-24T13:45:53+07:00** - [Activity #6059] refactor(state): migrate photo session state management to zustand store
+- **2026-07-24T13:57:08+07:00** - [Activity #6060] feat(photobooth): implement multi-frame collage capture sequence
