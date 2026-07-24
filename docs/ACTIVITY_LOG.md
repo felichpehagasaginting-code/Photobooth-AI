@@ -6821,3 +6821,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T19:30:44+07:00** - [Activity #6072] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-07-24T19:52:05+07:00** - [Activity #6073] perf(anim): offload countdown animations to GPU composited layers
 - **2026-07-24T20:28:26+07:00** - [Activity #6074] perf(render): memoize grid item rendering to prevent redundant cycles
+- **2026-07-24T20:53:55+07:00** - [Activity #6075] docs(readme): add detailed hardware camera setup and compatibility guide
