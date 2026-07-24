@@ -6822,3 +6822,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T19:52:05+07:00** - [Activity #6073] perf(anim): offload countdown animations to GPU composited layers
 - **2026-07-24T20:28:26+07:00** - [Activity #6074] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-07-24T20:53:55+07:00** - [Activity #6075] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-07-24T21:25:29+07:00** - [Activity #6076] fix(export): handle canvas taint error when loading external assets
