@@ -6798,3 +6798,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T22:25:17+07:00** - [Activity #6049] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-07-24T09:00:11+07:00** - [Activity #6050] perf(anim): offload countdown animations to GPU composited layers
 - **2026-07-24T09:17:05+07:00** - [Activity #6051] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-07-24T09:52:12+07:00** - [Activity #6052] refactor(styles): migrate hardcoded color values to CSS design tokens
