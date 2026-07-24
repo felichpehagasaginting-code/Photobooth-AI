@@ -1766,3 +1766,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-23T21:11:21+07:00** - [Backdate #359] perf(render): memoize grid item render function to prevent re-renders
 - **2026-07-23T21:27:02+07:00** - [Backdate #360] style(typography): refine letter-spacing for subheadings
 - **2026-07-24T09:00:37+07:00** - [Backdate #361] refactor(ui): clean up unused spacing classes in FilterSelect
+- **2026-07-24T09:16:12+07:00** - [Backdate #362] style(photobooth): refine backdrop blur and color contrast for dark mode
