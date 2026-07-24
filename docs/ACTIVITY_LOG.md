@@ -6816,3 +6816,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T16:13:47+07:00** - [Activity #6067] feat(watermark): customizable event logo watermark overlay
 - **2026-07-24T16:43:34+07:00** - [Activity #6068] fix(audio): unlock audio context on initial user gesture
 - **2026-07-24T16:56:02+07:00** - [Activity #6069] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-07-24T17:23:28+07:00** - [Activity #6070] refactor(state): migrate photo session state management to zustand store
