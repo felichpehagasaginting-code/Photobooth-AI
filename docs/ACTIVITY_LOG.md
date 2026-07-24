@@ -12510,3 +12510,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T15:47:38+07:00** - [Activity #7883] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-07-24T16:06:38+07:00** - [Activity #7884] refactor(filter): organize color grading matrices into separate configs
 - **2026-07-24T16:24:58+07:00** - [Activity #7885] fix(audio): unlock audio context on initial user gesture
+- **2026-07-24T16:33:44+07:00** - [Activity #7886] fix(camera): prevent stream freeze on rapid device re-plug
