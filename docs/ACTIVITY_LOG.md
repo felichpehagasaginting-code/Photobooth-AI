@@ -12495,3 +12495,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T10:08:02+07:00** - [Activity #7868] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-07-24T10:27:28+07:00** - [Activity #7869] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-07-24T10:54:27+07:00** - [Activity #7870] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-07-24T11:08:35+07:00** - [Activity #7871] docs(arch): add architecture diagram explaining client-side filter flow
