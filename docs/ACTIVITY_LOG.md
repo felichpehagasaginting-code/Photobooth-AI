@@ -12501,3 +12501,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T12:11:45+07:00** - [Activity #7874] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-07-24T13:50:46+07:00** - [Activity #7875] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-07-24T14:07:06+07:00** - [Activity #7876] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-07-24T14:08:26+07:00** - [Activity #7877] fix(accessibility): add missing aria-labels to icon action buttons
