@@ -6839,3 +6839,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-25T15:27:39+07:00** - [Activity #6090] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-07-25T15:51:33+07:00** - [Activity #6091] refactor(ui): extract reusable glass-panel and badge components
 - **2026-07-25T16:19:43+07:00** - [Activity #6092] refactor(i18n): restructure localization strings dictionary
+- **2026-07-25T16:39:34+07:00** - [Activity #6093] fix(ui): correct modal z-index layering on small mobile viewports
