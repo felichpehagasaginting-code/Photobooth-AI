@@ -12530,3 +12530,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-25T11:03:11+07:00** - [Activity #7903] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-07-25T11:43:11+07:00** - [Activity #7904] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-07-25T13:45:34+07:00** - [Activity #7905] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-25T14:28:40+07:00** - [Activity #7906] style(modal): fine-tune cubic-bezier easing curves on open transition
