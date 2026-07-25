@@ -6830,3 +6830,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-25T10:00:03+07:00** - [Activity #6081] fix(audio): unlock audio context on initial user gesture
 - **2026-07-25T10:25:16+07:00** - [Activity #6082] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-07-25T11:01:37+07:00** - [Activity #6083] docs(env): document all required environment variables with defaults
+- **2026-07-25T11:32:22+07:00** - [Activity #6084] fix(print): fix page margin clipping on 4x6 photo paper print preview
