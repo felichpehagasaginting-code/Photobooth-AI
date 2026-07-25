@@ -1810,3 +1810,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T20:53:06+07:00** - [Backdate #403] chore: standardize line endings across codebase
 - **2026-07-24T21:11:30+07:00** - [Backdate #404] style: fine-tune cubic-bezier transition curves on modal overlay
 - **2026-07-24T21:27:51+07:00** - [Backdate #405] fix: check authentication status before initializing seed database
+- **2026-07-25T09:00:12+07:00** - [Backdate #406] perf: minimize initial bundle size by refining component imports
