@@ -6833,3 +6833,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-25T11:32:22+07:00** - [Activity #6084] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-07-25T12:05:31+07:00** - [Activity #6085] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-07-25T13:45:27+07:00** - [Activity #6086] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
+- **2026-07-25T14:09:27+07:00** - [Activity #6087] docs(arch): add architecture diagram explaining client-side filter flow
