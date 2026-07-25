@@ -6831,3 +6831,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-25T10:25:16+07:00** - [Activity #6082] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-07-25T11:01:37+07:00** - [Activity #6083] docs(env): document all required environment variables with defaults
 - **2026-07-25T11:32:22+07:00** - [Activity #6084] fix(print): fix page margin clipping on 4x6 photo paper print preview
+- **2026-07-25T12:05:31+07:00** - [Activity #6085] perf(dom): virtualize gallery list items for smooth 60fps scrolling
