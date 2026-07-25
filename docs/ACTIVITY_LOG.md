@@ -6844,3 +6844,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-25T17:41:36+07:00** - [Activity #6095] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-07-25T19:31:48+07:00** - [Activity #6096] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-07-25T20:04:22+07:00** - [Activity #6097] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-25T20:34:28+07:00** - [Activity #6098] docs(api): document endpoint parameters and error codes for seed route
