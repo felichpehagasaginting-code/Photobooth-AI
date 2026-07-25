@@ -12528,3 +12528,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-25T09:35:19+07:00** - [Activity #7901] chore(deps): update core dependencies to latest stable versions
 - **2026-07-25T10:23:57+07:00** - [Activity #7902] fix(state): sync active photo index when reopening gallery drawer
 - **2026-07-25T11:03:11+07:00** - [Activity #7903] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-07-25T11:43:11+07:00** - [Activity #7904] feat(ui): implement smooth countdown overlay animation before shutter
