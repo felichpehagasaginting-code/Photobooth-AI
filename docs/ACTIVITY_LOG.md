@@ -6826,3 +6826,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T21:56:40+07:00** - [Activity #6077] feat(analytics): log anonymous capture session completion metrics
 - **2026-07-24T22:09:05+07:00** - [Activity #6078] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-07-25T09:06:59+07:00** - [Activity #6079] docs(changelog): update version history and release milestones
+- **2026-07-25T09:22:42+07:00** - [Activity #6080] refactor(cleanup): remove deprecated legacy camera capture methods
