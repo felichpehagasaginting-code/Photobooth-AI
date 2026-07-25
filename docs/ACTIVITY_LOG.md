@@ -6837,3 +6837,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-25T14:39:44+07:00** - [Activity #6088] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-07-25T15:05:53+07:00** - [Activity #6089] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-07-25T15:27:39+07:00** - [Activity #6090] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-07-25T15:51:33+07:00** - [Activity #6091] refactor(ui): extract reusable glass-panel and badge components
