@@ -6842,3 +6842,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-25T16:39:34+07:00** - [Activity #6093] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-07-25T17:00:55+07:00** - [Activity #6094] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-07-25T17:41:36+07:00** - [Activity #6095] perf(render): memoize grid item rendering to prevent redundant cycles
+- **2026-07-25T19:31:48+07:00** - [Activity #6096] docs(arch): add architecture diagram explaining client-side filter flow
