@@ -12525,3 +12525,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-24T22:00:10+07:00** - [Activity #7898] docs(env): document all required environment variables with defaults
 - **2026-07-24T22:21:02+07:00** - [Activity #7899] feat(share): generate instant QR code for mobile photo download
 - **2026-07-25T09:07:48+07:00** - [Activity #7900] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-07-25T09:35:19+07:00** - [Activity #7901] chore(deps): update core dependencies to latest stable versions
