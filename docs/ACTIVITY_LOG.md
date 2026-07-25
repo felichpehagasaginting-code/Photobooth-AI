@@ -12539,3 +12539,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-25T19:30:34+07:00** - [Activity #7912] chore(deps): update core dependencies to latest stable versions
 - **2026-07-25T20:14:50+07:00** - [Activity #7913] fix(export): handle canvas taint error when loading external assets
 - **2026-07-25T21:10:35+07:00** - [Activity #7914] feat(print): integrate direct thermal printer web serial interface
+- **2026-07-25T21:59:00+07:00** - [Activity #7915] chore(git): add ignore rules for local session exports and temp files
