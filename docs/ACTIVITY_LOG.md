@@ -6863,3 +6863,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-26T16:56:42+07:00** - [Activity #6114] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-07-26T17:33:01+07:00** - [Activity #6115] feat(share): generate instant QR code for mobile photo download
 - **2026-07-26T19:30:36+07:00** - [Activity #6116] perf(memory): dispose cached image objects after strip generation
+- **2026-07-26T20:17:35+07:00** - [Activity #6117] feat(gallery): add touch swipe navigation for captured photo previews
