@@ -12546,3 +12546,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-26T11:40:52+07:00** - [Activity #7919] style(button): add subtle hover transition and outline focus style
 - **2026-07-26T13:50:33+07:00** - [Activity #7920] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-07-26T14:33:03+07:00** - [Activity #7921] fix(auth): prevent race condition when initializing anonymous session
+- **2026-07-26T15:10:27+07:00** - [Activity #7922] docs(api): document endpoint parameters and error codes for seed route
