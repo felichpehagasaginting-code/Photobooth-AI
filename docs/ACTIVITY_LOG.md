@@ -12544,3 +12544,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-26T09:50:36+07:00** - [Activity #7917] refactor(camera): extract media stream hook into standalone module
 - **2026-07-26T10:49:58+07:00** - [Activity #7918] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-07-26T11:40:52+07:00** - [Activity #7919] style(button): add subtle hover transition and outline focus style
+- **2026-07-26T13:50:33+07:00** - [Activity #7920] chore(lint): configure ESLint rules for react hooks and accessibility
