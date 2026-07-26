@@ -6856,3 +6856,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-26T13:45:53+07:00** - [Activity #6107] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-07-26T14:12:02+07:00** - [Activity #6108] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-07-26T14:47:07+07:00** - [Activity #6109] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-07-26T15:03:51+07:00** - [Activity #6110] docs(testing): describe manual verification steps for photobooth kiosk
