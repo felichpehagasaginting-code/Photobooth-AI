@@ -6859,3 +6859,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-26T15:03:51+07:00** - [Activity #6110] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-07-26T15:34:20+07:00** - [Activity #6111] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-07-26T16:06:46+07:00** - [Activity #6112] refactor(api): modularize backend route handlers and validation utils
+- **2026-07-26T16:42:49+07:00** - [Activity #6113] fix(camera): prevent stream freeze on rapid device re-plug
