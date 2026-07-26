@@ -6852,3 +6852,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-26T09:34:41+07:00** - [Activity #6103] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-07-26T10:29:23+07:00** - [Activity #6104] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-07-26T11:06:43+07:00** - [Activity #6105] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-07-26T11:43:05+07:00** - [Activity #6106] feat(theme): introduce warm studio and monochrome dark themes
