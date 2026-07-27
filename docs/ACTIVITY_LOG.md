@@ -12570,3 +12570,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T14:11:10+07:00** - [Activity #7943] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-07-27T14:20:58+07:00** - [Activity #7944] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-07-27T14:42:59+07:00** - [Activity #7945] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-27T14:45:37+07:00** - [Activity #7946] feat(camera): add dynamic exposure and focus adjustment controls
