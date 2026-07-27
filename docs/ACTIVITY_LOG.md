@@ -12587,3 +12587,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T19:30:39+07:00** - [Activity #7960] refactor(types): consolidate photobooth session type definitions
 - **2026-07-27T19:42:11+07:00** - [Activity #7961] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-07-27T20:08:35+07:00** - [Activity #7962] feat(preset): allow custom framing border selection per session
+- **2026-07-27T20:34:16+07:00** - [Activity #7963] fix(ui): correct modal z-index layering on small mobile viewports
