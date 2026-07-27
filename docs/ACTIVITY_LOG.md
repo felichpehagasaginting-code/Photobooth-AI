@@ -6866,3 +6866,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-26T20:17:35+07:00** - [Activity #6117] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-07-26T21:08:42+07:00** - [Activity #6118] docs(changelog): update version history and release milestones
 - **2026-07-26T22:03:20+07:00** - [Activity #6119] refactor(filter): organize color grading matrices into separate configs
+- **2026-07-27T09:00:53+07:00** - [Activity #6120] chore(deps): update core dependencies to latest stable versions
