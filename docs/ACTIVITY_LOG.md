@@ -12592,3 +12592,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T21:06:25+07:00** - [Activity #7965] docs(api): document endpoint parameters and error codes for seed route
 - **2026-07-27T21:22:34+07:00** - [Activity #7966] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-07-27T21:54:28+07:00** - [Activity #7967] feat(share): generate instant QR code for mobile photo download
+- **2026-07-27T22:08:04+07:00** - [Activity #7968] fix(camera): prevent stream freeze on rapid device re-plug
