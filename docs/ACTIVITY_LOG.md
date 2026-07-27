@@ -12569,3 +12569,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T13:55:38+07:00** - [Activity #7942] refactor(camera): extract media stream hook into standalone module
 - **2026-07-27T14:11:10+07:00** - [Activity #7943] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-07-27T14:20:58+07:00** - [Activity #7944] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-07-27T14:42:59+07:00** - [Activity #7945] feat(settings): add camera device selector with resolution fallbacks
