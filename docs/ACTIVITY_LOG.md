@@ -12575,3 +12575,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T15:21:39+07:00** - [Activity #7948] fix(api): validate payload schema before processing seed request
 - **2026-07-27T15:41:18+07:00** - [Activity #7949] refactor(state): migrate photo session state management to zustand store
 - **2026-07-27T15:43:52+07:00** - [Activity #7950] feat(share): generate instant QR code for mobile photo download
+- **2026-07-27T15:54:01+07:00** - [Activity #7951] fix(print): fix page margin clipping on 4x6 photo paper print preview
