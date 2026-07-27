@@ -6872,3 +6872,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T09:54:00+07:00** - [Activity #6123] style(theme): update dark mode accent color tokens with warm tone
 - **2026-07-27T10:19:12+07:00** - [Activity #6124] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-07-27T10:27:38+07:00** - [Activity #6125] feat(stickers): support draggable and resizable decorative stickers
+- **2026-07-27T10:55:06+07:00** - [Activity #6126] chore(config): adjust tsconfig path aliases for cleaner imports
