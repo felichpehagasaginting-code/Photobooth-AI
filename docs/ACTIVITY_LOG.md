@@ -6868,3 +6868,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-26T22:03:20+07:00** - [Activity #6119] refactor(filter): organize color grading matrices into separate configs
 - **2026-07-27T09:00:53+07:00** - [Activity #6120] chore(deps): update core dependencies to latest stable versions
 - **2026-07-27T09:26:24+07:00** - [Activity #6121] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-07-27T09:30:46+07:00** - [Activity #6122] docs(comments): add inline JSDoc comments to image processing helpers
