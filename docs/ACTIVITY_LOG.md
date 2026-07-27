@@ -6879,3 +6879,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T12:08:42+07:00** - [Activity #6130] feat(share): generate instant QR code for mobile photo download
 - **2026-07-27T13:53:20+07:00** - [Activity #6131] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-07-27T13:59:54+07:00** - [Activity #6132] style(theme): update dark mode accent color tokens with warm tone
+- **2026-07-27T14:14:30+07:00** - [Activity #6133] style(typography): refine letter-spacing and hierarchy for hero heading
