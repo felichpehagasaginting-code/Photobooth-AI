@@ -6870,3 +6870,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T09:26:24+07:00** - [Activity #6121] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-07-27T09:30:46+07:00** - [Activity #6122] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-07-27T09:54:00+07:00** - [Activity #6123] style(theme): update dark mode accent color tokens with warm tone
+- **2026-07-27T10:19:12+07:00** - [Activity #6124] fix(print): fix page margin clipping on 4x6 photo paper print preview
