@@ -12564,3 +12564,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T11:19:09+07:00** - [Activity #7937] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-07-27T11:32:17+07:00** - [Activity #7938] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-07-27T11:48:13+07:00** - [Activity #7939] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-07-27T12:20:29+07:00** - [Activity #7940] feat(settings): add camera device selector with resolution fallbacks
