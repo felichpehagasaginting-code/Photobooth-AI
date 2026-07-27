@@ -6887,3 +6887,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T15:29:29+07:00** - [Activity #6138] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-07-27T16:01:01+07:00** - [Activity #6139] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-07-27T16:12:31+07:00** - [Activity #6140] docs(comments): add inline JSDoc comments to image processing helpers
+- **2026-07-27T16:20:05+07:00** - [Activity #6141] perf(fonts): preload display typography to eliminate FOIT delay
