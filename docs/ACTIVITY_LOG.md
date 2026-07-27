@@ -6897,3 +6897,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T19:53:28+07:00** - [Activity #6148] feat(settings): add camera device selector with resolution fallbacks
 - **2026-07-27T20:10:29+07:00** - [Activity #6149] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-07-27T20:27:34+07:00** - [Activity #6150] feat(cloud): async upload queue for batch photo backup
+- **2026-07-27T20:54:25+07:00** - [Activity #6151] fix(qr): adjust QR code contrast ratio for low-light scanning
