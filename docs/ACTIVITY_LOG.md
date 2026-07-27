@@ -12561,3 +12561,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T10:22:33+07:00** - [Activity #7934] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-07-27T10:52:10+07:00** - [Activity #7935] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-07-27T10:58:23+07:00** - [Activity #7936] docs(env): document all required environment variables with defaults
+- **2026-07-27T11:19:09+07:00** - [Activity #7937] fix(timer): clear interval on component unmount to prevent memory leak
