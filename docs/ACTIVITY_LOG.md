@@ -1895,3 +1895,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T09:00:37+07:00** - [Backdate #487] style(button): add subtle hover transition and outline focus style
 - **2026-07-27T09:16:15+07:00** - [Backdate #488] refactor(components): extract reusable text shadow utilities
 - **2026-07-27T09:33:30+07:00** - [Backdate #489] fix(api): correct coordinate parsing in photobooth processing route
+- **2026-07-27T09:51:28+07:00** - [Backdate #490] perf(ui): memoize download handler callback in RemoteDownloadView
