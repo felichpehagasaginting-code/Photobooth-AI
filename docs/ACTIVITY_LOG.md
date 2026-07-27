@@ -6895,3 +6895,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T17:36:01+07:00** - [Activity #6146] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-07-27T19:34:20+07:00** - [Activity #6147] refactor(events): use custom event bus for decoupled component messaging
 - **2026-07-27T19:53:28+07:00** - [Activity #6148] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-27T20:10:29+07:00** - [Activity #6149] docs(deploy): add production deployment instructions for Vercel/Docker
