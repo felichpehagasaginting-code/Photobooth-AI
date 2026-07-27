@@ -12566,3 +12566,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T11:48:13+07:00** - [Activity #7939] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-07-27T12:20:29+07:00** - [Activity #7940] feat(settings): add camera device selector with resolution fallbacks
 - **2026-07-27T13:52:01+07:00** - [Activity #7941] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-07-27T13:55:38+07:00** - [Activity #7942] refactor(camera): extract media stream hook into standalone module
