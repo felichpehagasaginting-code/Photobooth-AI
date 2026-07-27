@@ -12559,3 +12559,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T09:56:56+07:00** - [Activity #7932] refactor(state): migrate photo session state management to zustand store
 - **2026-07-27T10:07:31+07:00** - [Activity #7933] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-07-27T10:22:33+07:00** - [Activity #7934] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-07-27T10:52:10+07:00** - [Activity #7935] refactor(hooks): create custom useDebounce and useThrottle utilities
