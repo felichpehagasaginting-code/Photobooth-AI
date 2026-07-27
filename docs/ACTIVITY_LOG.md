@@ -6893,3 +6893,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T17:20:27+07:00** - [Activity #6144] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-07-27T17:21:34+07:00** - [Activity #6145] feat(audio): add shutter click and countdown sound effects
 - **2026-07-27T17:36:01+07:00** - [Activity #6146] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-07-27T19:34:20+07:00** - [Activity #6147] refactor(events): use custom event bus for decoupled component messaging
