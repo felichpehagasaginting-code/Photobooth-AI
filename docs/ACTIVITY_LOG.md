@@ -12585,3 +12585,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T17:23:24+07:00** - [Activity #7958] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-07-27T17:38:11+07:00** - [Activity #7959] docs(changelog): update version history and release milestones
 - **2026-07-27T19:30:39+07:00** - [Activity #7960] refactor(types): consolidate photobooth session type definitions
+- **2026-07-27T19:42:11+07:00** - [Activity #7961] fix(camera): prevent stream freeze on rapid device re-plug
