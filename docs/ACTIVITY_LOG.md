@@ -6942,3 +6942,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T17:47:56+07:00** - [Activity #6193] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-07-28T19:34:38+07:00** - [Activity #6194] style(badge): update status indicator badge colors and glow effects
 - **2026-07-28T19:49:06+07:00** - [Activity #6195] chore(build): optimize Vite build chunks and asset minification settings
+- **2026-07-28T20:00:01+07:00** - [Activity #6196] fix(export): handle canvas taint error when loading external assets
