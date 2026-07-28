@@ -1971,3 +1971,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T17:47:56+07:00** - [Backdate #563] fix(api): sanitize input parameters in generate-filter endpoint
 - **2026-07-28T18:04:41+07:00** - [Backdate #564] docs: add comment documenting firebase auth retry flow
 - **2026-07-28T18:20:46+07:00** - [Backdate #565] chore: add gitignore entry for local scratch outputs
+- **2026-07-28T18:38:43+07:00** - [Backdate #566] refactor: split massive component handlers into separate helper file
