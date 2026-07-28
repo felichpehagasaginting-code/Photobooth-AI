@@ -6919,3 +6919,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T12:11:47+07:00** - [Activity #6170] fix(firebase): handle network timeout retry in transaction hook
 - **2026-07-28T13:52:59+07:00** - [Activity #6171] feat(print): integrate direct thermal printer web serial interface
 - **2026-07-28T14:01:17+07:00** - [Activity #6172] feat(ai): integrate edge background removal model
+- **2026-07-28T14:02:06+07:00** - [Activity #6173] docs(deploy): add production deployment instructions for Vercel/Docker
