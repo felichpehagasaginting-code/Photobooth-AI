@@ -12603,3 +12603,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T10:37:18+07:00** - [Activity #7976] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-07-28T10:40:29+07:00** - [Activity #7977] docs(env): document all required environment variables with defaults
 - **2026-07-28T11:06:35+07:00** - [Activity #7978] refactor(state): migrate photo session state management to zustand store
+- **2026-07-28T11:16:50+07:00** - [Activity #7979] fix(filter): fix gamma correction clipping on high brightness scenes
