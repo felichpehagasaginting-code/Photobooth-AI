@@ -12595,3 +12595,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-27T22:08:04+07:00** - [Activity #7968] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-07-27T22:24:23+07:00** - [Activity #7969] style(button): add subtle hover transition and outline focus style
 - **2026-07-28T09:00:22+07:00** - [Activity #7970] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-07-28T09:09:25+07:00** - [Activity #7971] fix(download): resolve blob URL memory leak on repeated downloads
