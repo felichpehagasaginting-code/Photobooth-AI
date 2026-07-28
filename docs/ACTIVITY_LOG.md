@@ -12612,3 +12612,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T13:54:20+07:00** - [Activity #7985] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-07-28T14:12:03+07:00** - [Activity #7986] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-07-28T14:13:00+07:00** - [Activity #7987] perf(render): memoize grid item rendering to prevent redundant cycles
+- **2026-07-28T14:29:37+07:00** - [Activity #7988] fix(state): sync active photo index when reopening gallery drawer
