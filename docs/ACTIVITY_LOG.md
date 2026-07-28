@@ -12622,3 +12622,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T15:50:11+07:00** - [Activity #7995] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-07-28T16:07:32+07:00** - [Activity #7996] fix(firebase): handle network timeout retry in transaction hook
 - **2026-07-28T16:21:14+07:00** - [Activity #7997] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-07-28T16:25:36+07:00** - [Activity #7998] chore(deps): update core dependencies to latest stable versions
