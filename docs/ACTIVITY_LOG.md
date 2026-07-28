@@ -12615,3 +12615,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T14:29:37+07:00** - [Activity #7988] fix(state): sync active photo index when reopening gallery drawer
 - **2026-07-28T14:42:36+07:00** - [Activity #7989] feat(preset): allow custom framing border selection per session
 - **2026-07-28T14:55:22+07:00** - [Activity #7990] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-07-28T14:58:36+07:00** - [Activity #7991] fix(camera): prevent stream freeze on rapid device re-plug
