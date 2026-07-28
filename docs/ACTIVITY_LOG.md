@@ -12629,3 +12629,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T17:08:46+07:00** - [Activity #8002] fix(auth): prevent race condition when initializing anonymous session
 - **2026-07-28T17:32:40+07:00** - [Activity #8003] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-07-28T17:44:55+07:00** - [Activity #8004] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-07-28T17:46:56+07:00** - [Activity #8005] test(hooks): add test suite for camera stream lifecycle events
