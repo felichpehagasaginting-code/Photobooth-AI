@@ -6905,3 +6905,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T09:00:21+07:00** - [Activity #6156] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-07-28T09:11:23+07:00** - [Activity #6157] fix(api): validate payload schema before processing seed request
 - **2026-07-28T09:32:16+07:00** - [Activity #6158] refactor(api): modularize backend route handlers and validation utils
+- **2026-07-28T09:42:14+07:00** - [Activity #6159] perf(state): optimize selector subscriptions to minimize re-renders
