@@ -12638,3 +12638,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T20:49:41+07:00** - [Activity #8011] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-07-28T21:02:12+07:00** - [Activity #8012] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-07-28T21:18:56+07:00** - [Activity #8013] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-28T21:35:37+07:00** - [Activity #8014] refactor(ui): extract reusable glass-panel and badge components
