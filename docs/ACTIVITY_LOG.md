@@ -12628,3 +12628,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T16:56:28+07:00** - [Activity #8001] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-07-28T17:08:46+07:00** - [Activity #8002] fix(auth): prevent race condition when initializing anonymous session
 - **2026-07-28T17:32:40+07:00** - [Activity #8003] chore(lint): configure ESLint rules for react hooks and accessibility
+- **2026-07-28T17:44:55+07:00** - [Activity #8004] fix(accessibility): add missing aria-labels to icon action buttons
