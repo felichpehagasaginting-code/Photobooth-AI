@@ -12632,3 +12632,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T17:46:56+07:00** - [Activity #8005] test(hooks): add test suite for camera stream lifecycle events
 - **2026-07-28T19:36:55+07:00** - [Activity #8006] feat(preset): allow custom framing border selection per session
 - **2026-07-28T19:50:30+07:00** - [Activity #8007] refactor(canvas): simplify image compositing pipeline architecture
+- **2026-07-28T20:04:02+07:00** - [Activity #8008] fix(auth): prevent race condition when initializing anonymous session
