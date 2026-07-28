@@ -6914,3 +6914,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T11:03:23+07:00** - [Activity #6165] feat(audio): add shutter click and countdown sound effects
 - **2026-07-28T11:16:58+07:00** - [Activity #6166] style(button): add subtle hover transition and outline focus style
 - **2026-07-28T11:39:51+07:00** - [Activity #6167] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-07-28T11:50:42+07:00** - [Activity #6168] docs(readme): add detailed hardware camera setup and compatibility guide
