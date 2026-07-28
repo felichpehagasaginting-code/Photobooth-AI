@@ -6927,3 +6927,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T15:12:43+07:00** - [Activity #6178] refactor(state): migrate photo session state management to zustand store
 - **2026-07-28T15:18:54+07:00** - [Activity #6179] style(shutter): design circular pulsating shutter button with feedback
 - **2026-07-28T15:19:17+07:00** - [Activity #6180] refactor(camera): extract media stream hook into standalone module
+- **2026-07-28T15:33:47+07:00** - [Activity #6181] feat(cloud): async upload queue for batch photo backup
