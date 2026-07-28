@@ -6940,3 +6940,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T17:29:28+07:00** - [Activity #6191] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-07-28T17:38:54+07:00** - [Activity #6192] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-07-28T17:47:56+07:00** - [Activity #6193] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-07-28T19:34:38+07:00** - [Activity #6194] style(badge): update status indicator badge colors and glow effects
