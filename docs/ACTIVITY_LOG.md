@@ -12606,3 +12606,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T11:16:50+07:00** - [Activity #7979] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-07-28T11:25:34+07:00** - [Activity #7980] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-07-28T11:52:58+07:00** - [Activity #7981] refactor(state): migrate photo session state management to zustand store
+- **2026-07-28T12:01:26+07:00** - [Activity #7982] fix(download): resolve blob URL memory leak on repeated downloads
