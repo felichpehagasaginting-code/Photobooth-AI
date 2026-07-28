@@ -12620,3 +12620,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T15:20:47+07:00** - [Activity #7993] feat(share): generate instant QR code for mobile photo download
 - **2026-07-28T15:42:02+07:00** - [Activity #7994] feat(ai): integrate edge background removal model
 - **2026-07-28T15:50:11+07:00** - [Activity #7995] feat(export): support high-resolution PNG and PDF print strip layout
+- **2026-07-28T16:07:32+07:00** - [Activity #7996] fix(firebase): handle network timeout retry in transaction hook
