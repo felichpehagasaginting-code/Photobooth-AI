@@ -12625,3 +12625,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T16:25:36+07:00** - [Activity #7998] chore(deps): update core dependencies to latest stable versions
 - **2026-07-28T16:32:48+07:00** - [Activity #7999] perf(memory): dispose cached image objects after strip generation
 - **2026-07-28T16:45:49+07:00** - [Activity #8000] feat(settings): add camera device selector with resolution fallbacks
+- **2026-07-28T16:56:28+07:00** - [Activity #8001] feat(preview): render live filter preview using WebGL shader canvas
