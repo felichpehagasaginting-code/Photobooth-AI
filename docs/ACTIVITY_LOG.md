@@ -1943,3 +1943,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T09:50:10+07:00** - [Backdate #535] refactor(hooks): abstract custom window size listener
 - **2026-07-28T10:07:59+07:00** - [Backdate #536] docs(readme): add troubleshooting section for local dev server
 - **2026-07-28T10:25:10+07:00** - [Backdate #537] chore(config): adjust tsconfig path aliases for components
+- **2026-07-28T10:41:09+07:00** - [Backdate #538] fix(accessibility): add aria-labels to icon-only action buttons
