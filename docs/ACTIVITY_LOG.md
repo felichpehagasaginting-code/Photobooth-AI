@@ -12614,3 +12614,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T14:13:00+07:00** - [Activity #7987] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-07-28T14:29:37+07:00** - [Activity #7988] fix(state): sync active photo index when reopening gallery drawer
 - **2026-07-28T14:42:36+07:00** - [Activity #7989] feat(preset): allow custom framing border selection per session
+- **2026-07-28T14:55:22+07:00** - [Activity #7990] feat(filter): add cyber-neon and grain texture post-processing overlay
