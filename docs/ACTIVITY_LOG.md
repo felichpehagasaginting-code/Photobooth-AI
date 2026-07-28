@@ -6907,3 +6907,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T09:32:16+07:00** - [Activity #6158] refactor(api): modularize backend route handlers and validation utils
 - **2026-07-28T09:42:14+07:00** - [Activity #6159] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-07-28T09:56:13+07:00** - [Activity #6160] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-07-28T10:05:48+07:00** - [Activity #6161] refactor(ui): extract reusable glass-panel and badge components
