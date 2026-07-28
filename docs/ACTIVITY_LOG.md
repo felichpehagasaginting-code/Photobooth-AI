@@ -12634,3 +12634,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T19:50:30+07:00** - [Activity #8007] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-07-28T20:04:02+07:00** - [Activity #8008] fix(auth): prevent race condition when initializing anonymous session
 - **2026-07-28T20:22:25+07:00** - [Activity #8009] perf(render): memoize grid item rendering to prevent redundant cycles
+- **2026-07-28T20:42:28+07:00** - [Activity #8010] fix(state): sync active photo index when reopening gallery drawer
