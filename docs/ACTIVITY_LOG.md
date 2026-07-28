@@ -6922,3 +6922,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T14:02:06+07:00** - [Activity #6173] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-07-28T14:24:07+07:00** - [Activity #6174] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-07-28T14:34:39+07:00** - [Activity #6175] style(shutter): design circular pulsating shutter button with feedback
+- **2026-07-28T14:36:06+07:00** - [Activity #6176] fix(camera): prevent stream freeze on rapid device re-plug
