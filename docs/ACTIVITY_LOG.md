@@ -6931,3 +6931,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-28T15:55:41+07:00** - [Activity #6182] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-07-28T15:57:31+07:00** - [Activity #6183] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-07-28T16:10:27+07:00** - [Activity #6184] fix(hydration): resolve client-server timestamp mismatch in activity log
+- **2026-07-28T16:23:00+07:00** - [Activity #6185] chore(lint): configure ESLint rules for react hooks and accessibility
