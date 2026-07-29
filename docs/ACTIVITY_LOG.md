@@ -12670,3 +12670,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T16:07:07+07:00** - [Activity #8043] style(grid): modernize layout overlap for bento-style elements
 - **2026-07-29T16:24:55+07:00** - [Activity #8044] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-07-29T16:35:32+07:00** - [Activity #8045] docs(env): document all required environment variables with defaults
+- **2026-07-29T16:40:07+07:00** - [Activity #8046] feat(camera): add dynamic exposure and focus adjustment controls
