@@ -12652,3 +12652,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T10:51:50+07:00** - [Activity #8025] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-07-29T10:55:00+07:00** - [Activity #8026] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-07-29T11:16:19+07:00** - [Activity #8027] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-07-29T11:33:42+07:00** - [Activity #8028] style(photobooth): refine backdrop blur and color contrast for dark mode
