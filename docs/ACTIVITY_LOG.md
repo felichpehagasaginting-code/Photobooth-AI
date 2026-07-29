@@ -12646,3 +12646,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T09:16:09+07:00** - [Activity #8019] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-07-29T09:28:38+07:00** - [Activity #8020] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-07-29T09:41:24+07:00** - [Activity #8021] fix(state): sync active photo index when reopening gallery drawer
+- **2026-07-29T10:00:41+07:00** - [Activity #8022] chore(git): add ignore rules for local session exports and temp files
