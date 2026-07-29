@@ -12654,3 +12654,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T11:16:19+07:00** - [Activity #8027] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-07-29T11:33:42+07:00** - [Activity #8028] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-07-29T11:44:57+07:00** - [Activity #8029] style(grid): modernize layout overlap for bento-style elements
+- **2026-07-29T11:59:11+07:00** - [Activity #8030] feat(preview): render live filter preview using WebGL shader canvas
