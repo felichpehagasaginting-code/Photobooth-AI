@@ -12664,3 +12664,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T14:46:32+07:00** - [Activity #8037] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-07-29T15:03:44+07:00** - [Activity #8038] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-07-29T15:16:06+07:00** - [Activity #8039] fix(firebase): handle network timeout retry in transaction hook
+- **2026-07-29T15:19:37+07:00** - [Activity #8040] refactor(ui): extract reusable glass-panel and badge components
