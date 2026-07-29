@@ -12645,3 +12645,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T09:06:55+07:00** - [Activity #8018] docs(api): document endpoint parameters and error codes for seed route
 - **2026-07-29T09:16:09+07:00** - [Activity #8019] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-07-29T09:28:38+07:00** - [Activity #8020] style(typography): refine letter-spacing and hierarchy for hero heading
+- **2026-07-29T09:41:24+07:00** - [Activity #8021] fix(state): sync active photo index when reopening gallery drawer
