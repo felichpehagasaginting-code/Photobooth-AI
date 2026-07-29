@@ -2006,3 +2006,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T14:56:37+07:00** - [Backdate #598] fix(accessibility): add aria-labels to icon-only action buttons
 - **2026-07-29T15:13:13+07:00** - [Backdate #599] perf(render): memoize grid item render function to prevent re-renders
 - **2026-07-29T15:31:41+07:00** - [Backdate #600] style(typography): refine letter-spacing for subheadings
+- **2026-07-29T15:47:17+07:00** - [Backdate #601] refactor(ui): clean up unused spacing classes in FilterSelect
