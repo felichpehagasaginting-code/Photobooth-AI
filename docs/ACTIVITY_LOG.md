@@ -12662,3 +12662,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T14:19:03+07:00** - [Activity #8035] feat(preset): allow custom framing border selection per session
 - **2026-07-29T14:41:43+07:00** - [Activity #8036] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-07-29T14:46:32+07:00** - [Activity #8037] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-07-29T15:03:44+07:00** - [Activity #8038] chore(ci): adjust GitHub Actions caching for faster test execution
