@@ -12658,3 +12658,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T12:17:28+07:00** - [Activity #8031] feat(print): integrate direct thermal printer web serial interface
 - **2026-07-29T13:45:28+07:00** - [Activity #8032] fix(qr): adjust QR code contrast ratio for low-light scanning
 - **2026-07-29T13:58:49+07:00** - [Activity #8033] refactor(state): migrate photo session state management to zustand store
+- **2026-07-29T14:05:10+07:00** - [Activity #8034] style(cards): apply subtle border gradient and elevation shadows
