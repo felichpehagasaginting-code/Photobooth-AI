@@ -6971,3 +6971,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T15:12:30+07:00** - [Activity #6222] docs(env): document all required environment variables with defaults
 - **2026-07-29T15:34:14+07:00** - [Activity #6223] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-07-29T15:51:32+07:00** - [Activity #6224] perf(anim): offload countdown animations to GPU composited layers
+- **2026-07-29T16:02:47+07:00** - [Activity #6225] refactor(state): migrate photo session state management to zustand store
