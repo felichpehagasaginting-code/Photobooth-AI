@@ -6955,3 +6955,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T09:00:24+07:00** - [Activity #6206] docs(changelog): update version history and release milestones
 - **2026-07-29T09:20:50+07:00** - [Activity #6207] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-07-29T09:37:44+07:00** - [Activity #6208] chore(git): add ignore rules for local session exports and temp files
+- **2026-07-29T10:00:06+07:00** - [Activity #6209] style(modal): fine-tune cubic-bezier easing curves on open transition
