@@ -6969,3 +6969,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T14:52:37+07:00** - [Activity #6220] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-07-29T14:55:11+07:00** - [Activity #6221] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-07-29T15:12:30+07:00** - [Activity #6222] docs(env): document all required environment variables with defaults
+- **2026-07-29T15:34:14+07:00** - [Activity #6223] perf(images): compress intermediate preview thumbnails with WebP format
