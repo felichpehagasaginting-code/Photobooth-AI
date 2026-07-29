@@ -6961,3 +6961,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T11:03:39+07:00** - [Activity #6212] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-07-29T11:24:27+07:00** - [Activity #6213] refactor(services): separate cloud storage adapter from UI layer
 - **2026-07-29T11:48:30+07:00** - [Activity #6214] fix(auth): prevent race condition when initializing anonymous session
+- **2026-07-29T12:01:18+07:00** - [Activity #6215] feat(kiosk): add full-screen lock and inactivity reset timer
