@@ -2001,3 +2001,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T13:32:33+07:00** - [Backdate #593] perf(image): optimize canvas context rendering settings
 - **2026-07-29T13:49:49+07:00** - [Backdate #594] style(theme): update dark mode accent color token
 - **2026-07-29T14:05:44+07:00** - [Backdate #595] refactor(hooks): abstract custom window size listener
+- **2026-07-29T14:22:02+07:00** - [Backdate #596] docs(readme): add troubleshooting section for local dev server
