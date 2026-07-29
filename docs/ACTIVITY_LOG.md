@@ -6963,3 +6963,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T11:48:30+07:00** - [Activity #6214] fix(auth): prevent race condition when initializing anonymous session
 - **2026-07-29T12:01:18+07:00** - [Activity #6215] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-07-29T13:50:39+07:00** - [Activity #6216] feat(watermark): customizable event logo watermark overlay
+- **2026-07-29T14:06:53+07:00** - [Activity #6217] fix(auth): prevent race condition when initializing anonymous session
