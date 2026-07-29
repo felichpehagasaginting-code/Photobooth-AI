@@ -12675,3 +12675,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T17:03:05+07:00** - [Activity #8048] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-07-29T17:25:06+07:00** - [Activity #8049] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-07-29T17:29:17+07:00** - [Activity #8050] refactor(api): modularize backend route handlers and validation utils
+- **2026-07-29T17:51:00+07:00** - [Activity #8051] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
