@@ -12673,3 +12673,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T16:40:07+07:00** - [Activity #8046] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-07-29T16:56:19+07:00** - [Activity #8047] refactor(types): consolidate photobooth session type definitions
 - **2026-07-29T17:03:05+07:00** - [Activity #8048] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-07-29T17:25:06+07:00** - [Activity #8049] style(modal): fine-tune cubic-bezier easing curves on open transition
