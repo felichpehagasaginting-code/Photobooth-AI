@@ -12660,3 +12660,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T13:58:49+07:00** - [Activity #8033] refactor(state): migrate photo session state management to zustand store
 - **2026-07-29T14:05:10+07:00** - [Activity #8034] style(cards): apply subtle border gradient and elevation shadows
 - **2026-07-29T14:19:03+07:00** - [Activity #8035] feat(preset): allow custom framing border selection per session
+- **2026-07-29T14:41:43+07:00** - [Activity #8036] chore(config): adjust tsconfig path aliases for cleaner imports
