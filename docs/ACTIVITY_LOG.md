@@ -12650,3 +12650,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T10:19:14+07:00** - [Activity #8023] test(utils): add unit tests for image aspect ratio calculator
 - **2026-07-29T10:26:08+07:00** - [Activity #8024] refactor(types): consolidate photobooth session type definitions
 - **2026-07-29T10:51:50+07:00** - [Activity #8025] fix(qr): adjust QR code contrast ratio for low-light scanning
+- **2026-07-29T10:55:00+07:00** - [Activity #8026] fix(accessibility): add missing aria-labels to icon action buttons
