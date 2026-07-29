@@ -12684,3 +12684,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-29T20:58:54+07:00** - [Activity #8057] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-07-29T21:10:03+07:00** - [Activity #8058] fix(state): sync active photo index when reopening gallery drawer
 - **2026-07-29T21:41:22+07:00** - [Activity #8059] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-07-29T21:46:54+07:00** - [Activity #8060] fix(audio): unlock audio context on initial user gesture
