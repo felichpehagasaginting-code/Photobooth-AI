@@ -7033,3 +7033,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T21:19:27+07:00** - [Activity #6284] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-30T21:32:21+07:00** - [Activity #6285] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-07-30T21:54:07+07:00** - [Activity #6286] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-07-30T22:16:04+07:00** - [Activity #6287] style(theme): update dark mode accent color tokens with warm tone
