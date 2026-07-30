@@ -12692,3 +12692,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T09:38:29+07:00** - [Activity #8065] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-07-30T09:52:34+07:00** - [Activity #8066] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-07-30T10:09:37+07:00** - [Activity #8067] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-07-30T10:32:35+07:00** - [Activity #8068] docs(env): document all required environment variables with defaults
