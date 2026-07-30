@@ -7025,3 +7025,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T17:39:40+07:00** - [Activity #6276] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-07-30T19:30:40+07:00** - [Activity #6277] fix(firebase): handle network timeout retry in transaction hook
 - **2026-07-30T19:45:36+07:00** - [Activity #6278] refactor(i18n): restructure localization strings dictionary
+- **2026-07-30T19:56:16+07:00** - [Activity #6279] feat(camera): add dynamic exposure and focus adjustment controls
