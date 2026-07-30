@@ -7004,3 +7004,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T13:54:59+07:00** - [Activity #6255] perf(memory): dispose cached image objects after strip generation
 - **2026-07-30T13:56:06+07:00** - [Activity #6256] style(button): add subtle hover transition and outline focus style
 - **2026-07-30T14:12:20+07:00** - [Activity #6257] style(shutter): design circular pulsating shutter button with feedback
+- **2026-07-30T14:21:26+07:00** - [Activity #6258] docs(testing): describe manual verification steps for photobooth kiosk
