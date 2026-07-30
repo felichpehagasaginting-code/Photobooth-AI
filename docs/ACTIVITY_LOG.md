@@ -12697,3 +12697,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T11:02:00+07:00** - [Activity #8070] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-07-30T11:14:10+07:00** - [Activity #8071] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-07-30T11:44:17+07:00** - [Activity #8072] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-07-30T12:00:27+07:00** - [Activity #8073] style(cards): apply subtle border gradient and elevation shadows
