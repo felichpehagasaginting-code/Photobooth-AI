@@ -12707,3 +12707,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T15:04:30+07:00** - [Activity #8080] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-07-30T15:05:34+07:00** - [Activity #8081] fix(api): validate payload schema before processing seed request
 - **2026-07-30T15:30:44+07:00** - [Activity #8082] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-07-30T15:35:32+07:00** - [Activity #8083] fix(state): sync active photo index when reopening gallery drawer
