@@ -6990,3 +6990,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T09:02:12+07:00** - [Activity #6241] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-07-30T09:18:23+07:00** - [Activity #6242] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-07-30T09:23:13+07:00** - [Activity #6243] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-07-30T09:52:25+07:00** - [Activity #6244] perf(anim): offload countdown animations to GPU composited layers
