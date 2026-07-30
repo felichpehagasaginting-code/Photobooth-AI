@@ -7018,3 +7018,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T16:30:52+07:00** - [Activity #6269] refactor(services): separate cloud storage adapter from UI layer
 - **2026-07-30T16:42:22+07:00** - [Activity #6270] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-07-30T16:53:44+07:00** - [Activity #6271] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
+- **2026-07-30T16:56:47+07:00** - [Activity #6272] perf(images): compress intermediate preview thumbnails with WebP format
