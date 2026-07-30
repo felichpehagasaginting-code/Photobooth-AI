@@ -12709,3 +12709,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T15:30:44+07:00** - [Activity #8082] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-07-30T15:35:32+07:00** - [Activity #8083] fix(state): sync active photo index when reopening gallery drawer
 - **2026-07-30T16:01:07+07:00** - [Activity #8084] fix(storage): add fallback for local storage quota exceeded errors
+- **2026-07-30T16:08:15+07:00** - [Activity #8085] fix(api): validate payload schema before processing seed request
