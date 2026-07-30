@@ -12724,3 +12724,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T20:51:48+07:00** - [Activity #8097] feat(watermark): customizable event logo watermark overlay
 - **2026-07-30T21:00:07+07:00** - [Activity #8098] docs(api): document endpoint parameters and error codes for seed route
 - **2026-07-30T21:33:26+07:00** - [Activity #8099] chore(config): adjust tsconfig path aliases for cleaner imports
+- **2026-07-30T21:44:17+07:00** - [Activity #8100] test(utils): add unit tests for image aspect ratio calculator
