@@ -12712,3 +12712,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T16:08:15+07:00** - [Activity #8085] fix(api): validate payload schema before processing seed request
 - **2026-07-30T16:26:03+07:00** - [Activity #8086] refactor(state): migrate photo session state management to zustand store
 - **2026-07-30T16:32:02+07:00** - [Activity #8087] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-07-30T16:46:24+07:00** - [Activity #8088] fix(timer): clear interval on component unmount to prevent memory leak
