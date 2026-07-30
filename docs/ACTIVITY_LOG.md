@@ -7027,3 +7027,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T19:45:36+07:00** - [Activity #6278] refactor(i18n): restructure localization strings dictionary
 - **2026-07-30T19:56:16+07:00** - [Activity #6279] feat(camera): add dynamic exposure and focus adjustment controls
 - **2026-07-30T20:14:00+07:00** - [Activity #6280] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-07-30T20:41:05+07:00** - [Activity #6281] refactor(styles): migrate hardcoded color values to CSS design tokens
