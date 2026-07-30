@@ -7010,3 +7010,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T15:02:01+07:00** - [Activity #6261] docs(deploy): add production deployment instructions for Vercel/Docker
 - **2026-07-30T15:08:20+07:00** - [Activity #6262] feat(share): generate instant QR code for mobile photo download
 - **2026-07-30T15:18:13+07:00** - [Activity #6263] docs(readme): add detailed hardware camera setup and compatibility guide
+- **2026-07-30T15:30:34+07:00** - [Activity #6264] fix(download): resolve blob URL memory leak on repeated downloads
