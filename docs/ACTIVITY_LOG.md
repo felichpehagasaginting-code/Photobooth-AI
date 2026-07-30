@@ -12718,3 +12718,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T17:34:48+07:00** - [Activity #8091] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-07-30T17:54:01+07:00** - [Activity #8092] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-07-30T19:30:47+07:00** - [Activity #8093] fix(audio): unlock audio context on initial user gesture
+- **2026-07-30T19:42:54+07:00** - [Activity #8094] feat(photobooth): implement multi-frame collage capture sequence
