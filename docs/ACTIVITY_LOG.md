@@ -12750,3 +12750,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T17:19:54+07:00** - [Activity #8123] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-07-31T17:32:01+07:00** - [Activity #8124] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-07-31T19:30:23+07:00** - [Activity #8125] style(button): add subtle hover transition and outline focus style
+- **2026-07-31T20:00:12+07:00** - [Activity #8126] feat(gallery): add touch swipe navigation for captured photo previews
