@@ -7056,3 +7056,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T16:06:11+07:00** - [Activity #6307] chore(deps): update core dependencies to latest stable versions
 - **2026-07-31T16:27:33+07:00** - [Activity #6308] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-07-31T16:36:48+07:00** - [Activity #6309] feat(audio): add shutter click and countdown sound effects
+- **2026-07-31T16:48:35+07:00** - [Activity #6310] perf(memory): dispose cached image objects after strip generation
