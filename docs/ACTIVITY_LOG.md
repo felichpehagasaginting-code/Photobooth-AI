@@ -7037,3 +7037,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-30T22:36:07+07:00** - [Activity #6288] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-07-31T09:02:05+07:00** - [Activity #6289] fix(firebase): handle network timeout retry in transaction hook
 - **2026-07-31T09:13:28+07:00** - [Activity #6290] feat(watermark): customizable event logo watermark overlay
+- **2026-07-31T09:45:35+07:00** - [Activity #6291] style(theme): update dark mode accent color tokens with warm tone
