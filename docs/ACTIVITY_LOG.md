@@ -12732,3 +12732,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T09:50:31+07:00** - [Activity #8105] feat(print): integrate direct thermal printer web serial interface
 - **2026-07-31T10:10:19+07:00** - [Activity #8106] fix(hydration): resolve client-server timestamp mismatch in activity log
 - **2026-07-31T10:25:38+07:00** - [Activity #8107] refactor(types): consolidate photobooth session type definitions
+- **2026-07-31T10:54:09+07:00** - [Activity #8108] feat(filter): add cyber-neon and grain texture post-processing overlay
