@@ -7062,3 +7062,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T17:41:53+07:00** - [Activity #6313] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-07-31T19:30:10+07:00** - [Activity #6314] refactor(api): modularize backend route handlers and validation utils
 - **2026-07-31T19:53:12+07:00** - [Activity #6315] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-07-31T20:16:52+07:00** - [Activity #6316] chore(deps): update core dependencies to latest stable versions
