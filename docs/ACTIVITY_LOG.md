@@ -12747,3 +12747,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T16:18:19+07:00** - [Activity #8120] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-07-31T16:39:39+07:00** - [Activity #8121] fix(auth): prevent race condition when initializing anonymous session
 - **2026-07-31T17:08:22+07:00** - [Activity #8122] feat(filter): add cyber-neon and grain texture post-processing overlay
+- **2026-07-31T17:19:54+07:00** - [Activity #8123] chore(config): adjust tsconfig path aliases for cleaner imports
