@@ -2098,3 +2098,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T15:31:16+07:00** - [Backdate #690] refactor: simplify layout alignment for remote download views
 - **2026-07-31T15:47:29+07:00** - [Backdate #691] style: update button transitions for click states
 - **2026-07-31T16:04:27+07:00** - [Backdate #692] fix: handle edge case with missing env variables gracefully
+- **2026-07-31T16:21:52+07:00** - [Backdate #693] docs: specify instructions for manual verification steps
