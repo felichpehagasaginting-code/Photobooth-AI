@@ -12735,3 +12735,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T10:54:09+07:00** - [Activity #8108] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-07-31T11:25:27+07:00** - [Activity #8109] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-07-31T11:46:48+07:00** - [Activity #8110] fix(export): handle canvas taint error when loading external assets
+- **2026-07-31T12:03:03+07:00** - [Activity #8111] fix(filter): fix gamma correction clipping on high brightness scenes
