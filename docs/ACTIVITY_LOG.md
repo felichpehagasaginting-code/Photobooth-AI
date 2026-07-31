@@ -7047,3 +7047,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T12:01:44+07:00** - [Activity #6298] chore(deps): update core dependencies to latest stable versions
 - **2026-07-31T13:52:39+07:00** - [Activity #6299] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-07-31T14:10:26+07:00** - [Activity #6300] feat(print): integrate direct thermal printer web serial interface
+- **2026-07-31T14:20:25+07:00** - [Activity #6301] fix(firebase): handle network timeout retry in transaction hook
