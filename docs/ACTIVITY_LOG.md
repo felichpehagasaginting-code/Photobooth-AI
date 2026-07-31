@@ -7052,3 +7052,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T14:50:06+07:00** - [Activity #6303] docs(changelog): update version history and release milestones
 - **2026-07-31T15:05:00+07:00** - [Activity #6304] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-07-31T15:24:44+07:00** - [Activity #6305] fix(download): resolve blob URL memory leak on repeated downloads
+- **2026-07-31T15:38:36+07:00** - [Activity #6306] refactor(cleanup): remove deprecated legacy camera capture methods
