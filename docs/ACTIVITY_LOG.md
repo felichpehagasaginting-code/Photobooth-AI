@@ -12753,3 +12753,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T20:00:12+07:00** - [Activity #8126] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-07-31T20:11:51+07:00** - [Activity #8127] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-07-31T20:46:40+07:00** - [Activity #8128] fix(download): resolve blob URL memory leak on repeated downloads
+- **2026-07-31T21:02:00+07:00** - [Activity #8129] refactor(types): consolidate photobooth session type definitions
