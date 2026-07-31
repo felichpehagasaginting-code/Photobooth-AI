@@ -7050,3 +7050,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T14:20:25+07:00** - [Activity #6301] fix(firebase): handle network timeout retry in transaction hook
 - **2026-07-31T14:31:37+07:00** - [Activity #6302] refactor(filter): organize color grading matrices into separate configs
 - **2026-07-31T14:50:06+07:00** - [Activity #6303] docs(changelog): update version history and release milestones
+- **2026-07-31T15:05:00+07:00** - [Activity #6304] perf(fonts): preload display typography to eliminate FOIT delay
