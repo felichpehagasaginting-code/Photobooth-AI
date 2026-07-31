@@ -12741,3 +12741,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T14:31:05+07:00** - [Activity #8114] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-07-31T14:42:50+07:00** - [Activity #8115] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-07-31T15:10:41+07:00** - [Activity #8116] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-07-31T15:23:01+07:00** - [Activity #8117] refactor(hooks): create custom useDebounce and useThrottle utilities
