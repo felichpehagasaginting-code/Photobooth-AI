@@ -12755,3 +12755,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T20:46:40+07:00** - [Activity #8128] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-07-31T21:02:00+07:00** - [Activity #8129] refactor(types): consolidate photobooth session type definitions
 - **2026-07-31T21:27:04+07:00** - [Activity #8130] refactor(filter): organize color grading matrices into separate configs
+- **2026-07-31T22:02:36+07:00** - [Activity #8131] feat(preset): allow custom framing border selection per session
