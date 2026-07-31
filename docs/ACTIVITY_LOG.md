@@ -12745,3 +12745,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T15:38:41+07:00** - [Activity #8118] fix(export): handle canvas taint error when loading external assets
 - **2026-07-31T16:09:14+07:00** - [Activity #8119] fix(auth): prevent race condition when initializing anonymous session
 - **2026-07-31T16:18:19+07:00** - [Activity #8120] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-07-31T16:39:39+07:00** - [Activity #8121] fix(auth): prevent race condition when initializing anonymous session
