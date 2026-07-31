@@ -7066,3 +7066,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T20:50:05+07:00** - [Activity #6317] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-07-31T21:14:33+07:00** - [Activity #6318] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-07-31T21:37:15+07:00** - [Activity #6319] docs(testing): describe manual verification steps for photobooth kiosk
+- **2026-07-31T21:57:36+07:00** - [Activity #6320] style(badge): update status indicator badge colors and glow effects
