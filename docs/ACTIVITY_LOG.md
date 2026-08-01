@@ -7069,3 +7069,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T21:57:36+07:00** - [Activity #6320] style(badge): update status indicator badge colors and glow effects
 - **2026-07-31T22:13:54+07:00** - [Activity #6321] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-08-01T09:00:20+07:00** - [Activity #6322] perf(fonts): preload display typography to eliminate FOIT delay
+- **2026-08-01T09:58:26+07:00** - [Activity #6323] feat(preset): allow custom framing border selection per session
