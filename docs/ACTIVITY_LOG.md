@@ -7071,3 +7071,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-01T09:00:20+07:00** - [Activity #6322] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-08-01T09:58:26+07:00** - [Activity #6323] feat(preset): allow custom framing border selection per session
 - **2026-08-01T10:46:41+07:00** - [Activity #6324] fix(download): resolve blob URL memory leak on repeated downloads
+- **2026-08-01T11:36:10+07:00** - [Activity #6325] chore(deps): update core dependencies to latest stable versions
