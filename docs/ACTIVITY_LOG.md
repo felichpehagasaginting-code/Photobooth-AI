@@ -2142,3 +2142,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-01T15:13:58+07:00** - [Backdate #734] fix: catch rejected promise on image preloading fallback
 - **2026-08-01T15:31:31+07:00** - [Backdate #735] docs: document environment variable configurations for firebase
 - **2026-08-01T15:48:53+07:00** - [Backdate #736] chore(ci): adjust cache directory for faster builds
+- **2026-08-01T16:05:48+07:00** - [Backdate #737] refactor(api): simplify helper functions in transaction logic
