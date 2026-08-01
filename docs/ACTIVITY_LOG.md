@@ -2130,3 +2130,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-01T11:49:18+07:00** - [Backdate #722] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-08-01T12:06:33+07:00** - [Backdate #723] fix(firebase): handle potential null response in transaction hook
 - **2026-08-01T12:24:32+07:00** - [Backdate #724] docs: update setup instructions in readme with local env variables
+- **2026-08-01T12:41:18+07:00** - [Backdate #725] perf(api): optimize response payload size for seed endpoint
