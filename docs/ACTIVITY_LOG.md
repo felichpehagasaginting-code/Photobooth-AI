@@ -2159,3 +2159,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-01T20:02:31+07:00** - [Backdate #751] style: update button transitions for click states
 - **2026-08-01T20:19:42+07:00** - [Backdate #752] fix: handle edge case with missing env variables gracefully
 - **2026-08-01T20:36:01+07:00** - [Backdate #753] docs: specify instructions for manual verification steps
+- **2026-08-01T20:54:57+07:00** - [Backdate #754] chore: remove old dev scripts from package.json
