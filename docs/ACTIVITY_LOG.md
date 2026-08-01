@@ -2141,3 +2141,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-01T14:56:20+07:00** - [Backdate #733] style: adjust border radius for card panels to match premium look
 - **2026-08-01T15:13:58+07:00** - [Backdate #734] fix: catch rejected promise on image preloading fallback
 - **2026-08-01T15:31:31+07:00** - [Backdate #735] docs: document environment variable configurations for firebase
+- **2026-08-01T15:48:53+07:00** - [Backdate #736] chore(ci): adjust cache directory for faster builds
