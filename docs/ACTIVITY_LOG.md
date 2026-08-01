@@ -7073,3 +7073,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-01T10:46:41+07:00** - [Activity #6324] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-08-01T11:36:10+07:00** - [Activity #6325] chore(deps): update core dependencies to latest stable versions
 - **2026-08-01T13:45:00+07:00** - [Activity #6326] chore(deps): update core dependencies to latest stable versions
+- **2026-08-01T14:17:30+07:00** - [Activity #6327] fix(print): fix page margin clipping on 4x6 photo paper print preview
