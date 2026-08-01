@@ -2119,3 +2119,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-07-31T21:27:34+07:00** - [Backdate #711] feat(ui): refine interactive hover feedback for photo thumbnails
 - **2026-08-01T09:00:20+07:00** - [Backdate #712] fix(state): sync current photo index upon modal reopen
 - **2026-08-01T09:17:56+07:00** - [Backdate #713] perf(image): optimize canvas context rendering settings
+- **2026-08-01T09:34:04+07:00** - [Backdate #714] style(theme): update dark mode accent color token
