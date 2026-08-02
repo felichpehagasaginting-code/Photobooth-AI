@@ -7085,3 +7085,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-01T21:51:04+07:00** - [Activity #6336] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-08-02T09:00:28+07:00** - [Activity #6337] fix(audio): unlock audio context on initial user gesture
 - **2026-08-02T09:56:42+07:00** - [Activity #6338] fix(export): handle canvas taint error when loading external assets
+- **2026-08-02T10:43:41+07:00** - [Activity #6339] feat(settings): add camera device selector with resolution fallbacks
