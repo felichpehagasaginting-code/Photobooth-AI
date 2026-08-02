@@ -2205,3 +2205,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-02T20:20:21+07:00** - [Backdate #797] refactor(api): simplify helper functions in transaction logic
 - **2026-08-02T20:37:06+07:00** - [Backdate #798] style: tweak layout grid columns for better tablet responsive reflow
 - **2026-08-02T20:53:50+07:00** - [Backdate #799] perf(ui): reduce opacity calculation overhead during animation
+- **2026-08-02T21:11:00+07:00** - [Backdate #800] fix: add focus-visible styles to filter selector keyboard navigation
