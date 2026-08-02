@@ -7091,3 +7091,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-02T14:23:51+07:00** - [Activity #6342] style(badge): update status indicator badge colors and glow effects
 - **2026-08-02T15:07:49+07:00** - [Activity #6343] fix(state): sync active photo index when reopening gallery drawer
 - **2026-08-02T15:43:48+07:00** - [Activity #6344] refactor(events): use custom event bus for decoupled component messaging
+- **2026-08-02T16:41:04+07:00** - [Activity #6345] docs(changelog): update version history and release milestones
