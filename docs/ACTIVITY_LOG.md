@@ -7089,3 +7089,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-02T11:36:46+07:00** - [Activity #6340] fix(state): sync active photo index when reopening gallery drawer
 - **2026-08-02T13:45:16+07:00** - [Activity #6341] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-08-02T14:23:51+07:00** - [Activity #6342] style(badge): update status indicator badge colors and glow effects
+- **2026-08-02T15:07:49+07:00** - [Activity #6343] fix(state): sync active photo index when reopening gallery drawer
