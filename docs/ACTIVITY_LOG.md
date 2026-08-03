@@ -7129,3 +7129,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-03T20:07:38+07:00** - [Activity #6380] style(shutter): design circular pulsating shutter button with feedback
 - **2026-08-03T20:22:51+07:00** - [Activity #6381] style(cards): apply subtle border gradient and elevation shadows
 - **2026-08-03T20:53:30+07:00** - [Activity #6382] feat(watermark): customizable event logo watermark overlay
+- **2026-08-03T21:12:16+07:00** - [Activity #6383] style(theme): update dark mode accent color tokens with warm tone
