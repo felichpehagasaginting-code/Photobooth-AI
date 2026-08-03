@@ -7106,3 +7106,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-03T11:15:01+07:00** - [Activity #6357] refactor(filter): organize color grading matrices into separate configs
 - **2026-08-03T11:31:29+07:00** - [Activity #6358] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-08-03T11:50:34+07:00** - [Activity #6359] feat(filter): introduce vintage polaroid color lookup preset
+- **2026-08-03T12:11:46+07:00** - [Activity #6360] docs(deploy): add production deployment instructions for Vercel/Docker
