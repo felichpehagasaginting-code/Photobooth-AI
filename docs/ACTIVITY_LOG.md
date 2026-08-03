@@ -2220,3 +2220,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-03T11:50:45+07:00** - [Backdate #812] fix: handle edge case with missing env variables gracefully
 - **2026-08-03T12:06:48+07:00** - [Backdate #813] docs: specify instructions for manual verification steps
 - **2026-08-03T12:24:18+07:00** - [Backdate #814] chore: remove old dev scripts from package.json
+- **2026-08-03T12:40:50+07:00** - [Backdate #815] style: increase typography line-height for better readability
