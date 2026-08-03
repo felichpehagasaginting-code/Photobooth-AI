@@ -7127,3 +7127,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-03T19:30:02+07:00** - [Activity #6378] feat(print): integrate direct thermal printer web serial interface
 - **2026-08-03T19:44:11+07:00** - [Activity #6379] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-08-03T20:07:38+07:00** - [Activity #6380] style(shutter): design circular pulsating shutter button with feedback
+- **2026-08-03T20:22:51+07:00** - [Activity #6381] style(cards): apply subtle border gradient and elevation shadows
