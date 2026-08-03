@@ -7124,3 +7124,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-03T17:16:48+07:00** - [Activity #6375] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-08-03T17:21:37+07:00** - [Activity #6376] fix(state): sync active photo index when reopening gallery drawer
 - **2026-08-03T17:47:31+07:00** - [Activity #6377] docs(testing): describe manual verification steps for photobooth kiosk
+- **2026-08-03T19:30:02+07:00** - [Activity #6378] feat(print): integrate direct thermal printer web serial interface
