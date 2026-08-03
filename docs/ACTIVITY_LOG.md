@@ -2234,3 +2234,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-03T15:48:17+07:00** - [Backdate #826] perf: minimize initial bundle size by refining component imports
 - **2026-08-03T16:05:22+07:00** - [Backdate #827] style: adjust active indicator dot alignment in photo view
 - **2026-08-03T16:22:19+07:00** - [Backdate #828] fix: resolve typescript types for event handler targets
+- **2026-08-03T16:38:23+07:00** - [Backdate #829] refactor: rename confusing state variable to reflect current behavior
