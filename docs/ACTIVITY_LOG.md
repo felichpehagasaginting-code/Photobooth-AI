@@ -7103,3 +7103,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-03T10:08:13+07:00** - [Activity #6354] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-08-03T10:27:56+07:00** - [Activity #6355] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-08-03T10:53:41+07:00** - [Activity #6356] test(api): add integration test coverage for photo seed endpoint
+- **2026-08-03T11:15:01+07:00** - [Activity #6357] refactor(filter): organize color grading matrices into separate configs
