@@ -7131,3 +7131,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-03T20:53:30+07:00** - [Activity #6382] feat(watermark): customizable event logo watermark overlay
 - **2026-08-03T21:12:16+07:00** - [Activity #6383] style(theme): update dark mode accent color tokens with warm tone
 - **2026-08-03T21:21:38+07:00** - [Activity #6384] chore(git): add ignore rules for local session exports and temp files
+- **2026-08-03T21:42:59+07:00** - [Activity #6385] refactor(cleanup): remove deprecated legacy camera capture methods
