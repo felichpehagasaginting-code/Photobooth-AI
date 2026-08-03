@@ -7097,3 +7097,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-02T20:32:03+07:00** - [Activity #6348] style(badge): update status indicator badge colors and glow effects
 - **2026-08-02T21:36:34+07:00** - [Activity #6349] chore(lint): configure ESLint rules for react hooks and accessibility
 - **2026-08-03T09:05:29+07:00** - [Activity #6350] refactor(events): use custom event bus for decoupled component messaging
+- **2026-08-03T09:23:26+07:00** - [Activity #6351] feat(kiosk): add full-screen lock and inactivity reset timer
