@@ -7122,3 +7122,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-03T16:40:02+07:00** - [Activity #6373] feat(watermark): customizable event logo watermark overlay
 - **2026-08-03T16:51:55+07:00** - [Activity #6374] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-08-03T17:16:48+07:00** - [Activity #6375] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-08-03T17:21:37+07:00** - [Activity #6376] fix(state): sync active photo index when reopening gallery drawer
