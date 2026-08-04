@@ -7154,3 +7154,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T14:36:33+07:00** - [Activity #6405] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-08-04T14:43:56+07:00** - [Activity #6406] refactor(export): optimize collage rendering algorithm for speed
 - **2026-08-04T15:13:43+07:00** - [Activity #6407] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-08-04T15:17:23+07:00** - [Activity #6408] style(modal): fine-tune cubic-bezier easing curves on open transition
