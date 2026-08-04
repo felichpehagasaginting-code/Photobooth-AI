@@ -7172,3 +7172,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T20:25:44+07:00** - [Activity #6423] fix(auth): prevent race condition when initializing anonymous session
 - **2026-08-04T20:47:47+07:00** - [Activity #6424] fix(auth): prevent race condition when initializing anonymous session
 - **2026-08-04T21:01:00+07:00** - [Activity #6425] perf(images): compress intermediate preview thumbnails with WebP format
+- **2026-08-04T21:11:59+07:00** - [Activity #6426] docs(arch): add architecture diagram explaining client-side filter flow
