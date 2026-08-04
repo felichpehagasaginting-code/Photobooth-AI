@@ -2272,3 +2272,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T13:49:33+07:00** - [Backdate #864] docs: add comment documenting firebase auth retry flow
 - **2026-08-04T14:06:09+07:00** - [Backdate #865] chore: add gitignore entry for local scratch outputs
 - **2026-08-04T14:23:52+07:00** - [Backdate #866] refactor: split massive component handlers into separate helper file
+- **2026-08-04T14:40:04+07:00** - [Backdate #867] style(ui): apply new subtle grid lines for cards background
