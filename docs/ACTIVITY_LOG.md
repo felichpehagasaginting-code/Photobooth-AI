@@ -2256,3 +2256,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T09:17:41+07:00** - [Backdate #848] refactor(components): extract reusable text shadow utilities
 - **2026-08-04T09:34:18+07:00** - [Backdate #849] fix(api): correct coordinate parsing in photobooth processing route
 - **2026-08-04T09:51:44+07:00** - [Backdate #850] perf(ui): memoize download handler callback in RemoteDownloadView
+- **2026-08-04T10:08:00+07:00** - [Backdate #851] chore: clean up console statements in download screen
