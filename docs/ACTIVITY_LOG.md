@@ -2252,3 +2252,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-03T20:54:05+07:00** - [Backdate #844] docs: update setup instructions in readme with local env variables
 - **2026-08-03T21:10:06+07:00** - [Backdate #845] perf(api): optimize response payload size for seed endpoint
 - **2026-08-03T21:27:50+07:00** - [Backdate #846] chore(deps): update development tooling configuration
+- **2026-08-04T09:00:21+07:00** - [Backdate #847] style(button): add subtle hover transition and outline focus style
