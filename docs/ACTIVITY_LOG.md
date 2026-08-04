@@ -2264,3 +2264,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T11:33:32+07:00** - [Backdate #856] chore(ci): adjust cache directory for faster builds
 - **2026-08-04T11:49:14+07:00** - [Backdate #857] refactor(api): simplify helper functions in transaction logic
 - **2026-08-04T12:06:51+07:00** - [Backdate #858] style: tweak layout grid columns for better tablet responsive reflow
+- **2026-08-04T12:23:10+07:00** - [Backdate #859] perf(ui): reduce opacity calculation overhead during animation
