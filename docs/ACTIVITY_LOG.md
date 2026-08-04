@@ -7156,3 +7156,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T15:13:43+07:00** - [Activity #6407] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-08-04T15:17:23+07:00** - [Activity #6408] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-08-04T15:32:39+07:00** - [Activity #6409] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
+- **2026-08-04T15:42:14+07:00** - [Activity #6410] style(cards): apply subtle border gradient and elevation shadows
