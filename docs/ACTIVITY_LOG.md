@@ -7163,3 +7163,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T16:31:15+07:00** - [Activity #6414] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-08-04T16:46:14+07:00** - [Activity #6415] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-08-04T17:03:05+07:00** - [Activity #6416] chore(build): optimize Vite build chunks and asset minification settings
+- **2026-08-04T17:16:28+07:00** - [Activity #6417] fix(download): resolve blob URL memory leak on repeated downloads
