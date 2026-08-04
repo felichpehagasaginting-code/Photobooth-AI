@@ -7141,3 +7141,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T10:00:46+07:00** - [Activity #6392] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-08-04T10:25:42+07:00** - [Activity #6393] fix(audio): unlock audio context on initial user gesture
 - **2026-08-04T10:39:23+07:00** - [Activity #6394] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-08-04T10:57:13+07:00** - [Activity #6395] refactor(utils): streamline color conversion and hex parsing helpers
