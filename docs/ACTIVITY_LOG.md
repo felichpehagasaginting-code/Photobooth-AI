@@ -7166,3 +7166,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T17:16:28+07:00** - [Activity #6417] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-08-04T17:33:26+07:00** - [Activity #6418] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-08-04T17:49:36+07:00** - [Activity #6419] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-08-04T19:33:54+07:00** - [Activity #6420] refactor(events): use custom event bus for decoupled component messaging
