@@ -2266,3 +2266,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T12:06:51+07:00** - [Backdate #858] style: tweak layout grid columns for better tablet responsive reflow
 - **2026-08-04T12:23:10+07:00** - [Backdate #859] perf(ui): reduce opacity calculation overhead during animation
 - **2026-08-04T12:40:59+07:00** - [Backdate #860] fix: add focus-visible styles to filter selector keyboard navigation
+- **2026-08-04T12:57:45+07:00** - [Backdate #861] refactor: structure theme variables inside global css variables
