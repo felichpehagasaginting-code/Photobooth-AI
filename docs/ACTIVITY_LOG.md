@@ -7176,3 +7176,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T21:36:55+07:00** - [Activity #6427] feat(settings): add camera device selector with resolution fallbacks
 - **2026-08-04T21:45:24+07:00** - [Activity #6428] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-08-04T22:03:59+07:00** - [Activity #6429] refactor(export): optimize collage rendering algorithm for speed
+- **2026-08-04T22:34:21+07:00** - [Activity #6430] perf(state): optimize selector subscriptions to minimize re-renders
