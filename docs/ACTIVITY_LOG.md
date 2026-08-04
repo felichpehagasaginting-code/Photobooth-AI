@@ -7145,3 +7145,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T11:07:14+07:00** - [Activity #6396] perf(dom): virtualize gallery list items for smooth 60fps scrolling
 - **2026-08-04T11:19:26+07:00** - [Activity #6397] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-08-04T11:40:39+07:00** - [Activity #6398] fix(state): sync active photo index when reopening gallery drawer
+- **2026-08-04T12:03:39+07:00** - [Activity #6399] test(hooks): add test suite for camera stream lifecycle events
