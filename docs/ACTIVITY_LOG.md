@@ -7182,3 +7182,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-05T09:37:01+07:00** - [Activity #6433] feat(settings): add camera device selector with resolution fallbacks
 - **2026-08-05T09:54:50+07:00** - [Activity #6434] feat(settings): add camera device selector with resolution fallbacks
 - **2026-08-05T10:15:21+07:00** - [Activity #6435] chore(git): add ignore rules for local session exports and temp files
+- **2026-08-05T10:32:04+07:00** - [Activity #6436] docs(arch): add architecture diagram explaining client-side filter flow
