@@ -2309,3 +2309,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-05T11:33:45+07:00** - [Backdate #901] refactor(ui): clean up unused spacing classes in FilterSelect
 - **2026-08-05T11:49:22+07:00** - [Backdate #902] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-08-05T12:06:23+07:00** - [Backdate #903] fix(firebase): handle potential null response in transaction hook
+- **2026-08-05T12:23:53+07:00** - [Backdate #904] docs: update setup instructions in readme with local env variables
