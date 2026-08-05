@@ -7177,3 +7177,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T21:45:24+07:00** - [Activity #6428] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-08-04T22:03:59+07:00** - [Activity #6429] refactor(export): optimize collage rendering algorithm for speed
 - **2026-08-04T22:34:21+07:00** - [Activity #6430] perf(state): optimize selector subscriptions to minimize re-renders
+- **2026-08-05T09:00:11+07:00** - [Activity #6431] docs(arch): add architecture diagram explaining client-side filter flow
