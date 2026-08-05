@@ -7179,3 +7179,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-04T22:34:21+07:00** - [Activity #6430] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-08-05T09:00:11+07:00** - [Activity #6431] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-08-05T09:10:04+07:00** - [Activity #6432] fix(export): handle canvas taint error when loading external assets
+- **2026-08-05T09:37:01+07:00** - [Activity #6433] feat(settings): add camera device selector with resolution fallbacks
