@@ -7195,3 +7195,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-05T14:28:05+07:00** - [Activity #6446] feat(stickers): support draggable and resizable decorative stickers
 - **2026-08-05T14:30:42+07:00** - [Activity #6447] feat(watermark): customizable event logo watermark overlay
 - **2026-08-05T14:56:34+07:00** - [Activity #6448] style(badge): update status indicator badge colors and glow effects
+- **2026-08-05T15:04:06+07:00** - [Activity #6449] docs(api): document endpoint parameters and error codes for seed route
