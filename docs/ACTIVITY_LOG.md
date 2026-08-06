@@ -7233,3 +7233,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T12:16:52+07:00** - [Activity #6484] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-08-06T13:50:07+07:00** - [Activity #6485] perf(state): optimize selector subscriptions to minimize re-renders
 - **2026-08-06T14:01:28+07:00** - [Activity #6486] feat(ui): implement smooth countdown overlay animation before shutter
+- **2026-08-06T14:17:59+07:00** - [Activity #6487] perf(api): cache static filter presets with aggressive HTTP headers
