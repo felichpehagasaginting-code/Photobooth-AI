@@ -7230,3 +7230,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T11:32:53+07:00** - [Activity #6481] feat(cloud): async upload queue for batch photo backup
 - **2026-08-06T11:43:20+07:00** - [Activity #6482] chore(build): optimize Vite build chunks and asset minification settings
 - **2026-08-06T11:55:25+07:00** - [Activity #6483] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-08-06T12:16:52+07:00** - [Activity #6484] style(photobooth): refine backdrop blur and color contrast for dark mode
