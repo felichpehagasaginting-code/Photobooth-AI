@@ -7253,3 +7253,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T17:44:50+07:00** - [Activity #6504] refactor(types): consolidate photobooth session type definitions
 - **2026-08-06T19:30:04+07:00** - [Activity #6505] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-08-06T19:48:12+07:00** - [Activity #6506] refactor(filter): organize color grading matrices into separate configs
+- **2026-08-06T20:01:58+07:00** - [Activity #6507] feat(kiosk): add full-screen lock and inactivity reset timer
