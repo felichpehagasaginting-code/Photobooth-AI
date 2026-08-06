@@ -7236,3 +7236,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T14:17:59+07:00** - [Activity #6487] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-08-06T14:24:40+07:00** - [Activity #6488] refactor(events): use custom event bus for decoupled component messaging
 - **2026-08-06T14:35:37+07:00** - [Activity #6489] fix(export): handle canvas taint error when loading external assets
+- **2026-08-06T14:51:10+07:00** - [Activity #6490] fix(camera): prevent stream freeze on rapid device re-plug
