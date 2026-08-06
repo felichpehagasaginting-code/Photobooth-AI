@@ -7240,3 +7240,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T14:57:29+07:00** - [Activity #6491] feat(audio): add shutter click and countdown sound effects
 - **2026-08-06T15:08:07+07:00** - [Activity #6492] refactor(hooks): create custom useDebounce and useThrottle utilities
 - **2026-08-06T15:24:28+07:00** - [Activity #6493] docs(changelog): update version history and release milestones
+- **2026-08-06T15:46:25+07:00** - [Activity #6494] feat(preview): render live filter preview using WebGL shader canvas
