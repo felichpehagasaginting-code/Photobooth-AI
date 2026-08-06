@@ -7223,3 +7223,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T09:24:30+07:00** - [Activity #6474] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-08-06T09:49:06+07:00** - [Activity #6475] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-08-06T09:57:25+07:00** - [Activity #6476] refactor(api): modularize backend route handlers and validation utils
+- **2026-08-06T10:15:37+07:00** - [Activity #6477] refactor(hooks): create custom useDebounce and useThrottle utilities
