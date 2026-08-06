@@ -7247,3 +7247,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T16:30:03+07:00** - [Activity #6498] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-08-06T16:47:03+07:00** - [Activity #6499] fix(accessibility): add missing aria-labels to icon action buttons
 - **2026-08-06T17:02:32+07:00** - [Activity #6500] docs(api): document endpoint parameters and error codes for seed route
+- **2026-08-06T17:04:37+07:00** - [Activity #6501] perf(memory): dispose cached image objects after strip generation
