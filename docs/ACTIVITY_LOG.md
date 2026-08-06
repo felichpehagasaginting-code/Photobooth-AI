@@ -7238,3 +7238,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T14:35:37+07:00** - [Activity #6489] fix(export): handle canvas taint error when loading external assets
 - **2026-08-06T14:51:10+07:00** - [Activity #6490] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-08-06T14:57:29+07:00** - [Activity #6491] feat(audio): add shutter click and countdown sound effects
+- **2026-08-06T15:08:07+07:00** - [Activity #6492] refactor(hooks): create custom useDebounce and useThrottle utilities
