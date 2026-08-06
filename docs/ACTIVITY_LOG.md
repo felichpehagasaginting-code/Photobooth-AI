@@ -2371,3 +2371,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T16:22:20+07:00** - [Backdate #963] fix(firebase): handle potential null response in transaction hook
 - **2026-08-06T16:38:36+07:00** - [Backdate #964] docs: update setup instructions in readme with local env variables
 - **2026-08-06T16:56:12+07:00** - [Backdate #965] perf(api): optimize response payload size for seed endpoint
+- **2026-08-06T17:12:31+07:00** - [Backdate #966] chore(deps): update development tooling configuration
