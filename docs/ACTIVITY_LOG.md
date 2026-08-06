@@ -7242,3 +7242,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T15:24:28+07:00** - [Activity #6493] docs(changelog): update version history and release milestones
 - **2026-08-06T15:46:25+07:00** - [Activity #6494] feat(preview): render live filter preview using WebGL shader canvas
 - **2026-08-06T15:49:09+07:00** - [Activity #6495] feat(watermark): customizable event logo watermark overlay
+- **2026-08-06T16:09:50+07:00** - [Activity #6496] style(badge): update status indicator badge colors and glow effects
