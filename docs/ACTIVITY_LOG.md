@@ -7261,3 +7261,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T21:36:23+07:00** - [Activity #6512] feat(theme): introduce warm studio and monochrome dark themes
 - **2026-08-06T21:46:28+07:00** - [Activity #6513] refactor(services): separate cloud storage adapter from UI layer
 - **2026-08-06T22:15:19+07:00** - [Activity #6514] perf(bundle): implement dynamic lazy loading for heavy filter shaders
+- **2026-08-06T22:30:34+07:00** - [Activity #6515] fix(print): fix page margin clipping on 4x6 photo paper print preview
