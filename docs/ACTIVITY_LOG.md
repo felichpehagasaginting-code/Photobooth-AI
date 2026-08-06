@@ -7245,3 +7245,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T16:09:50+07:00** - [Activity #6496] style(badge): update status indicator badge colors and glow effects
 - **2026-08-06T16:27:28+07:00** - [Activity #6497] docs(env): document all required environment variables with defaults
 - **2026-08-06T16:30:03+07:00** - [Activity #6498] fix(accessibility): add missing aria-labels to icon action buttons
+- **2026-08-06T16:47:03+07:00** - [Activity #6499] fix(accessibility): add missing aria-labels to icon action buttons
