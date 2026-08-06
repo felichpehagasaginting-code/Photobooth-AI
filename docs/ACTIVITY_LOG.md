@@ -2360,3 +2360,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T13:14:37+07:00** - [Backdate #952] fix(state): sync current photo index upon modal reopen
 - **2026-08-06T13:31:41+07:00** - [Backdate #953] perf(image): optimize canvas context rendering settings
 - **2026-08-06T13:48:15+07:00** - [Backdate #954] style(theme): update dark mode accent color token
+- **2026-08-06T14:06:10+07:00** - [Backdate #955] refactor(hooks): abstract custom window size listener
