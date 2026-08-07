@@ -7263,3 +7263,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T22:15:19+07:00** - [Activity #6514] perf(bundle): implement dynamic lazy loading for heavy filter shaders
 - **2026-08-06T22:30:34+07:00** - [Activity #6515] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-08-07T09:00:15+07:00** - [Activity #6516] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-08-07T09:20:52+07:00** - [Activity #6517] fix(camera): prevent stream freeze on rapid device re-plug
