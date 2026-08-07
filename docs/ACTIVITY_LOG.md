@@ -7292,3 +7292,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-07T19:50:28+07:00** - [Activity #6543] perf(memory): dispose cached image objects after strip generation
 - **2026-08-07T20:17:17+07:00** - [Activity #6544] docs(api): document endpoint parameters and error codes for seed route
 - **2026-08-07T20:34:00+07:00** - [Activity #6545] test(hooks): add test suite for camera stream lifecycle events
+- **2026-08-07T20:52:30+07:00** - [Activity #6546] fix(camera): resolve aspect ratio distortion on ultrawide webcams
