@@ -7274,3 +7274,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-07T12:04:19+07:00** - [Activity #6525] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-08-07T13:52:50+07:00** - [Activity #6526] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-08-07T13:56:22+07:00** - [Activity #6527] feat(print): integrate direct thermal printer web serial interface
+- **2026-08-07T14:25:25+07:00** - [Activity #6528] fix(download): resolve blob URL memory leak on repeated downloads
