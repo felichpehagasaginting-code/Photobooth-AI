@@ -7271,3 +7271,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-07T11:09:40+07:00** - [Activity #6522] fix(layout): adjust flexbox wrap behavior on tablet landscape mode
 - **2026-08-07T11:19:43+07:00** - [Activity #6523] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-08-07T11:49:05+07:00** - [Activity #6524] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-08-07T12:04:19+07:00** - [Activity #6525] docs(readme): add detailed hardware camera setup and compatibility guide
