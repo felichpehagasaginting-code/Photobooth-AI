@@ -2388,3 +2388,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-06T21:10:05+07:00** - [Backdate #980] fix: add focus-visible styles to filter selector keyboard navigation
 - **2026-08-06T21:28:05+07:00** - [Backdate #981] refactor: structure theme variables inside global css variables
 - **2026-08-07T09:00:32+07:00** - [Backdate #982] style(components): modernize layout overlap for bento-style elements
+- **2026-08-07T09:17:50+07:00** - [Backdate #983] fix(api): sanitize input parameters in generate-filter endpoint
