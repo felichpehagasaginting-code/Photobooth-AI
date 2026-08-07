@@ -7295,3 +7295,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-07T20:52:30+07:00** - [Activity #6546] fix(camera): resolve aspect ratio distortion on ultrawide webcams
 - **2026-08-07T21:20:02+07:00** - [Activity #6547] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-08-07T21:43:31+07:00** - [Activity #6548] refactor(ui): extract reusable glass-panel and badge components
+- **2026-08-07T22:06:28+07:00** - [Activity #6549] style(modal): fine-tune cubic-bezier easing curves on open transition
