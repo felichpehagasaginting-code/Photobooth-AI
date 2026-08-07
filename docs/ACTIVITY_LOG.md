@@ -2412,3 +2412,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-07T15:14:19+07:00** - [Backdate #1004] style: fine-tune cubic-bezier transition curves on modal overlay
 - **2026-08-07T15:30:25+07:00** - [Backdate #1005] fix: check authentication status before initializing seed database
 - **2026-08-07T15:47:32+07:00** - [Backdate #1006] perf: minimize initial bundle size by refining component imports
+- **2026-08-07T16:05:30+07:00** - [Backdate #1007] style: adjust active indicator dot alignment in photo view
