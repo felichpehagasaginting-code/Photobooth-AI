@@ -7296,3 +7296,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-07T21:20:02+07:00** - [Activity #6547] fix(print): fix page margin clipping on 4x6 photo paper print preview
 - **2026-08-07T21:43:31+07:00** - [Activity #6548] refactor(ui): extract reusable glass-panel and badge components
 - **2026-08-07T22:06:28+07:00** - [Activity #6549] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-08-07T22:29:43+07:00** - [Activity #6550] chore(git): add ignore rules for local session exports and temp files
