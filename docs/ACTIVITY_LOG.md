@@ -7293,3 +7293,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-07T20:17:17+07:00** - [Activity #6544] docs(api): document endpoint parameters and error codes for seed route
 - **2026-08-07T20:34:00+07:00** - [Activity #6545] test(hooks): add test suite for camera stream lifecycle events
 - **2026-08-07T20:52:30+07:00** - [Activity #6546] fix(camera): resolve aspect ratio distortion on ultrawide webcams
+- **2026-08-07T21:20:02+07:00** - [Activity #6547] fix(print): fix page margin clipping on 4x6 photo paper print preview
