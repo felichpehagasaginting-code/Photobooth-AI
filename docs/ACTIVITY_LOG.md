@@ -7290,3 +7290,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-07T17:34:13+07:00** - [Activity #6541] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-08-07T19:30:28+07:00** - [Activity #6542] refactor(state): migrate photo session state management to zustand store
 - **2026-08-07T19:50:28+07:00** - [Activity #6543] perf(memory): dispose cached image objects after strip generation
+- **2026-08-07T20:17:17+07:00** - [Activity #6544] docs(api): document endpoint parameters and error codes for seed route
