@@ -2428,3 +2428,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-07T19:46:26+07:00** - [Backdate #1020] style(typography): refine letter-spacing for subheadings
 - **2026-08-07T20:02:12+07:00** - [Backdate #1021] refactor(ui): clean up unused spacing classes in FilterSelect
 - **2026-08-07T20:20:40+07:00** - [Backdate #1022] style(photobooth): refine backdrop blur and color contrast for dark mode
+- **2026-08-07T20:36:41+07:00** - [Backdate #1023] fix(firebase): handle potential null response in transaction hook
