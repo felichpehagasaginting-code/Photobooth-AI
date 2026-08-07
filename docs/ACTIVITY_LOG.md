@@ -7267,3 +7267,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-07T09:39:42+07:00** - [Activity #6518] refactor(canvas): simplify image compositing pipeline architecture
 - **2026-08-07T10:06:53+07:00** - [Activity #6519] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-08-07T10:24:50+07:00** - [Activity #6520] feat(share): generate instant QR code for mobile photo download
+- **2026-08-07T10:52:50+07:00** - [Activity #6521] fix(filter): fix gamma correction clipping on high brightness scenes
