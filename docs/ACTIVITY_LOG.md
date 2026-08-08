@@ -7305,3 +7305,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-08T11:36:22+07:00** - [Activity #6556] fix(state): sync active photo index when reopening gallery drawer
 - **2026-08-08T12:04:55+07:00** - [Activity #6557] feat(ui): implement smooth countdown overlay animation before shutter
 - **2026-08-08T13:52:22+07:00** - [Activity #6558] chore(deps): update core dependencies to latest stable versions
+- **2026-08-08T14:07:16+07:00** - [Activity #6559] docs(api): document endpoint parameters and error codes for seed route
