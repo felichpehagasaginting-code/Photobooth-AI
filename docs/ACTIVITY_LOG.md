@@ -7310,3 +7310,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-08T15:07:34+07:00** - [Activity #6561] style(badge): update status indicator badge colors and glow effects
 - **2026-08-08T15:31:02+07:00** - [Activity #6562] feat(print): integrate direct thermal printer web serial interface
 - **2026-08-08T15:57:09+07:00** - [Activity #6563] feat(gallery): add touch swipe navigation for captured photo previews
+- **2026-08-08T16:12:57+07:00** - [Activity #6564] chore(git): add ignore rules for local session exports and temp files
