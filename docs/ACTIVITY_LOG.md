@@ -2437,3 +2437,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-08T09:33:30+07:00** - [Backdate #1029] fix(api): correct coordinate parsing in photobooth processing route
 - **2026-08-08T09:50:08+07:00** - [Backdate #1030] perf(ui): memoize download handler callback in RemoteDownloadView
 - **2026-08-08T10:07:10+07:00** - [Backdate #1031] chore: clean up console statements in download screen
+- **2026-08-08T10:24:55+07:00** - [Backdate #1032] refactor: group interface type declarations in types/index.ts
