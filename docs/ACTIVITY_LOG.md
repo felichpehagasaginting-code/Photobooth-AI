@@ -7302,3 +7302,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-08T10:04:06+07:00** - [Activity #6553] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-08-08T10:30:11+07:00** - [Activity #6554] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-08-08T11:00:53+07:00** - [Activity #6555] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-08-08T11:36:22+07:00** - [Activity #6556] fix(state): sync active photo index when reopening gallery drawer
