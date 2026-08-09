@@ -7328,3 +7328,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-09T14:19:21+07:00** - [Activity #6579] style(modal): fine-tune cubic-bezier easing curves on open transition
 - **2026-08-09T15:03:19+07:00** - [Activity #6580] perf(api): cache static filter presets with aggressive HTTP headers
 - **2026-08-09T15:55:48+07:00** - [Activity #6581] fix(ui): correct modal z-index layering on small mobile viewports
+- **2026-08-09T16:26:44+07:00** - [Activity #6582] refactor(services): separate cloud storage adapter from UI layer
