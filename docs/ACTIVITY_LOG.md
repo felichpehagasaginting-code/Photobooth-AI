@@ -7326,3 +7326,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-09T11:38:44+07:00** - [Activity #6577] feat(export): support high-resolution PNG and PDF print strip layout
 - **2026-08-09T13:50:34+07:00** - [Activity #6578] perf(memory): dispose cached image objects after strip generation
 - **2026-08-09T14:19:21+07:00** - [Activity #6579] style(modal): fine-tune cubic-bezier easing curves on open transition
+- **2026-08-09T15:03:19+07:00** - [Activity #6580] perf(api): cache static filter presets with aggressive HTTP headers
