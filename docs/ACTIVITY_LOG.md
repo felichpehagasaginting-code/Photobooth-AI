@@ -7321,3 +7321,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-08T21:43:33+07:00** - [Activity #6572] refactor(api): modularize backend route handlers and validation utils
 - **2026-08-08T22:06:41+07:00** - [Activity #6573] feat(ai): integrate edge background removal model
 - **2026-08-09T09:00:42+07:00** - [Activity #6574] fix(canvas): prevent blur artifacts during canvas downsampling
+- **2026-08-09T10:00:40+07:00** - [Activity #6575] chore(lint): configure ESLint rules for react hooks and accessibility
