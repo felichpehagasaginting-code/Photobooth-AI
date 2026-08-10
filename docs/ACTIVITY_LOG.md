@@ -7351,3 +7351,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-10T15:10:32+07:00** - [Activity #6602] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-08-10T15:30:52+07:00** - [Activity #6603] fix(filter): fix gamma correction clipping on high brightness scenes
 - **2026-08-10T15:52:40+07:00** - [Activity #6604] refactor(cleanup): remove deprecated legacy camera capture methods
+- **2026-08-10T15:53:24+07:00** - [Activity #6605] fix(ui): correct modal z-index layering on small mobile viewports
