@@ -7338,3 +7338,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-10T09:40:48+07:00** - [Activity #6589] refactor(filter): organize color grading matrices into separate configs
 - **2026-08-10T09:56:17+07:00** - [Activity #6590] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-08-10T10:24:36+07:00** - [Activity #6591] feat(audio): add shutter click and countdown sound effects
+- **2026-08-10T10:42:50+07:00** - [Activity #6592] chore(deps): update core dependencies to latest stable versions
