@@ -7350,3 +7350,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-10T14:45:29+07:00** - [Activity #6601] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-08-10T15:10:32+07:00** - [Activity #6602] test(canvas): add snapshot tests for multi-frame collage layouts
 - **2026-08-10T15:30:52+07:00** - [Activity #6603] fix(filter): fix gamma correction clipping on high brightness scenes
+- **2026-08-10T15:52:40+07:00** - [Activity #6604] refactor(cleanup): remove deprecated legacy camera capture methods
