@@ -2527,3 +2527,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-10T09:33:56+07:00** - [Backdate #1119] style: improve font pair weighting contrast in hero display
 - **2026-08-10T09:51:28+07:00** - [Backdate #1120] fix: prevent layout shift on image aspect ratio rendering
 - **2026-08-10T10:08:18+07:00** - [Backdate #1121] refactor: simplify transaction processing type schema
+- **2026-08-10T10:24:10+07:00** - [Backdate #1122] docs: update api endpoint guidelines for filter generation
