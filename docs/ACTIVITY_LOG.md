@@ -2537,3 +2537,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-10T12:24:07+07:00** - [Backdate #1129] refactor: rename confusing state variable to reflect current behavior
 - **2026-08-10T12:41:55+07:00** - [Backdate #1130] docs: final documentation verification for this phase
 - **2026-08-10T12:57:40+07:00** - [Backdate #1131] feat(ui): refine interactive hover feedback for photo thumbnails
+- **2026-08-10T13:15:31+07:00** - [Backdate #1132] fix(state): sync current photo index upon modal reopen
