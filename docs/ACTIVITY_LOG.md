@@ -7336,3 +7336,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-10T09:00:41+07:00** - [Activity #6587] refactor(state): migrate photo session state management to zustand store
 - **2026-08-10T09:21:18+07:00** - [Activity #6588] style(controls): refine slider track and thumb sizing for touch screens
 - **2026-08-10T09:40:48+07:00** - [Activity #6589] refactor(filter): organize color grading matrices into separate configs
+- **2026-08-10T09:56:17+07:00** - [Activity #6590] perf(images): compress intermediate preview thumbnails with WebP format
