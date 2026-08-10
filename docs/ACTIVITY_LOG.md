@@ -2529,3 +2529,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-10T10:08:18+07:00** - [Backdate #1121] refactor: simplify transaction processing type schema
 - **2026-08-10T10:24:10+07:00** - [Backdate #1122] docs: update api endpoint guidelines for filter generation
 - **2026-08-10T10:41:59+07:00** - [Backdate #1123] chore: standardize line endings across codebase
+- **2026-08-10T10:59:56+07:00** - [Backdate #1124] style: fine-tune cubic-bezier transition curves on modal overlay
