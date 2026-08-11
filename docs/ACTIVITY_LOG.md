@@ -7384,3 +7384,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-11T14:05:03+07:00** - [Activity #6635] fix(download): resolve blob URL memory leak on repeated downloads
 - **2026-08-11T14:10:38+07:00** - [Activity #6636] refactor(utils): streamline color conversion and hex parsing helpers
 - **2026-08-11T14:15:42+07:00** - [Activity #6637] test(api): add integration test coverage for photo seed endpoint
+- **2026-08-11T14:27:34+07:00** - [Activity #6638] perf(fonts): preload display typography to eliminate FOIT delay
