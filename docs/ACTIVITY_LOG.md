@@ -7393,3 +7393,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-11T15:45:28+07:00** - [Activity #6644] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-08-11T16:02:55+07:00** - [Activity #6645] feat(cloud): async upload queue for batch photo backup
 - **2026-08-11T16:09:04+07:00** - [Activity #6646] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
+- **2026-08-11T16:17:44+07:00** - [Activity #6647] perf(fonts): preload display typography to eliminate FOIT delay
