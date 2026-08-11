@@ -7387,3 +7387,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-11T14:27:34+07:00** - [Activity #6638] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-08-11T14:43:28+07:00** - [Activity #6639] style(shutter): design circular pulsating shutter button with feedback
 - **2026-08-11T14:48:35+07:00** - [Activity #6640] fix(state): sync active photo index when reopening gallery drawer
+- **2026-08-11T15:08:56+07:00** - [Activity #6641] docs(changelog): update version history and release milestones
