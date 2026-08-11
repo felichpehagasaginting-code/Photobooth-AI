@@ -7408,3 +7408,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-11T20:38:34+07:00** - [Activity #6659] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-08-11T20:56:23+07:00** - [Activity #6660] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-08-11T21:02:57+07:00** - [Activity #6661] refactor(i18n): restructure localization strings dictionary
+- **2026-08-11T21:22:05+07:00** - [Activity #6662] refactor(camera): extract media stream hook into standalone module
