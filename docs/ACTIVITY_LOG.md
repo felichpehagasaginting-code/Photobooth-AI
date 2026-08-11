@@ -7411,3 +7411,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-11T21:22:05+07:00** - [Activity #6662] refactor(camera): extract media stream hook into standalone module
 - **2026-08-11T21:34:50+07:00** - [Activity #6663] refactor(i18n): restructure localization strings dictionary
 - **2026-08-11T21:50:06+07:00** - [Activity #6664] feat(stickers): support draggable and resizable decorative stickers
+- **2026-08-11T22:06:56+07:00** - [Activity #6665] perf(fonts): preload display typography to eliminate FOIT delay
