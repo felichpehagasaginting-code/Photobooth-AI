@@ -7431,3 +7431,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-12T13:45:48+07:00** - [Activity #6682] test(api): add integration test coverage for photo seed endpoint
 - **2026-08-12T13:48:22+07:00** - [Activity #6683] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-08-12T14:12:42+07:00** - [Activity #6684] fix(audio): unlock audio context on initial user gesture
+- **2026-08-12T14:15:02+07:00** - [Activity #6685] chore(config): adjust tsconfig path aliases for cleaner imports
