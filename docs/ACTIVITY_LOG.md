@@ -7426,3 +7426,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-12T11:22:54+07:00** - [Activity #6677] style(theme): update dark mode accent color tokens with warm tone
 - **2026-08-12T11:27:49+07:00** - [Activity #6678] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-08-12T11:40:07+07:00** - [Activity #6679] docs(testing): describe manual verification steps for photobooth kiosk
+- **2026-08-12T11:58:04+07:00** - [Activity #6680] feat(watermark): customizable event logo watermark overlay
