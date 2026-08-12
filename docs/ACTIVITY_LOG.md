@@ -7428,3 +7428,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-12T11:40:07+07:00** - [Activity #6679] docs(testing): describe manual verification steps for photobooth kiosk
 - **2026-08-12T11:58:04+07:00** - [Activity #6680] feat(watermark): customizable event logo watermark overlay
 - **2026-08-12T12:12:56+07:00** - [Activity #6681] fix(state): sync active photo index when reopening gallery drawer
+- **2026-08-12T13:45:48+07:00** - [Activity #6682] test(api): add integration test coverage for photo seed endpoint
