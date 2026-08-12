@@ -7416,3 +7416,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-12T09:07:37+07:00** - [Activity #6667] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-08-12T09:15:29+07:00** - [Activity #6668] feat(filter): add cyber-neon and grain texture post-processing overlay
 - **2026-08-12T09:21:46+07:00** - [Activity #6669] feat(theme): introduce warm studio and monochrome dark themes
+- **2026-08-12T09:48:55+07:00** - [Activity #6670] perf(dom): virtualize gallery list items for smooth 60fps scrolling
