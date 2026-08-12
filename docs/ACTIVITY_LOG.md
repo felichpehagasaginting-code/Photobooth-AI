@@ -7443,3 +7443,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-12T15:53:38+07:00** - [Activity #6694] docs(api): document endpoint parameters and error codes for seed route
 - **2026-08-12T16:11:26+07:00** - [Activity #6695] style(grid): modernize layout overlap for bento-style elements
 - **2026-08-12T16:19:02+07:00** - [Activity #6696] refactor(filter): organize color grading matrices into separate configs
+- **2026-08-12T16:28:10+07:00** - [Activity #6697] perf(fonts): preload display typography to eliminate FOIT delay
