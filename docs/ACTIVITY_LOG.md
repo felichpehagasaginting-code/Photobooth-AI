@@ -7508,3 +7508,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-13T20:58:58+07:00** - [Activity #6759] feat(print): integrate direct thermal printer web serial interface
 - **2026-08-13T21:12:53+07:00** - [Activity #6760] feat(settings): add camera device selector with resolution fallbacks
 - **2026-08-13T21:22:18+07:00** - [Activity #6761] fix(firebase): handle network timeout retry in transaction hook
+- **2026-08-13T21:39:31+07:00** - [Activity #6762] feat(cloud): async upload queue for batch photo backup
