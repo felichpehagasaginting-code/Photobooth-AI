@@ -7475,3 +7475,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-13T11:03:11+07:00** - [Activity #6726] docs(changelog): update version history and release milestones
 - **2026-08-13T11:15:02+07:00** - [Activity #6727] fix(state): sync active photo index when reopening gallery drawer
 - **2026-08-13T11:38:43+07:00** - [Activity #6728] feat(cloud): async upload queue for batch photo backup
+- **2026-08-13T11:44:07+07:00** - [Activity #6729] feat(gallery): add touch swipe navigation for captured photo previews
