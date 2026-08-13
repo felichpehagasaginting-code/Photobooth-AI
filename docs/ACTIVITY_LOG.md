@@ -7501,3 +7501,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-13T17:38:07+07:00** - [Activity #6752] refactor(events): use custom event bus for decoupled component messaging
 - **2026-08-13T17:54:08+07:00** - [Activity #6753] feat(preset): allow custom framing border selection per session
 - **2026-08-13T19:34:24+07:00** - [Activity #6754] docs(changelog): update version history and release milestones
+- **2026-08-13T19:48:19+07:00** - [Activity #6755] refactor(i18n): restructure localization strings dictionary
