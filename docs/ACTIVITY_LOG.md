@@ -7503,3 +7503,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-13T19:34:24+07:00** - [Activity #6754] docs(changelog): update version history and release milestones
 - **2026-08-13T19:48:19+07:00** - [Activity #6755] refactor(i18n): restructure localization strings dictionary
 - **2026-08-13T20:06:27+07:00** - [Activity #6756] fix(export): handle canvas taint error when loading external assets
+- **2026-08-13T20:17:21+07:00** - [Activity #6757] docs(deploy): add production deployment instructions for Vercel/Docker
