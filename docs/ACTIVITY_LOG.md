@@ -7499,3 +7499,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-13T17:08:55+07:00** - [Activity #6750] style(button): add subtle hover transition and outline focus style
 - **2026-08-13T17:22:58+07:00** - [Activity #6751] feat(cloud): async upload queue for batch photo backup
 - **2026-08-13T17:38:07+07:00** - [Activity #6752] refactor(events): use custom event bus for decoupled component messaging
+- **2026-08-13T17:54:08+07:00** - [Activity #6753] feat(preset): allow custom framing border selection per session
