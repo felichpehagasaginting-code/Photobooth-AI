@@ -2701,3 +2701,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-13T20:36:53+07:00** - [Backdate #1293] docs: specify instructions for manual verification steps
 - **2026-08-13T20:53:05+07:00** - [Backdate #1294] chore: remove old dev scripts from package.json
 - **2026-08-13T21:10:45+07:00** - [Backdate #1295] style: increase typography line-height for better readability
+- **2026-08-13T21:28:39+07:00** - [Backdate #1296] refactor: remove redundant condition checks in filter-select
