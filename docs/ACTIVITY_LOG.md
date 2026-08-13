@@ -7463,3 +7463,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-12T21:56:49+07:00** - [Activity #6714] style(typography): refine letter-spacing and hierarchy for hero heading
 - **2026-08-12T22:18:19+07:00** - [Activity #6715] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-08-12T22:30:57+07:00** - [Activity #6716] refactor(hooks): create custom useDebounce and useThrottle utilities
+- **2026-08-13T09:01:15+07:00** - [Activity #6717] docs(comments): add inline JSDoc comments to image processing helpers
