@@ -2679,3 +2679,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-13T14:22:41+07:00** - [Backdate #1271] chore: clean up console statements in download screen
 - **2026-08-13T14:40:28+07:00** - [Backdate #1272] refactor: group interface type declarations in types/index.ts
 - **2026-08-13T14:56:44+07:00** - [Backdate #1273] style: adjust border radius for card panels to match premium look
+- **2026-08-13T15:14:00+07:00** - [Backdate #1274] fix: catch rejected promise on image preloading fallback
