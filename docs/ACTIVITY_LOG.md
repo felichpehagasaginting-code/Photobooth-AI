@@ -7479,3 +7479,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-13T12:08:32+07:00** - [Activity #6730] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-08-13T12:12:03+07:00** - [Activity #6731] perf(memory): dispose cached image objects after strip generation
 - **2026-08-13T13:46:27+07:00** - [Activity #6732] feat(share): generate instant QR code for mobile photo download
+- **2026-08-13T13:52:37+07:00** - [Activity #6733] docs(deploy): add production deployment instructions for Vercel/Docker
