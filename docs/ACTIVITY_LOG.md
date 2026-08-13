@@ -7487,3 +7487,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-13T14:59:25+07:00** - [Activity #6738] feat(print): integrate direct thermal printer web serial interface
 - **2026-08-13T15:05:49+07:00** - [Activity #6739] style(shutter): design circular pulsating shutter button with feedback
 - **2026-08-13T15:09:31+07:00** - [Activity #6740] refactor(api): modularize backend route handlers and validation utils
+- **2026-08-13T15:22:34+07:00** - [Activity #6741] fix(ui): correct modal z-index layering on small mobile viewports
