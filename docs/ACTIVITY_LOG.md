@@ -2665,3 +2665,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-13T10:25:42+07:00** - [Backdate #1257] chore(config): adjust tsconfig path aliases for components
 - **2026-08-13T10:41:53+07:00** - [Backdate #1258] fix(accessibility): add aria-labels to icon-only action buttons
 - **2026-08-13T10:59:35+07:00** - [Backdate #1259] perf(render): memoize grid item render function to prevent re-renders
+- **2026-08-13T11:15:29+07:00** - [Backdate #1260] style(typography): refine letter-spacing for subheadings
