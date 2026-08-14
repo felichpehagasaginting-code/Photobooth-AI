@@ -7539,3 +7539,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-14T16:51:29+07:00** - [Activity #6790] fix(auth): prevent race condition when initializing anonymous session
 - **2026-08-14T16:59:34+07:00** - [Activity #6791] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-08-14T17:23:46+07:00** - [Activity #6792] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-08-14T17:25:39+07:00** - [Activity #6793] chore(config): adjust tsconfig path aliases for cleaner imports
