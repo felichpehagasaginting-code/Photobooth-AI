@@ -2704,3 +2704,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-13T21:28:39+07:00** - [Backdate #1296] refactor: remove redundant condition checks in filter-select
 - **2026-08-14T09:00:03+07:00** - [Backdate #1297] fix: update responsive padding values for mobile screens
 - **2026-08-14T09:16:02+07:00** - [Backdate #1298] perf: implement dynamic imports for heavy components
+- **2026-08-14T09:34:25+07:00** - [Backdate #1299] style: improve font pair weighting contrast in hero display
