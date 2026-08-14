@@ -7542,3 +7542,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-14T17:25:39+07:00** - [Activity #6793] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-08-14T17:43:49+07:00** - [Activity #6794] perf(memory): dispose cached image objects after strip generation
 - **2026-08-14T19:30:32+07:00** - [Activity #6795] fix(camera): prevent stream freeze on rapid device re-plug
+- **2026-08-14T19:42:55+07:00** - [Activity #6796] perf(api): cache static filter presets with aggressive HTTP headers
