@@ -7528,3 +7528,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-14T13:55:59+07:00** - [Activity #6779] refactor(ui): extract reusable glass-panel and badge components
 - **2026-08-14T14:22:41+07:00** - [Activity #6780] perf(images): compress intermediate preview thumbnails with WebP format
 - **2026-08-14T14:28:10+07:00** - [Activity #6781] refactor(api): modularize backend route handlers and validation utils
+- **2026-08-14T14:51:48+07:00** - [Activity #6782] fix(export): handle canvas taint error when loading external assets
