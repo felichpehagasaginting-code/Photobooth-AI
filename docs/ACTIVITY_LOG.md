@@ -7526,3 +7526,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-14T12:04:22+07:00** - [Activity #6777] fix(timer): clear interval on component unmount to prevent memory leak
 - **2026-08-14T13:53:12+07:00** - [Activity #6778] refactor(state): migrate photo session state management to zustand store
 - **2026-08-14T13:55:59+07:00** - [Activity #6779] refactor(ui): extract reusable glass-panel and badge components
+- **2026-08-14T14:22:41+07:00** - [Activity #6780] perf(images): compress intermediate preview thumbnails with WebP format
