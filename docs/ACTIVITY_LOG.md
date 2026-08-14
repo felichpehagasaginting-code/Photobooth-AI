@@ -2740,3 +2740,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-14T18:55:52+07:00** - [Backdate #1332] refactor: group interface type declarations in types/index.ts
 - **2026-08-14T19:11:37+07:00** - [Backdate #1333] style: adjust border radius for card panels to match premium look
 - **2026-08-14T19:28:16+07:00** - [Backdate #1334] fix: catch rejected promise on image preloading fallback
+- **2026-08-14T19:46:14+07:00** - [Backdate #1335] docs: document environment variable configurations for firebase
