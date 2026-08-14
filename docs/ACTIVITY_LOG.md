@@ -7543,3 +7543,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-14T17:43:49+07:00** - [Activity #6794] perf(memory): dispose cached image objects after strip generation
 - **2026-08-14T19:30:32+07:00** - [Activity #6795] fix(camera): prevent stream freeze on rapid device re-plug
 - **2026-08-14T19:42:55+07:00** - [Activity #6796] perf(api): cache static filter presets with aggressive HTTP headers
+- **2026-08-14T20:02:58+07:00** - [Activity #6797] style(theme): update dark mode accent color tokens with warm tone
