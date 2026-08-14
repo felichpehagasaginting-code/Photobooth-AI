@@ -7523,3 +7523,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-14T11:21:07+07:00** - [Activity #6774] fix(storage): add fallback for local storage quota exceeded errors
 - **2026-08-14T11:40:53+07:00** - [Activity #6775] fix(touch): prevent accidental pinch-zoom gesture on kiosk screen
 - **2026-08-14T11:57:25+07:00** - [Activity #6776] refactor(types): consolidate photobooth session type definitions
+- **2026-08-14T12:04:22+07:00** - [Activity #6777] fix(timer): clear interval on component unmount to prevent memory leak
