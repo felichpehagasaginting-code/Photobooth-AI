@@ -7557,3 +7557,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-15T10:48:23+07:00** - [Activity #6808] style(photobooth): refine backdrop blur and color contrast for dark mode
 - **2026-08-15T11:20:14+07:00** - [Activity #6809] feat(photobooth): implement multi-frame collage capture sequence
 - **2026-08-15T12:00:38+07:00** - [Activity #6810] docs(arch): add architecture diagram explaining client-side filter flow
+- **2026-08-15T13:45:46+07:00** - [Activity #6811] docs(comments): add inline JSDoc comments to image processing helpers
