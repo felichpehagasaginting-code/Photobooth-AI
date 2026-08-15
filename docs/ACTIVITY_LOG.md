@@ -7559,3 +7559,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-15T12:00:38+07:00** - [Activity #6810] docs(arch): add architecture diagram explaining client-side filter flow
 - **2026-08-15T13:45:46+07:00** - [Activity #6811] docs(comments): add inline JSDoc comments to image processing helpers
 - **2026-08-15T14:15:27+07:00** - [Activity #6812] refactor(utils): streamline color conversion and hex parsing helpers
+- **2026-08-15T14:32:45+07:00** - [Activity #6813] style(theme): update dark mode accent color tokens with warm tone
