@@ -7562,3 +7562,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-15T14:32:45+07:00** - [Activity #6813] style(theme): update dark mode accent color tokens with warm tone
 - **2026-08-15T15:09:28+07:00** - [Activity #6814] chore(ci): adjust GitHub Actions caching for faster test execution
 - **2026-08-15T15:22:38+07:00** - [Activity #6815] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-08-15T15:47:07+07:00** - [Activity #6816] chore(lint): configure ESLint rules for react hooks and accessibility
