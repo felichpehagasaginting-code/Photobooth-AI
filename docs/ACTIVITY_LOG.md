@@ -7566,3 +7566,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-15T16:13:00+07:00** - [Activity #6817] docs(readme): add detailed hardware camera setup and compatibility guide
 - **2026-08-15T16:41:15+07:00** - [Activity #6818] style(controls): refine slider track and thumb sizing for touch screens
 - **2026-08-15T17:14:15+07:00** - [Activity #6819] feat(preset): allow custom framing border selection per session
+- **2026-08-15T17:27:33+07:00** - [Activity #6820] feat(ui): implement smooth countdown overlay animation before shutter
