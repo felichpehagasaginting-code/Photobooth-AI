@@ -22,3 +22,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-15 15:28:32** - [Commit #15] docs: document environment variable configurations for firebase
 - **2026-08-15 15:28:32** - [Commit #16] chore(ci): adjust cache directory for faster builds
 - **2026-08-15 15:28:32** - [Commit #17] refactor(api): simplify helper functions in transaction logic
+- **2026-08-15 15:28:36** - [Commit #29] perf: load google fonts asynchronously to optimize LCP score
