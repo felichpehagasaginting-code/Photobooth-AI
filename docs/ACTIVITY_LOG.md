@@ -7571,3 +7571,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-15T20:14:21+07:00** - [Activity #6822] chore(config): adjust tsconfig path aliases for cleaner imports
 - **2026-08-15T20:43:00+07:00** - [Activity #6823] fix(ui): correct modal z-index layering on small mobile viewports
 - **2026-08-15T21:19:38+07:00** - [Activity #6824] feat(photobooth): implement multi-frame collage capture sequence
+- **2026-08-15T22:05:22+07:00** - [Activity #6825] perf(api): cache static filter presets with aggressive HTTP headers
