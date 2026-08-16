@@ -7576,3 +7576,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-16T09:54:21+07:00** - [Activity #6827] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-08-16T10:48:29+07:00** - [Activity #6828] chore(git): add ignore rules for local session exports and temp files
 - **2026-08-16T11:30:34+07:00** - [Activity #6829] style(cards): apply subtle border gradient and elevation shadows
+- **2026-08-16T13:52:58+07:00** - [Activity #6830] refactor(events): use custom event bus for decoupled component messaging
