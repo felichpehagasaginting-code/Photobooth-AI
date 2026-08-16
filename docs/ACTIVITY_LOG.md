@@ -7575,3 +7575,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-16T09:00:24+07:00** - [Activity #6826] fix(auth): prevent race condition when initializing anonymous session
 - **2026-08-16T09:54:21+07:00** - [Activity #6827] perf(fonts): preload display typography to eliminate FOIT delay
 - **2026-08-16T10:48:29+07:00** - [Activity #6828] chore(git): add ignore rules for local session exports and temp files
+- **2026-08-16T11:30:34+07:00** - [Activity #6829] style(cards): apply subtle border gradient and elevation shadows
