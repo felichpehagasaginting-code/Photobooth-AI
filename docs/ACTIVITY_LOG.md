@@ -7580,3 +7580,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-16T14:17:42+07:00** - [Activity #6831] chore(build): optimize Vite build chunks and asset minification settings
 - **2026-08-16T15:02:48+07:00** - [Activity #6832] feat(gallery): add touch swipe navigation for captured photo previews
 - **2026-08-16T15:26:55+07:00** - [Activity #6833] refactor(styles): migrate hardcoded color values to CSS design tokens
+- **2026-08-16T16:08:20+07:00** - [Activity #6834] style(photobooth): refine backdrop blur and color contrast for dark mode
