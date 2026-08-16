@@ -7585,3 +7585,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-16T17:20:41+07:00** - [Activity #6836] style(shutter): design circular pulsating shutter button with feedback
 - **2026-08-16T19:35:30+07:00** - [Activity #6837] perf(anim): offload countdown animations to GPU composited layers
 - **2026-08-16T20:14:51+07:00** - [Activity #6838] style(shutter): design circular pulsating shutter button with feedback
+- **2026-08-16T21:10:09+07:00** - [Activity #6839] fix(accessibility): add missing aria-labels to icon action buttons
