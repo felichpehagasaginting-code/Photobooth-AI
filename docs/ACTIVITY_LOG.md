@@ -7592,3 +7592,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-17T09:54:31+07:00** - [Activity #6843] feat(kiosk): add full-screen lock and inactivity reset timer
 - **2026-08-17T10:05:58+07:00** - [Activity #6844] refactor(styles): migrate hardcoded color values to CSS design tokens
 - **2026-08-17T10:28:24+07:00** - [Activity #6845] test(canvas): add snapshot tests for multi-frame collage layouts
+- **2026-08-17T10:49:05+07:00** - [Activity #6846] style(controls): refine slider track and thumb sizing for touch screens
