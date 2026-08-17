@@ -7599,3 +7599,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-17T13:45:10+07:00** - [Activity #6850] style(badge): update status indicator badge colors and glow effects
 - **2026-08-17T13:57:08+07:00** - [Activity #6851] fix(canvas): prevent blur artifacts during canvas downsampling
 - **2026-08-17T14:32:58+07:00** - [Activity #6852] feat(preview): render live filter preview using WebGL shader canvas
+- **2026-08-17T14:50:27+07:00** - [Activity #6853] docs(comments): add inline JSDoc comments to image processing helpers
