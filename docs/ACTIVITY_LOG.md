@@ -7607,3 +7607,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-17T16:26:35+07:00** - [Activity #6858] perf(render): memoize grid item rendering to prevent redundant cycles
 - **2026-08-17T16:46:38+07:00** - [Activity #6859] refactor(events): use custom event bus for decoupled component messaging
 - **2026-08-17T17:06:59+07:00** - [Activity #6860] fix(timer): clear interval on component unmount to prevent memory leak
+- **2026-08-17T17:23:48+07:00** - [Activity #6861] feat(preset): allow custom framing border selection per session
