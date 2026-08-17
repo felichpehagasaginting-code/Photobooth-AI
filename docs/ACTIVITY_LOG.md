@@ -7597,3 +7597,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-17T11:42:22+07:00** - [Activity #6848] feat(settings): add camera device selector with resolution fallbacks
 - **2026-08-17T12:05:31+07:00** - [Activity #6849] perf(canvas): optimize canvas 2D context rendering with offscreen canvas
 - **2026-08-17T13:45:10+07:00** - [Activity #6850] style(badge): update status indicator badge colors and glow effects
+- **2026-08-17T13:57:08+07:00** - [Activity #6851] fix(canvas): prevent blur artifacts during canvas downsampling
