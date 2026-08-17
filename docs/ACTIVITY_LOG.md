@@ -7590,3 +7590,4 @@ Daily log records of minor changes, layout adjustments, mock refactorings, style
 - **2026-08-17T09:00:35+07:00** - [Activity #6841] feat(filter): introduce vintage polaroid color lookup preset
 - **2026-08-17T09:15:53+07:00** - [Activity #6842] refactor(types): consolidate photobooth session type definitions
 - **2026-08-17T09:54:31+07:00** - [Activity #6843] feat(kiosk): add full-screen lock and inactivity reset timer
+- **2026-08-17T10:05:58+07:00** - [Activity #6844] refactor(styles): migrate hardcoded color values to CSS design tokens
